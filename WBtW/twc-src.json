@@ -24,38 +24,31 @@
 			"source": "orcnogTWC",
 			"contents": [
 				{
-					"name": "Adventure Summary"
-				},
-				{
-					"name": "Background"
-				},
-				{
-					"name": "Story Hooks"
-				},
-				{
-					"name": "The Structure for Assistive Magic",
+					"name": "Adventure Summary",
 					"headers": [
-						"Motivation",
-						"Arcane Intelligence",
-						"Interference"
+						"Running the Adventure",
+						"Feywild Trinkets",
+						"Eight and Three",
+						"Beginning the Adventure",
+						"Pronounciation Guide"
 					]
 				},
 				{
-					"name": "Approaching the Workshop"
-				},
-				{
-					"name": "Workshop Features"
-				},
-				{
-					"name": "Areas of the Workshop",
+					"name": "Witchlight Carnival",
 					"headers": [
-						"1. Entryway",
-						"2. Library",
-						"3. Staff Quarters",
-						"4. Greenhouse",
-						"5. Stairs",
-						"6. Storeroom",
-						"7. Grand Workshop"
+						"Running this Chapter",
+						"Carnival Owners",
+						"Witchlight Hands",
+						"Carnival Overview",
+						"Carnival Locations",
+						"Carnival Events"
+					]
+				},
+				{
+					"name": "Fantasy Costco",
+					"headers": [
+						"Overview",
+						"What's for Sale"
 					]
 				},
 				{
@@ -66,7 +59,7 @@
 				"start": 5,
 				"end": 5
 			},
-			"published": "2021-01-01",
+			"published": "2022-01-01",
 			"storyline": "Wild Beyond The Witchlight",
 			"group": "homebrew"
 		}
@@ -79,7 +72,7 @@
 				{
 					"type": "section",
 					"name": "Adventure Summary",
-					"page": 4,
+					"page": 1,
 					"id": "001",
 					"entries": [
 						"The goal of this side quest is to present your characters with a fun distraction from their possibly violent campaigning. The Witchlight Carnival is in town, and your characters have a day (or two) to kill, so why not buy a ticket and play some carnival games? The reward for completing enough of the objectives throughout the carnival is a chance for the adventurers to visit a fantastical magic shop, stocked with all manner of spell scrolls and magic items that may help the adventurers on their quests.",
@@ -87,7 +80,7 @@
 						{
 							"type": "section",
 							"name": "Running the Adventure",
-							"page": 5,
+							"page": 1,
 							"id": "004",
 							"entries": [
 								"To run the adventure, you need the fifth edition core rulebooks ({@book Player's Handbook|PHB}, {@book Dungeon Master's Guide|DMG}, and {@book Monster Manual|MM}).",
@@ -103,7 +96,7 @@
 						{
 							"type": "section",
 							"name": "Feywild Trinkets",
-							"page": 7,
+							"page": 1,
 							"id": "01a",
 							"entries": [
 								"The {@item Feywild Trinket|WBtW|Feywild Trinkets} table that follows offers a selection of trinkets appropriate for Feywild-themed adventures such as this one. Players whose characters have the {@background feylost|WBtW} or {@background Witchlight hand|WBtW} background can roll on this table instead of the {@book Trinkets|PHB|5|Trinkets} table in the {@book Player's Handbook|PHB} to determine what trinkets their characters possess. The adventure includes a few encounters that require you to roll on the table to determine what random trinkets the characters find in key locations."
@@ -112,7 +105,7 @@
 						{
 							"type": "inset",
 							"name": "Eight and Three",
-							"page": 5,
+							"page": 1,
 							"id": "008",
 							"entries": [
 								"As you run {@i The Wild Beyond the Witchlight}, look for ways to bring the numbers eight and three to the fore. For example, characters who take a long rest in the fey domain of Prismeer might, without fail, be awakened by three songbirds at the end of the eighth hour.",
@@ -122,6 +115,7 @@
 						},
 						{
 							"type": "image",
+							"page": 1,
 							"href": {
 								"type": "internal",
 								"path": "adventure/WBtW/007-00-008.png"
@@ -133,14 +127,14 @@
 						{
 							"type": "section",
 							"name": "Beginning the Adventure",
-							"page": 15,
+							"page": 2,
 							"id": "045",
 							"entries": [
 								"How the characters become embroiled in the adventure depends on what type of hook you choose to use to pull them into it. Choose either the \"Warlock's Quest\" adventure hook, detailed below, or a custom plot hook. It can be as simple as \"the carnival is in town, and everyone in the village is excited to attend... and you've got some time to kill before the next leg of your adventure!\"",
 								{
 									"type": "entries",
 									"name": "Warlock's Quest",
-									"page": 18,
+									"page": 2,
 									"id": "054",
 									"entries": [
 										"Use this hook if you or your players don't like the idea of the characters having to find things that they lost as children and would prefer a more traditional adventure setup. This hook requires that one or more characters have backgrounds unconnected to the Witchlight Carnival.",
@@ -150,7 +144,7 @@
 										{
 											"type": "inset",
 											"name": "Warlocks of the Archfey",
-											"page": 18,
+											"page": 2,
 											"id": "055",
 											"entries": [
 												"If the adventuring party includes a warlock whose otherworldly patron is the Archfey, consider allowing that character's player to choose Zybilna as the warlock's patron. Warlocks who make pacts with Zybilna regard her as a generous, fairy godmother-like figure."
@@ -159,7 +153,7 @@
 										{
 											"type": "entries",
 											"name": "Setting the Stage",
-											"page": 18,
+											"page": 2,
 											"id": "056",
 											"entries": [
 												"Identify which players have chosen the Witchlight hand background for their characters, then separate those players from the rest of the group\u2014for now. They will join the others once everyone has gathered at the Witchlight Carnival.",
@@ -192,7 +186,7 @@
 										{
 											"type": "entries",
 											"name": "What Madryck Knows",
-											"page": 19,
+											"page": 2,
 											"id": "058",
 											"entries": [
 												"If the characters request more information about the Witchlight Carnival, Madryck says that he hasn't visited the carnival in sixty-four years and admits that a lot can change in that time. He advises the characters to explore the carnival thoroughly on their own. He doesn't presume to know what form the fey crossing currently takes or how well hidden and protected it is. He does provide the following reliable information:",
@@ -275,7 +269,7 @@
 										{
 											"type": "entries",
 											"name": "To the Carnival",
-											"page": 20,
+											"page": 3,
 											"id": "059",
 											"entries": [
 												"Characters who accept Madryck's quest can make the uneventful trek to the carnival, which is located not too far from a settlement of your choosing. The characters arrive shortly before twilight. When they arrive, lay out the poster map of the carnival for the players to see."
@@ -284,7 +278,7 @@
 										{
 											"type": "entries",
 											"name": "Madryck's Treasure",
-											"page": 20,
+											"page": 3,
 											"id": "05b",
 											"entries": [
 												"Madryck keeps the treasure from his adventuring days in a locked wooden chest that is buried in a secret location far from his modest dwelling. He carries the chest's only key, the head of which is made of stained glass and shaped like a violet faerie dragon.",
@@ -347,7 +341,7 @@
 						{
 							"type": "section",
 							"name": "Pronunciation Guide",
-							"page": 21,
+							"page": 3,
 							"id": "05f",
 							"entries": [
 								"The Pronunciations table shows how to pronounce many of the unusual names that appear in this adventure.",
@@ -464,7 +458,7 @@
 				{
 					"type": "section",
 					"name": "Witchlight Carnival",
-					"page": 23,
+					"page": 4,
 					"id": "060",
 					"entries": [
 						"The Witchlight Carnival is a fairground of kaleidoscopic tents and wagons crewed by wondrous beings, including many denizens of the Feywild. This is no ordinary carnival; it uses magic to travel from world to world across the Material Plane, visiting each world once every eight years and setting up business on the outskirts of populated areas. The carnival spends a few days at each location, then packs up and moves to another location on the same world until the decision is made to leave that world and visit the next. The carnival includes a fey crossing, allowing travel to and from the Feywild domain of Prismeer.",
@@ -482,7 +476,7 @@
 						{
 							"type": "section",
 							"name": "Running This Chapter",
-							"page": 23,
+							"page": 4,
 							"id": "061",
 							"entries": [
 								"Before running the Witchlight Carnival, follow the steps below to help make the experience smoother:",
@@ -498,7 +492,7 @@
 								{
 									"type": "entries",
 									"name": "Mysterious Benefactor",
-									"page": 23,
+									"page": 4,
 									"id": "062",
 									"entries": [
 										"The characters have an ally in the carnival: a planeswalking gnome bard named Ellywick Tumblestrum. The characters don't know Tumblestrum, but she knows them because her lute has magic strings that whisper secrets to her as she plucks them. These strings guided the gnome bard to the carnival and revealed to Tumblestrum that the characters' fates are intertwined with the fate of Prismeer. She has bought a ticket for each character who isn't a carnival employee. (The tickets are waiting at the ticket booth by the entrance.)",
@@ -508,7 +502,7 @@
 								{
 									"type": "entries",
 									"name": "Carnival Map",
-									"page": 23,
+									"page": 5,
 									"id": "063",
 									"entries": [
 										"On the poster map of the carnival, use a miniature figure or some other token to mark where each character is located at any given time. If the characters split up, the tokens will make it easier to keep track of everyone.",
@@ -516,7 +510,7 @@
 										{
 											"type": "entries",
 											"name": "Tracking Time",
-											"page": 23,
+											"page": 6,
 											"id": "064",
 											"entries": [
 												"The Witchlight Carnival opens at dusk and runs for eight hours, ending just before dawn. When the characters enter the carnival, place a {@dice d8} at the start of the track in the upper left corner of the poster map with the \"1\" facing up. Move the die to the next space at the end of each in-game hour, and turn the die so that its uppermost face shows the hour that is now beginning. Don't worry about managing things down to the minute. If the players (and their characters) seem to be having fun, you can slow down the passage of time to give them time to enjoy the carnival's attractions. If the game starts to lag or if the characters spend a lot of time engaged in the same activity, advance the die to the next hour.",
@@ -548,7 +542,7 @@
 										{
 											"type": "entries",
 											"name": "Tracking Mood",
-											"page": 23,
+											"page": 6,
 											"id": "065",
 											"entries": [
 												"The characters' actions in the Witchlight Carnival can affect the overall mood at the carnival. When the characters arrive at the carnival, place a token in the starting space of the track in the lower right corner of the poster map. This token moves right or left along the track as the carnival's atmosphere changes for better or worse.",
@@ -573,7 +567,7 @@
 						{
 							"type": "section",
 							"name": "Carnival Owners",
-							"page": 24,
+							"page": 6,
 							"id": "067",
 							"entries": [
 								"The owners of the Witchlight Carnival are a pair of shadar-kai (elves native to the Shadowfell) named {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW}. Witch is matter-of-fact and devoid of pretense, while Light is flamboyant and coy.",
@@ -584,7 +578,7 @@
 								{
 									"type": "entries",
 									"name": "Mister Witch",
-									"page": 24,
+									"page": 6,
 									"id": "068",
 									"entries": [
 										"Witch, who used to go by the name Naeryx Krumple, spent his youth as a homeless orphan, eking out a meager and dreary existence on the fog-shrouded streets of Gloomwrought, a city in the Shadowfell. He earned a few coppers selling broadsheets as a young boy, then later swept floors until an old clock tower keeper took him on as a helper. The tower's clock was in such poor condition that it would break down often. Naeryx helped with the repairs and found that the work gave him a sliver of joy. When the old keeper died years later, Naeryx replaced him.",
@@ -592,7 +586,7 @@
 										{
 											"type": "entries",
 											"name": "Mister Witch's Description",
-											"page": 24,
+											"page": 6,
 											"id": "069",
 											"entries": [
 												"{@creature Mister Witch|WBtW} looks like a distinguished gentleman, for he is always dressed in fine attire. His favorite accoutrements are a top hat and a cane, and he is never without his {@item Witchlight watch|WBtW}, which was gifted to him by the carnival's previous owner. This unique magic item is described below.",
@@ -613,7 +607,7 @@
 								{
 									"type": "entries",
 									"name": "Mister Light",
-									"page": 26,
+									"page": 6,
 									"id": "06d",
 									"entries": [
 										"Light, formerly known as Urmius Umbrage, belonged to a filthy rich shadar-kai family that haunted a crumbling mansion in Gloomwrought. Although he wanted for nothing as a child, Urmius found himself surrounded by family members, caretakers, and teachers who were uniformly cold, callous, and mean-spirited. He grew tired of being seen as nothing more than the inheritor of the Umbrage estate and legacy, and he did everything in his power to make life miserable for everyone around him, especially his parents. He seemed bereft of ambition and spent much of his time playing in his room. He collected costumes and liked nothing more than to parade around Umbrage Mansion in strange garments and outlandish makeup.",
@@ -631,7 +625,7 @@
 										{
 											"type": "entries",
 											"name": "Mister Light's Description",
-											"page": 27,
+											"page": 6,
 											"id": "06e",
 											"entries": [
 												"{@creature Mister Light|WBtW} has a slender frame. He is always dressed in some sort of costume and is rarely seen in public without makeup. He carries around a fancy weather vane given to him by the carnival's previous owner. He twirls it and waves it around like a fool's scepter, but its power is far greater than he lets on. With this magic vane, he can affect the mood of everyone in the Witchlight Carnival."
@@ -644,7 +638,7 @@
 						{
 							"type": "section",
 							"name": "Witchlight Hands",
-							"page": 27,
+							"page": 7,
 							"id": "074",
 							"entries": [
 								"{@creature Witchlight Hand (Medium)|WBtW|Witchlight hands} are the backbone of the Witchlight Carnival, a motley collection of individuals who operate many of the booths, make repairs, feed and exercise the animals, keep an eye out for thieves and other miscreants, and perform other miscellaneous tasks as {@creature Mister Witch|WBtW} dictates. A few also work part-time as performers and attractions. Although they travel to many worlds throughout the Material Plane, Witchlight hands rarely leave the carnival grounds. The carnival is the only world they know and care about.",
