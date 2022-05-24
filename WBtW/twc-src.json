@@ -82,8 +82,8 @@
 					"page": 4,
 					"id": "001",
 					"entries": [
-						"The main antagonists of this story are three hags who collectively form the Hourglass Coven, which is described in {@area appendix B|44e|x}. These hags are the adoptive sisters of Iggwilv, a powerful figure from D&D's past and a key player in the adventure's unfolding drama. Using an artifact called {@item Iggwilv's Cauldron|WBtW}, the hags have trapped an archfey named Zybilna in temporal stasis and carved up her fey domain among them. This domain is called Prismeer. To enter it, the characters must first visit the Witchlight Carnival, which travels across the Material Plane and appears on the characters' world once every eight years. The carnival owners are a pair of shadar-kai (elves native to the Shadowfell) named {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW}, who can help or hinder the characters' efforts to reach Prismeer.",
-						"One of the many novelties of this adventure is that the characters can accomplish their goals without resorting to violence\u2014but only if they're clever. They can fight their way through the adventure as well, but the odds won't always be in their favor.",
+						"The goal of this side quest is to present your characters with a fun distraction from their possibly violent campaigning. The Witchlight Carnival is in town, and your characters have a day (or two) to kill, so why not buy a ticket and play some carnival games? The reward for completing enough of the objectives throughout the carnival is a chance for the adventurers to visit a fantastical magic shop, stocked with all manner of spell scrolls and magic items that may help the adventurers on their quests.",
+						"To enter the Fantasy Costco, the characters must first visit the carnival, which travels across the Material Plane and appears on the characters' world once every eight years. The carnival owners are a pair of shadar-kai (elves native to the Shadowfell) named {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW}, who can help or hinder the characters' efforts to reach Prismeer.",
 						{
 							"type": "section",
 							"name": "Running the Adventure",
@@ -97,17 +97,6 @@
 									"entries": [
 										"Text that appears in a box like this is meant to be read aloud or paraphrased for the players when their characters first arrive at a location or under a specific circumstance, as described in the text."
 									]
-								},
-								{
-									"type": "inset",
-									"name": "Eight and Three",
-									"page": 5,
-									"id": "008",
-									"entries": [
-										"As you run {@i The Wild Beyond the Witchlight}, look for ways to bring the numbers eight and three to the fore. For example, characters who take a long rest in the fey domain of Prismeer might, without fail, be awakened by three songbirds at the end of the eighth hour.",
-										"The number eight is symbolically important, as this adventure plays with the themes of time and nostalgia. The numeral 8 resembles an hourglass, which measures the passage of time, and looks like the symbol for infinity (∞) turned on its side. Hidden within the numeral 8 itself is the numeral 3. In the D&D multiverse, there exists the Rule of Three, which states that events of cosmic consequence often manifest in threes. Time, for instance, has a past, present, and future. The Hourglass Coven has three members. The fey domain of Prismeer is divided into three splinter-realms, which adventurers explore with the help of three guides.",
-										"Hidden within the adventure are numerous other mentions of the numbers eight and three. Can you find them all?"
-									]
 								}
 							]
 						},
@@ -118,6 +107,17 @@
 							"id": "01a",
 							"entries": [
 								"The {@item Feywild Trinket|WBtW|Feywild Trinkets} table that follows offers a selection of trinkets appropriate for Feywild-themed adventures such as this one. Players whose characters have the {@background feylost|WBtW} or {@background Witchlight hand|WBtW} background can roll on this table instead of the {@book Trinkets|PHB|5|Trinkets} table in the {@book Player's Handbook|PHB} to determine what trinkets their characters possess. The adventure includes a few encounters that require you to roll on the table to determine what random trinkets the characters find in key locations."
+							]
+						},
+						{
+							"type": "inset",
+							"name": "Eight and Three",
+							"page": 5,
+							"id": "008",
+							"entries": [
+								"As you run {@i The Wild Beyond the Witchlight}, look for ways to bring the numbers eight and three to the fore. For example, characters who take a long rest in the fey domain of Prismeer might, without fail, be awakened by three songbirds at the end of the eighth hour.",
+								"The number eight is symbolically important, as this adventure plays with the themes of time and nostalgia. The numeral 8 resembles an hourglass, which measures the passage of time, and looks like the symbol for infinity (∞) turned on its side. Hidden within the numeral 8 itself is the numeral 3. In the D&D multiverse, there exists the Rule of Three, which states that events of cosmic consequence often manifest in threes. Time, for instance, has a past, present, and future. The Hourglass Coven has three members. The fey domain of Prismeer is divided into three splinter-realms, which adventurers explore with the help of three guides.",
+								"Hidden within the adventure are numerous other mentions of the numbers eight and three. Can you find them all?"
 							]
 						},
 						{
@@ -136,255 +136,7 @@
 							"page": 15,
 							"id": "045",
 							"entries": [
-								"How the characters become embroiled in the adventure depends on which hook you use to pull them into it. Choose either the \"Lost Things\" or \"Warlock's Quest\" adventure hook. Both hooks assume that all the characters come from the same world, even if they don't have a history together.",
-								"The adventure also assumes that the characters (even ones with the Witchlight hand background) have no prior knowledge of Zybilna, the Feywild domain of Prismeer, or the Hourglass Coven. None of these names should be familiar to them at the outset.",
-								{
-									"type": "entries",
-									"name": "Lost Things",
-									"page": 15,
-									"id": "046",
-									"entries": [
-										"Use this adventure hook if you want the characters to have a strong personal investment in the story. Choose a settlement in the characters' world near which the Witchlight Carnival will appear.",
-										"Each character in the adventuring party visited the Witchlight Carnival when they were a child\u2014in fact, they snuck in without buying a ticket\u2014and had something stolen from them. Fate brings the characters together as adults, united by the common goal of retrieving that which they've lost.",
-										"The adventure begins shortly after the Witchlight Carnival returns to the characters' world for the first time in eight years. One or more characters might be Witchlight hands or troubadours who have spent years traveling with the carnival; the remaining party members are assumed to be visitors who remember the carnival from childhood. It's possible for certain characters to know each other, either because they work together at the carnival or because they're from the same settlement.",
-										"Retrieving their lost things will require the characters to explore the Feywild regions of Hither, Thither, and Yon (described in {@adventure chapters 2|WBtW|2}, {@adventure 3|WBtW|3} and {@adventure 4|WBtW|4}) and contend with the hags of the Hourglass Coven. The characters might be tempted to visit the Palace of Heart's Desire as well (see {@adventure chapter 5|WBtW|5}), but they can avoid this location and still accomplish their goals.",
-										{
-											"type": "entries",
-											"name": "Setting the Stage",
-											"page": 16,
-											"id": "047",
-											"entries": [
-												"After the players create their characters, use the following boxed text to kick off the adventure:",
-												{
-													"type": "insetReadaloud",
-													"id": "048",
-													"entries": [
-														"The traveling extravaganza known as the Witchlight Carnival visits your world once every eight years. You have a dim memory of sneaking into the carnival as a child without paying for a ticket. That memory has grown foggy over time, though it still conjures a weird admixture of emotions\u2014wonder and awe mixed with loss and regret. During this childhood visit, your character lost something. You tried to find it, but the carnival owners\u2014a pair of elves named {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW}\u2014were decidedly unhelpful.",
-														"\"Silly little screeching cricket,\" said Witch. \"You forgot to buy a ticket.\"",
-														"\"The carnival goes round and round,\" said Light. \"The multiverse is our playground. Nothing's free and nothing's lost. Every visit has its cost.\"",
-														"As time passed, your heart became less heavy, and you gave less and less thought to those childhood events. Now, for reasons you can't explain, the longing to retrieve that which you have lost has resurfaced, as though an old spell has faded away, allowing you to feel the loss as sharply as if it happened yesterday.",
-														"The Witchlight Carnival has returned, and you find yourself standing near a ticket booth by the entrance at twilight, just as the carnival is about to open. There you meet others who look as troubled as you. Without knowing how or why, you sense that each of them has lost something as well. Perhaps fate has brought you together."
-													]
-												},
-												"Work with the players to establish what connections, if any, the characters have with each other. For example, some or all of the characters might hail from a nearby village and have known each other for years.",
-												"Characters who have the {@background Witchlight hand|WBtW} background would also know each other, since they worked together prior to the start of the adventure. They, too, are standing outside the carnival when the adventure begins.",
-												"If you haven't done so already, lay out the poster map of the Witchlight Carnival for the players to see."
-											]
-										},
-										{
-											"type": "entries",
-											"name": "Determining What Was Lost",
-											"page": 16,
-											"id": "049",
-											"entries": [
-												"Each character, having lost something precious as a child, is unable to gain {@book inspiration|PHB|4|inspiration} (as described in the {@book Player's Handbook|PHB}) until they get back what was taken from them. A {@spell remove curse} spell is not powerful enough to end this effect on a character, but a {@spell wish} spell can. This might not seem like much of a drawback, as characters can cope just fine without ever gaining inspiration. Think of it more as a splinter under one's fingernail\u2014a nagging, mildly painful annoyance that slightly diminishes one's happiness. (Hags, by their cruel actions, can spread aggravation and misery throughout the multiverse in all sorts of ways.)",
-												"The players don't know it yet, but the Witchlight Carnival operates under a peculiar set of rules. By entering the carnival without tickets as children, the characters inadvertently set themselves up to be robbed. Whatever thing was taken from each character as a child vanished suddenly while that character was distracted by the magic of the carnival. All such thefts can be traced back to the hags of Prismeer, who use thieves to acquire and collect all manner of strange things and to whom the carnival owners are beholden.",
-												"For each character in the adventuring party, roll a {@dice d8} and consult the Lost Things table to determine what was stolen from that character. If a player doesn't like their result, let them choose an option they prefer. You can swap out some of the entries on the Lost Things table with others that you or your players create, using the ones described below as models.",
-												"Use the adventure's {@adventure Story Tracker|WBtW|11} to record what each character has lost.",
-												{
-													"type": "table",
-													"caption": "Lost Things",
-													"colLabels": [
-														"d8",
-														"Thing"
-													],
-													"colStyles": [
-														"col-2 text-center",
-														"col-10"
-													],
-													"rows": [
-														[
-															"1",
-															"Ability to keep secrets"
-														],
-														[
-															"2",
-															"Ability to smile"
-														],
-														[
-															"3",
-															"Artistic creativity"
-														],
-														[
-															"4",
-															"Cherished doll or stuffed animal"
-														],
-														[
-															"5",
-															"Handwriting"
-														],
-														[
-															"6",
-															"Sense of direction"
-														],
-														[
-															"7",
-															"Sense of fashion"
-														],
-														[
-															"8",
-															"Three inches of height"
-														]
-													]
-												},
-												"The hags used each character's lost thing to craft a magic item. By interacting with the magic item in a specific way (as described below), the character regains what they lost. The magic item otherwise functions normally.",
-												{
-													"type": "entries",
-													"name": "Ability to Keep Secrets",
-													"page": 16,
-													"id": "04a",
-													"entries": [
-														"The character is unable to keep a secret. The hag who claimed this prize has since used it to create a {@item wand of secrets}. The character regains the ability to keep secrets by holding this wand for the first time."
-													]
-												},
-												{
-													"type": "entries",
-													"name": "Ability to Smile",
-													"page": 16,
-													"id": "04b",
-													"entries": [
-														"The character suffering from this loss is unable to smile. The hag who claimed this prize has since used it to create a {@item wand of smiles|XGE} (see {@adventure appendix A|WBtW|6}). The character regains the ability to smile by holding this wand for the first time."
-													]
-												},
-												{
-													"type": "entries",
-													"name": "Artistic Creativity",
-													"page": 17,
-													"id": "04c",
-													"entries": [
-														"The character suffering from this loss lacks the ability to be creative in one or more artistic pursuits. For example, they might be unable to draw, paint, or compose original music. The hag who claimed this prize has since used it to create a {@item pipe of smoke monsters|XGE} (see {@adventure appendix A|WBtW|6}). The character regains their creativity by puffing on the pipe for the first time."
-													]
-												},
-												{
-													"type": "entries",
-													"name": "Cherished Doll or Stuffed Animal",
-													"page": 17,
-													"id": "04d",
-													"entries": [
-														"The character lost a doll or stuffed animal (player's choice). The hag who claimed this prize has since turned it into a {@item talking doll|XGE} (see {@adventure appendix A|WBtW|6}) or a stuffed animal with similar properties."
-													]
-												},
-												{
-													"type": "entries",
-													"name": "Handwriting",
-													"page": 17,
-													"id": "04e",
-													"entries": [
-														"To all other creatures, the character's handwriting is illegible and requires a {@spell comprehend languages} spell or similar magic to decipher. The hag who claimed this prize has since used it to create an {@item instrument of scribing|XGE} (see {@adventure appendix A|WBtW|6}). The DM chooses the kind of instrument. When the character plays this instrument for the first time, their handwriting becomes legible.",
-														{
-															"type": "image",
-															"href": {
-																"type": "internal",
-																"path": "adventure/WBtW/008-00-009.adventurer.png"
-															},
-															"title": "An Adventurer with No Fashion Sense",
-															"width": 850,
-															"height": 1058
-														}
-													]
-												},
-												{
-													"type": "entries",
-													"name": "Sense of Direction",
-													"page": 17,
-													"id": "04f",
-													"entries": [
-														"The character suffering from this loss has trouble figuring out which way is north and where they are geographically. The hag who claimed this prize has since used it to create an {@item orb of direction|XGE} (see {@adventure appendix A|WBtW|6}). The character regains their sense of direction by holding this orb for the first time."
-													]
-												},
-												{
-													"type": "entries",
-													"name": "Sense of Fashion",
-													"page": 17,
-													"id": "050",
-													"entries": [
-														"The character suffering from this loss has no fashion sense. The hag who claimed this prize has since used it to create a {@item cloak of many fashions|XGE} (see {@adventure appendix A|WBtW|6}). The character regains their lost sense of fashion by donning this cloak for the first time."
-													]
-												},
-												{
-													"type": "entries",
-													"name": "Three Inches of Height",
-													"page": 17,
-													"id": "051",
-													"entries": [
-														"The character suffering from this loss knows they are shorter than they ought to be. The hag who claimed this prize has since used it to create a {@item pole of collapsing|XGE} (see {@adventure appendix A|WBtW|6}). The character grows three inches in height by holding this pole for the first time."
-													]
-												}
-											]
-										},
-										{
-											"type": "entries",
-											"name": "Keepers of Lost Things",
-											"page": 17,
-											"id": "052",
-											"entries": [
-												"Once you know what has been stolen from a character, roll on the Keepers of Lost Things table to determine which hag has the thing in question. Use the adventure's {@adventure Story Tracker|WBtW|11} to record this information.",
-												{
-													"type": "table",
-													"caption": "Keepers of Lost Things",
-													"colLabels": [
-														"d8",
-														"Hag"
-													],
-													"colStyles": [
-														"col-2 text-center",
-														"col-10"
-													],
-													"rows": [
-														[
-															"1\u20133",
-															"{@creature Bavlorna Blightstraw|WBtW}"
-														],
-														[
-															"4\u20136",
-															"{@creature Skabatha Nightshade|WBtW}"
-														],
-														[
-															"7\u20138",
-															"{@creature Endelyn Moongrave|WBtW}"
-														]
-													]
-												}
-											]
-										},
-										{
-											"type": "entries",
-											"name": "Minor Curses",
-											"page": 17,
-											"id": "053",
-											"entries": [
-												"At your discretion, each character who lost something as a child might carry a minor curse as well. Unlike the inability to gain inspiration, this minor curse can be lifted with a {@spell remove curse} spell or similar magic. The nature of the minor curse affecting each character depends on which hag took what the character lost. After rolling on the Keepers of Lost Things table for each character, consult the Minor Curses table to determine what minor curse besets that character.",
-												"Use the adventure's {@adventure Story Tracker|WBtW|11} to record this information, then ask each player to also be mindful of their character's minor curse.",
-												{
-													"type": "table",
-													"caption": "Minor Curses",
-													"colLabels": [
-														"Hag",
-														"Curse"
-													],
-													"colStyles": [
-														"col-2",
-														"col-10"
-													],
-													"rows": [
-														[
-															"Bavlorna",
-															"You can't light nonmagical fires."
-														],
-														[
-															"Skabatha",
-															"You can't tie or untie a nonmagical rope."
-														],
-														[
-															"Endelyn",
-															"You can't open a door without knocking on it first."
-														]
-													]
-												}
-											]
-										}
-									]
-								},
+								"How the characters become embroiled in the adventure depends on what type of hook you choose to use to pull them into it. Choose either the \"Warlock's Quest\" adventure hook, detailed below, or a custom plot hook. It can be as simple as \"the carnival is in town, and everyone in the village is excited to attend... and you've got some time to kill before the next leg of your adventure!\"",
 								{
 									"type": "entries",
 									"name": "Warlock's Quest",
@@ -527,16 +279,6 @@
 											"id": "059",
 											"entries": [
 												"Characters who accept Madryck's quest can make the uneventful trek to the carnival, which is located not too far from a settlement of your choosing. The characters arrive shortly before twilight. When they arrive, lay out the poster map of the carnival for the players to see.",
-												"After revealing the map, read the following boxed text to any players whose characters have the Witchlight hand background (or skip it if no character meets this criterion):",
-												{
-													"type": "insetReadaloud",
-													"id": "05a",
-													"entries": [
-														"Three days ago, you were approached by a friendly faerie dragon in the service of a human warlock named Madryck Roslof. This faerie dragon foretold the arrival of adventurers seeking a path to the Feywild through the carnival. Although you've heard that the carnival contains a fey crossing, you've never gone to the trouble of finding it. The faerie dragon thought you might want to help these adventurers. It even went so far as to imply that the fate of the Witchlight Carnival might hinge on the success of their endeavors.",
-														"As twilight draws near, a large crowd begins to gather outside, eager to buy tickets and enjoy the carnival's many attractions. As you gaze upon the crowd, one or more visitors catch your eye. Something about them suggests they're not the usual rabble."
-													]
-												},
-												"Allow the characters who have the Witchlight hand background to interact as they see fit with the characters who met with Madryck Roslof. These interactions can occur before or after the carnival opens its gates to visitors."
 											]
 										},
 										{
@@ -564,7 +306,7 @@
 													"page": 21,
 													"id": "05c",
 													"entries": [
-														"This letter is stamped with the official wax seal of a fairly large settlement (choose an appropriate town or city that exists in your campaign world). It reads, \"The bearer of this letter is entitled to a favor in exchange for services, previously rendered, of a heroic nature.\" This letter can be presented to the settlement's leader or leaders, who would then grant the letter's bearer a favor. This favor can take the form of free room and board for up to a year, the gift of a small estate or parcel of land, an audience with someone of great influence (such as a king or queen), or some other benefit of your choosing."
+														"This letter is stamped with the official wax seal of a fairly large settlement or a faction (choose an appropriate town or city that exists in your campaign world, or a faction to which one or more of your characters belong). It reads, \"The bearer of this letter is entitled to a favor in exchange for services, previously rendered, of a heroic nature.\" This letter can be presented to the settlement's/faction's leader or leaders, who would then grant the letter's bearer a favor. This favor can take the form of free room and board for up to a year, the gift of a small estate or parcel of land, an audience with someone of great influence (such as a king or queen), or some other benefit of your choosing."
 													]
 												},
 												{
