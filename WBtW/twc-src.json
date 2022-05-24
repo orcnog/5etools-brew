@@ -2299,7 +2299,7 @@
 													"width": 850,
 													"height": 1368
 												},
-												"If the characters disturb Witch and Light in their wagon without being invited, jump ahead to the \"{@area Meeting Witch and Light|0dd|x}\" encounter described later in the chapter, skipping over the lead-in with Burly and Thaco.",
+												"If the characters disturb Witch and Light in their wagon without being invited, jump ahead to the \"{@area Inside the Wagon|0e0|x}\" encounter described later in the chapter, skipping over the lead-in with Burly and Thaco.",
 												{
 													"type": "entries",
 													"name": "Searching the Wagon",
@@ -2536,17 +2536,6 @@
 															]
 														}
 													]
-												},
-												"If one of the characters becomes the Witchlight Monarch, note this fact on the {@adventure Story Tracker|WBtW|11}. Even after the charm wears off, a character retains the title of Witchlight Monarch forever, and this title bears great weight in Prismeer. Fey creatures in the domain will not attack a Witchlight Monarch unless the monarch attacks them first. Moreover, Fey creatures in Prismeer treat a Witchlight Monarch with great reverence, addressing the character as \"Your Majesty\" or \"Your Highness.\" The characters don't become aware of these benefits until they arrive in Prismeer and interact with its inhabitants.",
-												{
-													"type": "image",
-													"href": {
-														"type": "internal",
-														"path": "adventure/WBtW/034-01-018.the-feywild-awaits.png"
-													},
-													"title": "The Feywild awaits!",
-													"width": 1700,
-													"height": 1117
 												}
 											]
 										}
@@ -2633,6 +2622,16 @@
 											"page": 55,
 											"id": "0fa",
 											"entries": [
+												{
+													"type": "image",
+													"href": {
+														"type": "internal",
+														"path": "adventure/WBtW/034-01-018.the-feywild-awaits.png"
+													},
+													"title": "The Feywild awaits!",
+													"width": 1700,
+													"height": 1117
+												},
 												"When a character recites Witch's rhyme while standing in front of their present-day reflection in the Hall of Illusions, read:",
 												{
 													"type": "insetReadaloud",
