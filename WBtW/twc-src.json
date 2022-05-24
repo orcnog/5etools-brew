@@ -2622,16 +2622,6 @@
 											"page": 55,
 											"id": "0fa",
 											"entries": [
-												{
-													"type": "image",
-													"href": {
-														"type": "internal",
-														"path": "adventure/WBtW/034-01-018.the-feywild-awaits.png"
-													},
-													"title": "The Feywild awaits!",
-													"width": 1700,
-													"height": 1117
-												},
 												"When a character recites Witch's rhyme while standing in front of their present-day reflection in the Hall of Illusions, read:",
 												{
 													"type": "insetReadaloud",
@@ -2639,6 +2629,16 @@
 													"entries": [
 														"Mist swirls in the mirror, blotting out your reflection."
 													]
+												},
+												{
+													"type": "image",
+													"href": {
+														"type": "internal",
+														"path": "adventure/WBtW/034-01-018.the-feywild-awaits.png"
+													},
+													"title": "Fantasy Costco awaits!",
+													"width": 1700,
+													"height": 1117
 												},
 												"Any creature that touches the surface of the misty mirror is pulled through it and deposited in Fantasy Costco. If a character tries to take either the {@item Witchlight watch|WBtW} or the {@item Witchlight vane|WBtW} through the mirror, the item drops to the floor as the character crosses the threshold. Neither item can be taken into the pocket dimension.",
 												"If {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} are both present, they wait until only one character remains and then impart the following information to that character:",
