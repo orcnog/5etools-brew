@@ -2334,121 +2334,6 @@
 								"This section describes special events that occur during the characters' visit to the carnival.",
 								{
 									"type": "entries",
-									"name": "Meeting Witch and Light",
-									"page": 49,
-									"id": "0dd",
-									"entries": [
-										"The characters receive an invitation to meet privately with {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} when the carnival's mood reaches either end of the track (see \"{@area Tracking Mood|065|x}\" earlier in the chapter) or if the characters impress {@creature Mister Light|WBtW} during the Big Top Extravaganza (see \"{@area Timed Events|0eb|x}\" later in the chapter).",
-										"Witch and Light send Burly the {@creature bugbear} (neutral good) to fetch the characters:",
-										{
-											"type": "insetReadaloud",
-											"id": "0de",
-											"entries": [
-												"A bugbear wearing dungarees, fairy wings, and a helmet made from a jack-o'-lantern approaches you. \"Follow me,\" he growls. \"Management wants to see you.\""
-											]
-										},
-										"With a wave of his hand, Burly creates an opening in the wall of thorns that surrounds the staff wagons (see \"Staff Area\" above) and leads the characters through it. If questioned about the nature of the meeting, Burly insists there's nothing to worry about. If the carnival's mood is good, he adds that his bosses are in high spirits. Appendix D contains additional roleplaying notes for Burly.",
-										"If the characters follow Burly, read:",
-										{
-											"type": "insetReadaloud",
-											"id": "0df",
-											"entries": [
-												"The bugbear leads you to a circle of wagons. Leaning against a particularly ostentatious wagon is an aging clown with a painted grin. He puffs on a bubble pipe and glares at you as the bugbear, ignoring the clown, opens the wagon's door and ushers you inside."
-											]
-										},
-										"The clown is Thaco, a human {@creature Witchlight Hand (Medium)|WBtW|Witchlight hand} (chaotic neutral; see the stat block earlier in the chapter) and over-the-hill carnival attraction. {@adventure Appendix D|WBtW|9} contains additional roleplaying notes for Thaco.",
-										{
-											"type": "image",
-											"href": {
-												"type": "internal",
-												"path": "adventure/WBtW/032-01-017.witch-and-light.png"
-											},
-											"title": "{@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} don't like strangers eavesdropping on their private conversations",
-											"width": 1700,
-											"height": 1088
-										},
-										{
-											"type": "entries",
-											"name": "Inside the Wagon",
-											"page": 50,
-											"id": "0e0",
-											"entries": [
-												{
-													"type": "insetReadaloud",
-													"id": "0e1",
-													"entries": [
-														"A flamboyant elf grins from ear to ear as he welcomes you into the wagon with a theatrical bow. \"Please come in, it's a delight to meet you all! I am {@creature Mister Light|WBtW}, and this is my associate, {@creature Mister Witch|WBtW}.\"",
-														"He gestures to a stocky elf lounging on a bunk. {@creature Mister Witch|WBtW} nods to you and doffs his top hat."
-													]
-												},
-												"Stat blocks for {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} appear earlier in the chapter.",
-												"{@creature Mister Light|WBtW} gestures toward his scepter\u2014the {@item Witchlight vane|WBtW}\u2014and explains that it picks up every nuance of emotion in the carnival. If the carnival's mood is good, Light expresses his gratitude for the cheer that the characters have brought to the carnival so far. If the carnival's mood is bad, he expresses his regret that the characters aren't having a delightful time and notes that, in turn, they're spoiling everyone's evening.",
-												"Witch and Light are eager to learn the characters' reasons for visiting the carnival; if the characters are motivated by the \"Lost Things\" adventure hook, Witch and Light dimly remember the characters from when they visited the carnival as children.",
-												"If the characters attack the carnival owners, they're swiftly restrained by Burly and Thaco, who try to knock them out and dump them outside the carnival. Characters who overcome the carnival owners and their guards are begrudgingly taught the secret incantation to reach Prismeer (see \"{@area Through the Looking Glass|0f8|x}\" at the end of the chapter)."
-											]
-										},
-										{
-											"type": "entries",
-											"name": "Questioning Witch and Light",
-											"page": 50,
-											"id": "0e2",
-											"entries": [
-												"If the characters have come to the carnival seeking lost things, Witch and Light express their regret but make it clear that they're not responsible for those losses, claiming \"forces are at work on the other side that are entirely beyond our control.\" {@creature Mister Witch|WBtW} adds, \"The wheel of time turns ever on... what's lost is lost, what's gone is gone.\"",
-												"If they are questioned about conversations that were overheard (see \"{@area Witch and Light's Wagon|0d8|x}\" above and \"{@area Catching Kettlesteam|0e7|x}\" below), Witch and Light admit they're not the carnival's original owners and took over management through an honest pact with the owner of another carnival.",
-												"If asked about Kettlesteam, Witch and Light say she's \"a disgruntled guest and troublemaker whose fey patron, Zybilna, dwells in the Feywild domain of Prismeer.\" They add that Zybilna is also the patron of the Witchlight Carnival, but Witch and Light have had no contact with her for some time. Throughout the conversation, Witch and Light never mention the Hourglass Coven."
-											]
-										},
-										{
-											"type": "entries",
-											"name": "Meeting's End",
-											"page": 51,
-											"id": "0e3",
-											"entries": [
-												"To end the meeting, {@creature Mister Witch|WBtW} takes a quick look at his {@item Witchlight watch|WBtW}, then nods to Burly to escort the characters from the wagon. If the carnival's mood is good, {@creature Mister Light|WBtW} offers each character a gift as they exit: a balloon animal of their choosing, crafted by Thaco, \"a clown of few words but many talents.\" Thaco fashions each balloon into whatever creature is asked for. Each balloon animal is tied with a ribbon and floats magically in the air."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Burly's Plan",
-									"page": 51,
-									"id": "0e4",
-									"entries": [
-										"Following the characters' meeting with Witch and Light, Burly pulls the characters aside for a hushed conversation:",
-										{
-											"type": "insetReadaloud",
-											"id": "0e5",
-											"entries": [
-												"Burly removes his jack-o'-lantern helmet, revealing a worried expression. \"Bad things have been happening at the carnival for a while. People and things have been going missing. My bosses know more than they're telling, but their hands are tied somehow. You're the first people I've met who might be able to set things right. Witch and Light are good guys, but you'll need leverage to make them spill the beans.\""
-											]
-										},
-										"Burly suggests the characters purloin {@creature Mister Witch|WBtW}'s {@item Witchlight watch|WBtW} (without which the carnival can't stay on schedule) and use it to compel Witch and Light to provide the answers they seek. He proposes that the best time to swipe the watch is during the Big Top Extravaganza, since it's the only time when Witch and Light are separated. Although he doesn't condone theft, Burly has talked himself into believing that it's not really stealing if the characters give back the watch. Burly offers to assist where he can, but he doesn't want Witch and Light to know that he plotted against them, because it would cost him his job and his home. He also warns that he'll see no harm come to his bosses; they might be flawed, but without them, the carnival will fall apart.",
-										"Over the course of the conversation, Burly shares the following additional pieces of information:",
-										{
-											"type": "list",
-											"items": [
-												"\"The Witchlight Monarch is chosen by {@creature Mister Light|WBtW}'s {@item Witchlight vane|WBtW}. Witch and Light have no control over who the monarch will be, but it's always the guest who has contributed the most to the happiness of the carnival. The monarch is also given a charm that lets them fly.\"",
-												"\"{@creature Mister Witch|WBtW}'s {@item Witchlight watch|WBtW} is attached to his waistcoat by a chain, so whoever tries to steal it needs something to break or unfasten the chain.\"",
-												"\"Dirlagraun, Candlefoot, and Palasha might help you\u2014they're good eggs. But stay away from Thaco\u2014he's untrustworthy.\""
-											]
-										},
-										"If the characters suggest stealing the {@item Witchlight vane|WBtW} instead of the {@item Witchlight watch|WBtW}, Burly asserts that the watch is easier to steal because it's smaller and often tucked in {@creature Mister Witch|WBtW}'s pocket, whereas {@creature Mister Light|WBtW} is rarely seen without the vane in hand. Burly concedes, however, that the vane yields almost as much leverage in negotiations with Witch and Light, though he has no plan for stealing the vane.",
-										{
-											"type": "entries",
-											"name": "The Heist",
-											"page": 51,
-											"id": "0e6",
-											"entries": [
-												"See \"{@area Timed Events|0eb|x}\" later in the chapter for details of the coronation. It's up to the characters to come up with a plan to get close enough to {@creature Mister Witch|WBtW} to steal his pocket watch. Any allies they've gained go along with their schemes but won't harm the carnival owners or other members of the carnival staff.",
-												"{@creature Mister Witch|WBtW} keeps the watch in his waistcoat pocket, fastened to the garment with a chain. As an action, a character can attempt to steal the timepiece with a DC 13 Dexterity ({@skill Sleight of Hand}) check. This check is made with advantage if Witch is distracted during the attempt. A character needs thieves' tools, a dagger, or a pair of scissors to snip or detach the chain securing the watch.",
-												"If the characters rob {@creature Mister Witch|WBtW} of his timepiece, he and Light are desperate to get it back. They'd prefer not to cause a scene in front of the guests and promise to show the characters the way to Prismeer once the watch is returned. Witch and Light are true to their word (see \"{@area Through the Looking Glass|0f8|x}\" at the end of the chapter)."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
 									"name": "Catching Kettlesteam",
 									"page": 51,
 									"id": "0e7",
@@ -2627,15 +2512,6 @@
 														"{@creature Mister Light|WBtW}'s {@item Witchlight vane|WBtW} selects the monarch from the carnival's guests, spinning a thread of golden light that winds its way to the chosen reveler. If the mood of the carnival is positive, choose the character who improved the carnival's mood the most, or ask the players to agree on which of their characters should be crowned. If it's not appropriate for any of the characters to be crowned monarch, then a jubilant halfling bedecked in flowers is selected from the crowd. {@creature Mister Light|WBtW} exudes cheerfulness and follows through with the ceremony regardless of who is chosen.",
 														"At the end of the celebration, as the carnival begins to wind down, the ceremonial crown teleports back into its hatbox. Candlefoot returns the hatbox to the Staff Area, handing it off to Thaco the clown, who stashes it in the wagon belonging to {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW}."
 													]
-												},
-												{
-													"type": "entries",
-													"name": "Tumblestrum's Intervention",
-													"page": 54,
-													"id": "0f4",
-													"entries": [
-														"If the characters haven't found a way to Prismeer by the end of the evening, Ellywick Tumblestrum (see \"{@area Feasting Orchard|09e|x}\" earlier in the chapter) comes to their aid. The gnome bard appears next to the characters, exclaiming that it's \"high time you folks were elsewhere,\" and leads them quickly to the Hall of Illusions. She ushers them inside and whispers the following incantation to them: \"Hither, thither, here and there; wander yonder, show me where.\" Using the incantation, the characters can travel to Prismeer (see \"{@area Through the Looking Glass|0f8|x}\" below). If they are being chased, Tumblestrum distracts pursuers with a song before disappearing as mysteriously as she appeared."
-													]
 												}
 											]
 										},
@@ -2682,22 +2558,73 @@
 									"page": 54,
 									"id": "0f8",
 									"entries": [
-										"If the characters gain leverage over {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW}, either by stealing the {@item Witchlight watch|WBtW} or through some other scheme, the carnival owners lead them to the Hall of Illusions and march them inside:",
+										"The characters receive an invitation to meet privately with {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} when the carnival's mood reaches either end of the track (see \"{@area Tracking Mood|065|x}\" earlier in the chapter) or if the characters impress {@creature Mister Light|WBtW} during the Big Top Extravaganza (see \"{@area Timed Events|0eb|x}\" later in the chapter).",
+										"Witch and Light send Burly the {@creature bugbear} (neutral good) to fetch the characters:",
+										{
+											"type": "insetReadaloud",
+											"id": "0de",
+											"entries": [
+												"A bugbear wearing dungarees, fairy wings, and a helmet made from a jack-o'-lantern approaches you. \"Follow me,\" he growls. \"Management wants to see you.\""
+											]
+										},
+										"With a wave of his hand, Burly creates an opening in the wall of thorns that surrounds the staff wagons (see \"Staff Area\" above) and leads the characters through it. If questioned about the nature of the meeting, Burly insists there's nothing to worry about. If the carnival's mood is good, he adds that his bosses are in high spirits. Appendix D contains additional roleplaying notes for Burly.",
+										"If the characters follow Burly, read:",
+										{
+											"type": "insetReadaloud",
+											"id": "0df",
+											"entries": [
+												"The bugbear leads you to a circle of wagons. Leaning against a particularly ostentatious wagon is an aging clown with a painted grin. He puffs on a bubble pipe and glares at you as the bugbear, ignoring the clown, opens the wagon's door and ushers you inside."
+											]
+										},
+										"The clown is Thaco, a human {@creature Witchlight Hand (Medium)|WBtW|Witchlight hand} (chaotic neutral; see the stat block earlier in the chapter) and over-the-hill carnival attraction. {@adventure Appendix D|WBtW|9} contains additional roleplaying notes for Thaco.",
+										{
+											"type": "image",
+											"href": {
+												"type": "internal",
+												"path": "adventure/WBtW/032-01-017.witch-and-light.png"
+											},
+											"title": "{@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} don't like strangers eavesdropping on their private conversations",
+											"width": 1700,
+											"height": 1088
+										},
+										{
+											"type": "entries",
+											"name": "Inside the Wagon",
+											"page": 50,
+											"id": "0e0",
+											"entries": [
+												{
+													"type": "insetReadaloud",
+													"id": "0e1",
+													"entries": [
+														"A flamboyant elf grins from ear to ear as he welcomes you into the wagon with a theatrical bow. \"Please come in, it's a delight to meet you all! I am {@creature Mister Light|WBtW}, and this is my associate, {@creature Mister Witch|WBtW}.\"",
+														"He gestures to a stocky elf lounging on a bunk. {@creature Mister Witch|WBtW} nods to you and doffs his top hat."
+													]
+												},
+												"Stat blocks for {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} appear earlier in the chapter.",
+												"{@creature Mister Light|WBtW} gestures toward his scepter\u2014the {@item Witchlight vane|WBtW}\u2014and explains that it picks up every nuance of emotion in the carnival. If the carnival's mood is good, Light expresses his gratitude for the cheer that the characters have brought to the carnival so far. If the carnival's mood is bad, he expresses his regret that the characters aren't having a delightful time and notes that, in turn, they're spoiling everyone's evening.",
+												"Witch and Light are eager to learn the characters' reasons for visiting the carnival. When the characters mention that they are looking for a fabled magic shop, {@creature Mister Light|WBtW}'s eyes light up and he says \"Ooo, more clients! Mr. Garfield will be pleased!\".",
+												"The carnival owners lead them to the Hall of Illusions and march them inside:"
+											]
+										},
 										{
 											"type": "insetReadaloud",
 											"id": "0f9",
 											"entries": [
 												"As Witch and Light move through the Hall of Illusions, their reflections in the mirrors show them as gloomy shadar-kai children, with your own youthful reflections following behind. Soon, they call you to a halt. The mirrors now reflect everyone's true age.",
-												"{@creature Mister Witch|WBtW} addresses you in a hushed tone. \"Everything you seek and more lies beyond this mirror. If you mean to step through, then stand in front of the glass and repeat this rhyme: Hither, thither, here and there; wander yonder, show me where.\""
+												"{@creature Mister Witch|WBtW} addresses you. \"Everything you seek and more lies beyond this mirror. If you mean to step through, then stand in front of the glass and repeat this rhyme: Fantasy Costco, where all your dreams come true. We got a deal for you!\"",
+												"{@creature Mister Light|WBtW} adds in a hushed tone, \"I must warn you. The deals are out of this world.\""
 											]
 										},
-										"Witch and Light won't mention the Hourglass Coven or the splintering of Prismeer, but they share the following information if pressed:",
+										"Witch and Light will also share the following information if asked:",
 										{
 											"type": "list",
 											"items": [
-												"The land beyond the mirrors is called Prismeer, wherein dwells the carnival's secret patron, the archfey Zybilna.",
-												"Anyone who sneaks into the carnival without a ticket is robbed of something precious. Whatever is stolen always finds its way to Prismeer.",
-												"The mirror is a one-way portal. Once they arrive in Prismeer, the characters must find their own way back to their world."
+												"The pocket dimension beyond the mirror is called Fantasy Costco, wherein dwells the store owner, Garfield the Deals Warlock, who loves nothing more than to make a deal.",
+												"Time flows differently and unpredictably in Fantasy Costco. When the heros come back to this plane of existence, they may find that several days or only seconds have passed.",
+												"When the heros leave Fantasy Costo through the same portal they entered in, they'll no longer be at the carnival; it will deposit them back into their beds at the last location they long rested.",
+												"If they are questioned about conversations that were overheard (see \"{@area Witch and Light's Wagon|0d8|x}\" above and \"{@area Catching Kettlesteam|0e7|x}\" below), Witch and Light admit they're not the carnival's original owners and took over management through an honest pact with the owner of another carnival.",
+												"If asked about Kettlesteam, Witch and Light say she's \"a troublemaker from a competing carnival who just wants to stir up chaos and ruin everyone's fun."
 											]
 										},
 										{
@@ -2714,14 +2641,13 @@
 														"Mist swirls in the mirror, blotting out your reflection."
 													]
 												},
-												"Any creature that touches the surface of the misty mirror is pulled through it and deposited in Hither, one of Prismeer's three splinter-realms (described in chapter 2). If a character tries to take either the {@item Witchlight watch|WBtW} or the {@item Witchlight vane|WBtW} through the mirror, the item drops to the floor as the character crosses the threshold. Neither item can be taken to Prismeer.",
+												"Any creature that touches the surface of the misty mirror is pulled through it and deposited in Fantasy Costco. If a character tries to take either the {@item Witchlight watch|WBtW} or the {@item Witchlight vane|WBtW} through the mirror, the item drops to the floor as the character crosses the threshold. Neither item can be taken into the pocket dimension.",
 												"If {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} are both present, they wait until only one character remains and then impart the following information to that character:",
 												{
 													"type": "insetReadaloud",
 													"id": "0fc",
 													"entries": [
-														"{@i Witch}: \"Mind the Rule of Three: future, present, past.\"",
-														"{@i Light}: \"Find the alicorn and free the dormant queen at last.\""
+														"Give your player some prophetic guidance in their larger campaign quest here. Such as \"when the time is right, follow the white rabbit\"."
 													]
 												},
 												"Proceed with {@adventure chapter 2|WBtW|2} once the characters pass through the magic mirror."
