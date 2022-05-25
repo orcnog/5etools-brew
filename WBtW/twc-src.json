@@ -5,7 +5,7 @@
 				"json": "orcnogTWC",
 				"abbreviation": "TWC",
 				"full": "Thw Witchlight Carnival",
-				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/WBtW/twc-src.json",
+				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/WBtW/orcnogTWC.json",
 				"convertedBy": [
 					"orcnog"
 				],
@@ -22,6 +22,8 @@
 			"name": "The Witchlight Carnival",
 			"id": "orcnogTWC",
 			"source": "orcnogTWC",
+			"group": "homebrew",
+			"coverUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/WBtW/images/witchlight-carnival-bookshelf-img.png",
 			"contents": [
 				{
 					"name": "Adventure Summary",
