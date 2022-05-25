@@ -98,7 +98,9 @@
 				"average": 14,
 				"formula": "3d8"
 			},
-			"speed": {},
+			"speed": {
+				"walk": 30
+			},
 			"str": 11,
 			"dex": 14,
 			"con": 14,
@@ -169,7 +171,9 @@
 				"average": 14,
 				"formula": "3d8"
 			},
-			"speed": {},
+			"speed": {
+				"walk": 30
+			},
 			"str": 11,
 			"dex": 14,
 			"con": 14,
