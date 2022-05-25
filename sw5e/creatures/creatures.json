@@ -127,7 +127,7 @@
 				{
 					"name": "Blaster Pistol",
 					"entries": [
-						"<i>Ranged Weapon Attack:</i> +4 to hit, range 40/160 ft., one target. <i>Hit:</i> 5 (1d6 + 2) energy damage damage."
+						"<i>Ranged Weapon Attack:</i> +4 to hit, range 40/160 ft., one target. <i>Hit:</i> 5 (1d6 + 2) energy damage."
 					]
 				}
 			],
@@ -172,7 +172,7 @@
 				"formula": "3d8"
 			},
 			"speed": {
-				"walk": 30
+				"walk": 60
 			},
 			"str": 11,
 			"dex": 14,
@@ -200,7 +200,7 @@
 				{
 					"name": "Blaster Pistol",
 					"entries": [
-						"<i>Ranged Weapon Attack:</i> +4 to hit, range 40/160 ft., one target. <i>Hit:</i> 5 (1d6 + 2) energy damage damage."
+						"<i>Ranged Weapon Attack:</i> +4 to hit, range 40/160 ft., one target. <i>Hit:</i> 5 (1d6 + 2) energy damage."
 					]
 				}
 			],
