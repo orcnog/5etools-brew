@@ -72,7 +72,7 @@
 			"miscTags": [
 				"RW"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/npc-neimoidian-citizen.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/npc-neimoidian-citizen.webp"
 		},
 		{
 			"name": "Viper Gang Member",
@@ -130,8 +130,6 @@
 				}
 			],
 			"reaction": [],
-			"legendary": [],
-			"legendaryGroup": null,
 			"environment": [
 				"Urban"
 			],
@@ -145,8 +143,7 @@
 			"damageTags": null,
 			"miscTags": null,
 			"conditionInflict": null,
-			"conditionInflictLegendary": null,
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-viper-gang-member.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-viper-gang-member.webp"
 		},
 		{
 			"name": "Viper on Swoop Bike",
@@ -204,8 +201,6 @@
 				}
 			],
 			"reaction": [],
-			"legendary": [],
-			"legendaryGroup": null,
 			"environment": [
 				"Urban"
 			],
@@ -219,8 +214,7 @@
 			"damageTags": null,
 			"miscTags": null,
 			"conditionInflict": null,
-			"conditionInflictLegendary": null,
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-viper-gang-member.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-viper-gang-member.webp"
 		},
 		{
 			"name": "Kessra",
@@ -315,7 +309,7 @@
 				"MW",
 				"RW"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-kessra.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-kessra.webp"
 		},
 		{
 			"name": "Warrick Raden",
@@ -409,7 +403,7 @@
 			"miscTags": [
 				"RW"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-warrick-raden.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-warrick-raden.webp"
 		},
 		{
 			"name": "Warrick's Hired Thug",
@@ -475,7 +469,7 @@
 				"MW",
 				"RW"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-thug2.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-thug2.webp"
 		},
 		{
 			"name": "Excavation Droid",
@@ -567,7 +561,7 @@
 			"miscTags": [
 				"MW"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-excavator-droid.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-excavator-droid.webp"
 		},
 		{
 			"name": "Darga The Hutt",
@@ -653,9 +647,9 @@
 				{
 					"name": "Innate Tech Casting",
 					"entries": [
-						"Darga's innate tech casting ability is intelligence (tech save {@dc 16}). It can innately cast the following powers: At will: {@spell assess the situation|sw5e}",
-						"3/day: {@spell absorb energy|sw5e}, {@spell element of surprise|sw5e}, {@spell fabricate trap|sw5e}, {@spell oil slick|sw5e}, {@spell smuggle|sw5e}, {@spell spot the weakness|sw5e}, {@spell stack the deck|sw5e}, {@spell tactical barrier|sw5e}",
-						"1/day: {@spell kolto cloud|sw5e}, {@spell tactical advantage|sw5e}"
+						"Darga's innate tech casting ability is intelligence (tech save {@dc 16}). It can innately cast the following powers: At will: {@spell assess the situation|orcnog_sw5e}",
+						"3/day: {@spell absorb energy|orcnog_sw5e}, {@spell element of surprise|orcnog_sw5e}, {@spell fabricate trap|orcnog_sw5e}, {@spell oil slick|orcnog_sw5e}, {@spell smuggle|orcnog_sw5e}, {@spell spot the weakness|orcnog_sw5e}, {@spell stack the deck|orcnog_sw5e}, {@spell tactical barrier|orcnog_sw5e}",
+						"1/day: {@spell kolto cloud|orcnog_sw5e}, {@spell tactical advantage|orcnog_sw5e}"
 					]
 				},
 				{
@@ -721,7 +715,7 @@
 				"grappled",
 				"prone"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-darga-the-hutt.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-darga-the-hutt.webp"
 		},
 		{
 			"name": "RX-7246",
@@ -815,7 +809,7 @@
 			"conditionInflict": [
 				"stunned"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-RX-7246.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-RX-7246.webp"
 		},
 		{
 			"name": "The Karg Brothers",
@@ -898,7 +892,7 @@
 			"languageTags": [
 				"CS"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-klarg-brothers.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-klarg-brothers.webp"
 		},
 		{
 			"name": "Zayda",
@@ -974,7 +968,7 @@
 				"MW",
 				"RW"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-zayda.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-zayda.webp"
 		},
 		{
 			"name": "Neimoidian Kreehawk",
@@ -1054,7 +1048,7 @@
 			"senseTags": [
 				"D"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-neimoidian-kreehawk.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-neimoidian-kreehawk.webp"
 		},
 		{
 			"name": "Quarren Assassin",
@@ -1159,7 +1153,7 @@
 			"conditionInflict": [
 				"incapacitated"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-quarren-assassin.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-quarren-assassin.webp"
 		},
 		{
 			"name": "Twi'lek Poisoner",
@@ -1242,7 +1236,7 @@
 			"miscTags": [
 				"MW"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-twilek-poisoner.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-twilek-poisoner.webp"
 		},
 		{
 			"name": "Wookie Slaver",
@@ -1323,7 +1317,7 @@
 				"MW",
 				"RW"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-wookie-black.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-wookie-black.webp"
 		},
 		{
 			"name": "Gamorrean Minion",
@@ -1406,7 +1400,7 @@
 			"languageTags": [
 				"CS"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-gamorrean.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-gamorrean.webp"
 		},
 		{
 			"name": "Gamorrean Warrior",
@@ -1489,7 +1483,7 @@
 			"languageTags": [
 				"CS"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-gamorrean-warrior.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-gamorrean-warrior.webp"
 		},
 		{
 			"name": "Gamorrean Warlord",
@@ -1588,7 +1582,7 @@
 				"MW",
 				"RW"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-gamorrean-warlord.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-gamorrean-warlord.webp"
 		},
 		{
 			"name": "Jedi Master Denia",
@@ -1657,11 +1651,11 @@
 				{
 					"name": "Forcecasting",
 					"entries": [
-						"Jedi Master Denia is a 16th-level forcecaster. Her forcecasting ability is Wisdom (power save {@dc 19}, {@hit 11} to hit with force attacks) and she has 54 force points. Denia knows the following force powers: At-will: {@spell force push/pull|sw5e}, {@spell force disarm|sw5e}, {@spell give life|sw5e}, {@spell guidance|sw5e}, {@spell saber reflect|sw5e}, {@spell turbulence|sw5e} 1st-level: {@spell battle precognition|sw5e}, {@spell burst of speed|sw5e}, {@spell heal|sw5e}, {@spell phasestrike|sw5e}, {@spell project|sw5e}, {@spell valor|sw5e} 2nd-level: {@spell animate weapon|sw5e}, {@spell calm emotions|sw5e}, {@spell force barrier|sw5e}, {@spell force camouflage|sw5e}, {@spell force sight|sw5e}, {@spell force throw|sw5e} 3rd-level: {@spell beacon of hope|sw5e}, {@spell knight speed|sw5e}, {@spell sever force|sw5e}, {@spell telekinetic storm|sw5e} 4th-level: {@spell force immunity|sw5e}, {@spell improved force camouflage|sw5e} 5th-level: {@spell improved phasestrike|sw5e}, {@spell mass animation|sw5e}, {@spell telekinesis|sw5e} 6th-level: {@spell telekinetic burst|sw5e} War Caster Jedi Master Denia has advantage on Constitution savin throws that it makes to maintain it's concentration on a power when it takes damage."
+						"Jedi Master Denia is a 16th-level forcecaster. Her forcecasting ability is Wisdom (power save {@dc 19}, {@hit 11} to hit with force attacks) and she has 54 force points. Denia knows the following force powers: At-will: {@spell force push/pull|orcnog_sw5e}, {@spell force disarm|orcnog_sw5e}, {@spell give life|orcnog_sw5e}, {@spell guidance|orcnog_sw5e}, {@spell saber reflect|orcnog_sw5e}, {@spell turbulence|orcnog_sw5e} 1st-level: {@spell battle precognition|orcnog_sw5e}, {@spell burst of speed|orcnog_sw5e}, {@spell heal|orcnog_sw5e}, {@spell phasestrike|orcnog_sw5e}, {@spell project|orcnog_sw5e}, {@spell valor|orcnog_sw5e} 2nd-level: {@spell animate weapon|orcnog_sw5e}, {@spell calm emotions|orcnog_sw5e}, {@spell force barrier|orcnog_sw5e}, {@spell force camouflage|orcnog_sw5e}, {@spell force sight|orcnog_sw5e}, {@spell force throw|orcnog_sw5e} 3rd-level: {@spell beacon of hope|orcnog_sw5e}, {@spell knight speed|orcnog_sw5e}, {@spell sever force|orcnog_sw5e}, {@spell telekinetic storm|orcnog_sw5e} 4th-level: {@spell force immunity|orcnog_sw5e}, {@spell improved force camouflage|orcnog_sw5e} 5th-level: {@spell improved phasestrike|orcnog_sw5e}, {@spell mass animation|orcnog_sw5e}, {@spell telekinesis|orcnog_sw5e} 6th-level: {@spell telekinetic burst|orcnog_sw5e} War Caster Jedi Master Denia has advantage on Constitution savin throws that it makes to maintain it's concentration on a power when it takes damage."
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/npc-master-denia.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/npc-master-denia.webp"
 		},
 		{
 			"name": "Gamorrean Jailer",
@@ -1744,7 +1738,7 @@
 			"languageTags": [
 				"CS"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-gamorrean.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-gamorrean.webp"
 		},
 		{
 			"name": "Igren Demos",
@@ -1816,11 +1810,11 @@
 				{
 					"name": "Forcecasting",
 					"entries": [
-						"Igren Demos is a 5th-level forcecaster. His forcecasting ability is Charisma (power save {@dc 14}, {@hit 6} to hit with force attacks) and he has 23 force points. Igren Demos knows the following force powers: At-will: {@spell affect mind|sw5e}, {@spell force push/pull|sw5e} 1st-level: {@spell battle precognition|sw5e}, {@spell disperse force|sw5e}, {@spell tremor|sw5e} 2nd-level: {@spell force throw|sw5e} 3rd-level: {@spell sever force|sw5e}"
+						"Igren Demos is a 5th-level forcecaster. His forcecasting ability is Charisma (power save {@dc 14}, {@hit 6} to hit with force attacks) and he has 23 force points. Igren Demos knows the following force powers: At-will: {@spell affect mind|orcnog_sw5e}, {@spell force push/pull|orcnog_sw5e} 1st-level: {@spell battle precognition|orcnog_sw5e}, {@spell disperse force|orcnog_sw5e}, {@spell tremor|orcnog_sw5e} 2nd-level: {@spell force throw|orcnog_sw5e} 3rd-level: {@spell sever force|orcnog_sw5e}"
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-igren-demos.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-igren-demos.webp"
 		},
 		{
 			"name": "Trandoshan Bodyguard",
@@ -1904,10 +1898,9 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-trandoshan1.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-trandoshan1.webp"
 		}
 	],
-
 	"spell":
 	[
 		{
