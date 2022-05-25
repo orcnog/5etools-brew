@@ -1,1 +1,1910 @@
-{}
+{
+	"siteVersion": "1.155.2",
+	"_meta": {
+		"sources": [
+			{
+				"json": "orcnog_sw5e",
+				"abbreviation": "SW5e",
+				"full": "SW5e",
+				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/creatures_5etools.json",
+				"authors": [],
+				"convertedBy": [
+					"orcnog"
+				]
+			}
+		],
+		"dateAdded": 1652365390,
+		"dateLastModified": 1652365390
+	},
+	"monster": [
+		{
+			"name": "Typical Cato Neimoidian Citizen",
+			"source": "sw5e",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 10,
+			"con": 10,
+			"int": 10,
+			"wis": 10,
+			"cha": 12,
+			"senses": [
+				"darkvision 60ft"
+			],
+			"passive": 10,
+			"languages": [
+				"Galactic Basic",
+				"Pak Pak"
+			],
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Hold-Out",
+					"entries": [
+						"{@atk rw} {@hit 2} to hit, range 30/120 ft., one target. Hit 2 ({@damage 1d4}) energy damage. Reload 6."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"miscTags": [
+				"RW"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/npc-neimoidian-citizen.webp"
+		},
+		{
+			"name": "Viper Gang Member",
+			"source": "sw5e",
+			"page": "0",
+			"size": [
+				"Medium"
+			],
+			"type": "Humanoid",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"Combat Suit"
+					]
+				}
+			],
+			"hp": {
+				"average": 14,
+				"formula": "3d8"
+			},
+			"speed": {},
+			"str": 11,
+			"dex": 14,
+			"con": 14,
+			"int": 10,
+			"wis": 10,
+			"save": {},
+			"skill": {},
+			"senses": [],
+			"passive": 10,
+			"immune": [],
+			"conditionImmune": [],
+			"languages": [
+				"Galactic Basic"
+			],
+			"cr": "1/4",
+			"trait": [],
+			"action": [
+				{
+					"name": "Vibroblade",
+					"entries": [
+						"<i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one target. <i>Hit:</i> 6 (1d8 + 2) kinetic damage."
+					]
+				},
+				{
+					"name": "Blaster Pistol",
+					"entries": [
+						"<i>Ranged Weapon Attack:</i> +4 to hit, range 40/160 ft., one target. <i>Hit:</i> 5 (1d6 + 2) energy damage damage."
+					]
+				}
+			],
+			"reaction": [],
+			"legendary": [],
+			"legendaryGroup": null,
+			"environment": [
+				"Urban"
+			],
+			"soundClip": null,
+			"traitTags": [],
+			"senseTags": null,
+			"actionTags": [
+				"Blaster Pistol",
+				"Vibroblade"
+			],
+			"damageTags": null,
+			"miscTags": null,
+			"conditionInflict": null,
+			"conditionInflictLegendary": null,
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-viper-gang-member.webp"
+		},
+		{
+			"name": "Viper on Swoop Bike",
+			"source": "sw5e",
+			"page": "0",
+			"size": [
+				"Medium"
+			],
+			"type": "Humanoid",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"Combat Suit + bike"
+					]
+				}
+			],
+			"hp": {
+				"average": 14,
+				"formula": "3d8"
+			},
+			"speed": {},
+			"str": 11,
+			"dex": 14,
+			"con": 14,
+			"int": 10,
+			"wis": 10,
+			"save": {},
+			"skill": {},
+			"senses": [],
+			"passive": 10,
+			"immune": [],
+			"conditionImmune": [],
+			"languages": [
+				"Galactic Basic"
+			],
+			"cr": "1/4",
+			"trait": [],
+			"action": [
+				{
+					"name": "Vibroblade",
+					"entries": [
+						"<i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one target. <i>Hit:</i> 6 (1d8 + 2) kinetic damage."
+					]
+				},
+				{
+					"name": "Blaster Pistol",
+					"entries": [
+						"<i>Ranged Weapon Attack:</i> +4 to hit, range 40/160 ft., one target. <i>Hit:</i> 5 (1d6 + 2) energy damage damage."
+					]
+				}
+			],
+			"reaction": [],
+			"legendary": [],
+			"legendaryGroup": null,
+			"environment": [
+				"Urban"
+			],
+			"soundClip": null,
+			"traitTags": [],
+			"senseTags": null,
+			"actionTags": [
+				"Blaster Pistol",
+				"Vibroblade"
+			],
+			"damageTags": null,
+			"miscTags": null,
+			"conditionInflict": null,
+			"conditionInflictLegendary": null,
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-viper-gang-member.webp"
+		},
+		{
+			"name": "Kessra",
+			"isNamedCreature": true,
+			"source": "sw5e",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"any race"
+				]
+			},
+			"alignment": [
+				"NX",
+				"C",
+				"G",
+				"NY",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"fiber armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 65,
+				"formula": "10d8 + 20"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 15,
+			"dex": 16,
+			"con": 14,
+			"int": 14,
+			"wis": 11,
+			"cha": 14,
+			"save": {
+				"str": "+4",
+				"dex": "+5",
+				"wis": "+2"
+			},
+			"skill": {
+				"athletics": "+4",
+				"deception": "+4"
+			},
+			"passive": 10,
+			"languages": [
+				"Galactic Basic",
+				"Huttese"
+			],
+			"cr": "2",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Kessra three melee attacks with her vibroblade. Or Kassra makes two ranged attacks with her heavy blaster pistol."
+					]
+				},
+				{
+					"name": "Vibroblade",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) kinetic damage."
+					]
+				},
+				{
+					"name": "Heavy Blaster Pistol",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 45/180 ft., one target. {@h}7 ({@damage 1d8 + 3}) energy damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Parry",
+					"entries": [
+						"The captain adds 2 to its AC against one melee attack that would hit her. To do so, Kessra must see the attacker and be wielding a melee weapon."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack",
+				"Parry"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-kessra.webp"
+		},
+		{
+			"name": "Warrick Raden",
+			"isNamedCreature": true,
+			"source": "sw5e",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"devaronian"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"fiber armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 52,
+				"formula": "8d8 + 16"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 16,
+			"con": 14,
+			"int": 10,
+			"wis": 10,
+			"cha": 13,
+			"skill": {
+				"deception": "+3",
+				"intimidation": "+3",
+				"perception": "+2",
+				"stealth": "+5",
+				"survival": "+2"
+			},
+			"passive": 12,
+			"languages": [
+				"Galactic Basic",
+				"Devaronese"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"Warrick Raden can take a bonus action on each of his turns in combat. This action can be used only to take the Dash, Disengage, or Hide action."
+					]
+				},
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"Warrick Raden deals an extra 3 ({@damage 1d6}) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally that isn't incapacitated and she doesn't have disadvantage on the roll."
+					]
+				},
+				{
+					"name": "Tech Resistance",
+					"entries": [
+						"Warrick Raden has advantage on saving throws against tech powers."
+					]
+				},
+				{
+					"name": "Two Livered",
+					"entries": [
+						"Warrick Raden has advantage on saving throws against poison and resistance against poison damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Heavy Blaster Pistol",
+					"entries": [
+						"{@atk rw} +5, range 40/160 ft, one target. Hit 8 ({@damage 1d8 + 3}) energy damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"miscTags": [
+				"RW"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-warrick-raden.webp"
+		},
+		{
+			"name": "Warrick's Hired Thug",
+			"source": "sw5e",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"combat suit"
+					]
+				}
+			],
+			"hp": {
+				"average": 11,
+				"formula": "2d8 + 2"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 12,
+			"con": 12,
+			"int": 10,
+			"wis": 10,
+			"cha": 8,
+			"passive": 10,
+			"languages": [
+				"Galactic Basic",
+				"Huttese"
+			],
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Shotgun",
+					"entries": [
+						"{@atk rw} +3, range 30/120 ft, one target. Hit 6 ({@damage 2d4 + 1}) kinetic damage."
+					]
+				},
+				{
+					"name": "Vibromace",
+					"entries": [
+						"{@atk mw} +2, range 5ft, one target. Hit 5 ({@damage 1d10}) kinetic damage."
+					]
+				},
+				{
+					"name": "Burst",
+					"entries": [
+						"Darga's Thug sprays a 10-foot-cube area within normal range of its shotgun. Each creature in the area must make a {@dc 11} Dexterity saving throw, taking normal weapon damage on a failed save."
+					]
+				}
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RW"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-thug2.webp"
+		},
+		{
+			"name": "Excavation Droid",
+			"source": "sw5e",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "droid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"armor plating"
+					]
+				}
+			],
+			"hp": {
+				"average": 39,
+				"formula": "7d8 + 7"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 14,
+			"dex": 12,
+			"con": 16,
+			"int": 10,
+			"wis": 10,
+			"cha": 7,
+			"skill": {
+				"athletics": "+4"
+			},
+			"senses": [
+				"darkvision 60ft"
+			],
+			"passive": 10,
+			"resist": [
+				"necrotic",
+				"poison psychic"
+			],
+			"vulnerable": [
+				"ion"
+			],
+			"conditionImmune": [
+				"poison",
+				"disease"
+			],
+			"languages": [
+				"Galactic Basic",
+				"Binary"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Circuitry",
+					"entries": [
+						"The droid has disadvantage on saving throws against effects that would deal ion or lightning damage."
+					]
+				},
+				{
+					"name": "Leaping Strike (1/Rest)",
+					"entries": [
+						"The droid can choose to deal double damage on a successful attack against one target provided it has climbed or jumped on its current turn."
+					]
+				},
+				{
+					"name": "Powerful Build",
+					"entries": [
+						"The droid counts as one size larger when determining its carrying capacity and the weight it can push, drag, or lift."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Excavation Tools",
+					"entries": [
+						"{@atk mw} +4, range 5ft, one target. Hit 5 ({@damage 1d6 + 2}) kinetic damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-excavator-droid.webp"
+		},
+		{
+			"name": "Darga The Hutt",
+			"isNamedCreature": true,
+			"source": "sw5e",
+			"page": 0,
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"hutt"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item hide armor|PHB|hide}",
+						"survival instinct"
+					]
+				}
+			],
+			"hp": {
+				"average": 128,
+				"formula": "14d10 + 60"
+			},
+			"speed": {
+				"walk": 20
+			},
+			"str": 15,
+			"dex": 8,
+			"con": 17,
+			"int": 18,
+			"wis": 15,
+			"cha": 18,
+			"save": {
+				"con": "+7",
+				"int": "+8",
+				"cha": "+8"
+			},
+			"skill": {
+				"deception": "+8",
+				"insight": "+6",
+				"intimidate": "+12",
+				"lore": "+8",
+				"perception": "+6",
+				"persuasion": "+8"
+			},
+			"passive": 16,
+			"resist": [
+				"acid",
+				"poison"
+			],
+			"conditionImmune": [
+				"charmed",
+				"prone"
+			],
+			"languages": [
+				"Bocce",
+				"Dosh",
+				"Huttese",
+				"Galactic Basic",
+				"Pak Pak",
+				"Quarrenese",
+				"Rodese",
+				"Ryl"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Dominating Presence (1/Rest)",
+					"entries": [
+						"As a bonus action, Darga the Hutt can call out to a humanoid who can understand it that is {@condition charmed} by it or {@condition frightened} of it to direct their next action. The target must succeed on a Wisdom saving throw ({@dc 16}). On a failed save, until the end of Darga the Hutt's next turn, the creature takes only the actions Darga the Hutt chooses, and doesn't do anything that it doesn't allow it to do.",
+						"During this time Hutt Crime Lord can use its reaction to force the creature to use the creature's reaction."
+					]
+				},
+				{
+					"name": "Innate Tech Casting",
+					"entries": [
+						"Darga's innate tech casting ability is intelligence (tech save {@dc 16}). It can innately cast the following powers: At will: {@spell assess the situation|sw5e}",
+						"3/day: {@spell absorb energy|sw5e}, {@spell element of surprise|sw5e}, {@spell fabricate trap|sw5e}, {@spell oil slick|sw5e}, {@spell smuggle|sw5e}, {@spell spot the weakness|sw5e}, {@spell stack the deck|sw5e}, {@spell tactical barrier|sw5e}",
+						"1/day: {@spell kolto cloud|sw5e}, {@spell tactical advantage|sw5e}"
+					]
+				},
+				{
+					"name": "Tyrant's Ferocity",
+					"entries": [
+						"Darga the Hutt has advantage on any attack against a creature that is {@condition charmed} by it or {@condition frightened} of it."
+					]
+				},
+				{
+					"name": "Reassemble (1/Rest)",
+					"entries": [
+						"Darga the Hutt may use a bonus action to call its allies towards it. It chooses a number of creatures that it can see within 60 feet of it equal to its Intelligence modifier (minimum of one). They can use their reaction to immediately move directly towards Hutt Crime Lord up to their movement speed. This movement does not provoke opportunity attacks."
+					]
+				},
+				{
+					"name": "Survival Instinct",
+					"entries": [
+						"Darga the Hutt and all allies within 10 feet of it gain a bonus to their AC equal to half its Intelligence modifier (rounded down, included in Armor Class)."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Hold-Out Blaster",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range 30/120, one target. Hit 1 ({@damage 1d4 - 1}) energy damage"
+					]
+				},
+				{
+					"name": "Overwhelming Presence",
+					"entries": [
+						"Darga the Hutt can make a Charisma (Persuasion) or Charisma (Intimidation) skill check to attempt to charm or frighten a humanoid creature who can see or hear it within 60 feet. The target makes a contested Wisdom (Insight) check. If Darga's check succeeds, the target is {@condition charmed} by it if it used Persuasion, or {@condition frightened} of it if it used Intimidation, until the end of its next turn."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. Hit 6 ({@damage 1d8 + 2}) kinetic damage, and the target must succeed on a Dexterity saving throw ({@dc 16}) or become {@condition grappled}."
+					]
+				},
+				{
+					"name": "Tail",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. Hit 11 ({@damage 2d8 + 2}) kinetic damage, and the target is knocked {@condition prone}."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Call the Guards",
+					"entries": [
+						"When a creature attacks Darga the Hutt, it commands a willing ally within 5 feet of that creature to use their reaction to intercede. The creature is then forced to make an attack on the ally instead. If the attack misses, the ally can immediately make a weapon attack with advantage against that creature as a part of that same reaction."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"RW"
+			],
+			"conditionInflict": [
+				"charmed",
+				"grappled",
+				"prone"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-darga-the-hutt.webp"
+		},
+		{
+			"name": "RX-7246",
+			"source": "sw5e",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "droid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"armor plating"
+					]
+				}
+			],
+			"hp": {
+				"average": 39,
+				"formula": "7d8 + 7"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 16,
+			"int": 10,
+			"wis": 10,
+			"cha": 7,
+			"skill": {
+				"athletics": "+4"
+			},
+			"senses": [
+				"darkvision 60ft"
+			],
+			"passive": 10,
+			"resist": [
+				"necrotic",
+				"poison psychic"
+			],
+			"vulnerable": [
+				"ion"
+			],
+			"conditionImmune": [
+				"poison",
+				"disease"
+			],
+			"languages": [
+				"Binary",
+				"Galactic Basic"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Circuitry",
+					"entries": [
+						"The droid has disadvantage on saving throws against effects that would deal ion or lightning damage."
+					]
+				},
+				{
+					"name": "Rapid Reconstruction (2/Rest)",
+					"entries": [
+						"As a bonus action, RX-7246 can roll a {@dice 1d8} to restore that many hit points."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Blaster Carbine Ranged Weapon Attack",
+					"entries": [
+						"+5, range 60/240 ft, one target. Hit 6 ({@damage 1d6 + 3}) energy damage.",
+						"Grenade, Electrostun (3/Day) Ranged Weapon Attack: Grenade Launcher, range 80/360 ft. Each creature within 10 feet must make a {@dc 13} Dexterity saving throw. A creature takes 3 ({@damage 1d6}) lightning damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is {@condition stunned} until the end of its next turn.",
+						"Grenade, Frag (3/Day) Ranged Weapon Attack: Grenade Launcher, range 80/360 ft. Each creature within 10 feet must make a {@dc 13} Dexterity saving throw. A creature takes 7 ({@damage 2d6}) kinetic damage on a failed save, or half as much as on a successful one."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"L"
+			],
+			"miscTags": [
+				"AOE"
+			],
+			"conditionInflict": [
+				"stunned"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-RX-7246.webp"
+		},
+		{
+			"name": "The Karg Brothers",
+			"source": "sw5e",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"gamorrean"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 30,
+				"formula": "4d8 + 12"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 16,
+			"int": 10,
+			"wis": 10,
+			"cha": 7,
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"kinetic and energy"
+					],
+					"note": "from unenhanced weapons",
+					"cond": true
+				}
+			],
+			"languages": [
+				"Gamorrese",
+				"Galactic Basic (understands but can't speak.)"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Reckless",
+					"entries": [
+						"At the start of its turn, The Karg Brothers can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+					]
+				},
+				{
+					"name": "Brutal Critical",
+					"entries": [
+						"When The Karg Brothers scores a critical hit with a melee weapon attack, roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Vibroaxe Melee Weapon Attack",
+					"entries": [
+						"+6, range 5ft, one target. Hit 11 ({@damage 1d10 + 6}) kinetic damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Reckless"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-klarg-brothers.webp"
+		},
+		{
+			"name": "Zayda",
+			"source": "sw5e",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"rodian"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"composite armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 46,
+				"formula": "7d8 + 14"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 13,
+			"dex": 16,
+			"con": 14,
+			"int": 10,
+			"wis": 10,
+			"cha": 13,
+			"skill": {
+				"athletics": "+3",
+				"survival": "+2",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60ft"
+			],
+			"passive": 10,
+			"languages": [
+				"Galactic Basic",
+				"Rodese"
+			],
+			"cr": "1",
+			"action": [
+				{
+					"name": "Heavy Blaster Pistol",
+					"entries": [
+						"{@atk rw} +5, range 40/160 ft, one target. Hit 8 ({@damage 1d8 + 3}) energy damage."
+					]
+				},
+				{
+					"name": "Vibrodagger",
+					"entries": [
+						"{@atk mw} +5, range 5 ft, one target. Hit 5 ({@dice 1d4 + 3})"
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-zayda.webp"
+		},
+		{
+			"name": "Neimoidian Kreehawk",
+			"source": "sw5e",
+			"page": 0,
+			"size": [
+				"S"
+			],
+			"type": "beast",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 50,
+				"formula": "11d6 + 11"
+			},
+			"speed": {
+				"walk": {
+					"number": 60,
+					"condition": "fly"
+				}
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 12,
+			"int": 4,
+			"wis": 14,
+			"cha": 6,
+			"skill": {
+				"perception": "+4"
+			},
+			"senses": [
+				"darkvision 60ft"
+			],
+			"passive": 14,
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Dive Attack",
+					"entries": [
+						"If the Neimoidian Kreehawk is flying and dives at least 30 ft. straight toward a target and then hits it with a talon attack, the attack deals an extra 2 ({@damage 1d4}) damage to the target."
+					]
+				},
+				{
+					"name": "Flyby",
+					"entries": [
+						"The Neimoidian Kreehawk doesn't provoke opportunity attacks when it flies out of an enemy's reach."
+					]
+				},
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"The Neimoidian Kreehawk has advantage on Wisdom (Perception) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Talons Melee Weapon Attack",
+					"entries": [
+						"+5, range 5ft, one target. Hit 6 ({@damage 1d6 + 3}) kinetic damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Flyby",
+				"Keen Senses"
+			],
+			"senseTags": [
+				"D"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-neimoidian-kreehawk.webp"
+		},
+		{
+			"name": "Quarren Assassin",
+			"source": "sw5e",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"quarren"
+				]
+			},
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"mesh armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 26,
+				"formula": "4d8 + 8"
+			},
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"str": 11,
+			"dex": 14,
+			"con": 16,
+			"int": 13,
+			"wis": 12,
+			"cha": 10,
+			"skill": {
+				"acrobatics": "+4",
+				"deception": "+2",
+				"perception": "+3",
+				"stealth": "+4"
+			},
+			"senses": [
+				"darkvision 60ft"
+			],
+			"passive": 13,
+			"languages": [
+				"Galactic Basic",
+				"Huttesem",
+				"Quarrenese"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Assassinate",
+					"entries": [
+						"During its first turn, the Quarren Assassin has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the assassin scores against a surprised creature is a critical hit."
+					]
+				},
+				{
+					"name": "Sneak Attack",
+					"entries": [
+						"Sneak Attack. (1/Turn). The Quarren Assassin deals an extra 3 ({@damage 1d6}) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the Quarren Assassin that isn't {@condition incapacitated} and the Quarren Assassin doesn't have disadvantage on the roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Blaster Pistol",
+					"entries": [
+						"{@atk rw} +4, range 40/160 ft, one target. Hit 5 ({@damage 1d6 + 2}) energy damage."
+					]
+				},
+				{
+					"name": "Ink Cloud (1/Rest)",
+					"entries": [
+						"Each creature in a 10-foot cone must make a {@dc 13} Constitution saving throw. On a failed save the creature is Blinded until the end of its next turn."
+					]
+				},
+				{
+					"name": "Vibrodagger",
+					"entries": [
+						"{@atk mw} +4, range 5 ft, one target. Hit 4 ({@dice 1d4 + 2})"
+					]
+				}
+			],
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"senseTags": [
+				"D"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RW"
+			],
+			"conditionInflict": [
+				"incapacitated"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-quarren-assassin.webp"
+		},
+		{
+			"name": "Twi'lek Poisoner",
+			"source": "sw5e",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"twi'lek"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 28,
+				"formula": "5d8 + 5"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 12,
+			"int": 13,
+			"wis": 11,
+			"cha": 12,
+			"skill": {
+				"acrobatics": "+5",
+				"deception": "+3",
+				"perception": "+3",
+				"performance": "+3",
+				"stealth": "+5"
+			},
+			"senses": [
+				"darkvision 60ft"
+			],
+			"passive": 13,
+			"resist": [
+				"poison"
+			],
+			"languages": [
+				"Galactic Basic",
+				"Huttese",
+				"Twi'leki"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Natural Antitoxins",
+					"entries": [
+						"The Twi'lek Poisoner has advantage on saving throws against poison and disease."
+					]
+				},
+				{
+					"name": "Trihexalon Poison",
+					"entries": [
+						"A creature struck by the Twi'lek Poisoner must make a {@dc 15} Constitution saving throw. A creature that fails the saving throw takes {@damage 2d4} poison damage and is Poisoned, a successful saving throw takes half damage but is still Poisoned. The creature must make this saving throw each round and this poison can only be cured by a {@dc 15} Medicine check or the antidote."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Vibrodagger",
+					"entries": [
+						"{@atk mw} +5, range 5 ft, one target. Hit 5 ({@dice 1d4 + 2})"
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-twilek-poisoner.webp"
+		},
+		{
+			"name": "Wookie Slaver",
+			"source": "sw5e",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"wookie"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"mesh armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 30,
+				"formula": "4d8 + 12"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 13,
+			"dex": 16,
+			"con": 17,
+			"int": 7,
+			"wis": 11,
+			"cha": 10,
+			"skill": {
+				"athletics": "+5",
+				"intimidation": "+5"
+			},
+			"senses": [
+				"darkvision 60ft"
+			],
+			"passive": 10,
+			"languages": [
+				"Galactic Basic (understands but does not speak)",
+				"Shryiiwook"
+			],
+			"cr": "1",
+			"action": [
+				{
+					"name": "Bowcaster",
+					"entries": [
+						"{@atk rw} +4, range 40/160 ft, one target. Hit 8 ({@damage 1d10 + 3}) energy damage."
+					]
+				},
+				{
+					"name": "Bowcaster Burst",
+					"entries": [
+						"{@atk rw} The Wookie Slaver sprays a 10 foot cube within 40 ft. Each creature in the area must make a {@dc 12} Dexterity saving throw, taking 8 ({@damage 1d10 + 3}) energy damage on a failed save."
+					]
+				},
+				{
+					"name": "Wookie Claws",
+					"entries": [
+						"{@atk mw} +3, range 5 ft, one target. Hit 3 ({@damage 1d4 + 1}) kinetic damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-wookie-black.webp"
+		},
+		{
+			"name": "Gamorrean Minion",
+			"source": "sw5e",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"gamorrean"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 23,
+				"formula": "3d8 + 9"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 15,
+			"dex": 12,
+			"con": 16,
+			"int": 10,
+			"wis": 10,
+			"cha": 7,
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"kinetic and energy"
+					],
+					"note": "from unenhanced weapons",
+					"cond": true
+				}
+			],
+			"languages": [
+				"Gamorrese",
+				"Galactic Basic (understands but can't speak.)"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Reckless",
+					"entries": [
+						"At the start of its turn, The Gammorean Warrior can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+					]
+				},
+				{
+					"name": "Brutal Critical",
+					"entries": [
+						"When the Gammorean Warrior scores a critical hit with a melee weapon attack, roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Vibroaxe Melee Weapon Attack",
+					"entries": [
+						"+4, range 5ft, one target. Hit 8 ({@damage 1d10 + 3}) kinetic damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Reckless"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-gamorrean.webp"
+		},
+		{
+			"name": "Gamorrean Warrior",
+			"source": "sw5e",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"gamorrean"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 30,
+				"formula": "4d8 + 12"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 16,
+			"int": 10,
+			"wis": 10,
+			"cha": 7,
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"kinetic and energy"
+					],
+					"note": "from unenhanced weapons",
+					"cond": true
+				}
+			],
+			"languages": [
+				"Gamorrese",
+				"Galactic Basic (understands but can't speak.)"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Reckless",
+					"entries": [
+						"At the start of its turn, the Gamorrean Warrior can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+					]
+				},
+				{
+					"name": "Brutal Critical",
+					"entries": [
+						"When the Gamorrean Warrior scores a critical hit with a melee weapon attack, roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Vibroaxe Melee Weapon Attack",
+					"entries": [
+						"+6, range 5ft, one target. Hit 11 ({@damage 1d10 + 6}) kinetic damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Reckless"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-gamorrean-warrior.webp"
+		},
+		{
+			"name": "Gamorrean Warlord",
+			"source": "sw5e",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"gamorrean"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"composite armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 30,
+				"formula": "4d8 + 12"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 18,
+			"dex": 12,
+			"con": 16,
+			"int": 12,
+			"wis": 10,
+			"cha": 7,
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"kinetic and energy"
+					],
+					"note": "from unenhanced weapons",
+					"cond": true
+				}
+			],
+			"languages": [
+				"Gamorrese",
+				"Galactic Basic (understands but can't speak.)"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Brutal Critical",
+					"entries": [
+						"When the Gamorrean Warlod scores a critical hit with a melee weapon attack, roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+					]
+				},
+				{
+					"name": "Leadership (1/Rest)",
+					"entries": [
+						"For 1 minute, the Gamorrean Warlord can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand the Gamorrean Warlord. A creature can benefit from only one Leadership die at a time. This effect ends if the Gamorrean Warlord is {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Reckless",
+					"entries": [
+						"At the start of its turn, the Gamorrean Warlord can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Blaster Rifle",
+					"entries": [
+						"{@atk rw} +3, range 100/400 ft, one target. Hit 5 ({@damage 1d8 + 1}) energy damage."
+					]
+				},
+				{
+					"name": "Gamorrean Vibroblade",
+					"entries": [
+						"{@atk mw} +6, range 5ft, one target. Hit 10 ({@damage 1d8 + 6}) kinetic damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Reckless"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-gamorrean-warlord.webp"
+		},
+		{
+			"name": "Jedi Master Denia",
+			"isNamedCreature": true,
+			"source": "sw5e",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"human"
+				]
+			},
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"battle precognition"
+					]
+				}
+			],
+			"hp": {
+				"average": 188,
+				"formula": "25d8 + 75"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 20,
+			"con": 16,
+			"int": 18,
+			"wis": 22,
+			"cha": 14,
+			"save": {
+				"dexterity": "+9",
+				"charisma": "+6"
+			},
+			"skill": {
+				"acrobatics": "+7",
+				"insight": "+9",
+				"lore": "+8",
+				"medicine": "+8",
+				"perception": "+9"
+			},
+			"passive": 21,
+			"languages": [
+				"Galactic Basic",
+				"Bocce",
+				"Neimoidian"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Defiant",
+					"entries": [
+						"(1/Rest) Jedi Master Denia can roll {@dice 1d4} and add it to a skill check or saving throw."
+					]
+				},
+				{
+					"name": "Forcecasting",
+					"entries": [
+						"Jedi Master Denia is a 16th-level forcecaster. Her forcecasting ability is Wisdom (power save {@dc 19}, {@hit 11} to hit with force attacks) and she has 54 force points. Denia knows the following force powers: At-will: {@spell force push/pull|sw5e}, {@spell force disarm|sw5e}, {@spell give life|sw5e}, {@spell guidance|sw5e}, {@spell saber reflect|sw5e}, {@spell turbulence|sw5e} 1st-level: {@spell battle precognition|sw5e}, {@spell burst of speed|sw5e}, {@spell heal|sw5e}, {@spell phasestrike|sw5e}, {@spell project|sw5e}, {@spell valor|sw5e} 2nd-level: {@spell animate weapon|sw5e}, {@spell calm emotions|sw5e}, {@spell force barrier|sw5e}, {@spell force camouflage|sw5e}, {@spell force sight|sw5e}, {@spell force throw|sw5e} 3rd-level: {@spell beacon of hope|sw5e}, {@spell knight speed|sw5e}, {@spell sever force|sw5e}, {@spell telekinetic storm|sw5e} 4th-level: {@spell force immunity|sw5e}, {@spell improved force camouflage|sw5e} 5th-level: {@spell improved phasestrike|sw5e}, {@spell mass animation|sw5e}, {@spell telekinesis|sw5e} 6th-level: {@spell telekinetic burst|sw5e} War Caster Jedi Master Denia has advantage on Constitution savin throws that it makes to maintain it's concentration on a power when it takes damage."
+					]
+				}
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/npc-master-denia.webp"
+		},
+		{
+			"name": "Gamorrean Jailer",
+			"source": "sw5e",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"gamorrean"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 23,
+				"formula": "3d8 + 9"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 15,
+			"dex": 12,
+			"con": 16,
+			"int": 10,
+			"wis": 10,
+			"cha": 7,
+			"passive": 10,
+			"resist": [
+				{
+					"resist": [
+						"kinetic and energy"
+					],
+					"note": "from unenhanced weapons",
+					"cond": true
+				}
+			],
+			"languages": [
+				"Gamorrese",
+				"Galactic Basic (understands but can't speak.)"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Reckless",
+					"entries": [
+						"At the start of its turn, The Gammorean Warrior can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+					]
+				},
+				{
+					"name": "Brutal Critical",
+					"entries": [
+						"When the Gammorean Warrior scores a critical hit with a melee weapon attack, roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Blaster Pistol Ranged Weapon Attack",
+					"entries": [
+						"+3, range 40/160, one target. Hit 4 ({@dice 1d6 + 1}) Electrobaton Melee Weapon Attack: +4, range 5ft, one target. Hit 4 ({@damage 1d4 + 2}) kinetic damage. A creature struck by the Gamorrean Jailer must make a {@dc 13} constitution save or take {@damage 1d4} lightning damage and become shocked until the end of its next turn."
+					]
+				}
+			],
+			"traitTags": [
+				"Reckless"
+			],
+			"languageTags": [
+				"CS"
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-gamorrean.webp"
+		},
+		{
+			"name": "Igren Demos",
+			"isNamedCreature": true,
+			"source": "sw5e",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"neimoidian"
+				]
+			},
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"battle precognition"
+					]
+				}
+			],
+			"hp": {
+				"average": 78,
+				"formula": "12d8 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 14,
+			"int": 12,
+			"wis": 12,
+			"cha": 18,
+			"skill": {
+				"deception": "+6",
+				"insight": "+3",
+				"investigation": "+3",
+				"perception": "+3",
+				"persuasion": "+6"
+			},
+			"passive": 13,
+			"languages": [
+				"Galactic Basic",
+				"Gamorrean",
+				"Huttese",
+				"Pak Pak"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Grovel, Cower, Beg",
+					"entries": [
+						"(1/Rest) Until the end of Igren's next turn, its allies gain advantage on attack rolls against enemies within 10 feet of it that can see it."
+					]
+				},
+				{
+					"name": "Careful Power",
+					"entries": [
+						"Igren Demos can spend an additional force point when casting a power that forces a saving throw to allow up to 4 creatures to automatically succeed."
+					]
+				},
+				{
+					"name": "Forcecasting",
+					"entries": [
+						"Igren Demos is a 5th-level forcecaster. His forcecasting ability is Charisma (power save {@dc 14}, {@hit 6} to hit with force attacks) and he has 23 force points. Igren Demos knows the following force powers: At-will: {@spell affect mind|sw5e}, {@spell force push/pull|sw5e} 1st-level: {@spell battle precognition|sw5e}, {@spell disperse force|sw5e}, {@spell tremor|sw5e} 2nd-level: {@spell force throw|sw5e} 3rd-level: {@spell sever force|sw5e}"
+					]
+				}
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-igren-demos.webp"
+		},
+		{
+			"name": "Trandoshan Bodyguard",
+			"source": "sw5e",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"trandoshan"
+				]
+			},
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"composite armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 30,
+				"formula": "4d8 + 12"
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 14,
+			"dex": 14,
+			"con": 12,
+			"int": 12,
+			"wis": 11,
+			"cha": 10,
+			"save": {
+				"dexterity": "+5"
+			},
+			"skill": {
+				"intimidate": "+4",
+				"survival": "+2",
+				"sensespassiveperception": "10"
+			},
+			"languages": [
+				"Galactic Basic",
+				"Dosh",
+				"Huttese"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Saving Face (1/Rest)",
+					"entries": [
+						"When the Trandoshan Bodyguard misses with an attack roll or fails an ability check, it can gain a bonus to the roll equal to the number of allies it can see (maximum bonus of +5) to the roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack The Trandoshan Bodyguard makes two Blaster Rifle attacks Blaster Rifle Ranged Weapon Attack",
+					"entries": [
+						"+4, range 100/400 ft, one target. Hit 6 ({@damage 1d8 + 2}) energy damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Intercept",
+					"entries": [
+						"When an ally within 5 ft is targeted by an attack, the Trandoshan Bodyguard can use its reaction to cause itself to be targeted by the attack instead."
+					]
+				},
+				{
+					"name": "Regenerative",
+					"entries": [
+						"When the Trandoshan takes damage, it can use its reaction to expend a hit die to regain hitpoints if the damage would not reduce its hitpoints to 0."
+					]
+				}
+			],
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-trandoshan1.webp"
+		}
+	]
+}
