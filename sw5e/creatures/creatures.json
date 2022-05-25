@@ -72,7 +72,7 @@
 			"miscTags": [
 				"RW"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/npc-neimoidian-citizen.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/npc-neimoidian-citizen.webp"
 		},
 		{
 			"name": "Viper Gang Member",
@@ -143,7 +143,7 @@
 			"damageTags": null,
 			"miscTags": null,
 			"conditionInflict": null,
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-viper-gang-member.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-viper-gang-member.webp"
 		},
 		{
 			"name": "Viper on Swoop Bike",
@@ -214,7 +214,7 @@
 			"damageTags": null,
 			"miscTags": null,
 			"conditionInflict": null,
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-viper-gang-member.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-viper-gang-member.webp"
 		},
 		{
 			"name": "Kessra",
@@ -309,7 +309,7 @@
 				"MW",
 				"RW"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-kessra.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-kessra.webp"
 		},
 		{
 			"name": "Warrick Raden",
@@ -403,7 +403,7 @@
 			"miscTags": [
 				"RW"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-warrick-raden.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-warrick-raden.webp"
 		},
 		{
 			"name": "Warrick's Hired Thug",
@@ -469,7 +469,7 @@
 				"MW",
 				"RW"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-thug2.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-thug2.webp"
 		},
 		{
 			"name": "Excavation Droid",
@@ -561,7 +561,7 @@
 			"miscTags": [
 				"MW"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-excavator-droid.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-excavator-droid.webp"
 		},
 		{
 			"name": "Darga The Hutt",
@@ -715,7 +715,7 @@
 				"grappled",
 				"prone"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-darga-the-hutt.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-darga-the-hutt.webp"
 		},
 		{
 			"name": "RX-7246",
@@ -809,7 +809,7 @@
 			"conditionInflict": [
 				"stunned"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-RX-7246.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-RX-7246.webp"
 		},
 		{
 			"name": "The Karg Brothers",
@@ -892,7 +892,7 @@
 			"languageTags": [
 				"CS"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-klarg-brothers.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-klarg-brothers.webp"
 		},
 		{
 			"name": "Zayda",
@@ -968,7 +968,7 @@
 				"MW",
 				"RW"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-zayda.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-zayda.webp"
 		},
 		{
 			"name": "Neimoidian Kreehawk",
@@ -1048,7 +1048,7 @@
 			"senseTags": [
 				"D"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-neimoidian-kreehawk.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-neimoidian-kreehawk.webp"
 		},
 		{
 			"name": "Quarren Assassin",
@@ -1153,7 +1153,7 @@
 			"conditionInflict": [
 				"incapacitated"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-quarren-assassin.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-quarren-assassin.webp"
 		},
 		{
 			"name": "Twi'lek Poisoner",
@@ -1236,7 +1236,7 @@
 			"miscTags": [
 				"MW"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-twilek-poisoner.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-twilek-poisoner.webp"
 		},
 		{
 			"name": "Wookie Slaver",
@@ -1317,7 +1317,7 @@
 				"MW",
 				"RW"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-wookie-black.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-wookie-black.webp"
 		},
 		{
 			"name": "Gamorrean Minion",
@@ -1400,7 +1400,7 @@
 			"languageTags": [
 				"CS"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-gamorrean.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-gamorrean.webp"
 		},
 		{
 			"name": "Gamorrean Warrior",
@@ -1483,7 +1483,7 @@
 			"languageTags": [
 				"CS"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-gamorrean-warrior.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-gamorrean-warrior.webp"
 		},
 		{
 			"name": "Gamorrean Warlord",
@@ -1582,7 +1582,7 @@
 				"MW",
 				"RW"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-gamorrean-warlord.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-gamorrean-warlord.webp"
 		},
 		{
 			"name": "Jedi Master Denia",
@@ -1655,7 +1655,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/npc-master-denia.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/npc-master-denia.webp"
 		},
 		{
 			"name": "Gamorrean Jailer",
@@ -1738,7 +1738,7 @@
 			"languageTags": [
 				"CS"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-gamorrean.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-gamorrean.webp"
 		},
 		{
 			"name": "Igren Demos",
@@ -1814,7 +1814,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-igren-demos.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-igren-demos.webp"
 		},
 		{
 			"name": "Trandoshan Bodyguard",
@@ -1898,7 +1898,7 @@
 					]
 				}
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/SW5e/main/assets/monster-trandoshan1.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-trandoshan1.webp"
 		}
 	]
 }
