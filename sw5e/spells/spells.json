@@ -6,7 +6,7 @@
 				"json": "orcnog_sw5e",
 				"abbreviation": "SW5e",
 				"full": "SW5e",
-				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/spells/spells_5etools.json",
+				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/spells/spells.json",
 				"authors": [],
 				"convertedBy": [
 					"orcnog"
@@ -20,7 +20,7 @@
 	[
 		{
 			"name": "Master Revitalize",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 9,
 			"school": "V",
@@ -64,7 +64,7 @@
 		},
 		{
 			"name": "Dun Moch",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "N",
@@ -115,7 +115,7 @@
 		},
 		{
 			"name": "Saber Assault",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -168,7 +168,7 @@
 		},
 		{
 			"name": "Telekinetic Burst",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "V",
@@ -222,7 +222,7 @@
 		},
 		{
 			"name": "Telepathic Link",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -272,7 +272,7 @@
 		},
 		{
 			"name": "Eruption",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "A",
@@ -321,7 +321,7 @@
 		},
 		{
 			"name": "Seethe",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "N",
@@ -365,7 +365,7 @@
 		},
 		{
 			"name": "Saber Onslaught",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "A",
@@ -414,7 +414,7 @@
 		},
 		{
 			"name": "Restoration",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "V",
@@ -458,7 +458,7 @@
 		},
 		{
 			"name": "Phasewalk",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "A",
@@ -502,7 +502,7 @@
 		},
 		{
 			"name": "Greater Pyrokinesis",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "A",
@@ -557,7 +557,7 @@
 		},
 		{
 			"name": "Improved Force Immunity",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "A",
@@ -607,7 +607,7 @@
 		},
 		{
 			"name": "Force Body",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -656,7 +656,7 @@
 		},
 		{
 			"name": "Knight Speed",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "A",
@@ -707,7 +707,7 @@
 		},
 		{
 			"name": "Battlemind",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "A",
@@ -757,7 +757,7 @@
 		},
 		{
 			"name": "Master Speed",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 7,
 			"school": "A",
@@ -808,7 +808,7 @@
 		},
 		{
 			"name": "Greater Saber Throw",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "A",
@@ -863,7 +863,7 @@
 		},
 		{
 			"name": "Guidance",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "V",
@@ -913,7 +913,7 @@
 		},
 		{
 			"name": "Force Imbuement",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "A",
@@ -962,7 +962,7 @@
 		},
 		{
 			"name": "Curse",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "N",
@@ -1013,7 +1013,7 @@
 		},
 		{
 			"name": "Convulsion",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "A",
@@ -1062,7 +1062,7 @@
 		},
 		{
 			"name": "Skill Empowerment",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "V",
@@ -1112,7 +1112,7 @@
 		},
 		{
 			"name": "Sense Force",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -1162,7 +1162,7 @@
 		},
 		{
 			"name": "Disable Droid",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "V",
@@ -1213,7 +1213,7 @@
 		},
 		{
 			"name": "Mass Coerce Mind",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "A",
@@ -1263,7 +1263,7 @@
 		},
 		{
 			"name": "Force Throw",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "A",
@@ -1312,7 +1312,7 @@
 		},
 		{
 			"name": "Stasis",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "V",
@@ -1363,7 +1363,7 @@
 		},
 		{
 			"name": "Land Stride",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "V",
@@ -1412,7 +1412,7 @@
 		},
 		{
 			"name": "Force Enlightenment",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "V",
@@ -1466,7 +1466,7 @@
 		},
 		{
 			"name": "Burst",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "A",
@@ -1514,7 +1514,7 @@
 		},
 		{
 			"name": "Drain Life",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "N",
@@ -1563,7 +1563,7 @@
 		},
 		{
 			"name": "Improved Force Scream",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "N",
@@ -1614,7 +1614,7 @@
 		},
 		{
 			"name": "Force Repulse",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "A",
@@ -1662,7 +1662,7 @@
 		},
 		{
 			"name": "Saber Strike",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "A",
@@ -1706,7 +1706,7 @@
 		},
 		{
 			"name": "Force Lightning Cone",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 7,
 			"school": "N",
@@ -1754,7 +1754,7 @@
 		},
 		{
 			"name": "Beacon of Hope",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "V",
@@ -1805,7 +1805,7 @@
 		},
 		{
 			"name": "Break",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "A",
@@ -1854,7 +1854,7 @@
 		},
 		{
 			"name": "Freedom of Movement",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "A",
@@ -1903,7 +1903,7 @@
 		},
 		{
 			"name": "Improved Phasestrike",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "A",
@@ -1952,7 +1952,7 @@
 		},
 		{
 			"name": "Force Whisper",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "A",
@@ -2002,7 +2002,7 @@
 		},
 		{
 			"name": "Force Weapon",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "A",
@@ -2052,7 +2052,7 @@
 		},
 		{
 			"name": "Death Field",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 8,
 			"school": "N",
@@ -2101,7 +2101,7 @@
 		},
 		{
 			"name": "Will of the Force",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 9,
 			"school": "V",
@@ -2149,7 +2149,7 @@
 		},
 		{
 			"name": "Force Chain Lightning",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "N",
@@ -2198,7 +2198,7 @@
 		},
 		{
 			"name": "Force Vision",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "A",
@@ -2248,7 +2248,7 @@
 		},
 		{
 			"name": "Plant Surge",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "V",
@@ -2293,7 +2293,7 @@
 		},
 		{
 			"name": "Shock",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "N",
@@ -2342,7 +2342,7 @@
 		},
 		{
 			"name": "Instinctive Movement",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -2391,7 +2391,7 @@
 		},
 		{
 			"name": "Force Scream",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "N",
@@ -2442,7 +2442,7 @@
 		},
 		{
 			"name": "Telekinetic Storm",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "V",
@@ -2496,7 +2496,7 @@
 		},
 		{
 			"name": "Darkness",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "N",
@@ -2547,7 +2547,7 @@
 		},
 		{
 			"name": "Force Focus",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "V",
@@ -2601,7 +2601,7 @@
 		},
 		{
 			"name": "Saber Throw",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "A",
@@ -2650,7 +2650,7 @@
 		},
 		{
 			"name": "Improved Revitalize",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 7,
 			"school": "V",
@@ -2694,7 +2694,7 @@
 		},
 		{
 			"name": "Control Pain",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "A",
@@ -2744,7 +2744,7 @@
 		},
 		{
 			"name": "Force Current",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -2792,7 +2792,7 @@
 		},
 		{
 			"name": "Phasestrike",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -2846,7 +2846,7 @@
 		},
 		{
 			"name": "Resistance",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "A",
@@ -2896,7 +2896,7 @@
 		},
 		{
 			"name": "Wall of Light",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "V",
@@ -2951,7 +2951,7 @@
 		},
 		{
 			"name": "Force Meld",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "A",
@@ -3001,7 +3001,7 @@
 		},
 		{
 			"name": "Kinetite",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "N",
@@ -3059,7 +3059,7 @@
 		},
 		{
 			"name": "Pyrokinesis",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "A",
@@ -3114,7 +3114,7 @@
 		},
 		{
 			"name": "Force Reflect",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -3158,7 +3158,7 @@
 		},
 		{
 			"name": "Armor of Abeloth",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "N",
@@ -3214,7 +3214,7 @@
 		},
 		{
 			"name": "Psychometry",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "A",
@@ -3263,7 +3263,7 @@
 		},
 		{
 			"name": "Malacia",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -3314,7 +3314,7 @@
 		},
 		{
 			"name": "Shroud of Darkness",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "N",
@@ -3368,7 +3368,7 @@
 		},
 		{
 			"name": "Rebuke",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "V",
@@ -3416,7 +3416,7 @@
 		},
 		{
 			"name": "Turbulence",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "V",
@@ -3465,7 +3465,7 @@
 		},
 		{
 			"name": "Insanity",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "N",
@@ -3515,7 +3515,7 @@
 		},
 		{
 			"name": "Stasis Field",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 8,
 			"school": "V",
@@ -3566,7 +3566,7 @@
 		},
 		{
 			"name": "Force Propel",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -3615,7 +3615,7 @@
 		},
 		{
 			"name": "Spirit Blade",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "A",
@@ -3663,7 +3663,7 @@
 		},
 		{
 			"name": "Force Trance",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "V",
@@ -3713,7 +3713,7 @@
 		},
 		{
 			"name": "Master Force Scream",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 8,
 			"school": "N",
@@ -3764,7 +3764,7 @@
 		},
 		{
 			"name": "Master Heal",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 9,
 			"school": "V",
@@ -3808,7 +3808,7 @@
 		},
 		{
 			"name": "Force Technique",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "V",
@@ -3861,7 +3861,7 @@
 		},
 		{
 			"name": "Wall Run",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "A",
@@ -3910,7 +3910,7 @@
 		},
 		{
 			"name": "Precognition",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 9,
 			"school": "A",
@@ -3959,7 +3959,7 @@
 		},
 		{
 			"name": "Lightning Charge",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "N",
@@ -4003,7 +4003,7 @@
 		},
 		{
 			"name": "Heal",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "V",
@@ -4051,7 +4051,7 @@
 		},
 		{
 			"name": "Slow",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "N",
@@ -4101,7 +4101,7 @@
 		},
 		{
 			"name": "Animate Weapon",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "A",
@@ -4151,7 +4151,7 @@
 		},
 		{
 			"name": "Heroism",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "V",
@@ -4201,7 +4201,7 @@
 		},
 		{
 			"name": "Telemetry",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -4245,7 +4245,7 @@
 		},
 		{
 			"name": "Plague",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "N",
@@ -4296,7 +4296,7 @@
 		},
 		{
 			"name": "Master Force Immunity",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 8,
 			"school": "A",
@@ -4346,7 +4346,7 @@
 		},
 		{
 			"name": "Necrotic Touch",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "N",
@@ -4399,7 +4399,7 @@
 		},
 		{
 			"name": "Psychic Charge",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "N",
@@ -4452,7 +4452,7 @@
 		},
 		{
 			"name": "Force Push/Pull",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "A",
@@ -4501,7 +4501,7 @@
 		},
 		{
 			"name": "Mass Animation",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "A",
@@ -4552,7 +4552,7 @@
 		},
 		{
 			"name": "Force Blur",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "A",
@@ -4602,7 +4602,7 @@
 		},
 		{
 			"name": "Wound",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "N",
@@ -4651,7 +4651,7 @@
 		},
 		{
 			"name": "Force Link",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 8,
 			"school": "A",
@@ -4700,7 +4700,7 @@
 		},
 		{
 			"name": "Force Lightning",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "N",
@@ -4748,7 +4748,7 @@
 		},
 		{
 			"name": "Saber Reflect",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "A",
@@ -4792,7 +4792,7 @@
 		},
 		{
 			"name": "Battle Precognition",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -4841,7 +4841,7 @@
 		},
 		{
 			"name": "Greater Feedback",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "N",
@@ -4890,7 +4890,7 @@
 		},
 		{
 			"name": "Force Disarm",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "A",
@@ -4935,7 +4935,7 @@
 		},
 		{
 			"name": "Affliction",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "N",
@@ -4986,7 +4986,7 @@
 		},
 		{
 			"name": "Locate Object",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "A",
@@ -5036,7 +5036,7 @@
 		},
 		{
 			"name": "Wakefulness",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "A",
@@ -5086,7 +5086,7 @@
 		},
 		{
 			"name": "Wrack",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "N",
@@ -5135,7 +5135,7 @@
 		},
 		{
 			"name": "Improved Saber Throw",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "A",
@@ -5187,7 +5187,7 @@
 		},
 		{
 			"name": "Force Storm",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 9,
 			"school": "N",
@@ -5242,7 +5242,7 @@
 		},
 		{
 			"name": "Improved Phasewalk",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "A",
@@ -5292,7 +5292,7 @@
 		},
 		{
 			"name": "Valor",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "V",
@@ -5343,7 +5343,7 @@
 		},
 		{
 			"name": "Hysteria",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "N",
@@ -5398,7 +5398,7 @@
 		},
 		{
 			"name": "Sense Emotion",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -5448,7 +5448,7 @@
 		},
 		{
 			"name": "Force Barrier",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "V",
@@ -5502,7 +5502,7 @@
 		},
 		{
 			"name": "Defensive Technique",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "V",
@@ -5555,7 +5555,7 @@
 		},
 		{
 			"name": "Shadow Sight",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -5604,7 +5604,7 @@
 		},
 		{
 			"name": "Telekinesis",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "A",
@@ -5655,7 +5655,7 @@
 		},
 		{
 			"name": "Force Suppression",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "A",
@@ -5700,7 +5700,7 @@
 		},
 		{
 			"name": "Sever Force",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "A",
@@ -5745,7 +5745,7 @@
 		},
 		{
 			"name": "Necrotic Charge",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "N",
@@ -5798,7 +5798,7 @@
 		},
 		{
 			"name": "Master Battle Meditation",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 9,
 			"school": "A",
@@ -5848,7 +5848,7 @@
 		},
 		{
 			"name": "Force Project",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 7,
 			"school": "A",
@@ -5898,7 +5898,7 @@
 		},
 		{
 			"name": "Horror",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "N",
@@ -5948,7 +5948,7 @@
 		},
 		{
 			"name": "Mind Blank",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 8,
 			"school": "A",
@@ -5997,7 +5997,7 @@
 		},
 		{
 			"name": "Improved Restoration",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "V",
@@ -6041,7 +6041,7 @@
 		},
 		{
 			"name": "Comprehend Speech",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -6090,7 +6090,7 @@
 		},
 		{
 			"name": "Force Sight",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "A",
@@ -6140,7 +6140,7 @@
 		},
 		{
 			"name": "Dark Shear",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "N",
@@ -6194,7 +6194,7 @@
 		},
 		{
 			"name": "True Sight",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "A",
@@ -6243,7 +6243,7 @@
 		},
 		{
 			"name": "Drain Vitality",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "N",
@@ -6298,7 +6298,7 @@
 		},
 		{
 			"name": "Mind Spike",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "N",
@@ -6353,7 +6353,7 @@
 		},
 		{
 			"name": "Slow Descent",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -6403,7 +6403,7 @@
 		},
 		{
 			"name": "Choke",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "N",
@@ -6452,7 +6452,7 @@
 		},
 		{
 			"name": "Saber Ward",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "A",
@@ -6501,7 +6501,7 @@
 		},
 		{
 			"name": "Master Pyrokinesis",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 7,
 			"school": "A",
@@ -6550,7 +6550,7 @@
 		},
 		{
 			"name": "Tremor",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -6599,7 +6599,7 @@
 		},
 		{
 			"name": "Stun",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "V",
@@ -6650,7 +6650,7 @@
 		},
 		{
 			"name": "Force Mask",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -6699,7 +6699,7 @@
 		},
 		{
 			"name": "Greater Heal",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "V",
@@ -6748,7 +6748,7 @@
 		},
 		{
 			"name": "Force Shunt",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "A",
@@ -6797,7 +6797,7 @@
 		},
 		{
 			"name": "Improved Heal",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "V",
@@ -6846,7 +6846,7 @@
 		},
 		{
 			"name": "Siphon Life",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "N",
@@ -6901,7 +6901,7 @@
 		},
 		{
 			"name": "Master Feedback",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 9,
 			"school": "N",
@@ -6950,7 +6950,7 @@
 		},
 		{
 			"name": "Probe Mind",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "N",
@@ -7005,7 +7005,7 @@
 		},
 		{
 			"name": "Mass Hysteria",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 9,
 			"school": "N",
@@ -7060,7 +7060,7 @@
 		},
 		{
 			"name": "Dark Aura",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "N",
@@ -7114,7 +7114,7 @@
 		},
 		{
 			"name": "Improved Battle Meditation",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "A",
@@ -7164,7 +7164,7 @@
 		},
 		{
 			"name": "Mass Malacia",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "A",
@@ -7215,7 +7215,7 @@
 		},
 		{
 			"name": "Rage",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "N",
@@ -7272,7 +7272,7 @@
 		},
 		{
 			"name": "Fear",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "N",
@@ -7323,7 +7323,7 @@
 		},
 		{
 			"name": "Grasping Vine",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "V",
@@ -7374,7 +7374,7 @@
 		},
 		{
 			"name": "Force Blind/Deafen",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "V",
@@ -7424,7 +7424,7 @@
 		},
 		{
 			"name": "Disperse Force",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -7477,7 +7477,7 @@
 		},
 		{
 			"name": "Bestow Curse",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "N",
@@ -7531,7 +7531,7 @@
 		},
 		{
 			"name": "Battle Insight",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "A",
@@ -7582,7 +7582,7 @@
 		},
 		{
 			"name": "Denounce",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "N",
@@ -7633,7 +7633,7 @@
 		},
 		{
 			"name": "Force Camouflage",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "A",
@@ -7683,7 +7683,7 @@
 		},
 		{
 			"name": "Hex",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "N",
@@ -7738,7 +7738,7 @@
 		},
 		{
 			"name": "Dark Side Tendrils",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "N",
@@ -7786,7 +7786,7 @@
 		},
 		{
 			"name": "Share Life",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "V",
@@ -7835,7 +7835,7 @@
 		},
 		{
 			"name": "Improved Force Barrier",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "V",
@@ -7884,7 +7884,7 @@
 		},
 		{
 			"name": "Feedback",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "N",
@@ -7933,7 +7933,7 @@
 		},
 		{
 			"name": "Sap Vitality",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "N",
@@ -7981,7 +7981,7 @@
 		},
 		{
 			"name": "Coerce Mind",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "A",
@@ -8032,7 +8032,7 @@
 		},
 		{
 			"name": "Force Leap",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "A",
@@ -8081,7 +8081,7 @@
 		},
 		{
 			"name": "Mind Prison",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "N",
@@ -8136,7 +8136,7 @@
 		},
 		{
 			"name": "Master Saber Throw",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 7,
 			"school": "A",
@@ -8187,7 +8187,7 @@
 		},
 		{
 			"name": "Telekinetic Shield",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "A",
@@ -8244,7 +8244,7 @@
 		},
 		{
 			"name": "Dominate Mind",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "N",
@@ -8295,7 +8295,7 @@
 		},
 		{
 			"name": "Force Mend",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 7,
 			"school": "V",
@@ -8348,7 +8348,7 @@
 		},
 		{
 			"name": "Dominate Beast",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "N",
@@ -8399,7 +8399,7 @@
 		},
 		{
 			"name": "Earthquake",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 8,
 			"school": "A",
@@ -8454,7 +8454,7 @@
 		},
 		{
 			"name": "Danger Sense",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "A",
@@ -8498,7 +8498,7 @@
 		},
 		{
 			"name": "Crush",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "N",
@@ -8547,7 +8547,7 @@
 		},
 		{
 			"name": "Force Blinding",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "V",
@@ -8596,7 +8596,7 @@
 		},
 		{
 			"name": "Project",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "V",
@@ -8645,7 +8645,7 @@
 		},
 		{
 			"name": "Agile Defense",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -8689,7 +8689,7 @@
 		},
 		{
 			"name": "Hallucination",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "N",
@@ -8744,7 +8744,7 @@
 		},
 		{
 			"name": "Improved Feedback",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "N",
@@ -8793,7 +8793,7 @@
 		},
 		{
 			"name": "Dominate Monster",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 8,
 			"school": "N",
@@ -8844,7 +8844,7 @@
 		},
 		{
 			"name": "Force Breach",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "A",
@@ -8889,7 +8889,7 @@
 		},
 		{
 			"name": "Tapas",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -8938,7 +8938,7 @@
 		},
 		{
 			"name": "Affect Mind",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "A",
@@ -8989,7 +8989,7 @@
 		},
 		{
 			"name": "Give Life",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "V",
@@ -9033,7 +9033,7 @@
 		},
 		{
 			"name": "Rescue",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "A",
@@ -9078,7 +9078,7 @@
 		},
 		{
 			"name": "Telekinetic Wave",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 8,
 			"school": "V",
@@ -9127,7 +9127,7 @@
 		},
 		{
 			"name": "Beast Trick",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "V",
@@ -9177,7 +9177,7 @@
 		},
 		{
 			"name": "Force Intuition",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -9226,7 +9226,7 @@
 		},
 		{
 			"name": "Spare the Dying",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "V",
@@ -9270,7 +9270,7 @@
 		},
 		{
 			"name": "Burst of Speed",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -9319,7 +9319,7 @@
 		},
 		{
 			"name": "Force Immunity",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "A",
@@ -9369,7 +9369,7 @@
 		},
 		{
 			"name": "Aura of Vigor",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "V",
@@ -9419,7 +9419,7 @@
 		},
 		{
 			"name": "Scourge",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "N",
@@ -9469,7 +9469,7 @@
 		},
 		{
 			"name": "Battle Meditation",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "A",
@@ -9519,7 +9519,7 @@
 		},
 		{
 			"name": "Force Confusion",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "A",
@@ -9570,7 +9570,7 @@
 		},
 		{
 			"name": "Locate Creature",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "A",
@@ -9620,7 +9620,7 @@
 		},
 		{
 			"name": "Force Jump",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -9664,7 +9664,7 @@
 		},
 		{
 			"name": "Sanctuary",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "V",
@@ -9714,7 +9714,7 @@
 		},
 		{
 			"name": "Stun Droid",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "V",
@@ -9765,7 +9765,7 @@
 		},
 		{
 			"name": "Maddening Darkness",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 8,
 			"school": "N",
@@ -9820,7 +9820,7 @@
 		},
 		{
 			"name": "Mind Trick",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "A",
@@ -9871,7 +9871,7 @@
 		},
 		{
 			"name": "Kill",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 9,
 			"school": "N",
@@ -9916,7 +9916,7 @@
 		},
 		{
 			"name": "Destroy Droid",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 7,
 			"school": "V",
@@ -9967,7 +9967,7 @@
 		},
 		{
 			"name": "Morichro",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "V",
@@ -10016,7 +10016,7 @@
 		},
 		{
 			"name": "Call Lightning",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "V",
@@ -10074,7 +10074,7 @@
 		},
 		{
 			"name": "Force Concealment",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "A",
@@ -10123,7 +10123,7 @@
 		},
 		{
 			"name": "Improved Pyrokinesis",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "A",
@@ -10172,7 +10172,7 @@
 		},
 		{
 			"name": "Revitalize",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "V",
@@ -10216,7 +10216,7 @@
 		},
 		{
 			"name": "Master Malacia",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "A",
@@ -10267,7 +10267,7 @@
 		},
 		{
 			"name": "Breath Control",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -10316,7 +10316,7 @@
 		},
 		{
 			"name": "Improved Force Camouflage",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "A",
@@ -10366,7 +10366,7 @@
 		},
 		{
 			"name": "Shocking Shield",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "N",
@@ -10419,7 +10419,7 @@
 		},
 		{
 			"name": "Remove Curse",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "V",
@@ -10463,7 +10463,7 @@
 		},
 		{
 			"name": "Aura of Purity",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "V",
@@ -10513,7 +10513,7 @@
 		},
 		{
 			"name": "Sonic Charge",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "A",
@@ -10566,7 +10566,7 @@
 		},
 		{
 			"name": "Improved Dark Side Tendrils",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "N",
@@ -10624,7 +10624,7 @@
 		},
 		{
 			"name": "Sound Trick",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "A",
@@ -10674,7 +10674,7 @@
 		},
 		{
 			"name": "Master Force Barrier",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 8,
 			"school": "V",
@@ -10724,7 +10724,7 @@
 		},
 		{
 			"name": "Enfeeble",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "N",
@@ -10773,7 +10773,7 @@
 		},
 		{
 			"name": "Heighten Senses",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "A",
@@ -10822,7 +10822,7 @@
 		},
 		{
 			"name": "Whirlwind",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 7,
 			"school": "A",
@@ -10877,7 +10877,7 @@
 		},
 		{
 			"name": "Mind Trap",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "A",
@@ -10928,7 +10928,7 @@
 		},
 		{
 			"name": "Ruin",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 7,
 			"school": "N",
@@ -10973,7 +10973,7 @@
 		},
 		{
 			"name": "Cloud Mind",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "V",
@@ -11023,7 +11023,7 @@
 		},
 		{
 			"name": "Sustained Lightning",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "N",
@@ -11078,7 +11078,7 @@
 		},
 		{
 			"name": "Art of Movement",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "A",
@@ -11132,7 +11132,7 @@
 		},
 		{
 			"name": "Calm Emotions",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "V",
@@ -11183,7 +11183,7 @@
 		},
 		{
 			"name": "Pull Earthward",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "A",
@@ -11234,7 +11234,7 @@
 		},
 		{
 			"name": "Incendiary Cloud",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 8,
 			"school": "C",
@@ -11269,7 +11269,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Hold Droid",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -11302,7 +11302,7 @@
 			"savingThrow": "constitution"
 		}, {
 			"name": "Energy Shield",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -11333,7 +11333,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Tracer Bolt",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -11367,7 +11367,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Irradiate",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -11402,7 +11402,7 @@
 			"savingThrow": "constitution"
 		}, {
 			"name": "Greater Hologram",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -11435,7 +11435,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Vertical Maneuvering",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -11467,7 +11467,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Lesser Mislead",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -11498,7 +11498,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Encrypted Message",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -11530,7 +11530,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Synchronicity",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "C",
@@ -11562,7 +11562,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Holding Cell",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "C",
@@ -11595,7 +11595,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Frequency Scan",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -11627,7 +11627,7 @@
 			"savingThrow": "wisdom"
 		}, {
 			"name": "Holographic Disguise",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -11658,7 +11658,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Squad Shield",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 7,
 			"school": "C",
@@ -11690,7 +11690,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Short Circuit",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -11724,7 +11724,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Flaming Shots",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -11758,7 +11758,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Disassemble",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 7,
 			"school": "C",
@@ -11785,7 +11785,7 @@
 			"savingThrow": "intelligence"
 		}, {
 			"name": "Electrical Burst",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -11814,7 +11814,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Shared Shielding",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -11845,7 +11845,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Toxic Cloud",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "C",
@@ -11880,7 +11880,7 @@
 			"savingThrow": "constitution"
 		}, {
 			"name": "Rime Shot",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -11911,7 +11911,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Smoke Cloud",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -11944,7 +11944,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Venomous Strike",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -11973,7 +11973,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Mobile Lights",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -12006,7 +12006,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Aid Droid",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -12036,7 +12036,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Instant Translocation",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -12063,7 +12063,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Reboot",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -12095,7 +12095,7 @@
 			"savingThrow": "charisma"
 		}, {
 			"name": "Capacity Boost",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -12127,7 +12127,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Autonomous Servant",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -12158,7 +12158,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Remove Virus",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -12185,7 +12185,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Detect Enhancement",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -12217,7 +12217,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Jump",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -12248,7 +12248,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Cryogenic Blast",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -12279,7 +12279,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Scramble Interface",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -12312,7 +12312,7 @@
 			"savingThrow": "intelligence"
 		}, {
 			"name": "Sabotage Charges",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -12346,7 +12346,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Alter Self",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -12378,7 +12378,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Carbon Fog",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "C",
@@ -12413,7 +12413,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Spectrum Ray",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -12441,7 +12441,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Rime Strike",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -12474,7 +12474,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Corrosive Sphere",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "C",
@@ -12504,7 +12504,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Immolate",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "C",
@@ -12539,7 +12539,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Copy",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -12566,7 +12566,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Neurotoxin",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 7,
 			"school": "C",
@@ -12594,7 +12594,7 @@
 			"savingThrow": "constitution"
 		}, {
 			"name": "Buffer",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -12627,7 +12627,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Firestorm",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "C",
@@ -12657,7 +12657,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Detect Invisibility",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -12688,7 +12688,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Cryogenic Blow",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -12722,7 +12722,7 @@
 			"savingThrow": "strength"
 		}, {
 			"name": "Shocking Ray",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -12752,7 +12752,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Gleaming Outline",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -12785,7 +12785,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Energizing Aura",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 8,
 			"school": "C",
@@ -12817,7 +12817,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Disperse Energy",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "C",
@@ -12849,7 +12849,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Expeditious Retreat",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -12881,7 +12881,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Wire Bind",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "C",
@@ -12915,7 +12915,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Decryption Program",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -12947,7 +12947,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Ward",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -12978,7 +12978,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Bestow Virus",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -13012,7 +13012,7 @@
 			"savingThrow": "intelligence"
 		}, {
 			"name": "Execute Command",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -13044,7 +13044,7 @@
 			"savingThrow": "intelligence"
 		}, {
 			"name": "Echo Blast",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -13074,7 +13074,7 @@
 			"savingThrow": "wisdom"
 		}, {
 			"name": "Mutate/Augment",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -13106,7 +13106,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Detonator",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -13136,7 +13136,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Jump Jet",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -13163,7 +13163,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Predictive AI",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 9,
 			"school": "C",
@@ -13194,7 +13194,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Analyze",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -13221,7 +13221,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Paralyze Creature",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "C",
@@ -13254,7 +13254,7 @@
 			"savingThrow": "constitution"
 		}, {
 			"name": "Extinguish",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -13284,7 +13284,7 @@
 			"savingThrow": "constitution"
 		}, {
 			"name": "Spectrum Bolt",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -13312,7 +13312,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Dismantle",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -13341,7 +13341,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Homing Rockets",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -13371,7 +13371,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Haywire",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -13401,7 +13401,7 @@
 			"savingThrow": "intelligence"
 		}, {
 			"name": "Override Interface",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "C",
@@ -13434,7 +13434,7 @@
 			"savingThrow": "intelligence"
 		}, {
 			"name": "Release",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -13462,7 +13462,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Carbonite Explosion",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 9,
 			"school": "C",
@@ -13492,7 +13492,7 @@
 			"savingThrow": "constitution"
 		}, {
 			"name": "Explosion",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -13522,7 +13522,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Minor Hologram",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -13554,7 +13554,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Pheromone Burst",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -13583,7 +13583,7 @@
 			"savingThrow": "charisma"
 		}, {
 			"name": "Greater Sabotage Charges",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 7,
 			"school": "C",
@@ -13617,7 +13617,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Warding Shot",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -13648,7 +13648,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Cryogenic Suspension",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -13681,7 +13681,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Lock",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -13712,7 +13712,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Oil Slick",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -13746,7 +13746,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Illusory Terrain",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "C",
@@ -13778,7 +13778,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Darkvision",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -13809,7 +13809,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Mending",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -13836,7 +13836,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Sensor Probe",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "C",
@@ -13869,7 +13869,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Greater Explosion",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 9,
 			"school": "C",
@@ -13899,7 +13899,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Concealed Caltrops",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -13934,7 +13934,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Warp Strike",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -13965,7 +13965,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Itemize",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -13993,7 +13993,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Project Hologram",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 7,
 			"school": "C",
@@ -14026,7 +14026,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Carbonite",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "C",
@@ -14059,7 +14059,7 @@
 			"savingThrow": "constitution"
 		}, {
 			"name": "Paralyze Humanoid",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -14092,7 +14092,7 @@
 			"savingThrow": "constitution"
 		}, {
 			"name": "Ionic Bond",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -14127,7 +14127,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Mass Repair Droid",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "C",
@@ -14157,7 +14157,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Element of Surprise",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -14187,7 +14187,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Acid Dart",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -14217,7 +14217,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Security Protocols",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "C",
@@ -14248,7 +14248,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Magnetic Hold",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -14280,7 +14280,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Jump Pad",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -14313,7 +14313,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Rewrite Memory",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "C",
@@ -14346,7 +14346,7 @@
 			"savingThrow": "wisdom"
 		}, {
 			"name": "Pyrotechnics",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -14374,7 +14374,7 @@
 			"savingThrow": "constitution"
 		}, {
 			"name": "Cryogenic Burst",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -14404,7 +14404,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Voltaic Shielding",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -14438,7 +14438,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Glide",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -14470,7 +14470,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Enhance Weapon",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -14502,7 +14502,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Superior Translation Program",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "C",
@@ -14533,7 +14533,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Tracker Droid Interface",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -14561,7 +14561,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Bacta Pack",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -14595,7 +14595,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Sonic Strike",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -14628,7 +14628,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Wire Tow",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -14663,7 +14663,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Pressure Crush",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -14692,7 +14692,7 @@
 			"savingThrow": "strength"
 		}, {
 			"name": "Fabricate Trap",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -14725,7 +14725,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Condense/Vaporize",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -14753,7 +14753,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Antipathy/Sympathy",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 8,
 			"school": "C",
@@ -14785,7 +14785,7 @@
 			"savingThrow": "wisdom"
 		}, {
 			"name": "Poison Spray",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -14815,7 +14815,7 @@
 			"savingThrow": "constitution"
 		}, {
 			"name": "Scrambling Field",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 8,
 			"school": "C",
@@ -14847,7 +14847,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Greater Translation Program",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -14878,7 +14878,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Toxin Purge",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -14909,7 +14909,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Cage",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 7,
 			"school": "C",
@@ -14941,7 +14941,7 @@
 			"savingThrow": "charisma"
 		}, {
 			"name": "Greater Analyze",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "C",
@@ -14968,7 +14968,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Kolto Waves",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 9,
 			"school": "C",
@@ -14996,7 +14996,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Diminish Tech",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -15024,7 +15024,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Mirror Image",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -15055,7 +15055,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Spectrum Discharge",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -15089,7 +15089,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Burst of Flame",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -15118,7 +15118,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Protection from Energy",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -15150,7 +15150,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Tactical Superiority",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 7,
 			"school": "C",
@@ -15183,7 +15183,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Contingency",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "C",
@@ -15214,7 +15214,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Energetic Burst",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -15247,7 +15247,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Alarm",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -15279,7 +15279,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Absorb Energy",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -15310,7 +15310,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Magnetic Field",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -15342,7 +15342,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Temporary Boost",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -15374,7 +15374,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Shatter",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -15404,7 +15404,7 @@
 			"savingThrow": "constitution"
 		}, {
 			"name": "Targeting Shot",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -15435,7 +15435,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Greater Salvo",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 9,
 			"school": "C",
@@ -15466,7 +15466,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Overheat",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -15501,7 +15501,7 @@
 			"savingThrow": "constitution"
 		}, {
 			"name": "Detect Traps",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -15533,7 +15533,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Tranquilizer",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -15565,7 +15565,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Storming Shot",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -15598,7 +15598,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Ballistic Shield",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "C",
@@ -15630,7 +15630,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Implant Message",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -15662,7 +15662,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Assess the Situation",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -15695,7 +15695,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Delayed Detonator",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -15730,7 +15730,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Overload",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -15759,7 +15759,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Sonic Shot",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -15790,7 +15790,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Adrenaline",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -15818,7 +15818,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Ionic Strike",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -15851,7 +15851,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Scrambling Barrier",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "C",
@@ -15883,7 +15883,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Preparedness",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -15914,7 +15914,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Enhance Droid",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -15948,7 +15948,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Minor Defibrillation",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -15977,7 +15977,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Tactical Advantage",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -16010,7 +16010,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Cryogenic Spray",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "C",
@@ -16039,7 +16039,7 @@
 			"savingThrow": "constitution"
 		}, {
 			"name": "Cryogenic Volley",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -16069,7 +16069,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Greater Energy Shield",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -16101,7 +16101,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Electromesh",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -16136,7 +16136,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Debilitating Gas",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -16169,7 +16169,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Fabricate",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "C",
@@ -16197,7 +16197,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Motivator Boost",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -16230,7 +16230,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Poison Dart",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -16260,7 +16260,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Sending",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -16291,7 +16291,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Tonal Translocate",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -16321,7 +16321,7 @@
 			"savingThrow": "constitution"
 		}, {
 			"name": "Acidic Strike",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -16354,7 +16354,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Target Lock",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -16387,7 +16387,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Programmed Illusion",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "C",
@@ -16419,7 +16419,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Disintegrate",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "C",
@@ -16449,7 +16449,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Elemental Accelerant",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "C",
@@ -16482,7 +16482,7 @@
 			"savingThrow": "constitution"
 		}, {
 			"name": "Kolto Reserve",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "C",
@@ -16513,7 +16513,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Kolto Infusion",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "C",
@@ -16543,7 +16543,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Flame Sweep",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -16572,7 +16572,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Hologram",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -16605,7 +16605,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Invulnerability",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 9,
 			"school": "C",
@@ -16637,7 +16637,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Vortex Shot",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -16664,7 +16664,7 @@
 			"savingThrow": "strength"
 		}, {
 			"name": "Group Hologram",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "C",
@@ -16696,7 +16696,7 @@
 			"savingThrow": "charisma"
 		}, {
 			"name": "Stun Dart",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 8,
 			"school": "C",
@@ -16724,7 +16724,7 @@
 			"savingThrow": "constitution"
 		}, {
 			"name": "Radiation",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "C",
@@ -16759,7 +16759,7 @@
 			"savingThrow": "constitution"
 		}, {
 			"name": "Tech Override",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -16787,7 +16787,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Invisibility to Cameras",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -16820,7 +16820,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Ion Blast",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -16850,7 +16850,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Jet of Flame",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -16883,7 +16883,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Acid Wind",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -16912,7 +16912,7 @@
 			"savingThrow": "constitution"
 		}, {
 			"name": "On/Off",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -16940,7 +16940,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Find the Path",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 6,
 			"school": "C",
@@ -16972,7 +16972,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Spot the Weakness",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -17005,7 +17005,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Tri-Shot",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -17035,7 +17035,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Tactical Barrier",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -17068,7 +17068,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Smuggle",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -17100,7 +17100,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Acid Splash",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -17130,7 +17130,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Slow-Release Medpac",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -17164,7 +17164,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Infiltrate",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -17196,7 +17196,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Sonic Fists",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -17229,7 +17229,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Kolto Pack",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -17259,7 +17259,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Reprogram Droid",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "C",
@@ -17293,7 +17293,7 @@
 			"savingThrow": "wisdom"
 		}, {
 			"name": "Mislead",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "C",
@@ -17325,7 +17325,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Combustive Shot",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -17356,7 +17356,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Shutdown",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "C",
@@ -17389,7 +17389,7 @@
 			"savingThrow": "intelligence"
 		}, {
 			"name": "Ring of Fire",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -17423,7 +17423,7 @@
 			"savingThrow": "wisdom"
 		}, {
 			"name": "Kolto Cloud",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -17453,7 +17453,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Read Memory",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -17485,7 +17485,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Cloaking Screen",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "C",
@@ -17517,7 +17517,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Repair Droid",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -17546,7 +17546,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Stinger",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -17580,7 +17580,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Wire Line",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -17610,7 +17610,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Scan Area",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "C",
@@ -17642,7 +17642,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Truth Serum",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -17673,7 +17673,7 @@
 			"savingThrow": "constitution"
 		}, {
 			"name": "Light",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -17704,7 +17704,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Greater Light",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -17736,7 +17736,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Friendly Fire",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "C",
@@ -17769,7 +17769,7 @@
 			"savingThrow": "intelligence"
 		}, {
 			"name": "Greater Translocate",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "C",
@@ -17801,7 +17801,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Barrage",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -17831,7 +17831,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Cryogenic Storm",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "C",
@@ -17862,7 +17862,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Kolto Dispenser",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -17897,7 +17897,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Illusory Strike",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -17928,7 +17928,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Salvo",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "C",
@@ -17959,7 +17959,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Destroy Tech",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 3,
 			"school": "C",
@@ -17989,7 +17989,7 @@
 			"savingThrow": "intelligence"
 		}, {
 			"name": "Time Bomb",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -18024,7 +18024,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Delayed Explosion",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 7,
 			"school": "C",
@@ -18057,7 +18057,7 @@
 			"savingThrow": "dexterity"
 		}, {
 			"name": "Skill Protocol",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 5,
 			"school": "C",
@@ -18089,7 +18089,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Stack the Deck",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -18122,7 +18122,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Electroshock",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 0,
 			"school": "C",
@@ -18151,7 +18151,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Defibrillate",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 4,
 			"school": "C",
@@ -18178,7 +18178,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Cryogenic Wave",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -18207,7 +18207,7 @@
 			"savingThrow": "constitution"
 		}, {
 			"name": "Translation Program",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -18238,7 +18238,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Toxin Scan",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -18270,7 +18270,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Translocate",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 2,
 			"school": "C",
@@ -18297,7 +18297,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Flash",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
@@ -18329,7 +18329,7 @@
 			"savingThrow": ""
 		}, {
 			"name": "Countermeasures",
-			"source": "sw5e",
+			"source": "orcnog_sw5e",
 			"page": 0,
 			"level": 1,
 			"school": "C",
