@@ -1077,25 +1077,6 @@
 			},
 			"hasToken": true,
 			"hasFluff": true
-		},
-		{
-			"name": "Kester the Kenku",
-			"isNpc": true,
-			"isNamedCreature": true,
-			"source": "orcnogTWC",
-			"page": 3,
-			"_copy": {
-				"name": "Master Thief",
-				"source": "MPMM",
-				"_mod": {
-					"*": {
-						"mode": "replaceTxt",
-						"replace": "the thief",
-						"with": "Kester",
-						"flags": "i"
-					}
-				}
-			}
 		}
 	],
 	"adventure": [
