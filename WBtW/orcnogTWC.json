@@ -30,6 +30,17 @@
 			]
 		},
 		{
+			"name": "Potion of Advantage",
+			"source": "orcnogTWC",
+			"page": 212,
+			"type": "P",
+			"rarity": "uncommon",
+			"entries": [
+				"When you drink this potion, you gain advantage on one ability check, attack roll, or saving throw of your choice that you make within the next hour.",
+				"This potion takes the form of a sparkling, golden mist that moves and pours like water."
+			]
+		},
+		{
 			"name": "Witchlight Vane",
 			"source": "orcnogTWC",
 			"page": 27,
@@ -3046,7 +3057,7 @@
 													"page": 48,
 													"id": "0d4",
 													"entries": [
-														"The jockey whose snail wins the race receives a {@item potion of advantage|WBtW} (see {@adventure appendix A|WBtW|6}). The jockey whose snail comes in last receives a consolation prize, provided they weren't disqualified. The consolation prize is a magic wand that allows its holder to cast the {@spell dancing lights} cantrip once. Once used to cast this spell, the wand turns into a tulip."
+														"The jockey whose snail wins the race receives a {@item potion of advantage|orcnogTWC} (see {@adventure appendix A|WBtW|6}). The jockey whose snail comes in last receives a consolation prize, provided they weren't disqualified. The consolation prize is a magic wand that allows its holder to cast the {@spell dancing lights} cantrip once. Once used to cast this spell, the wand turns into a tulip."
 													]
 												}
 											]
@@ -3139,7 +3150,7 @@
 													"page": 49,
 													"id": "0db",
 													"entries": [
-														"The chest hidden on the Ethereal Plane (which is worth 5,000 gp) contains recent earnings (210 sp and 70 gp), a {@item potion of diminution}, a {@item potion of growth}, and a {@item potion of advantage|WBtW} (see {@adventure appendix A|WBtW|6}). The potions are not labeled, but {@creature Mister Witch|orcnogTWC} knows which is which."
+														"The chest hidden on the Ethereal Plane (which is worth 5,000 gp) contains recent earnings (210 sp and 70 gp), a {@item potion of diminution}, a {@item potion of growth}, and a {@item potion of advantage|orcnogTWC} (see {@adventure appendix A|WBtW|6}). The potions are not labeled, but {@creature Mister Witch|orcnogTWC} knows which is which."
 													]
 												}
 											]
