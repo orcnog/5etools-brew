@@ -19,6 +19,118 @@
 	},
 	"item": [
 		{
+			"name": "Pixie Dust",
+			"source": "orcnogTWC",
+			"page": 212,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"As an action, you can sprinkle this dust on yourself or another creature you can see within 5 feet of you. The recipient gains a flying speed of 30 feet and the ability to hover for 1 minute. If the creature is airborne when this effect ends, it falls safely to the ground, taking no damage and landing on its feet.",
+				"A small packet holds enough pixie dust for one use."
+			]
+		},
+		{
+			"name": "Potion of Advantage",
+			"source": "orcnogTWC",
+			"page": 212,
+			"type": "P",
+			"rarity": "uncommon",
+			"entries": [
+				"When you drink this potion, you gain advantage on one ability check, attack roll, or saving throw of your choice that you make within the next hour.",
+				"This potion takes the form of a sparkling, golden mist that moves and pours like water."
+			]
+		},
+		{
+			"name": "Witchlight Vane",
+			"source": "orcnogTWC",
+			"page": 27,
+			"rarity": "legendary",
+			"reqAttune": "by a mister light or his handpicked successor",
+			"sentient": true,
+			"weight": 3,
+			"bonusWeapon": "+3",
+			"entries": [
+				"This ornate rod is topped by a pair of butterfly wings and incorporates bits of red glass into its length. It weighs 3 pounds.",
+				{
+					"type": "entries",
+					"name": "Magic Weapon",
+					"entries": [
+						"In the hands of one who is attuned to it, the vane can be wielded as a magic mace that grants a +3 bonus to attack and damage rolls made with it. In addition, the vane deals an extra {@damage 1d8} radiant damage on a hit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sense Mood",
+					"entries": [
+						"While the vane is inside the perimeter of the Witchlight Carnival, it can sense the mood of every creature in the carnival that has an Intelligence of 4 or higher. As an action, a creature attuned to the vane can use it to pinpoint the location of the happiest creature in the carnival.",
+						"The butterfly shape at the top of the vane spins slowly clockwise when spirits in the carnival are generally high; if the general mood in the carnival is dour, the top of the vane spins slowly counterclockwise."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sentience",
+					"entries": [
+						"The vane is a sentient, chaotic good wondrous item with an Intelligence of 11, a Wisdom of 14, and a Charisma of 14. It has hearing and normal vision out to a range of 30 feet, and it communicates by transmitting emotion to the creature attuned to it. Its purpose is to make sure everyone in the Witchlight Carnival is having a good time."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Additional Properties",
+					"entries": [
+						"The vane has the following additional properties:",
+						{
+							"type": "list",
+							"items": [
+								"The creature holding the vane has vulnerability to lightning damage.",
+								"The creature attuned to the vane can't be {@condition blinded}, {@condition deafened}, {@condition petrified}, or {@condition stunned}.",
+								"While carrying the vane, the creature attuned to it can cast the {@spell dancing lights}, {@spell polymorph}, or {@spell ray of frost} spell as an action, requiring no spell components and using Charisma as the spellcasting ability. After the vane's {@spell polymorph} spell is cast, roll a {@dice d8}; on a roll of 3 or 8, the vane can't be used to cast this spell again until the next dawn."
+							]
+						}
+					]
+				}
+			],
+			"attachedSpells": [
+				"dancing lights"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Witchlight Watch",
+			"source": "orcnogTWC",
+			"page": 25,
+			"rarity": "legendary",
+			"reqAttune": "by a mister witch or his handpicked successor",
+			"wondrous": true,
+			"entries": [
+				"This ornate pocket watch is fastened to the end of a gold chain. It glows with a faint golden light when opened, and it makes a soft ticking noise that can be heard only by the creature holding it. The face of the watch shows a miniature painting of the Witchlight Carnival ringed by a tiny henge, orbited at night by a mote of light small enough to slip through the eye of a needle. This light causes the henge to cast shadows, and these shadows allow the watch's owner to track the passage of time.",
+				{
+					"type": "entries",
+					"name": "Carnival Setup and Takedown",
+					"entries": [
+						"The creature attuned to the watch can use an action to initiate the packing up or the unpacking of the Witchlight Carnival, provided the creature and the carnival are on the same plane of existence. In the span of 1 hour, all objects that are elements of the carnival are magically whisked about until everything is packed up and ready for travel, or unpacked and assembled. The watch has no effect on creatures, which can move about freely and safely while the carnival is being set up or taken down. Once the process of packing up or unpacking the carnival begins, it can't be stopped until the task is complete. When the watch is used to pack up or unpack the carnival, this property cannot be used again until 8 hours have elapsed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Additional Properties",
+					"entries": [
+						"The pocket watch has the following additional properties:",
+						{
+							"type": "list",
+							"items": [
+								"While carrying the watch, the creature attuned to it can cast the {@spell fire bolt}, {@spell invisibility}, or {@spell message} spell as an action, requiring no spell components and using Intelligence as the spellcasting ability. After the watch's {@spell invisibility} spell is cast, roll a {@dice d8}; on a roll of 3 or 8, the watch can't be used to cast this spell again until the next dawn.",
+								"The creature attuned to the watch gains 30 pounds. This extra weight vanishes when the attunement ends.",
+								"The creature attuned to the watch must eat and drink eight times the normal amount each day."
+							]
+						}
+					]
+				}
+			],
+			"attachedSpells": [
+				"fire bolt"
+			]
+		},
+		{
 			"name": "Feywild Trinket",
 			"source": "orcnogTWC",
 			"page": 1,
@@ -473,7 +585,7 @@
 						],
 						[
 							"3",
-							"Packet of {@item pixie dust|WBtW} (see {@adventure appendix A|WBtW|6|Pixie Dust})."
+							"Packet of {@item pixie dust|orcnogTWC} (see {@adventure appendix A|WBtW|6|Pixie Dust})."
 						],
 						[
 							"4",
