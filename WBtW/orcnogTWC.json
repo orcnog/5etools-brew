@@ -1108,9 +1108,7 @@
 								"{@spell faerie fire}",
 								"{@spell speak with animals}"
 							]
-						},
-						"ability": "cha",
-						"displayAs": "action"
+						}
 					}
 				}
 			}
