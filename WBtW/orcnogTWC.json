@@ -793,92 +793,20 @@
 									],
 									"rows": [
 										[
-											"Amidor",
-											"AH-mee-dor"
-										],
-										[
-											"Bavlorna",
-											"bav-LOR-nah"
-										],
-										[
-											"Campestri",
-											"kam-PESS-tree"
-										],
-										[
-											"Dirlagraun",
-											"DER-lah-grawn"
-										],
-										[
-											"Dubhforgail",
-											"DOVE-er-gale"
-										],
-										[
-											"Endelyn",
-											"EN-deh-lin"
-										],
-										[
-											"Harengon",
-											"HAIR-en-gawn"
-										],
-										[
-											"Iggrik",
-											"IGG-rick"
-										],
-										[
 											"Iggwilv",
 											"IGG-wilv"
-										],
-										[
-											"Kalimanzaros",
-											"kah-leh-man-ZAH-ros"
 										],
 										[
 											"Madryck Roslof",
 											"MAD-rick RAWZ-loff"
 										],
 										[
-											"{@creature Mercion|WBtW}",
-											"MER-see-on"
-										],
-										[
 											"Naeryx Krumple",
 											"NAIR-ix KRUM-pull"
 										],
 										[
-											"Peaugh",
-											"PEE-awg"
-										],
-										[
-											"{@creature Raezil|WBtW} Uthemar",
-											"RAY-zil OOTH-uh-mar"
-										],
-										[
-											"{@creature Ringlerun|WBtW}",
-											"RING-gul-run"
-										],
-										[
-											"Skabatha",
-											"SKA-bah-thah"
-										],
-										[
-											"{@creature Skylla|WBtW}",
-											"SKILL-ah"
-										],
-										[
-											"Teaugh",
-											"TEE-awg"
-										],
-										[
 											"Urmius Umbrage",
 											"ER-mee-us UM-bredge"
-										],
-										[
-											"Weaugh",
-											"WEE-awg"
-										],
-										[
-											"Xinipax",
-											"ZIN-ee-pax"
 										],
 										[
 											"Zybilna",
@@ -1017,17 +945,17 @@
 														{
 															"type": "item",
 															"name": "Hour 1:",
-															"entry": "Welcome Gifts. Small gifts are handed out to lucky guests."
+															"entry": "{@area Welcome Gifts|0ec|x}. Small gifts are handed out to lucky guests."
 														},
 														{
 															"type": "item",
 															"name": "Hour 4:",
-															"entry": "Big Top Extravaganza. A midnight show gives the characters the chance to dazzle spectators and impress the carnival's ringmaster."
+															"entry": "{@area Big Top Extravaganza|0f0|x}. A midnight show gives the characters the chance to dazzle spectators and impress the carnival's ringmaster."
 														},
 														{
 															"type": "item",
 															"name": "Hour 8:",
-															"entry": "Crowning the Witchlight Monarch. The carnival's climactic event gives the characters a chance to meet the carnival's mysterious owners."
+															"entry": "{@area Crowning the Witchlight Monarch|0f2|x}. The carnival's climactic event gives the characters a chance to meet the carnival's mysterious owners."
 														}
 													]
 												},
@@ -2550,21 +2478,6 @@
 											"id": "0ea",
 											"entries": [
 												"If the characters reunite Candlefoot with his voice, Candlefoot seeks out Palasha and proposes marriage to her. Reuniting the couple causes the carnival's mood to rise by 2 steps (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table). From that point on, Palasha and Candlefoot treat the characters as trusted allies, which could prove useful during the crowning of the Witchlight Monarch, as they both have roles to play in the coronation."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"entries": [
-										{
-											"type": "entries",
-											"entries": [
-												{
-													"type": "entries",
-													"name": "The following events occur at specific times throughout the evening.",
-													"entries": []
-												}
 											]
 										}
 									]
