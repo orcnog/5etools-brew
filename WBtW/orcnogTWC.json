@@ -1230,8 +1230,7 @@
 												"An elderly goblin perches behind the ticket counter, peering at you quizzically through a spyglass. He lowers the spyglass and calls out to you: \"Greetings, fair fairgoers!\""
 											]
 										},
-										"Visitors are expected to buy tickets at this booth. An adult's ticket costs 8 sp, and a child's ticket costs 3 sp. Instead of paying money, a visitor can try to barter with the ticketer, Nikolas Midnight, a wrinkled {@creature goblin} (see \"Bartering for a Ticket\" below). For more information on Nikolas Midnight, see \"{@area Roleplaying Nikolas|086|x}\" below.",
-										"Under the ticket counter is an ornate wooden box with a silver clasp and the monogram N.M. It contains one prepaid ticket for each visiting character. These tickets were purchased by Ellywick Tumblestrum, but Tumblestrum has asked Nikolas not to divulge this information. Instead, Nikolas claims that these tickets were paid for by \"an anonymous benefactor.\"",
+										"Visitors are expected to buy tickets at this booth. A ticket costs one apple blossom flower. Instead of buying their ticket with an apple blossom, a visitor can try to barter with the ticketer, Nikolas Midnight, a wrinkled {@creature goblin} (see \"Bartering for a Ticket\" below). For more information on Nikolas Midnight, see \"{@area Roleplaying Nikolas|086|x}\" below.",
 										"After giving the characters their tickets, Nikolas hands the group a map of the carnival and gives each character a pair of colorful cloth butterfly wings to wear. Nikolas explains that the butterfly wings must be worn to show the staff that the characters are paid attendees. They are now free to explore the carnival at their leisure.",
 										{
 											"type": "entries",
@@ -1239,7 +1238,7 @@
 											"page": 31,
 											"id": "083",
 											"entries": [
-												"Nikolas explains that each ticket is good for eight attractions; characters who want to sample more of the carnival's offerings must buy another ticket. Most attractions in the carnival have a cost of 1 ticket punch. After the eighth punch, a ticket becomes a worthless keepsake.",
+												"Nikolas explains that each ticket is good for eight attractions; characters who want to sample more of the carnival's offerings must buy another ticket. Most attractions in the carnival have a cost of 1 ticket punch, but the pub trivia is free. After the eighth punch, a ticket becomes a worthless keepsake.",
 												{
 													"type": "inset",
 													"name": "Sneaking Inside",
@@ -1548,123 +1547,6 @@
 								},
 								{
 									"type": "entries",
-									"name": "Carousel",
-									"page": 34,
-									"id": "094",
-									"entries": [
-										{
-											"type": "insetReadaloud",
-											"id": "095",
-											"entries": [
-												"A procession of wooden unicorns stands motionless on a circular wooden platform. Fairgoers clamber onto the unicorns' backs, and a female centaur sets the ride in motion. The unicorns shake their manes and creak to life, cantering around the carousel to the delight of their riders."
-											]
-										},
-										"A ride on the carousel costs 1 ticket punch.",
-										{
-											"type": "entries",
-											"name": "Diana Cloppington",
-											"page": 35,
-											"id": "096",
-											"entries": [
-												"The individual who checks tickets and operates the carousel is named Diana Cloppington. Once a human, Diana sought the help of Granny Nightshade of the Hourglass Coven, desperately wishing to be reunited with her warhorse, which went missing in battle. The cruel hag magically fused the bodies of Diana and her horse, giving her the appearance of a centaur. Diana fled Prismeer and befriended {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW}, who offered her a home in their carnival.",
-												"Diana greets patrons with good humor, but there's a sadness behind her eyes. She's quick to correct anyone who calls her a centaur, saying that she's \"a human who made a bad deal.\" If Diana discovers that the characters are investigating the carnival for their own reasons, she tells them how a hag made good on a promise to reunite Diana with her missing horse; however, due to the nature of her bargain with the hag, there are several things that Diana can't talk about:",
-												{
-													"type": "image",
-													"href": {
-														"type": "internal",
-														"path": "adventure/WBtW/018-01-004.diana-cloppington.png"
-													},
-													"title": "Diana Cloppington",
-													"width": 850,
-													"height": 1183
-												},
-												{
-													"type": "list",
-													"items": [
-														"The Hourglass Coven",
-														"Zybilna's current predicament",
-														"Prismeer's current state"
-													]
-												},
-												"If she tries to speak or write about these forbidden topics, she painfully coughs up brown tree sap, or mushrooms blister on her fingers until she ceases her attempts. The carousel's wooden unicorns, however, can supply the characters with clues related to the hags (see \"Riddle of the Carousel\" below). Diana tells them that they must \"speak to the unicorns,\" but to earn their trust they must learn the names of all eight unicorns. Diana gives one of the characters a clay pot of gold paint and some paintbrushes. She says she can close the carousel for a short time while it undergoes some \"essential repairs.\""
-											]
-										},
-										{
-											"type": "entries",
-											"name": "Riddle of the Carousel",
-											"page": 35,
-											"id": "097",
-											"entries": [
-												"The carousel's eight unicorns ride in pairs, and each unicorn wears a name tag on its bridle. Some of the names are legible, while other name tags are worn and indecipherable.",
-												"The names for each pair of unicorns are key words from a well-known proverb. Before any of the unicorns share secrets with their riders, all of them must have their correct names painted on their tags. One unicorn in each pair has some letters missing from its name tag, but players who are familiar with the proverbs can fill in the missing letters.",
-												{
-													"type": "list",
-													"style": "list-hang-notitle",
-													"items": [
-														{
-															"type": "item",
-															"name": "First Pair",
-															"entry": "The first two unicorns are named Fortune and Bold, from the proverb \"Fortune favors the bold.\" Fortune's name tag is complete, but Bold's name tag reads B _ _ _."
-														},
-														{
-															"type": "item",
-															"name": "Second Pair",
-															"entry": "These unicorns' names are Pride and Fall, from the proverb \"Pride goes before a fall.\" Fall's name tag is complete, but Pride's name tag reads PR _ _ _."
-														},
-														{
-															"type": "item",
-															"name": "Third Pair",
-															"entry": "These unicorns' names are Stone and Moss, from the proverb \"A rolling stone gathers no moss.\" Stone's name tag is complete, but Moss's name tag reads M _ _ S."
-														},
-														{
-															"type": "item",
-															"name": "Fourth Pair",
-															"entry": "The last two unicorns are named Stitch and Nine, from the proverb \"A stitch in time saves nine.\" Stitch's name tag is complete, but Nine's name tag reads _ _ N _."
-														}
-													]
-												},
-												"If you are running this adventure for players who don't have a good grasp of English proverbs, use different pairs of words that the players will have an easier time identifying. For example, each pair of unicorns might have names that are synonymous with each other, such as Jolly/Merry (M E _ _ _), Breeze/Gust (G _ _ T), Tale/Yarn (_ _ R N), and Dawn/Sunrise (S _ _ _ I S _). Otherwise, choose names from idioms or proverbs with which your players are familiar.",
-												"When the characters are done painting names on the unicorns, Diana offers them a free ride on the attraction. Any unicorn whose name is incorrect gives a disgruntled whinny, and the characters learn nothing from any of the unicorns if they are ridden. If all the unicorns' names are correct, each unicorn telepathically shares with its rider three secrets about Prismeer or the Hourglass Coven during this ride. These secrets can be imparted in response to questions asked by the character, or they can be shared without a prompt if the character doesn't know what to ask.",
-												{
-													"type": "entries",
-													"name": "Lost Things Secrets",
-													"page": 35,
-													"id": "098",
-													"entries": [
-														"If you used the \"Lost Things\" adventure hook, a unicorn shares the following information with its rider:",
-														{
-															"type": "list",
-															"items": [
-																"The character learns which hag has the lost thing they're looking for ({@creature Bavlorna Blightstraw|WBtW}, {@creature Skabatha Nightshade|WBtW}, or {@creature Endelyn Moongrave|WBtW}).",
-																"The character is told that Bavlorna's lair is a rambling cottage on stilts in a fey swamp, Skabatha's lair is a dead, hollowed-out tree in a sylvan forest, and Endelyn's lair is a mountaintop theater.",
-																"The character learns a useful secret tied to the hag in question: \"The hag you seek is allergic to seeing someone run widdershins\" (for Bavlorna), \"The hag you seek sleeps in a dollhouse and can't remember the first creature she sees when she wakes up\" (for Skabatha), or \"The hag you seek has foreseen her own death, which happens during an eclipse\" (for Endelyn)."
-															]
-														}
-													]
-												},
-												{
-													"type": "entries",
-													"name": "Warlock's Quest Secrets",
-													"page": 35,
-													"id": "099",
-													"entries": [
-														"If you used the \"Warlock's Quest\" adventure hook, a character receives the following information while in telepathic contact with one of the carousel's unicorns:",
-														{
-															"type": "list",
-															"items": [
-																"Zybilna of Prismeer is frozen in time.",
-																"Three hags have seized control of Zybilna's domain and split it among them. Together, these hags form the Hourglass Coven.",
-																"The hags' names are {@creature Bavlorna Blightstraw|WBtW}, {@creature Skabatha Nightshade|WBtW}, and {@creature Endelyn Moongrave|WBtW}, and their splinter-realms are called Hither, Thither, and Yon. The coven is so riddled with distrust that each hag is convinced her sisters are plotting against her."
-															]
-														}
-													]
-												}
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
 									"name": "Dragonfly Rides",
 									"page": 36,
 									"id": "09a",
@@ -1758,19 +1640,7 @@
 											"page": 37,
 											"id": "0a2",
 											"entries": [
-												"This gnome bard (\"Tumblestrum\" to her friends) is in the Feasting Orchard when the characters first arrive. She sits on a swing that hangs from the branch of a pear tree, plucking the strings on her lute while eyeing the characters. If the characters happen to mention their free tickets, she reveals that she was the one who paid for them. When pressed for more information, she cryptically assures the characters that they're exactly where and when they're supposed to be but says no more.",
-												{
-													"type": "image",
-													"href": {
-														"type": "internal",
-														"path": "adventure/WBtW/020-01-005.ellywick-tumblestrum.png"
-													},
-													"title": "Ellywick Tumblestrum",
-													"width": 850,
-													"height": 929
-												},
-												"As the night progresses, Tumblestrum can reappear to provide hints about what the group needs to do; she can even guide the characters to Prismeer if all of their plans fall through (see \"Tumblestrum's Intervention\" in the \"{@area Timed Events|0eb|x}\" section later in the chapter). If she is threatened, she disappears in a flashy yet harmless pyrotechnic display. No stat block for Tumblestrum is necessary, since she won't harm or hinder the characters and can't be seriously harmed by them. Her thoughts are likewise hidden, since no magic can read them.",
-												"Tumblestrum is meant to be an enigma to the player characters. In truth, she is a savvy planar traveler who has visited and entertained folks on countless worlds. In some corners of the multiverse, she is what's known as a Planeswalker\u2014a fiercely independent and extremely powerful entity not to be trifled with. Tumblestrum disapproves of the Hourglass Coven's cruelty and aims to deliver some much-needed comeuppance. The gnome sees the characters as agents of change who can undo some of the damage caused by the coven, and she suspects that if they do so, the characters will be on their way to becoming heroes worthy of epic ballads."
+												"This gnome bard (\"Tumblestrum\" to her friends) is on stage in the Feasting Orchard when the characters first arrive. She sits on a stool, plucking the strings on her lute."
 											]
 										}
 									]
@@ -1904,8 +1774,8 @@
 											"id": "0ad",
 											"entries": [
 												"If the characters chase after Rubin when he enters the hall, Candlefoot looks shocked but doesn't follow them inside.",
-												"Any character who spends 1 minute searching for Rubin finds him with a successful DC 15 Wisdom ({@skill Perception}) check. The halfling is gazing worriedly into a mirror, and a little girl in a pig mask can be seen in the pane, whispering to the halfling's youthful reflection. As soon as she sees the characters, the girl turns and disappears. This figure is Sowpig (see \"{@area Thieves of the Coven|07c|x}\" earlier in the chapter), who is trying to lure the halfling to Thither so that {@creature Skabatha Nightshade|WBtW} can tempt him into a nefarious bargain. Rubin reveals that girl in the pig mask asked him if he had any regrets, and said that if he did, she knew someone who could help him\u2014he just had to follow her.",
-												"If the characters fail to find Rubin after 3 minutes, they come upon him as he steps into the mirror to join the girl in the pig mask. After he passes through the pane, his youthful reflection takes the girl's hand and walks away with her. The ring he intended for his sweetheart drops to the floor inside the hall as he disappears. Characters who try to follow Rubin are unable to pass through the mirror as he did."
+												"Any character who spends 1 minute searching for Rubin finds him with a successful DC 15 Wisdom ({@skill Perception}) check. The halfling is gazing worriedly into a mirror at his youthful reflection.",
+												"If the characters fail to find Rubin after 3 minutes, they come upon his ring on the floor inside the hall."
 											]
 										},
 										{
@@ -1914,95 +1784,7 @@
 											"page": 40,
 											"id": "0ae",
 											"entries": [
-												"On the {@adventure Story Tracker|WBtW|11}, jot down the names of any characters who succeeded on the Intelligence ({@skill History}) check to know that Tasha and Iggwilv are one and the same, because this information proves useful in {@adventure chapter 5|WBtW|5}. Also note if Rubin was led away by Sowpig, as the characters might encounter him again in {@adventure chapter 3|WBtW|3} (see {@area area L13|271|x}).",
 												"If the characters reunite the halfling couple, Ween accepts Rubin's proposal, and the carnival's mood rises by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter). If Rubin and Ween are not reunited, the mood of the carnival lowers by 1 step as word of Rubin's disappearance spreads."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Lost Property",
-									"page": 40,
-									"id": "0b0",
-									"entries": [
-										{
-											"type": "insetReadaloud",
-											"id": "0b1",
-											"entries": [
-												"Outside the lost property wagon is a large feline creature with midnight-blue fur. It has a pair of tentacles extending from its shoulders and wears fake butterfly wings. Hanging from its collar is a small wooden keg. The creature roughhouses with two young boys. One boy squeals, \"Again, Dirla, again!\" while the other hangs onto the creature's neck."
-											]
-										},
-										"Dirlagraun is a gray-whiskered {@creature displacer beast} that looks after stray children until they can be reunited with their parents. The keg fastened to its collar is filled with toffee apple juice and fitted with a spigot for easy pouring. The juice never fails to console an upset child.",
-										"When the characters arrive, the displacer beast is minding two boys named Viro and Allowin while their mother fetches food and drink. The displacer beast is unusual both in disposition and in its ability to speak Elvish and Sylvan. {@adventure Appendix D|WBtW|9} contains additional roleplaying notes for Dirlagraun.",
-										{
-											"type": "entries",
-											"name": "Missing Child",
-											"page": 40,
-											"id": "0b2",
-											"entries": [
-												{
-													"type": "image",
-													"href": {
-														"type": "internal",
-														"path": "adventure/WBtW/022-01-007.dirlagraun.png"
-													},
-													"title": "Dirlagraun",
-													"width": 850,
-													"height": 1085
-												},
-												"If the characters question Dirlagraun, it quietly cautions them that some things go missing from the Witchlight Carnival and never come back. Before it can say more, Viro, the older of the two boys, picks up a mirrored ball from the lost property wagon. In a rare moment of anger, Dirlagraun snatches the ball back with a snarl and a flick of its tentacle, causing Viro to dash away in fright.",
-												"Unable to leave the younger boy, Allowin, alone, Dirlagraun pleads with the characters to go after Viro. Any character who searches for Viro can make a DC 15 Wisdom ({@skill Perception}) check, locating him in a nearby candy stall on a success. If Viro isn't found, a character can repeat the check after continuing the search for another 10 minutes. If Viro is not found within the hour, the carnival's mood lowers by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter).",
-												"If the characters return with Viro, Dirlagraun is grateful and reveals that, many years ago, its own cub vanished from the carnival without a trace. The cub's name is Star, and all Dirlagraun has to remember Star by is its favorite toy\u2014the small, mirrored ball that Viro grabbed. If one or more characters declare their intention to search for Star, Dirlagraun gives the mirrored ball to them.",
-												"Unknown to anyone who works at the carnival, Star followed Sowpig (see \"{@area Thieves of the Coven|07c|x}\" earlier in the chapter) through a mirrored portal in the Hall of Illusions. The characters might encounter Star in {@adventure chapter 3|WBtW|3} (see \"{@area Little Oak|20c|x}\")."
-											]
-										},
-										{
-											"type": "entries",
-											"name": "Troubling Times",
-											"page": 41,
-											"id": "0b3",
-											"entries": [
-												"Dirlagraun is concerned that {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} are on edge. If the characters are willing to investigate, Dirlagraun advises against confronting the carnival owners directly. Instead, the displacer beast suggests that the characters sneak into the {@area Staff Area|0d5|x} behind the Big Top and spy on them."
-											]
-										}
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Mystery Mine",
-									"page": 41,
-									"id": "0b4",
-									"entries": [
-										{
-											"type": "insetReadaloud",
-											"id": "0b5",
-											"entries": [
-												"Propelled by magic, mine carts laden with fairgoers trundle into an opening carved like a dragon's mouth. The carts reappear moments later on the far side of the attraction, with the passengers expressing a mixture of bewilderment, fear, and excitement.",
-												"Near the entrance, a male dwarf dressed like a wizard shouts, \"Unlock the mysteries of your mind in the Mystery Mine!\" He has bushy eyebrows, wears a pointy hat, and holds a large clockwork contraption shaped like a giant eye."
-											]
-										},
-										"This ride costs 1 ticket punch.",
-										"The mine is the brainchild of an eccentric dwarf named Zephixo\u2014the same individual standing outside it. He uses the {@creature mage} stat block, with the following changes:",
-										{
-											"type": "list",
-											"items": [
-												"Zephixo (chaotic good) speaks Common, Dwarvish, Gnomish, and Sylvan.",
-												"He has {@sense darkvision} out to a range of 60 feet, resistance to poison damage, and advantage on saving throws against poison."
-											]
-										},
-										"Zephixo beckons visitors toward his \"All-Seeing Eye\" contraption. If the characters look into the eye, ask each player to write down their character's name alongside the name of a creature the character fears. Collect their notes and refer to them during the ride. Characters who don't gaze into the All-Seeing Eye can still enter the mine, at the cost of having a much less exhilarating experience.",
-										{
-											"type": "entries",
-											"name": "Riding the Mystery Mine",
-											"page": 41,
-											"id": "0b6",
-											"entries": [
-												"Each mine cart holds up to eight Medium creatures. As the characters pass through the dragon's mouth, the ride plunges them into an illusion-filled demiplane of undulating hills, corkscrewing trees, and prismatic skies.",
-												"As the characters' cart hurtles along the track, refer to the players' notes. Illusory forms of the characters' worst fears launch themselves at the mine cart, and it's up to you to describe how these fears manifest. The number of illusory forms equals the number of riders in the cart, and each character is confronted only once by their worst fear.",
-												"Each of the cart's riders must make a DC 12 Wisdom saving throw as each illusion appears. If the illusion a character faces is their own fear, they have disadvantage on the saving throw. On a failed save, a character is compelled to scream as the illusion terrifies them to the core; on a successful save, the character laughs at the illusion as it rushes by harmlessly. Ask the players to keep track of how many of these saving throws their characters fail.",
-												"Any character who succeeds on all the saving throws gains advantage on all Charisma-based ability checks made at the carnival. This effect lasts until the crowning of the Witchlight Monarch (see \"{@area Timed Events|0eb|x}\" toward the end of the chapter).",
-												"Any character who fails three or more of the ride's saving throws is haunted by nightmares for {@dice 1d8} days. Until the nightmares end, the character must succeed on a DC 12 Wisdom saving throw after finishing a long rest or gain {@dice 1d3} levels of {@condition exhaustion}. On the {@adventure Story Tracker|WBtW|11}, record the character's name and the number of days remaining until the nightmares cease, reducing that number by 1 after each long rest. Any spell that ends a curse rids the character of these nightmares but doesn't remove levels of {@condition exhaustion} gained as a result of them."
 											]
 										}
 									]
