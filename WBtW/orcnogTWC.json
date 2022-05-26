@@ -570,6 +570,116 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Mood Rises",
+			"source": "orcnogTWC",
+			"page": 3,
+			"type": "G",
+			"rarity": "none",
+			"entries": [
+				"Roll on the Mood Rises table to bring the carnival to life when the Carnival Mood rises.",
+				{
+					"type": "table",
+					"colLabels": [
+						"d8",
+						"Event"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"Bright flowers you swore weren't there a second ago have blossomed underfoot, as a distant bird begins to sing sweetly, cutting through the babbling of the crowd."
+						],
+						[
+							"2",
+							"The clouds ahead part and beautiful beams of moonlight that seem impossibly solid begin to bask the carnival grounds in dancing, ethereal light."
+						],
+						[
+							"3",
+							"The distant music of the calliope that permeates the carnival swells to a grand crescendo, and you see several carnival goers are unconsciously smiling and nodding along and a group of children break out into dance."
+						],
+						[
+							"4",
+							"A Tiefling on stilts breaths out a colossal burst of rainbow flame for a cheering crowd. The flames turn into a shower of butterflies that flitter into the audience, and the tiefling bows."
+						],
+						[
+							"5",
+							"A group of Pixies flies through the air, trailing a stream of rainbow pixie dust, causing a group of children to rise into the air after them. Giggling, they begin a chase through the sky until the dust wears off and gently lowers the children back to the ground."
+						],
+						[
+							"6",
+							"A cluster of brightly coloured mushrooms nearby begin to flicker and glow with rainbow light, as brightly coloured spores drift into the air and begin to pop like tiny fireworks, to the delight of a small group of Pixies nearby."
+						],
+						[
+							"7",
+							"A Giant Dragonfly whizzes overhead and does a somersault in mid air as carnival goers cheer the rider on. Halfway through a barrel roll, they drop a handful of candy for the children below to scramble for, before flying off."
+						],
+						[
+							"8",
+							"Three children with painted faces; a dragon, a lion, and a sheep; are playing at being a Chimera, chased by another child dressed as a knight, as carnival goers cheer them on. Eventually, the knight is victorious, and all three Chimera children play out a dramatic death as their parents laugh."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Mood Lowers",
+			"source": "orcnogTWC",
+			"page": 3,
+			"type": "G",
+			"rarity": "none",
+			"entries": [
+				"Roll on the Mood Lowers table to bring the carnival to life when the Carnival Mood lowers.",
+				{
+					"type": "table",
+					"colLabels": [
+						"d8",
+						"Event"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"As clouds pass across the moonlit sky, the colours of the carnival seem to fade. Flying banners and glowing lanterns are dimmer and greyer than they were a moment before."
+						],
+						[
+							"2",
+							"The distant music of the calliope that permeates the carnival seems to take on a somber tone as it changes suddenly to a minor key, almost like a funeral dirge."
+						],
+						[
+							"3",
+							"Clouds gather above, blocking out the light of the moon and stars, and a cold rain begins to fall. Carnival goers around you run for cover under the awnings and shiver."
+						],
+						[
+							"4",
+							"The constant traffic of people and animals has turned the grass underfoot into sticky black mud. A faint odor begins to rise from the carnival grounds, of muck and manure, undercutting the scent of flowers and popcorn."
+						],
+						[
+							"5",
+							"A running Halfling child trips over a root and spills her candy and popcorn all over the ground. She begins to cry, nursing a hurt knee, calling out for her parents: but they are nowhere to be found, as a Witchlight Hand escorts her to lost property."
+						],
+						[
+							"6",
+							"The noise of the carnival seems muted, and the crowds seem thin. Small clusters of carnival goers drift quietly from stand to stand, but most of the attractions appear unusually dark and quiet."
+						],
+						[
+							"7",
+							"A cluster of giant bubbles drifting overhead pop suddenly and drizzle everyone around you with a shower of cold, slimy liquid."
+						],
+						[
+							"8",
+							"A little Halfling girl dressed as a Unicorn is in tears as she searches fruitlessly for her broken horn. Eventually, after searching through the mud unsuccessfully, her entire outfit is ruined and she gives up."
+						]
+					]
+				}
+			]
 		}
 	],
 	"adventure": [
@@ -822,7 +932,7 @@
 													"width": 850,
 													"height": 1770
 												},
-												"The players may want to know more about the portal and how to find it--who should they ask about its location? What does it look like? Is it dangerous to pass through?  Here's what Madryck knows and is willing to share:",
+												"The players may want to know more about the portal and how to find it\u2014who should they ask about its location? What does it look like? Is it dangerous to pass through?  Here's what Madryck knows and is willing to share:",
 												{
 													"type": "list",
 													"items": [
@@ -931,7 +1041,7 @@
 											"id": "065",
 											"entries": [
 												"The characters' actions in the Witchlight Carnival can affect the overall mood at the carnival. When the characters arrive at the carnival, place a token in the starting space of the track in the lower right corner of the poster map. This token moves right or left along the track as the carnival's atmosphere changes for better or worse.",
-												"The text informs you when to raise or lower the mood. When the token is to the right of the starting space, spirits are high: colors appear more vibrant, flowers bloom around the fairgrounds, and shooting stars sweep across the clear night sky. When the token is to the left of the starting space, the mood becomes darker: the calliope music plays discordantly, the staff is tense, and stormy weather looms in the sky above the carnival.",
+												"The text informs you when to raise or lower the mood. When the token is to the right of the starting space, spirits are high: colors appear more vibrant, flowers bloom around the fairgrounds, and shooting stars sweep across the clear night sky (roll on the {@item Mood Rises|orcnogTWC|Mood Rises table}). When the token is to the left of the starting space, the mood becomes darker: the calliope music plays discordantly, the staff is tense, and stormy weather looms in the sky above the carnival (roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers table}).",
 												"The carnival's mood is used to trigger an important meeting between the characters and the carnival owners. If the mood reaches either of the end spaces on the track, the carnival's owners invite the characters to speak with them in their wagon (see \"{@area Meeting Witch and Light|0dd|x}\" toward the end of the chapter). Characters who attend the Big Top Extravaganza can also receive an invitation to meet with the owners, even if the carnival's mood isn't in an extreme state.",
 												{
 													"type": "inset",
@@ -1065,8 +1175,8 @@
 									"page": 28,
 									"id": "077",
 									"entries": [
-										"There's no handbook for how guests of the Witchlight Carnival are expected to behave; certain actions are tolerated, while others cause offense. Politeness goes a long way: paying attention when spoken to, laughing at jokes, and joining in with games and singing. Every so often, you can raise the carnival's mood by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter) if the party is consistently polite to carnival staff and fellow attendees.",
-										"Conversely, acts such as interrupting someone, being rude, or grumpily refusing to dance are unfavorable. Lower the carnival's mood by 1 step if the characters actively offend anyone they meet.",
+										"There's no handbook for how guests of the Witchlight Carnival are expected to behave; certain actions are tolerated, while others cause offense. Politeness goes a long way: paying attention when spoken to, laughing at jokes, and joining in with games and singing. Every so often, you can raise the carnival's mood by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Rises|orcnogTWC|Mood Rises table}) if the party is consistently polite to carnival staff and fellow attendees.",
+										"Conversely, acts such as interrupting someone, being rude, or grumpily refusing to dance are unfavorable. Lower the carnival's mood by 1 step if the characters actively offend anyone they meet (roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers table}).",
 										{
 											"type": "entries",
 											"name": "Theft and Violence",
@@ -1685,7 +1795,7 @@
 											"page": 38,
 											"id": "0a5",
 											"entries": [
-												"If the characters annoy Feathereen, she is irritable for the rest of the evening, and the carnival's mood lowers by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter). If pleased, she remains in high spirits, which raises the carnival's mood by 1 step."
+												"If the characters annoy Feathereen, she is irritable for the rest of the evening, and the carnival's mood lowers by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers table}). If pleased, she remains in high spirits, which raises the carnival's mood by 1 step (roll on the {@item Mood Rises|orcnogTWC|Mood Rises table})."
 											]
 										}
 									]
@@ -1784,7 +1894,7 @@
 											"page": 40,
 											"id": "0ae",
 											"entries": [
-												"If the characters reunite the halfling couple, Ween accepts Rubin's proposal, and the carnival's mood rises by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter). If Rubin and Ween are not reunited, the mood of the carnival lowers by 1 step as word of Rubin's disappearance spreads."
+												"If the characters reunite the halfling couple, Ween accepts Rubin's proposal, and the carnival's mood rises by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Rises|orcnogTWC|Mood Rises table}). If Rubin and Ween are not reunited, the mood of the carnival lowers by 1 step as word of Rubin's disappearance spreads (roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers table})."
 											]
 										}
 									]
@@ -1803,7 +1913,7 @@
 											]
 										},
 										"The {@creature pixie} introduces himself as Jeremy Plum and does his best to persuade the characters that the Pixie Kingdom is the best attraction the carnival has to offer. Entry to the attraction costs 1 ticket punch.",
-										"Jeremy encourages the characters to adopt pixie names before entering; refer to the table below for ideas. The carnival's mood rises by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter) if all the characters use their adopted pixie names while in the attraction.",
+										"Jeremy encourages the characters to adopt pixie names before entering; refer to the table below for ideas. The carnival's mood rises by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Rises|orcnogTWC|Mood Rises table}) if all the characters use their adopted pixie names while in the attraction.",
 										{
 											"type": "entries",
 											"name": "Pixie Names",
@@ -1959,7 +2069,7 @@
 											"page": 43,
 											"id": "0bf",
 											"entries": [
-												"This event occurs the first time the characters watch Palasha perform. Kettlesteam, the kenku warlock, snakes through the crowd, using {@spell disguise self} and Mimicry to pose as different hecklers. After three mean-spirited jeers, the mermaid falters in mid-song, leaps out of her bowl, and darts off, heading downriver. Her abrupt departure causes the carnival's mood to lower by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter).",
+												"This event occurs the first time the characters watch Palasha perform. Kettlesteam, the kenku warlock, snakes through the crowd, using {@spell disguise self} and Mimicry to pose as different hecklers. After three mean-spirited jeers, the mermaid falters in mid-song, leaps out of her bowl, and darts off, heading downriver. Her abrupt departure causes the carnival's mood to lower by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers table}).",
 												{
 													"type": "image",
 													"href": {
@@ -1980,7 +2090,7 @@
 											"id": "0c0",
 											"entries": [
 												"If she is driven from Silversong Lake by heckling, Palasha takes refuge in the river near the Hall of Illusions. To coax her back to the lake, the characters must perform an act of gallantry, such as helping Candlefoot find his lost voice.",
-												"If the characters persuade Palasha to return to the lake and resume her performance, the carnival's mood rises by 2 steps (see \"Tracking Mood\" earlier in the chapter). Palasha offers a singing lesson to any characters who helped her. On the {@adventure Story Tracker|WBtW|11}, jot down the names of characters who received a singing lesson from the mermaid. Their talent might benefit them in {@adventure chapter 3|WBtW|3} (see \"{@area Uncorrupted Fairy Rings|1ee|x}\")."
+												"If the characters persuade Palasha to return to the lake and resume her performance, the carnival's mood rises by 2 steps (see \"Tracking Mood\" earlier in the chapter, and roll on the {@item Mood Rises|orcnogTWC|Mood Rises table}). Palasha offers a singing lesson to any characters who helped her. On the {@adventure Story Tracker|WBtW|11}, jot down the names of characters who received a singing lesson from the mermaid. Their talent might benefit them in {@adventure chapter 3|WBtW|3} (see \"{@area Uncorrupted Fairy Rings|1ee|x}\")."
 											]
 										}
 									]
@@ -2198,7 +2308,7 @@
 											]
 										},
 										"Snail racing is a highly competitive, fast-paced sport that draws a lively crowd. Characters can participate in the race as snail jockeys, but it costs 1 ticket punch to enter. On the {@adventure Story Tracker|WBtW|11}, jot down the names of any characters who take part in the snail racing, as the experience might prove useful in {@adventure chapter 2|WBtW|2} (see \"{@area Reaching the Bottom|115|x}\").",
-										"If at least half the characters participate in a snail race, the carnival's mood rises by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter). If anyone breaks the rules, the mood lowers by 1 step.",
+										"If at least half the characters participate in a snail race, the carnival's mood rises by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Rises|orcnogTWC|Mood Rises table}). If anyone breaks the rules, the mood lowers by 1 step (roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers table}).",
 										{
 											"type": "entries",
 											"name": "Snails and Pixies",
@@ -2510,7 +2620,7 @@
 											"id": "0ea",
 											"entries": [
 												"If the characters reunite Candlefoot with his voice, note this accomplishment on the {@adventure Story Tracker|WBtW|11}. The grateful Candlefoot gives the characters an acting lesson at the earliest opportunity, giving them a talent that might prove useful in {@adventure chapter 4|WBtW|4} (see the \"{@area Fey Beacons|2ba|x}\" section).",
-												"Once he regains his voice, Candlefoot seeks out Palasha and proposes marriage to her. Reuniting the couple causes the carnival's mood to rise by 2 steps (see \"{@area Tracking Mood|065|x}\" earlier in the chapter). From that point on, Palasha and Candlefoot treat the characters as trusted allies, which could prove useful during the crowning of the Witchlight Monarch, as they both have roles to play in the coronation."
+												"Once he regains his voice, Candlefoot seeks out Palasha and proposes marriage to her. Reuniting the couple causes the carnival's mood to rise by 2 steps (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Rises|orcnogTWC|Mood Rises table}). From that point on, Palasha and Candlefoot treat the characters as trusted allies, which could prove useful during the crowning of the Witchlight Monarch, as they both have roles to play in the coronation."
 											]
 										}
 									]
@@ -2602,8 +2712,8 @@
 														"\"Welcome, one and all, to this evening's extravaganza! I am {@creature Mister Light|WBtW}. Prepare to be delighted!\""
 													]
 												},
-												"The extravaganza involves several of the carnival's star performers and attractions, with {@creature Mister Light|WBtW} serving as ringmaster. Over the course of an hour, Burly the bugbear performs feats of strength, Palasha the mermaid serenades the audience from a clamshell bathing pool, Candlefoot the mime plays silent games with audience members, and faerie dragons with bright streamers tied to their tails perform dazzling acts of synchronized flying as a troupe of acrobats, clowns, and fire-breathers parade about. If the characters attempt to disrupt the show, {@creature Mister Light|WBtW} deflects their interruptions with banter and maintains a jovial demeanor. Persistent heckling lowers the carnival's mood by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter).",
-												"Near the end of the show, {@creature Mister Light|WBtW} asks if any guests would like to perform their own acts for the crowd. Any character who accepts the offer can woo spectators with a DC 14 Charisma ({@skill Performance}) check, raising the carnival's mood by 1 step on a success. If multiple characters choose to perform together, make it a group check instead, but raise the carnival's mood by 3 steps if the group check succeeds. A character can improve the carnival's mood only once during this extravaganza.",
+												"The extravaganza involves several of the carnival's star performers and attractions, with {@creature Mister Light|WBtW} serving as ringmaster. Over the course of an hour, Burly the bugbear performs feats of strength, Palasha the mermaid serenades the audience from a clamshell bathing pool, Candlefoot the mime plays silent games with audience members, and faerie dragons with bright streamers tied to their tails perform dazzling acts of synchronized flying as a troupe of acrobats, clowns, and fire-breathers parade about. If the characters attempt to disrupt the show, {@creature Mister Light|WBtW} deflects their interruptions with banter and maintains a jovial demeanor. Persistent heckling lowers the carnival's mood by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers table}).",
+												"Near the end of the show, {@creature Mister Light|WBtW} asks if any guests would like to perform their own acts for the crowd. Any character who accepts the offer can woo spectators with a DC 14 Charisma ({@skill Performance}) check, raising the carnival's mood by 1 step on a success (roll on the {@item Mood Rises|orcnogTWC|Mood Rises table}). If multiple characters choose to perform together, make it a group check instead, but raise the carnival's mood by 2 steps if the group check succeeds (roll once on the {@item Mood Rises|orcnogTWC|Mood Rises table}). A character can improve the carnival's mood only once during this extravaganza.",
 												"At the end of the show, Burly invites any characters who took to the stage and impressed the crowd to meet with {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} (see \"{@area Meeting Witch and Light|0dd|x}\" earlier in the chapter)."
 											]
 										},
