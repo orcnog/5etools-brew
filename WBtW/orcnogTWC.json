@@ -1252,12 +1252,12 @@
 										"Several meddling outsiders can be encountered at various times throughout the evening.",
 										{
 											"type": "entries",
-											"name": "Kettlesteam",
+											"name": "Kester",
 											"page": 28,
 											"id": "07b",
 											"entries": [
-												"Kettlesteam is a kenku warlock whose patron is the archfey Zybilna of Prismeer. Having sensed that something is wrong with her beloved patron, Kettlesteam has come to the carnival seeking answers. The carnival owners refuse to speak to her\u2014and until they come clean, she is committed to causing trouble. Kettlesteam uses {@spell disguise self} to assume whatever form best enables her to mingle in crowds.",
-												"Characters can encounter Kettlesteam in more than one location; if they corner her, she provides valuable clues about Prismeer. For details, see \"{@area Catching Kettlesteam|0e7|x}\" later in the chapter."
+												"Kester is a kenku arcane trickster whose patron is a rival carnival owner. He is committed to causing trouble to hurt business. Kester uses {@spell disguise self} to assume whatever form best enables him to mingle in crowds.",
+												"Characters can encounter Kester in more than one location; if they corner him, he can be intimidated or bribed into leaving."
 											]
 										},
 										{
@@ -1651,8 +1651,7 @@
 												"{@i Besides a smile upon my face.}"
 											]
 										},
-										"Marigold (chaotic good), the goblin dressed as a ladybug, collects the proffered buttons in a tin cup and delivers them to Ernest. Marigold is sprightly and often cajoles bystanders into dancing.",
-										"On the {@adventure Story Tracker|WBtW|11}, jot down the names of characters who give at least one button to Ernest. If one or more of these characters find themselves trapped or captured in Prismeer, they hear the distant whistling of the calliope and can follow the music to safety. Any barriers or obstacles in their way are magically removed. For example, the lock on a cell door might spring open on its own, a guard might fall asleep, or a silent, spectral monkey resembling Ernest might appear and reveal the shortest route to freedom. This is a tool to help the characters out of a tight spot and can be used only once per group."
+										"Marigold (chaotic good), the goblin dressed as a ladybug, collects the proffered buttons in a tin cup and delivers them to Ernest. Marigold is sprightly and often cajoles bystanders into dancing."
 									]
 								},
 								{
@@ -1687,7 +1686,7 @@
 											"id": "09c",
 											"entries": [
 												"Riding a dragonfly costs 1 ticket punch. There are eight {@creature Giant Dragonfly|WBtW|giant dragonflies} (see {@adventure appendix C|WBtW|8}), which are trained to fly their riders in a lazy figure eight around the carnival's thoroughfare, at a height of 20 feet. A character who tries to steer their dragonfly off course must succeed on a DC 12 Wisdom ({@skill Animal Handling}) check to do so. On the {@adventure Story Tracker|WBtW|11}, jot down the names of any characters who succeed on the Wisdom ({@skill Animal Handling}) check to redirect a giant dragonfly; these characters have a talent that might benefit them in {@adventure chapter 4|WBtW|4} (see {@area area M20|33f|x}).",
-												"As the characters' first ride begins, shouts of alarm erupt from a nearby lily pad. A giant dragonfly has just taken off prematurely with a patron on its back: a middle-aged dwarf with a bright blue beard sits unfastened in his harness. Kettlesteam, a kenku warlock, used a {@spell speak with animals} spell to panic the dragonfly. Characters can spot Kettlesteam before she slips away with a successful Wisdom ({@skill Perception}) check contested by the kenku's Charisma ({@skill Deception}) check. See \"{@area Catching Kettlesteam|0e7|x}\" later in the chapter if the characters try to confront her.",
+												"As the characters' first ride begins, shouts of alarm erupt from a nearby lily pad. A giant dragonfly has just taken off prematurely with a patron on its back: a middle-aged dwarf with a bright blue beard sits unfastened in his harness. Kester, a kenku warlock, used a {@spell speak with animals} spell to panic the dragonfly. Characters can spot Kester before she slips away with a successful Wisdom ({@skill Perception}) check contested by the kenku's Charisma ({@skill Deception}) check. See \"{@area Catching Kester|0e7|x}\" later in the chapter if the characters try to confront her.",
 												"A character can calm the startled mount and guide it back to a lily pad with a successful DC 14 Wisdom ({@skill Animal Handling}) check. The carnival's mood rises by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table) if a character succeeds on this check. If the characters fail to rescue the dwarf, he tumbles from the dragonfly's back; luckily, his fall is cushioned by a tent awning, and though he isn't badly hurt, the mood of the carnival lowers by 1 step (roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table)."
 											]
 										},
@@ -1705,9 +1704,7 @@
 														"\"The carnival can't run without {@creature Mister Witch|WBtW}'s pocket watch\u2014I hope he never loses it!\"",
 														"\"There's nothing {@creature Mister Light|WBtW} likes more than a sea of smiling faces\u2014if the carnival's happy, he's happy!\""
 													]
-												},
-												"Northwind doesn't know about the Hourglass Coven or what has become of Prismeer or its archfey ruler; it thinks the domain is still thriving under Zybilna's rule."
-											]
+												}											]
 										}
 									]
 								},
@@ -1852,7 +1849,7 @@
 													"height": 1399
 												},
 												"Candlefoot, a {@creature Witchlight Hand (Medium)|WBtW|Witchlight hand} (neutral good; see the stat block earlier in the chapter), is the reluctant ticket-puncher at the Hall of Illusions, and he does all he can to avoid entering the hall. All the color has leached out of his skin, hair, eyes, and apparel, giving him a strangely monochromatic look. And his problems don't end there.",
-												"A kenku named Kettlesteam stole Candlefoot's voice, so he communicates through mime. If the characters give him a writing implement and some parchment, he can also write out his thoughts.",
+												"A kenku named Kester stole Candlefoot's voice, so he communicates through mime. If the characters give him a writing implement and some parchment, he can also write out his thoughts.",
 												"{@adventure Appendix D|WBtW|9} contains additional roleplaying notes for Candlefoot.",
 												{
 													"type": "entries",
@@ -1860,8 +1857,8 @@
 													"page": 39,
 													"id": "0ab",
 													"entries": [
-														"When the mermaid Palasha (see \"{@area Silversong Lake|0bd|x}\" later in the chapter) joined the Witchlight Carnival, Candlefoot discovered that her songs had the power to bring back his coloration. (The change lasts only as long as he can hear her sing.) This surprised them both, and when the pair met, they fell in love. Recently, Candlefoot was about to propose to Palasha when his voice was snatched by Kettlesteam. If questioned, Candlefoot tries to explain his sorry circumstances through mime and asks the characters to help him recover his voice from Kettlesteam so he can go through with his proposal.",
-														"Here's a fantastic opportunity for you to explore your hidden talents as a mime. To indicate that he has lost his voice, Candlefoot might move his lips, then shake his head while holding a hand up to one ear. He might bob his head and flap his arms like a bird to indicate that Kettlesteam is the culprit. He doesn't know where the kenku is, but he knows she has been causing mischief throughout the carnival and sometimes uses magic to conceal her true form.",
+														"When the mermaid Palasha (see \"{@area Silversong Lake|0bd|x}\" later in the chapter) joined the Witchlight Carnival, Candlefoot discovered that her songs had the power to bring back his coloration. (The change lasts only as long as he can hear her sing.) This surprised them both, and when the pair met, they fell in love. Recently, Candlefoot was about to propose to Palasha when his voice was snatched by Kester. If questioned, Candlefoot tries to explain his sorry circumstances through mime and asks the characters to help him recover his voice from Kester so he can go through with his proposal.",
+														"Here's a fantastic opportunity for you to explore your hidden talents as a mime. To indicate that he has lost his voice, Candlefoot might move his lips, then shake his head while holding a hand up to one ear. He might bob his head and flap his arms like a bird to indicate that Kester is the culprit. He doesn't know where the kenku is, but he knows she has been causing mischief throughout the carnival and sometimes uses magic to conceal her true form.",
 														"If the characters agree to help Candlefoot, he performs a few delightful magic tricks for their amusement using his {@spell prestidigitation} cantrip, which he can cast without the verbal component."
 													]
 												}
@@ -2069,18 +2066,8 @@
 											"page": 43,
 											"id": "0bf",
 											"entries": [
-												"This event occurs the first time the characters watch Palasha perform. Kettlesteam, the kenku warlock, snakes through the crowd, using {@spell disguise self} and Mimicry to pose as different hecklers. After three mean-spirited jeers, the mermaid falters in mid-song, leaps out of her bowl, and darts off, heading downriver. Her abrupt departure causes the carnival's mood to lower by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table).",
-												{
-													"type": "image",
-													"href": {
-														"type": "internal",
-														"path": "adventure/WBtW/024-01-009.guess-the-number-of-feathers.png"
-													},
-													"title": "Guess the Number of Feathers",
-													"width": 850,
-													"height": 1063
-												},
-												"Characters who try to identify the hecklers can spot Kettlesteam in her current guise with a successful Wisdom ({@skill Perception}) check contested by the kenku's Charisma ({@skill Deception}) check. See \"{@area Catching Kettlesteam|0e7|x}\" later in the chapter if the characters try to corner her."
+												"This event occurs the first time the characters watch Palasha perform. Kester, the kenku trickster, snakes through the crowd, using {@spell disguise self} and Mimicry to pose as different hecklers. After three mean-spirited jeers, the mermaid falters in mid-song, leaps out of her bowl, and darts off, heading downriver. Her abrupt departure causes the carnival's mood to lower by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table).",
+												"Characters who try to identify the hecklers can spot Kester in his current guise with a successful Wisdom ({@skill Perception}) check contested by the kenku's Charisma ({@skill Deception}) check. See \"{@area Catching Kester|0e7|x}\" later in the chapter if the characters try to corner him."
 											]
 										},
 										{
@@ -2262,7 +2249,17 @@
 														"\"Birds of a feather? How about feathers of a bird? Step right up and guess how many feathers festoon this fiendish fowl!\""
 													]
 												},
-												"A participant gets three tries to guess the number of feathers on one of a group of caged {@creature Cockatrice||cockatrices}. Someone who succeeds on a DC 18 Intelligence check guesses correctly and earns one roll on the {@item Carnival Prize|orcnogTWC|Carnival Prizes} table, or two rolls if the successful check occurs on the first attempt."
+												"A participant gets three tries to guess the number of feathers on one of a group of caged {@creature Cockatrice||cockatrices}. Someone who succeeds on a DC 18 Intelligence check guesses correctly and earns one roll on the {@item Carnival Prize|orcnogTWC|Carnival Prizes} table, or two rolls if the successful check occurs on the first attempt.",
+												{
+													"type": "image",
+													"href": {
+														"type": "internal",
+														"path": "adventure/WBtW/024-01-009.guess-the-number-of-feathers.png"
+													},
+													"title": "Guess the Number of Feathers",
+													"width": 850,
+													"height": 1063
+												}
 											]
 										},
 										{
@@ -2565,52 +2562,40 @@
 								"This section describes special events that occur during the characters' visit to the carnival.",
 								{
 									"type": "entries",
-									"name": "Catching Kettlesteam",
+									"name": "Catching Kester",
 									"page": 51,
 									"id": "0e7",
 									"entries": [
-										"{@creature Kettlesteam the Kenku|WBtW|Kettlesteam} (see the accompanying stat block) snoops around the carnival under the cover of a {@spell disguise self} spell, looking to cause trouble. The kenku has stolen the voice of a human mime named Candlefoot (see \"{@area Hall of Illusions|0a6|x}\" earlier in the chapter). While this prize remains in her possession, Kettlesteam can speak clearly in Candlefoot's soft, silky voice.",
-										"If Kettlesteam has not already been caught, a character who spends 1 hour searching for the disguised kenku can, with a successful DC 13 Intelligence ({@skill Investigation}) check, see through her disguise while moving through crowds and paying close attention to suspicious-looking folks. If discovered, Kettlesteam tries to flee from the main thoroughfare, using tents and other carnival features to break line of sight to her. She's willing to cautiously parley with characters who claim they are investigating the carnival for their own reasons.",
-										"{@adventure Appendix D|WBtW|9} contains additional roleplaying notes for Kettlesteam.",
+										"{@creature Master Thief|MPMM|Kester} (see the accompanying stat block) snoops around the carnival under the cover of a {@spell disguise self} spell, looking to cause trouble. The kenku has stolen the voice of a human mime named Candlefoot (see \"{@area Hall of Illusions|0a6|x}\" earlier in the chapter). While this prize remains in his possession, Kester can speak clearly in Candlefoot's soft, silky voice.",
+										"If Kester has not already been caught, a character who spends 1 hour searching for the disguised kenku can, with a successful DC 13 Intelligence ({@skill Investigation}) check, see through his disguise while moving through crowds and paying close attention to suspicious-looking folks. If discovered, Kester tries to flee from the main thoroughfare, using tents and other carnival features to break line of sight to her. He's willing to cautiously parley with characters who claim they are investigating the carnival for their own reasons.",
+										"{@adventure Appendix D|WBtW|9} contains additional roleplaying notes for Kester.",
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
 												"path": "adventure/WBtW/033-637677441694763205.png"
 											},
-											"title": "{@creature Kettlesteam the Kenku|WBtW}",
+											"title": "{@creature Master Thief|MPMM}",
 											"width": 400,
 											"height": 492
 										},
 										{
 											"type": "entries",
-											"name": "Talking with Kettlesteam",
+											"name": "Talking with Kester",
 											"page": 52,
 											"id": "0e8",
 											"entries": [
-												"If the characters corner her, Kettlesteam tells her story in the voice she stole from Candlefoot:",
+												"If the characters corner him, Kester tells his story in the voice he stole from Candlefoot:",
 												{
 													"type": "list",
 													"items": [
-														"Many years ago, she made a fey pact with Zybilna, the archfey who rules the Feywild domain of Prismeer. Recently, Kettlesteam has become convinced something is amiss with her patron. As a warlock, she senses that Zybilna is no longer in touch with her\u2014a very disconcerting thought!",
-														"Kettlesteam wants to question the carnival's owners about Prismeer, but they keep giving her the cold shoulder. She's sure they know more than they're letting on.",
-														"During her last visit, Kettlesteam overheard Witch and Light talking in their wagon. She repeats the conversation, using her Mimicry trait to imitate Light's agitated voice (\"Someone is going to find out about this! They'll shut us down!\") followed by Witch's calm yet firm reply (\"We agreed to this pact. Our hands were forced but our eyes were open. We let the Hourglass Coven take what it wants, and in return, we stay in business. That is what you want, right?\").",
-														"Kettlesteam is causing trouble in the carnival and refuses to stop until Witch and Light divulge what they know about Zybilna and Prismeer.",
-														"Due to the terms of her fey pact, Kettlesteam can't enter Prismeer. She urges the characters to find out what has happened to Zybilna."
+														"Kester was hired by a rival carnival, The Harlem and Haley Brother's Circus. The circus usually does decent business, but every 8 years when the Witchlight Carnival comes to the Material Plane, they nearly go bankrupt.",
+														"He was hired with the objective of stirring up trouble, lowering the mood of the carnival, and generally hurting business. Their loss is Harlem and Haley's gain.",
+														"He's being paid handsomely to wreak havoc. A DC 15 Charisma ({@skill Persuasion}) check can convince Kester to tell them his price: 500 gp. With a roll of 20 or higher, Kester will consider an offer to outbid his employers (double or more) in order to buy him out.",
+														"A DC 20 Charisma ({@skill Intimidation}) check can convince Kester to leave the carnival and never return."
 													]
 												},
-												"If one or more characters are working for Madryck (see the \"{@area Warlock's Quest|054|x}\" adventure hook in the {@adventure introduction|WBtW|0}) and the characters mention Madryck by name, the kenku ruffles her feathers and lets out a squawk, admitting that she and Madryck are rivals who happen to share the same patron (Zybilna). Each thinks the other is untrustworthy.",
-												"If questioned about the theft of Candlefoot's voice, Kettlesteam produces a corn husk doll with a thorny stem tied around its neck. The doll represents Candlefoot, and untying the stem restores the mime's lost voice. Any character who succeeds on a DC 12 Charisma ({@skill Intimidation} or {@skill Persuasion}) check can convince Kettlesteam to part with the doll."
-											]
-										},
-										{
-											"type": "entries",
-											"name": "Kettlesteam's Aid",
-											"page": 53,
-											"id": "0e9",
-											"entries": [
-												"Characters who befriend Kettlesteam earn a valuable ally in the carnival. She can offer advice, or even help the characters steal {@creature Mister Witch|WBtW}'s watch (see \"{@area Burly's Plan|0e4|x}\" earlier in the chapter).",
-												"If the characters miss the opportunity to meet with {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW}, Kettlesteam comes up with a plan similar to Burly's: she encourages the characters to steal {@creature Mister Light|WBtW}'s {@item Witchlight vane|WBtW} and use it as leverage to blackmail the carnival owners into showing them the way to Prismeer. How the characters acquire the vane is up to them, but Kettlesteam is happy to help."
+												"If questioned about the theft of Candlefoot's voice, Kester produces a corn husk doll with a thorny stem tied around its neck. The doll represents Candlefoot, and untying the stem restores the mime's lost voice. Any character who succeeds on a DC 12 Charisma ({@skill Intimidation} or {@skill Persuasion}) check can convince Kester to part with the doll."
 											]
 										},
 										{
@@ -2619,8 +2604,7 @@
 											"page": 53,
 											"id": "0ea",
 											"entries": [
-												"If the characters reunite Candlefoot with his voice, note this accomplishment on the {@adventure Story Tracker|WBtW|11}. The grateful Candlefoot gives the characters an acting lesson at the earliest opportunity, giving them a talent that might prove useful in {@adventure chapter 4|WBtW|4} (see the \"{@area Fey Beacons|2ba|x}\" section).",
-												"Once he regains his voice, Candlefoot seeks out Palasha and proposes marriage to her. Reuniting the couple causes the carnival's mood to rise by 2 steps (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table). From that point on, Palasha and Candlefoot treat the characters as trusted allies, which could prove useful during the crowning of the Witchlight Monarch, as they both have roles to play in the coronation."
+												"If the characters reunite Candlefoot with his voice, Candlefoot seeks out Palasha and proposes marriage to her. Reuniting the couple causes the carnival's mood to rise by 2 steps (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table). From that point on, Palasha and Candlefoot treat the characters as trusted allies, which could prove useful during the crowning of the Witchlight Monarch, as they both have roles to play in the coronation."
 											]
 										}
 									]
@@ -2843,8 +2827,8 @@
 												"The pocket dimension beyond the mirror is called Fantasy Costco, wherein dwells the store owner, Garfield the Deals Warlock, who loves nothing more than to make a deal.",
 												"Time flows differently and unpredictably in Fantasy Costco. When the heros come back to this plane of existence, they may find that several days or only seconds have passed.",
 												"When the heros leave Fantasy Costo through the same portal they entered in, they'll no longer be at the carnival; it will deposit them back into their beds at the last location they long rested.",
-												"If they are questioned about conversations that were overheard (see \"{@area Witch and Light's Wagon|0d8|x}\" above and \"{@area Catching Kettlesteam|0e7|x}\" below), Witch and Light admit they're not the carnival's original owners and took over management through an honest pact with the owner of another carnival.",
-												"If asked about Kettlesteam, Witch and Light say she's \"a troublemaker from a competing carnival who just wants to stir up chaos and ruin everyone's fun."
+												"If they are questioned about conversations that were overheard (see \"{@area Witch and Light's Wagon|0d8|x}\" above and \"{@area Catching Kester|0e7|x}\" below), Witch and Light admit they're not the carnival's original owners and took over management through an honest pact with the owner of another carnival.",
+												"If asked about Kester, Witch and Light say he's \"a troublemaker from a competing carnival who just wants to stir up chaos and ruin everyone's fun."
 											]
 										},
 										{
