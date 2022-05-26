@@ -390,6 +390,28 @@
 			],
 			"hasToken": true,
 			"hasFluff": true
+		},
+		{
+			"name": "Witchlight Hand (Small)",
+			"source": "orcnogTWC",
+			"_copy": {
+				"name": "Witchlight Hand (Medium)",
+				"source": "orcnogTWC",
+				"_preserve": {
+					"page": true,
+					"hasFluff": true,
+					"hasFluffImages": true
+				}
+			},
+			"size": [
+				"S"
+			],
+			"hp": {
+				"average": 7,
+				"formula": "2d6"
+			},
+			"hasToken": true,
+			"hasFluff": true
 		}
 	]
 }
