@@ -28,11 +28,10 @@
 				{
 					"name": "Adventure Summary",
 					"headers": [
-						"Running the Adventure",
 						"Feywild Trinkets",
+                        "Pronunciation Guide",
 						"Eight and Three",
-						"Beginning the Adventure",
-						"Pronounciation Guide"
+						"Beginning the Adventure"
 					]
 				},
 				{
@@ -72,27 +71,33 @@
 			"source": "orcnogTWC",
 			"data": [
 				{
+					"type": "image",
+					"page": 1,
+					"href": {
+						"type": "internal",
+						"path": "adventure/WBtW/007-00-008.png"
+					},
+					"title": "The arrival of the Witchlight Carnival is a highly anticipated event",
+					"width": 1700,
+					"height": 1137
+				},
+				{
 					"type": "section",
 					"name": "Adventure Summary",
 					"page": 1,
 					"id": "001",
 					"entries": [
 						"The goal of this side quest is to present your characters with a fun distraction from their possibly violent campaigning. The Witchlight Carnival is in town, and your characters have a day (or two) to kill, so why not buy a ticket and play some carnival games? The reward for completing enough of the objectives throughout the carnival is a chance for the adventurers to visit a fantastical magic shop, stocked with all manner of spell scrolls and magic items that may help the adventurers on their quests.",
-						"To enter the Fantasy Costco, the characters must first visit the carnival, which travels across the Material Plane and appears on the characters' world once every eight years. The carnival owners are a pair of shadar-kai (elves native to the Shadowfell) named {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW}, who can help or hinder the characters' efforts to reach Prismeer.",
+						"To enter the Fantasy Costco, the characters must first visit the carnival, which travels across the Material Plane and appears on the characters' world once every eight years. The carnival owners are a pair of shadar-kai (elves native to the Shadowfell) named {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW}, who can help or hinder the characters' efforts to reach Fantasy Costco.",
 						{
-							"type": "section",
-							"name": "Running the Adventure",
+							"type": "inset",
+							"name": "Eight and Three",
 							"page": 1,
-							"id": "004",
+							"id": "008",
 							"entries": [
-								"To run the adventure, you need the fifth edition core rulebooks ({@book Player's Handbook|PHB}, {@book Dungeon Master's Guide|DMG}, and {@book Monster Manual|MM}).",
-								{
-									"type": "insetReadaloud",
-									"id": "005",
-									"entries": [
-										"Text that appears in a box like this is meant to be read aloud or paraphrased for the players when their characters first arrive at a location or under a specific circumstance, as described in the text."
-									]
-								}
+								"As you run {@i The Witchlight Carnival}, look for ways to bring the numbers eight and three to the fore.",
+								"The number eight is symbolically important, as this adventure plays with the themes of time and nostalgia. The numeral 8 resembles an hourglass, which measures the passage of time, and looks like the symbol for infinity (∞) turned on its side. Hidden within the numeral 8 itself is the numeral 3. In the D&D multiverse, there exists the Rule of Three, which states that events of cosmic consequence often manifest in threes. Time, for instance, has a past, present, and future. The Hourglass Coven has three members. The fey domain of Prismeer is divided into three splinter-realms, which adventurers explore with the help of three guides.",
+								"Hidden within the adventure are numerous other mentions of the numbers eight and three. Can you find them all?"
 							]
 						},
 						{
@@ -102,242 +107,6 @@
 							"id": "01a",
 							"entries": [
 								"The {@item Feywild Trinket|WBtW|Feywild Trinkets} table that follows offers a selection of trinkets appropriate for Feywild-themed adventures such as this one. Players whose characters have the {@background feylost|WBtW} or {@background Witchlight hand|WBtW} background can roll on this table instead of the {@book Trinkets|PHB|5|Trinkets} table in the {@book Player's Handbook|PHB} to determine what trinkets their characters possess. The adventure includes a few encounters that require you to roll on the table to determine what random trinkets the characters find in key locations."
-							]
-						},
-						{
-							"type": "inset",
-							"name": "Eight and Three",
-							"page": 1,
-							"id": "008",
-							"entries": [
-								"As you run {@i The Wild Beyond the Witchlight}, look for ways to bring the numbers eight and three to the fore. For example, characters who take a long rest in the fey domain of Prismeer might, without fail, be awakened by three songbirds at the end of the eighth hour.",
-								"The number eight is symbolically important, as this adventure plays with the themes of time and nostalgia. The numeral 8 resembles an hourglass, which measures the passage of time, and looks like the symbol for infinity (∞) turned on its side. Hidden within the numeral 8 itself is the numeral 3. In the D&D multiverse, there exists the Rule of Three, which states that events of cosmic consequence often manifest in threes. Time, for instance, has a past, present, and future. The Hourglass Coven has three members. The fey domain of Prismeer is divided into three splinter-realms, which adventurers explore with the help of three guides.",
-								"Hidden within the adventure are numerous other mentions of the numbers eight and three. Can you find them all?"
-							]
-						},
-						{
-							"type": "image",
-							"page": 1,
-							"href": {
-								"type": "internal",
-								"path": "adventure/WBtW/007-00-008.png"
-							},
-							"title": "The arrival of the Witchlight Carnival is a highly anticipated event",
-							"width": 1700,
-							"height": 1137
-						},
-						{
-							"type": "section",
-							"name": "Beginning the Adventure",
-							"page": 2,
-							"id": "045",
-							"entries": [
-								"How the characters become embroiled in the adventure depends on what type of hook you choose to use to pull them into it. Choose either the \"Warlock's Quest\" adventure hook, detailed below, or a custom plot hook. It can be as simple as \"the carnival is in town, and everyone in the village is excited to attend... and you've got some time to kill before the next leg of your adventure!\"",
-								{
-									"type": "entries",
-									"name": "Warlock's Quest",
-									"page": 2,
-									"id": "054",
-									"entries": [
-										"Use this hook if you or your players don't like the idea of the characters having to find things that they lost as children and would prefer a more traditional adventure setup. This hook requires that one or more characters have backgrounds unconnected to the Witchlight Carnival.",
-										"If you're using the adventure's Story Tracker, you won't need to fill out the \"Lost Things\" section. Just leave it blank.",
-										"In this preamble, an aging warlock named Madryck Roslof tells the characters (those not working at the Witchlight Carnival) about a faerie realm called Prismeer, which can be reached only by finding and using a fey crossing in the carnival. Madryck says that his archfey patron, Zybilna, rules Prismeer. He begs the characters to journey to this domain and find out what has happened to Zybilna, with whom he has lost contact.",
-										"If you like, you can replace Madryck Roslof with a different NPC who better suits your campaign. Whether Madryck or someone else gives the quest, the characters must travel across the land of Prismeer to reach the Palace of Heart's Desire (described in {@adventure chapter 5|WBtW|5}), where Zybilna is frozen in time. Because this quest is more difficult than the one tied to the \"Lost Things\" adventure hook, the potential rewards are greater.",
-										{
-											"type": "inset",
-											"name": "Warlocks of the Archfey",
-											"page": 2,
-											"id": "055",
-											"entries": [
-												"If the adventuring party includes a warlock whose otherworldly patron is the Archfey, consider allowing that character's player to choose Zybilna as the warlock's patron. Warlocks who make pacts with Zybilna regard her as a generous, fairy godmother-like figure."
-											]
-										},
-										{
-											"type": "entries",
-											"name": "Setting the Stage",
-											"page": 2,
-											"id": "056",
-											"entries": [
-												"Identify which players have chosen the Witchlight hand background for their characters, then separate those players from the rest of the group\u2014for now. They will join the others once everyone has gathered at the Witchlight Carnival.",
-												"To kick off the adventure, read the following boxed text to the players whose characters aren't part of the carnival:",
-												{
-													"type": "insetReadaloud",
-													"id": "057",
-													"entries": [
-														"You have been summoned to the abode of a human warlock named Madryck Roslof. He lives on a giant pumpkin farm, sharing his rustic farmhouse space with rodents and pixies. His adventuring days are behind him, and he looks quite old and frail. Nevertheless, he is delighted to make your acquaintance.",
-														"\"I've acquired many treasures and made important contacts during my lengthy adventuring career,\" says Madryck. \"I would like to pass the treasures I possess and the favors I am owed to you. In exchange, I ask that you travel to Prismeer, a domain in the Feywild, and find out what fate has befallen the archfey that rules it. This archfey, Zybilna, is my patron and inspiration\u2014the source of my power.",
-														"\"I have been unable to contact Zybilna for the better part of a year, and I fear something terrible has happened. My adventuring days are over, but Zybilna has been good to me, and I would like to know she is well before I take my leave.",
-														"\"Every eight years, our world is visited by a traveling extravaganza called the Witchlight Carnival. It recently returned and is camped three days' travel from here. I'm asking you now because this carnival might pack up and leave in a week or two, and it contains your only route to Prismeer\u2014a fey crossing, if you will.",
-														"\"Seek out Zybilna of Prismeer, help her if you can, and return with proof that she is alive and well. Upon your return, all the hard-won earnings of my adventuring career shall be yours.\""
-													]
-												},
-												{
-													"type": "image",
-													"href": {
-														"type": "internal",
-														"path": "adventure/WBtW/009-00-010.madryck-roslof.png"
-													},
-													"title": "Madryck Roslof",
-													"width": 850,
-													"height": 1770
-												},
-												"The players will undoubtedly want to know more about the rewards Madryck is offering. See \"{@area Madryck's Treasure|05b|x}\" later in this section for a summary. (If you allow your players to make wish lists of magic items for their characters, you can replace one or more of Madryck's magic item rewards with items from those lists.)",
-												"Madryck doesn't need to have a past relationship with any of the characters, but if the players want to tie Madryck more closely to their characters' back stories, allow it. Madryck is a {@creature mage} (neutral good) who speaks Common, Sylvan, and two other languages of your choice. Although he has been out of touch with Zybilna for almost a year, he knows that time passes differently in parts of the Feywild, including Zybilna's realm of Prismeer. He can't predict how much time it will take for the characters to complete their quest; they might come back in a matter of days, or years could pass on the Material Plane before they return. Not wanting to alarm the characters, Madryck tries to steer the conversation away from issues involving the passage of time, if one or more characters mention something about it."
-											]
-										},
-										{
-											"type": "entries",
-											"name": "What Madryck Knows",
-											"page": 2,
-											"id": "058",
-											"entries": [
-												"If the characters request more information about the Witchlight Carnival, Madryck says that he hasn't visited the carnival in sixty-four years and admits that a lot can change in that time. He advises the characters to explore the carnival thoroughly on their own. He doesn't presume to know what form the fey crossing currently takes or how well hidden and protected it is. He does provide the following reliable information:",
-												{
-													"type": "list",
-													"items": [
-														"Zybilna is a fairy godmother to mortals. She created the carnival as a means by which mortals could enter her realm and beseech her aid.",
-														"When Madryck last visited the carnival, it was run by a pair of shadar-kai (elves native to the Shadowfell) named {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW}. He assumes they're still in charge.",
-														"Madryck dimly recalls that Witch and Light acquired the carnival more than a hundred years ago from an eladrin (an elf native to the Feywild). The eladrin's name escapes him."
-													]
-												},
-												"If the characters request more information about Zybilna and Prismeer, Madryck offers the following descriptions, based on firsthand knowledge that is somewhat out of date:",
-												{
-													"type": "list",
-													"items": [
-														"Prismeer is a domain of delight ruled by Zybilna, who dwells in the Palace of Heart's Desire, a magnificent structure in the heart of the domain.",
-														"Zybilna can assume many forms and is brilliant, secretive, and wise. (Madryck doesn't know Zybilna's secret identity, as revealed in {@adventure chapter 5|WBtW|5}.)",
-														"When she presents herself to mortals, Zybilna usually assumes the form of a statuesque woman with long white hair and a small tattoo shaped like a chicken's foot below one eye."
-													]
-												},
-												"Each character who hears Madryck's description of Zybilna suddenly recalls a forgotten childhood memory of her, which you can determine by having that character's player roll on the Childhood Memories table.",
-												{
-													"type": "table",
-													"caption": "Childhood Memories",
-													"colLabels": [
-														"d8",
-														"Memory"
-													],
-													"colStyles": [
-														"col-2 text-center",
-														"col-10"
-													],
-													"rows": [
-														[
-															"1",
-															"When you were a small child, a woman matching Zybilna's description reunited you with a lost pet."
-														],
-														[
-															"2",
-															"A woman matching Zybilna's description visited you once when you were sick as a child and made you feel better."
-														],
-														[
-															"3",
-															"A woman matching Zybilna's description scared away a bully who antagonized you as a child."
-														],
-														[
-															"4",
-															"You remember an older family member telling you about a woman with long white hair who helped deliver you when you were born."
-														],
-														[
-															"5",
-															"A woman matching Zybilna's description gave money to your family so that you never wanted for anything as a child."
-														],
-														[
-															"6",
-															"You used to have trouble speaking as a child until a woman matching Zybilna's description put her hand on your head."
-														],
-														[
-															"7",
-															"You fell into an icy pond as a child and probably would have died had a woman matching Zybilna's description not fished you out of the cold water and wrapped you in a blanket."
-														],
-														[
-															"8",
-															"You remember sneaking into the Witchlight Carnival as a child and running into a woman matching Zybilna's description. She gave you a cupcake that made you feel special when you ate it."
-														]
-													]
-												},
-												{
-													"type": "image",
-													"href": {
-														"type": "internal",
-														"path": "adventure/WBtW/010-00-011.madryck-roslofs-pumpkin-farm.png"
-													},
-													"title": "Madryck Roslof's Pumpkin Farm",
-													"width": 1700,
-													"height": 1075
-												}
-											]
-										},
-										{
-											"type": "entries",
-											"name": "To the Carnival",
-											"page": 3,
-											"id": "059",
-											"entries": [
-												"Characters who accept Madryck's quest can make the uneventful trek to the carnival, which is located not too far from a settlement of your choosing. The characters arrive shortly before twilight. When they arrive, lay out the poster map of the carnival for the players to see."
-											]
-										},
-										{
-											"type": "entries",
-											"name": "Madryck's Treasure",
-											"page": 3,
-											"id": "05b",
-											"entries": [
-												"Madryck keeps the treasure from his adventuring days in a locked wooden chest that is buried in a secret location far from his modest dwelling. He carries the chest's only key, the head of which is made of stained glass and shaped like a violet faerie dragon.",
-												"If the characters accept the quest and return with proof that Zybilna is alive and well, Madryck gives them his key and directions to the buried chest, which contains the following treasure:",
-												{
-													"type": "list",
-													"items": [
-														"A {@item bag of beans}",
-														"A {@item cloak of displacement}",
-														"A suit of {@item +2 leather armor}",
-														"A {@item +2 wand of the war mage}",
-														"A silk bag containing eight 500 gp gemstones",
-														"Three folded letters (described below)"
-													]
-												},
-												{
-													"type": "entries",
-													"name": "Letter 1",
-													"page": 21,
-													"id": "05c",
-													"entries": [
-														"This letter is stamped with the official wax seal of a fairly large settlement or a faction (choose an appropriate town or city that exists in your campaign world, or a faction to which one or more of your characters belong). It reads, \"The bearer of this letter is entitled to a favor in exchange for services, previously rendered, of a heroic nature.\" This letter can be presented to the settlement's/faction's leader or leaders, who would then grant the letter's bearer a favor. This favor can take the form of free room and board for up to a year, the gift of a small estate or parcel of land, an audience with someone of great influence (such as a king or queen), or some other benefit of your choosing."
-													]
-												},
-												{
-													"type": "entries",
-													"name": "Letter 2",
-													"page": 21,
-													"id": "05d",
-													"entries": [
-														"This letter has similar text to the first letter, as well as the symbol of a deity worshiped in your campaign world (choose an appropriate deity). This letter can be taken to any temple where that deity is worshiped and presented to the high priest, who would then grant the letter's bearer a favor. An example of an appropriate favor would be one free casting of a spell of 5th level or lower from the cleric spell list, such as {@spell commune} or {@spell raise dead}."
-													]
-												},
-												{
-													"type": "entries",
-													"name": "Letter 3",
-													"page": 21,
-													"id": "05e",
-													"entries": [
-														"This letter bears the signature and arcane sigil of Saya Kalternax, a wizard known throughout the land. (You can replace this wizard with another mage that better suits your campaign.) The letter describes the kinship between this wizard and the adventuring party to which Madryck once belonged. It concludes with, \"By the terms of a magically binding agreement, the bearer of this letter is owed one favor from Saya Kalternax or, in the event of their untimely demise, one of Saya's devoted apprentices.\" Although Saya died a few years ago, this letter can be presented to one of their apprentices (who might be difficult to locate, at your discretion). Examples of an appropriate favor would be the brewing of a rare or uncommon potion, the scribing of a rare or uncommon scroll, or the loan of a spellbook containing a selection of wizard spells of 5th level and lower. If you need statistics for this spellcaster, use the {@creature mage} stat block. Give the mage whatever alignment and languages you like.",
-														"If Madryck passes away before the characters return from their Feywild excursion (an event likely to occur only if the characters delay their return by a year or longer), he leaves behind a trusted associate who can give them the key and provide directions to his hidden treasure. This associate might be a friendly pixie or faerie dragon, an awakened squirrel (the beneficiary of a druid's {@spell awaken} spell), or some other trustworthy creature of Madryck's acquaintance.",
-														{
-															"type": "image",
-															"href": {
-																"type": "internal",
-																"path": "adventure/WBtW/011-00-012.witchlight-carnival-ticket.png"
-															},
-															"title": "Witchlight Carnival Ticket",
-															"width": 1600,
-															"height": 770
-														}
-													]
-												}
-											]
-										}
-									]
-								}
 							]
 						},
 						{
@@ -454,6 +223,77 @@
 									]
 								}
 							]
+						},
+						{
+							"type": "section",
+							"name": "Beginning the Adventure",
+							"page": 2,
+							"id": "045",
+							"entries": [
+								"How the characters become embroiled in the adventure depends on what type of hook you choose to use to pull them into it. Choose either the \"Old Man's Quest\" adventure hook detailed below, or a custom plot hook. It can be as simple as \"the carnival is in town, and everyone in the village is excited to attend... and you've got some time to kill before the next leg of your adventure!\"",
+								{
+									"type": "entries",
+									"name": "Old Man's Quest",
+									"page": 2,
+									"id": "054",
+									"entries": [
+										"In this preamble, an aging treasure hunter named Madryck Roslof tells the characters about a fantastical magic shop called Fantasy Costco, which exists only in a pocket dimension and can only be reached by finding and using a portal in the carnival. Madryck says that he stumbled upon it years ago and bartered for a magic item which he's now lost. He impores the characters to journey to this pocket dimension and try to buy back some of what he barted away: years of his now dwindling life.",
+										"If you like, you can replace Madryck Roslof with a different NPC who better suits your campaign, such as Reidoth, the druid. Whether Madryck or someone else gives the quest, the characters must enter the carnival and charm their way into the good graces of the carnival owners, {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} to be invited to use the portal, or investigate and unravel clues in order to discover the secret portal themselves.",
+										
+										{
+											"type": "entries",
+											"name": "Setting the Stage",
+											"page": 2,
+											"id": "056",
+											"entries": [
+												"To kick off the adventure, read the following boxed text to the players whose characters aren't part of the carnival:",
+												{
+													"type": "insetReadaloud",
+													"id": "057",
+													"entries": [
+														"You have been summoned to the abode of a renounced treasure hunter named Madryck Roslof. His adventuring days are behind him, and he looks quite old and frail. Nevertheless, he is delighted, or maybe relieved to make your acquaintance.",
+														"\"I've acquired many treasures during my lengthy adventuring career,\" says Madryck. \"but none as marvelous as the one I accquired from a legendary magic shop. This shop, whose name I shall not utter, is not easily found, and its wares do not come cheap.  For I was only able to acquire my prize by bartering for it. The item was tarnished brass framed spectacle, unassuming in appearance, but it granted the wearer the ability to find what they were looking for, be it lost items, clues, or even hidden treasures. The asking price was well beyond my means, so I struck a deal: in exchange for this ring, I traded 38 years of my life. At the budding young age of 20, it seemed like a fair deal at the time. But now look at me. Nearing death. I look and feel all of 90, when I'm actually in my 50's. I gambled away my twilight years for a parlor trick trinket that I've now... [sigh]... lost.  Yes, it's true.  The only item in my posession that I could {@i possibly lose}... Oh the irony.  I have such regret, I cannot stand it.\"",
+														"Madryck looks up at you with aged, sagging eyes. \"Please. I implore you to return to the magic shop and try to buy back some of my life. Take this and try to sell it to the shop keeper in exchange for as many years of my life as he'll trade for it. It's not much but since losing my spectacle, I've slowly had to sell off my treasures, and this ring is now all I have to trade.\" Madryck extends a shaky arm and opens his hand to reveal a small wooden ring. \"It is imbued with the magical gift of animal kinship. The wearer can speak with birds and beasts, and gains influence over them when needed.\" He forces a smile, \"In the right hands it really could be quite powerful!\" he says enthusiastically, doing his best to promote the ring's worth. \"Please convince the shop keep of its considerable value.\"",
+														"\"Know that this magic shop is not simple to find. It exists in a pocket dimension between planes, and can only be accessed one way: Every eight years, our world is visited by a traveling extravaganza called the Witchlight Carnival, and hidden somewhere in the carnival is a doorway to the magic shop. The exact location of this portal changes constantly, but rest assured that {@i someone} always knows where it is.  The Carnival has recently returned to this world and is camped closeby, just outside of Phandalin. I'm asking you now because the carnival might pack up and leave at any time, and it contains your only route to the dimensional crossing where you'll find the magic shop, whose terrible name I fear to utter aloud.",
+														"\"Seek out the portal. Take my ring to the shop keep. Buy me back some of my precious years.\""
+													]
+												},
+												{
+													"type": "image",
+													"href": {
+														"type": "internal",
+														"path": "adventure/WBtW/009-00-010.madryck-roslof.png"
+													},
+													"title": "Madryck Roslof",
+													"width": 850,
+													"height": 1770
+												},
+												"The players may want to know more about the portal and how to find it--who should they ask about its location? What does it look like? Is it dangerous to pass through?  Here's what Madryck knows and is willing to share:",
+												{
+													"type": "list",
+													"items": [
+														"{@b What does the portal look like?} The portal is not going to be visible to just anyone. Only the Witchligh Monarch can see the portal. If none of the heros are crowned the Witchlight Monarch, they'll have to devise some other means of learning its location.",
+														"{@b Is it dangerous?} Entering the portal is not dangerous. Though, time flows differently in the pocket dimension.",
+														"{@b Who should they talk to?} Currying the favor of the carnival owners is adviseable, though it's not a guaranteed that even they know of the portal's existance or location.",
+														"{@b How does \"buying back years\" work? How do they know if it worked?} If his theory is right, the shop keeper's word is all they need. That's all it took last time, at least.",
+														"{@b What's the shop keeper's name?} He has gone by many names. There are those who call him Garfield the Deals Warlock",
+														"{@b What's the name of this magic shop?} A DC 15 Charisma ({@skill Persuasion}) check convinces Madryck to reluctantly utter the name: \"Fantasy Costco\"."
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "To the Carnival",
+											"page": 3,
+											"id": "059",
+											"entries": [
+												"Characters who accept Madryck's quest can make the uneventful trek to the carnival, which is located not too far from a settlement of your choosing. The characters arrive shortly before twilight. When they arrive, lay out the poster map of the carnival for the players to see."
+											]
+										}
+									]
+								}
+							]
 						}
 					]
 				},
@@ -463,7 +303,7 @@
 					"page": 4,
 					"id": "060",
 					"entries": [
-						"The Witchlight Carnival is a fairground of kaleidoscopic tents and wagons crewed by wondrous beings, including many denizens of the Feywild. This is no ordinary carnival; it uses magic to travel from world to world across the Material Plane, visiting each world once every eight years and setting up business on the outskirts of populated areas. The carnival spends a few days at each location, then packs up and moves to another location on the same world until the decision is made to leave that world and visit the next. The carnival includes a fey crossing, allowing travel to and from the Feywild domain of Prismeer.",
+						"The Witchlight Carnival is a fairground of kaleidoscopic tents and wagons crewed by wondrous beings, including many denizens of the Feywild. This is no ordinary carnival; it uses magic to travel from world to world across the Material Plane, visiting each world once every eight years and setting up business on the outskirts of populated areas. The carnival spends a few days at each location, then packs up and moves to another location on the same world until the decision is made to leave that world and visit the next. The carnival includes a dimensional crossing, allowing travel to the magic shop known as Fantasy Costco.",
 						"The characters are free to explore the carnival as they please. There are many paths through this chapter, so it can play out differently each time you run it.",
 						{
 							"type": "image",
@@ -488,17 +328,6 @@
 										"Familiarize yourself with the layout of the Witchlight Carnival. The map that appears in this chapter is a smaller version of the carnival poster map.",
 										"Read the chapter and familiarize yourself with the carnival's attractions. The characters can go anywhere at any time, so you need to be prepared for anything.",
 										"Prepare the tracking devices described in \"Carnival Map.\" You'll need a {@dice d8} to track the passage of time and another token to track the carnival's mood on the poster map."
-									]
-								},
-								"As the characters explore the carnival, you can keep a record of key events using the adventure's {@adventure Story Tracker|WBtW|11}.",
-								{
-									"type": "entries",
-									"name": "Mysterious Benefactor",
-									"page": 4,
-									"id": "062",
-									"entries": [
-										"The characters have an ally in the carnival: a planeswalking gnome bard named Ellywick Tumblestrum. The characters don't know Tumblestrum, but she knows them because her lute has magic strings that whisper secrets to her as she plucks them. These strings guided the gnome bard to the carnival and revealed to Tumblestrum that the characters' fates are intertwined with the fate of Prismeer. She has bought a ticket for each character who isn't a carnival employee. (The tickets are waiting at the ticket booth by the entrance.)",
-										"Tumblestrum can be found in the {@area Feasting Orchard|09e|x} (described later in the chapter) and serves as a helpful guide if the characters need direction."
 									]
 								},
 								{
