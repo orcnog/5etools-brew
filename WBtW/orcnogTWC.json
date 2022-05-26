@@ -1031,7 +1031,7 @@
 														}
 													]
 												},
-												"Each event is detailed in the \"{@area Timed Events|0eb|x}\" section toward the end of the chapter."
+												"Each event is detailed in the \"{@area Crowning the Witchlight Monarch|0f2|x}\" section toward the end of the chapter."
 											]
 										},
 										{
@@ -1313,7 +1313,7 @@
 											"page": 31,
 											"id": "085",
 											"entries": [
-												"Any visitor who can't afford the price of a ticket or who doesn't want to pay for a ticket can make a fey pact with Nikolas instead. Each pact is a one-night-only deal that ends when the Witchlight Monarch is crowned (see \"{@area Timed Events|0eb|x}\" toward the end of the chapter). If a character chooses to enter into such a pact, roll on the Ticket Pacts table to determine the conditions. A character who barters for multiple tickets can have more than one pact in effect; if any table result comes up twice, choose a different result.",
+												"Any visitor who can't afford the price of a ticket or who doesn't want to pay for a ticket can make a fey pact with Nikolas instead. Each pact is a one-night-only deal that ends when the Witchlight Monarch is crowned (see \"{@area Crowning the Witchlight Monarch|0f2|x}\" toward the end of the chapter). If a character chooses to enter into such a pact, roll on the Ticket Pacts table to determine the conditions. A character who barters for multiple tickets can have more than one pact in effect; if any table result comes up twice, choose a different result.",
 												"Any character who fulfills the conditions of a pact should be a strong contender for the title of Witchlight Monarch. A character who doesn't abide by the pact loses their ticket, which transforms into an ordinary bat and flaps away. In addition, the carnival's mood lowers by 1 step (see \"Tracking Mood\" earlier in the chapter and roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table).",
 												{
 													"type": "table",
@@ -1389,7 +1389,7 @@
 											]
 										},
 										"Customers can enter the Big Top for free.",
-										"The Big Top is the setting for two main events: the Big Top Extravaganza and the crowning of the Witchlight Monarch, both of which are described in the \"{@area Timed Events|0eb|x}\" section toward the end of the chapter. In the hours leading up to midnight, carnival barkers stationed throughout the fair declare, \"Big Top Extravaganza tonight at midnight! Prepare to be delighted!\" After midnight, these barkers shout, \"Who will be crowned our Witchlight Monarch? Join us in the Big Top just before dawn to find out!\"",
+										"The Big Top is the setting for two main events: the Big Top Extravaganza and the crowning of the Witchlight Monarch, both of which are described in the \"{@area Crowning the Witchlight Monarch|0f2|x}\" section toward the end of the chapter. In the hours leading up to midnight, carnival barkers stationed throughout the fair declare, \"Big Top Extravaganza tonight at midnight! Prepare to be delighted!\" After midnight, these barkers shout, \"Who will be crowned our Witchlight Monarch? Join us in the Big Top just before dawn to find out!\"",
 										"Aside from those scheduled events, a variety of entertainers perform here. Colorful orbs of light dance in the lofts of the tent while magic spotlights highlight performers. Spectators watch the acts from rows of tiered wooden seats encircling the ring. You can randomly determine an act by rolling on the Big Top Acts table, or you can create new acts using the table's entries as inspiration.",
 										{
 											"type": "table",
@@ -2435,7 +2435,7 @@
 													"width": 850,
 													"height": 1219
 												},
-												"The perimeter inside the wall of thorns and outside the circle of wagons is patrolled by a {@creature bugbear} named Burly (neutral good), who leaves his post once during the evening to participate in the Big Top Extravaganza (see \"{@area Timed Events|0eb|x}\" later in the chapter). While on patrol, Burly wears a large jack-o'-lantern on his head, as one would wear a helmet, in addition to his dungarees and fake fairy wings.",
+												"The perimeter inside the wall of thorns and outside the circle of wagons is patrolled by a {@creature bugbear} named Burly (neutral good), who leaves his post once during the evening to participate in the {@area Big Top Extravaganza|0f0}.  While on patrol, Burly wears a large jack-o'-lantern on his head, as one would wear a helmet, in addition to his dungarees and fake fairy wings.",
 												"The central area enclosed by the wagons is guarded by Thaco the clown, a human {@creature Witchlight Hand (Medium)|WBtW|Witchlight hand} (chaotic neutral; see the stat block earlier in the chapter) who is loyal only to {@creature Mister Witch|WBtW}. He usually sits right outside the door to Witch and Light's wagon, blowing bubbles with his bubble pipe.",
 												"Burly and Thaco dislike each other, so they don't fraternize while on guard duty. {@adventure Appendix D|WBtW|9} contains additional roleplaying notes for them.",
 												"Characters caught snooping around the wagons without an escort are evicted from the carnival and must find a way to sneak or barter their way back in."
@@ -2447,7 +2447,7 @@
 											"page": 48,
 											"id": "0d8",
 											"entries": [
-												"{@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} (see their stat blocks earlier in the chapter) are in their wagon throughout the evening, except during the Big Top Extravaganza (which Light attends and Witch does not) and the crowning of the Witchlight Monarch (which they both attend). See \"Timed Events\" later in the chapter for more information.",
+												"{@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} (see their stat blocks earlier in the chapter) are in their wagon throughout the evening, except during the Big Top Extravaganza (which Light attends and Witch does not) and the crowning of the Witchlight Monarch (which they both attend). See {@area Crowning the Witchlight Monarch|0f2|x} later in the chapter for more information.",
 												"Refer to the \"Carnival Owners\" section for more information about Witch and Light. Appendix D contains additional roleplaying notes for the pair.",
 												"Characters who sneak up to the wagon while it's occupied can overhear Witch and Light talking:",
 												{
@@ -2479,7 +2479,7 @@
 													"page": 49,
 													"id": "0da",
 													"entries": [
-														"{@creature Mister Witch|WBtW}'s bunk is neat and unadorned. {@creature Mister Light|WBtW}'s bunk is gaudy and messy, with costumes strewn everywhere. Characters who search through the gear find a hatbox containing the crown of the Witchlight Monarch; this splendid crown of gold butterflies teleports back to its hatbox at the end of each evening and is ceremoniously produced from its box during the monarch's coronation (see \"{@area Timed Events|0eb|x}\" later in the chapter).",
+														"{@creature Mister Witch|WBtW}'s bunk is neat and unadorned. {@creature Mister Light|WBtW}'s bunk is gaudy and messy, with costumes strewn everywhere. Characters who search through the gear find a hatbox containing the crown of the Witchlight Monarch; this splendid crown of gold butterflies teleports back to its hatbox at the end of each evening and is ceremoniously produced from its box during the monarch's coronation (see \"{@area Crowning the Witchlight Monarch|0f2|x}\" later in the chapter).",
 														"Any character who searches the wagon for secret compartments finds one with a successful DC 15 Intelligence ({@skill Investigation}) check. The compartment is located in a bench and contains a tiny, bejeweled chest worth 50 gp. This chest is a replica of a much larger chest hidden on the Ethereal Plane (with the help of a {@spell Leomund's secret chest} spell). While holding the replica chest, {@creature Mister Witch|WBtW} can use an action to summon the larger chest. He can send the larger chest back to the Ethereal Plane by using an action and touching both the chest and the replica."
 													]
 												},
@@ -2554,147 +2554,264 @@
 										}
 									]
 								},
+								"The following events occur at specific times throughout the evening.",
 								{
 									"type": "entries",
-									"name": "Timed Events",
+									"name": "Hour 1: Welcome Gifts",
 									"page": 53,
-									"id": "0eb",
+									"id": "0ec",
 									"entries": [
-										"The following events occur at specific times throughout the evening.",
+										"Shortly after the carnival opens for business, read:",
+										{
+											"type": "insetReadaloud",
+											"id": "0ed",
+											"entries": [
+												"A twelve-foot-tall walking tree garlanded in golden ribbons marches down the thoroughfare. Emerald clouds swirl above the tree and rain down golden, spinning sycamore seeds. Fairgoers try to catch the seeds before they hit the ground. As the seeds gently fall, a chatty squirrel scampers along the boughs of the tree, handing dandelions to select passersby."
+											]
+										},
+										"The tree is Northwind, a {@creature treant sapling|WBtW} (see its stat block earlier in the chapter), and the squirrel is its trusty companion, Red (see \"{@area Dragonfly Rides|09a|x}\" earlier in the chapter). As Northwind encourages onlookers to catch the falling seeds before they touch the ground, Red hands the characters one dandelion apiece and encourages each of them to make a wish and then blow the dandelion's seeds into the air.",
 										{
 											"type": "entries",
-											"name": "Hour 1: Welcome Gifts",
+											"name": "Sycamore Seeds",
 											"page": 53,
-											"id": "0ec",
+											"id": "0ee",
 											"entries": [
-												"Shortly after the carnival opens for business, read:",
-												{
-													"type": "insetReadaloud",
-													"id": "0ed",
-													"entries": [
-														"A twelve-foot-tall walking tree garlanded in golden ribbons marches down the thoroughfare. Emerald clouds swirl above the tree and rain down golden, spinning sycamore seeds. Fairgoers try to catch the seeds before they hit the ground. As the seeds gently fall, a chatty squirrel scampers along the boughs of the tree, handing dandelions to select passersby."
-													]
-												},
-												"The tree is Northwind, a {@creature treant sapling|WBtW} (see its stat block earlier in the chapter), and the squirrel is its trusty companion, Red (see \"{@area Dragonfly Rides|09a|x}\" earlier in the chapter). As Northwind encourages onlookers to catch the falling seeds before they touch the ground, Red hands the characters one dandelion apiece and encourages each of them to make a wish and then blow the dandelion's seeds into the air.",
-												{
-													"type": "entries",
-													"name": "Sycamore Seeds",
-													"page": 53,
-													"id": "0ee",
-													"entries": [
-														"A creature can attempt to catch a falling sycamore seed before it touches the ground, doing so with a successful DC 10 Dexterity check. Any creature that catches a seed before it touches the ground receives a gift, determined by rolling a {@dice d8} and consulting the Welcome Gifts table. A creature that receives one of these gifts can't gain another one for 24 hours."
-													]
-												},
-												{
-													"type": "entries",
-													"name": "Dandelion Seeds",
-													"page": 53,
-													"id": "0ef",
-													"entries": [
-														"A character can make a wish while blowing their dandelion's seeds into the air. The player should secretly write down their character's wish on a piece of paper; collect these notes and keep them somewhere safe. On the Story Tracker, jot down the names of the characters who make wishes. These wishes become relevant in {@adventure chapter 4|WBtW|4} (see \"{@area Wish Stones|2d0|x}\" in the \"{@area Brigganock Mine|2c1|x}\" section).",
-														{
-															"type": "table",
-															"caption": "Welcome Gifts",
-															"colLabels": [
-																"d8",
-																"Gift"
-															],
-															"colStyles": [
-																"col-2 text-center",
-																"col-10"
-															],
-															"rows": [
-																[
-																	"1\u20133",
-																	"The creature gains the following personality trait until dawn: \"I am easily amused.\" Any conflicting character trait is suppressed in the meantime."
-																],
-																[
-																	"4",
-																	"The creature gains a die, a {@dice d4}, which it can add to one ability check it makes before the next dawn."
-																],
-																[
-																	"5\u20137",
-																	"The seed turns into a gold piece."
-																],
-																[
-																	"8",
-																	"The creature gains a die, a {@dice d8}, which it can add to one ability check it makes before the next dawn."
-																]
-															]
-														}
-													]
-												}
+												"A creature can attempt to catch a falling sycamore seed before it touches the ground, doing so with a successful DC 10 Dexterity check. Any creature that catches a seed before it touches the ground receives a gift, determined by rolling a {@dice d8} and consulting the Welcome Gifts table. A creature that receives one of these gifts can't gain another one for 24 hours."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Hour 4: Big Top Extravaganza",
+											"name": "Dandelion Seeds",
 											"page": 53,
-											"id": "0f0",
+											"id": "0ef",
 											"entries": [
-												"Spectators file into the Big Top and fill the rows of seats. If the characters join them, read:",
+												"A character can make a wish while blowing their dandelion's seeds into the air. The player should secretly write down their character's wish on a piece of paper; collect these notes and keep them somewhere safe. On the Story Tracker, jot down the names of the characters who make wishes. These wishes become relevant in {@adventure chapter 4|WBtW|4} (see \"{@area Wish Stones|2d0|x}\" in the \"{@area Brigganock Mine|2c1|x}\" section).",
+												{
+													"type": "table",
+													"caption": "Welcome Gifts",
+													"colLabels": [
+														"d8",
+														"Gift"
+													],
+													"colStyles": [
+														"col-2 text-center",
+														"col-10"
+													],
+													"rows": [
+														[
+															"1\u20133",
+															"The creature gains the following personality trait until dawn: \"I am easily amused.\" Any conflicting character trait is suppressed in the meantime."
+														],
+														[
+															"4",
+															"The creature gains a die, a {@dice d4}, which it can add to one ability check it makes before the next dawn."
+														],
+														[
+															"5\u20137",
+															"The seed turns into a gold piece."
+														],
+														[
+															"8",
+															"The creature gains a die, a {@dice d8}, which it can add to one ability check it makes before the next dawn."
+														]
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Hour 4: Big Top Extravaganza",
+									"page": 53,
+									"id": "0f0",
+									"entries": [
+										"Spectators file into the Big Top and fill the rows of seats. If the characters join them, read:",
+										{
+											"type": "insetReadaloud",
+											"id": "0f1",
+											"entries": [
+												"The lights dim and a hush falls over the crowd. A second later, a spotlight illuminates a lithe, elven figure sitting in a silver hoop, suspended above the center ring by silk ropes. The elf wears a dazzling suit of diamond-pane mirrors and a pair of butterfly wings. His scepter is topped with a spinning vane.",
+												"\"Welcome, one and all, to this evening's extravaganza! I am {@creature Mister Light|WBtW}. Prepare to be delighted!\""
+											]
+										},
+										"The extravaganza involves several of the carnival's star performers and attractions, with {@creature Mister Light|WBtW} serving as ringmaster. Over the course of an hour, the following events occur:",
+										"Burly the bugbear performs feats of strength, Palasha the mermaid serenades the audience from a clamshell bathing pool, Candlefoot the mime plays silent games with audience members, and faerie dragons with bright streamers tied to their tails perform dazzling acts of synchronized flying as a troupe of acrobats, clowns, and fire-breathers parade about. If the characters attempt to disrupt the show, {@creature Mister Light|WBtW} deflects their interruptions with banter and maintains a jovial demeanor. Persistent heckling lowers the carnival's mood by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table).",
+										{
+											"type": "entries",
+											"name": "Burly the Bugbear's Feats of Strength",
+											"entries": [
 												{
 													"type": "insetReadaloud",
-													"id": "0f1",
 													"entries": [
-														"The lights dim and a hush falls over the crowd. A second later, a spotlight illuminates a lithe, elven figure sitting in a silver hoop, suspended above the center ring by silk ropes. The elf wears a dazzling suit of diamond-pane mirrors and a pair of butterfly wings. His scepter is topped with a spinning vane.",
-														"\"Welcome, one and all, to this evening's extravaganza! I am {@creature Mister Light|WBtW}. Prepare to be delighted!\""
+														"Walking out of a cloud of smoke and light, a massive, hairy Bugbear, wearing dungarees and a pumpkin helmet, steps out onto the stage, flexing his impressive muscles. He carries an enormous metal pole, easily at least twenty feet long, and it glints under the lights."
 													]
 												},
-												"The extravaganza involves several of the carnival's star performers and attractions, with {@creature Mister Light|WBtW} serving as ringmaster. Over the course of an hour, Burly the bugbear performs feats of strength, Palasha the mermaid serenades the audience from a clamshell bathing pool, Candlefoot the mime plays silent games with audience members, and faerie dragons with bright streamers tied to their tails perform dazzling acts of synchronized flying as a troupe of acrobats, clowns, and fire-breathers parade about. If the characters attempt to disrupt the show, {@creature Mister Light|WBtW} deflects their interruptions with banter and maintains a jovial demeanor. Persistent heckling lowers the carnival's mood by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table).",
+												"{@creature bugbear|Burly the Bugbear} will offer for volunteers from the crowd to hang off each end of the pole, and he will lift them: first one on each end, then two, then three, pausing for applause from the audience in between each feat of strength. Burly is capable of lifting 900lbs without needing to do any kind of ability check: the average human weighs approximately 150lbs. If it seems likely that the weight of the volunteers modifier, with the DC being the Con score of the heaviest volunteer on the pole.",
+												"After these feats of strength, two {@creature Goblin} stage hands dressed as jesters wheel out a large tub of water and a long rope: Burly will challenge anyone in the audience to a tug of war, and will even welcome two opponents at once!",
+												"The tug of war takes the form of a contested {@skill Athetics} check (Burly has a +6 bonus). If two characters are on one end of the rope, one can use the Help action on the other to give them Advantage on the roll. The loser will get pulled into the water with a dramatic splash.",
+												"Defeating Burly earns raucous applause from the crowd, as the Bugbear will lift the contestants above his head to celebrate their victory. Even if a character loses, Burly will help them out of the pool and encourage the audience to applaud their effort."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Palasha's Serenade",
+											"entries": [
+												{
+													"type": "insetReadaloud",
+													"entries": [
+														"A giant clamshell is wheeled out, and the lights go down. The lid slowly begins to open in complete silence, until an unearthly, beautiful voice begins to undulate from within: suddenly the lights come up and reveal Palasha the Mermaid, who sings in Aquan, a language that sounds like it's being sung underwater even though you're sitting on dry land. Bubbles of water begin to ripple through the air around her, causing the lights of the tent to shimmer and ripple."
+													]
+												},
+												"As she sings, {@creature Witchlight Hand (Medium)|WBtW|Witchlight hands} move through the audience handing out sea creature kites that seem to swim through the air as you hold their string. They will gesture to the stage and encourage the party to join the crowd of children who are excitedly making an underwater scene with their animated kite puppets.",
+												{
+													"type": "table",
+													"colLabels": [
+														"d8",
+														"Event"
+													],
+													"colStyles": [
+														"col-1 text-center",
+														"col-11"
+													],
+													"rows": [
+														[
+															"1",
+															"Kite"
+														],
+														[
+															"1",
+															"Dolphin"
+														],
+														[
+															"2",
+															"Jellyfish"
+														],
+														[
+															"3",
+															"Shark"
+														],
+														[
+															"4",
+															"Stingray"
+														],
+														[
+															"5",
+															"Seahorse"
+														],
+														[
+															"6",
+															"Sea Serpent"
+														],
+														[
+															"7",
+															"Octopus"
+														],
+														[
+															"8",
+															"Mermaid"
+														]
+													]
+												},
+												"Have each character make a DC 14 {@skill Performance} check, as they describe how they play with their kite during the song.",
+												"After the performance finishes, Palasha will gesture to the puppeteers for their own round of applause. Anyone who passed the Performance check recieves a fish scale with one use of the Shape Water cantrip from a {@creature Witchlight Hand (Medium)|WBtW|Witchlight Hand} as they collect the kites back up."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Candlefoot's Games",
+											"entries": [
+												{
+													"type": "insetReadaloud",
+													"entries": [
+														"A pale, lanky mime dressed in black and white moves through the crowd, followed by the sounds of laughter and delight."
+													]
+												},
+												"Candlefoot the mime will perform tricks of sleight of hand with the audience. His favorite act is to seemingly slide a copper piece into one ear, ask the audience member to tap their head, and then he'll pull the coin out of the other. He will do this with multiple audience members, until he finds a party member.",
+												"This time, he puts a copper in, but pulls out a gold. Expressing shock, he polishes it, he bites it, and he looks closely in the character's ear. He tentatively puts another copper in, and lo and behold, another gold comes out. He excitedly pulls out all the copper pieces he has in his pockets and appears to pour them all into the character's head before waiting eagerly at the other side for his payout... which comes as only one single copper piece.",
+												"Dejected, he inspects the players ear, taps on their head and listens, then shrugs sadly, turns out his pockets, and sulks sadly away, as the audience sighs \"Aaaaaaw\".",
+												"He'll hold out his hand for donations and cheer up more and more with every gift. Any character who gives Candlefoot a gold piece receives a gift of thanks with a sly wink: a sachet of {@item pixie dust|WBtW}."
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Open Mic Hour",
+											"entries": [
 												"Near the end of the show, {@creature Mister Light|WBtW} asks if any guests would like to perform their own acts for the crowd. Any character who accepts the offer can woo spectators with a DC 14 Charisma ({@skill Performance}) check, raising the carnival's mood by 1 step on a success (roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table). If multiple characters choose to perform together, make it a group check instead, but raise the carnival's mood by 2 steps if the group check succeeds (roll once on the {@item Mood Rises|orcnogTWC|Mood Rises} table). A character can improve the carnival's mood only once during this extravaganza.",
 												"At the end of the show, Burly invites any characters who took to the stage and impressed the crowd to meet with {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} (see \"{@area Meeting Witch and Light|0dd|x}\" earlier in the chapter)."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Hour 8: Crowning the Witchlight Monarch",
-											"page": 54,
-											"id": "0f2",
+											"name": "Extravaganza Finale",
 											"entries": [
-												"Most of the carnival's stars have a part to play in the coronation, which celebrates the joyous zeal of a single guest. The event plays out as follows:",
+												{
+													"type": "insetReadaloud",
+													"entries": [
+														"As the show comes to close, a dozen Faerie Dragons with bright streamers tied to their tails perform dazzling acts of synchronized flying as a troupe of acrobats, clowns, and firebreathers parade about. The slender, colourful Mr Light brandishes his scepter high above his head and invites anyone from the audience on stage to perform for the crowd. As he does, several giggling children run up immediately and start dancing and falling over."
+													]
+												},
+												"If {@creature Master Thief|MPMM|Kester} is still at large in the carnival, he can attempt to sabotage the party's performance, which otherwise plays out as written in the adventure:",
 												{
 													"type": "list",
 													"items": [
-														"As spectators take their seats in the Big Top, Dirlagraun the displacer beast escorts {@creature Mister Witch|WBtW} from his wagon to the coronation, leaving Thaco the clown behind to guard the Staff Area.",
-														"{@creature Mister Witch|WBtW} and Dirlagraun stand on the sidelines next to Candlefoot as {@creature Mister Light|WBtW} gives an opening speech and the monarch is selected (see \"Selecting a Monarch\" below). Candlefoot holds the hatbox containing the monarch's crown.",
-														"{@creature Mister Witch|WBtW} removes the crown of golden butterflies from the hatbox and places it on the monarch's head; {@creature Mister Light|WBtW} knights the monarch with the {@item Witchlight vane|WBtW}. Happy clowns shower all three in glitter.",
-														"Witch and Light escort the monarch on a circuit of the stage while Palasha the mermaid sings a joyous song and pixies flutter all around her.",
-														"When Palasha's song concludes, {@creature Mister Light|WBtW} leads the monarch on a parade through the carnival, with the other guests following as Burly the bugbear sets off fireworks. Meanwhile, Dirlagraun escorts {@creature Mister Witch|WBtW} back to his wagon."
-													]
-												},
-												{
-													"type": "entries",
-													"name": "Selecting a Monarch",
-													"page": 54,
-													"id": "0f3",
-													"entries": [
-														"{@creature Mister Light|WBtW}'s {@item Witchlight vane|WBtW} selects the monarch from the carnival's guests, spinning a thread of golden light that winds its way to the chosen reveler. If the mood of the carnival is positive, choose the character who improved the carnival's mood the most, or ask the players to agree on which of their characters should be crowned. If it's not appropriate for any of the characters to be crowned monarch, then a jubilant halfling bedecked in flowers is selected from the crowd. {@creature Mister Light|WBtW} exudes cheerfulness and follows through with the ceremony regardless of who is chosen.",
-														"At the end of the celebration, as the carnival begins to wind down, the ceremonial crown teleports back into its hatbox. Candlefoot returns the hatbox to the Staff Area, handing it off to Thaco the clown, who stashes it in the wagon belonging to {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW}."
+														"A {@creature Smoke Mephit|MM} that is part of a firebreather's act will begin to cough and sneeze uncontrollably as {@creature Master Thief|MPMM|Kester} uses {@spell Mage Hand} to tickle its nose. All party members on stage will be subject to its Cinder Breath ability, after which it will apologise profusely.",
+														"Using {@spell Minor Illusion}, a board reading \"BOO\" will appear above the party's heads, causing some of the audience to start jeering them.",
+														"{@creature Master Thief|MPMM|Kester} sneaks on stage, disguised as a {@creature Commoner}, and uses his Twilight Sleep ability to engulf one character in sleep-inducing gas mid-performance.",
+														"Disguised as a Witchlight Hand, Kester will brush by another party member and use {@spell Bestow Curse} to give them disadvantage on all Charisma checks."
 													]
 												}
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Hour 8: Crowning the Witchlight Monarch",
+									"page": 54,
+									"id": "0f2",
+									"entries": [
+										"Most of the carnival's stars have a part to play in the coronation, which celebrates the joyous zeal of a single guest. The event plays out as follows:",
+										{
+											"type": "list",
+											"items": [
+												"As spectators take their seats in the Big Top, Dirlagraun the displacer beast escorts {@creature Mister Witch|WBtW} from his wagon to the coronation, leaving Thaco the clown behind to guard the Staff Area.",
+												"{@creature Mister Witch|WBtW} and Dirlagraun stand on the sidelines next to Candlefoot as {@creature Mister Light|WBtW} gives an opening speech and the monarch is selected (see \"Selecting a Monarch\" below). Candlefoot holds the hatbox containing the monarch's crown.",
+												"{@creature Mister Witch|WBtW} removes the crown of golden butterflies from the hatbox and places it on the monarch's head; {@creature Mister Light|WBtW} knights the monarch with the {@item Witchlight vane|WBtW}. Happy clowns shower all three in glitter.",
+												"Witch and Light escort the monarch on a circuit of the stage while Palasha the mermaid sings a joyous song and pixies flutter all around her.",
+												"When Palasha's song concludes, {@creature Mister Light|WBtW} leads the monarch on a parade through the carnival, with the other guests following as Burly the bugbear sets off fireworks. Meanwhile, Dirlagraun escorts {@creature Mister Witch|WBtW} back to his wagon."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Development",
+											"name": "Selecting a Monarch",
 											"page": 54,
-											"id": "0f5",
+											"id": "0f3",
 											"entries": [
-												"The Witchlight Monarch gains the following charm (see \"{@book Supernatural Gifts|DMG|7|Supernatural Gifts}\" in the {@book Dungeon Master's Guide|DMG} for more information) and instantly becomes aware of its benefits:",
+												"{@creature Mister Light|WBtW}'s {@item Witchlight vane|WBtW} selects the monarch from the carnival's guests, spinning a thread of golden light that winds its way to the chosen reveler. If the mood of the carnival is positive, choose the character who improved the carnival's mood the most, or ask the players to agree on which of their characters should be crowned. If it's not appropriate for any of the characters to be crowned monarch, then a jubilant halfling bedecked in flowers is selected from the crowd. {@creature Mister Light|WBtW} exudes cheerfulness and follows through with the ceremony regardless of who is chosen.",
+												"At the end of the celebration, as the carnival begins to wind down, the ceremonial crown teleports back into its hatbox. Candlefoot returns the hatbox to the Staff Area, handing it off to Thaco the clown, who stashes it in the wagon belonging to {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW}."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Development",
+									"page": 54,
+									"id": "0f5",
+									"entries": [
+										"The Witchlight Monarch gains the following charm (see \"{@book Supernatural Gifts|DMG|7|Supernatural Gifts}\" in the {@book Dungeon Master's Guide|DMG} for more information) and instantly becomes aware of its benefits:",
+										{
+											"type": "inset",
+											"id": "0f6",
+											"entries": [
 												{
-													"type": "inset",
-													"id": "0f6",
+													"type": "entries",
+													"name": "Charm of the Monarch",
+													"page": 54,
+													"id": "0f7",
 													"entries": [
-														{
-															"type": "entries",
-															"name": "Charm of the Monarch",
-															"page": 54,
-															"id": "0f7",
-															"entries": [
-																"You can sprout a pair of beautiful butterfly wings. As long as you have the wings, you gain a flying speed equal to your walking speed, and you gain a +5 bonus on all Charisma-based ability checks. These effects last for 1 hour. After you use this charm three times, it vanishes from you."
-															]
-														}
+														"You can sprout a pair of beautiful butterfly wings. As long as you have the wings, you gain a flying speed equal to your walking speed, and you gain a +5 bonus on all Charisma-based ability checks. These effects last for 1 hour. After you use this charm three times, it vanishes from you."
 													]
 												}
 											]
@@ -2707,7 +2824,7 @@
 									"page": 54,
 									"id": "0f8",
 									"entries": [
-										"The characters receive an invitation to meet privately with {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} when the carnival's mood reaches either end of the track (see \"{@area Tracking Mood|065|x}\" earlier in the chapter) or if the characters impress {@creature Mister Light|WBtW} during the Big Top Extravaganza (see \"{@area Timed Events|0eb|x}\" later in the chapter).",
+										"The characters receive an invitation to meet privately with {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} when the carnival's mood reaches either end of the track (see \"{@area Tracking Mood|065|x}\" earlier in the chapter) or if the characters impress {@creature Mister Light|WBtW} during the Big Top Extravaganza (see \"{@area Big Top Extravaganza|0f0|x}\" later in the chapter).",
 										"Witch and Light send Burly the {@creature bugbear} (neutral good) to fetch the characters:",
 										{
 											"type": "insetReadaloud",
