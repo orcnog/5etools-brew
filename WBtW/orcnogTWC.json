@@ -2554,7 +2554,24 @@
 										}
 									]
 								},
-								"The following events occur at specific times throughout the evening.",
+								{
+									"type": "entries",
+									"entries": [
+										{
+											"type": "entries",
+											"entries": [
+												{
+													"type": "entries",
+													"name": "The following events occur at specific times throughout the evening.",
+													"entries": []
+												}
+											]
+										}
+									]
+								},
+								"&nbsp;",
+								"{@note The following events occur at specific times throughout the evening.}",
+								"&nbsp;",
 								{
 									"type": "entries",
 									"name": "Hour 1: Welcome Gifts",
@@ -2735,7 +2752,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "Open Mic Hour",
+											"name": "Open Mic",
 											"entries": [
 												"Near the end of the show, {@creature Mister Light|WBtW} asks if any guests would like to perform their own acts for the crowd. Any character who accepts the offer can woo spectators with a DC 14 Charisma ({@skill Performance}) check, raising the carnival's mood by 1 step on a success (roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table). If multiple characters choose to perform together, make it a group check instead, but raise the carnival's mood by 2 steps if the group check succeeds (roll once on the {@item Mood Rises|orcnogTWC|Mood Rises} table). A character can improve the carnival's mood only once during this extravaganza.",
 												"At the end of the show, Burly invites any characters who took to the stage and impressed the crowd to meet with {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} (see \"{@area Meeting Witch and Light|0dd|x}\" earlier in the chapter)."
