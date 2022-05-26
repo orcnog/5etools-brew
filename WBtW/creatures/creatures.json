@@ -480,8 +480,6 @@
 		},
 		{
 			"name": "Kester the Kenku",
-			"isNpc": true,
-			"isNamedCreature": true,
 			"source": "orcnogTWC",
 			"page": 3,
 			"_copy": {
