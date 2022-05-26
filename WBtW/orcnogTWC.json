@@ -682,6 +682,481 @@
 			]
 		}
 	],
+	"monster": [
+		{
+			"name": "Mister Light",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "orcnogTWC",
+			"page": 26,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf",
+					"shadar-kai"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 77,
+				"formula": "14d8 + 14"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 12,
+			"int": 12,
+			"wis": 13,
+			"cha": 17,
+			"save": {
+				"dex": "+5",
+				"cha": "+5"
+			},
+			"skill": {
+				"perception": "+3",
+				"performance": "+5",
+				"sleight of hand": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"necrotic"
+			],
+			"vulnerable": [
+				"lightning"
+			],
+			"conditionImmune": [
+				"blinded",
+				"deafened",
+				"petrified",
+				"stunned"
+			],
+			"languages": [
+				"Common",
+				"Elvish",
+				"Sylvan"
+			],
+			"cr": "3",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"While carrying the {@item Witchlight vane|WbtW}, Light casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks):"
+					],
+					"will": [
+						"{@spell dancing lights}",
+						"{@spell polymorph} (after casting, roll a {@dice d8}; on a roll of 3 or 8, Light can't cast the spell again until the next dawn)",
+						"{@spell ray of frost}"
+					],
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Light has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Light carries and is attuned to the {@item Witchlight vane|WbtW}. In Light's hands, the vane is a finesse weapon."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Light makes two {@item Witchlight vane|WbtW} attacks."
+					]
+				},
+				{
+					"name": "Witchlight Vane",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage plus 4 ({@damage 1d8}) radiant damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Blessing of the Raven Queen (1/Day)",
+					"entries": [
+						"Light magically teleports, along with any equipment he is wearing or carrying, up to 30 feet to an unoccupied space he can see. Until the start of his next turn, he appears ghostly and gains resistance to all damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"S"
+			],
+			"damageTags": [
+				"B",
+				"R"
+			],
+			"damageTagsSpell": [
+				"C"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Mister Witch",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "orcnogTWC",
+			"page": 25,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf",
+					"shadar-kai"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 82,
+				"formula": "11d8 + 33"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 11,
+			"con": 16,
+			"int": 16,
+			"wis": 13,
+			"cha": 14,
+			"save": {
+				"int": "+5",
+				"wis": "+3"
+			},
+			"skill": {
+				"arcana": "+5",
+				"deception": "+4",
+				"perception": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"necrotic"
+			],
+			"languages": [
+				"Common",
+				"Elvish",
+				"Sylvan"
+			],
+			"cr": "3",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"While carrying the {@item Witchlight watch|WbtW}, Witch casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks):"
+					],
+					"will": [
+						"{@spell fire bolt}",
+						"{@spell invisibility} (after casting, roll a {@dice d8}; on a roll of 3 or 8, Witch can't cast the spell again until the next dawn)",
+						"{@spell message}"
+					],
+					"ability": "int",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Witch has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Witch carries and is attuned to the {@item Witchlight watch|WbtW}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Witch makes two Cane attacks."
+					]
+				},
+				{
+					"name": "Cane",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage plus 6 ({@damage 1d12}) necrotic damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Blessing of the Raven Queen (1/Day)",
+					"entries": [
+						"Witch magically teleports, along with any equipment he is wearing or carrying, up to 30 feet to an unoccupied space he can see. Until the start of his next turn, he appears ghostly and gains resistance to all damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"S"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"damageTagsSpell": [
+				"F"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"invisible"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Witchlight Hand (Medium)",
+			"source": "orcnogTWC",
+			"page": 27,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 9,
+				"formula": "2d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 11,
+			"int": 12,
+			"wis": 13,
+			"cha": 12,
+			"skill": {
+				"sleight of hand": "+6"
+			},
+			"passive": 11,
+			"languages": [
+				"Common plus any one language"
+			],
+			"cr": "1/8",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The hand casts one of the following spells, using Charisma as the spellcasting ability:"
+					],
+					"will": [
+						"{@spell dancing lights}",
+						"{@spell message}",
+						"{@spell prestidigitation}"
+					],
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Secret Expertise",
+					"entries": [
+						"The hand has one of these additional skills: Acrobatics +6, Animal Handling +5, Arcana +5, Athletics +4, Medicine +5, or Performance +5."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Pixie Dust (1/Day)",
+					"entries": [
+						"The hand sprinkles a pinch of pixie dust on itself or another creature it can see within 5 feet of it. The recipient gains a flying speed of 30 feet for 1 minute. If the creature is airborne when this effect ends, it falls safely to the ground, taking no damage and landing on its feet."
+					]
+				}
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"hasToken": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Witchlight Hand (Small)",
+			"source": "orcnogTWC",
+			"_copy": {
+				"name": "Witchlight Hand (Medium)",
+				"source": "orcnogTWC",
+				"_preserve": {
+					"page": true,
+					"hasFluff": true,
+					"hasFluffImages": true
+				}
+			},
+			"size": [
+				"S"
+			],
+			"hp": {
+				"average": 7,
+				"formula": "2d6"
+			},
+			"hasToken": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Kester the Kenku",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "orcnogTWC",
+			"page": 3,
+			"_copy": {
+				"name": "Master Thief",
+				"source": "MPMM",
+				"_preserve": {
+					"page": true,
+					"hasFluff": true,
+					"hasFluffImages": true
+				}
+			},
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"kenku"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"skill": {
+				"arcana": "+2"
+			},
+			"languages": [
+				"understands Auran and Common but speaks only through the use of her Mimicry trait"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Kester casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 13}):"
+					],
+					"will": [
+						"{@spell disguise self}",
+						"{@spell friends}",
+						"{@spell mage hand}",
+						"{@spell minor illusion}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell bestow curse}",
+							"{@spell faerie fire}",
+							"{@spell speak with animals}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Mimicry",
+					"entries": [
+						"Kester can mimic any sounds she has heard, including voices. A creature that hears the sounds can tell they are imitations only with a successful {@dc 13} Wisdom (Insight) check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Twilight Sleep (2/Day)",
+					"entries": [
+						"Kester targets one creature she can see within 10 feet of him. The target is engulfed in a cloud of magical, sleep-inducing gas and must succeed on a {@dc 13} Constitution saving throw or fall {@condition unconscious} for 1 minute. A creature put to sleep by this gas awakens instantly if it takes damage, or if someone uses an action to shake or slap the sleeper awake."
+					]
+				}
+			],
+			"languageTags": [
+				"AU",
+				"C"
+			],
+			"conditionInflict": [
+				"unconscious"
+			]
+		}
+	],
 	"adventure": [
 		{
 			"name": "The Witchlight Carnival",
@@ -752,7 +1227,7 @@
 					"id": "001",
 					"entries": [
 						"The goal of this side quest is to present your characters with a fun distraction from their possibly violent campaigning. The Witchlight Carnival is in town, and your characters have a day (or two) to kill, so why not buy a ticket and play some carnival games? The reward for completing enough of the objectives throughout the carnival is a chance for the adventurers to visit a fantastical magic shop, stocked with all manner of spell scrolls and magic items that may help the adventurers on their quests.",
-						"To enter the Fantasy Costco, the characters must first visit the carnival, which travels across the Material Plane and appears on the characters' world once every eight years. The carnival owners are a pair of shadar-kai (elves native to the Shadowfell) named {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW}, who can help or hinder the characters' efforts to reach Fantasy Costco.",
+						"To enter the Fantasy Costco, the characters must first visit the carnival, which travels across the Material Plane and appears on the characters' world once every eight years. The carnival owners are a pair of shadar-kai (elves native to the Shadowfell) named {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC}, who can help or hinder the characters' efforts to reach Fantasy Costco.",
 						{
 							"type": "inset",
 							"name": "Eight and Three",
@@ -830,7 +1305,7 @@
 									"id": "054",
 									"entries": [
 										"In this preamble, an aging treasure hunter named Madryck Roslof tells the characters about a fantastical magic shop called Fantasy Costco, which exists only in a pocket dimension and can only be reached by finding and using a portal in the carnival. Madryck says that he stumbled upon it years ago and bartered for a magic item which he's now lost. He impores the characters to journey to this pocket dimension and try to buy back some of what he barted away: years of his now dwindling life.",
-										"If you like, you can replace Madryck Roslof with a different NPC who better suits your campaign, such as Reidoth, the druid. Whether Madryck or someone else gives the quest, the characters must enter the carnival and charm their way into the good graces of the carnival owners, {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} to be invited to use the portal, or investigate and unravel clues in order to discover the secret portal themselves.",
+										"If you like, you can replace Madryck Roslof with a different NPC who better suits your campaign, such as Reidoth, the druid. Whether Madryck or someone else gives the quest, the characters must enter the carnival and charm their way into the good graces of the carnival owners, {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC} to be invited to use the portal, or investigate and unravel clues in order to discover the secret portal themselves.",
 										
 										{
 											"type": "entries",
@@ -983,11 +1458,11 @@
 							"page": 6,
 							"id": "067",
 							"entries": [
-								"The owners of the Witchlight Carnival are a pair of shadar-kai (elves native to the Shadowfell) named {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW}. Witch is matter-of-fact and devoid of pretense, while Light is flamboyant and coy.",
+								"The owners of the Witchlight Carnival are a pair of shadar-kai (elves native to the Shadowfell) named {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC}. Witch is matter-of-fact and devoid of pretense, while Light is flamboyant and coy.",
 								"How Witch and Light came to possess the carnival is a story worth telling. Under different names, they owned another carnival that prowled the edges of the Shadowfell. The two carnivals crossed paths many years ago, and after much wine was consumed, the owners could not agree on which carnival was the better of the two, so they decided it would be great fun to swap ownership. Isolde, the eladrin who ran the fey-themed carnival, traded places with the two shadar-kai who ran the shadow-themed carnival. This arrangement would last until the two carnivals met again, which has not yet happened.",
 								"After trading their sinister carnival for a more lighthearted one, the two shadar-kai took the names Witch and Light. Gradually, these morose, emotionally stunted shadar-kai transformed into fun-loving free spirits who secretly dread the day when the two carnivals cross paths again. They have no desire to return to their gloomy old carnival, which is described in more detail in {@book Van Richten's Guide to Ravenloft|VRGR}.",
 								"The shadar-kai are aware that the Hourglass Coven has usurped Zybilna's domain in the Feywild. They don't know how the coven accomplished this coup, but Witch and Light would like nothing more than to see the hags defeated and Zybilna returned to power. But they dare not play a part in making that dream a reality. If the coven caught a whiff of dissent from Witch and Light, the hags would punish the shadar-kai for their impudence (see the \"Witch and Light's Hourglass Pact\" sidebar). Witch and Light do what they can to appease the hags while secretly rooting for Zybilna's return. They know Zybilna's true identity but dare not reveal it.",
-								"{@adventure Appendix D|WBtW|9} contains additional roleplaying notes for {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW}.",
+								"{@adventure Appendix D|WBtW|9} contains additional roleplaying notes for {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC}.",
 								{
 									"type": "entries",
 									"name": "Mister Witch",
@@ -995,21 +1470,21 @@
 									"id": "068",
 									"entries": [
 										"Witch, who used to go by the name Naeryx Krumple, spent his youth as a homeless orphan, eking out a meager and dreary existence on the fog-shrouded streets of Gloomwrought, a city in the Shadowfell. He earned a few coppers selling broadsheets as a young boy, then later swept floors until an old clock tower keeper took him on as a helper. The tower's clock was in such poor condition that it would break down often. Naeryx helped with the repairs and found that the work gave him a sliver of joy. When the old keeper died years later, Naeryx replaced him.",
-										"The wealthy family that owned the clock tower didn't pay Naeryx a lot of money for his work, but they occasionally had him over for dinner. He owned one fine suit that he wore on such occasions, and though he didn't care for the family's matriarch or patriarch, he enjoyed the company of their eldest son, Urmius Umbrage\u2014a brooding shadar-kai ne'er-do-well with a cruel sense of humor. Naeryx and Urmius were close in age and got along well in all respects. Years later, without informing the rest of his family, Urmius bought a run-down carnival and persuaded Naeryx to help him operate it. Naeryx and Urmius\u2014now calling themselves {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW}\u2014have been partners and collaborators ever since.",
+										"The wealthy family that owned the clock tower didn't pay Naeryx a lot of money for his work, but they occasionally had him over for dinner. He owned one fine suit that he wore on such occasions, and though he didn't care for the family's matriarch or patriarch, he enjoyed the company of their eldest son, Urmius Umbrage\u2014a brooding shadar-kai ne'er-do-well with a cruel sense of humor. Naeryx and Urmius were close in age and got along well in all respects. Years later, without informing the rest of his family, Urmius bought a run-down carnival and persuaded Naeryx to help him operate it. Naeryx and Urmius\u2014now calling themselves {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC}\u2014have been partners and collaborators ever since.",
 										{
 											"type": "entries",
 											"name": "Mister Witch's Description",
 											"page": 6,
 											"id": "069",
 											"entries": [
-												"{@creature Mister Witch|WBtW} looks like a distinguished gentleman, for he is always dressed in fine attire. His favorite accoutrements are a top hat and a cane, and he is never without his {@item Witchlight watch|WBtW}, which was gifted to him by the carnival's previous owner. This unique magic item is described below.",
+												"{@creature Mister Witch|orcnogTWC} looks like a distinguished gentleman, for he is always dressed in fine attire. His favorite accoutrements are a top hat and a cane, and he is never without his {@item Witchlight watch|WBtW}, which was gifted to him by the carnival's previous owner. This unique magic item is described below.",
 												{
 													"type": "image",
 													"href": {
 														"type": "internal",
 														"path": "adventure/WBtW/013-637677442905361755.png"
 													},
-													"title": "{@creature Mister Witch|WBtW}",
+													"title": "{@creature Mister Witch|orcnogTWC}",
 													"width": 300,
 													"height": 696
 												}
@@ -1031,7 +1506,7 @@
 												"type": "internal",
 												"path": "adventure/WBtW/014-637677442564423044.png"
 											},
-											"title": "{@creature Mister Light|WBtW}",
+											"title": "{@creature Mister Light|orcnogTWC}",
 											"width": 400,
 											"height": 775
 										},
@@ -1041,7 +1516,7 @@
 											"page": 6,
 											"id": "06e",
 											"entries": [
-												"{@creature Mister Light|WBtW} has a slender frame. He is always dressed in some sort of costume and is rarely seen in public without makeup. He carries around a fancy weather vane given to him by the carnival's previous owner. He twirls it and waves it around like a fool's scepter, but its power is far greater than he lets on. With this magic vane, he can affect the mood of everyone in the Witchlight Carnival."
+												"{@creature Mister Light|orcnogTWC} has a slender frame. He is always dressed in some sort of costume and is rarely seen in public without makeup. He carries around a fancy weather vane given to him by the carnival's previous owner. He twirls it and waves it around like a fool's scepter, but its power is far greater than he lets on. With this magic vane, he can affect the mood of everyone in the Witchlight Carnival."
 											]
 										}
 									]
@@ -1054,8 +1529,8 @@
 							"page": 7,
 							"id": "074",
 							"entries": [
-								"{@creature Witchlight Hand (Medium)|WBtW|Witchlight hands} are the backbone of the Witchlight Carnival, a motley collection of individuals who operate many of the booths, make repairs, feed and exercise the animals, keep an eye out for thieves and other miscreants, and perform other miscellaneous tasks as {@creature Mister Witch|WBtW} dictates. A few also work part-time as performers and attractions. Although they travel to many worlds throughout the Material Plane, Witchlight hands rarely leave the carnival grounds. The carnival is the only world they know and care about.",
-								"The carnival employs 124 Witchlight hands in total. All hands enter into an agreement when they join the carnival: they must never harm another staff member, and they can't leave the carnival for more than a day at a time. (A longer absence is equivalent to resignation, in {@creature Mister Witch|WBtW}'s estimation.) On-duty staff members are required to wear fake butterfly wings strapped to their backs. {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} also furnish them with small amounts of {@item pixie dust|WBtW} (see {@adventure appendix A|WBtW|6|Pixie Dust}).",
+								"{@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight Hands} are the backbone of the Witchlight Carnival, a motley collection of individuals who operate many of the booths, make repairs, feed and exercise the animals, keep an eye out for thieves and other miscreants, and perform other miscellaneous tasks as {@creature Mister Witch|orcnogTWC} dictates. A few also work part-time as performers and attractions. Although they travel to many worlds throughout the Material Plane, Witchlight hands rarely leave the carnival grounds. The carnival is the only world they know and care about.",
+								"The carnival employs 124 Witchlight hands in total. All hands enter into an agreement when they join the carnival: they must never harm another staff member, and they can't leave the carnival for more than a day at a time. (A longer absence is equivalent to resignation, in {@creature Mister Witch|orcnogTWC}'s estimation.) On-duty staff members are required to wear fake butterfly wings strapped to their backs. {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC} also furnish them with small amounts of {@item pixie dust|WBtW} (see {@adventure appendix A|WBtW|6|Pixie Dust}).",
 								"Witchlight hands are paid only a small fraction of the carnival's profits, but it's enough to keep them fed, clothed, and cared for. Some hands work longer hours or do extra chores to pay off debts and loans.",
 								"Most Witchlight hands are taught how to perform minor magic tricks, which they use to amuse themselves as well as entertain the masses. (Characters who have the Witchlight hand background don't learn magic as part of their upbringing, but they can choose to account for this by selecting a spellcasting class.)"
 							]
@@ -1074,7 +1549,7 @@
 										"The first stars of night twinkle above the apricot sunset. Giant dragonflies whir overhead, trailing streamers, and a low mist curls over the ground. Through a floral archway, you glimpse wondrous and vibrant creatures\u2014elf stilt walkers, dancing faeries, and painted performers. Everywhere there is laughter, pixie dust, bubbles, and the wistful tune of a whistling calliope."
 									]
 								},
-								"The Witchlight Carnival travels as a convoy of wagons, each one pulled by horses or foxes depending on its size. When they need to soar between worlds, the wagons and their draft animals sprout butterfly wings and take to the starry sky. On land, the carnival's attractions unfold magically from the wagons, controlled by {@creature Mister Witch|WBtW}'s {@item Witchlight watch|WBtW}.",
+								"The Witchlight Carnival travels as a convoy of wagons, each one pulled by horses or foxes depending on its size. When they need to soar between worlds, the wagons and their draft animals sprout butterfly wings and take to the starry sky. On land, the carnival's attractions unfold magically from the wagons, controlled by {@creature Mister Witch|orcnogTWC}'s {@item Witchlight watch|WBtW}.",
 								"When the carnival arrives at a new destination, a {@creature treant sapling|WBtW} named Northwind uses its Animate Trees ability to gently relocate trees that are in the way of the unfolded wagons. A great length of blue ribbon transforms into a lazy, sparkling river, encircling the site. The river is 20 feet wide and 10 feet deep at its center.",
 								{
 									"type": "image",
@@ -1101,7 +1576,7 @@
 											"page": 28,
 											"id": "078",
 											"entries": [
-												"Characters who are caught stealing or fighting are asked to leave the carnival; in this case, the carnival's mood lowers by 1 step as {@dice 1d6} {@creature Witchlight Hand (Medium)|WBtW|Witchlight hands} (chaotic good; see the stat block earlier in the chapter) escort the troublemakers to the gates."
+												"Characters who are caught stealing or fighting are asked to leave the carnival; in this case, the carnival's mood lowers by 1 step as {@dice 1d6} {@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight hands} (chaotic good; see the stat block earlier in the chapter) escort the troublemakers to the gates."
 											]
 										}
 									]
@@ -1184,7 +1659,7 @@
 											"page": 30,
 											"id": "07c",
 											"entries": [
-												"Each member of the Hourglass Coven employs a thief that visits the carnival to steal from ticketless victims. These thieves enter and exit through the Hall of Illusions, using it as a gateway to their mistresses' splinter-realms of Hither, Thither, and Yon. The carnival staff has been instructed by {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} to ignore them.",
+												"Each member of the Hourglass Coven employs a thief that visits the carnival to steal from ticketless victims. These thieves enter and exit through the Hall of Illusions, using it as a gateway to their mistresses' splinter-realms of Hither, Thither, and Yon. The carnival staff has been instructed by {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC} to ignore them.",
 												"These thieves possess a preternatural awareness of who is a carnival worker and who is a ticket-carrying visitor. Every night of the carnival, they haunt the dark spaces between wagons and attractions, scanning the crowds for ticketless interlopers. Characters who have tickets or who work at the carnival are not targets for these thieves. Some characters might catch glimpses of these spooky figures as reflections in mirrors, shadows in doorways, or out-of-place figures standing motionless in the moving crowd. Use these thieves as you please to add an undercurrent of dread or mystery to the carnival's frivolities."
 											]
 										}
@@ -1230,7 +1705,7 @@
 													"id": "084",
 													"entries": [
 														"The carnival issues fake butterfly wings to every visitor who receives a ticket. Visitors are expected to wear their wings, or at least carry them around, while inside the carnival. The tickets and fake wings are theirs to keep.",
-														"Any character who tries to sneak into the carnival without a set of fake butterfly wings must succeed on a DC 15 Dexterity ({@skill Stealth}) check or be spotted and approached by {@dice 1d3} {@creature Witchlight Hand (Medium)|WBtW|Witchlight hands} of any alignment (see the stat block earlier in the chapter). The hands ask to see the character's ticket; any character without a ticket is escorted to the main entrance and directed to the ticket booth. If the character runs away from the Witchlight hands, the hands don't bother giving chase, but the carnival's mood lowers by one step (see \"{@area Tracking Mood|065|x}\" earlier in this chapter and roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table). A character without butterfly wings who successfully sneaks into the carnival must repeat the check at the end of each hour."
+														"Any character who tries to sneak into the carnival without a set of fake butterfly wings must succeed on a DC 15 Dexterity ({@skill Stealth}) check or be spotted and approached by {@dice 1d3} {@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight hands} of any alignment (see the stat block earlier in the chapter). The hands ask to see the character's ticket; any character without a ticket is escorted to the main entrance and directed to the ticket booth. If the character runs away from the Witchlight hands, the hands don't bother giving chase, but the carnival's mood lowers by one step (see \"{@area Tracking Mood|065|x}\" earlier in this chapter and roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table). A character without butterfly wings who successfully sneaks into the carnival must repeat the check at the end of each hour."
 													]
 												}
 											]
@@ -1298,7 +1773,7 @@
 											"id": "086",
 											"entries": [
 												"Nikolas (lawful neutral) carries a spyglass and an ear horn, which he uses when talking to patrons. Nikolas plays on the fact that he is old when using these items, but it's all a ruse; he is as sharp as a thorn, and his instruments allow him to get the true measure of guests. In his hands, the spyglass and ear horn grant Nikolas advantage on Wisdom ({@skill Insight}) checks to discern lies and determine true intent. Characters who attempt to deceive Nikolas must succeed on a Charisma ({@skill Deception}) check contested by the goblin's Wisdom ({@skill Insight}) check.",
-												"If one or more characters seem intent on disrupting the carnival, Nikolas scribbles a brief note to that effect and hands it to an {@condition invisible} {@creature pixie} that lurks under the ticket counter. The pixie delivers Nikolas's message to {@creature Mister Witch|WBtW}, who informs the carnival staff to keep a close eye on the group, and the carnival's mood lowers by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter and roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table)."
+												"If one or more characters seem intent on disrupting the carnival, Nikolas scribbles a brief note to that effect and hands it to an {@condition invisible} {@creature pixie} that lurks under the ticket counter. The pixie delivers Nikolas's message to {@creature Mister Witch|orcnogTWC}, who informs the carnival staff to keep a close eye on the group, and the carnival's mood lowers by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter and roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table)."
 											]
 										}
 									]
@@ -1371,7 +1846,7 @@
 											"page": 32,
 											"id": "089",
 											"entries": [
-												"The backstage area is a smaller, circular tent adjoining the Big Top. The curtained doorway between the Big Top and the dressing room is guarded by two {@creature Witchlight Hand (Medium)|WBtW|Witchlight hands} (chaotic good; see the stat block earlier in the chapter), who bicker over the appeal of the acts while sharing a bottle of pear cider. They allow only performers and other Witchlight hands to pass through the curtain but are so distracted by their arguing that any character can slip past them unseen with a successful DC 12 Dexterity ({@skill Stealth}) check.",
+												"The backstage area is a smaller, circular tent adjoining the Big Top. The curtained doorway between the Big Top and the dressing room is guarded by two {@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight hands} (chaotic good; see the stat block earlier in the chapter), who bicker over the appeal of the acts while sharing a bottle of pear cider. They allow only performers and other Witchlight hands to pass through the curtain but are so distracted by their arguing that any character can slip past them unseen with a successful DC 12 Dexterity ({@skill Stealth}) check.",
 												{
 													"type": "insetReadaloud",
 													"id": "08a",
@@ -1574,9 +2049,9 @@
 												{
 													"type": "list",
 													"items": [
-														"\"{@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} aren't the carnival's original owners, y'know. They're not even from the Feywild! But it matters not an inch! We're all one big, happy family here!\"",
-														"\"The carnival can't run without {@creature Mister Witch|WBtW}'s pocket watch\u2014I hope he never loses it!\"",
-														"\"There's nothing {@creature Mister Light|WBtW} likes more than a sea of smiling faces\u2014if the carnival's happy, he's happy!\""
+														"\"{@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC} aren't the carnival's original owners, y'know. They're not even from the Feywild! But it matters not an inch! We're all one big, happy family here!\"",
+														"\"The carnival can't run without {@creature Mister Witch|orcnogTWC}'s pocket watch\u2014I hope he never loses it!\"",
+														"\"There's nothing {@creature Mister Light|orcnogTWC} likes more than a sea of smiling faces\u2014if the carnival's happy, he's happy!\""
 													]
 												}											]
 										}
@@ -1722,7 +2197,7 @@
 													"width": 600,
 													"height": 1399
 												},
-												"Candlefoot, a {@creature Witchlight Hand (Medium)|WBtW|Witchlight hand} (neutral good; see the stat block earlier in the chapter), is the reluctant ticket-puncher at the Hall of Illusions, and he does all he can to avoid entering the hall. All the color has leached out of his skin, hair, eyes, and apparel, giving him a strangely monochromatic look. And his problems don't end there.",
+												"Candlefoot, a {@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight hand} (neutral good; see the stat block earlier in the chapter), is the reluctant ticket-puncher at the Hall of Illusions, and he does all he can to avoid entering the hall. All the color has leached out of his skin, hair, eyes, and apparel, giving him a strangely monochromatic look. And his problems don't end there.",
 												"A kenku named Kester stole Candlefoot's voice, so he communicates through mime. If the characters give him a writing implement and some parchment, he can also write out his thoughts.",
 												"{@adventure Appendix D|WBtW|9} contains additional roleplaying notes for Candlefoot.",
 												{
@@ -1972,7 +2447,7 @@
 											"width": 850,
 											"height": 1570
 										},
-										"The fair boasts several small stalls, each run by a {@creature Witchlight Hand (Medium)|WBtW|Witchlight hand} (variable alignments; see the stat block earlier in the chapter). Some of the stalls sell sweet snacks and drinks. For 1 ticket punch, a customer can buy a snack served on a large flower petal or a beverage served in a fist-sized snail shell. The offerings include:",
+										"The fair boasts several small stalls, each run by a {@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight hand} (variable alignments; see the stat block earlier in the chapter). Some of the stalls sell sweet snacks and drinks. For 1 ticket punch, a customer can buy a snack served on a large flower petal or a beverage served in a fist-sized snail shell. The offerings include:",
 										{
 											"type": "list",
 											"items": [
@@ -2352,7 +2827,7 @@
 											"page": 48,
 											"id": "0d7",
 											"entries": [
-												"Enclosed by the wall of thorns is a circle of eight brightly painted wagons, one of which is a glass-enclosed water tank for Palasha the mermaid. The fanciest of the remaining seven wagons belongs to {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW}.",
+												"Enclosed by the wall of thorns is a circle of eight brightly painted wagons, one of which is a glass-enclosed water tank for Palasha the mermaid. The fanciest of the remaining seven wagons belongs to {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC}.",
 												{
 													"type": "image",
 													"href": {
@@ -2364,7 +2839,7 @@
 													"height": 1219
 												},
 												"The perimeter inside the wall of thorns and outside the circle of wagons is patrolled by a {@creature bugbear} named Burly (neutral good), who leaves his post once during the evening to participate in the {@area Big Top Extravaganza|0f0}.  While on patrol, Burly wears a large jack-o'-lantern on his head, as one would wear a helmet, in addition to his dungarees and fake fairy wings.",
-												"The central area enclosed by the wagons is guarded by Thaco the clown, a human {@creature Witchlight Hand (Medium)|WBtW|Witchlight hand} (chaotic neutral; see the stat block earlier in the chapter) who is loyal only to {@creature Mister Witch|WBtW}. He usually sits right outside the door to Witch and Light's wagon, blowing bubbles with his bubble pipe.",
+												"The central area enclosed by the wagons is guarded by Thaco the clown, a human {@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight hand} (chaotic neutral; see the stat block earlier in the chapter) who is loyal only to {@creature Mister Witch|orcnogTWC}. He usually sits right outside the door to Witch and Light's wagon, blowing bubbles with his bubble pipe.",
 												"Burly and Thaco dislike each other, so they don't fraternize while on guard duty. {@adventure Appendix D|WBtW|9} contains additional roleplaying notes for them.",
 												"Characters caught snooping around the wagons without an escort are evicted from the carnival and must find a way to sneak or barter their way back in."
 											]
@@ -2375,7 +2850,7 @@
 											"page": 48,
 											"id": "0d8",
 											"entries": [
-												"{@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} (see their stat blocks earlier in the chapter) are in their wagon throughout the evening, except during the Big Top Extravaganza (which Light attends and Witch does not) and the crowning of the Witchlight Monarch (which they both attend). See {@area Crowning the Witchlight Monarch|0f2|x} later in the chapter for more information.",
+												"{@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC} (see their stat blocks earlier in the chapter) are in their wagon throughout the evening, except during the Big Top Extravaganza (which Light attends and Witch does not) and the crowning of the Witchlight Monarch (which they both attend). See {@area Crowning the Witchlight Monarch|0f2|x} later in the chapter for more information.",
 												"Refer to the \"Carnival Owners\" section for more information about Witch and Light. Appendix D contains additional roleplaying notes for the pair.",
 												"Characters who sneak up to the wagon while it's occupied can overhear Witch and Light talking:",
 												{
@@ -2407,8 +2882,8 @@
 													"page": 49,
 													"id": "0da",
 													"entries": [
-														"{@creature Mister Witch|WBtW}'s bunk is neat and unadorned. {@creature Mister Light|WBtW}'s bunk is gaudy and messy, with costumes strewn everywhere. Characters who search through the gear find a hatbox containing the crown of the Witchlight Monarch; this splendid crown of gold butterflies teleports back to its hatbox at the end of each evening and is ceremoniously produced from its box during the monarch's coronation (see \"{@area Crowning the Witchlight Monarch|0f2|x}\" later in the chapter).",
-														"Any character who searches the wagon for secret compartments finds one with a successful DC 15 Intelligence ({@skill Investigation}) check. The compartment is located in a bench and contains a tiny, bejeweled chest worth 50 gp. This chest is a replica of a much larger chest hidden on the Ethereal Plane (with the help of a {@spell Leomund's secret chest} spell). While holding the replica chest, {@creature Mister Witch|WBtW} can use an action to summon the larger chest. He can send the larger chest back to the Ethereal Plane by using an action and touching both the chest and the replica."
+														"{@creature Mister Witch|orcnogTWC}'s bunk is neat and unadorned. {@creature Mister Light|orcnogTWC}'s bunk is gaudy and messy, with costumes strewn everywhere. Characters who search through the gear find a hatbox containing the crown of the Witchlight Monarch; this splendid crown of gold butterflies teleports back to its hatbox at the end of each evening and is ceremoniously produced from its box during the monarch's coronation (see \"{@area Crowning the Witchlight Monarch|0f2|x}\" later in the chapter).",
+														"Any character who searches the wagon for secret compartments finds one with a successful DC 15 Intelligence ({@skill Investigation}) check. The compartment is located in a bench and contains a tiny, bejeweled chest worth 50 gp. This chest is a replica of a much larger chest hidden on the Ethereal Plane (with the help of a {@spell Leomund's secret chest} spell). While holding the replica chest, {@creature Mister Witch|orcnogTWC} can use an action to summon the larger chest. He can send the larger chest back to the Ethereal Plane by using an action and touching both the chest and the replica."
 													]
 												},
 												{
@@ -2417,7 +2892,7 @@
 													"page": 49,
 													"id": "0db",
 													"entries": [
-														"The chest hidden on the Ethereal Plane (which is worth 5,000 gp) contains recent earnings (210 sp and 70 gp), a {@item potion of diminution}, a {@item potion of growth}, and a {@item potion of advantage|WBtW} (see {@adventure appendix A|WBtW|6}). The potions are not labeled, but {@creature Mister Witch|WBtW} knows which is which."
+														"The chest hidden on the Ethereal Plane (which is worth 5,000 gp) contains recent earnings (210 sp and 70 gp), a {@item potion of diminution}, a {@item potion of growth}, and a {@item potion of advantage|WBtW} (see {@adventure appendix A|WBtW|6}). The potions are not labeled, but {@creature Mister Witch|orcnogTWC} knows which is which."
 													]
 												}
 											]
@@ -2439,7 +2914,7 @@
 									"page": 51,
 									"id": "0e7",
 									"entries": [
-										"{@creature Master Thief|MPMM|Kester} (see the accompanying stat block) snoops around the carnival under the cover of a {@spell disguise self} spell, looking to cause trouble. The kenku has stolen the voice of a human mime named Candlefoot (see \"{@area Hall of Illusions|0a6|x}\" earlier in the chapter). While this prize remains in his possession, Kester can speak clearly in Candlefoot's soft, silky voice.",
+										"{@creature Kester the Kenku|orcnogTWC|Kester} (see the accompanying stat block) snoops around the carnival under the cover of a {@spell disguise self} spell, looking to cause trouble. The kenku has stolen the voice of a human mime named Candlefoot (see \"{@area Hall of Illusions|0a6|x}\" earlier in the chapter). While this prize remains in his possession, Kester can speak clearly in Candlefoot's soft, silky voice.",
 										"If Kester has not already been caught, a character who spends 1 hour searching for the disguised kenku can, with a successful DC 13 Intelligence ({@skill Investigation}) check, see through his disguise while moving through crowds and paying close attention to suspicious-looking folks. If discovered, Kester tries to flee from the main thoroughfare, using tents and other carnival features to break line of sight to her. He's willing to cautiously parley with characters who claim they are investigating the carnival for their own reasons.",
 										"{@adventure Appendix D|WBtW|9} contains additional roleplaying notes for Kester.",
 										{
@@ -2448,7 +2923,7 @@
 												"type": "internal",
 												"path": "adventure/WBtW/033-637677441694763205.png"
 											},
-											"title": "{@creature Master Thief|MPMM}",
+											"title": "{@creature Kester the Kenku|orcnogTWC}",
 											"width": 400,
 											"height": 492
 										},
@@ -2562,11 +3037,11 @@
 											"id": "0f1",
 											"entries": [
 												"The lights dim and a hush falls over the crowd. A second later, a spotlight illuminates a lithe, elven figure sitting in a silver hoop, suspended above the center ring by silk ropes. The elf wears a dazzling suit of diamond-pane mirrors and a pair of butterfly wings. His scepter is topped with a spinning vane.",
-												"\"Welcome, one and all, to this evening's extravaganza! I am {@creature Mister Light|WBtW}. Prepare to be delighted!\""
+												"\"Welcome, one and all, to this evening's extravaganza! I am {@creature Mister Light|orcnogTWC}. Prepare to be delighted!\""
 											]
 										},
-										"The extravaganza involves several of the carnival's star performers and attractions, with {@creature Mister Light|WBtW} serving as ringmaster. Over the course of an hour, the following events occur:",
-										"Burly the bugbear performs feats of strength, Palasha the mermaid serenades the audience from a clamshell bathing pool, Candlefoot the mime plays silent games with audience members, and faerie dragons with bright streamers tied to their tails perform dazzling acts of synchronized flying as a troupe of acrobats, clowns, and fire-breathers parade about. If the characters attempt to disrupt the show, {@creature Mister Light|WBtW} deflects their interruptions with banter and maintains a jovial demeanor. Persistent heckling lowers the carnival's mood by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table).",
+										"The extravaganza involves several of the carnival's star performers and attractions, with {@creature Mister Light|orcnogTWC} serving as ringmaster. Over the course of an hour, the following events occur:",
+										"Burly the bugbear performs feats of strength, Palasha the mermaid serenades the audience from a clamshell bathing pool, Candlefoot the mime plays silent games with audience members, and faerie dragons with bright streamers tied to their tails perform dazzling acts of synchronized flying as a troupe of acrobats, clowns, and fire-breathers parade about. If the characters attempt to disrupt the show, {@creature Mister Light|orcnogTWC} deflects their interruptions with banter and maintains a jovial demeanor. Persistent heckling lowers the carnival's mood by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table).",
 										{
 											"type": "entries",
 											"name": "Burly the Bugbear's Feats of Strength",
@@ -2593,7 +3068,7 @@
 														"A giant clamshell is wheeled out, and the lights go down. The lid slowly begins to open in complete silence, until an unearthly, beautiful voice begins to undulate from within: suddenly the lights come up and reveal Palasha the Mermaid, who sings in Aquan, a language that sounds like it's being sung underwater even though you're sitting on dry land. Bubbles of water begin to ripple through the air around her, causing the lights of the tent to shimmer and ripple."
 													]
 												},
-												"As she sings, {@creature Witchlight Hand (Medium)|WBtW|Witchlight hands} move through the audience handing out sea creature kites that seem to swim through the air as you hold their string. They will gesture to the stage and encourage the party to join the crowd of children who are excitedly making an underwater scene with their animated kite puppets.",
+												"As she sings, {@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight hands} move through the audience handing out sea creature kites that seem to swim through the air as you hold their string. They will gesture to the stage and encourage the party to join the crowd of children who are excitedly making an underwater scene with their animated kite puppets.",
 												{
 													"type": "table",
 													"colLabels": [
@@ -2644,7 +3119,7 @@
 													]
 												},
 												"Have each character make a DC 14 {@skill Performance} check, as they describe how they play with their kite during the song.",
-												"After the performance finishes, Palasha will gesture to the puppeteers for their own round of applause. Anyone who passed the Performance check recieves a fish scale with one use of the Shape Water cantrip from a {@creature Witchlight Hand (Medium)|WBtW|Witchlight Hand} as they collect the kites back up."
+												"After the performance finishes, Palasha will gesture to the puppeteers for their own round of applause. Anyone who passed the Performance check recieves a fish scale with one use of the Shape Water cantrip from a {@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight Hand} as they collect the kites back up."
 											]
 										},
 										{
@@ -2667,8 +3142,8 @@
 											"type": "entries",
 											"name": "Open Mic",
 											"entries": [
-												"Near the end of the show, {@creature Mister Light|WBtW} asks if any guests would like to perform their own acts for the crowd. Any character who accepts the offer can woo spectators with a DC 14 Charisma ({@skill Performance}) check, raising the carnival's mood by 1 step on a success (roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table). If multiple characters choose to perform together, make it a group check instead, but raise the carnival's mood by 2 steps if the group check succeeds (roll once on the {@item Mood Rises|orcnogTWC|Mood Rises} table). A character can improve the carnival's mood only once during this extravaganza.",
-												"At the end of the show, Burly invites any characters who took to the stage and impressed the crowd to meet with {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} (see \"{@area Meeting Witch and Light|0dd|x}\" earlier in the chapter)."
+												"Near the end of the show, {@creature Mister Light|orcnogTWC} asks if any guests would like to perform their own acts for the crowd. Any character who accepts the offer can woo spectators with a DC 14 Charisma ({@skill Performance}) check, raising the carnival's mood by 1 step on a success (roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table). If multiple characters choose to perform together, make it a group check instead, but raise the carnival's mood by 2 steps if the group check succeeds (roll once on the {@item Mood Rises|orcnogTWC|Mood Rises} table). A character can improve the carnival's mood only once during this extravaganza.",
+												"At the end of the show, Burly invites any characters who took to the stage and impressed the crowd to meet with {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC} (see \"{@area Meeting Witch and Light|0dd|x}\" earlier in the chapter)."
 											]
 										},
 										{
@@ -2681,13 +3156,13 @@
 														"As the show comes to close, a dozen Faerie Dragons with bright streamers tied to their tails perform dazzling acts of synchronized flying as a troupe of acrobats, clowns, and firebreathers parade about. The slender, colourful Mr Light brandishes his scepter high above his head and invites anyone from the audience on stage to perform for the crowd. As he does, several giggling children run up immediately and start dancing and falling over."
 													]
 												},
-												"If {@creature Master Thief|MPMM|Kester} is still at large in the carnival, he can attempt to sabotage the party's performance, which otherwise plays out as written in the adventure:",
+												"If {@creature Kester the Kenku|orcnogTWC|Kester} is still at large in the carnival, he can attempt to sabotage the party's performance, which otherwise plays out as written in the adventure:",
 												{
 													"type": "list",
 													"items": [
-														"A {@creature Smoke Mephit|MM} that is part of a firebreather's act will begin to cough and sneeze uncontrollably as {@creature Master Thief|MPMM|Kester} uses {@spell Mage Hand} to tickle its nose. All party members on stage will be subject to its Cinder Breath ability, after which it will apologise profusely.",
+														"A {@creature Smoke Mephit|MM} that is part of a firebreather's act will begin to cough and sneeze uncontrollably as {@creature Kester the Kenku|orcnogTWC|Kester} uses {@spell Mage Hand} to tickle its nose. All party members on stage will be subject to its Cinder Breath ability, after which it will apologise profusely.",
 														"Using {@spell Minor Illusion}, a board reading \"BOO\" will appear above the party's heads, causing some of the audience to start jeering them.",
-														"{@creature Master Thief|MPMM|Kester} sneaks on stage, disguised as a {@creature Commoner}, and uses his Twilight Sleep ability to engulf one character in sleep-inducing gas mid-performance.",
+														"{@creature Kester the Kenku|orcnogTWC|Kester} sneaks on stage, disguised as a {@creature Commoner}, and uses his Twilight Sleep ability to engulf one character in sleep-inducing gas mid-performance.",
 														"Disguised as a Witchlight Hand, Kester will brush by another party member and use {@spell Bestow Curse} to give them disadvantage on all Charisma checks."
 													]
 												}
@@ -2705,11 +3180,11 @@
 										{
 											"type": "list",
 											"items": [
-												"As spectators take their seats in the Big Top, Dirlagraun the displacer beast escorts {@creature Mister Witch|WBtW} from his wagon to the coronation, leaving Thaco the clown behind to guard the Staff Area.",
-												"{@creature Mister Witch|WBtW} and Dirlagraun stand on the sidelines next to Candlefoot as {@creature Mister Light|WBtW} gives an opening speech and the monarch is selected (see \"Selecting a Monarch\" below). Candlefoot holds the hatbox containing the monarch's crown.",
-												"{@creature Mister Witch|WBtW} removes the crown of golden butterflies from the hatbox and places it on the monarch's head; {@creature Mister Light|WBtW} knights the monarch with the {@item Witchlight vane|WBtW}. Happy clowns shower all three in glitter.",
+												"As spectators take their seats in the Big Top, Dirlagraun the displacer beast escorts {@creature Mister Witch|orcnogTWC} from his wagon to the coronation, leaving Thaco the clown behind to guard the Staff Area.",
+												"{@creature Mister Witch|orcnogTWC} and Dirlagraun stand on the sidelines next to Candlefoot as {@creature Mister Light|orcnogTWC} gives an opening speech and the monarch is selected (see \"Selecting a Monarch\" below). Candlefoot holds the hatbox containing the monarch's crown.",
+												"{@creature Mister Witch|orcnogTWC} removes the crown of golden butterflies from the hatbox and places it on the monarch's head; {@creature Mister Light|orcnogTWC} knights the monarch with the {@item Witchlight vane|WBtW}. Happy clowns shower all three in glitter.",
 												"Witch and Light escort the monarch on a circuit of the stage while Palasha the mermaid sings a joyous song and pixies flutter all around her.",
-												"When Palasha's song concludes, {@creature Mister Light|WBtW} leads the monarch on a parade through the carnival, with the other guests following as Burly the bugbear sets off fireworks. Meanwhile, Dirlagraun escorts {@creature Mister Witch|WBtW} back to his wagon."
+												"When Palasha's song concludes, {@creature Mister Light|orcnogTWC} leads the monarch on a parade through the carnival, with the other guests following as Burly the bugbear sets off fireworks. Meanwhile, Dirlagraun escorts {@creature Mister Witch|orcnogTWC} back to his wagon."
 											]
 										},
 										{
@@ -2718,8 +3193,8 @@
 											"page": 54,
 											"id": "0f3",
 											"entries": [
-												"{@creature Mister Light|WBtW}'s {@item Witchlight vane|WBtW} selects the monarch from the carnival's guests, spinning a thread of golden light that winds its way to the chosen reveler. If the mood of the carnival is positive, choose the character who improved the carnival's mood the most, or ask the players to agree on which of their characters should be crowned. If it's not appropriate for any of the characters to be crowned monarch, then a jubilant halfling bedecked in flowers is selected from the crowd. {@creature Mister Light|WBtW} exudes cheerfulness and follows through with the ceremony regardless of who is chosen.",
-												"At the end of the celebration, as the carnival begins to wind down, the ceremonial crown teleports back into its hatbox. Candlefoot returns the hatbox to the Staff Area, handing it off to Thaco the clown, who stashes it in the wagon belonging to {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW}."
+												"{@creature Mister Light|orcnogTWC}'s {@item Witchlight vane|WBtW} selects the monarch from the carnival's guests, spinning a thread of golden light that winds its way to the chosen reveler. If the mood of the carnival is positive, choose the character who improved the carnival's mood the most, or ask the players to agree on which of their characters should be crowned. If it's not appropriate for any of the characters to be crowned monarch, then a jubilant halfling bedecked in flowers is selected from the crowd. {@creature Mister Light|orcnogTWC} exudes cheerfulness and follows through with the ceremony regardless of who is chosen.",
+												"At the end of the celebration, as the carnival begins to wind down, the ceremonial crown teleports back into its hatbox. Candlefoot returns the hatbox to the Staff Area, handing it off to Thaco the clown, who stashes it in the wagon belonging to {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC}."
 											]
 										}
 									]
@@ -2754,7 +3229,7 @@
 									"page": 54,
 									"id": "0f8",
 									"entries": [
-										"The characters receive an invitation to meet privately with {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} when the carnival's mood reaches either end of the track (see \"{@area Tracking Mood|065|x}\" earlier in the chapter) or if the characters impress {@creature Mister Light|WBtW} during the Big Top Extravaganza (see \"{@area Big Top Extravaganza|0f0|x}\" later in the chapter).",
+										"The characters receive an invitation to meet privately with {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC} when the carnival's mood reaches either end of the track (see \"{@area Tracking Mood|065|x}\" earlier in the chapter) or if the characters impress {@creature Mister Light|orcnogTWC} during the Big Top Extravaganza (see \"{@area Big Top Extravaganza|0f0|x}\" later in the chapter).",
 										"Witch and Light send Burly the {@creature bugbear} (neutral good) to fetch the characters:",
 										{
 											"type": "insetReadaloud",
@@ -2772,14 +3247,14 @@
 												"The bugbear leads you to a circle of wagons. Leaning against a particularly ostentatious wagon is an aging clown with a painted grin. He puffs on a bubble pipe and glares at you as the bugbear, ignoring the clown, opens the wagon's door and ushers you inside."
 											]
 										},
-										"The clown is Thaco, a human {@creature Witchlight Hand (Medium)|WBtW|Witchlight hand} (chaotic neutral; see the stat block earlier in the chapter) and over-the-hill carnival attraction. {@adventure Appendix D|WBtW|9} contains additional roleplaying notes for Thaco.",
+										"The clown is Thaco, a human {@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight hand} (chaotic neutral; see the stat block earlier in the chapter) and over-the-hill carnival attraction. {@adventure Appendix D|WBtW|9} contains additional roleplaying notes for Thaco.",
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
 												"path": "adventure/WBtW/032-01-017.witch-and-light.png"
 											},
-											"title": "{@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} don't like strangers eavesdropping on their private conversations",
+											"title": "{@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC} don't like strangers eavesdropping on their private conversations",
 											"width": 1700,
 											"height": 1088
 										},
@@ -2793,13 +3268,13 @@
 													"type": "insetReadaloud",
 													"id": "0e1",
 													"entries": [
-														"A flamboyant elf grins from ear to ear as he welcomes you into the wagon with a theatrical bow. \"Please come in, it's a delight to meet you all! I am {@creature Mister Light|WBtW}, and this is my associate, {@creature Mister Witch|WBtW}.\"",
-														"He gestures to a stocky elf lounging on a bunk. {@creature Mister Witch|WBtW} nods to you and doffs his top hat."
+														"A flamboyant elf grins from ear to ear as he welcomes you into the wagon with a theatrical bow. \"Please come in, it's a delight to meet you all! I am {@creature Mister Light|orcnogTWC}, and this is my associate, {@creature Mister Witch|orcnogTWC}.\"",
+														"He gestures to a stocky elf lounging on a bunk. {@creature Mister Witch|orcnogTWC} nods to you and doffs his top hat."
 													]
 												},
-												"Stat blocks for {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} appear earlier in the chapter.",
-												"{@creature Mister Light|WBtW} gestures toward his scepter\u2014the {@item Witchlight vane|WBtW}\u2014and explains that it picks up every nuance of emotion in the carnival. If the carnival's mood is good, Light expresses his gratitude for the cheer that the characters have brought to the carnival so far. If the carnival's mood is bad, he expresses his regret that the characters aren't having a delightful time and notes that, in turn, they're spoiling everyone's evening.",
-												"Witch and Light are eager to learn the characters' reasons for visiting the carnival. When the characters mention that they are looking for a fabled magic shop, {@creature Mister Light|WBtW}'s eyes light up and he says \"Ooo, more clients! Mr. Garfield will be pleased!\".",
+												"Stat blocks for {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC} appear earlier in the chapter.",
+												"{@creature Mister Light|orcnogTWC} gestures toward his scepter\u2014the {@item Witchlight vane|WBtW}\u2014and explains that it picks up every nuance of emotion in the carnival. If the carnival's mood is good, Light expresses his gratitude for the cheer that the characters have brought to the carnival so far. If the carnival's mood is bad, he expresses his regret that the characters aren't having a delightful time and notes that, in turn, they're spoiling everyone's evening.",
+												"Witch and Light are eager to learn the characters' reasons for visiting the carnival. When the characters mention that they are looking for a fabled magic shop, {@creature Mister Light|orcnogTWC}'s eyes light up and he says \"Ooo, more clients! Mr. Garfield will be pleased!\".",
 												"The carnival owners lead them to the Hall of Illusions and march them inside:"
 											]
 										},
@@ -2808,8 +3283,8 @@
 											"id": "0f9",
 											"entries": [
 												"As Witch and Light move through the Hall of Illusions, their reflections in the mirrors show them as gloomy shadar-kai children, with your own youthful reflections following behind. Soon, they call you to a halt. The mirrors now reflect everyone's true age.",
-												"{@creature Mister Witch|WBtW} addresses you. \"Everything you seek and more lies beyond this mirror. If you mean to step through, then stand in front of the glass and repeat this rhyme: Fantasy Costco, where all your dreams come true. We got a deal for you!\"",
-												"{@creature Mister Light|WBtW} adds in a hushed tone, \"I must warn you. The deals are out of this world.\""
+												"{@creature Mister Witch|orcnogTWC} addresses you. \"Everything you seek and more lies beyond this mirror. If you mean to step through, then stand in front of the glass and repeat this rhyme: Fantasy Costco, where all your dreams come true. We got a deal for you!\"",
+												"{@creature Mister Light|orcnogTWC} adds in a hushed tone, \"I must warn you. The deals are out of this world.\""
 											]
 										},
 										"Witch and Light will also share the following information if asked:",
@@ -2848,7 +3323,7 @@
 													"height": 1117
 												},
 												"Any creature that touches the surface of the misty mirror is pulled through it and deposited in Fantasy Costco. If a character tries to take either the {@item Witchlight watch|WBtW} or the {@item Witchlight vane|WBtW} through the mirror, the item drops to the floor as the character crosses the threshold. Neither item can be taken into the pocket dimension.",
-												"If {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} are both present, they wait until only one character remains and then impart the following information to that character:",
+												"If {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC} are both present, they wait until only one character remains and then impart the following information to that character:",
 												{
 													"type": "insetReadaloud",
 													"id": "0fc",
