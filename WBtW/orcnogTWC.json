@@ -450,12 +450,12 @@
 			"type": "G",
 			"rarity": "none",
 			"entries": [
-				"If a character wins a prize playing a game, roll a {@dice d8} on the Carnival Prizes table to determine the prize.",
+				"If a character wins a prize playing a game, roll a {@dice d12} on the Carnival Prizes table to determine the prize.",
 				{
 					"type": "table",
 					"caption": "Carnival Prizes",
 					"colLabels": [
-						"d8",
+						"d12",
 						"Prize"
 					],
 					"colStyles": [
@@ -494,6 +494,22 @@
 						[
 							"8",
 							"Glove puppet in the shape of a wizard. As an action, you can move the puppet's arms to cast the {@spell minor illusion} cantrip. After three uses, the puppet disappears in a puff of smoke."
+						],
+						[
+							"9",
+							"Wand of Voice Changing with 1 charge. As an action the user can touch this wand to their throat and expend one charge to change their voice to perfectly immitate that of any creature they have heard speak. The wand does not grant to ability to speak a new language that the user doesn't already know, and the wand wand can't be recharged."
+						],
+						[
+							"10",
+							"Carved wooden statuette of a gnome wearing a misshapen hat that looks like the business end of an iron key. As an action, you can use the gnome one time to open any lock requiring a key. After one use, the gnome giggles and disappears with a pop."
+						],
+						[
+							"11",
+							"Golden apple. As an action, you can eat the apple which grants you inspiration. The apple tastes like cotton candy."
+						],
+						[
+							"12",
+							"Small pouch of glitter. As an action, you can use sprinkle the glitter on an item once to make it sparkle radiantly, which doubles its perceived monetary value."
 						]
 					]
 				}
@@ -2256,53 +2272,7 @@
 												]
 											]
 										},
-										"If a character wins a prize playing a game, roll a {@dice d8} on the Carnival Prizes table to determine the prize.",
-										{
-											"type": "table",
-											"caption": "Carnival Prizes",
-											"colLabels": [
-												"d8",
-												"Prize"
-											],
-											"colStyles": [
-												"col-2 text-center",
-												"col-10"
-											],
-											"rows": [
-												[
-													"1",
-													"Trinket (determined by rolling on the {@item Feywild Trinket|orcnogTWC|Feywild Trinkets table} in the introduction)."
-												],
-												[
-													"2",
-													"Wooden wand with 8 charges. As an action, you can expend 1 of the wand's charges to cast the {@spell prestidigitation} cantrip. This wand can't be recharged."
-												],
-												[
-													"3",
-													"Packet of {@item pixie dust|WBtW} (see {@adventure appendix A|WBtW|6|Pixie Dust})."
-												],
-												[
-													"4",
-													"Bottle of Witchlight wine. While the bottle is uncorked, it plays calliope music until the bottle is emptied of wine."
-												],
-												[
-													"5",
-													"Replica unicorn horn filled with candy."
-												],
-												[
-													"6",
-													"Single application of magic face paint. As an action, you can apply the face paint to yourself or another creature. The recipient gains the benefit of a {@spell disguise self} spell that lasts for 1 hour or until the recipient chooses to end the effect."
-												],
-												[
-													"7",
-													"Cuddly toy spider. As an action, you can stroke the spider to gain the benefit of a {@spell spider climb} spell that lasts for 1 hour. Once used, the toy turns into a real spider and crawls away."
-												],
-												[
-													"8",
-													"Glove puppet in the shape of a wizard. As an action, you can move the puppet's arms to cast the {@spell minor illusion} cantrip. After three uses, the puppet disappears in a puff of smoke."
-												]
-											]
-										},
+										"If a character wins a prize playing a game, roll a {@dice d12} on the {@item Carnival Prize|orcnogTWC|Carnival Prizes} table to determine the prize.",
 										{
 											"type": "image",
 											"href": {
@@ -2326,7 +2296,7 @@
 														"\"This almiraj is no mirage. Adorn its horn with two or three rings to win a prize!\""
 													]
 												},
-												"This game involves tossing rings over the horn of a wooden statuette of an almiraj (a cute, bunny-like creature with a horn like a unicorn's). The almiraj teleports around on a tabletop, making it hard to score a success. A participant gets three rings. Tossing a ring over the almiraj's horn requires a successful DC 17 Dexterity check. Two successful tosses earn one roll on the {@item Carnival Prize|orcnogTWC|Carnival Prizes table}; three successes earn two rolls on the table."
+												"This game involves tossing rings over the horn of a wooden statuette of an almiraj (a cute, bunny-like creature with a horn like a unicorn's). The almiraj teleports around on a tabletop, making it hard to score a success. A participant gets three rings. Tossing a ring over the almiraj's horn requires a successful DC 17 Dexterity check. Two successful tosses earn one roll on the {@item Carnival Prize|orcnogTWC|Carnival Prizes} table; three successes earn two rolls on the table."
 											]
 										},
 										{
@@ -2342,7 +2312,7 @@
 														"\"Prizes! Prizes! Prizes! Catch the faerie dragon by the tail and win a piece of its hoard!\""
 													]
 												},
-												"While blindfolded and standing in a booth, a participant must grab the tail of an elusive, giggling {@creature Faerie Dragon (Red)||red faerie dragon} that flutters around them. The participant has three chances to succeed on a DC 18 Wisdom ({@skill Perception}) check. Someone who succeeds on the check catches the dragon by the tail and rolls once on the {@item Carnival Prize|orcnogTWC|Carnival Prizes table} table, or twice if the successful check occurs on the first attempt."
+												"While blindfolded and standing in a booth, a participant must grab the tail of an elusive, giggling {@creature Faerie Dragon (Red)||red faerie dragon} that flutters around them. The participant has three chances to succeed on a DC 18 Wisdom ({@skill Perception}) check. Someone who succeeds on the check catches the dragon by the tail and rolls once on the {@item Carnival Prize|orcnogTWC|Carnival Prizes} table, or twice if the successful check occurs on the first attempt."
 											]
 										},
 										{
@@ -2368,7 +2338,7 @@
 													"width": 850,
 													"height": 1063
 												},
-												"A participant must outperform a gnome in a best-of-five poetry contest. Doing so requires three successful DC 15 Charisma ({@skill Performance}) checks in five or fewer attempts. Someone who wins the contest rolls once on the {@item Carnival Prize|orcnogTWC|Carnival Prizes table} table, or twice if they succeeded three times without failing a check."
+												"A participant must outperform a gnome in a best-of-five poetry contest. Doing so requires three successful DC 15 Charisma ({@skill Performance}) checks in five or fewer attempts. Someone who wins the contest rolls once on the {@item Carnival Prize|orcnogTWC|Carnival Prizes} table, or twice if they succeeded three times without failing a check."
 											]
 										},
 										{
@@ -2384,7 +2354,7 @@
 														"\"Strong folks! Test your mettle in a goblin wrestle!\""
 													]
 												},
-												"A Small participant has to pin an unarmed {@creature goblin} (lawful good), while a Medium participant has to pin one goblin while wrestling two of them. Winning the game requires a successful Strength ({@skill Athletics}) check contested by the goblin; two goblins working together make one check with advantage. Resolve a tie by rerolling. A victorious participant earns one roll on the {@item Carnival Prize|orcnogTWC|Carnival Prizes table} table."
+												"A Small participant has to pin an unarmed {@creature goblin} (lawful good), while a Medium participant has to pin one goblin while wrestling two of them. Winning the game requires a successful Strength ({@skill Athletics}) check contested by the goblin; two goblins working together make one check with advantage. Resolve a tie by rerolling. A victorious participant earns one roll on the {@item Carnival Prize|orcnogTWC|Carnival Prizes} table."
 											]
 										},
 										{
@@ -2400,7 +2370,7 @@
 														"\"Birds of a feather? How about feathers of a bird? Step right up and guess how many feathers festoon this fiendish fowl!\""
 													]
 												},
-												"A participant gets three tries to guess the number of feathers on one of a group of caged {@creature Cockatrice||cockatrices}. Someone who succeeds on a DC 18 Intelligence check guesses correctly and earns one roll on the {@item Carnival Prize|orcnogTWC|Carnival Prizes table} table, or two rolls if the successful check occurs on the first attempt."
+												"A participant gets three tries to guess the number of feathers on one of a group of caged {@creature Cockatrice||cockatrices}. Someone who succeeds on a DC 18 Intelligence check guesses correctly and earns one roll on the {@item Carnival Prize|orcnogTWC|Carnival Prizes} table, or two rolls if the successful check occurs on the first attempt."
 											]
 										},
 										{
@@ -2416,7 +2386,7 @@
 														"\"What do you do when the eye of the cyclops falls upon you? You stare right back if you've got the stamina!\""
 													]
 												},
-												"Winning this game requires a participant to outstare an illusory cyclops. Whoever blinks first loses. To win the game, the contestant must succeed on a DC 14 Constitution check. Someone who wins the game receives a prize, determined by rolling once on the {@item Carnival Prize|orcnogTWC|Carnival Prizes table} table.",
+												"Winning this game requires a participant to outstare an illusory cyclops. Whoever blinks first loses. To win the game, the contestant must succeed on a DC 14 Constitution check. Someone who wins the game receives a prize, determined by rolling once on the {@item Carnival Prize|orcnogTWC|Carnival Prizes} table.",
 												{
 													"type": "image",
 													"href": {
