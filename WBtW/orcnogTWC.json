@@ -1246,7 +1246,7 @@
 											"page": 28,
 											"id": "07b",
 											"entries": [
-												"Kester is a kenku arcane trickster whose patron is a rival carnival owner. He is committed to causing trouble to hurt business. Kester uses {@spell disguise self} to assume whatever form best enables him to mingle in crowds.",
+												"Kester is a kenku arcane trickster whose employer is a rival carnival owner. He is committed to causing trouble to hurt business. Kester uses {@spell disguise self} to assume whatever form best enables him to mingle in crowds.",
 												"Characters can encounter Kester in more than one location; if they corner him, he can be intimidated or bribed into leaving."
 											]
 										},
@@ -1632,7 +1632,7 @@
 											"id": "09c",
 											"entries": [
 												"Riding a dragonfly costs 1 ticket punch. There are eight {@creature Giant Dragonfly|WBtW|giant dragonflies} (see {@adventure appendix C|WBtW|8}), which are trained to fly their riders in a lazy figure eight around the carnival's thoroughfare, at a height of 20 feet. A character who tries to steer their dragonfly off course must succeed on a DC 12 Wisdom ({@skill Animal Handling}) check to do so. On the {@adventure Story Tracker|WBtW|11}, jot down the names of any characters who succeed on the Wisdom ({@skill Animal Handling}) check to redirect a giant dragonfly; these characters have a talent that might benefit them in {@adventure chapter 4|WBtW|4} (see {@area area M20|33f|x}).",
-												"As the characters' first ride begins, shouts of alarm erupt from a nearby lily pad. A giant dragonfly has just taken off prematurely with a patron on its back: a middle-aged dwarf with a bright blue beard sits unfastened in his harness. Kester, a kenku warlock, used a {@spell speak with animals} spell to panic the dragonfly. Characters can spot Kester before she slips away with a successful Wisdom ({@skill Perception}) check contested by the kenku's Charisma ({@skill Deception}) check. See \"{@area Catching Kester|0e7|x}\" later in the chapter if the characters try to confront her.",
+												"As the characters' first ride begins, shouts of alarm erupt from a nearby lily pad. A giant dragonfly has just taken off prematurely with a patron on its back: a middle-aged dwarf with a bright blue beard sits unfastened in his harness. Kester, a kenku trickster, used a {@spell speak with animals} spell to panic the dragonfly. Characters can spot Kester before he slips away with a successful Wisdom ({@skill Perception}) check contested by the kenku's Charisma ({@skill Deception}) check. See \"{@area Catching Kester|0e7|x}\" later in the chapter if the characters try to confront him.",
 												"A character can calm the startled mount and guide it back to a lily pad with a successful DC 14 Wisdom ({@skill Animal Handling}) check. The carnival's mood rises by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table) if a character succeeds on this check. If the characters fail to rescue the dwarf, he tumbles from the dragonfly's back; luckily, his fall is cushioned by a tent awning, and though he isn't badly hurt, the mood of the carnival lowers by 1 step (roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table)."
 											]
 										},
@@ -2457,9 +2457,8 @@
 														"Two contrasting voices emanate from the wagon.",
 														"{@i Mister Witch, in a low and gravelly voice:} \"You need to find a way to calm down.\"",
 														"{@i Mister Light, in a high-pitched, shrill voice:} \"I'll calm down when that kenku pest is gone.\"",
-														"{@i Witch}: \"She knows nothing. She'll get frustrated soon enough and be on her way.\"",
-														"{@i Light}: \"I hope you're right.\"",
-														"{@i Witch}: \"Trust me.\""
+														"{@i Witch}: \"He'll tire out soon enough and be on his way.\"",
+														"{@i Light}: \"I hope you're right.\""
 													]
 												},
 												"From there, the conversation shifts to the current mood of the carnival and ideas for new carnival acts or attractions (\"The catoblepas didn't work out, but maybe we can buy a giraffe and paint it blue. Or we could teach Northwind how to play the fiddle.\") Then it turns to the mysterious disappearance of Burly's unruly brother, Hurly (in hushed tones that suggest Witch or Light might have had a hand in it, although neither admits any involvement). Hurly's fate is revealed in {@adventure chapter 4|WBtW|4} (see {@area area M5|2f5|x}).",
