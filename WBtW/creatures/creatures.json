@@ -392,23 +392,22 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Witchlight Hand (Small)",
+			"name": "Kester the Kenku",
+			"isNpc": true,
+			"isNamedCreature": true,
 			"source": "orcnogTWC",
+			"page": 3,
 			"_copy": {
-				"name": "Witchlight Hand (Medium)",
-				"source": "orcnogTWC",
-				"_preserve": {
-					"page": true,
-					"hasFluff": true,
-					"hasFluffImages": true
+				"name": "Master Thief",
+				"source": "MPMM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the thief",
+						"with": "Kester",
+						"flags": "i"
+					}
 				}
-			},
-			"size": [
-				"S"
-			],
-			"hp": {
-				"average": 7,
-				"formula": "2d6"
 			},
 			"hasToken": true,
 			"hasFluff": true
