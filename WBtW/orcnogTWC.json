@@ -760,7 +760,7 @@
 							"id": "008",
 							"entries": [
 								"As you run {@i The Witchlight Carnival}, look for ways to bring the numbers eight and three to the fore.",
-								"The number eight is symbolically important, as this adventure plays with the themes of time and nostalgia. The numeral 8 resembles an hourglass, which measures the passage of time, and looks like the symbol for infinity (∞) turned on its side. Hidden within the numeral 8 itself is the numeral 3. In the D&D multiverse, there exists the Rule of Three, which states that events of cosmic consequence often manifest in threes. Time, for instance, has a past, present, and future. The Hourglass Coven has three members. The fey domain of Prismeer is divided into three splinter-realms, which adventurers explore with the help of three guides.",
+								"The number eight is symbolically important, as this adventure plays with the themes of time and nostalgia. The numeral 8 resembles an hourglass, which measures the passage of time, and looks like the symbol for infinity (∞) turned on its side. Hidden within the numeral 8 itself is the numeral 3. In the D&D multiverse, there exists the Rule of Three, which states that events of cosmic consequence often manifest in threes. Time, for instance, has a past, present, and future.",
 								"Hidden within the adventure are numerous other mentions of the numbers eight and three. Can you find them all?"
 							]
 						},
@@ -1042,17 +1042,7 @@
 											"entries": [
 												"The characters' actions in the Witchlight Carnival can affect the overall mood at the carnival. When the characters arrive at the carnival, place a token in the starting space of the track in the lower right corner of the poster map. This token moves right or left along the track as the carnival's atmosphere changes for better or worse.",
 												"The text informs you when to raise or lower the mood. When the token is to the right of the starting space, spirits are high: colors appear more vibrant, flowers bloom around the fairgrounds, and shooting stars sweep across the clear night sky (roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table). When the token is to the left of the starting space, the mood becomes darker: the calliope music plays discordantly, the staff is tense, and stormy weather looms in the sky above the carnival (roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table).",
-												"The carnival's mood is used to trigger an important meeting between the characters and the carnival owners. If the mood reaches either of the end spaces on the track, the carnival's owners invite the characters to speak with them in their wagon (see \"{@area Meeting Witch and Light|0dd|x}\" toward the end of the chapter). Characters who attend the Big Top Extravaganza can also receive an invitation to meet with the owners, even if the carnival's mood isn't in an extreme state.",
-												{
-													"type": "inset",
-													"name": "Witch and Light's Hourglass Pact",
-													"page": 24,
-													"id": "066",
-													"entries": [
-														"When the hags of the Hourglass Coven took control of Prismeer, they gained leverage over {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW}. The hags know that Witch and Light are not the carnival's original owners and have threatened to divest them of their status by orchestrating a reunion between the Witchlight Carnival and its counterpart in the Shadowfell (which would force Witch and Light to give up the former and return to the latter).",
-														"Terrified of losing their Feywild fair, the two shadar-kai have agreed to let the coven steal from anyone who sneaks into the carnival without a ticket. Witch and Light have tried to neutralize this situation by diligently checking all visitors for tickets, but some unfortunates inevitably slip through, making them targets for the hags' thieves (see \"{@area Thieves of the Coven|07c|x}\")."
-													]
-												}
+												"The carnival's mood is used to trigger an important meeting between the characters and the carnival owners. If the mood reaches either of the end spaces on the track, the carnival's owners invite the characters to speak with them in their wagon (see \"{@area Meeting Witch and Light|0dd|x}\" toward the end of the chapter). Characters who attend the Big Top Extravaganza can also receive an invitation to meet with the owners, even if the carnival's mood isn't in an extreme state."
 											]
 										}
 									]
@@ -1267,51 +1257,7 @@
 											"id": "07c",
 											"entries": [
 												"Each member of the Hourglass Coven employs a thief that visits the carnival to steal from ticketless victims. These thieves enter and exit through the Hall of Illusions, using it as a gateway to their mistresses' splinter-realms of Hither, Thither, and Yon. The carnival staff has been instructed by {@creature Mister Witch|WBtW} and {@creature Mister Light|WBtW} to ignore them.",
-												"These thieves possess a preternatural awareness of who is a carnival worker and who is a ticket-carrying visitor. Every night of the carnival, they haunt the dark spaces between wagons and attractions, scanning the crowds for ticketless interlopers. Characters who have tickets or who work at the carnival are not targets for these thieves. Some characters might catch glimpses of these spooky figures as reflections in mirrors, shadows in doorways, or out-of-place figures standing motionless in the moving crowd. Use these thieves as you please to add an undercurrent of dread or mystery to the carnival's frivolities.",
-												"The three thieves are fiercely loyal to their hag mistresses and won't willingly reveal anything if caught. They are as follows:",
-												{
-													"type": "list",
-													"items": [
-														"{@creature Bavlorna Blightstraw|WBtW}'s thief is one of her lornlings\u2014a miniature version of herself. Use the {@creature quickling|VGM} stat block in {@adventure appendix C|WBtW|8} to represent this toad-like creature.",
-														"{@creature Skabatha Nightshade|WBtW}'s thief is Sowpig, a Small {@creature ghoul} with 17 ({@dice 5d6}) hit points. She appears as a little, gray-skinned girl wearing a pig mask and holding an oversized lollipop.",
-														"{@creature Endelyn Moongrave|WBtW}'s thief is the {@creature detached shadow|WBtW} of Gleam, a high elf acrobat who wears a crescent moon mask. (Gleam herself has vanished from the carnival. The characters won't meet her until {@adventure chapter 4|WBtW|4}.) Gleam's {@creature detached shadow|WBtW} uses the {@creature shadow} stat block, except it is a Fey instead of an Undead. A creature whose Strength is reduced to 0 by the shadow's Strength Drain attack does not die but falls {@condition unconscious} instead. The creature regains consciousness and the reduction to its Strength score disappears after it finishes a short or long rest."
-													]
-												},
-												"Each thief has the following additional action options, which it uses to achieve its goals:",
-												{
-													"type": "inset",
-													"id": "07d",
-													"entries": [
-														{
-															"type": "entries",
-															"name": "No Ticket",
-															"page": 30,
-															"id": "07e",
-															"entries": [
-																"The thief targets one carnival guest it can see within 5 feet of it. If the target doesn't have a ticket, it must succeed on a DC 13 Wisdom saving throw or be {@condition stunned} for 1 minute. It retains no memory of events that occur while it is {@condition stunned} in this way. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that successfully saves against this effect is immune to this particular thief's No Ticket ability for the next 24 hours."
-															]
-														},
-														{
-															"type": "entries",
-															"name": "Sticky Fingers",
-															"page": 30,
-															"id": "07f",
-															"entries": [
-																"The thief targets one {@condition stunned} creature it can see within 5 feet of it and steals one item weighing 10 pounds or less from that creature. Whatever it steals disappears, reappearing in the space of the hag to which the thief is beholden."
-															]
-														}
-													]
-												},
-												{
-													"type": "image",
-													"href": {
-														"type": "internal",
-														"path": "adventure/WBtW/016-01-002.hourglass-coven.png"
-													},
-													"title": "Meet the Hourglass Coven's thieves: a lornling, Sowpig the ghoul, and Gleam's shadow",
-													"width": 1700,
-													"height": 1274
-												}
+												"These thieves possess a preternatural awareness of who is a carnival worker and who is a ticket-carrying visitor. Every night of the carnival, they haunt the dark spaces between wagons and attractions, scanning the crowds for ticketless interlopers. Characters who have tickets or who work at the carnival are not targets for these thieves. Some characters might catch glimpses of these spooky figures as reflections in mirrors, shadows in doorways, or out-of-place figures standing motionless in the moving crowd. Use these thieves as you please to add an undercurrent of dread or mystery to the carnival's frivolities."
 											]
 										}
 									]
@@ -1829,7 +1775,7 @@
 													]
 												},
 												"Entering the tent costs 1 ticket punch.",
-												"The veil between the Material Plane and the Feywild is thinnest inside this hall of magical mirrors, and the door to Prismeer lies deep within. The Hourglass Coven's thieves slip in and out of the tent as they desire, and most of the carnival staff prefer to give the attraction a wide berth, believing it to be jinxed or haunted."
+												"The veil between the Material Plane and the Feywild is thinnest inside this hall of magical mirrors, and the door to the Fantasy Costco pocket dimension lies deep within. Thieves from The Hourglass Coven slip in and out of the tent as they desire, and most of the carnival staff prefer to give the attraction a wide berth, believing it to be jinxed or haunted."
 											]
 										},
 										{
