@@ -1,0 +1,438 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "orcnogTWC",
+				"abbreviation": "TWC",
+				"full": "Thw Witchlight Carnival",
+				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/WBtW/creatures/creatures.json.json",
+				"convertedBy": [
+					"orcnog"
+				],
+				"version": "1.4",
+				"targetSchema": "1.2.0"
+			}
+		],
+		"dateAdded": 1613648837,
+		"dateLastModified": 1613648837,
+		"_dateLastModifiedHash": "e5f748a123"
+	},
+	"monster": [
+		{
+			"name": "Mister Light",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "orcnogTWC",
+			"page": 26,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf",
+					"shadar-kai"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 77,
+				"formula": "14d8 + 14"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 12,
+			"int": 12,
+			"wis": 13,
+			"cha": 17,
+			"save": {
+				"dex": "+5",
+				"cha": "+5"
+			},
+			"skill": {
+				"perception": "+3",
+				"performance": "+5",
+				"sleight of hand": "+5"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"necrotic"
+			],
+			"vulnerable": [
+				"lightning"
+			],
+			"conditionImmune": [
+				"blinded",
+				"deafened",
+				"petrified",
+				"stunned"
+			],
+			"languages": [
+				"Common",
+				"Elvish",
+				"Sylvan"
+			],
+			"cr": "3",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"While carrying the {@item Witchlight vane|WbtW}, Light casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks):"
+					],
+					"will": [
+						"{@spell dancing lights}",
+						"{@spell polymorph} (after casting, roll a {@dice d8}; on a roll of 3 or 8, Light can't cast the spell again until the next dawn)",
+						"{@spell ray of frost}"
+					],
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Light has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Light carries and is attuned to the {@item Witchlight vane|WbtW}. In Light's hands, the vane is a finesse weapon."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Light makes two {@item Witchlight vane|WbtW} attacks."
+					]
+				},
+				{
+					"name": "Witchlight Vane",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage plus 4 ({@damage 1d8}) radiant damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Blessing of the Raven Queen (1/Day)",
+					"entries": [
+						"Light magically teleports, along with any equipment he is wearing or carrying, up to 30 feet to an unoccupied space he can see. Until the start of his next turn, he appears ghostly and gains resistance to all damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"S"
+			],
+			"damageTags": [
+				"B",
+				"R"
+			],
+			"damageTagsSpell": [
+				"C"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Mister Witch",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "orcnogTWC",
+			"page": 25,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"elf",
+					"shadar-kai"
+				]
+			},
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 82,
+				"formula": "11d8 + 33"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 11,
+			"con": 16,
+			"int": 16,
+			"wis": 13,
+			"cha": 14,
+			"save": {
+				"int": "+5",
+				"wis": "+3"
+			},
+			"skill": {
+				"arcana": "+5",
+				"deception": "+4",
+				"perception": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"necrotic"
+			],
+			"languages": [
+				"Common",
+				"Elvish",
+				"Sylvan"
+			],
+			"cr": "3",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"While carrying the {@item Witchlight watch|WbtW}, Witch casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks):"
+					],
+					"will": [
+						"{@spell fire bolt}",
+						"{@spell invisibility} (after casting, roll a {@dice d8}; on a roll of 3 or 8, Witch can't cast the spell again until the next dawn)",
+						"{@spell message}"
+					],
+					"ability": "int",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"Witch has advantage on saving throws against being {@condition charmed}, and magic can't put him to sleep."
+					]
+				},
+				{
+					"name": "Special Equipment",
+					"entries": [
+						"Witch carries and is attuned to the {@item Witchlight watch|WbtW}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Witch makes two Cane attacks."
+					]
+				},
+				{
+					"name": "Cane",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d4 + 2}) bludgeoning damage plus 6 ({@damage 1d12}) necrotic damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Blessing of the Raven Queen (1/Day)",
+					"entries": [
+						"Witch magically teleports, along with any equipment he is wearing or carrying, up to 30 feet to an unoccupied space he can see. Until the start of his next turn, he appears ghostly and gains resistance to all damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Fey Ancestry"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"E",
+				"S"
+			],
+			"damageTags": [
+				"B",
+				"N"
+			],
+			"damageTagsSpell": [
+				"F"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"conditionInflictSpell": [
+				"invisible"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Witchlight Hand (Medium)",
+			"source": "orcnogTWC",
+			"page": 27,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 9,
+				"formula": "2d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 11,
+			"int": 12,
+			"wis": 13,
+			"cha": 12,
+			"skill": {
+				"sleight of hand": "+6"
+			},
+			"passive": 11,
+			"languages": [
+				"Common plus any one language"
+			],
+			"cr": "1/8",
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"The hand casts one of the following spells, using Charisma as the spellcasting ability:"
+					],
+					"will": [
+						"{@spell dancing lights}",
+						"{@spell message}",
+						"{@spell prestidigitation}"
+					],
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Secret Expertise",
+					"entries": [
+						"The hand has one of these additional skills: Acrobatics +6, Animal Handling +5, Arcana +5, Athletics +4, Medicine +5, or Performance +5."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Dagger",
+					"entries": [
+						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 20/60 ft., one target. {@h}4 ({@damage 1d4 + 2}) piercing damage."
+					]
+				},
+				{
+					"name": "Pixie Dust (1/Day)",
+					"entries": [
+						"The hand sprinkles a pinch of pixie dust on itself or another creature it can see within 5 feet of it. The recipient gains a flying speed of 30 feet for 1 minute. If the creature is airborne when this effect ends, it falls safely to the ground, taking no damage and landing on its feet."
+					]
+				}
+			],
+			"languageTags": [
+				"C",
+				"X"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"THW"
+			],
+			"hasToken": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Witchlight Hand (Small)",
+			"source": "orcnogTWC",
+			"_copy": {
+				"name": "Witchlight Hand (Medium)",
+				"source": "orcnogTWC",
+				"_preserve": {
+					"page": true,
+					"hasFluff": true,
+					"hasFluffImages": true
+				}
+			},
+			"size": [
+				"S"
+			],
+			"hp": {
+				"average": 7,
+				"formula": "2d6"
+			},
+			"hasToken": true,
+			"hasFluff": true
+		},
+		{
+			"name": "Kester the Kenku",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "orcnogTWC",
+			"page": 3,
+			"_copy": {
+				"name": "Master Thief",
+				"source": "MPMM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the thief",
+						"with": "Kester",
+						"flags": "i"
+					}
+				}
+			},
+			"hasToken": true,
+			"hasFluff": true
+		}
+	]
+}

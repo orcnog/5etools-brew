@@ -1,0 +1,685 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "orcnogTWC",
+				"abbreviation": "TWC",
+				"full": "Thw Witchlight Carnival",
+				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/WBtW/items/items.json",
+				"convertedBy": [
+					"orcnog"
+				],
+				"version": "1.4",
+				"targetSchema": "1.2.0"
+			}
+		],
+		"dateAdded": 1613648837,
+		"dateLastModified": 1613648837,
+		"_dateLastModifiedHash": "e5f748a123"
+	},
+	"item": [
+		{
+			"name": "Feywild Trinket",
+			"source": "orcnogTWC",
+			"page": 1,
+			"type": "G",
+			"rarity": "none",
+			"entries": [
+				"The Feywild Trinkets table that follows offers a selection of trinkets appropriate for Feywild-themed adventures such as this one. The adventure includes a few encounters that require you to roll on the table to determine what random trinkets the characters find in key locations.",
+				{
+					"type": "table",
+					"caption": "Feywild Trinkets",
+					"colLabels": [
+						"d100",
+						"Trinket"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"01",
+							"Cookie cutter shaped like a unicorn"
+						],
+						[
+							"02",
+							"Two yew rings linked together"
+						],
+						[
+							"03",
+							"Silver hand mirror with a nymph-shaped handle"
+						],
+						[
+							"04",
+							"Painted wooden key whose teeth change configuration every day at dawn"
+						],
+						[
+							"05",
+							"Delicate silver cameo with pictures of twin children opposite one another"
+						],
+						[
+							"06",
+							"Golden pendant charm shaped like a leprechaun"
+						],
+						[
+							"07",
+							"Tiny wooden box containing a croquet set sized for pixies or sprites"
+						],
+						[
+							"08",
+							"Tiny pair of sharp, iron scissors"
+						],
+						[
+							"09",
+							"Chess piece shaped like a dancing satyr wearing a bishop's hat and clutching a gnarled staff"
+						],
+						[
+							"10",
+							"Saltshaker shaped like a wizard's tower"
+						],
+						[
+							"11",
+							"Crystal orb that allows an elf who holds it to sleep"
+						],
+						[
+							"12",
+							"Pendant that shows the phases of the moon"
+						],
+						[
+							"13",
+							"Large iron fingernail"
+						],
+						[
+							"14",
+							"Tiny electrum whistle that only Fey can hear"
+						],
+						[
+							"15",
+							"Wooden jigsaw puzzle piece as big as a saucer, with a painted image of a jug on it"
+						],
+						[
+							"16",
+							"Spool of glistening silver thread"
+						],
+						[
+							"17",
+							"Sheet of music that goblins find upsetting when they hear it played or sung"
+						],
+						[
+							"18",
+							"Rotten ogre's tooth with the Elvish glyph for \"moon\" etched into it"
+						],
+						[
+							"19",
+							"Vitrified eye of a displacer beast"
+						],
+						[
+							"20",
+							"Tiny duskwood coffin containing the ashes of a troll"
+						],
+						[
+							"21",
+							"Old invitation to a banquet in the Summer Court, written in ink on vellum in Sylvan"
+						],
+						[
+							"22",
+							"Gossamer shawl that glows faintly in moonlight"
+						],
+						[
+							"23",
+							"Ball-and-cup toy that plays a short, victorious jingle whenever the ball lands in the cup"
+						],
+						[
+							"24",
+							"Sprite's skull covered in ink fingerprints"
+						],
+						[
+							"25",
+							"Silver fork with the outer tines bent sideways"
+						],
+						[
+							"26",
+							"A soot-stained sock in which a nugget of coal magically appears each day at dawn"
+						],
+						[
+							"27",
+							"Tiny wooden stool (sized for a pixie or sprite) that gives splinters to those who hold it"
+						],
+						[
+							"28",
+							"Tiny clockwork dragonfly that slowly beats its wings (but can't fly) when wound up"
+						],
+						[
+							"29",
+							"Toy unicorn made of wood, painted with bright colors"
+						],
+						[
+							"30",
+							"Pixie plushie that sings when you squeeze it"
+						],
+						[
+							"31",
+							"1-inch-square painting of a sleeping elf"
+						],
+						[
+							"32",
+							"Thimble that helps you daydream when worn"
+						],
+						[
+							"33",
+							"Pumpkin cupcake that magically regenerates itself in its paper cup each day at dawn"
+						],
+						[
+							"34",
+							"Fake Three-Dragon Ante card depicting a faerie dragon"
+						],
+						[
+							"35",
+							"Teacup made from a varnished mushroom cap that magically keeps its liquid contents lukewarm"
+						],
+						[
+							"36",
+							"Rock that floats and is small enough to hide in your closed fist"
+						],
+						[
+							"37",
+							"Tiny bottle filled with rainwater collected from the Feywild"
+						],
+						[
+							"38",
+							"Opalescent conch shell that laughs when you hold it to your ear"
+						],
+						[
+							"39",
+							"Vial of viscous liquid labeled \"Fomorian spit. Do not drink!\""
+						],
+						[
+							"40",
+							"Wax candle that roars and crackles like a bonfire while lit"
+						],
+						[
+							"41",
+							"Potted daffodil that sways when near a source of music"
+						],
+						[
+							"42",
+							"8-ounce, glass wine bottle that magically reassembles itself 1 minute after being broken"
+						],
+						[
+							"43",
+							"Tiny wooden sylph figurehead from a model ship"
+						],
+						[
+							"44",
+							"Tiny pumpkin-shaped cauldron carved out of bog oak"
+						],
+						[
+							"45",
+							"Bar of soap that smells like something memorable from your childhood"
+						],
+						[
+							"46",
+							"Piece of orange parchment folded to look like a knight astride a unicorn"
+						],
+						[
+							"47",
+							"Tinted glasses so dark that they can't be seen through"
+						],
+						[
+							"48",
+							"8-inch-long glass ant figurine"
+						],
+						[
+							"49",
+							"Piece of parchment bearing a child's drawing of an oni"
+						],
+						[
+							"50",
+							"Tiny hourglass without sand in it"
+						],
+						[
+							"51",
+							"Empty vial with corked ends at the top and bottom"
+						],
+						[
+							"52",
+							"Pair of green leprechaun boots tied together by their laces"
+						],
+						[
+							"53",
+							"Smoking pipe made from a tree root"
+						],
+						[
+							"54",
+							"Red cap that droops down to one's shoulders when worn"
+						],
+						[
+							"55",
+							"Mask that helps you remember your dreams if you wear it while you sleep"
+						],
+						[
+							"56",
+							"Notebook that shows what's written on it only when held upside down"
+						],
+						[
+							"57",
+							"Wooden top with four sides, each bearing the image of child enjoying a different season"
+						],
+						[
+							"58",
+							"Tiny beehive wig made for sprites or pixies"
+						],
+						[
+							"59",
+							"Wooden mouse figurine that squeaks when held"
+						],
+						[
+							"60",
+							"Stuffed oni doll with a creepy smile and one missing eye"
+						],
+						[
+							"61",
+							"Empty bag labeled \"Candy\""
+						],
+						[
+							"62",
+							"Tinted glass monocle that makes things look green"
+						],
+						[
+							"63",
+							"Black executioner's hood sized for a pixie or sprite"
+						],
+						[
+							"64",
+							"Piano key carved from a satyr's horn"
+						],
+						[
+							"65",
+							"Tiny wooden lute with cat hairs for strings"
+						],
+						[
+							"66",
+							"Iron needle with an eye that refuses to let thread pass through it"
+						],
+						[
+							"67",
+							"Tiny sundial that casts a shadow only in moonlight"
+						],
+						[
+							"68",
+							"Wooden pan flute that attracts harmless local fauna when played"
+						],
+						[
+							"69",
+							"Silvered pinecone"
+						],
+						[
+							"70",
+							"Flask of spectral glowworms that change color to reflect the mood of the flask's holder"
+						],
+						[
+							"71",
+							"Wooden apple painted blue"
+						],
+						[
+							"72",
+							"Tuning fork that sounds the tone for the F key"
+						],
+						[
+							"73",
+							"Nunchaku sized for a pixie or sprite"
+						],
+						[
+							"74",
+							"Copper coin with a smiling satyr's face on one side and a satyr's skull on the other"
+						],
+						[
+							"75",
+							"Severed chicken's foot attached to a leather cord"
+						],
+						[
+							"76",
+							"Collection of baby teeth in a tiny wooden box"
+						],
+						[
+							"77",
+							"Pinwheel whirligig that spins even when there's no wind"
+						],
+						[
+							"78",
+							"Child's parasol covered in moss and leaves"
+						],
+						[
+							"79",
+							"Wooden magnifying glass missing its lens"
+						],
+						[
+							"80",
+							"Glossy mushroom with a red, bell-shaped cap that jingles when shook"
+						],
+						[
+							"81",
+							"Pouch of seeds that smell like home"
+						],
+						[
+							"82",
+							"Petrified robin's egg"
+						],
+						[
+							"83",
+							"Wooden spoon with a hole in the center"
+						],
+						[
+							"84",
+							"Paper wasp nest in a jar"
+						],
+						[
+							"85",
+							"Sprig of rosemary wrapped with ribbon at one end"
+						],
+						[
+							"86",
+							"Tiny, unfurnished dollhouse sized for a pixie child"
+						],
+						[
+							"87",
+							"Paintbrush made entirely of ceramic\u2014even the bristles"
+						],
+						[
+							"88",
+							"Candlestick whose candlelight looks like a tiny, dancing fairy made of fire"
+						],
+						[
+							"89",
+							"Spectacle frames in the shape of butterfly wings"
+						],
+						[
+							"90",
+							"Set of false wooden teeth"
+						],
+						[
+							"91",
+							"Tiny book of fairytales"
+						],
+						[
+							"92",
+							"Rucksack in which one potato magically appears each day at dawn"
+						],
+						[
+							"93",
+							"Pixie's winter jacket lined with fox fur"
+						],
+						[
+							"94",
+							"Tasseled wine charm shaped like a sprite"
+						],
+						[
+							"95",
+							"Weak magnetic wand"
+						],
+						[
+							"96",
+							"100-sided die the size of a plum, cut from coal"
+						],
+						[
+							"97",
+							"Glass slipper, missing its mate"
+						],
+						[
+							"98",
+							"Tiny dreamcatcher"
+						],
+						[
+							"99",
+							"Barbell sized for a pixie or sprite"
+						],
+						[
+							"100",
+							"Music box that plays a sprightly tune you remember from your childhood"
+						]
+					]
+				}
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Carnival Prize",
+			"source": "orcnogTWC",
+			"page": 3,
+			"type": "G",
+			"rarity": "none",
+			"entries": [
+				"If a character wins a prize playing a game, roll a {@dice d12} on the Carnival Prizes table to determine the prize.",
+				{
+					"type": "table",
+					"caption": "Carnival Prizes",
+					"colLabels": [
+						"d12",
+						"Prize"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"Trinket (determined by rolling on the {@item Feywild Trinket|orcnogTWC|Feywild Trinkets table} in the introduction)."
+						],
+						[
+							"2",
+							"Wooden wand with 8 charges. As an action, you can expend 1 of the wand's charges to cast the {@spell prestidigitation} cantrip. This wand can't be recharged."
+						],
+						[
+							"3",
+							"Packet of {@item pixie dust|WBtW} (see {@adventure appendix A|WBtW|6|Pixie Dust})."
+						],
+						[
+							"4",
+							"Bottle of Witchlight wine. While the bottle is uncorked, it plays calliope music until the bottle is emptied of wine."
+						],
+						[
+							"5",
+							"Replica unicorn horn filled with candy."
+						],
+						[
+							"6",
+							"Single application of magic face paint. As an action, you can apply the face paint to yourself or another creature. The recipient gains the benefit of a {@spell disguise self} spell that lasts for 1 hour or until the recipient chooses to end the effect."
+						],
+						[
+							"7",
+							"Cuddly toy spider. As an action, you can stroke the spider to gain the benefit of a {@spell spider climb} spell that lasts for 1 hour. Once used, the toy turns into a real spider and crawls away."
+						],
+						[
+							"8",
+							"Glove puppet in the shape of a wizard. As an action, you can move the puppet's arms to cast the {@spell minor illusion} cantrip. After three uses, the puppet disappears in a puff of smoke."
+						],
+						[
+							"9",
+							"Wand of Voice Changing with 1 charge. As an action the user can touch this wand to their throat and expend one charge to change their voice to perfectly immitate that of any creature they have heard speak. The wand does not grant to ability to speak a new language that the user doesn't already know, and the wand wand can't be recharged."
+						],
+						[
+							"10",
+							"Carved wooden statuette of a gnome wearing a misshapen hat that looks like the business end of an iron key. As an action, you can use the gnome one time to open any lock requiring a key. After one use, the gnome giggles and disappears with a pop."
+						],
+						[
+							"11",
+							"Golden apple. As an action, you can eat the apple which grants you inspiration. The apple tastes like cotton candy."
+						],
+						[
+							"12",
+							"Small pouch of glitter. As an action, you can use sprinkle the glitter on an item once to make it sparkle radiantly, which doubles its perceived monetary value."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Carnival Scene",
+			"source": "orcnogTWC",
+			"page": 3,
+			"type": "G",
+			"rarity": "none",
+			"entries": [
+				"Roll on the Carnival Scenes table to bring the carnival to life as the players explore.",
+				{
+					"type": "table",
+					"caption": "Carnival Scenes",
+					"colLabels": [
+						"d8",
+						"Occurrence"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"Two girls in face paint (a lion and a hart) squabble over a painted wooden crown that their mother won at a stall."
+						],
+						[
+							"2",
+							"A satyr with red-and-white-striped horns plays the pipes while leading a procession of dancing rodents."
+						],
+						[
+							"3",
+							"An elf stilt-walker tosses colorful sugary treats down to children who pass by."
+						],
+						[
+							"4",
+							"A painted sign of an elf wearing a jester's hat springs to life and exclaims, \"We hope you're having a delightful evening!\""
+						],
+						[
+							"5",
+							"A giant dragonfly swoops overhead, and its rider spills a drink over a group of Witchlight hands."
+						],
+						[
+							"6",
+							"With a puff of glitter, a man's head suddenly turns into the head of a braying donkey, to the giggling delight of a group of mischievous pixies."
+						],
+						[
+							"7",
+							"Giant, singing flowers burst from the ground and serenade passersby."
+						],
+						[
+							"8",
+							"A lively jig springs up, led by a troupe of gnomish clowns."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Mood Rises",
+			"source": "orcnogTWC",
+			"page": 3,
+			"type": "G",
+			"rarity": "none",
+			"entries": [
+				"Roll on the Mood Rises table to bring the carnival to life when the Carnival Mood rises.",
+				{
+					"type": "table",
+					"colLabels": [
+						"d8",
+						"Event"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"Bright flowers you swore weren't there a second ago have blossomed underfoot, as a distant bird begins to sing sweetly, cutting through the babbling of the crowd."
+						],
+						[
+							"2",
+							"The clouds ahead part and beautiful beams of moonlight that seem impossibly solid begin to bask the carnival grounds in dancing, ethereal light."
+						],
+						[
+							"3",
+							"The distant music of the calliope that permeates the carnival swells to a grand crescendo, and you see several carnival goers are unconsciously smiling and nodding along and a group of children break out into dance."
+						],
+						[
+							"4",
+							"A Tiefling on stilts breaths out a colossal burst of rainbow flame for a cheering crowd. The flames turn into a shower of butterflies that flitter into the audience, and the tiefling bows."
+						],
+						[
+							"5",
+							"A group of Pixies flies through the air, trailing a stream of rainbow pixie dust, causing a group of children to rise into the air after them. Giggling, they begin a chase through the sky until the dust wears off and gently lowers the children back to the ground."
+						],
+						[
+							"6",
+							"A cluster of brightly coloured mushrooms nearby begin to flicker and glow with rainbow light, as brightly coloured spores drift into the air and begin to pop like tiny fireworks, to the delight of a small group of Pixies nearby."
+						],
+						[
+							"7",
+							"A Giant Dragonfly whizzes overhead and does a somersault in mid air as carnival goers cheer the rider on. Halfway through a barrel roll, they drop a handful of candy for the children below to scramble for, before flying off."
+						],
+						[
+							"8",
+							"Three children with painted faces; a dragon, a lion, and a sheep; are playing at being a Chimera, chased by another child dressed as a knight, as carnival goers cheer them on. Eventually, the knight is victorious, and all three Chimera children play out a dramatic death as their parents laugh."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Mood Lowers",
+			"source": "orcnogTWC",
+			"page": 3,
+			"type": "G",
+			"rarity": "none",
+			"entries": [
+				"Roll on the Mood Lowers table to bring the carnival to life when the Carnival Mood lowers.",
+				{
+					"type": "table",
+					"colLabels": [
+						"d8",
+						"Event"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"As clouds pass across the moonlit sky, the colours of the carnival seem to fade. Flying banners and glowing lanterns are dimmer and greyer than they were a moment before."
+						],
+						[
+							"2",
+							"The distant music of the calliope that permeates the carnival seems to take on a somber tone as it changes suddenly to a minor key, almost like a funeral dirge."
+						],
+						[
+							"3",
+							"Clouds gather above, blocking out the light of the moon and stars, and a cold rain begins to fall. Carnival goers around you run for cover under the awnings and shiver."
+						],
+						[
+							"4",
+							"The constant traffic of people and animals has turned the grass underfoot into sticky black mud. A faint odor begins to rise from the carnival grounds, of muck and manure, undercutting the scent of flowers and popcorn."
+						],
+						[
+							"5",
+							"A running Halfling child trips over a root and spills her candy and popcorn all over the ground. She begins to cry, nursing a hurt knee, calling out for her parents: but they are nowhere to be found, as a Witchlight Hand escorts her to lost property."
+						],
+						[
+							"6",
+							"The noise of the carnival seems muted, and the crowds seem thin. Small clusters of carnival goers drift quietly from stand to stand, but most of the attractions appear unusually dark and quiet."
+						],
+						[
+							"7",
+							"A cluster of giant bubbles drifting overhead pop suddenly and drizzle everyone around you with a shower of cold, slimy liquid."
+						],
+						[
+							"8",
+							"A little Halfling girl dressed as a Unicorn is in tears as she searches fruitlessly for her broken horn. Eventually, after searching through the mud unsuccessfully, her entire outfit is ruined and she gives up."
+						]
+					]
+				}
+			]
+		}
+	]
+}
