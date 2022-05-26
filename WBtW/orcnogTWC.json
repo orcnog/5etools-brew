@@ -1093,22 +1093,6 @@
 						"replace": "the thief",
 						"with": "Kester",
 						"flags": "i"
-					},
-					"_": {
-						"mode": "replaceSpells",
-						"will": [
-							"{@spell disguise self}",
-							"{@spell friends}",
-							"{@spell mage hand}",
-							"{@spell minor illusion}"
-						],
-						"daily": {
-							"1e": [
-								"{@spell bestow curse}",
-								"{@spell faerie fire}",
-								"{@spell speak with animals}"
-							]
-						}
 					}
 				}
 			}
