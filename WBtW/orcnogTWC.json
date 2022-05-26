@@ -1087,74 +1087,33 @@
 			"_copy": {
 				"name": "Master Thief",
 				"source": "MPMM",
-				"_preserve": {
-					"page": true,
-					"hasFluff": true,
-					"hasFluffImages": true
-				}
-			},
-			"type": {
-				"type": "humanoid",
-				"tags": [
-					"kenku"
-				]
-			},
-			"alignment": [
-				"C",
-				"N"
-			],
-			"skill": {
-				"arcana": "+2"
-			},
-			"languages": [
-				"understands Auran and Common but speaks only through the use of her Mimicry trait"
-			],
-			"spellcasting": [
-				{
-					"name": "Spellcasting",
-					"headerEntries": [
-						"Kester casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 13}):"
-					],
-					"will": [
-						"{@spell disguise self}",
-						"{@spell friends}",
-						"{@spell mage hand}",
-						"{@spell minor illusion}"
-					],
-					"daily": {
-						"1e": [
-							"{@spell bestow curse}",
-							"{@spell faerie fire}",
-							"{@spell speak with animals}"
-						]
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the thief",
+						"with": "Kester",
+						"flags": "i"
 					},
-					"ability": "cha",
-					"displayAs": "action"
+					"_": {
+						"mode": "replaceSpells",
+						"will": [
+							"{@spell disguise self}",
+							"{@spell friends}",
+							"{@spell mage hand}",
+							"{@spell minor illusion}"
+						],
+						"daily": {
+							"1e": [
+								"{@spell bestow curse}",
+								"{@spell faerie fire}",
+								"{@spell speak with animals}"
+							]
+						},
+						"ability": "cha",
+						"displayAs": "action"
+					}
 				}
-			],
-			"trait": [
-				{
-					"name": "Mimicry",
-					"entries": [
-						"Kester can mimic any sounds she has heard, including voices. A creature that hears the sounds can tell they are imitations only with a successful {@dc 13} Wisdom (Insight) check."
-					]
-				}
-			],
-			"action": [
-				{
-					"name": "Twilight Sleep (2/Day)",
-					"entries": [
-						"Kester targets one creature she can see within 10 feet of him. The target is engulfed in a cloud of magical, sleep-inducing gas and must succeed on a {@dc 13} Constitution saving throw or fall {@condition unconscious} for 1 minute. A creature put to sleep by this gas awakens instantly if it takes damage, or if someone uses an action to shake or slap the sleeper awake."
-					]
-				}
-			],
-			"languageTags": [
-				"AU",
-				"C"
-			],
-			"conditionInflict": [
-				"unconscious"
-			]
+			}
 		}
 	],
 	"adventure": [
