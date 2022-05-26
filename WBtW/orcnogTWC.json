@@ -19,6 +19,107 @@
 	},
 	"item": [
 		{
+			"name": "Pixie Dust",
+			"source": "orcnogTWC",
+			"page": 212,
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"As an action, you can sprinkle this dust on yourself or another creature you can see within 5 feet of you. The recipient gains a flying speed of 30 feet and the ability to hover for 1 minute. If the creature is airborne when this effect ends, it falls safely to the ground, taking no damage and landing on its feet.",
+				"A small packet holds enough pixie dust for one use."
+			]
+		},
+		{
+			"name": "Witchlight Vane",
+			"source": "orcnogTWC",
+			"page": 27,
+			"rarity": "legendary",
+			"reqAttune": "by a mister light or his handpicked successor",
+			"sentient": true,
+			"weight": 3,
+			"bonusWeapon": "+3",
+			"entries": [
+				"This ornate rod is topped by a pair of butterfly wings and incorporates bits of red glass into its length. It weighs 3 pounds.",
+				{
+					"type": "entries",
+					"name": "Magic Weapon",
+					"entries": [
+						"In the hands of one who is attuned to it, the vane can be wielded as a magic mace that grants a +3 bonus to attack and damage rolls made with it. In addition, the vane deals an extra {@damage 1d8} radiant damage on a hit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sense Mood",
+					"entries": [
+						"While the vane is inside the perimeter of the Witchlight Carnival, it can sense the mood of every creature in the carnival that has an Intelligence of 4 or higher. As an action, a creature attuned to the vane can use it to pinpoint the location of the happiest creature in the carnival.",
+						"The butterfly shape at the top of the vane spins slowly clockwise when spirits in the carnival are generally high; if the general mood in the carnival is dour, the top of the vane spins slowly counterclockwise."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sentience",
+					"entries": [
+						"The vane is a sentient, chaotic good wondrous item with an Intelligence of 11, a Wisdom of 14, and a Charisma of 14. It has hearing and normal vision out to a range of 30 feet, and it communicates by transmitting emotion to the creature attuned to it. Its purpose is to make sure everyone in the Witchlight Carnival is having a good time."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Additional Properties",
+					"entries": [
+						"The vane has the following additional properties:",
+						{
+							"type": "list",
+							"items": [
+								"The creature holding the vane has vulnerability to lightning damage.",
+								"The creature attuned to the vane can't be {@condition blinded}, {@condition deafened}, {@condition petrified}, or {@condition stunned}.",
+								"While carrying the vane, the creature attuned to it can cast the {@spell dancing lights}, {@spell polymorph}, or {@spell ray of frost} spell as an action, requiring no spell components and using Charisma as the spellcasting ability. After the vane's {@spell polymorph} spell is cast, roll a {@dice d8}; on a roll of 3 or 8, the vane can't be used to cast this spell again until the next dawn."
+							]
+						}
+					]
+				}
+			],
+			"attachedSpells": [
+				"dancing lights"
+			],
+			"hasFluffImages": true
+		},
+		{
+			"name": "Witchlight Watch",
+			"source": "orcnogTWC",
+			"page": 25,
+			"rarity": "legendary",
+			"reqAttune": "by a mister witch or his handpicked successor",
+			"wondrous": true,
+			"entries": [
+				"This ornate pocket watch is fastened to the end of a gold chain. It glows with a faint golden light when opened, and it makes a soft ticking noise that can be heard only by the creature holding it. The face of the watch shows a miniature painting of the Witchlight Carnival ringed by a tiny henge, orbited at night by a mote of light small enough to slip through the eye of a needle. This light causes the henge to cast shadows, and these shadows allow the watch's owner to track the passage of time.",
+				{
+					"type": "entries",
+					"name": "Carnival Setup and Takedown",
+					"entries": [
+						"The creature attuned to the watch can use an action to initiate the packing up or the unpacking of the Witchlight Carnival, provided the creature and the carnival are on the same plane of existence. In the span of 1 hour, all objects that are elements of the carnival are magically whisked about until everything is packed up and ready for travel, or unpacked and assembled. The watch has no effect on creatures, which can move about freely and safely while the carnival is being set up or taken down. Once the process of packing up or unpacking the carnival begins, it can't be stopped until the task is complete. When the watch is used to pack up or unpack the carnival, this property cannot be used again until 8 hours have elapsed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Additional Properties",
+					"entries": [
+						"The pocket watch has the following additional properties:",
+						{
+							"type": "list",
+							"items": [
+								"While carrying the watch, the creature attuned to it can cast the {@spell fire bolt}, {@spell invisibility}, or {@spell message} spell as an action, requiring no spell components and using Intelligence as the spellcasting ability. After the watch's {@spell invisibility} spell is cast, roll a {@dice d8}; on a roll of 3 or 8, the watch can't be used to cast this spell again until the next dawn.",
+								"The creature attuned to the watch gains 30 pounds. This extra weight vanishes when the attunement ends.",
+								"The creature attuned to the watch must eat and drink eight times the normal amount each day."
+							]
+						}
+					]
+				}
+			],
+			"attachedSpells": [
+				"fire bolt"
+			]
+		},
+		{
 			"name": "Feywild Trinket",
 			"source": "orcnogTWC",
 			"page": 1,
@@ -473,7 +574,7 @@
 						],
 						[
 							"3",
-							"Packet of {@item pixie dust|WBtW} (see {@adventure appendix A|WBtW|6|Pixie Dust})."
+							"Packet of {@item pixie dust|orcnogTWC} (see {@adventure appendix A|WBtW|6|Pixie Dust})."
 						],
 						[
 							"4",
@@ -754,7 +855,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"While carrying the {@item Witchlight vane|WbtW}, Light casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks):"
+						"While carrying the {@item Witchlight vane|orcnogTWC}, Light casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks):"
 					],
 					"will": [
 						"{@spell dancing lights}",
@@ -775,7 +876,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Light carries and is attuned to the {@item Witchlight vane|WbtW}. In Light's hands, the vane is a finesse weapon."
+						"Light carries and is attuned to the {@item Witchlight vane|orcnogTWC}. In Light's hands, the vane is a finesse weapon."
 					]
 				}
 			],
@@ -783,7 +884,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Light makes two {@item Witchlight vane|WbtW} attacks."
+						"Light makes two {@item Witchlight vane|orcnogTWC} attacks."
 					]
 				},
 				{
@@ -891,7 +992,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"While carrying the {@item Witchlight watch|WbtW}, Witch casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks):"
+						"While carrying the {@item Witchlight watch|orcnogTWC}, Witch casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save {@dc 13}, {@hit 5} to hit with spell attacks):"
 					],
 					"will": [
 						"{@spell fire bolt}",
@@ -912,7 +1013,7 @@
 				{
 					"name": "Special Equipment",
 					"entries": [
-						"Witch carries and is attuned to the {@item Witchlight watch|WbtW}."
+						"Witch carries and is attuned to the {@item Witchlight watch|orcnogTWC}."
 					]
 				}
 			],
@@ -1624,7 +1725,7 @@
 											"page": 6,
 											"id": "069",
 											"entries": [
-												"{@creature Mister Witch|orcnogTWC} looks like a distinguished gentleman, for he is always dressed in fine attire. His favorite accoutrements are a top hat and a cane, and he is never without his {@item Witchlight watch|WBtW}, which was gifted to him by the carnival's previous owner. This unique magic item is described below.",
+												"{@creature Mister Witch|orcnogTWC} looks like a distinguished gentleman, for he is always dressed in fine attire. His favorite accoutrements are a top hat and a cane, and he is never without his {@item Witchlight watch|orcnogTWC}, which was gifted to him by the carnival's previous owner. This unique magic item is described below.",
 												{
 													"type": "image",
 													"href": {
@@ -1677,7 +1778,7 @@
 							"id": "074",
 							"entries": [
 								"{@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight Hands} are the backbone of the Witchlight Carnival, a motley collection of individuals who operate many of the booths, make repairs, feed and exercise the animals, keep an eye out for thieves and other miscreants, and perform other miscellaneous tasks as {@creature Mister Witch|orcnogTWC} dictates. A few also work part-time as performers and attractions. Although they travel to many worlds throughout the Material Plane, Witchlight hands rarely leave the carnival grounds. The carnival is the only world they know and care about.",
-								"The carnival employs 124 Witchlight hands in total. All hands enter into an agreement when they join the carnival: they must never harm another staff member, and they can't leave the carnival for more than a day at a time. (A longer absence is equivalent to resignation, in {@creature Mister Witch|orcnogTWC}'s estimation.) On-duty staff members are required to wear fake butterfly wings strapped to their backs. {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC} also furnish them with small amounts of {@item pixie dust|WBtW} (see {@adventure appendix A|WBtW|6|Pixie Dust}).",
+								"The carnival employs 124 Witchlight hands in total. All hands enter into an agreement when they join the carnival: they must never harm another staff member, and they can't leave the carnival for more than a day at a time. (A longer absence is equivalent to resignation, in {@creature Mister Witch|orcnogTWC}'s estimation.) On-duty staff members are required to wear fake butterfly wings strapped to their backs. {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC} also furnish them with small amounts of {@item pixie dust|orcnogTWC} (see {@adventure appendix A|WBtW|6|Pixie Dust}).",
 								"Witchlight hands are paid only a small fraction of the carnival's profits, but it's enough to keep them fed, clothed, and cared for. Some hands work longer hours or do extra chores to pay off debts and loans.",
 								"Most Witchlight hands are taught how to perform minor magic tricks, which they use to amuse themselves as well as entertain the masses. (Characters who have the Witchlight hand background don't learn magic as part of their upbringing, but they can choose to account for this by selecting a spellcasting class.)"
 							]
@@ -1696,7 +1797,7 @@
 										"The first stars of night twinkle above the apricot sunset. Giant dragonflies whir overhead, trailing streamers, and a low mist curls over the ground. Through a floral archway, you glimpse wondrous and vibrant creatures\u2014elf stilt walkers, dancing faeries, and painted performers. Everywhere there is laughter, pixie dust, bubbles, and the wistful tune of a whistling calliope."
 									]
 								},
-								"The Witchlight Carnival travels as a convoy of wagons, each one pulled by horses or foxes depending on its size. When they need to soar between worlds, the wagons and their draft animals sprout butterfly wings and take to the starry sky. On land, the carnival's attractions unfold magically from the wagons, controlled by {@creature Mister Witch|orcnogTWC}'s {@item Witchlight watch|WBtW}.",
+								"The Witchlight Carnival travels as a convoy of wagons, each one pulled by horses or foxes depending on its size. When they need to soar between worlds, the wagons and their draft animals sprout butterfly wings and take to the starry sky. On land, the carnival's attractions unfold magically from the wagons, controlled by {@creature Mister Witch|orcnogTWC}'s {@item Witchlight watch|orcnogTWC}.",
 								"When the carnival arrives at a new destination, a {@creature treant sapling|WBtW} named Northwind uses its Animate Trees ability to gently relocate trees that are in the way of the unfolded wagons. A great length of blue ribbon transforms into a lazy, sparkling river, encircling the site. The river is 20 feet wide and 10 feet deep at its center.",
 								{
 									"type": "image",
@@ -2181,7 +2282,7 @@
 											"page": 36,
 											"id": "09c",
 											"entries": [
-												"Riding a dragonfly costs 1 ticket punch. There are eight {@creature Giant Dragonfly|WBtW|giant dragonflies} (see {@adventure appendix C|WBtW|8}), which are trained to fly their riders in a lazy figure eight around the carnival's thoroughfare, at a height of 20 feet. A character who tries to steer their dragonfly off course must succeed on a DC 12 Wisdom ({@skill Animal Handling}) check to do so. On the {@adventure Story Tracker|WBtW|11}, jot down the names of any characters who succeed on the Wisdom ({@skill Animal Handling}) check to redirect a giant dragonfly; these characters have a talent that might benefit them in {@adventure chapter 4|WBtW|4} (see {@area area M20|33f|x}).",
+												"Riding a dragonfly costs 1 ticket punch. There are eight {@creature Giant Dragonfly|WBtW|giant dragonflies} (see {@adventure appendix C|WBtW|8}), which are trained to fly their riders in a lazy figure eight around the carnival's thoroughfare, at a height of 20 feet. A character who tries to steer their dragonfly off course must succeed on a DC 12 Wisdom ({@skill Animal Handling}) check to do so.",
 												"As the characters' first ride begins, shouts of alarm erupt from a nearby lily pad. A giant dragonfly has just taken off prematurely with a patron on its back: a middle-aged dwarf with a bright blue beard sits unfastened in his harness. Kester, a kenku trickster, used a {@spell speak with animals} spell to panic the dragonfly. Characters can spot Kester before he slips away with a successful Wisdom ({@skill Perception}) check contested by the kenku's Charisma ({@skill Deception}) check. See \"{@area Catching Kester|0e7|x}\" later in the chapter if the characters try to confront him.",
 												"A character can calm the startled mount and guide it back to a lily pad with a successful DC 14 Wisdom ({@skill Animal Handling}) check. The carnival's mood rises by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table) if a character succeeds on this check. If the characters fail to rescue the dwarf, he tumbles from the dragonfly's back; luckily, his fall is cushioned by a tent awning, and though he isn't badly hurt, the mood of the carnival lowers by 1 step (roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table)."
 											]
@@ -2281,7 +2382,6 @@
 												"Feathereen enjoys late-night debates with the bugbear Burly (see \"{@area Staff Area|0d5|x}\" later in the chapter). \"He has a profound mind and is simply wasted guarding the staff wagons. He misses his brother tremendously. No one knows what happened to Hurly, but everyone knows he never really fit in.\" (See {@area area M5|2f5|x} in {@adventure chapter 4|WBtW|4} for Hurly's current whereabouts.)"
 											]
 										},
-										"On the {@adventure Story Tracker|WBtW|11}, note the names of any characters who impress Feathereen with their conversation. These characters gain debating talents that might prove useful in {@adventure chapter 5|WBtW|5} (see {@area area P41|3f2|x}).",
 										{
 											"type": "entries",
 											"name": "Development",
@@ -2458,7 +2558,7 @@
 														]
 													]
 												},
-												"Whether or not the characters agree to adopt their pixie names, Jeremy sprinkles {@item pixie dust|WBtW} (see {@adventure appendix A|WBtW|6|Pixie Dust}) on them. Jeremy also presents each character with a potion that, when consumed within the boundary of the Pixie Kingdom, reduces the imbiber's size to Tiny for 1 hour, or until the imbiber wants the effect to end. Until the effect ends, the Tiny character has disadvantage on Strength checks and Strength saving throws, and the character's weapons deal {@dice 2d4} less damage (this change can't reduce the damage below 1)."
+												"Whether or not the characters agree to adopt their pixie names, Jeremy sprinkles {@item pixie dust|orcnogTWC} (see {@adventure appendix A|WBtW|6|Pixie Dust}) on them. Jeremy also presents each character with a potion that, when consumed within the boundary of the Pixie Kingdom, reduces the imbiber's size to Tiny for 1 hour, or until the imbiber wants the effect to end. Until the effect ends, the Tiny character has disadvantage on Strength checks and Strength saving throws, and the character's weapons deal {@dice 2d4} less damage (this change can't reduce the damage below 1)."
 											]
 										},
 										{
@@ -2501,8 +2601,8 @@
 											"page": 42,
 											"id": "0bc",
 											"entries": [
-												"After a short while, the characters are invited to play a game of hide-and-seek, organized by two {@creature Pixie||pixies}: the game's friendly supervisor, Honeymint, and a seeker named Starbug. On the {@adventure Story Tracker|WBtW|11}, jot down the names of any characters who play hide-and-seek with the pixies; this experience might prove useful in {@adventure chapter 3|WBtW|3} (see {@area area L5|246|x}).",
-												"Each character who plays the game makes a Wisdom ({@skill Stealth}) check to hide (see the {@book Player's Handbook|PHB} for rules on skills with different abilities). Starbug finds the character who has the lowest check result, at which point all the remaining characters move to new hiding places and make another check. The game continues until only one character remains hidden; this character is declared the winner and is awarded a packet of {@item pixie dust|WBtW} (see {@adventure appendix A|WBtW|6|Pixie Dust}), with two leaves as the propeller blades. No character can win this prize more than once.",
+												"After a short while, the characters are invited to play a game of hide-and-seek, organized by two {@creature Pixie||pixies}: the game's friendly supervisor, Honeymint, and a seeker named Starbug.",
+												"Each character who plays the game makes a Wisdom ({@skill Stealth}) check to hide (see the {@book Player's Handbook|PHB} for rules on skills with different abilities). Starbug finds the character who has the lowest check result, at which point all the remaining characters move to new hiding places and make another check. The game continues until only one character remains hidden; this character is declared the winner and is awarded a packet of {@item pixie dust|orcnogTWC} (see {@adventure appendix A|WBtW|6|Pixie Dust}), with two leaves as the propeller blades. No character can win this prize more than once.",
 												"The characters can hide anywhere in the Pixie Kingdom, but Honeymint points out the following hiding spots before the game begins:",
 												{
 													"type": "list",
@@ -2573,7 +2673,7 @@
 											"id": "0c0",
 											"entries": [
 												"If she is driven from Silversong Lake by heckling, Palasha takes refuge in the river near the Hall of Illusions. To coax her back to the lake, the characters must perform an act of gallantry, such as helping Candlefoot find his lost voice.",
-												"If the characters persuade Palasha to return to the lake and resume her performance, the carnival's mood rises by 2 steps (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table). Palasha offers a singing lesson to any characters who helped her. On the {@adventure Story Tracker|WBtW|11}, jot down the names of characters who received a singing lesson from the mermaid. Their talent might benefit them in {@adventure chapter 3|WBtW|3} (see \"{@area Uncorrupted Fairy Rings|1ee|x}\")."
+												"If the characters persuade Palasha to return to the lake and resume her performance, the carnival's mood rises by 2 steps (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table). Palasha offers a singing lesson to any characters who helped her."
 											]
 										}
 									]
@@ -2800,7 +2900,7 @@
 												"Above the circular course, a wooden gantry hangs from the branches of a central tree, where two goblins officiate the proceedings."
 											]
 										},
-										"Snail racing is a highly competitive, fast-paced sport that draws a lively crowd. Characters can participate in the race as snail jockeys, but it costs 1 ticket punch to enter. On the {@adventure Story Tracker|WBtW|11}, jot down the names of any characters who take part in the snail racing, as the experience might prove useful in {@adventure chapter 2|WBtW|2} (see \"{@area Reaching the Bottom|115|x}\").",
+										"Snail racing is a highly competitive, fast-paced sport that draws a lively crowd. Characters can participate in the race as snail jockeys, but it costs 1 ticket punch to enter.",
 										"If at least half the characters participate in a snail race, the carnival's mood rises by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table). If anyone breaks the rules, the mood lowers by 1 step (roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table).",
 										{
 											"type": "entries",
@@ -3137,7 +3237,7 @@
 											"page": 53,
 											"id": "0ef",
 											"entries": [
-												"A character can make a wish while blowing their dandelion's seeds into the air. The player should secretly write down their character's wish on a piece of paper; collect these notes and keep them somewhere safe. On the Story Tracker, jot down the names of the characters who make wishes. These wishes become relevant in {@adventure chapter 4|WBtW|4} (see \"{@area Wish Stones|2d0|x}\" in the \"{@area Brigganock Mine|2c1|x}\" section).",
+												"A character can make a wish while blowing their dandelion's seeds into the air. The player should secretly write down their character's wish on a piece of paper; collect these notes and keep them somewhere safe.",
 												{
 													"type": "table",
 													"caption": "Welcome Gifts",
@@ -3282,7 +3382,7 @@
 												"Candlefoot the mime will perform tricks of sleight of hand with the audience. His favorite act is to seemingly slide a copper piece into one ear, ask the audience member to tap their head, and then he'll pull the coin out of the other. He will do this with multiple audience members, until he finds a party member.",
 												"This time, he puts a copper in, but pulls out a gold. Expressing shock, he polishes it, he bites it, and he looks closely in the character's ear. He tentatively puts another copper in, and lo and behold, another gold comes out. He excitedly pulls out all the copper pieces he has in his pockets and appears to pour them all into the character's head before waiting eagerly at the other side for his payout... which comes as only one single copper piece.",
 												"Dejected, he inspects the players ear, taps on their head and listens, then shrugs sadly, turns out his pockets, and sulks sadly away, as the audience sighs \"Aaaaaaw\".",
-												"He'll hold out his hand for donations and cheer up more and more with every gift. Any character who gives Candlefoot a gold piece receives a gift of thanks with a sly wink: a sachet of {@item pixie dust|WBtW}."
+												"He'll hold out his hand for donations and cheer up more and more with every gift. Any character who gives Candlefoot a gold piece receives a gift of thanks with a sly wink: a sachet of {@item pixie dust|orcnogTWC}."
 											]
 										},
 										{
@@ -3329,7 +3429,7 @@
 											"items": [
 												"As spectators take their seats in the Big Top, Dirlagraun the displacer beast escorts {@creature Mister Witch|orcnogTWC} from his wagon to the coronation, leaving Thaco the clown behind to guard the Staff Area.",
 												"{@creature Mister Witch|orcnogTWC} and Dirlagraun stand on the sidelines next to Candlefoot as {@creature Mister Light|orcnogTWC} gives an opening speech and the monarch is selected (see \"Selecting a Monarch\" below). Candlefoot holds the hatbox containing the monarch's crown.",
-												"{@creature Mister Witch|orcnogTWC} removes the crown of golden butterflies from the hatbox and places it on the monarch's head; {@creature Mister Light|orcnogTWC} knights the monarch with the {@item Witchlight vane|WBtW}. Happy clowns shower all three in glitter.",
+												"{@creature Mister Witch|orcnogTWC} removes the crown of golden butterflies from the hatbox and places it on the monarch's head; {@creature Mister Light|orcnogTWC} knights the monarch with the {@item Witchlight vane|orcnogTWC}. Happy clowns shower all three in glitter.",
 												"Witch and Light escort the monarch on a circuit of the stage while Palasha the mermaid sings a joyous song and pixies flutter all around her.",
 												"When Palasha's song concludes, {@creature Mister Light|orcnogTWC} leads the monarch on a parade through the carnival, with the other guests following as Burly the bugbear sets off fireworks. Meanwhile, Dirlagraun escorts {@creature Mister Witch|orcnogTWC} back to his wagon."
 											]
@@ -3340,7 +3440,7 @@
 											"page": 54,
 											"id": "0f3",
 											"entries": [
-												"{@creature Mister Light|orcnogTWC}'s {@item Witchlight vane|WBtW} selects the monarch from the carnival's guests, spinning a thread of golden light that winds its way to the chosen reveler. If the mood of the carnival is positive, choose the character who improved the carnival's mood the most, or ask the players to agree on which of their characters should be crowned. If it's not appropriate for any of the characters to be crowned monarch, then a jubilant halfling bedecked in flowers is selected from the crowd. {@creature Mister Light|orcnogTWC} exudes cheerfulness and follows through with the ceremony regardless of who is chosen.",
+												"{@creature Mister Light|orcnogTWC}'s {@item Witchlight vane|orcnogTWC} selects the monarch from the carnival's guests, spinning a thread of golden light that winds its way to the chosen reveler. If the mood of the carnival is positive, choose the character who improved the carnival's mood the most, or ask the players to agree on which of their characters should be crowned. If it's not appropriate for any of the characters to be crowned monarch, then a jubilant halfling bedecked in flowers is selected from the crowd. {@creature Mister Light|orcnogTWC} exudes cheerfulness and follows through with the ceremony regardless of who is chosen.",
 												"At the end of the celebration, as the carnival begins to wind down, the ceremonial crown teleports back into its hatbox. Candlefoot returns the hatbox to the Staff Area, handing it off to Thaco the clown, who stashes it in the wagon belonging to {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC}."
 											]
 										}
@@ -3420,7 +3520,7 @@
 													]
 												},
 												"Stat blocks for {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC} appear earlier in the chapter.",
-												"{@creature Mister Light|orcnogTWC} gestures toward his scepter\u2014the {@item Witchlight vane|WBtW}\u2014and explains that it picks up every nuance of emotion in the carnival. If the carnival's mood is good, Light expresses his gratitude for the cheer that the characters have brought to the carnival so far. If the carnival's mood is bad, he expresses his regret that the characters aren't having a delightful time and notes that, in turn, they're spoiling everyone's evening.",
+												"{@creature Mister Light|orcnogTWC} gestures toward his scepter\u2014the {@item Witchlight vane|orcnogTWC}\u2014and explains that it picks up every nuance of emotion in the carnival. If the carnival's mood is good, Light expresses his gratitude for the cheer that the characters have brought to the carnival so far. If the carnival's mood is bad, he expresses his regret that the characters aren't having a delightful time and notes that, in turn, they're spoiling everyone's evening.",
 												"Witch and Light are eager to learn the characters' reasons for visiting the carnival. When the characters mention that they are looking for a fabled magic shop, {@creature Mister Light|orcnogTWC}'s eyes light up and he says \"Ooo, more clients! Mr. Garfield will be pleased!\".",
 												"The carnival owners lead them to the Hall of Illusions and march them inside:"
 											]
@@ -3469,7 +3569,7 @@
 													"width": 1700,
 													"height": 1117
 												},
-												"Any creature that touches the surface of the misty mirror is pulled through it and deposited in Fantasy Costco. If a character tries to take either the {@item Witchlight watch|WBtW} or the {@item Witchlight vane|WBtW} through the mirror, the item drops to the floor as the character crosses the threshold. Neither item can be taken into the pocket dimension.",
+												"Any creature that touches the surface of the misty mirror is pulled through it and deposited in Fantasy Costco. If a character tries to take either the {@item Witchlight watch|orcnogTWC} or the {@item Witchlight vane|orcnogTWC} through the mirror, the item drops to the floor as the character crosses the threshold. Neither item can be taken into the pocket dimension.",
 												"If {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC} are both present, they wait until only one character remains and then impart the following information to that character:",
 												{
 													"type": "insetReadaloud",
