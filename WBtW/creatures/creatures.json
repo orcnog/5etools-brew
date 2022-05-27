@@ -15,7 +15,12 @@
 		],
 		"dateAdded": 1613648837,
 		"dateLastModified": 1613648837,
-		"_dateLastModifiedHash": "e5f748a123"
+		"_dateLastModifiedHash": "e5f748a123",
+		"dependencies": {
+			"monster": [
+				"MPMM"
+			]
+		}
 	},
 	"monster": [
 		{
@@ -482,9 +487,9 @@
 			"name": "Kester the Kenku",
 			"source": "orcnogTWC",
 			"page": 3,
-            "size": [
-                "M"
-            ],
+			"size": [
+				"M"
+			],
 			"type": {
 				"type": "humanoid",
 				"tags": [
@@ -495,44 +500,44 @@
 				"C",
 				"N"
 			],
-            "ac": [
-                {
-                    "ac": 16,
-                    "from": [
-                        "{@item studded leather armor|PHB|studded leather}"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 84,
-                "formula": "13d8 + 26"
-            },
-            "speed": {
-                "walk": 30
-            },
-            "str": 11,
-            "dex": 18,
-            "con": 14,
-            "int": 11,
-            "wis": 11,
-            "cha": 12,
-            "save": {
-                "dex": "+7",
-                "int": "+3"
-            },
-            "skill": {
-                "acrobatics": "+7",
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"{@item studded leather armor|PHB|studded leather}"
+					]
+				}
+			],
+			"hp": {
+				"average": 84,
+				"formula": "13d8 + 26"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 18,
+			"con": 14,
+			"int": 11,
+			"wis": 11,
+			"cha": 12,
+			"save": {
+				"dex": "+7",
+				"int": "+3"
+			},
+			"skill": {
+				"acrobatics": "+7",
 				"arcana": "+2",
-                "athletics": "+3",
-                "perception": "+3",
-                "sleight of hand": "+7",
-                "stealth": "+7"
-            },
-            "passive": 13,
-            "languages": [
-                "understands Auran, Common, and thieves' cant but speaks only through the use of her Mimicry trait"
-            ],
-            "cr": "5",
+				"athletics": "+3",
+				"perception": "+3",
+				"sleight of hand": "+7",
+				"stealth": "+7"
+			},
+			"passive": 13,
+			"languages": [
+				"understands Auran, Common, and thieves' cant but speaks only through the use of her Mimicry trait"
+			],
+			"cr": "5",
 			"spellcasting": [
 				{
 					"name": "Spellcasting",
@@ -556,87 +561,184 @@
 					"displayAs": "action"
 				}
 			],
-            "trait": [
-                {
-                    "name": "Evasion",
-                    "entries": [
-                        "If Kester is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, Kester instead takes no damage if it succeeds on the saving throw and only half damage if it fails, provided Kester isn't {@condition incapacitated}."
-                    ]
-                },
+			"trait": [
+				{
+					"name": "Evasion",
+					"entries": [
+						"If Kester is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, Kester instead takes no damage if it succeeds on the saving throw and only half damage if it fails, provided Kester isn't {@condition incapacitated}."
+					]
+				},
 				{
 					"name": "Mimicry",
 					"entries": [
 						"Kester can mimic any sounds he has heard, including voices. A creature that hears the sounds can tell they are imitations only with a successful {@dc 13} Wisdom (Insight) check."
 					]
 				}
-            ],
-            "action": [
-                {
-                    "name": "Multiattack",
-                    "entries": [
-                        "Kester makes three Shortsword or Shortbow attacks."
-                    ]
-                },
-                {
-                    "name": "Shortsword",
-                    "entries": [
-                        "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 3 ({@damage 1d6}) poison damage."
-                    ]
-                },
-                {
-                    "name": "Shortbow",
-                    "entries": [
-                        "{@atk rw} {@hit 7} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 3 ({@damage 1d6}) poison damage."
-                    ]
-                },
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Kester makes three Shortsword or Shortbow attacks."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 3 ({@damage 1d6}) poison damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 7} to hit, range 80/320 ft., one target. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 3 ({@damage 1d6}) poison damage."
+					]
+				},
 				{
 					"name": "Twilight Sleep (2/Day)",
 					"entries": [
 						"Kester targets one creature he can see within 10 feet of him. The target is engulfed in a cloud of magical, sleep-inducing gas and must succeed on a {@dc 13} Constitution saving throw or fall {@condition unconscious} for 1 minute. A creature put to sleep by this gas awakens instantly if it takes damage, or if someone uses an action to shake or slap the sleeper awake."
 					]
 				}
-            ],
-            "bonus": [
-                {
-                    "name": "Cunning Action",
-                    "entries": [
-                        "Kester takes the {@action Dash}, {@action Disengage}, or {@action Hide} action."
-                    ]
-                }
-            ],
-            "reaction": [
-                {
-                    "name": "Uncanny Dodge",
-                    "entries": [
-                        "Kester halves the damage that it takes from an attack that hits it. Kester must be able to see the attacker."
-                    ]
-                }
-            ],
-            "environment": [
-                "urban"
-            ],
-            "actionTags": [
-                "Multiattack"
-            ],
+			],
+			"bonus": [
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"Kester takes the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Uncanny Dodge",
+					"entries": [
+						"Kester halves the damage that it takes from an attack that hits it. Kester must be able to see the attacker."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
 			"languageTags": [
 				"AU",
 				"C"
 			],
-            "damageTags": [
-                "I",
-                "P"
-            ],
+			"damageTags": [
+				"I",
+				"P"
+			],
 			"conditionInflict": [
 				"unconscious"
 			],
-            "miscTags": [
-                "MW",
-                "RNG",
-                "RW"
-            ],
-            "hasToken": true,
-            "hasFluff": true,
-            "hasFluffImages": true
+			"miscTags": [
+				"MW",
+				"RNG",
+				"RW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Ulrich the Kenku",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "orcnogTWC",
+			"page": 3,
+			"_copy": {
+				"name": "Master Thief",
+				"source": "MPMM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the thief",
+						"with": "Ulrich",
+						"flags": "i"
+					},
+					"_": {
+						"mode": "replaceSpells",
+						"will": [
+							"{@spell disguise self}",
+							"{@spell friends}",
+							"{@spell mage hand}",
+							"{@spell minor illusion}"
+						],
+						"daily": {
+							"1e": [
+								"{@spell bestow curse}",
+								"{@spell faerie fire}",
+								"{@spell speak with animals}"
+							]
+						}
+					}
+				}
+			},
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"kenku"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"skill": {
+				"arcana": "+2"
+			},
+			"languages": [
+				"understands Auran and Common but speaks only through the use of her Mimicry trait"
+			],
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"headerEntries": [
+						"Ulrich casts one of the following spells, using Charisma as the spellcasting ability (spell save {@dc 13}):"
+					],
+					"will": [
+						"{@spell disguise self}",
+						"{@spell friends}",
+						"{@spell mage hand}",
+						"{@spell minor illusion}"
+					],
+					"daily": {
+						"1e": [
+							"{@spell bestow curse}",
+							"{@spell faerie fire}",
+							"{@spell speak with animals}"
+						]
+					},
+					"ability": "cha",
+					"displayAs": "action"
+				}
+			],
+			"trait": [
+				{
+					"name": "Mimicry",
+					"entries": [
+						"Ulrich can mimic any sounds he has heard, including voices. A creature that hears the sounds can tell they are imitations only with a successful {@dc 13} Wisdom (Insight) check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Twilight Sleep (2/Day)",
+					"entries": [
+						"Ulrich targets one creature he can see within 10 feet of him. The target is engulfed in a cloud of magical, sleep-inducing gas and must succeed on a {@dc 13} Constitution saving throw or fall {@condition unconscious} for 1 minute. A creature put to sleep by this gas awakens instantly if it takes damage, or if someone uses an action to shake or slap the sleeper awake."
+					]
+				}
+			],
+			"languageTags": [
+				"AU",
+				"C"
+			],
+			"conditionInflict": [
+				"unconscious"
+			]
 		}
 	]
 }
