@@ -1917,7 +1917,7 @@
 											"id": "065",
 											"entries": [
 												"The characters' actions in the Witchlight Carnival can affect the overall mood at the carnival. When the characters arrive at the carnival, place a token in the starting space of the track in the lower right corner of the poster map. This token moves right or left along the track as the carnival's atmosphere changes for better or worse.",
-												"The text informs you when to raise or lower the mood. When the token is to the right of the starting space, spirits are high: colors appear more vibrant, flowers bloom around the fairgrounds, and shooting stars sweep across the clear night sky (roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table). When the token is to the left of the starting space, the mood becomes darker: the calliope music plays discordantly, the staff is tense, and stormy weather looms in the sky above the carnival (roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table).",
+												"The text informs you when to raise or lower the mood. When the token is to the right of the starting space, spirits are high: colors appear more vibrant, flowers bloom around the fairgrounds, and shooting stars sweep across the clear night sky (roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table). When the token is to the left of the starting space, the mood becomes darker: the calliope music plays discordantly, the staff is tense, and stormy weather looms in the sky above the carnival. Roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table (see \"{@area Tracking Mood|065|x}\").",
 												"The carnival's mood is used to trigger an important meeting between the characters and the carnival owners. If the mood reaches either of the end spaces on the track, the carnival's owners invite the characters to speak with them in their wagon (see \"{@area Meeting Witch and Light|0dd|x}\" toward the end of the chapter). Characters who attend the Big Top Extravaganza can also receive an invitation to meet with the owners, even if the carnival's mood isn't in an extreme state."
 											]
 										}
@@ -2041,14 +2041,14 @@
 									"id": "077",
 									"entries": [
 										"There's no handbook for how guests of the Witchlight Carnival are expected to behave; certain actions are tolerated, while others cause offense. Politeness goes a long way: paying attention when spoken to, laughing at jokes, and joining in with games and singing. Every so often, you can raise the carnival's mood by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table) if the party is consistently polite to carnival staff and fellow attendees.",
-										"Conversely, acts such as interrupting someone, being rude, or grumpily refusing to dance are unfavorable. Lower the carnival's mood by 1 step if the characters actively offend anyone they meet (roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table).",
+										"Conversely, acts such as interrupting someone, being rude, or grumpily refusing to dance are unfavorable. Lower the carnival's mood by 1 step if the characters actively offend anyone they meet. Roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table (see \"{@area Tracking Mood|065|x}\").",
 										{
 											"type": "entries",
 											"name": "Theft and Violence",
 											"page": 28,
 											"id": "078",
 											"entries": [
-												"Characters who are caught stealing or fighting are asked to leave the carnival; in this case, the carnival's mood lowers by 1 step as {@dice 1d6} {@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight hands} (chaotic good; see the stat block earlier in the chapter) escort the troublemakers to the gates."
+												"Characters who are caught stealing or fighting are asked to leave the carnival; in this case, the carnival's mood lowers by 1 step (roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table) as {@dice 1d6} {@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight hands} (chaotic good; see the stat block earlier in the chapter) escort the troublemakers to the gates."
 											]
 										}
 									]
@@ -2177,7 +2177,7 @@
 													"id": "084",
 													"entries": [
 														"The carnival issues fake butterfly wings to every visitor who receives a ticket. Visitors are expected to wear their wings, or at least carry them around, while inside the carnival. The tickets and fake wings are theirs to keep.",
-														"Any character who tries to sneak into the carnival without a set of fake butterfly wings must succeed on a DC 15 Dexterity ({@skill Stealth}) check or be spotted and approached by {@dice 1d3} {@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight hands} of any alignment (see the stat block earlier in the chapter). The hands ask to see the character's ticket; any character without a ticket is escorted to the main entrance and directed to the ticket booth. If the character runs away from the Witchlight hands, the hands don't bother giving chase, but the carnival's mood lowers by one step (see \"{@area Tracking Mood|065|x}\" earlier in this chapter and roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table). A character without butterfly wings who successfully sneaks into the carnival must repeat the check at the end of each hour."
+														"Any character who tries to sneak into the carnival without a set of fake butterfly wings must succeed on a DC 15 Dexterity ({@skill Stealth}) check or be spotted and approached by {@dice 1d3} {@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight hands} of any alignment (see the stat block earlier in the chapter). The hands ask to see the character's ticket; any character without a ticket is escorted to the main entrance and directed to the ticket booth. If the character runs away from the Witchlight hands, the hands don't bother giving chase, but the carnival's mood lowers by one step. Roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table (see \"{@area Tracking Mood|065|x}\"). A character without butterfly wings who successfully sneaks into the carnival must repeat the check at the end of each hour."
 													]
 												}
 											]
@@ -2189,7 +2189,7 @@
 											"id": "085",
 											"entries": [
 												"Any visitor who can't afford the price of a ticket or who doesn't want to pay for a ticket can make a fey pact with Nikolas instead. Each pact is a one-night-only deal that ends when the Witchlight Monarch is crowned (see \"{@area Crowning the Witchlight Monarch|0f2|x}\" toward the end of the chapter). If a character chooses to enter into such a pact, roll on the Ticket Pacts table to determine the conditions. A character who barters for multiple tickets can have more than one pact in effect; if any table result comes up twice, choose a different result.",
-												"Any character who fulfills the conditions of a pact should be a strong contender for the title of Witchlight Monarch. A character who doesn't abide by the pact loses their ticket, which transforms into an ordinary bat and flaps away. In addition, the carnival's mood lowers by 1 step (see \"Tracking Mood\" earlier in the chapter and roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table).",
+												"Any character who fulfills the conditions of a pact should be a strong contender for the title of Witchlight Monarch. A character who doesn't abide by the pact loses their ticket, which transforms into an ordinary bat and flaps away. In addition, the carnival's mood lowers by 1 step. Roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table (see \"{@area Tracking Mood|065|x}\").",
 												{
 													"type": "table",
 													"caption": "Ticket Pacts",
@@ -2245,7 +2245,7 @@
 											"id": "086",
 											"entries": [
 												"Nikolas (lawful neutral) carries a spyglass and an ear horn, which he uses when talking to patrons. Nikolas plays on the fact that he is old when using these items, but it's all a ruse; he is as sharp as a thorn, and his instruments allow him to get the true measure of guests. In his hands, the spyglass and ear horn grant Nikolas advantage on Wisdom ({@skill Insight}) checks to discern lies and determine true intent. Characters who attempt to deceive Nikolas must succeed on a Charisma ({@skill Deception}) check contested by the goblin's Wisdom ({@skill Insight}) check.",
-												"If one or more characters seem intent on disrupting the carnival, Nikolas scribbles a brief note to that effect and hands it to an {@condition invisible} {@creature pixie} that lurks under the ticket counter. The pixie delivers Nikolas's message to {@creature Mister Witch|orcnogTWC}, who informs the carnival staff to keep a close eye on the group, and the carnival's mood lowers by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter and roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table)."
+												"If one or more characters seem intent on disrupting the carnival, Nikolas scribbles a brief note to that effect and hands it to an {@condition invisible} {@creature pixie} that lurks under the ticket counter. The pixie delivers Nikolas's message to {@creature Mister Witch|orcnogTWC}, who informs the carnival staff to keep a close eye on the group, and the carnival's mood lowers by 1 step. Roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table (see \"{@area Tracking Mood|065|x}\")."
 											]
 										}
 									]
@@ -2508,7 +2508,7 @@
 											"entries": [
 												"Riding a dragonfly costs 1 ticket punch. There are eight {@creature Giant Dragonfly|orcnogTWC|giant dragonflies}, which are trained to fly their riders in a lazy figure eight around the carnival's thoroughfare, at a height of 20 feet. A character who tries to steer their dragonfly off course must succeed on a DC 12 Wisdom ({@skill Animal Handling}) check to do so.",
 												"As the characters' first ride begins, shouts of alarm erupt from a nearby lily pad. A giant dragonfly has just taken off prematurely with a patron on its back: a middle-aged dwarf with a bright blue beard sits unfastened in his harness. Kester, a kenku trickster, used a {@spell speak with animals} spell to panic the dragonfly. Characters can spot Kester before he slips away with a successful Wisdom ({@skill Perception}) check contested by the kenku's Charisma ({@skill Deception}) check. See \"{@area Catching Kester|0e7|x}\" later in the chapter if the characters try to confront him.",
-												"A character can calm the startled mount and guide it back to a lily pad with a successful DC 14 Wisdom ({@skill Animal Handling}) check. The carnival's mood rises by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table) if a character succeeds on this check. If the characters fail to rescue the dwarf, he tumbles from the dragonfly's back; luckily, his fall is cushioned by a tent awning, and though he isn't badly hurt, the mood of the carnival lowers by 1 step (roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table)."
+												"A character can calm the startled mount and guide it back to a lily pad with a successful DC 14 Wisdom ({@skill Animal Handling}) check. The carnival's mood rises by 1 step if a character succeeds on this check. Roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table (see \"{@area Tracking Mood|065|x}\"). If the characters fail to rescue the dwarf, he tumbles from the dragonfly's back; luckily, his fall is cushioned by a tent awning, and though he isn't badly hurt, the mood of the carnival lowers by 1 step. Roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table (see \"{@area Tracking Mood|065|x}\")."
 											]
 										},
 										{
@@ -2612,7 +2612,7 @@
 											"page": 38,
 											"id": "0a5",
 											"entries": [
-												"If the characters annoy Feathereen, she is irritable for the rest of the evening, and the carnival's mood lowers by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table). If pleased, she remains in high spirits, which raises the carnival's mood by 1 step (roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table)."
+												"If the characters annoy Feathereen, she is irritable for the rest of the evening, and the carnival's mood lowers by 1 step. Roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table (see \"{@area Tracking Mood|065|x}\"). If pleased, she remains in high spirits, which raises the carnival's mood by 1 step (roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table)."
 											]
 										}
 									]
@@ -2710,7 +2710,7 @@
 											"page": 40,
 											"id": "0ae",
 											"entries": [
-												"If the characters reunite the halfling couple, Ween accepts Rubin's proposal, and the carnival's mood rises by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table). If Rubin and Ween are not reunited, the mood of the carnival lowers by 1 step as word of Rubin's disappearance spreads (roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table)."
+												"If the characters reunite the halfling couple, Ween accepts Rubin's proposal, and the carnival's mood rises by 1 step. Roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table (see \"{@area Tracking Mood|065|x}\"). If Rubin and Ween are not reunited, the mood of the carnival lowers by 1 step as word of Rubin's disappearance spreads (roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table)."
 											]
 										}
 									]
@@ -2729,7 +2729,7 @@
 											]
 										},
 										"The {@creature pixie} introduces himself as Jeremy Plum and does his best to persuade the characters that the Pixie Kingdom is the best attraction the carnival has to offer. Entry to the attraction costs 1 ticket punch.",
-										"Jeremy encourages the characters to adopt pixie names before entering; refer to the table below for ideas. The carnival's mood rises by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table) if all the characters use their adopted pixie names while in the attraction.",
+										"Jeremy encourages the characters to adopt pixie names before entering; refer to the table below for ideas. The carnival's mood rises by 1 step if all the characters use their adopted pixie names while in the attraction. Roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table (see \"{@area Tracking Mood|065|x}\").",
 										{
 											"type": "entries",
 											"name": "Pixie Names",
@@ -2885,7 +2885,7 @@
 											"page": 43,
 											"id": "0bf",
 											"entries": [
-												"This event occurs the first time the characters watch Palasha perform. Kester, the kenku trickster, snakes through the crowd, using {@spell disguise self} and Mimicry to pose as different hecklers. After three mean-spirited jeers, the mermaid falters in mid-song, leaps out of her bowl, and darts off, heading downriver. Her abrupt departure causes the carnival's mood to lower by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table).",
+												"This event occurs the first time the characters watch Palasha perform. Kester, the kenku trickster, snakes through the crowd, using {@spell disguise self} and Mimicry to pose as different hecklers. After three mean-spirited jeers, the mermaid falters in mid-song, leaps out of her bowl, and darts off, heading downriver. Her abrupt departure causes the carnival's mood to lower by 1 step. Roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table (see \"{@area Tracking Mood|065|x}\").",
 												"Characters who try to identify the hecklers can spot Kester in his current guise with a successful Wisdom ({@skill Perception}) check contested by the kenku's Charisma ({@skill Deception}) check. See \"{@area Catching Kester|0e7|x}\" later in the chapter if the characters try to corner him."
 											]
 										},
@@ -2896,7 +2896,7 @@
 											"id": "0c0",
 											"entries": [
 												"If she is driven from Silversong Lake by heckling, Palasha takes refuge in the river near the Hall of Illusions. To coax her back to the lake, the characters must perform an act of gallantry, such as helping Candlefoot find his lost voice.",
-												"If the characters persuade Palasha to return to the lake and resume her performance, the carnival's mood rises by 2 steps (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table). Palasha offers a singing lesson to any characters who helped her."
+												"If the characters persuade Palasha to return to the lake and resume her performance, the carnival's mood rises by 2 steps. Roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table (see \"{@area Tracking Mood|065|x}\"). Palasha offers a singing lesson to any characters who helped her."
 											]
 										}
 									]
@@ -3124,7 +3124,7 @@
 											]
 										},
 										"Snail racing is a highly competitive, fast-paced sport that draws a lively crowd. Characters can participate in the race as snail jockeys, but it costs 1 ticket punch to enter.",
-										"If at least half the characters participate in a snail race, the carnival's mood rises by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table). If anyone breaks the rules, the mood lowers by 1 step (roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table).",
+										"If at least half the characters participate in a snail race, the carnival's mood rises by 1 step. Roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table (see \"{@area Tracking Mood|065|x}\"). If anyone breaks the rules, the mood lowers by 1 step (roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table).",
 										{
 											"type": "entries",
 											"name": "Snails and Pixies",
@@ -3308,7 +3308,7 @@
 													"width": 850,
 													"height": 1219
 												},
-												"The perimeter inside the wall of thorns and outside the circle of wagons is patrolled by a {@creature bugbear} named Burly (neutral good), who leaves his post once during the evening to participate in the {@area Big Top Extravaganza|0f0}.  While on patrol, Burly wears a large jack-o'-lantern on his head, as one would wear a helmet, in addition to his dungarees and fake fairy wings.",
+												"The perimeter inside the wall of thorns and outside the circle of wagons is patrolled by a {@creature bugbear} named Burly (neutral good), who leaves his post once during the evening to participate in the {@area Big Top Extravaganza|0f0|x}.  While on patrol, Burly wears a large jack-o'-lantern on his head, as one would wear a helmet, in addition to his dungarees and fake fairy wings.",
 												"The central area enclosed by the wagons is guarded by Thaco the clown, a human {@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight hand} (chaotic neutral; see the stat block earlier in the chapter) who is loyal only to {@creature Mister Witch|orcnogTWC}. He usually sits right outside the door to Witch and Light's wagon, blowing bubbles with his bubble pipe.",
 												"Burly and Thaco dislike each other, so they don't fraternize while on guard duty.",
 												"Characters caught snooping around the wagons without an escort are evicted from the carnival and must find a way to sneak or barter their way back in."
@@ -3421,14 +3421,13 @@
 											"page": 53,
 											"id": "0ea",
 											"entries": [
-												"If the characters reunite Candlefoot with his voice, Candlefoot seeks out Palasha and proposes marriage to her. Reuniting the couple causes the carnival's mood to rise by 2 steps (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table). From that point on, Palasha and Candlefoot treat the characters as trusted allies, which could prove useful during the crowning of the Witchlight Monarch, as they both have roles to play in the coronation."
+												"If the characters reunite Candlefoot with his voice, Candlefoot seeks out Palasha and proposes marriage to her. Reuniting the couple causes the carnival's mood to rise by 2 steps. Roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table (see \"{@area Tracking Mood|065|x}\"). From that point on, Palasha and Candlefoot treat the characters as trusted allies, which could prove useful during the crowning of the Witchlight Monarch, as they both have roles to play in the coronation."
 											]
 										}
 									]
 								},
 								"&nbsp;",
 								"{@note The following events occur at specific times throughout the evening.}",
-								"&nbsp;",
 								{
 									"type": "entries",
 									"name": "Hour 1: Welcome Gifts",
@@ -3510,7 +3509,7 @@
 											]
 										},
 										"The extravaganza involves several of the carnival's star performers and attractions, with {@creature Mister Light|orcnogTWC} serving as ringmaster. Over the course of an hour, the following events occur:",
-										"Burly the bugbear performs feats of strength, Palasha the mermaid serenades the audience from a clamshell bathing pool, Candlefoot the mime plays silent games with audience members, and faerie dragons with bright streamers tied to their tails perform dazzling acts of synchronized flying as a troupe of acrobats, clowns, and fire-breathers parade about. If the characters attempt to disrupt the show, {@creature Mister Light|orcnogTWC} deflects their interruptions with banter and maintains a jovial demeanor. Persistent heckling lowers the carnival's mood by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table).",
+										"Burly the bugbear performs feats of strength, Palasha the mermaid serenades the audience from a clamshell bathing pool, Candlefoot the mime plays silent games with audience members, and faerie dragons with bright streamers tied to their tails perform dazzling acts of synchronized flying as a troupe of acrobats, clowns, and fire-breathers parade about. If the characters attempt to disrupt the show, {@creature Mister Light|orcnogTWC} deflects their interruptions with banter and maintains a jovial demeanor. Persistent heckling lowers the carnival's mood by 1 step. Roll on the {@item Mood Lowers|orcnogTWC|Mood Rises} table (see \"{@area Tracking Mood|065|x}\").",
 										{
 											"type": "entries",
 											"name": "Burly the Bugbear's Feats of Strength",
