@@ -2669,7 +2669,8 @@
 													"height": 1399
 												},
 												"Candlefoot, a {@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight hand} (neutral good; see the stat block earlier in the chapter), is the reluctant ticket-puncher at the Hall of Illusions, and he does all he can to avoid entering the hall. All the color has leached out of his skin, hair, eyes, and apparel, giving him a strangely monochromatic look. And his problems don't end there.",
-												"A kenku named Kester stole Candlefoot's voice, so he communicates through mime. If the characters give him a writing implement and some parchment, he can also write out his thoughts."												{
+												"A kenku named Kester stole Candlefoot's voice, so he communicates through mime. If the characters give him a writing implement and some parchment, he can also write out his thoughts.",
+												{
 													"type": "entries",
 													"name": "A Fey Romance",
 													"page": 39,
@@ -3384,7 +3385,8 @@
 									"id": "0e7",
 									"entries": [
 										"{@creature Kester the Kenku|orcnogTWC|Kester} (see the accompanying stat block) snoops around the carnival under the cover of a {@spell disguise self} spell, looking to cause trouble. The kenku has stolen the voice of a human mime named Candlefoot (see \"{@area Hall of Illusions|0a6|x}\" earlier in the chapter). While this prize remains in his possession, Kester can speak clearly in Candlefoot's soft, silky voice.",
-										"If Kester has not already been caught, a character who spends 1 hour searching for the disguised kenku can, with a successful DC 13 Intelligence ({@skill Investigation}) check, see through his disguise while moving through crowds and paying close attention to suspicious-looking folks. If discovered, Kester tries to flee from the main thoroughfare, using tents and other carnival features to break line of sight to her. He's willing to cautiously parley with characters who claim they are investigating the carnival for their own reasons."										{
+										"If Kester has not already been caught, a character who spends 1 hour searching for the disguised kenku can, with a successful DC 13 Intelligence ({@skill Investigation}) check, see through his disguise while moving through crowds and paying close attention to suspicious-looking folks. If discovered, Kester tries to flee from the main thoroughfare, using tents and other carnival features to break line of sight to her. He's willing to cautiously parley with characters who claim they are investigating the carnival for their own reasons.",
+										{
 											"type": "image",
 											"href": {
 												"type": "internal",
