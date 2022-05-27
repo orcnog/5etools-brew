@@ -593,7 +593,7 @@
 						],
 						[
 							"3",
-							"Packet of {@item pixie dust|orcnogTWC} (see {@adventure appendix A|WBtW|6|Pixie Dust})."
+							"Packet of {@item pixie dust|orcnogTWC}."
 						],
 						[
 							"4",
@@ -1934,8 +1934,7 @@
 								"The owners of the Witchlight Carnival are a pair of shadar-kai (elves native to the Shadowfell) named {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC}. Witch is matter-of-fact and devoid of pretense, while Light is flamboyant and coy.",
 								"How Witch and Light came to possess the carnival is a story worth telling. Under different names, they owned another carnival that prowled the edges of the Shadowfell. The two carnivals crossed paths many years ago, and after much wine was consumed, the owners could not agree on which carnival was the better of the two, so they decided it would be great fun to swap ownership. Isolde, the eladrin who ran the fey-themed carnival, traded places with the two shadar-kai who ran the shadow-themed carnival. This arrangement would last until the two carnivals met again, which has not yet happened.",
 								"After trading their sinister carnival for a more lighthearted one, the two shadar-kai took the names Witch and Light. Gradually, these morose, emotionally stunted shadar-kai transformed into fun-loving free spirits who secretly dread the day when the two carnivals cross paths again. They have no desire to return to their gloomy old carnival, which is described in more detail in {@book Van Richten's Guide to Ravenloft|VRGR}.",
-								"The shadar-kai are aware that the Hourglass Coven has usurped Zybilna's domain in the Feywild. They don't know how the coven accomplished this coup, but Witch and Light would like nothing more than to see the hags defeated and Zybilna returned to power. But they dare not play a part in making that dream a reality. If the coven caught a whiff of dissent from Witch and Light, the hags would punish the shadar-kai for their impudence (see the \"Witch and Light's Hourglass Pact\" sidebar). Witch and Light do what they can to appease the hags while secretly rooting for Zybilna's return. They know Zybilna's true identity but dare not reveal it.",
-								"{@adventure Appendix D|WBtW|9} contains additional roleplaying notes for {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC}.",
+								"The shadar-kai are aware that the Hourglass Coven has usurped Zybilna's domain in the Feywild. They don't know how the coven accomplished this coup, but Witch and Light would like nothing more than to see the hags defeated and Zybilna returned to power. But they dare not play a part in making that dream a reality. If the coven caught a whiff of dissent from Witch and Light, the hags would punish the shadar-kai for their impudence (see the \"Witch and Light's Hourglass Pact\" sidebar). Witch and Light do what they can to appease the hags while secretly rooting for Zybilna's return. They know Zybilna's true identity but dare not reveal it."
 								{
 									"type": "entries",
 									"name": "Mister Witch",
@@ -2003,7 +2002,7 @@
 							"id": "074",
 							"entries": [
 								"{@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight Hands} are the backbone of the Witchlight Carnival, a motley collection of individuals who operate many of the booths, make repairs, feed and exercise the animals, keep an eye out for thieves and other miscreants, and perform other miscellaneous tasks as {@creature Mister Witch|orcnogTWC} dictates. A few also work part-time as performers and attractions. Although they travel to many worlds throughout the Material Plane, Witchlight hands rarely leave the carnival grounds. The carnival is the only world they know and care about.",
-								"The carnival employs 124 Witchlight hands in total. All hands enter into an agreement when they join the carnival: they must never harm another staff member, and they can't leave the carnival for more than a day at a time. (A longer absence is equivalent to resignation, in {@creature Mister Witch|orcnogTWC}'s estimation.) On-duty staff members are required to wear fake butterfly wings strapped to their backs. {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC} also furnish them with small amounts of {@item pixie dust|orcnogTWC} (see {@adventure appendix A|WBtW|6|Pixie Dust}).",
+								"The carnival employs 124 Witchlight hands in total. All hands enter into an agreement when they join the carnival: they must never harm another staff member, and they can't leave the carnival for more than a day at a time. (A longer absence is equivalent to resignation, in {@creature Mister Witch|orcnogTWC}'s estimation.) On-duty staff members are required to wear fake butterfly wings strapped to their backs. {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC} also furnish them with small amounts of {@item pixie dust|orcnogTWC}.",
 								"Witchlight hands are paid only a small fraction of the carnival's profits, but it's enough to keep them fed, clothed, and cared for. Some hands work longer hours or do extra chores to pay off debts and loans.",
 								"Most Witchlight hands are taught how to perform minor magic tricks, which they use to amuse themselves as well as entertain the masses. (Characters who have the Witchlight hand background don't learn magic as part of their upbringing, but they can choose to account for this by selecting a spellcasting class.)"
 							]
@@ -2490,7 +2489,7 @@
 												"Near the entrance, a small, smiling tree turns your way and beckons you over. A red squirrel clings to its leafy canopy, peering at you suspiciously."
 											]
 										},
-										"Northwind, a Prismeer native, is a carefree {@creature treant sapling|orcnogTWC} (see the accompanying stat block). {@adventure Appendix D|WBtW|9} contains additional roleplaying notes for Northwind. Northwind's squirrel companion, Red, sizes up guests while keeping at least one beady eye on Northwind's acorns. Red is the beneficiary of a druid's {@spell awaken} spell; he uses the {@creature weasel} stat block but has an Intelligence of 10 and speaks Common.",
+										"Northwind, a Prismeer native, is a carefree {@creature treant sapling|orcnogTWC} (see the accompanying stat block). Northwind's squirrel companion, Red, sizes up guests while keeping at least one beady eye on Northwind's acorns. Red is the beneficiary of a druid's {@spell awaken} spell; he uses the {@creature weasel} stat block but has an Intelligence of 10 and speaks Common.",
 										{
 											"type": "image",
 											"href": {
@@ -2507,7 +2506,7 @@
 											"page": 36,
 											"id": "09c",
 											"entries": [
-												"Riding a dragonfly costs 1 ticket punch. There are eight {@creature Giant Dragonfly|orcnogTWC|giant dragonflies} (see {@adventure appendix C|WBtW|8}), which are trained to fly their riders in a lazy figure eight around the carnival's thoroughfare, at a height of 20 feet. A character who tries to steer their dragonfly off course must succeed on a DC 12 Wisdom ({@skill Animal Handling}) check to do so.",
+												"Riding a dragonfly costs 1 ticket punch. There are eight {@creature Giant Dragonfly|orcnogTWC|giant dragonflies}, which are trained to fly their riders in a lazy figure eight around the carnival's thoroughfare, at a height of 20 feet. A character who tries to steer their dragonfly off course must succeed on a DC 12 Wisdom ({@skill Animal Handling}) check to do so.",
 												"As the characters' first ride begins, shouts of alarm erupt from a nearby lily pad. A giant dragonfly has just taken off prematurely with a patron on its back: a middle-aged dwarf with a bright blue beard sits unfastened in his harness. Kester, a kenku trickster, used a {@spell speak with animals} spell to panic the dragonfly. Characters can spot Kester before he slips away with a successful Wisdom ({@skill Perception}) check contested by the kenku's Charisma ({@skill Deception}) check. See \"{@area Catching Kester|0e7|x}\" later in the chapter if the characters try to confront him.",
 												"A character can calm the startled mount and guide it back to a lily pad with a successful DC 14 Wisdom ({@skill Animal Handling}) check. The carnival's mood rises by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table) if a character succeeds on this check. If the characters fail to rescue the dwarf, he tumbles from the dragonfly's back; luckily, his fall is cushioned by a tent awning, and though he isn't badly hurt, the mood of the carnival lowers by 1 step (roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table)."
 											]
@@ -2670,9 +2669,7 @@
 													"height": 1399
 												},
 												"Candlefoot, a {@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight hand} (neutral good; see the stat block earlier in the chapter), is the reluctant ticket-puncher at the Hall of Illusions, and he does all he can to avoid entering the hall. All the color has leached out of his skin, hair, eyes, and apparel, giving him a strangely monochromatic look. And his problems don't end there.",
-												"A kenku named Kester stole Candlefoot's voice, so he communicates through mime. If the characters give him a writing implement and some parchment, he can also write out his thoughts.",
-												"{@adventure Appendix D|WBtW|9} contains additional roleplaying notes for Candlefoot.",
-												{
+												"A kenku named Kester stole Candlefoot's voice, so he communicates through mime. If the characters give him a writing implement and some parchment, he can also write out his thoughts."												{
 													"type": "entries",
 													"name": "A Fey Romance",
 													"page": 39,
@@ -2783,7 +2780,7 @@
 														]
 													]
 												},
-												"Whether or not the characters agree to adopt their pixie names, Jeremy sprinkles {@item pixie dust|orcnogTWC} (see {@adventure appendix A|WBtW|6|Pixie Dust}) on them. Jeremy also presents each character with a potion that, when consumed within the boundary of the Pixie Kingdom, reduces the imbiber's size to Tiny for 1 hour, or until the imbiber wants the effect to end. Until the effect ends, the Tiny character has disadvantage on Strength checks and Strength saving throws, and the character's weapons deal {@dice 2d4} less damage (this change can't reduce the damage below 1)."
+												"Whether or not the characters agree to adopt their pixie names, Jeremy sprinkles {@item pixie dust|orcnogTWC} on them. Jeremy also presents each character with a potion that, when consumed within the boundary of the Pixie Kingdom, reduces the imbiber's size to Tiny for 1 hour, or until the imbiber wants the effect to end. Until the effect ends, the Tiny character has disadvantage on Strength checks and Strength saving throws, and the character's weapons deal {@dice 2d4} less damage (this change can't reduce the damage below 1)."
 											]
 										},
 										{
@@ -2827,7 +2824,7 @@
 											"id": "0bc",
 											"entries": [
 												"After a short while, the characters are invited to play a game of hide-and-seek, organized by two {@creature Pixie||pixies}: the game's friendly supervisor, Honeymint, and a seeker named Starbug.",
-												"Each character who plays the game makes a Wisdom ({@skill Stealth}) check to hide (see the {@book Player's Handbook|PHB} for rules on skills with different abilities). Starbug finds the character who has the lowest check result, at which point all the remaining characters move to new hiding places and make another check. The game continues until only one character remains hidden; this character is declared the winner and is awarded a packet of {@item pixie dust|orcnogTWC} (see {@adventure appendix A|WBtW|6|Pixie Dust}), with two leaves as the propeller blades. No character can win this prize more than once.",
+												"Each character who plays the game makes a Wisdom ({@skill Stealth}) check to hide (see the {@book Player's Handbook|PHB} for rules on skills with different abilities). Starbug finds the character who has the lowest check result, at which point all the remaining characters move to new hiding places and make another check. The game continues until only one character remains hidden; this character is declared the winner and is awarded a packet of {@item pixie dust|orcnogTWC}, with two leaves as the propeller blades. No character can win this prize more than once.",
 												"The characters can hide anywhere in the Pixie Kingdom, but Honeymint points out the following hiding spots before the game begins:",
 												{
 													"type": "list",
@@ -2880,7 +2877,7 @@
 										},
 										"It costs nothing to visit the lake and behold its star attraction: the {@creature merfolk} Palasha (chaotic good). Audiences crowd the lakeside just to witness her beauty and hear her song.",
 										"Palasha is no ordinary mermaid. Her singing has the ability to emulate the effects of a {@spell control water} spell. Once per day, as an action, she can also summon a {@creature swarm of Quippers} that obeys her commands until it disappears after 1 minute.",
-										"Palasha is in love with Candlefoot (see \"{@area Hall of Illusions|0a6|x}\") but finds it tragic that he has lost his voice. She can't face seeing him after his very public marriage proposal went awry. The mermaid is also fiercely devoted to the carnival. \"We are an impossibility in an impossible universe,\" she tells colleagues and strangers alike, with great pride. {@adventure Appendix D|WBtW|9} contains additional roleplaying notes for Palasha.",
+										"Palasha is in love with Candlefoot (see \"{@area Hall of Illusions|0a6|x}\") but finds it tragic that he has lost his voice. She can't face seeing him after his very public marriage proposal went awry. The mermaid is also fiercely devoted to the carnival. \"We are an impossibility in an impossible universe,\" she tells colleagues and strangers alike, with great pride.",
 										{
 											"type": "entries",
 											"name": "Feathered Heckler",
@@ -3133,7 +3130,7 @@
 											"page": 46,
 											"id": "0d0",
 											"entries": [
-												"Each of the eight {@creature Giant Snail|orcnogTWC|giant snails} (see {@adventure appendix C|WBtW|8}) is assigned a crew of three {@creature Pixie||pixies} to prepare it for a race. The snails are unusually fast, wear colored caparisons, and have numbered saddles strapped to their shells. Their racing numbers, names, and team colors are given in the Giant Snails table.",
+												"Each of the eight {@creature Giant Snail|orcnogTWC|giant snails} is assigned a crew of three {@creature Pixie||pixies} to prepare it for a race. The snails are unusually fast, wear colored caparisons, and have numbered saddles strapped to their shells. Their racing numbers, names, and team colors are given in the Giant Snails table.",
 												{
 													"type": "table",
 													"caption": "Giant Snails",
@@ -3271,7 +3268,7 @@
 													"page": 48,
 													"id": "0d4",
 													"entries": [
-														"The jockey whose snail wins the race receives a {@item potion of advantage|orcnogTWC} (see {@adventure appendix A|WBtW|6}). The jockey whose snail comes in last receives a consolation prize, provided they weren't disqualified. The consolation prize is a magic wand that allows its holder to cast the {@spell dancing lights} cantrip once. Once used to cast this spell, the wand turns into a tulip."
+														"The jockey whose snail wins the race receives a {@item potion of advantage|orcnogTWC}. The jockey whose snail comes in last receives a consolation prize, provided they weren't disqualified. The consolation prize is a magic wand that allows its holder to cast the {@spell dancing lights} cantrip once. Once used to cast this spell, the wand turns into a tulip."
 													]
 												}
 											]
@@ -3312,7 +3309,7 @@
 												},
 												"The perimeter inside the wall of thorns and outside the circle of wagons is patrolled by a {@creature bugbear} named Burly (neutral good), who leaves his post once during the evening to participate in the {@area Big Top Extravaganza|0f0}.  While on patrol, Burly wears a large jack-o'-lantern on his head, as one would wear a helmet, in addition to his dungarees and fake fairy wings.",
 												"The central area enclosed by the wagons is guarded by Thaco the clown, a human {@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight hand} (chaotic neutral; see the stat block earlier in the chapter) who is loyal only to {@creature Mister Witch|orcnogTWC}. He usually sits right outside the door to Witch and Light's wagon, blowing bubbles with his bubble pipe.",
-												"Burly and Thaco dislike each other, so they don't fraternize while on guard duty. {@adventure Appendix D|WBtW|9} contains additional roleplaying notes for them.",
+												"Burly and Thaco dislike each other, so they don't fraternize while on guard duty.",
 												"Characters caught snooping around the wagons without an escort are evicted from the carnival and must find a way to sneak or barter their way back in."
 											]
 										},
@@ -3323,7 +3320,7 @@
 											"id": "0d8",
 											"entries": [
 												"{@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC} (see their stat blocks earlier in the chapter) are in their wagon throughout the evening, except during the Big Top Extravaganza (which Light attends and Witch does not) and the crowning of the Witchlight Monarch (which they both attend). See {@area Crowning the Witchlight Monarch|0f2|x} later in the chapter for more information.",
-												"Refer to the \"Carnival Owners\" section for more information about Witch and Light. Appendix D contains additional roleplaying notes for the pair.",
+												"Refer to the \"Carnival Owners\" section for more information about Witch and Light.",
 												"Characters who sneak up to the wagon while it's occupied can overhear Witch and Light talking:",
 												{
 													"type": "insetReadaloud",
@@ -3364,7 +3361,7 @@
 													"page": 49,
 													"id": "0db",
 													"entries": [
-														"The chest hidden on the Ethereal Plane (which is worth 5,000 gp) contains recent earnings (210 sp and 70 gp), a {@item potion of diminution}, a {@item potion of growth}, and a {@item potion of advantage|orcnogTWC} (see {@adventure appendix A|WBtW|6}). The potions are not labeled, but {@creature Mister Witch|orcnogTWC} knows which is which."
+														"The chest hidden on the Ethereal Plane (which is worth 5,000 gp) contains recent earnings (210 sp and 70 gp), a {@item potion of diminution}, a {@item potion of growth}, and a {@item potion of advantage|orcnogTWC}. The potions are not labeled, but {@creature Mister Witch|orcnogTWC} knows which is which."
 													]
 												}
 											]
@@ -3387,9 +3384,7 @@
 									"id": "0e7",
 									"entries": [
 										"{@creature Kester the Kenku|orcnogTWC|Kester} (see the accompanying stat block) snoops around the carnival under the cover of a {@spell disguise self} spell, looking to cause trouble. The kenku has stolen the voice of a human mime named Candlefoot (see \"{@area Hall of Illusions|0a6|x}\" earlier in the chapter). While this prize remains in his possession, Kester can speak clearly in Candlefoot's soft, silky voice.",
-										"If Kester has not already been caught, a character who spends 1 hour searching for the disguised kenku can, with a successful DC 13 Intelligence ({@skill Investigation}) check, see through his disguise while moving through crowds and paying close attention to suspicious-looking folks. If discovered, Kester tries to flee from the main thoroughfare, using tents and other carnival features to break line of sight to her. He's willing to cautiously parley with characters who claim they are investigating the carnival for their own reasons.",
-										"{@adventure Appendix D|WBtW|9} contains additional roleplaying notes for Kester.",
-										{
+										"If Kester has not already been caught, a character who spends 1 hour searching for the disguised kenku can, with a successful DC 13 Intelligence ({@skill Investigation}) check, see through his disguise while moving through crowds and paying close attention to suspicious-looking folks. If discovered, Kester tries to flee from the main thoroughfare, using tents and other carnival features to break line of sight to her. He's willing to cautiously parley with characters who claim they are investigating the carnival for their own reasons."										{
 											"type": "image",
 											"href": {
 												"type": "internal",
@@ -3710,7 +3705,7 @@
 												"A bugbear wearing dungarees, fairy wings, and a helmet made from a jack-o'-lantern approaches you. \"Follow me,\" he growls. \"Management wants to see you.\""
 											]
 										},
-										"With a wave of his hand, Burly creates an opening in the wall of thorns that surrounds the staff wagons (see \"Staff Area\" above) and leads the characters through it. If questioned about the nature of the meeting, Burly insists there's nothing to worry about. If the carnival's mood is good, he adds that his bosses are in high spirits. Appendix D contains additional roleplaying notes for Burly.",
+										"With a wave of his hand, Burly creates an opening in the wall of thorns that surrounds the staff wagons (see \"Staff Area\" above) and leads the characters through it. If questioned about the nature of the meeting, Burly insists there's nothing to worry about. If the carnival's mood is good, he adds that his bosses are in high spirits.",
 										"If the characters follow Burly, read:",
 										{
 											"type": "insetReadaloud",
@@ -3719,7 +3714,7 @@
 												"The bugbear leads you to a circle of wagons. Leaning against a particularly ostentatious wagon is an aging clown with a painted grin. He puffs on a bubble pipe and glares at you as the bugbear, ignoring the clown, opens the wagon's door and ushers you inside."
 											]
 										},
-										"The clown is Thaco, a human {@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight hand} (chaotic neutral; see the stat block earlier in the chapter) and over-the-hill carnival attraction. {@adventure Appendix D|WBtW|9} contains additional roleplaying notes for Thaco.",
+										"The clown is Thaco, a human {@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight hand} (chaotic neutral; see the stat block earlier in the chapter) and over-the-hill carnival attraction.",
 										{
 											"type": "image",
 											"href": {
