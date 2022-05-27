@@ -617,7 +617,7 @@
 						],
 						[
 							"9",
-							"Wand of Voice Changing with 1 charge. As an action the user can touch this wand to their throat and expend one charge to change their voice to perfectly immitate that of any creature they have heard speak. The wand does not grant to ability to speak a new language that the user doesn't already know, and the wand wand can't be recharged."
+							"Wand of Mimicry with {@dice 1d3} charges. As an action the user can touch this wand to their throat and expend one charge to change their voice to perfectly immitate that of any creature they have heard speak. The ability lasts for up to a minute. The wand does not grant to ability to speak a new language that the user doesn't already know, and the wand wand can't be recharged."
 						],
 						[
 							"10",
