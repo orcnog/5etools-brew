@@ -1299,6 +1299,335 @@
 				"unconscious"
 			],
 			"tokenUrl": "https://github.com/5etools-mirror-1/5etools-mirror-1.github.io/raw/master/img/WBtW/Kettlesteam%20the%20Kenku.png"
+		},
+		{
+			"name": "Treant Sapling",
+			"source": "orcnogTWC",
+			"page": 36,
+			"size": [
+				"L"
+			],
+			"type": "plant",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"alignmentPrefix": "typically ",
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 45,
+				"formula": "6d10 + 12"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 17,
+			"dex": 8,
+			"con": 15,
+			"int": 12,
+			"wis": 12,
+			"cha": 10,
+			"passive": 11,
+			"resist": [
+				"bludgeoning",
+				"piercing"
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"languages": [
+				"Common",
+				"Druidic",
+				"Elvish",
+				"Sylvan"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "False Appearance",
+					"entries": [
+						"If the treant is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the treant move or act, that creature must succeed on a {@dc 18} Intelligence (Investigation) check to discern that the treant is animate."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The treant makes two Slam attacks."
+					]
+				},
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Rock",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 20/60 ft., one target. {@h}14 ({@damage 2d10 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Animate Trees (1/Day)",
+					"entries": [
+						"The treant magically animates one or two trees it can see within 60 feet of it. These trees have the same statistics as an awakened tree (see the Monster Manual), except they can't speak. An animated tree acts as an ally of the treant. The tree remains animate for 1 day or until it dies, until the treant dies or is more than 120 feet from the tree, or until the treant takes a bonus action to turn it back into an inanimate tree. The tree then takes root if possible."
+					]
+				}
+			],
+			"traitTags": [
+				"False Appearance"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"DU",
+				"E",
+				"S"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			],
+			"hasToken": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://github.com/5etools-mirror-1/5etools-mirror-1.github.io/raw/master/img/WBtW/Treant%20Sapling.png"
+		},
+		{
+			"name": "Giant Dragonfly",
+			"source": "orcnogTWC",
+			"page": 234,
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "4d10"
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 60
+			},
+			"str": 15,
+			"dex": 18,
+			"con": 11,
+			"int": 3,
+			"wis": 10,
+			"cha": 3,
+			"passive": 10,
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Drone",
+					"entries": [
+						"When it beats its wings, the dragonfly emits a loud droning sound that can be heard out to a range of 120 feet."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d4 + 4}) piercing damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Uncanny Dodge",
+					"entries": [
+						"The dragonfly halves the damage it takes from an attack made against it, provided it can see the attacker."
+					]
+				}
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://github.com/5etools-mirror-1/5etools-mirror-1.github.io/raw/master/img/WBtW/Giant%20Dragonfly.png"
+		},
+		{
+			"name": "Giant Snail",
+			"source": "orcnogTWC",
+			"page": 234,
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 11,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "4d10"
+			},
+			"speed": {
+				"walk": 10,
+				"climb": 10
+			},
+			"str": 15,
+			"dex": 3,
+			"con": 11,
+			"int": 3,
+			"wis": 10,
+			"cha": 3,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Salt Osmosis",
+					"entries": [
+						"Whenever the snail starts its turn in contact with a pound or more of salt, it takes {@damage 1d4} necrotic damage. Using an action to sprinkle a pound of salt on the snail deals {@damage 1d4} necrotic damage to it immediately and another {@damage 1d4} necrotic damage to it at the start of its next turn (after which the salt rubs off), provided the snail has not withdrawn into its shell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Shell Defense",
+					"entries": [
+						"The snail withdraws into its shell, gaining a +4 bonus to its AC until it emerges. It can emerge from its shell as a bonus action on its turn."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"damageTags": [
+				"B"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://github.com/5etools-mirror-1/5etools-mirror-1.github.io/raw/master/img/WBtW/Giant%20Snail.png"
+		},
+		{
+			"name": "Giant Swan",
+			"source": "orcnogTWC",
+			"page": 38,
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 26,
+				"formula": "4d10 + 4"
+			},
+			"speed": {
+				"walk": 10,
+				"fly": 80
+			},
+			"str": 16,
+			"dex": 17,
+			"con": 13,
+			"int": 8,
+			"wis": 14,
+			"cha": 10,
+			"skill": {
+				"perception": "+4"
+			},
+			"passive": 14,
+			"languages": [
+				"Auran",
+				"Common"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Keen Sight",
+					"entries": [
+						"The swan has advantage on Wisdom (Perception) checks that rely on sight."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The swan makes two attacks with its beak."
+					]
+				},
+				{
+					"name": "Beak",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Senses"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"AU",
+				"C"
+			],
+			"damageTags": [
+				"P"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasToken": true,
+			"tokenUrl": "https://github.com/5etools-mirror-1/5etools-mirror-1.github.io/raw/master/img/WBtW/Giant%20Swan.png"
 		}
 	],
 	"adventure": [
@@ -1694,7 +2023,7 @@
 									]
 								},
 								"The Witchlight Carnival travels as a convoy of wagons, each one pulled by horses or foxes depending on its size. When they need to soar between worlds, the wagons and their draft animals sprout butterfly wings and take to the starry sky. On land, the carnival's attractions unfold magically from the wagons, controlled by {@creature Mister Witch|orcnogTWC}'s {@item Witchlight watch|orcnogTWC}.",
-								"When the carnival arrives at a new destination, a {@creature treant sapling|WBtW} named Northwind uses its Animate Trees ability to gently relocate trees that are in the way of the unfolded wagons. A great length of blue ribbon transforms into a lazy, sparkling river, encircling the site. The river is 20 feet wide and 10 feet deep at its center.",
+								"When the carnival arrives at a new destination, a {@creature treant sapling|orcnogTWC} named Northwind uses its Animate Trees ability to gently relocate trees that are in the way of the unfolded wagons. A great length of blue ribbon transforms into a lazy, sparkling river, encircling the site. The river is 20 feet wide and 10 feet deep at its center.",
 								{
 									"type": "image",
 									"href": {
@@ -2161,14 +2490,14 @@
 												"Near the entrance, a small, smiling tree turns your way and beckons you over. A red squirrel clings to its leafy canopy, peering at you suspiciously."
 											]
 										},
-										"Northwind, a Prismeer native, is a carefree {@creature treant sapling|WBtW} (see the accompanying stat block). {@adventure Appendix D|WBtW|9} contains additional roleplaying notes for Northwind. Northwind's squirrel companion, Red, sizes up guests while keeping at least one beady eye on Northwind's acorns. Red is the beneficiary of a druid's {@spell awaken} spell; he uses the {@creature weasel} stat block but has an Intelligence of 10 and speaks Common.",
+										"Northwind, a Prismeer native, is a carefree {@creature treant sapling|orcnogTWC} (see the accompanying stat block). {@adventure Appendix D|WBtW|9} contains additional roleplaying notes for Northwind. Northwind's squirrel companion, Red, sizes up guests while keeping at least one beady eye on Northwind's acorns. Red is the beneficiary of a druid's {@spell awaken} spell; he uses the {@creature weasel} stat block but has an Intelligence of 10 and speaks Common.",
 										{
 											"type": "image",
 											"href": {
 												"type": "internal",
 												"path": "adventure/WBtW/019-637677446430863372.png"
 											},
-											"title": "{@creature Treant Sapling|WBtW}",
+											"title": "{@creature Treant Sapling|orcnogTWC}",
 											"width": 370,
 											"height": 414
 										},
@@ -2178,7 +2507,7 @@
 											"page": 36,
 											"id": "09c",
 											"entries": [
-												"Riding a dragonfly costs 1 ticket punch. There are eight {@creature Giant Dragonfly|WBtW|giant dragonflies} (see {@adventure appendix C|WBtW|8}), which are trained to fly their riders in a lazy figure eight around the carnival's thoroughfare, at a height of 20 feet. A character who tries to steer their dragonfly off course must succeed on a DC 12 Wisdom ({@skill Animal Handling}) check to do so.",
+												"Riding a dragonfly costs 1 ticket punch. There are eight {@creature Giant Dragonfly|orcnogTWC|giant dragonflies} (see {@adventure appendix C|WBtW|8}), which are trained to fly their riders in a lazy figure eight around the carnival's thoroughfare, at a height of 20 feet. A character who tries to steer their dragonfly off course must succeed on a DC 12 Wisdom ({@skill Animal Handling}) check to do so.",
 												"As the characters' first ride begins, shouts of alarm erupt from a nearby lily pad. A giant dragonfly has just taken off prematurely with a patron on its back: a middle-aged dwarf with a bright blue beard sits unfastened in his harness. Kester, a kenku trickster, used a {@spell speak with animals} spell to panic the dragonfly. Characters can spot Kester before he slips away with a successful Wisdom ({@skill Perception}) check contested by the kenku's Charisma ({@skill Deception}) check. See \"{@area Catching Kester|0e7|x}\" later in the chapter if the characters try to confront him.",
 												"A character can calm the startled mount and guide it back to a lily pad with a successful DC 14 Wisdom ({@skill Animal Handling}) check. The carnival's mood rises by 1 step (see \"{@area Tracking Mood|065|x}\" earlier in the chapter, and roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table) if a character succeeds on this check. If the characters fail to rescue the dwarf, he tumbles from the dragonfly's back; luckily, his fall is cushioned by a tent awning, and though he isn't badly hurt, the mood of the carnival lowers by 1 step (roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table)."
 											]
@@ -2259,7 +2588,7 @@
 											]
 										},
 										"Riding a gondola costs 1 ticket punch. Each ride is an hour long; it starts and ends at the jetty, and the gondola follows the river that marks the perimeter of the carnival.",
-										"Each gondola is pulled by a {@creature giant swan|WBtW}, which has the statistics of a {@creature giant eagle} except that it has no talons, can attack twice with its beak as an action, and speaks Common and Auran. If the characters approach the swan at the end of the jetty, she bows her head, introduces herself as Feathereen, and explains that she can take the characters along the river that encircles the carnival. Each gondola holds up to eight Medium creatures.",
+										"Each gondola is pulled by a {@creature giant swan|orcnogTWC}, which has the statistics of a {@creature giant eagle} except that it has no talons, can attack twice with its beak as an action, and speaks Common and Auran. If the characters approach the swan at the end of the jetty, she bows her head, introduces herself as Feathereen, and explains that she can take the characters along the river that encircles the carnival. Each gondola holds up to eight Medium creatures.",
 										"Feathereen is erudite and haughty. She asks the characters several metaphysical questions as they travel, such as these:",
 										{
 											"type": "list",
@@ -2804,7 +3133,7 @@
 											"page": 46,
 											"id": "0d0",
 											"entries": [
-												"Each of the eight {@creature Giant Snail|WBtW|giant snails} (see {@adventure appendix C|WBtW|8}) is assigned a crew of three {@creature Pixie||pixies} to prepare it for a race. The snails are unusually fast, wear colored caparisons, and have numbered saddles strapped to their shells. Their racing numbers, names, and team colors are given in the Giant Snails table.",
+												"Each of the eight {@creature Giant Snail|orcnogTWC|giant snails} (see {@adventure appendix C|WBtW|8}) is assigned a crew of three {@creature Pixie||pixies} to prepare it for a race. The snails are unusually fast, wear colored caparisons, and have numbered saddles strapped to their shells. Their racing numbers, names, and team colors are given in the Giant Snails table.",
 												{
 													"type": "table",
 													"caption": "Giant Snails",
@@ -3007,7 +3336,7 @@
 														"{@i Light}: \"I hope you're right.\""
 													]
 												},
-												"From there, the conversation shifts to the current mood of the carnival and ideas for new carnival acts or attractions (\"The catoblepas didn't work out, but maybe we can buy a giraffe and paint it blue. Or we could teach Northwind how to play the fiddle.\") Then it turns to the mysterious disappearance of Burly's unruly brother, Hurly (in hushed tones that suggest Witch or Light might have had a hand in it, although neither admits any involvement). Hurly's fate is revealed in {@adventure chapter 4|WBtW|4} (see {@area area M5|2f5|x}).",
+												"From there, the conversation shifts to the current mood of the carnival and ideas for new carnival acts or attractions (\"The catoblepas didn't work out, but maybe we can buy a giraffe and paint it blue. Or we could teach Northwind how to play the fiddle.\")",
 												{
 													"type": "image",
 													"href": {
