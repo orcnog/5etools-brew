@@ -1815,7 +1815,7 @@
 														"{@b What does the portal look like?} The portal is not going to be visible to just anyone. Only the Witchligh Monarch can see the portal. If none of the heros are crowned the Witchlight Monarch, they'll have to devise some other means of learning its location.",
 														"{@b Is it dangerous?} Entering the portal is not dangerous. Though, time flows differently in the pocket dimension.",
 														"{@b Who should they talk to?} Currying the favor of the carnival owners is adviseable, though it's not a guaranteed that even they know of the portal's existance or location.",
-														"{@b How does \"buying back years\" work? How do they know if it worked?} If his theory is right, the shop keeper's word is all they need. That's all it took last time, at least.",
+														"{@b How does \"buying back years\" work? How do they know if it's successful?} If his theory is right, the shop keeper's word is all they need. That's all it took last time, at least.",
 														"{@b What's the shop keeper's name?} He has gone by many names. There are those who call him Garfield the Deals Warlock",
 														"{@b What's the name of this magic shop?} A DC 15 Charisma ({@skill Persuasion}) check convinces Madryck to reluctantly utter the name: \"Fantasy Costco\"."
 													]
@@ -2177,7 +2177,7 @@
 													"id": "084",
 													"entries": [
 														"The carnival issues fake butterfly wings to every visitor who receives a ticket. Visitors are expected to wear their wings, or at least carry them around, while inside the carnival. The tickets and fake wings are theirs to keep.",
-														"Any character who tries to sneak into the carnival without a set of fake butterfly wings must succeed on a DC 15 Dexterity ({@skill Stealth}) check or be spotted and approached by {@dice 1d3} {@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight hands} of any alignment (see the stat block earlier in the chapter). The hands ask to see the character's ticket; any character without a ticket is escorted to the main entrance and directed to the ticket booth. If the character runs away from the Witchlight hands, the hands don't bother giving chase, but the carnival's mood lowers by one step. Roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table (see \"{@area Tracking Mood|065|x}\"). A character without butterfly wings who successfully sneaks into the carnival must repeat the check at the end of each hour."
+														"Any character who tries to sneak into the carnival without a set of fake butterfly wings must succeed on a DC 16 Dexterity ({@skill Stealth}) check or be spotted and approached by {@dice 1d3} {@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight hands} of any alignment (see the stat block earlier in the chapter). The hands ask to see the character's ticket; any character without a ticket is escorted to the main entrance and directed to the ticket booth. If the character runs away from the Witchlight hands, the hands don't bother giving chase, but the carnival's mood lowers by one step. Roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table (see \"{@area Tracking Mood|065|x}\"). A character without butterfly wings who successfully sneaks into the carnival must repeat the check at the end of each hour."
 													]
 												}
 											]
@@ -2318,7 +2318,7 @@
 											"page": 32,
 											"id": "089",
 											"entries": [
-												"The backstage area is a smaller, circular tent adjoining the Big Top. The curtained doorway between the Big Top and the dressing room is guarded by two {@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight hands} (chaotic good; see the stat block earlier in the chapter), who bicker over the appeal of the acts while sharing a bottle of pear cider. They allow only performers and other Witchlight hands to pass through the curtain but are so distracted by their arguing that any character can slip past them unseen with a successful DC 12 Dexterity ({@skill Stealth}) check.",
+												"The backstage area is a smaller, circular tent adjoining the Big Top. The curtained doorway between the Big Top and the dressing room is guarded by two {@creature Witchlight Hand (Medium)|orcnogTWC|Witchlight hands} (chaotic good; see the stat block earlier in the chapter), who bicker over the appeal of the acts while sharing a bottle of pear cider. They allow only performers and other Witchlight hands to pass through the curtain but are so distracted by their arguing that any character can slip past them unseen with a successful DC 14 Dexterity ({@skill Stealth}) check.",
 												{
 													"type": "insetReadaloud",
 													"id": "08a",
@@ -2441,7 +2441,7 @@
 											"id": "090",
 											"entries": [
 												"Any Large or smaller creature that enters the teapot is enveloped in a magic bubble that floats up through the teapot's spout and into the sky, granting its occupant wonderful aerial views of the carnival. When the bubble pops after 1 minute, the passenger floats gently to the ground. Each bubble can hold only one creature (the smaller the creature, the smaller its bubble), plus whatever the creature is wearing or carrying.",
-												"A character suspended in the bubble can make a DC 10 Dexterity ({@skill Acrobatics}) check, gaining control of the bubble on a success. The character can then steer the bubble and pop it over any location on the carnival map. On a failed check, the character has no control over their bubble, and it pops over a random location. If a character tries to steer a bubble out of the carnival, it pops at the perimeter."
+												"A character suspended in the bubble can make a DC 1 Dexterity ({@skill Acrobatics}) check, gaining control of the bubble on a success. The character can then steer the bubble and pop it over any location on the carnival map. On a failed check, the character has no control over their bubble, and it pops over a random location. If a character tries to steer a bubble out of the carnival, it pops at the perimeter."
 											]
 										}
 									]
@@ -2506,9 +2506,9 @@
 											"page": 36,
 											"id": "09c",
 											"entries": [
-												"Riding a dragonfly costs 1 ticket punch. There are eight {@creature Giant Dragonfly|orcnogTWC|giant dragonflies}, which are trained to fly their riders in a lazy figure eight around the carnival's thoroughfare, at a height of 20 feet. A character who tries to steer their dragonfly off course must succeed on a DC 12 Wisdom ({@skill Animal Handling}) check to do so.",
+												"Riding a dragonfly costs 1 ticket punch. There are eight {@creature Giant Dragonfly|orcnogTWC|giant dragonflies}, which are trained to fly their riders in a lazy figure eight around the carnival's thoroughfare, at a height of 20 feet. A character who tries to steer their dragonfly off course must succeed on a DC 15 Wisdom ({@skill Animal Handling}) check to do so.",
 												"As the characters' first ride begins, shouts of alarm erupt from a nearby lily pad. A giant dragonfly has just taken off prematurely with a patron on its back: a middle-aged dwarf with a bright blue beard sits unfastened in his harness. Kester, a kenku trickster, used a {@spell speak with animals} spell to panic the dragonfly. Characters can spot Kester before he slips away with a successful Wisdom ({@skill Perception}) check contested by the kenku's Charisma ({@skill Deception}) check. See \"{@area Catching Kester|0e7|x}\" later in the chapter if the characters try to confront him.",
-												"A character can calm the startled mount and guide it back to a lily pad with a successful DC 14 Wisdom ({@skill Animal Handling}) check. The carnival's mood rises by 1 step if a character succeeds on this check. Roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table (see \"{@area Tracking Mood|065|x}\"). If the characters fail to rescue the dwarf, he tumbles from the dragonfly's back; luckily, his fall is cushioned by a tent awning, and though he isn't badly hurt, the mood of the carnival lowers by 1 step. Roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table (see \"{@area Tracking Mood|065|x}\")."
+												"A character can calm the startled mount and guide it back to a lily pad with a successful DC 15 Wisdom ({@skill Animal Handling}) check. The carnival's mood rises by 1 step if a character succeeds on this check. Roll on the {@item Mood Rises|orcnogTWC|Mood Rises} table (see \"{@area Tracking Mood|065|x}\"). If the characters fail to rescue the dwarf, he tumbles from the dragonfly's back; luckily, his fall is cushioned by a tent awning, and though he isn't badly hurt, the mood of the carnival lowers by 1 step. Roll on the {@item Mood Lowers|orcnogTWC|Mood Lowers} table (see \"{@area Tracking Mood|065|x}\")."
 											]
 										},
 										{
@@ -2550,7 +2550,7 @@
 											"id": "0a0",
 											"entries": [
 												"This contest runs repeatedly throughout the evening and costs 1 ticket punch to enter. The contest table is piled high with small, glazed cupcakes, each filled with a dollop of berry custard. The goal is simple: eat as many cupcakes as you can within 60 seconds.",
-												"A contestant can swallow a cupcake in about 3 seconds and safely eat as many cupcakes as 3 + its Constitution modifier; for each additional cake eaten, the contestant must succeed on a DC 10 Constitution saving throw or take {@dice 1d8} custard damage. Subtract custard damage from the contestant's hit points as normal. Any contestant reduced to 0 hit points by custard damage is unable to continue, loses the contest, and has custard splattered all over them. At the end of the contest, all contestants regain the hit points they lost from taking custard damage.",
+												"A contestant can swallow a cupcake in about 3 seconds and safely eat as many cupcakes as 3 + its Constitution modifier; for each additional cake eaten, the contestant must succeed on a DC 12 Constitution saving throw or take {@dice 1d8} custard damage. Subtract custard damage from the contestant's hit points as normal. Any contestant reduced to 0 hit points by custard damage is unable to continue, loses the contest, and has custard splattered all over them. At the end of the contest, all contestants regain the hit points they lost from taking custard damage.",
 												{
 													"type": "entries",
 													"name": "Treasure",
@@ -2597,7 +2597,7 @@
 												"\"In worlds so full of magic, is time an illusion?\""
 											]
 										},
-										"If the characters ignore Feathereen or make light of her questions, she rocks the gondola and tries to pitch her passengers into the water. Each occupant must succeed on a DC 10 Dexterity saving throw to stay inside the boat.",
+										"If the characters ignore Feathereen or make light of her questions, she rocks the gondola and tries to pitch her passengers into the water. Each occupant must succeed on a DC 12 Dexterity saving throw to stay inside the boat.",
 										"Characters who impress Feathereen with their answers earn her respect; if she is questioned about the carnival, her gossipy nature is revealed, and she imparts the following information:",
 										{
 											"type": "list",
@@ -2632,7 +2632,7 @@
 												"A halfling couple holds hands as they approach the glass cabinet. One of the halflings is wearing butterfly face paint. As he drops to one knee and pulls a small box from his pocket, his sweetheart bursts into laughter and begins rolling on the ground. The halfling in face paint begins sobbing and darts into the nearby tent without getting his ticket punched."
 											]
 										},
-										"Characters who succeed on a DC 15 Intelligence ({@skill History}) check recall that Tasha was one of the names reputedly used by Iggwilv the Witch Queen, a legendary archmage. Any creature that comes within 10 feet of the mannequin must succeed on a DC 13 Wisdom saving throw or be affected as if by a {@spell Tasha's hideous laughter} spell. Whether the saving throw succeeds or fails, the creature can't be affected by the mannequin again.",
+										"Characters who succeed on a DC 16 Intelligence ({@skill History}) check recall that Tasha was one of the names reputedly used by Iggwilv the Witch Queen, a legendary archmage. Any creature that comes within 10 feet of the mannequin must succeed on a DC 16 Wisdom saving throw or be affected as if by a {@spell Tasha's hideous laughter} spell. Whether the saving throw succeeds or fails, the creature can't be affected by the mannequin again.",
 										"The halfling in face paint is Rubin Sugarwood, and his halfling sweetheart is named Ween Sundapple; both are {@creature Commoner||commoners} (lawful good). Ween got too close to the glass cabinet and fell victim to its spell. If one or more characters follow Rubin into the Hall of Illusions, see \"{@area Chasing Rubin|0ad|x}\" below.",
 										"After recovering from the cabinet's spell, Ween remains outside the tent and calls out for Rubin, hoping he will return.",
 										{
@@ -2994,7 +2994,7 @@
 														"\"This almiraj is no mirage. Adorn its horn with two or three rings to win a prize!\""
 													]
 												},
-												"This game involves tossing rings over the horn of a wooden statuette of an almiraj (a cute, bunny-like creature with a horn like a unicorn's). The almiraj teleports around on a tabletop, making it hard to score a success. A participant gets three rings. Tossing a ring over the almiraj's horn requires a successful DC 17 Dexterity check. Two successful tosses earn one roll on the {@item Carnival Prize|orcnogTWC|Carnival Prizes} table; three successes earn two rolls on the table."
+												"This game involves tossing rings over the horn of a wooden statuette of an almiraj (a cute, bunny-like creature with a horn like a unicorn's). The almiraj teleports around on a tabletop, making it hard to score a success. A participant gets three rings. Tossing a ring over the almiraj's horn requires a successful DC 18 Dexterity check. Two successful tosses earn one roll on the {@item Carnival Prize|orcnogTWC|Carnival Prizes} table; three successes earn two rolls on the table."
 											]
 										},
 										{
@@ -3036,7 +3036,7 @@
 													"width": 850,
 													"height": 1063
 												},
-												"A participant must outperform a gnome in a best-of-five poetry contest. Doing so requires three successful DC 15 Charisma ({@skill Performance}) checks in five or fewer attempts. Someone who wins the contest rolls once on the {@item Carnival Prize|orcnogTWC|Carnival Prizes} table, or twice if they succeeded three times without failing a check."
+												"A participant must outperform a gnome in a best-of-five poetry contest. Doing so requires three successful DC 16 Charisma ({@skill Performance}) checks in five or fewer attempts. Someone who wins the contest rolls once on the {@item Carnival Prize|orcnogTWC|Carnival Prizes} table, or twice if they succeeded three times without failing a check."
 											]
 										},
 										{
@@ -3068,7 +3068,7 @@
 														"\"Birds of a feather? How about feathers of a bird? Step right up and guess how many feathers festoon this fiendish fowl!\""
 													]
 												},
-												"A participant gets three tries to guess the number of feathers on one of a group of caged {@creature Cockatrice||cockatrices}. Someone who succeeds on a DC 18 Intelligence check guesses correctly and earns one roll on the {@item Carnival Prize|orcnogTWC|Carnival Prizes} table, or two rolls if the successful check occurs on the first attempt.",
+												"A participant gets three tries to guess the number of feathers on one of a group of caged {@creature Cockatrice||cockatrices}. Someone who succeeds on a DC 20 Intelligence check guesses correctly and earns one roll on the {@item Carnival Prize|orcnogTWC|Carnival Prizes} table, or two rolls if the successful check occurs on the first attempt.",
 												{
 													"type": "image",
 													"href": {
@@ -3094,7 +3094,7 @@
 														"\"What do you do when the eye of the cyclops falls upon you? You stare right back if you've got the stamina!\""
 													]
 												},
-												"Winning this game requires a participant to outstare an illusory cyclops. Whoever blinks first loses. To win the game, the contestant must succeed on a DC 14 Constitution check. Someone who wins the game receives a prize, determined by rolling once on the {@item Carnival Prize|orcnogTWC|Carnival Prizes} table.",
+												"Winning this game requires a participant to outstare an illusory cyclops. Whoever blinks first loses. To win the game, the contestant must succeed on a DC 17 Constitution check. Someone who wins the game receives a prize, determined by rolling once on the {@item Carnival Prize|orcnogTWC|Carnival Prizes} table.",
 												{
 													"type": "image",
 													"href": {
@@ -3215,7 +3215,7 @@
 													"id": "0d2",
 													"entries": [
 														"The race is divided into 6-second rounds. Once the race begins, the snails move along the track at remarkable speed, each one covering 80 feet per round by itself. Without riders, the snails are an even match, but a jockey can try to improve a snail's performance by patting its shell or speaking words of encouragement at it.",
-														"Initiative rolls are unnecessary. Once per round, each jockey can make a DC 12 Wisdom ({@skill Animal Handling}) check. On a successful check, the jockey's snail moves an extra 10 feet that round, or 20 feet if the check succeeds by 5 or more. On a failed check, the jockey's snail moves 10 feet slower that round, or 20 feet slower if the check fails by 5 or more. The race ends when one or more snails travel the 480 feet needed to cross the finish line.",
+														"Initiative rolls are unnecessary. Once per round, each jockey can make a DC 15 Wisdom ({@skill Animal Handling}) check. On a successful check, the jockey's snail moves an extra 10 feet that round, or 20 feet if the check succeeds by 5 or more. On a failed check, the jockey's snail moves 10 feet slower that round, or 20 feet slower if the check fails by 5 or more. The race ends when one or more snails travel the 480 feet needed to cross the finish line.",
 														"If two or more snails cross the finish line in the same round, determine the winner of the race by having those snails' jockeys each roll a {@dice d20}. The highest roll determines the winner, with one snail narrowly claiming victory. If the roll for first place is tied, the race ends in a tie, and each winning jockey receives the first-place prize (see \"Prizes\" below).",
 														"Signs posted in the stands and along the racetrack warn that neither jockeys nor spectators may influence the outcome of a race by using magic or by harming other jockeys or snails. Any jockey who openly does so is disqualified, as is the jockey's snail. A spectator caught doing so is escorted from the carnival by {@dice 1d4} {@creature Goblin||goblins} (lawful good) who are watching the crowd closely for troublemakers."
 													]
@@ -3353,7 +3353,7 @@
 													"id": "0da",
 													"entries": [
 														"{@creature Mister Witch|orcnogTWC}'s bunk is neat and unadorned. {@creature Mister Light|orcnogTWC}'s bunk is gaudy and messy, with costumes strewn everywhere. Characters who search through the gear find a hatbox containing the crown of the Witchlight Monarch; this splendid crown of gold butterflies teleports back to its hatbox at the end of each evening and is ceremoniously produced from its box during the monarch's coronation (see \"{@area Crowning the Witchlight Monarch|0f2|x}\" later in the chapter).",
-														"Any character who searches the wagon for secret compartments finds one with a successful DC 15 Intelligence ({@skill Investigation}) check. The compartment is located in a bench and contains a tiny, bejeweled chest worth 50 gp. This chest is a replica of a much larger chest hidden on the Ethereal Plane (with the help of a {@spell Leomund's secret chest} spell). While holding the replica chest, {@creature Mister Witch|orcnogTWC} can use an action to summon the larger chest. He can send the larger chest back to the Ethereal Plane by using an action and touching both the chest and the replica."
+														"Any character who searches the wagon for secret compartments finds one with a successful DC 18 Intelligence ({@skill Investigation}) check. The compartment is located in a bench and contains a tiny, bejeweled chest worth 50 gp. This chest is a replica of a much larger chest hidden on the Ethereal Plane (with the help of a {@spell Leomund's secret chest} spell). While holding the replica chest, {@creature Mister Witch|orcnogTWC} can use an action to summon the larger chest. He can send the larger chest back to the Ethereal Plane by using an action and touching both the chest and the replica."
 													]
 												},
 												{
@@ -3385,7 +3385,7 @@
 									"id": "0e7",
 									"entries": [
 										"{@creature Kester the Kenku|orcnogTWC|Kester} (see the accompanying stat block) snoops around the carnival under the cover of a {@spell disguise self} spell, looking to cause trouble. The kenku has stolen the voice of a human mime named Candlefoot (see \"{@area Hall of Illusions|0a6|x}\" earlier in the chapter). While this prize remains in his possession, Kester can speak clearly in Candlefoot's soft, silky voice.",
-										"If Kester has not already been caught, a character who spends 1 hour searching for the disguised kenku can, with a successful DC 13 Intelligence ({@skill Investigation}) check, see through his disguise while moving through crowds and paying close attention to suspicious-looking folks. If discovered, Kester tries to flee from the main thoroughfare, using tents and other carnival features to break line of sight to her. He's willing to cautiously parley with characters who claim they are investigating the carnival for their own reasons.",
+										"If Kester has not already been caught, a character who spends 1 hour searching for the disguised kenku can, with a successful DC 18 Intelligence ({@skill Investigation}) check, see through his disguise while moving through crowds and paying close attention to suspicious-looking folks. If discovered, Kester tries to flee from the main thoroughfare, using tents and other carnival features to break line of sight to her. He's willing to cautiously parley with characters who claim they are investigating the carnival for their own reasons.",
 										{
 											"type": "image",
 											"href": {
@@ -3408,11 +3408,11 @@
 													"items": [
 														"Kester was hired by a rival carnival, The Harlem and Haley Brother's Circus. The circus usually does decent business, but every 8 years when the Witchlight Carnival comes to the Material Plane, they nearly go bankrupt.",
 														"He was hired with the objective of stirring up trouble, lowering the mood of the carnival, and generally hurting business. Their loss is Harlem and Haley's gain.",
-														"He's being paid handsomely to wreak havoc. A DC 15 Charisma ({@skill Persuasion}) check can convince Kester to tell them his price: 500 gp. With a roll of 20 or higher, Kester will consider an offer to outbid his employers (double or more) in order to buy him out.",
+														"He's being paid handsomely to wreak havoc. A DC 18 Charisma ({@skill Persuasion}) check can convince Kester to tell them his price: 500 gp. With a roll of 20 or higher, Kester will consider an offer to outbid his employers (double or more) in order to buy him out.",
 														"A DC 20 Charisma ({@skill Intimidation}) check can convince Kester to leave the carnival and never return."
 													]
 												},
-												"If questioned about the theft of Candlefoot's voice, Kester produces a corn husk doll with a thorny stem tied around its neck. The doll represents Candlefoot, and untying the stem restores the mime's lost voice. Any character who succeeds on a DC 12 Charisma ({@skill Intimidation} or {@skill Persuasion}) check can convince Kester to part with the doll."
+												"If questioned about the theft of Candlefoot's voice, Kester produces a corn husk doll with a thorny stem tied around its neck. The doll represents Candlefoot, and untying the stem restores the mime's lost voice. Any character who succeeds on a DC 16 Charisma ({@skill Intimidation} or {@skill Persuasion}) check can convince Kester to part with the doll."
 											]
 										},
 										{
