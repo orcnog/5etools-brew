@@ -1955,7 +1955,7 @@
 	"adventure": [
 		{
 			"name": "Dawn of Defiance: Episode 2 - A Wretched Hive",
-			"id": "orcnogSW5e",
+			"id": "orcnogSW5eDoDEp2",
 			"source": "orcnogSW5e",
 			"group": "homebrew",
 			"contents": [
@@ -1992,7 +1992,7 @@
 	],
 	"adventureData": [
 		{
-			"id": "orcnogSW5e",
+			"id": "orcnogSW5eDoDEp2",
 			"source": "orcnogSW5e",
 			"data": [
 				{
