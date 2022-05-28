@@ -14,7 +14,10 @@
 			}
 		],
 		"dateAdded": 1652365390,
-		"dateLastModified": 1652365390
+		"dateLastModified": 1652365390,
+		"internalCopies": [
+			"monster"
+		]
 	},
 	"monster": [
 		{
@@ -146,6 +149,25 @@
 			"miscTags": null,
 			"conditionInflict": null,
 			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-viper-gang-member.webp"
+		},
+		{
+			"name": "Viper on Swoop Bike 2",
+			"source": "orcnogSW5e",
+			"_copy": {
+				"name": "Viper Gang Member",
+				"source": "orcnogSW5e"
+			},
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"Combat Suit + bike"
+					]
+				}
+			],
+			"speed": {
+				"walk": 60
+			}
 		},
 		{
 			"name": "Viper on Swoop Bike",
@@ -281,7 +303,7 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Kessra three melee attacks with her vibroblade. Or Kassra makes two ranged attacks with her heavy blaster pistol."
+						"Kessra three melee attacks with her vibroblade. Or Kessra makes two ranged attacks with her heavy blaster pistol."
 					]
 				},
 				{
@@ -816,6 +838,24 @@
 			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-RX-7246.webp"
 		},
 		{
+			"name": "Bounty Hunter",
+			"source": "orcnogSW5e",
+			"isNamedCreature": false,
+			"_copy": {
+				"name": "Kessra",
+				"source": "orcnogSW5e",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "Kessra",
+						"with": "the bounty hunter",
+						"flags": "i"
+					}
+				}
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/npc-duros-bounty-hunter.webp"
+		},
+		{
 			"name": "The Karg Brothers",
 			"source": "orcnogSW5e",
 			"page": 0,
@@ -896,7 +936,7 @@
 			"languageTags": [
 				"CS"
 			],
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-klarg-brothers.webp"
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-karg-brothers.webp"
 		},
 		{
 			"name": "Zayda",
@@ -1674,10 +1714,7 @@
 					"gamorrean"
 				]
 			},
-			"alignment": [
-				"C",
-				"E"
-			],
+			"alignment": "chaotic dark",
 			"ac": [
 				{
 					"ac": 15,
@@ -1713,7 +1750,7 @@
 				"Gamorrese",
 				"Galactic Basic (understands but can't speak.)"
 			],
-			"cr": "1/2",
+			"cr": "CR 1/2",
 			"trait": [
 				{
 					"name": "Reckless",
@@ -1730,9 +1767,15 @@
 			],
 			"action": [
 				{
-					"name": "Blaster Pistol Ranged Weapon Attack",
+					"name": "Blaster Pistol",
 					"entries": [
-						"+3, range 40/160, one target. Hit 4 ({@dice 1d6 + 1}) Electrobaton Melee Weapon Attack: +4, range 5ft, one target. Hit 4 ({@damage 1d4 + 2}) kinetic damage. A creature struck by the Gamorrean Jailer must make a {@dc 13} constitution save or take {@damage 1d4} lightning damage and become shocked until the end of its next turn."
+						"{@atk rw} +3, range 40/160, one target. *Hit* 4 ({@dice 1d6 + 1})"
+					]
+				},
+				{
+					"name": "Electrobaton",
+					"entries": [
+						"{@atk mw} +4, range 5ft, one target. *Hit* 4 ({@damage 1d4 + 2}) kinetic damage. A creature struck by the Gamorrean Jailer must make a {@dc 13} constitution save or take {@damage 1d4} lightning damage and become shocked until the end of its next turn."
 					]
 				}
 			],
@@ -1741,6 +1784,10 @@
 			],
 			"languageTags": [
 				"CS"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
 			],
 			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-gamorrean.webp"
 		},
