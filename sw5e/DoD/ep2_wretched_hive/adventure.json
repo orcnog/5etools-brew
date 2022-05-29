@@ -118,10 +118,6 @@
 							"entries": [
 								"In {@i A Wretched Hive}, the heroes must travel to the world of Cato Neimoidia, a planet ravaged by the Clone Wars and one of the many colony worlds of the Neimoidian people. Since their last adventure, the heroes have spent some down time aboard the Nebulon-B frigate Resurgence, which is apparently owned by Bail Organa. The ship spends all of its time in deep space, between worlds and away from major hyperspace routes, and it currently serves as a mobile safe house for former Imperial Admiral Gilder Varth.",
 								"Varth was recently rescued from an Imperial prison facility (either by the heroes, if they played in {@i The Traitor's Gambit}, or by other agents of Bail Organa if they didn't) and brought to the {@i Resurgence} to be debriefed. Captain Adrian Verana is the commanding officer of the {@i Resurgence}, and he has overseen Varth's safety and debriefing over the last few weeks. The whole time, Captain Verana has made it clear that no one should mention Bail Organa's name because the Senator cannot risk being known to be involved in cas the Empire happens upon the {@i Resurgence}. Even Gilder Varth does not know for certain that it was Organa who had him rescued (unless the heroes told him, of course).",
-								"<figure style=\"float: right; margin-left: 10px;\">",
-								"<img src='https://static.wikia.nocookie.net/starwars/images/2/2a/Captainverana.jpg' class='image-location-top-right-bottom-left' style=\"width: 110px\">",
-								"<figcaption style=\"text-align: center; padding: 3px; background: white;\">Captain Verana</figcaption>",
-								"</figure>",
 								"In the time between the end of {@i The Traitor's Gambit} and the beginning of {@i A Wretched Hive}, you should feel free to include encounters with Captain Verana, Gilder Varth, and Captain Okeefe (the owner and operator of the Baudo-class Star Yacht, the {@i Banshee}). The heroes should get to know these three characters a bit better because all of them will have roles of varying importance throughout the campaign.  When {@i A Wretched Hive} opens, the heroes should be fully healed and have had a chance to obtain needed supplies and resources. The Resurgence is a well-stocked ship and can provide the group with most mundane items.",
 								{
 									"type": "entries",
@@ -488,10 +484,6 @@
 									"entries": [
 										"{@creature Darga The Hutt|orcnogSW5e|Darga Jiramma Mionne} is a young Hutt crime lord who has carved out  small empire on Cato Neimoidia. Though he is nowhere near a successful or mighty as other members of his clan, he believes that hi dealings with the Empire will put him on a fast track to power. Darg can smell which way the wind is blowing, and he believes that as th Empire's influence grows, so will that of its allies.",
 										"Though Darga understands several languages, he always speaks i Huttese, letting his protocol droid TC-663 translate. He considers al languages other than Huttese to be beneath him.",
-										"<figure>",
-										"<img src=\"https://static.wikia.nocookie.net/starwars/images/d/df/Dargathehutt.jpg\" width=\"100%\"/>",
-										"<figcaption style=\"text-align: center; padding: 3px; background: white;\">Darga the Hutt</figcaption>",
-										"</figure>",
 										{
 											"type": "inset",
 											"name": "Encouraging the Heroes",
@@ -995,10 +987,6 @@
 										"One of the most critical events that happens during the heroes' stay in Darga's palace is their discovery of a comatose Jedi Master named Denia. This event should occur only near the end of their stay in the palace, and most likely after the heroes have gone through the five events in Darga's court (and perhaps obtained the datacard granting access to the guest quarters). Since the discovery of Denia will probably conclude the heroes' time in Darga's palace, do not rush in introducing this event.",
 										"During the Clone Wars, Denia was fighting on Cato Neimoidia when she was injured in an explosion. One of the Separatist generals had her unconscious form brought to this palace and placed in an artificial coma while they decided what to do with her. When the Clone Wars came to an abrupt end, the Separatists fled the palace and left the Jedi behind. Darga moved in soon after and discovered Denia's comatose body. Never one to throw away a potential resource, Darga had her moved to the lowest levels of the palace and kept unconscious, thinking that there might come a day when she could prove useful. When the heroes arrived, Denia could sense their presence even while unconscious (either because one or more of the heroes is Force sensitive, or because destiny swirls about them), and she reaches out to them for help.",
 										"This first becomes apparent when the heroes (particularly any Force-sensitive heroes) start hearing whispers in their heads. If the heroes stay in Darga's palace after their time in his court, one or two of them begin to hear whispers in their sleep, so strongly that they awaken. If the heroes appear to be making plans to leave, you can have them hear the whispers while awake. The voice, clearly that of a woman, says things such as, \"Help me,\" and \"I know you can hear me.\" If the heroes attempt to ignore the whispers, the voice becomes more insistent, begging for help and pleading with them to find her.",
-										"<figure style=\"float: left; width: 40%; background: white; padding: 3px; margin: 0 8px 0 0;\">",
-										"<img src=\"https://www.gmbinder.com/images/i8Jhyje.png\" style=\"width: 100%;\"/>",
-										"<figcaption style=\"background: white; text-align: center; padding: 3px;\">Master Denia</figcaption>",
-										"</figure>",
 										"If the heroes search for a way to find the whispers, they discover that the voice becomes stronger if they descend through the guest quarters into the lower reaches of the palace. If the heroes curried Darga's favor and were given the datacard to access the secret way in and out of the guest quarters, they can also use it to access a turbolift to the lower levels of the guest quarters. The turbolift leads them directly to the chambers where Denia is being held.",
 										"If the heroes never obtained the datacard, they can still reach Denia by finding a stairwell that leads down into the lower guest quarters. However, this path passes through an antechamber where some of Darga's Gamorrean guards await. The guards tell the heroes to turn back, and if they refuse, a fight ensues."
 									]
