@@ -2,9 +2,9 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "orcnogSW5e",
-				"abbreviation": "orcnogSW5e",
-				"full": "SW5e Dawn of Defiance Episode 2",
+				"json": "orcnogDoDEp2",
+				"abbreviation": "DoDEp2",
+				"full": "Dawn of Defiance, Episode 2: A Wretched Hive",
 				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/ep2_wretched_hive/adventure.json",
 				"authors": ["Rodney Thompson"],
 				"convertedBy": [
@@ -14,16 +14,13 @@
 		],
 		"dateAdded": 1613648837,
 		"dateLastModified": 1613648837,
-		"_dateLastModifiedHash": "e5f748a123",
-		"internalCopies": [
-			"monster"
-		]
+		"_dateLastModifiedHash": "e5f748a123"
 	},
 	"adventure": [
 		{
 			"name": "Dawn of Defiance: Episode 2 - A Wretched Hive",
-			"id": "orcnogSW5e",
-			"source": "orcnogSW5e",
+			"id": "orcnogDoDEp2",
+			"source": "orcnogDoDEp2",
 			"group": "homebrew",
 			"contents": [
 				{
@@ -59,8 +56,8 @@
 	],
 	"adventureData": [
 		{
-			"id": "orcnogSW5e",
-			"source": "orcnogSW5e",
+			"id": "orcnogDoDEp2",
+			"source": "orcnogDoDEp2",
 			"data": [
 				{
 					"type": "section",
