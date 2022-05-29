@@ -19974,9 +19974,15 @@
 					]
 				},
 				{
+					"name": "War Caster",
+					"entries": [
+						"War Caster Jedi Master Denia has advantage on Constitution savin throws that it makes to maintain it's concentration on a power when it takes damage."
+					]
+				},
+				{
 					"name": "Forcecasting",
 					"entries": [
-						"Jedi Master Denia is a 16th-level forcecaster. Her forcecasting ability is Wisdom (power save {@dc 19}, {@hit 11} to hit with force attacks) and she has 54 force points. Denia knows the following force powers: At-will: {@spell force push/pull|orcnogSW5e}, {@spell force disarm|orcnogSW5e}, {@spell give life|orcnogSW5e}, {@spell guidance|orcnogSW5e}, {@spell saber reflect|orcnogSW5e}, {@spell turbulence|orcnogSW5e} 1st-level: {@spell battle precognition|orcnogSW5e}, {@spell burst of speed|orcnogSW5e}, {@spell heal|orcnogSW5e}, {@spell phasestrike|orcnogSW5e}, {@spell project|orcnogSW5e}, {@spell valor|orcnogSW5e} 2nd-level: {@spell animate weapon|orcnogSW5e}, {@spell calm emotions|orcnogSW5e}, {@spell force barrier|orcnogSW5e}, {@spell force camouflage|orcnogSW5e}, {@spell force sight|orcnogSW5e}, {@spell force throw|orcnogSW5e} 3rd-level: {@spell beacon of hope|orcnogSW5e}, {@spell knight speed|orcnogSW5e}, {@spell sever force|orcnogSW5e}, {@spell telekinetic storm|orcnogSW5e} 4th-level: {@spell force immunity|orcnogSW5e}, {@spell improved force camouflage|orcnogSW5e} 5th-level: {@spell improved phasestrike|orcnogSW5e}, {@spell mass animation|orcnogSW5e}, {@spell telekinesis|orcnogSW5e} 6th-level: {@spell telekinetic burst|orcnogSW5e} War Caster Jedi Master Denia has advantage on Constitution savin throws that it makes to maintain it's concentration on a power when it takes damage."
+						"Jedi Master Denia is a 16th-level forcecaster. Her forcecasting ability is Wisdom (power save {@dc 19}, {@hit 11} to hit with force attacks) and she has 54 force points. Denia knows the following force powers: At-will: {@spell force push/pull|orcnogSW5e}, {@spell force disarm|orcnogSW5e}, {@spell give life|orcnogSW5e}, {@spell guidance|orcnogSW5e}, {@spell saber reflect|orcnogSW5e}, {@spell turbulence|orcnogSW5e} 1st-level: {@spell battle precognition|orcnogSW5e}, {@spell burst of speed|orcnogSW5e}, {@spell heal|orcnogSW5e}, {@spell phasestrike|orcnogSW5e}, {@spell project|orcnogSW5e}, {@spell valor|orcnogSW5e} 2nd-level: {@spell animate weapon|orcnogSW5e}, {@spell calm emotions|orcnogSW5e}, {@spell force barrier|orcnogSW5e}, {@spell force camouflage|orcnogSW5e}, {@spell force sight|orcnogSW5e}, {@spell force throw|orcnogSW5e} 3rd-level: {@spell beacon of hope|orcnogSW5e}, {@spell knight speed|orcnogSW5e}, {@spell sever force|orcnogSW5e}, {@spell telekinetic storm|orcnogSW5e} 4th-level: {@spell force immunity|orcnogSW5e}, {@spell improved force camouflage|orcnogSW5e} 5th-level: {@spell improved phasestrike|orcnogSW5e}, {@spell mass animation|orcnogSW5e}, {@spell telekinesis|orcnogSW5e} 6th-level: {@spell telekinetic burst|orcnogSW5e}"
 					]
 				}
 			],
