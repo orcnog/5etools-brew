@@ -194,9 +194,22 @@
 									"name": "Swoop Marauders (CR 3)",
 									"id": "Swoop Marauders (CR 3)",
 									"entries": [
-										"1 x {@creature Kessra|orcnogSW5e}",
-										"6 x {@creature Viper Gang Member|orcnogSW5e}",
-										"2 x {@creature Viper on Swoop Bike|orcnogSW5e}",
+                                        {
+                                            "type": "inset",
+                                            "name": "Swoop Marauders Encounter",
+                                            "entries": [
+                                                {
+                                                    "type": "list",
+                                                    "style": "list-no-bullets",
+                                                    "items": [
+                                                        "1 x {@creature Kessra|orcnogSW5e}",
+                                                        "6 x {@creature Viper Gang Member|orcnogSW5e} (CR 1)",
+                                                        "2 x {@creature Viper on Swoop Bike|orcnogSW5e} (CR 1)",
+                                                        "See: {@area Swoop Marauders Encounter Map|Swoop Marauders Encounter Map|x}"
+                                                    ]
+                                                }
+                                            ]
+                                        },
 										{
 											"type": "entries",
 											"name": "Setup",
@@ -312,9 +325,22 @@
 									"name": "Darga's Cronies",
 									"id": "Darga's Cronies",
 									"entries": [
-										"1 x {@creature Warrick Raden|orcnogSW5e}",
-										"6 x {@creature Warrick's Hired Thug|orcnogSW5e}",
-										"2 x {@creature Excavation Droid|orcnogSW5e}",
+                                        {
+                                            "type": "inset",
+                                            "name": "Darga's Cronies Encounter",
+                                            "entries": [
+                                                {
+                                                    "type": "list",
+                                                    "style": "list-no-bullets",
+                                                    "items": [
+                                                        "1 x {@creature Warrick Raden|orcnogSW5e} (CR 2)",
+                                                        "6 x {@creature Warrick's Hired Thug|orcnogSW5e} (CR 1/4)",
+                                                        "2 x {@creature Excavation Droid|orcnogSW5e} (CR 3)",
+                                                        "See: {@area Darga's Cronies Encounter Map|Darga's Cronies Encounter Map|x}"
+                                                    ]
+                                                }
+                                            ]
+                                        },
 										{
 											"type": "entries",
 											"name": "Setup",
@@ -526,9 +552,22 @@
 									"name": "Gladiator Match",
 									"id": "Gladiator Match",
 									"entries": [
-										"3 x {@creature The Karg Brothers|orcnogSW5e}",
-										"1 x {@creature RX-7246|orcnogSW5e}",
-										"1 x {@creature Zayda|orcnogSW5e}",
+                                        {
+                                            "type": "inset",
+                                            "name": "Gladiator Match Encounter",
+                                            "entries": [
+                                                {
+                                                    "type": "list",
+                                                    "style": "list-no-bullets",
+                                                    "items": [
+                                                        "3 x {@creature The Karg Brothers|orcnogSW5e}",
+                                                        "1 x {@creature RX-7246|orcnogSW5e} (CR 3)",
+                                                        "1 x {@creature Zayda|orcnogSW5e} (CR 3)",
+                                                        "See: {@area Gladiator Match Encounter Map|Gladiator Match Encounter Map|x}"
+                                                    ]
+                                                }
+                                            ]
+                                        },
 										{
 											"type": "entries",
 											"name": "Setup",
@@ -720,8 +759,21 @@
 									"name": "Aviary Attack",
 									"id": "Aviary Attack",
 									"entries": [
-										"1 x {@creature Kessra|orcnogSW5e}",
-										"4 x {@creature Neimoidian Kreehawk|orcnogSW5e}",
+                                        {
+                                            "type": "inset",
+                                            "name": "Aviary Attack Encounter",
+                                            "entries": [
+                                                {
+                                                    "type": "list",
+                                                    "style": "list-no-bullets",
+                                                    "items": [
+                                                        "1 x {@creature Kessra|orcnogSW5e}",
+                                                        "4 x {@creature Neimoidian Kreehawk|orcnogSW5e} (CR 2)",
+                                                        "See: {@area Aviary Attack Encounter Map|Aviary Attack Encounter Map|x}"
+                                                    ]
+                                                }
+                                            ]
+                                        },
 										{
 											"type": "entries",
 											"name": "Setup",
@@ -809,9 +861,22 @@
 									"name": "A Knife in the Dark",
 									"id": "A Knife in the Dark",
 									"entries": [
-										"3 x {@creature Quarren Assassin|orcnogSW5e}",
-										"1 x {@creature Twi'lek Poisoner|orcnogSW5e}",
-										"1 x {@creature Wookie Slaver|orcnogSW5e}",
+                                        {
+                                            "type": "inset",
+                                            "name": "A Knife in the Dark Encounter",
+                                            "entries": [
+                                                {
+                                                    "type": "list",
+                                                    "style": "list-no-bullets",
+                                                    "items": [
+                                                        "3 x {@creature Quarren Assassin|orcnogSW5e} (CR 2)",
+                                                        "1 x {@creature Twi'lek Poisoner|orcnogSW5e}",
+                                                        "1 x {@creature Wookie Slaver|orcnogSW5e} (CR 3)",
+                                                        "See: {@area A Knife in the Dark Encounter Map|A Knife in the Dark Encounter Map|x}"
+                                                    ]
+                                                }
+                                            ]
+                                        },
 										{
 											"type": "entries",
 											"name": "Setup",
@@ -943,9 +1008,22 @@
 									"name": "Into the Dungeons",
 									"id": "Into the Dungeons",
 									"entries": [
-										"3 x {@creature Gamorrean Minion|orcnogSW5e}",
-										"2 x {@creature Gamorrean Warrior|orcnogSW5e}",
-										"1 x {@creature Gamorrean Warlord|orcnogSW5e}",
+                                        {
+                                            "type": "inset",
+                                            "name": "Into the Dungeons Encounter",
+                                            "entries": [
+                                                {
+                                                    "type": "list",
+                                                    "style": "list-no-bullets",
+                                                    "items": [
+                                                        "3 x {@creature Gamorrean Minion|orcnogSW5e}",
+                                                        "2 x {@creature Gamorrean Warrior|orcnogSW5e} (CR 2)",
+                                                        "1 x {@creature Gamorrean Warlord|orcnogSW5e} (CR 4)",
+                                                        "See: {@area Into the Dungeons Encounter Map|Into the Dungeons Encounter Map|x}"
+                                                    ]
+                                                }
+                                            ]
+                                        },
 										{
 											"type": "entries",
 											"name": "Setup",
@@ -1041,8 +1119,21 @@
 									"name": "Out of Captivity",
 									"id": "Out of Captivity",
 									"entries": [
-										"2 x {@creature Gamorrean Jailer|orcnogSW5e|Gamorren Jailers}",
-										"5 x {@creature Gamorrean Warrior|orcnogSW5e}",
+                                        {
+                                            "type": "inset",
+                                            "name": "Out of Captivity Encounter",
+                                            "entries": [
+                                                {
+                                                    "type": "list",
+                                                    "style": "list-no-bullets",
+                                                    "items": [
+                                                        "2 x {@creature Gamorrean Jailer|orcnogSW5e|Gamorren Jailer}",
+                                                        "5 x {@creature Gamorrean Warrior|orcnogSW5e} (CR 2)",
+                                                        "See: {@area Out of Captivity Encounter Map|Out of Captivity Encounter Map|x}"
+                                                    ]
+                                                }
+                                            ]
+                                        },
 										{
 											"type": "entries",
 											"name": "Setup",
@@ -1147,9 +1238,22 @@
 									"name": "Confrontation with Demos",
 									"id": "Confrontation with Demos",
 									"entries": [
-										"1 x {@creature Igren Demos|orcnogSW5e}",
-										"5 x {@creature Gamorrean Warrior|orcnogSW5e}",
-										"1 x {@creature Trandoshan Bodyguard|orcnogSW5e}",
+                                        {
+                                            "type": "inset",
+                                            "name": "Confrontation with Demos Encounter",
+                                            "entries": [
+                                                {
+                                                    "type": "list",
+                                                    "style": "list-no-bullets",
+                                                    "items": [
+                                                        "1 x {@creature Igren Demos|orcnogSW5e}",
+                                                        "5 x {@creature Gamorrean Warrior|orcnogSW5e}",
+                                                        "1 x {@creature Trandoshan Bodyguard|orcnogSW5e}",
+                                                        "See: {@area Confrontation with Demos Encounter Map|Confrontation with Demos Encounter Map|x}"
+                                                    ]
+                                                }
+                                            ]
+                                        },
 										{
 											"type": "entries",
 											"name": "Setup",
@@ -1258,19 +1362,15 @@
 							"name": "Next Adventure",
 							"id": "Next Adventure",
 							"entries": [
-								"In {@i The Queen of Air and Darkness}, the next adventure in the Dawn of Defiance campaign, the heroes pursue Darga to Cloud City. There, they must infiltrate a sabacc tournament to unearth the Hutt crime lord and discover exactly what deal he struck with the Empire.",
-								"#"
-							]
+								"In {@i The Queen of Air and Darkness}, the next adventure in the Dawn of Defiance campaign, the heroes pursue Darga to Cloud City. There, they must infiltrate a sabacc tournament to unearth the Hutt crime lord and discover exactly what deal he struck with the Empire."							]
 						},
 						{
 							"type": "section",
 							"name": "Swoop Marauders Encounter Map",
 							"id": "Swoop Marauders Encounter Map",
 							"entries": [
-								"<img",
-								"src='https://www.gmbinder.com/images/69D3s0Q.png'",
-								"style='position:absolute; bottom:125px; right:115px; width:600px' />",
-								"See: {@i Setup} [on page 4](#p4)"
+								"See: {@area Swoop Marauders|Swoop Marauders|x}",
+								"<img src='https://www.gmbinder.com/images/69D3s0Q.png' style='width:600px' />"
 							]
 						},
 						{
@@ -1278,10 +1378,8 @@
 							"name": "Darga's Cronies Encounter Map",
 							"id": "Darga's Cronies Encounter Map",
 							"entries": [
-								"<img",
-								"src='https://www.gmbinder.com/images/HuqkbWn.png'",
-								"style='position:absolute; bottom:250px; right:100px; width:700px' />",
-								"See: {@i Setup} [on page 7](#p7)"
+								"See: {@area Darga's Cronies|Darga's Cronies|x}",
+								"<img src='https://www.gmbinder.com/images/HuqkbWn.png' style='width:700px' />"
 							]
 						},
 						{
@@ -1289,10 +1387,8 @@
 							"name": "Gladiator Match Encounter Map",
 							"id": "Gladiator Match Encounter Map",
 							"entries": [
-								"<img",
-								"src='https://www.gmbinder.com/images/8V3wjuS.png'",
-								"style='position:absolute; bottom:150px; right:90px; width:700px' />",
-								"See: {@i Setup} [on page 13](#p13)"
+								"See: {@area Gladiator Match|Gladiator Match|x}",
+								"<img src='https://www.gmbinder.com/images/8V3wjuS.png' style='width:700px' />"
 							]
 						},
 						{
@@ -1300,10 +1396,8 @@
 							"name": "Aviary Attack Encounter Map",
 							"id": "Aviary Attack Encounter Map",
 							"entries": [
-								"<img",
-								"src='https://www.gmbinder.com/images/0t927lh.png'",
-								"style='position:absolute; bottom:300px; right:80px; width:700px' />",
-								"See: {@i Setup} [on page 19](#p19)"
+								"See: {@area Aviary Attack|Aviary Attack|x}",
+								"<img src='https://www.gmbinder.com/images/0t927lh.png' style='width:700px' />"
 							]
 						},
 						{
@@ -1311,10 +1405,8 @@
 							"name": "A Knife in the Dark Encounter Map",
 							"id": "A Knife in the Dark Encounter Map",
 							"entries": [
-								"<img",
-								"src='https://www.gmbinder.com/images/huLDXmT.png'",
-								"style='position:absolute; bottom:100px; right:120px; width:600px' />",
-								"See: {@i Setup} [on page 21](#p21)"
+								"See: {@area A Knife in the Dark|A Knife in the Dark|x}",
+								"<img src='https://www.gmbinder.com/images/huLDXmT.png' style=' width:600px' />"
 							]
 						},
 						{
@@ -1322,10 +1414,8 @@
 							"name": "Into the Dungeons Encounter Map",
 							"id": "Into the Dungeons Encounter Map",
 							"entries": [
-								"<img",
-								"src='https://www.gmbinder.com/images/01nJYwe.png'",
-								"style='position:absolute; bottom:100px; right:120px; width:600px' />",
-								"See: {@i Setup} [on page 24](#p24)"
+								"See: {@area Into the Dungeons|Into the Dungeons|x}",
+								"<img src='https://www.gmbinder.com/images/01nJYwe.png' style='width:600px' />"
 							]
 						},
 						{
@@ -1333,10 +1423,8 @@
 							"name": "Out of Captivity Encounter Map",
 							"id": "Out of Captivity Encounter Map",
 							"entries": [
-								"<img",
-								"src='https://www.gmbinder.com/images/iIo4y0F.png'",
-								"style='position:absolute; bottom:50px; right:120px; width:600px' />",
-								"See: {@i Setup} [on page 28](#p28)"
+								"See: {@area Out of Captivity|Out of Captivity|x}",
+								"<img src='https://www.gmbinder.com/images/iIo4y0F.png' style=' width:600px' />"
 							]
 						},
 						{
@@ -1344,8 +1432,8 @@
 							"name": "Confrontation with Demos Encounter Map",
 							"id": "Confrontation with Demos Encounter Map",
 							"entries": [
-								"<img src='https://www.gmbinder.com/images/tsczkm8.png' style='position:absolute; bottom:50px; right:150px; width:500px' />",
-								"See: {@i Setup} [on page 30](#p30)"
+								"See: {@area Confrontation with Demos|Confrontation with Demos|x}",
+								"<img src='https://www.gmbinder.com/images/tsczkm8.png' style='width:500px' />"
 							]
 						},
 						{
