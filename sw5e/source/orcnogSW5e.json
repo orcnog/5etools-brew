@@ -18478,20 +18478,13 @@
 					]
 				}
 			],
-			"reaction": [],
 			"environment": [
 				"Urban"
 			],
-			"soundClip": null,
-			"traitTags": [],
-			"senseTags": null,
 			"actionTags": [
 				"Blaster Pistol",
 				"Vibroblade"
 			],
-			"damageTags": null,
-			"miscTags": null,
-			"conditionInflict": null,
 			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-viper-gang-member.webp"
 		},
 		{
