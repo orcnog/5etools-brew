@@ -5,7 +5,7 @@
 			{
 				"json": "orcnogSW5e",
 				"abbreviation": "SW5e",
-				"full": "SW5e",
+				"full": "SW5e Spells",
 				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/spells/spells.json",
 				"authors": [],
 				"convertedBy": [
@@ -18358,6 +18358,6 @@
 			"entries": ["<p>For the duration, you gain the following benefits:</p>\n<ul>\n<li>You are immune to the <em>homing rockets</em> tech power. </li>\n<li>You and objects you are wearing or carrying cannot be detected by tech powers that reveal your location, such as <em>scan area</em> or <em>frequency scan</em>, unless the caster makes a successful Intelligence saving throw. </li>\n<li>Creatures have disadvantage on Wisdom (Survival) checks to track you.</li></ul>"],
 			"damageInflict": [],
 			"savingThrow": ""
-		}        
+		}
 	]
 }
