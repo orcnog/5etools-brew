@@ -65,7 +65,7 @@
 				{
 					"name": "Hold-Out",
 					"entries": [
-						"{@atk rw} {@hit 2} to hit, range 30/120 ft., one target. Hit 2 ({@damage 1d4}) energy damage. Reload 6."
+						"{@atk rw} {@hit 2} to hit, range 30/120 ft., one target. {@h} 2 ({@damage 1d4}) energy damage. Reload 6."
 					]
 				}
 			],
@@ -124,13 +124,13 @@
 				{
 					"name": "Vibroblade",
 					"entries": [
-						"<i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one target. <i>Hit:</i> 6 (1d8 + 2) kinetic damage."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 (1d8 + 2) kinetic damage."
 					]
 				},
 				{
 					"name": "Blaster Pistol",
 					"entries": [
-						"<i>Ranged Weapon Attack:</i> +4 to hit, range 40/160 ft., one target. <i>Hit:</i> 5 (1d6 + 2) energy damage."
+						"{@atk rw}} {@hit 4} to hit, range 40/160 ft., one target. {@h}5 (1d6 + 2) energy damage."
 					]
 				}
 			],
@@ -151,7 +151,7 @@
 			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-viper-gang-member.webp"
 		},
 		{
-			"name": "Viper on Swoop Bike 2",
+			"name": "Viper on Swoop Bike",
 			"source": "orcnogSW5e",
 			"_copy": {
 				"name": "Viper Gang Member",
@@ -168,79 +168,6 @@
 			"speed": {
 				"walk": 60
 			}
-		},
-		{
-			"name": "Viper on Swoop Bike",
-			"source": "orcnogSW5e",
-			"page": "0",
-			"size": [
-				"Medium"
-			],
-			"type": "Humanoid",
-			"alignment": [
-				"N",
-				"E"
-			],
-			"ac": [
-				{
-					"ac": 15,
-					"from": [
-						"Combat Suit + bike"
-					]
-				}
-			],
-			"hp": {
-				"average": 14,
-				"formula": "3d8"
-			},
-			"speed": {
-				"walk": 60
-			},
-			"str": 11,
-			"dex": 14,
-			"con": 14,
-			"int": 10,
-			"wis": 10,
-			"save": {},
-			"skill": {},
-			"senses": [],
-			"passive": 10,
-			"immune": [],
-			"conditionImmune": [],
-			"languages": [
-				"Galactic Basic"
-			],
-			"cr": "1/4",
-			"trait": [],
-			"action": [
-				{
-					"name": "Vibroblade",
-					"entries": [
-						"<i>Melee Weapon Attack:</i> +4 to hit, reach 5 ft., one target. <i>Hit:</i> 6 (1d8 + 2) kinetic damage."
-					]
-				},
-				{
-					"name": "Blaster Pistol",
-					"entries": [
-						"<i>Ranged Weapon Attack:</i> +4 to hit, range 40/160 ft., one target. <i>Hit:</i> 5 (1d6 + 2) energy damage."
-					]
-				}
-			],
-			"reaction": [],
-			"environment": [
-				"Urban"
-			],
-			"soundClip": null,
-			"traitTags": [],
-			"senseTags": null,
-			"actionTags": [
-				"Blaster Pistol",
-				"Vibroblade"
-			],
-			"damageTags": null,
-			"miscTags": null,
-			"conditionInflict": null,
-			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-viper-gang-member.webp"
 		},
 		{
 			"name": "Kessra",
@@ -419,7 +346,7 @@
 				{
 					"name": "Heavy Blaster Pistol",
 					"entries": [
-						"{@atk rw} +5, range 40/160 ft, one target. Hit 8 ({@damage 1d8 + 3}) energy damage."
+						"{@atk rw} {@hit 5}, range 40/160 ft, one target. {@h}8 ({@damage 1d8 + 3}) energy damage."
 					]
 				}
 			],
@@ -474,13 +401,13 @@
 				{
 					"name": "Shotgun",
 					"entries": [
-						"{@atk rw} +3, range 30/120 ft, one target. Hit 6 ({@damage 2d4 + 1}) kinetic damage."
+						"{@atk rw} {@hit 3}, range 30/120 ft, one target. {@h}6 ({@damage 2d4 + 1}) kinetic damage."
 					]
 				},
 				{
 					"name": "Vibromace",
 					"entries": [
-						"{@atk mw} +2, range 5ft, one target. Hit 5 ({@damage 1d10}) kinetic damage."
+						"{@atk mw} {@hit 2}, range 5ft, one target. {@h}5 ({@damage 1d10}) kinetic damage."
 					]
 				},
 				{
@@ -577,7 +504,7 @@
 				{
 					"name": "Excavation Tools",
 					"entries": [
-						"{@atk mw} +4, range 5ft, one target. Hit 5 ({@damage 1d6 + 2}) kinetic damage."
+						"{@atk mw} {@hit 4}, range 5ft, one target. {@h}5 ({@damage 1d6 + 2}) kinetic damage."
 					]
 				}
 			],
@@ -701,7 +628,7 @@
 				{
 					"name": "Hold-Out Blaster",
 					"entries": [
-						"{@atk rw} {@hit 3} to hit, range 30/120, one target. Hit 1 ({@damage 1d4 - 1}) energy damage"
+						"{@atk rw} {@hit 3} to hit, range 30/120, one target. {@h}1 ({@damage 1d4 - 1}) energy damage"
 					]
 				},
 				{
@@ -713,13 +640,13 @@
 				{
 					"name": "Slam",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. Hit 6 ({@damage 1d8 + 2}) kinetic damage, and the target must succeed on a Dexterity saving throw ({@dc 16}) or become {@condition grappled}."
+						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) kinetic damage, and the target must succeed on a Dexterity saving throw ({@dc 16}) or become {@condition grappled}."
 					]
 				},
 				{
 					"name": "Tail",
 					"entries": [
-						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. Hit 11 ({@damage 2d8 + 2}) kinetic damage, and the target is knocked {@condition prone}."
+						"{@atk mw} {@hit 6} to hit, reach 10 ft., one target. {@h}11 ({@damage 2d8 + 2}) kinetic damage, and the target is knocked {@condition prone}."
 					]
 				}
 			],
@@ -815,11 +742,21 @@
 			],
 			"action": [
 				{
-					"name": "Blaster Carbine Ranged Weapon Attack",
+					"name": "Blaster Carbine",
 					"entries": [
-						"+5, range 60/240 ft, one target. Hit 6 ({@damage 1d6 + 3}) energy damage.",
-						"Grenade, Electrostun (3/Day) Ranged Weapon Attack: Grenade Launcher, range 80/360 ft. Each creature within 10 feet must make a {@dc 13} Dexterity saving throw. A creature takes 3 ({@damage 1d6}) lightning damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is {@condition stunned} until the end of its next turn.",
-						"Grenade, Frag (3/Day) Ranged Weapon Attack: Grenade Launcher, range 80/360 ft. Each creature within 10 feet must make a {@dc 13} Dexterity saving throw. A creature takes 7 ({@damage 2d6}) kinetic damage on a failed save, or half as much as on a successful one."
+						"{@atk rw} {@hit 5}, range 60/240 ft, one target. {@h}6 ({@damage 1d6 + 3}) energy damage."
+					]
+				},
+				{
+					"name": "Grenade, Electrostun (3/Day)",
+					"entries": [
+						"Grenade Launcher, {@atk rw} range 80/360 ft. Each creature within 10 feet must make a {@dc 13} Dexterity saving throw. A creature takes 3 ({@damage 1d6}) lightning damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is {@condition stunned} until the end of its next turn."
+					]
+				},
+				{
+					"name": "Grenade, Frag (3/Day)",
+					"entries": [
+						"Grenade Launcher, {@atk rw} range 80/360 ft. Each creature within 10 feet must make a {@dc 13} Dexterity saving throw. A creature takes 7 ({@damage 2d6}) kinetic damage on a failed save, or half as much as on a successful one."
 					]
 				}
 			],
@@ -924,9 +861,9 @@
 			],
 			"action": [
 				{
-					"name": "Vibroaxe Melee Weapon Attack",
+					"name": "Vibroaxe",
 					"entries": [
-						"+6, range 5ft, one target. Hit 11 ({@damage 1d10 + 6}) kinetic damage."
+						"{@atk mw} {@hit 6}, range 5ft, one target. {@h}11 ({@damage 1d10 + 6}) kinetic damage."
 					]
 				}
 			],
@@ -995,13 +932,13 @@
 				{
 					"name": "Heavy Blaster Pistol",
 					"entries": [
-						"{@atk rw} +5, range 40/160 ft, one target. Hit 8 ({@damage 1d8 + 3}) energy damage."
+						"{@atk rw} {@hit 5}, range 40/160 ft, one target. {@h}8 ({@damage 1d8 + 3}) energy damage."
 					]
 				},
 				{
 					"name": "Vibrodagger",
 					"entries": [
-						"{@atk mw} +5, range 5 ft, one target. Hit 5 ({@dice 1d4 + 3})"
+						"{@atk mw} {@hit 5}, range 5 ft, one target. {@h}5 ({@dice 1d4 + 3})"
 					]
 				}
 			],
@@ -1079,9 +1016,9 @@
 			],
 			"action": [
 				{
-					"name": "Talons Melee Weapon Attack",
+					"name": "Talons",
 					"entries": [
-						"+5, range 5ft, one target. Hit 6 ({@damage 1d6 + 3}) kinetic damage."
+						"{@atk mw} {@hit 5}, range 5ft, one target. {@h}6 ({@damage 1d6 + 3}) kinetic damage."
 					]
 				}
 			],
@@ -1167,7 +1104,7 @@
 				{
 					"name": "Blaster Pistol",
 					"entries": [
-						"{@atk rw} +4, range 40/160 ft, one target. Hit 5 ({@damage 1d6 + 2}) energy damage."
+						"{@atk rw} {@hit 4}, range 40/160 ft, one target. {@h}5 ({@damage 1d6 + 2}) energy damage."
 					]
 				},
 				{
@@ -1179,7 +1116,7 @@
 				{
 					"name": "Vibrodagger",
 					"entries": [
-						"{@atk mw} +4, range 5 ft, one target. Hit 4 ({@dice 1d4 + 2})"
+						"{@atk mw} {@hit 4}, range 5 ft, one target. {@h}4 ({@dice 1d4 + 2})"
 					]
 				}
 			],
@@ -1270,7 +1207,7 @@
 				{
 					"name": "Vibrodagger",
 					"entries": [
-						"{@atk mw} +5, range 5 ft, one target. Hit 5 ({@dice 1d4 + 2})"
+						"{@atk mw} {@hit 5}, range 5 ft, one target. {@h}5 ({@dice 1d4 + 2})"
 					]
 				}
 			],
@@ -1338,7 +1275,7 @@
 				{
 					"name": "Bowcaster",
 					"entries": [
-						"{@atk rw} +4, range 40/160 ft, one target. Hit 8 ({@damage 1d10 + 3}) energy damage."
+						"{@atk rw} {@hit 4}, range 40/160 ft, one target. {@h}8 ({@damage 1d10 + 3}) energy damage."
 					]
 				},
 				{
@@ -1350,7 +1287,7 @@
 				{
 					"name": "Wookie Claws",
 					"entries": [
-						"{@atk mw} +3, range 5 ft, one target. Hit 3 ({@damage 1d4 + 1}) kinetic damage."
+						"{@atk mw} {@hit 3}, range 5 ft, one target. {@h}3 ({@damage 1d4 + 1}) kinetic damage."
 					]
 				}
 			],
@@ -1432,9 +1369,9 @@
 			],
 			"action": [
 				{
-					"name": "Vibroaxe Melee Weapon Attack",
+					"name": "Vibroaxe",
 					"entries": [
-						"+4, range 5ft, one target. Hit 8 ({@damage 1d10 + 3}) kinetic damage."
+						"{@atk mw} {@hit 4}, range 5ft, one target. {@h}8 ({@damage 1d10 + 3}) kinetic damage."
 					]
 				}
 			],
@@ -1515,9 +1452,9 @@
 			],
 			"action": [
 				{
-					"name": "Vibroaxe Melee Weapon Attack",
+					"name": "Vibroaxe",
 					"entries": [
-						"+6, range 5ft, one target. Hit 11 ({@damage 1d10 + 6}) kinetic damage."
+						"{@atk mw} {@hit 6}, range 5ft, one target. {@h}11 ({@damage 1d10 + 6}) kinetic damage."
 					]
 				}
 			],
@@ -1606,13 +1543,13 @@
 				{
 					"name": "Blaster Rifle",
 					"entries": [
-						"{@atk rw} +3, range 100/400 ft, one target. Hit 5 ({@damage 1d8 + 1}) energy damage."
+						"{@atk rw} {@hit 3}, range 100/400 ft, one target. {@h}5 ({@damage 1d8 + 1}) energy damage."
 					]
 				},
 				{
 					"name": "Gamorrean Vibroblade",
 					"entries": [
-						"{@atk mw} +6, range 5ft, one target. Hit 10 ({@damage 1d8 + 6}) kinetic damage."
+						"{@atk mw} {@hit 6}, range 5ft, one target. {@h}10 ({@damage 1d8 + 6}) kinetic damage."
 					]
 				}
 			],
@@ -1714,7 +1651,10 @@
 					"gamorrean"
 				]
 			},
-			"alignment": "chaotic dark",
+			"alignment": [
+				"C",
+				"E"
+			],
 			"ac": [
 				{
 					"ac": 15,
@@ -1750,7 +1690,7 @@
 				"Gamorrese",
 				"Galactic Basic (understands but can't speak.)"
 			],
-			"cr": "CR 1/2",
+			"cr": "1/2",
 			"trait": [
 				{
 					"name": "Reckless",
@@ -1769,13 +1709,13 @@
 				{
 					"name": "Blaster Pistol",
 					"entries": [
-						"{@atk rw} +3, range 40/160, one target. *Hit* 4 ({@dice 1d6 + 1})"
+						"{@atk rw} {@hit 3}, range 40/160, one target. {@h}4 ({@dice 1d6 + 1})"
 					]
 				},
 				{
 					"name": "Electrobaton",
 					"entries": [
-						"{@atk mw} +4, range 5ft, one target. *Hit* 4 ({@damage 1d4 + 2}) kinetic damage. A creature struck by the Gamorrean Jailer must make a {@dc 13} constitution save or take {@damage 1d4} lightning damage and become shocked until the end of its next turn."
+						"{@atk mw} {@hit 4}, range 5ft, one target. {@h}4 ({@damage 1d4 + 2}) kinetic damage. A creature struck by the Gamorrean Jailer must make a {@dc 13} constitution save or take {@damage 1d4} lightning damage and become shocked until the end of its next turn."
 					]
 				}
 			],
@@ -1929,9 +1869,15 @@
 			],
 			"action": [
 				{
-					"name": "Multiattack The Trandoshan Bodyguard makes two Blaster Rifle attacks Blaster Rifle Ranged Weapon Attack",
+					"name": "Multiattack",
 					"entries": [
-						"+4, range 100/400 ft, one target. Hit 6 ({@damage 1d8 + 2}) energy damage."
+						"The Trandoshan Bodyguard makes two Blaster Rifle attacks."
+					]
+				},
+				{
+					"name": "Blaster Rifle",
+					"entries": [
+						"{@atk rw} {@hit 4}, range 100/400 ft, one target. {@h}6 ({@damage 1d8 + 2}) energy damage."
 					]
 				}
 			],
