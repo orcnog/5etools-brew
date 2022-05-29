@@ -160,7 +160,10 @@
 			],
 			"speed": {
 				"walk": 60
-			}
+			},
+			"environment": [
+				"Urban"
+			]
 		},
 		{
 			"name": "Kessra",
