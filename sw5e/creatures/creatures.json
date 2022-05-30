@@ -1618,6 +1618,79 @@
 				"Neimoidian"
 			],
 			"cr": "9",
+			"spellcasting": [
+				{
+					"name": "Forcecasting",
+					"headerEntries": [
+						"Jedi Master Denia is an 16th-level forcecaster. Her forcecasting ability is Wisdom (power save {@dc 19}, {@hit 11} to hit with force attacks) and she has 54 force points. Denia knows the following force powers:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell force push/pull|orcnogSW5e}",
+								"{@spell force disarm|orcnogSW5e}",
+								"{@spell give life|orcnogSW5e}",
+								"{@spell guidance|orcnogSW5e}",
+								"{@spell saber reflect|orcnogSW5e}",
+								"{@spell turbulence|orcnogSW5e}"
+							]
+						},
+						"1": {
+							"slots": 4,
+							"spells": [
+								"{@spell battle precognition|orcnogSW5e}",
+								"{@spell burst of speed|orcnogSW5e}",
+								"{@spell heal|orcnogSW5e}",
+								"{@spell phasestrike|orcnogSW5e}",
+								"{@spell project|orcnogSW5e}",
+								"{@spell valor|orcnogSW5e}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell animate weapon|orcnogSW5e}",
+								"{@spell calm emotions|orcnogSW5e}",
+								"{@spell force barrier|orcnogSW5e}",
+								"{@spell force camouflage|orcnogSW5e}",
+								"{@spell force sight|orcnogSW5e}",
+								"{@spell force throw|orcnogSW5e}"
+							]
+						},
+						"3": {
+							"slots": 2,
+							"spells": [
+								"{@spell beacon of hope|orcnogSW5e}",
+								"{@spell knight speed|orcnogSW5e}",
+								"{@spell sever force|orcnogSW5e}",
+								"{@spell telekinetic storm|orcnogSW5e}"
+							]
+						},
+						"4": {
+							"slots": 2,
+							"spells": [
+								"{@spell force immunity|orcnogSW5e}",
+								"{@spell improved force camouflage|orcnogSW5e}"
+							]
+						},
+						"5": {
+							"slots": 2,
+							"spells": [
+								"{@spell improved phasestrike|orcnogSW5e}",
+								"{@spell mass animation|orcnogSW5e}",
+								"{@spell telekinesis|orcnogSW5e}"
+							]
+						},
+						"6": {
+							"slots": 1,
+							"spells": [
+								"{@spell telekinetic burst|orcnogSW5e}"
+							]
+						}
+					},
+					"ability": "wis"
+				}
+			],
 			"trait": [
 				{
 					"name": "Defiant",
@@ -1629,12 +1702,6 @@
 					"name": "War Caster",
 					"entries": [
 						"War Caster Jedi Master Denia has advantage on Constitution saving throws that it makes to maintain it's concentration on a power when it takes damage."
-					]
-				},
-				{
-					"name": "Forcecasting",
-					"entries": [
-						"Jedi Master Denia is a 16th-level forcecaster. Her forcecasting ability is Wisdom (power save {@dc 19}, {@hit 11} to hit with force attacks) and she has 54 force points. Denia knows the following force powers: At-will: {@spell force push/pull|orcnogSW5e}, {@spell force disarm|orcnogSW5e}, {@spell give life|orcnogSW5e}, {@spell guidance|orcnogSW5e}, {@spell saber reflect|orcnogSW5e}, {@spell turbulence|orcnogSW5e} 1st-level: {@spell battle precognition|orcnogSW5e}, {@spell burst of speed|orcnogSW5e}, {@spell heal|orcnogSW5e}, {@spell phasestrike|orcnogSW5e}, {@spell project|orcnogSW5e}, {@spell valor|orcnogSW5e} 2nd-level: {@spell animate weapon|orcnogSW5e}, {@spell calm emotions|orcnogSW5e}, {@spell force barrier|orcnogSW5e}, {@spell force camouflage|orcnogSW5e}, {@spell force sight|orcnogSW5e}, {@spell force throw|orcnogSW5e} 3rd-level: {@spell beacon of hope|orcnogSW5e}, {@spell knight speed|orcnogSW5e}, {@spell sever force|orcnogSW5e}, {@spell telekinetic storm|orcnogSW5e} 4th-level: {@spell force immunity|orcnogSW5e}, {@spell improved force camouflage|orcnogSW5e} 5th-level: {@spell improved phasestrike|orcnogSW5e}, {@spell mass animation|orcnogSW5e}, {@spell telekinesis|orcnogSW5e} 6th-level: {@spell telekinetic burst|orcnogSW5e}"
 					]
 				}
 			],
@@ -1787,6 +1854,43 @@
 				"Pak Pak"
 			],
 			"cr": "2",
+			"spellcasting": [
+				{
+					"name": "Forcecasting",
+					"headerEntries": [
+						"Igren Demos is a 5th-level forcecaster. His forcecasting ability is Charisma (power save {@dc 14}, {@hit 6} to hit with force attacks) and he has 23 force points. Igren Demos knows the following force powers:"
+					],
+					"spells": {
+						"0": {
+							"spells": [
+								"{@spell affect mind|orcnogSW5e}",
+                                "{@spell force push/pull|orcnogSW5e}"
+							]
+						},
+						"1": {
+							"slots": 3,
+							"spells": [
+								"{@spell battle precognition|orcnogSW5e}",
+                                "{@spell disperse force|orcnogSW5e}",
+                                "{@spell tremor|orcnogSW5e}"
+							]
+						},
+						"2": {
+							"slots": 3,
+							"spells": [
+								"{@spell force throw|orcnogSW5e}"
+							]
+						},
+						"3": {
+							"slots": 2,
+							"spells": [
+								"{@spell sever force|orcnogSW5e}"
+							]
+						}
+					},
+					"ability": "cha"
+				}
+			],
 			"trait": [
 				{
 					"name": "Grovel, Cower, Beg",
@@ -1798,12 +1902,6 @@
 					"name": "Careful Power",
 					"entries": [
 						"Igren Demos can spend an additional force point when casting a power that forces a saving throw to allow up to 4 creatures to automatically succeed."
-					]
-				},
-				{
-					"name": "Forcecasting",
-					"entries": [
-						"Igren Demos is a 5th-level forcecaster. His forcecasting ability is Charisma (power save {@dc 14}, {@hit 6} to hit with force attacks) and he has 23 force points. Igren Demos knows the following force powers: At-will: {@spell affect mind|orcnogSW5e}, {@spell force push/pull|orcnogSW5e} 1st-level: {@spell battle precognition|orcnogSW5e}, {@spell disperse force|orcnogSW5e}, {@spell tremor|orcnogSW5e} 2nd-level: {@spell force throw|orcnogSW5e} 3rd-level: {@spell sever force|orcnogSW5e}"
 					]
 				}
 			],
@@ -1898,6 +1996,81 @@
 				}
 			],
 			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-trandoshan1.webp"
-		}
+		},
+        {
+            "name": "3PO Series Protocol Droid",
+            "source": "orcnogSW5e",
+            "page": 0,
+            "size": [
+                "M"
+            ],
+            "type": "droid",
+            "alignment": [
+                "U"
+            ],
+            "ac": [
+                {
+                    "ac": 10,
+                    "from": [
+                        "armor plating"
+                    ]
+                }
+            ],
+            "hp": {
+                "average": 18,
+                "formula": "4d8"
+            },
+            "speed": {
+                "walk": 25
+            },
+            "str": 10,
+            "dex": 8,
+            "con": 11,
+            "int": 14,
+            "wis": 12,
+            "cha": 11,
+            "skill": {
+                "lore": "+4",
+                "persuasion": "+2"
+            },
+            "senses": [
+                "darkvision 60 ft."
+            ],
+            "passive": 11,
+            "resist": [
+                "necrotic",
+                "poison",
+                "psychic"
+            ],
+            "vulnerable": [
+                "ion",
+                "lightning"
+            ],
+            "conditionImmune": [
+                "diseased",
+                "poisoned"
+            ],
+            "languages": [
+                "all registered languages"
+            ],
+            "cr": "0",
+            "action": [
+                {
+                    "name": "Strike",
+                    "entries": [
+                        "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}1 kinetic damage."
+                    ]
+                }
+            ],
+            "senseTags": [
+                "D"
+            ],
+            "languageTags": [
+                "XX"
+            ],
+            "miscTags": [
+                "MW"
+            ]
+        }    
 	]
 }
