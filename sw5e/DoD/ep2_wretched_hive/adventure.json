@@ -3,7 +3,7 @@
 		"sources": [
 			{
 				"json": "orcnogDoDEp2",
-				"abbreviation": "DoDEp2",
+				"abbreviation": "SW5eDoD",
 				"full": "Dawn of Defiance, Episode 2: A Wretched Hive",
 				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/ep2_wretched_hive/adventure.json",
 				"authors": ["Rodney Thompson"],
@@ -297,7 +297,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Kessra",
+									"name": "Kessra (1)",
 									"entries": [
 										"Kessra is the Human leader of the Vipers. She built the gang out of a band of former Separatist mercenaries who were stranded on Cato Neimoidia after the end of the Clone Wars. Rather than be taken captive by the newly formed Empire, Kessra led her mercenaries into hiding under the guise of being a swoop gang. After a while, Kessra realized that her Vipers could live well on Cato Neimoidia, and they took over the streets of Zarra. When newcomers arrive, she makes sure that the Vipers are there to demonstrate who runs the show in the city.",
 										{
@@ -409,7 +409,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Warrick Raden",
+									"name": "Warrick Raden (1)",
 									"entries": [
 										"Warrick Raden is a bully and an errand boy in Darga the Hutt's organization. For the most part, Raden is content to throw his weight around, but he is far too paranoid to draw too much attention to himself. A surprise visit by a group of strangers new to Cato Neimoidia is enough to spook Raden, causing him to suspect the worst. Like most other Devaronian males, he's spent a good amount of time exploring the galaxy, but some close run-ins with the authorities have made him extremely wary of dealing with authority figures.",												{
 											"type": "insetReadaloud",
@@ -884,6 +884,11 @@
 										},
 										{
 											"type": "entries",
+											"name": "Kessra (1)",
+											"entries": []
+										},
+										{
+											"type": "entries",
 											"name": "Kessra's Tactics",
 											"entries": [
 												"Kessra's Tactics Kessra is still angry at the heroes for humiliating her in front of the other Vipers, and she has called in favors with her friends on the inside to set up this confrontation. She is not very stealthy, but she tries to hide at the beginning of the encounter. Her first action is to call in the kreehawks (by blowing a whistle, which signals them to attack), and if she can remain hidden, she does. If forced to fight, or if the kreehawks are all taken down, Kessra emerges and attempts to kill the heroes with her heavy blaster pistol."
@@ -1019,7 +1024,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Twi'lek Poisoner",
+									"name": "Twi'lek Poisoner (1)",
 									"entries": [
 										"An agent of the slaver delegation that came to meet with Darga, this Twi'lek pretends to be a slave to better hide her true role. Skilled with a variety of poisons, she is the slavers' clandestine way of dealing with enemies. Igren Demos knows this, but he does not tell his master. In exchange for his silence, the majordomo requires a favor, which he calls in to have the Twi'lek poisoner and the Wookiee slaver (detailed below) assist the Quarren in taking out the heroes.",
 										{
@@ -1039,7 +1044,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Wookie Slaver",
+									"name": "Wookie Slaver (1)",
 									"entries": [
 										"An exile from his homeworld of Kashyyyk and a reviled member of the Wookiee species, this slaver has abandoned the honor of his heritage and embraced a life of violence and destruction. Part of the muscle of the Iron Ring delegation, the Wookiee slaver is a big, brutish warrior who fought as a mercenary for the Separatists in the Clone Wars. His bowcaster is the only evidence that he embraces any aspect of his past, and his ability to drop foes quickly has made him an invaluable addition to the slaver ring.",
 										{
@@ -1140,9 +1145,19 @@
 								},
 								{
 									"type": "entries",
+									"name": "Gamorrean Minions (3))",
+									"entries": []
+								},
+								{
+									"type": "entries",
 									"name": "Gamorrean Minion Tactics",
 									"entries": [
 										"The Gamorrean guards fight with rather straightforward tactics, simply moving up to the heroes and swinging their vibro-axes. Not exceptionally intelligent foes, each guard attacks the nearest enemy, though if reduced to fewer than 8 hit points, they try to flee and seek reinforcements from elsewhere in the palace."											]
+								},
+								{
+									"type": "entries",
+									"name": "Gamorrean Warriors (2)",
+									"entries": []
 								},
 								{
 									"type": "entries",
@@ -1150,6 +1165,11 @@
 									"entries": [
 										"Gamorrean Warriors do one thing well: make melee attacks. Even their simplest attacks deal an average of nearly 11 points of damage, and when using Reckless, they gain advantage. Against armored enemies or foes who are particularly dexterous, the Warriors do not use Reckless, preferring to make more deliberate swings. If an opponent proves easy to hit or damage, the Warriors try to increase their damage in any way possible."
 									]
+								},
+								{
+									"type": "entries",
+									"name": "Gamorrean Warlord (1)",
+									"entries": []
 								},
 								{
 									"type": "entries",
@@ -1370,7 +1390,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Igren Demos",
+									"name": "Igren Demos (1)",
 									"entries": [
 										"Igren Demos has been Darga the Hutt's majordomo for some years now. Even before Darga came to Cato Neimoidia, Demos served him faithfully and helped build the criminal organization into what it is today. In fact, it was Demos who discovered the ruined palace in Zarra, allowing Darga to seize it for his own. Over the years, Demos has been plotting to overthrow Darga and take control of the organization, but for the time being, the majordomo is content to influence events in ways that even the Hutt does not suspect.",
 										"The secret to Demos' success is his Force sensitivity. Though he has never shared the truth with anyone, the Jedi identified him as a potential recruit when he was a child, but his Neimoidian parents refused to let the Jedi take him. Growing up, he learned to use the Force to exert his will over others, and when he came into Darga's service, he brought the same skills into play to build a criminal empire. Demos is not powerful enough to influence his Hutt master, but he continues to use his Force sensitivity in secret to ensure that events occur according to his desires, not necessarily those of the crime lord.",
@@ -1391,6 +1411,11 @@
 								},
 								{
 									"type": "entries",
+									"name": "Gamorrean Warriors (5)",
+									"entries": []
+								},
+								{
+									"type": "entries",
 									"name": "Gamorrean Warrior Tactics",
 									"entries": [
 										"The Gamorrean Warrior fight with rather straightforward tactics, simply moving up to the heroes and swinging their vibro-axes. Not exceptionally intelligent foes, each Warrior attacks the nearest enemy, though if reduced to fewer than 10 hit points, they try to flee and seek reinforcements from elsewhere in the palace."
@@ -1398,7 +1423,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Trandoshan Bodyguard",
+									"name": "Trandoshan Bodyguard (1)",
 									"entries": [
 										"Igren Demos' Trandoshan bodyguard is one of the only denizens of Darga's palace that is not on the Hutt's payroll. The bodyguard serves Demos personally and has done so ever since the palace on Cato Neimoidia was established. The bodyguard is all business, and unlike most Trandoshans, he seems to have abandoned some of his brutal and bloodthirsty nature in favor of protecting his charge at all costs.",
 										{
