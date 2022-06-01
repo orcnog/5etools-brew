@@ -17,8 +17,63 @@
 		"_dateLastModifiedHash": "e5f748a123",
 		"internalCopies": [
 			"monster"
-		]
+		],
+		"skills": {
+			"Piloting": [
+				"Your Intelligence (Piloting) check measures your ability to control vehicles, aircraft, and spaceships. Piloting governs your ability to maneuver through tight spaces and debris fields or dogfight with enemy craft.",
+				"{@homebrew A DnD5e character can count any proficiency in {@skill Vehicles (Land)} or {@skill Vehicles (Water)} as having proficiency in the Piloting skill.}"
+			],
+			"Technology" : [
+				"Your Intelligence (Technology) checks measure your ability to recall information about droids, vehicles, spaceships, aircraft, and computers, as well as your ability to interface with them. Technology can also be used to stabilize a droid or construct.",
+				"{@homebrew A DnD5e character should replace their {@skill Arcana} skill with the Technology skill when determining proficiency.}"
+			],
+			"Lore": [
+				"Your Intelligence (Lore) check measures your ability to recall information about the Force, artifacts, histories, and religions.",
+				"{@homebrew A DnD5e character should replace their {@skill History} and/or {@skill Religion} skills with the Lore skill when determining proficiencies.}"
+			],
+			"Mechanic's Kit": [
+				"This kit contains all of the commonly required tools to make repairs on constructs, such as ships, speeders, and turrets. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to perform repairs or install ship upgrades.",
+				"{@homebrew A DnD5e character should replace their  {@skill Tinker's Tools} skill proficiency with the Mechanic's Kit skill proficiency.}"
+			]
+		},
+		"spellSchools": {
+			"FPL": {
+				"full": "Force Power (Light)",
+				"short": "Lght.",
+				"color": "2c90dd"
+			},
+			"FPD": {
+				"full": "Force Power (Dark)",
+				"short": "Drk.",
+				"color": "#940000"
+			},
+			"FPU": {
+				"full": "Force Power (Universal)",
+				"short": "Uni.",
+				"color": "d29a38"
+			},
+			"TP": {
+				"full": "Tech Power",
+				"short": "Tch.",
+				"color": "008e2f"
+			}
+		}
 	},
+	"item": [
+		{
+			"name": "Mechanic's Kit",
+			"source": "orcnogSW5e",
+			"page": 1,
+			"type": "T",
+			"rarity": "none",
+			"age": "futuristic",
+			"value": 6500,
+			"weight": 25,
+			"entries": [
+				"Mechanic's kits are used to craft and repair vehicles and starships."
+			]
+		}
+	],
 	"spell":
 	[
 		{
@@ -26,11 +81,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 9,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -70,11 +121,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -121,11 +168,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -174,11 +217,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -228,11 +267,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -278,11 +313,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -327,11 +358,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -371,11 +398,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -420,11 +443,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -464,11 +483,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -508,11 +523,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -563,11 +574,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -613,11 +620,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -662,11 +665,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -713,11 +712,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -763,11 +758,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 7,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -814,11 +805,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -869,11 +856,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -919,11 +902,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -968,11 +947,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -1019,11 +994,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -1068,11 +1039,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -1118,11 +1085,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -1168,11 +1131,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -1219,11 +1178,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -1269,11 +1224,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -1318,11 +1269,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -1369,11 +1316,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -1418,11 +1361,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -1472,11 +1411,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -1520,11 +1455,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -1569,11 +1500,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -1620,11 +1547,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -1668,11 +1591,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -1712,11 +1631,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 7,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -1760,11 +1675,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -1811,11 +1722,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -1860,11 +1767,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -1909,11 +1812,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -1958,11 +1857,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -2008,11 +1903,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -2058,11 +1949,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 8,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -2107,11 +1994,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 9,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -2155,11 +2038,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -2204,11 +2083,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -2254,11 +2129,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -2299,11 +2170,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -2348,11 +2215,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -2397,11 +2260,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -2448,11 +2307,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -2502,11 +2357,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -2553,11 +2404,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -2607,11 +2454,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -2656,11 +2499,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 7,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -2700,11 +2539,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -2750,11 +2585,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -2798,11 +2629,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -2852,11 +2679,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -2902,11 +2725,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -2957,11 +2776,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -3007,11 +2822,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -3065,11 +2876,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -3120,11 +2927,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -3164,11 +2967,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -3220,11 +3019,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -3269,11 +3064,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -3320,11 +3111,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -3374,11 +3161,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -3422,11 +3205,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -3471,11 +3250,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -3521,11 +3296,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 8,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -3572,11 +3343,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -3621,11 +3388,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -3669,11 +3432,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -3719,11 +3478,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 8,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -3770,11 +3525,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 9,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -3814,11 +3565,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -3867,11 +3614,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -3916,11 +3659,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 9,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -3965,11 +3704,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -4009,11 +3744,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -4057,11 +3788,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -4107,11 +3834,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -4157,11 +3880,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -4207,11 +3926,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -4251,11 +3966,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -4302,11 +4013,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 8,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -4352,11 +4059,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -4405,11 +4108,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -4458,11 +4157,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -4507,11 +4202,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -4558,11 +4249,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -4608,11 +4295,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -4657,11 +4340,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 8,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -4706,11 +4385,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -4754,11 +4429,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -4798,11 +4469,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -4847,11 +4514,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -4896,11 +4559,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -4941,11 +4600,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -4992,11 +4647,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -5042,11 +4693,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -5092,11 +4739,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -5141,11 +4784,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -5193,11 +4832,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 9,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -5248,11 +4883,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -5298,11 +4929,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -5349,11 +4976,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -5404,11 +5027,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -5454,11 +5073,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -5508,11 +5123,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -5561,11 +5172,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -5610,11 +5217,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -5661,11 +5264,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -5706,11 +5305,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -5751,11 +5346,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -5804,11 +5395,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 9,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -5854,11 +5441,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 7,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -5904,11 +5487,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -5954,11 +5533,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 8,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -6003,11 +5578,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -6047,11 +5618,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -6096,11 +5663,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -6146,11 +5709,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -6200,11 +5759,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -6249,11 +5804,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -6304,11 +5855,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -6359,11 +5906,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -6409,11 +5952,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -6458,11 +5997,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -6507,11 +6042,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 7,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -6556,11 +6087,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -6605,11 +6132,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -6656,11 +6179,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -6705,11 +6224,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -6754,11 +6269,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -6803,11 +6314,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -6852,11 +6359,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -6907,11 +6410,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 9,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -6956,11 +6455,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -7011,11 +6506,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 9,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -7066,11 +6557,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -7120,11 +6607,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -7170,11 +6653,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -7221,11 +6700,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -7278,11 +6753,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -7329,11 +6800,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -7380,11 +6847,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -7430,11 +6893,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -7483,11 +6942,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -7537,11 +6992,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -7588,11 +7039,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -7639,11 +7086,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -7689,11 +7132,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -7744,11 +7183,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -7792,11 +7227,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -7841,11 +7272,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -7890,11 +7317,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -7939,11 +7362,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -7987,11 +7406,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -8038,11 +7453,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -8087,11 +7498,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -8142,11 +7549,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 7,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -8193,11 +7596,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -8250,11 +7649,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -8301,11 +7696,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 7,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -8354,11 +7745,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -8405,11 +7792,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 8,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -8460,11 +7843,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -8504,11 +7883,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -8553,11 +7928,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -8602,11 +7973,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -8651,11 +8018,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -8695,11 +8058,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -8750,11 +8109,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -8799,11 +8154,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 8,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -8850,11 +8201,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -8895,11 +8242,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -8944,11 +8287,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -8995,11 +8334,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -9039,11 +8374,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -9084,11 +8415,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 8,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -9133,11 +8460,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -9183,11 +8506,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -9232,11 +8551,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -9276,11 +8591,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -9325,11 +8636,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -9375,11 +8682,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -9425,11 +8728,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -9475,11 +8774,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -9525,11 +8820,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -9576,11 +8867,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -9626,11 +8913,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -9670,11 +8953,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -9720,11 +8999,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -9771,11 +9046,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 8,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -9826,11 +9097,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -9877,11 +9144,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 9,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -9922,11 +9185,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 7,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -9973,11 +9232,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -10022,11 +9277,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -10080,11 +9331,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -10129,11 +9376,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -10178,11 +9421,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -10222,11 +9461,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -10273,11 +9508,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -10322,11 +9553,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -10372,11 +9599,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -10425,11 +9648,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -10469,11 +9688,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -10519,11 +9734,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -10572,11 +9783,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -10630,11 +9837,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -10680,11 +9883,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 8,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -10730,11 +9929,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -10779,11 +9974,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -10828,11 +10019,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 7,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -10883,11 +10070,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -10934,11 +10117,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 7,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -10979,11 +10158,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -11029,11 +10204,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "N",
-			"subschools":
-			[
-				"Force Power (Dark)"
-			],
+			"school": "FPD",
 			"time":
 			[
 				{
@@ -11084,11 +10255,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -11138,11 +10305,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "V",
-			"subschools":
-			[
-				"Force Power (Light)"
-			],
+			"school": "FPL",
 			"time":
 			[
 				{
@@ -11189,11 +10352,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "A",
-			"subschools":
-			[
-				"Force Power (Unified)"
-			],
+			"school": "FPU",
 			"time":
 			[
 				{
@@ -11240,8 +10399,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 8,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -11275,8 +10433,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -11308,8 +10465,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "reaction"
@@ -11339,8 +10495,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -11373,8 +10528,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -11408,8 +10562,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -11441,8 +10594,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "reaction"
@@ -11473,8 +10625,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -11504,8 +10655,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -11536,8 +10686,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -11568,8 +10717,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -11601,8 +10749,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -11633,8 +10780,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -11664,8 +10810,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 7,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "reaction"
@@ -11696,8 +10841,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -11730,8 +10874,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -11764,8 +10907,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 7,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -11791,8 +10933,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -11820,8 +10961,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -11851,8 +10991,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -11886,8 +11025,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -11917,8 +11055,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -11950,8 +11087,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -11979,8 +11115,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12012,8 +11147,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "bonus"
@@ -12042,8 +11176,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "reaction"
@@ -12069,8 +11202,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12101,8 +11233,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "bonus"
@@ -12133,8 +11264,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "minute"
@@ -12164,8 +11294,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12191,8 +11320,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12223,8 +11351,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12254,8 +11381,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12285,8 +11411,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12318,8 +11443,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12352,8 +11476,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12384,8 +11507,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12419,8 +11541,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12447,8 +11568,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12480,8 +11600,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12510,8 +11629,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12545,8 +11663,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12572,8 +11689,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 7,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "bonus"
@@ -12600,8 +11716,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12633,8 +11748,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12663,8 +11777,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12694,8 +11807,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "bonus"
@@ -12728,8 +11840,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12758,8 +11869,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12791,8 +11901,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 8,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12823,8 +11932,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12855,8 +11963,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "bonus"
@@ -12887,8 +11994,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12921,8 +12027,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12953,8 +12058,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -12984,8 +12088,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13018,8 +12121,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13050,8 +12152,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13080,8 +12181,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13112,8 +12212,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13142,8 +12241,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "bonus"
@@ -13169,8 +12267,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 9,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "minute"
@@ -13200,8 +12297,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "minute"
@@ -13227,8 +12323,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13260,8 +12355,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13290,8 +12384,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13318,8 +12411,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 0,
 				"unit": "none"
@@ -13347,8 +12439,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13377,8 +12468,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13407,8 +12497,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13440,8 +12529,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13468,8 +12556,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 9,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13498,8 +12585,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13528,8 +12614,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13560,8 +12645,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13589,8 +12673,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 7,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13623,8 +12706,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13654,8 +12736,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13687,8 +12768,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13718,8 +12798,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13752,8 +12831,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 10,
 				"unit": "minute"
@@ -13784,8 +12862,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13815,8 +12892,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "minute"
@@ -13842,8 +12918,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13875,8 +12950,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 9,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13905,8 +12979,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13940,8 +13013,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13971,8 +13043,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -13999,8 +13070,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 7,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -14032,8 +13102,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -14065,8 +13134,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -14098,8 +13166,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "bonus"
@@ -14133,8 +13200,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -14163,8 +13229,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "reaction"
@@ -14193,8 +13258,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -14223,8 +13287,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 10,
 				"unit": "minute"
@@ -14254,8 +13317,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -14286,8 +13348,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -14319,8 +13380,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -14352,8 +13412,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -14380,8 +13439,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -14410,8 +13468,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -14444,8 +13501,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "reaction"
@@ -14476,8 +13532,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -14508,8 +13563,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -14539,8 +13593,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "hour"
@@ -14567,8 +13620,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -14601,8 +13653,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -14634,8 +13685,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -14669,8 +13719,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -14698,8 +13747,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "hour"
@@ -14731,8 +13779,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -14759,8 +13806,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 8,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "hour"
@@ -14791,8 +13837,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -14821,8 +13866,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 8,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -14853,8 +13897,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -14884,8 +13927,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -14915,8 +13957,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 7,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -14947,8 +13988,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 10,
 				"unit": "minute"
@@ -14974,8 +14014,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 9,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15002,8 +14041,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15030,8 +14068,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15061,8 +14098,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "bonus"
@@ -15095,8 +14131,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15124,8 +14159,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15156,8 +14190,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 7,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15189,8 +14222,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 10,
 				"unit": "minute"
@@ -15220,8 +14252,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15253,8 +14284,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "minute"
@@ -15285,8 +14315,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "reaction"
@@ -15316,8 +14345,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15348,8 +14376,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15380,8 +14407,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15410,8 +14436,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15441,8 +14466,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 9,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15472,8 +14496,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15507,8 +14530,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15539,8 +14561,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15571,8 +14592,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15604,8 +14624,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15636,8 +14655,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "minute"
@@ -15668,8 +14686,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15701,8 +14718,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15736,8 +14752,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15765,8 +14780,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15796,8 +14810,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "reaction"
@@ -15824,8 +14837,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15857,8 +14869,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15889,8 +14900,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "minute"
@@ -15920,8 +14930,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15954,8 +14963,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -15983,8 +14991,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16016,8 +15023,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16045,8 +15051,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16075,8 +15080,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "reaction"
@@ -16107,8 +15111,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16142,8 +15145,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16175,8 +15177,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 10,
 				"unit": "minute"
@@ -16203,8 +15204,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16236,8 +15236,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16266,8 +15265,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16297,8 +15295,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16327,8 +15324,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16360,8 +15356,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "bonus"
@@ -16393,8 +15388,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16425,8 +15419,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16455,8 +15448,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16488,8 +15480,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16519,8 +15510,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16549,8 +15539,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16578,8 +15567,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16611,8 +15599,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 9,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16643,8 +15630,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16670,8 +15656,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16702,8 +15687,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 8,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "none"
@@ -16730,8 +15714,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16765,8 +15748,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "reaction"
@@ -16793,8 +15775,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16826,8 +15807,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16856,8 +15836,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16889,8 +15868,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16918,8 +15896,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -16946,8 +15923,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 6,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "minute"
@@ -16978,8 +15954,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17011,8 +15986,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17041,8 +16015,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "bonus"
@@ -17074,8 +16047,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17106,8 +16078,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17136,8 +16107,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17170,8 +16140,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17202,8 +16171,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "bonus"
@@ -17235,8 +16203,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "bonus"
@@ -17265,8 +16232,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "minute"
@@ -17299,8 +16265,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17331,8 +16296,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17362,8 +16326,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17395,8 +16358,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17429,8 +16391,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "bonus"
@@ -17459,8 +16420,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17491,8 +16451,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17523,8 +16482,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17552,8 +16510,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17586,8 +16543,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17616,8 +16572,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17648,8 +16603,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17679,8 +16633,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17710,8 +16663,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17742,8 +16694,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17775,8 +16726,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "bonus"
@@ -17807,8 +16757,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17837,8 +16786,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17868,8 +16816,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17903,8 +16850,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17934,8 +16880,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17965,8 +16910,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 3,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -17995,8 +16939,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -18030,8 +16973,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 7,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -18063,8 +17005,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 5,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -18095,8 +17036,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -18128,8 +17068,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 0,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -18157,8 +17096,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 4,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -18184,8 +17122,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -18213,8 +17150,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -18244,8 +17180,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -18276,8 +17211,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 2,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "bonus"
@@ -18303,8 +17237,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -18335,8 +17268,7 @@
 			"source": "orcnogSW5e",
 			"page": 0,
 			"level": 1,
-			"school": "C",
-			"subschools": ["Tech Power"],
+			"school": "TP",
 			"time": [{
 				"number": 1,
 				"unit": "action"
@@ -20208,15 +19140,15 @@
 						"0": {
 							"spells": [
 								"{@spell affect mind|orcnogSW5e}",
-                                "{@spell force push/pull|orcnogSW5e}"
+								"{@spell force push/pull|orcnogSW5e}"
 							]
 						},
 						"1": {
 							"slots": 3,
 							"spells": [
 								"{@spell battle precognition|orcnogSW5e}",
-                                "{@spell disperse force|orcnogSW5e}",
-                                "{@spell tremor|orcnogSW5e}"
+								"{@spell disperse force|orcnogSW5e}",
+								"{@spell tremor|orcnogSW5e}"
 							]
 						},
 						"2": {
@@ -20341,80 +19273,80 @@
 			],
 			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-trandoshan1.webp"
 		},
-        {
-            "name": "3PO Series Protocol Droid",
-            "source": "orcnogSW5e",
-            "page": 0,
-            "size": [
-                "M"
-            ],
-            "type": "droid",
-            "alignment": [
-                "U"
-            ],
-            "ac": [
-                {
-                    "ac": 10,
-                    "from": [
-                        "armor plating"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 18,
-                "formula": "4d8"
-            },
-            "speed": {
-                "walk": 25
-            },
-            "str": 10,
-            "dex": 8,
-            "con": 11,
-            "int": 14,
-            "wis": 12,
-            "cha": 11,
-            "skill": {
-                "lore": "+4",
-                "persuasion": "+2"
-            },
-            "senses": [
-                "darkvision 60 ft."
-            ],
-            "passive": 11,
-            "resist": [
-                "necrotic",
-                "poison",
-                "psychic"
-            ],
-            "vulnerable": [
-                "ion",
-                "lightning"
-            ],
-            "conditionImmune": [
-                "diseased",
-                "poisoned"
-            ],
-            "languages": [
-                "all registered languages"
-            ],
-            "cr": "0",
-            "action": [
-                {
-                    "name": "Strike",
-                    "entries": [
-                        "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}1 kinetic damage."
-                    ]
-                }
-            ],
-            "senseTags": [
-                "D"
-            ],
-            "languageTags": [
-                "XX"
-            ],
-            "miscTags": [
-                "MW"
-            ]
-        }        
+		{
+			"name": "3PO Series Protocol Droid",
+			"source": "orcnogSW5e",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "droid",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 10,
+					"from": [
+						"armor plating"
+					]
+				}
+			],
+			"hp": {
+				"average": 18,
+				"formula": "4d8"
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 10,
+			"dex": 8,
+			"con": 11,
+			"int": 14,
+			"wis": 12,
+			"cha": 11,
+			"skill": {
+				"lore": "+4",
+				"persuasion": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"necrotic",
+				"poison",
+				"psychic"
+			],
+			"vulnerable": [
+				"ion",
+				"lightning"
+			],
+			"conditionImmune": [
+				"diseased",
+				"poisoned"
+			],
+			"languages": [
+				"all registered languages"
+			],
+			"cr": "0",
+			"action": [
+				{
+					"name": "Strike",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}1 kinetic damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"XX"
+			],
+			"miscTags": [
+				"MW"
+			]
+		}
 	]
 }
