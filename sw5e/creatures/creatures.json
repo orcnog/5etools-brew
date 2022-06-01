@@ -1864,15 +1864,15 @@
 						"0": {
 							"spells": [
 								"{@spell affect mind|orcnogSW5e}",
-                                "{@spell force push/pull|orcnogSW5e}"
+								"{@spell force push/pull|orcnogSW5e}"
 							]
 						},
 						"1": {
 							"slots": 3,
 							"spells": [
 								"{@spell battle precognition|orcnogSW5e}",
-                                "{@spell disperse force|orcnogSW5e}",
-                                "{@spell tremor|orcnogSW5e}"
+								"{@spell disperse force|orcnogSW5e}",
+								"{@spell tremor|orcnogSW5e}"
 							]
 						},
 						"2": {
@@ -1997,80 +1997,143 @@
 			],
 			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-trandoshan1.webp"
 		},
-        {
-            "name": "3PO Series Protocol Droid",
-            "source": "orcnogSW5e",
-            "page": 0,
-            "size": [
-                "M"
-            ],
-            "type": "droid",
-            "alignment": [
-                "U"
-            ],
-            "ac": [
-                {
-                    "ac": 10,
-                    "from": [
-                        "armor plating"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 18,
-                "formula": "4d8"
-            },
-            "speed": {
-                "walk": 25
-            },
-            "str": 10,
-            "dex": 8,
-            "con": 11,
-            "int": 14,
-            "wis": 12,
-            "cha": 11,
-            "skill": {
-                "lore": "+4",
-                "persuasion": "+2"
-            },
-            "senses": [
-                "darkvision 60 ft."
-            ],
-            "passive": 11,
-            "resist": [
-                "necrotic",
-                "poison",
-                "psychic"
-            ],
-            "vulnerable": [
-                "ion",
-                "lightning"
-            ],
-            "conditionImmune": [
-                "diseased",
-                "poisoned"
-            ],
-            "languages": [
-                "all registered languages"
-            ],
-            "cr": "0",
-            "action": [
-                {
-                    "name": "Strike",
-                    "entries": [
-                        "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}1 kinetic damage."
-                    ]
-                }
-            ],
-            "senseTags": [
-                "D"
-            ],
-            "languageTags": [
-                "XX"
-            ],
-            "miscTags": [
-                "MW"
-            ]
-        }    
+		{
+			"name": "3PO Series Protocol Droid",
+			"source": "orcnogSW5e",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "droid",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 10,
+					"from": [
+						"armor plating"
+					]
+				}
+			],
+			"hp": {
+				"average": 18,
+				"formula": "4d8"
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 10,
+			"dex": 8,
+			"con": 11,
+			"int": 14,
+			"wis": 12,
+			"cha": 11,
+			"skill": {
+				"lore": "+4",
+				"persuasion": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"necrotic",
+				"poison",
+				"psychic"
+			],
+			"vulnerable": [
+				"ion",
+				"lightning"
+			],
+			"conditionImmune": [
+				"diseased",
+				"poisoned"
+			],
+			"languages": [
+				"all registered languages"
+			],
+			"cr": "0",
+			"action": [
+				{
+					"name": "Strike",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}1 kinetic damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"XX"
+			],
+			"miscTags": [
+				"MW"
+			]
+		},
+		{
+			"name": "Trooper",
+			"source": "orcnogSW5e",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"light battle armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 13,
+				"formula": "2d8 + 4"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 16,
+			"con": 15,
+			"int": 9,
+			"wis": 11,
+			"cha": 10,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Galactic Basic",
+				"one other"
+			],
+			"cr": "1/2",
+			"action": [
+				{
+					"name": "Blaster Rifle",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 100/400 ft., one target. {@h}7 ({@damage 1d8 + 3}) energy damage."
+					]
+				},
+				{
+					"name": "Stock Strike",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) kinetic damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		}
 	]
 }
