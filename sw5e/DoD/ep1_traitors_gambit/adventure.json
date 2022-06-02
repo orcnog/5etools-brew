@@ -3,8 +3,8 @@
 		"sources": [
 			{
 				"json": "orcnogDoDEp1",
-				"abbreviation": "SW5eDoD",
-				"full": "Dawn of Defiance, Episode 1: The Traitor's Gambit",
+				"abbreviation": "DoDTTG",
+				"full": "Star Wars: Dawn of Defiance, Episode 1 - The Traitor's Gambit",
 				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/ep1_traitors_gambit/adventure.json",
 				"authors": ["Rodney Thompson"],
 				"convertedBy": [
@@ -16,195 +16,2034 @@
 		"dateLastModified": 1613648837,
 		"_dateLastModifiedHash": "e5f748a123"
 	},
-    "monster": [
-        {
-            "name": "Storm Trooper Recruit",
-            "source": "SW5eDoD",
-            "size": [
-                "M"
-            ],
-            "type": "humanoid",
-            "alignment": [
-                "A"
-            ],
-            "ac": [
-                {
-                    "ac": 15,
-                    "from": [
-                        "light battle armor"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 11,
-                "formula": "2d8 + 2"
-            },
-            "speed": {
-                "walk": 30
-            },
-            "str": 9,
-            "dex": 12,
-            "con": 13,
-            "int": 9,
-            "wis": 11,
-            "cha": 10,
-            "senses": [
-                "darkvision 60 ft."
-            ],
-            "passive": 10,
-            "languages": [
-                "Galactic Basic",
-                "one other"
-            ],
-            "cr": "1/8",
-            "action": [
-                {
-                    "name": "Blaster Rifle",
-                    "entries": [
-                        "{@atk rw} {@hit 5} to hit, range 100/400 ft., one target. {@h}3 ({@damage 1d4 + 1}) energy damage."
-                    ]
-                },
-                {
-                    "name": "Stock Strike",
-                    "entries": [
-                        "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4  -1}) kinetic damage."
-                    ]
-                }
-            ],
-            "senseTags": [
-                "D"
-            ],
-            "miscTags": [
-                "MW",
-                "RW"
-            ]
-        },
-        {
-            "name": "Imperial Informant",
-            "source": "SW5eDoD",
-            "size": [
-                "M"
-            ],
-            "type": "humanoid",
-            "alignment": [
-                "L",
-                "E"
-            ],
-            "ac": [
-                10
-            ],
-            "hp": {
-                "average": 9,
-                "formula": "2d8"
-            },
-            "speed": {
-                "walk": 30
-            },
-            "str": 12,
-            "dex": 10,
-            "con": 10,
-            "int": 11,
-            "wis": 13,
-            "cha": 11,
-            "passive": 13,
-            "languages": [
-                "Galactic Basic"
-            ],
-            "cr": "1/8",
-            "action": [
-                {
-                    "name": "Hold-Out",
-                    "entries": [
-                        "{@atk rw} {@hit 2} to hit, range 30/120 ft., one target. Hit 2 ({@damage 1d4}) energy damage. Reload 6."
-                    ]
-                },
-                {
-                    "name": "Vibrodagger",
-                    "entries": [
-                        "{@atk mw} {@hit 3} to hit, reach 5ft., one target. {@h}3 ({@damage 1d4 + 1}) kinetic damage."
-                    ]
-                }
-            ],
-            "miscTags": [
-                "MW",
-                "RW"
-            ]
-        },
-        {
-            "name": "Maya",
-            "isNamedCreature": true,
-            "source": "SW5eDoD",
-            "page": 0,
-            "size": [
-                "M"
-            ],
-            "type": "humanoid",
-            "alignment": [
-                "C",
-                "G"
-            ],
-            "ac": [
-                {
-                    "ac": 14,
-                    "from": [
-                        "combat suit"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 5,
-                "formula": "1d8 + 1"
-            },
-            "speed": {
-                "walk": 30
-            },
-            "str": 10,
-            "dex": 16,
-            "con": 12,
-            "int": 14,
-            "wis": 10,
-            "cha": 14,
-            "save": {
-                "dex": "+5",
-                "int": "+4"
-            },
-            "passive": 12,
-            "languages": [
-                "Galactic Basic",
-                "Huttese"
-            ],
-            "cr": "1/2",
-            "trait": [
-                {
-                    "name": "Sneak Attack (1/Turn)",
-                    "entries": [
-                        "Maya deals an extra 3 ({@damage 1d6}) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally that isn't incapacitated and she doesn't have disadvantage on the roll."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Blaster Pistol",
-                    "entries": [
-                        "{@atk rw} {@hit 5} to hit, range 40/160 ft., one target. Hit 5 ({@dice 1d6 + 3}). Reload 12."
-                    ]
-                },
-                {
-                    "name": "Vibrodagger",
-                    "entries": [
-                        "{@atk mw} {@hit 2} to hit, reach 5ft., one target. {@h}2 ({@damage 1d4}) kinetic damage."
-                    ]
-                }
-            ],
-            "traitTags": [
-                "Sneak Attack"
-            ],
-            "miscTags": [
-                "MW",
-                "RW"
-            ]
-        }        
-    ],
+	"monster": [
+		{
+			"name": "Trooper, Recruit",
+			"source": "orcnogDoDEp1",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"light battle armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 11,
+				"formula": "2d8 + 2"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 9,
+			"dex": 12,
+			"con": 13,
+			"int": 9,
+			"wis": 11,
+			"cha": 10,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Galactic Basic",
+				"one other"
+			],
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Blaster Rifle",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 100/400 ft., one target. {@h}3 ({@damage 1d4 + 1}) energy damage."
+					]
+				},
+				{
+					"name": "Stock Strike",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}1 ({@damage 1d4  -1}) kinetic damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "Imperial Informant",
+			"source": "orcnogDoDEp1",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 9,
+				"formula": "2d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 12,
+			"dex": 10,
+			"con": 10,
+			"int": 11,
+			"wis": 13,
+			"cha": 11,
+			"passive": 13,
+			"languages": [
+				"Galactic Basic"
+			],
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Hold-Out",
+					"entries": [
+						"{@atk rw} {@hit 2} to hit, range 30/120 ft., one target. Hit 2 ({@damage 1d4}) energy damage. Reload 6."
+					]
+				},
+				{
+					"name": "Vibrodagger",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5ft., one target. {@h}3 ({@damage 1d4 + 1}) kinetic damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "Maya",
+			"isNamedCreature": true,
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"combat suit"
+					]
+				}
+			],
+			"hp": {
+				"average": 5,
+				"formula": "1d8 + 1"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 16,
+			"con": 12,
+			"int": 14,
+			"wis": 10,
+			"cha": 14,
+			"save": {
+				"dex": "+5",
+				"int": "+4"
+			},
+			"passive": 12,
+			"languages": [
+				"Galactic Basic",
+				"Huttese"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Sneak Attack (1/Turn)",
+					"entries": [
+						"Maya deals an extra 3 ({@damage 1d6}) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally that isn't incapacitated and she doesn't have disadvantage on the roll."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Blaster Pistol",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 40/160 ft., one target. Hit 5 ({@dice 1d6 + 3}). Reload 12."
+					]
+				},
+				{
+					"name": "Vibrodagger",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5ft., one target. {@h}2 ({@damage 1d4}) kinetic damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "Switch",
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "droid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 10,
+					"from": [
+						"combat armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 13,
+				"formula": "3d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 9,
+			"con": 10,
+			"int": 13,
+			"wis": 13,
+			"cha": 14,
+			"save": {
+				"dex": "+1",
+				"int": "+3"
+			},
+			"passive": 13,
+			"conditionImmune": [
+				"poison",
+				"disease resistances necrotic",
+				"psychic vulnerabilities ion",
+				"lightning"
+			],
+			"languages": [
+				"all Registered"
+			],
+			"cr": "1/4",
+			"action": [
+				{
+					"name": "Hold-Out",
+					"entries": [
+						"{@atk rw} {@hit 1} to hit, range 30/120 ft., one target. Hit 1 ({@damage 1d4 - 1}) energy damage. Reload 6."
+					]
+				}
+			],
+			"languageTags": [
+				"XX"
+			],
+			"miscTags": [
+				"RW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "Ganga Lor",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"average": 37,
+				"formula": "5d8 + 15"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 8,
+			"con": 16,
+			"int": 12,
+			"wis": 14,
+			"cha": 15,
+			"passive": 14,
+			"conditionImmune": [
+				"none"
+			],
+			"languages": [
+				"Galactic Basic",
+				"Chevin",
+				"Huttese",
+				"Rodese",
+				"Shyriiwook"
+			],
+			"cr": "1/2",
+			"action": [
+				{
+					"name": "Blaster Pistol",
+					"entries": [
+						"{@atk rw} {@hit 1} to hit, range 40/160 ft., one target. Hit 2 ({@damage 1d6 - 1}) energy damage. Reload 12."
+					]
+				},
+				{
+					"name": "Thick Skull",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5ft., one target. Hit 3 ({@damage 1d6}) kinetic damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "Ganga Lor's Thug",
+			"isNpc": true,
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"heavy combat suit"
+					]
+				}
+			],
+			"hp": {
+				"average": 11,
+				"formula": "2d8 + 2"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 11,
+			"con": 12,
+			"int": 8,
+			"wis": 9,
+			"cha": 10,
+			"passive": 11,
+			"languages": [
+				"Galactic Basic"
+			],
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Blaster pistol",
+					"entries": [
+						"{@atk rw} {@hit 2} to hit, range 40/160 ft., one target. {@h}3 ({@damage 1d6}) energy damage. Reload 20."
+					]
+				},
+				{
+					"name": "Vibroaxe",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d12 + 1}) kinetic damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "Imperial Officer",
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 10,
+					"from": [
+						"combat suit"
+					]
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 8,
+			"con": 10,
+			"int": 12,
+			"wis": 11,
+			"cha": 13,
+			"passive": 13,
+			"languages": [
+				"Galactic Basic",
+				"High Galactic"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"The Imperial Officer has advantage on saving throws against being {@condition frightened}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Blaster Pistol",
+					"entries": [
+						"{@atk rw} {@hit 2} to hit, range 40/160 ft., one target. Hit 2 ({@damage 1d6 - 1}) energy damage. Reload 12."
+					]
+				},
+				{
+					"name": "Stunbaton",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5ft., one target. {@h}3 ({@damage 1d6}) subdual damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Leadership (1/Rest)",
+					"entries": [
+						"The Imperial Officer can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand the Sergeant. A creature can benefit from only one Leadership die at a time."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "Repulsor Sled",
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"L"
+			],
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"armor plating"
+					]
+				}
+			],
+			"hp": {
+				"average": "32",
+				"formula": "5d10 + 5",
+				"special": "DT 5"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": 60
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 13,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"save": {
+				"dex": "+5",
+				"con": "+3"
+			},
+			"passive": 12,
+			"resist": [
+				"necrotic",
+				"psychic"
+			],
+			"vulnerable": [
+				"ion",
+				"lightning"
+			],
+			"conditionImmune": [
+				"poison",
+				"disease"
+			],
+			"languages": [
+				"Galactic Basic"
+			],
+			"cr": "1",
+			"trait": [
+				{
+					"name": "Piloted",
+					"entries": [
+						"The construct requires an active pilot to take any actions, and if the pilot is subjected to any conditions that the construct is not immune to, the construct is also subjected to those conditions. The pilot may take their own action or one of the actions granted by the construct."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The construct makes two attacks."
+					]
+				},
+				{
+					"name": "Medium Blaster Cannon",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 60/240 ft., one target. Hit 7 ({@damage 1d10 + 2}) energy damage."
+					]
+				},
+				{
+					"name": "Shock-Net",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 60/240 ft., 10 ft. square. Hit 8 ({@damage 2d4 + 3}) lightning damage and {@condition restrained}. {@dc 13} str check to break free."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Redirect",
+					"entries": [
+						"If the construct's pilot takes damage from a source the pilot is aware of and can see, the construct can use its reaction to instead take that damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"damageTags": [
+				"L"
+			],
+			"miscTags": [
+				"RW",
+				"THW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "Sirona O'keefe",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"combat suit"
+					]
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "6d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 10,
+			"int": 19,
+			"wis": 12,
+			"cha": 14,
+			"save": {
+				"dexterity": "+6",
+				"intelligence": "+7"
+			},
+			"skill": {
+				"deception": "+5",
+				"insight": "+4",
+				"mechanic'skit+10": "(expertise)",
+				"perception": "+4",
+				"persuasion": "+5",
+				"piloting+10": "(expertise)",
+				"securitykit+10": "(expertise)",
+				"sleight of hand": "+6",
+				"slicer'skit+10": "(expertise)",
+				"technology+10": "(expertise)"
+			},
+			"passive": 14,
+			"languages": [
+				"Galactic Basic",
+				"Huttese",
+				"Binary"
+			],
+			"cr": "5",
+			"trait": [
+				{
+					"name": "Bad Feeling",
+					"entries": [
+						"When Captain O'Keefe rolls for initiative, she can move up to her speed. This movement happens before the initiative order is determined. Once she has used this feature, she can't use it again until she finishes a long rest."
+					]
+				},
+				{
+					"name": "Cunning Action",
+					"entries": [
+						"Captain O'Keefe can take a bonus action on each of her turns in combat. This action can be used only to take the Dash, Disengage, or Hide action."
+					]
+				},
+				{
+					"name": "Defiant",
+					"entries": [
+						"Captain O'Keefe can add a {@dice d4} to a skill check or saving throw, after rolling but before the outcome is known. She must then finish a short or long rest before she can use this feature again."
+					]
+				},
+				{
+					"name": "Sneak Attack",
+					"entries": [
+						"Once per turn, Captain O'Keefe can deal an extra {@damage 3d6} damage to one creature she hits with an attack if she has advantage on the attack roll. The attack must use a finesse or a ranged weapon. She does not need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't {@condition incapacitated}, and she does not have disadvantage on the attack roll."
+					]
+				},
+				{
+					"name": "Techcasting (3/Rest)",
+					"entries": [
+						"Captain O'Keefe is a 6th-level techcaster. Her techcasting ability is Intelligence (power save {@dc 15}, {@hit 7} to hit with power attacks).",
+						"At-will: Encrypted Message, Mending",
+						"1st level: Detect Enhancement, Repair Droid, Tracker Droid Interface"
+					]
+				},
+				{
+					"name": "Uncanny Dodge",
+					"entries": [
+						"When an attacker that Captain O'Keefe can see hits her with an attack, she can use her reaction to halve the attack's damage against her."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Blaster Pistol",
+					"entries": [
+						"{@hit 6} to hit, range 40/160 ft., one target. Hit 6 ({@damage 1d6 + 3}) energy damage. Reload 12."
+					]
+				},
+				{
+					"name": "Vibrodagger",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5ft., one target. {@h}3 ({@damage 1d4 + 3}) kinetic damage.",
+						"Hidden blade. Melee Weapon Attack: {@hit 6} to hit, reach 5ft., one target. {@h}5 ({@damage 1d4 + 3}) kinetic damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Sneak Attack"
+			],
+			"miscTags": [
+				"MW",
+				"SW5e"
+			],
+			"conditionInflict": [
+				"incapacitated"
+			]
+		},
+		{
+			"name": "RX-13, Aka \"Crash\"",
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "droid",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"combat armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 16,
+				"formula": "3d8 + 3"
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 12,
+			"int": 18,
+			"wis": 14,
+			"cha": 8,
+			"skill": {
+				"investigation": "+6",
+				"lore": "+6",
+				"medicine": "+4",
+				"nature": "+6",
+				"mechanic'skit": "+6",
+				"perception": "+4",
+				"piloting": "+6",
+				"slicer'skit": "+6",
+				"technology+8": "(expertise)"
+			},
+			"senses": [
+				"darkvision 30 ft."
+			],
+			"passive": 14,
+			"conditionImmune": [
+				"poison",
+				"disease resistances necrotic",
+				"psychic saves constitution +3",
+				"intelligence +5"
+			],
+			"languages": [
+				"Binary",
+				"Galactic Basic (Understand)",
+				"Huttese (Understand)"
+			],
+			"cr": "2",
+			"trait": [
+				{
+					"name": "Rapid Reconstruction",
+					"entries": [
+						"As a bonus action, Crash can choose to spend one of his hit dice to recover."
+					]
+				},
+				{
+					"name": "Potent Aptitude",
+					"entries": [
+						"Crash may use a bonus action on your turn to choose one creature other than himself within 60 feet of him who can hear him. That creature gains one Potent Aptitude die, a {@dice d6}. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls The {@dice D20} before deciding to use the Potent Aptitude die, but must decide before the DM says whether the roll succeeds or fails. Once the Potent Aptitude die is rolled, it is lost. A creature can have only one Potent Aptitude die at a time. Crash can use this feature a number of times equal to his Intelligence modifier. He regains any expended uses when he finishes a long rest."
+					]
+				},
+				{
+					"name": "Infuse Itemn",
+					"entries": [
+						"At the end of a long rest, Crash can touch one unenhanced object that is a suit of armor or a simple or martial weapon. Until the end of his next long rest or until he dies, the object becomes an enhanced item, granting a +1 bonus to AC if it's armor or a +1 bonus to attack and damage rolls if it's a weapon. Once he's used this feature, he can't use it again until he finishes a long rest."
+					]
+				},
+				{
+					"name": "Tool Understanding",
+					"entries": [
+						"Crash has advantage on any ability check he makes that uses tinker's tools or astrotech tools."
+					]
+				},
+				{
+					"name": "Alarm Protocol",
+					"entries": [
+						"Crash gains a +5 bonus to initiative and cannot be surprised while conscious."
+					]
+				},
+				{
+					"name": "Sensor Augmentation",
+					"entries": [
+						"Crash has advantage on Wisdom (Perception) and Intelligence (Investigation) checks made to detect the presence of secret doors. He has advantage on saving throws made to avoid or resist traps. He has has resistance to the damage dealt by traps. He can search for traps while traveling at a normal pace, instead of only at a slow pace."
+					]
+				},
+				{
+					"name": "Techcasting (6/Rest)",
+					"entries": [
+						"Crash is a 3rd-level techcaster. His techcasting ability is Intelligence (power save {@dc 14}, {@hit 6} to hit with power attacks).",
+						"At-will: Electroshock, Encrypted Message, Light, Mending",
+						"1st level: Detect Enhancement, Energy Shield, Repair Droid",
+						"2nd level: Detect Traps, Smuggle"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Blaster carbine",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 60/240 ft., one target. Hit 5 ({@damage 1d6 + 2}) energy damage. Reload 16."
+					]
+				},
+				{
+					"name": "Vibrodagger",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5ft., one target. {@h}4 ({@damage 1d4 + 2}) kinetic damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "The Banshee",
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"B"
+			],
+			"type": "Baudo-class Star Yacht",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"lightweight"
+					]
+				}
+			],
+			"hp": {
+				"average": 38,
+				"formula": "7d8 + 7"
+			},
+			"speed": {
+				"fly": {
+					"number": 350
+				}
+			},
+			"str": 14,
+			"dex": 16,
+			"con": 12,
+			"int": 19,
+			"wis": 12,
+			"cha": 14,
+			"save": {
+				"dexterity": "+5"
+			},
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Shield Points",
+					"entries": [
+						"19 (Quick-Charge)."
+					]
+				},
+				{
+					"name": "Shield Regeneration",
+					"entries": [
+						"Rate 16."
+					]
+				},
+				{
+					"name": "Evasive Maneuvers",
+					"entries": [
+						"(4/maintenance) When the Banshee rolls for initiative, it can immediately move. This movement happens before the initiative order is determined. The amount the ship moves is determined by rolling a {@dice d6} and multiplying it by 50 feet. The ship then gains that many feet that it can move or spend to turn."
+					]
+				},
+				{
+					"name": "Armament",
+					"entries": [
+						"Turreted, Quad Laser Cannon (2) Forward-facing. Light Laser Cannons (2)"
+					]
+				},
+				{
+					"name": "Forward-facing",
+					"entries": [
+						"Light Laser Cannons (2)"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "The ship can take up to four non-attack actions as well as many attack actions as it has weapon hardpoints",
+					"entries": []
+				},
+				{
+					"name": "Quad Laser Turret",
+					"entries": [
+						"Makes 2 Ranged Ship Attacks: {@hit 2} to hit, range 450/900, one target. {@h}7 ({@damage 1d8 + 3}) energy damage."
+					]
+				},
+				{
+					"name": "Light Laser Cannons",
+					"entries": [
+						"Makes 2 Ranged Ship Attacks: {@hit 3} to hit, range 300/600, one target. {@h}7 ({@damage 1d8 + 3}) energy damage."
+					]
+				},
+				{
+					"name": "Interdiction Drive",
+					"entries": [
+						"(2/Maintenance) As an action, a deployed mechanic can engage the interdiction drive. Each ship within 100 feet of your ship must make a Strength saving throw (DC = 8 + the mechanic's proficiency bonus + your ship's Strength modifier). On a failed save, a ship's flying speed is reduced by 100 feet and its turning speed is increased by 50 feet until the end of the mechanic's next turn. If a ship is two or more sizes larger than your ship, it has advantage on the saving throw. If it is two or more sizes smaller, it instead has disadvantage."
+					]
+				}
+			],
+			"miscTags": [
+				"SW5e"
+			]
+		},
+		{
+			"name": "Felucian",
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 22,
+				"formula": "4d8 + 4"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 13,
+			"con": 14,
+			"int": 8,
+			"wis": 15,
+			"cha": 8,
+			"skill": {
+				"stealth": "+3"
+			},
+			"passive": 14,
+			"languages": [
+				"Felucianese"
+			],
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"Felucians breathe air and water."
+					]
+				},
+				{
+					"name": "Mask of the Wild",
+					"entries": [
+						"Felucians may attempt to hide even when they are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Skullblade",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5ft., one target. Hit 6 ({@damage 1d8 + 2}) kinetic damage."
+					]
+				},
+				{
+					"name": "Mighty Swing",
+					"entries": [
+						"The Felucian can spend their bonus action to add an additional damage dice to their melee attack. This dice is doubled on a critical hit."
+					]
+				},
+				{
+					"name": "Burst",
+					"entries": [
+						"The Felucian causes the earth to burst from beneath their feet. Each creature within 5 ft., other than them, must succeed on a {@dc 12} Dexterity saving throw or take {@damage 1d6} kinetic damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Amphibious"
+			],
+			"miscTags": [
+				"MW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "Felucian Chief",
+			"isNamedCreature": true,
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 85,
+				"formula": "9d8 + 9"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 12,
+			"con": 12,
+			"int": 13,
+			"wis": 20,
+			"cha": 14,
+			"skill": {
+				"stealth": "+5"
+			},
+			"passive": 19,
+			"languages": [
+				"Felucianese"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"Felucians breathe air and water."
+					]
+				},
+				{
+					"name": "Mask of the Wild",
+					"entries": [
+						"Felucians may attempt to hide even when they are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+					]
+				},
+				{
+					"name": "Force Powers",
+					"entries": [
+						"The Chief knows the following Force Powers: Affect Mind, Force Push/Pull, Give Life, Mind Trick, Spare the Dying, Disperse Force, Heal, Sense Emotion, Sense Force, Calm Emotions, Coerce Mind, Dissuade Mind, Sever Force, Share Life, Telekinesis"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Burst",
+					"entries": [
+						"The Felucian causes the earth to burst from beneath their feet. Each creature within 5 ft., other than them, must succeed on a {@dc 17} Dexterity saving throw or take {@damage 1d6} kinetic damage."
+					]
+				},
+				{
+					"name": "Beast Trick (1/Rest)",
+					"entries": [
+						"This power lets the Chief distract a beast. Choose a beast that he can see within range. If the beast's Intelligence is 4 or higher, the power fails. Otherwise, the beast must succeed on a {@dc 17} Wisdom saving throw or be {@condition charmed} by the Chief for 24 hours. If the Chief or one of his companions harms the target, the power ends."
+					]
+				},
+				{
+					"name": "Plant Surge (1/Rest)",
+					"entries": [
+						"If the Chief casts this power using 1 action, all normal plants in a 100-foot radius centered on a point become overgrown. Moving through the area spends 4 feet of movement for every 1 foot moved. He can exclude areas of any size within the power's area from being affected. If he casts this power over 8 hours, all plants in a halfmile radius centered on a point yield twice the normal amount of food when harvested for 1 year."
+					]
+				}
+			],
+			"traitTags": [
+				"Amphibious"
+			],
+			"miscTags": [
+				"AOE",
+				"SW5e"
+			]
+		},
+		{
+			"name": "Kybuck",
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				14
+			],
+			"hp": {
+				"average": 7,
+				"formula": "2d8 - 2"
+			},
+			"speed": {
+				"walk": 60
+			},
+			"str": 12,
+			"dex": 16,
+			"con": 8,
+			"int": 2,
+			"wis": 13,
+			"cha": 12,
+			"skill": {
+				"athletics": "+3"
+			},
+			"passive": 13,
+			"cr": "1/8",
+			"trait": [
+				{
+					"name": "Dash",
+					"entries": [
+						"Unlike many other beasts, kybucks can move at incredibly high speeds overland. They have a maximum velocity of 60 mph."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5ft., one target. Hit 5 ({@dice 1d4 + 3})"
+					]
+				},
+				{
+					"name": "Kick",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5ft., one target. Hit 4 ({@dice 1d3 + 3})"
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "74-Z Speeder Bike",
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"L"
+			],
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"armor plating"
+					]
+				}
+			],
+			"hp": {
+				"average": 39,
+				"formula": "6d10 + 6",
+				"special": "DT 5"
+			},
+			"speed": {
+				"walk": 0,
+				"fly": 60
+			},
+			"str": 16,
+			"dex": 16,
+			"con": 13,
+			"int": 10,
+			"wis": 11,
+			"cha": 8,
+			"save": {
+				"dex": "+6"
+			},
+			"passive": 13,
+			"resist": [
+				"necrotic",
+				"psychic"
+			],
+			"vulnerable": [
+				"ion",
+				"lightning"
+			],
+			"conditionImmune": [
+				"poison",
+				"disease"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Piloted",
+					"entries": [
+						"The construct requires an active pilot to take any actions, and if the pilot is subjected to any conditions that the construct is not immune to, the construct is also subjected to those conditions. The pilot may take their own action or one of the actions granted by the construct."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The construct makes two attacks."
+					]
+				},
+				{
+					"name": "Laser Cannon",
+					"entries": [
+						"{@atk rw} {@hit 6} to hit, range 60/240 ft., one target. Hit 8 ({@damage 1d10 + 3}) energy damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Redirect",
+					"entries": [
+						"If the construct's pilot takes damage from a source the pilot is aware of and can see, the construct can use its reaction to instead take that damage."
+					]
+				}
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"RW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "Medical Researcher",
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 13,
+				"formula": "3d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 12,
+			"con": 10,
+			"int": 15,
+			"wis": 12,
+			"cha": 10,
+			"passive": 13,
+			"languages": [
+				"Galactic Basic"
+			],
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Blaster Pistol",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range 40/160 ft., one target. Hit 4 ({@damage 1d6 + 2}) energy damage. Reload 16."
+					]
+				}
+			],
+			"miscTags": [
+				"RW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "2-1B Medical Droid",
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "droid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 9,
+				"formula": "2d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 11,
+			"con": 10,
+			"int": 14,
+			"wis": 15,
+			"cha": 9,
+			"passive": 14,
+			"conditionImmune": [
+				"poison",
+				"disease resistances necrotic",
+				"psychic vulnerabilities ion",
+				"lightning"
+			],
+			"languages": [
+				"Galactic Basic",
+				"Binary",
+				"and two others"
+			],
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Scalpel",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. Hit 1 ({@damage 1d3 - 1}) kinetic damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "Genetically Modified Felucian",
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": {
+				"type": "humanoid",
+				"tags": [
+					"Felucian"
+				]
+			},
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 38,
+				"formula": "4d8 + 20"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 18,
+			"dex": 13,
+			"con": 20,
+			"int": 8,
+			"wis": 11,
+			"cha": 8,
+			"skill": {
+				"stealth": "+3"
+			},
+			"passive": 12,
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"Felucians breathe air and water."
+					]
+				},
+				{
+					"name": "Mask of the Wild",
+					"entries": [
+						"Felucians may attempt to hide even when they are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Fused blade",
+					"entries": [
+						"{@atk mw} {@hit 6} to hit, reach 5ft., one target. Hit 8 ({@damage 1d8 + 4}) kinetic damage."
+					]
+				},
+				{
+					"name": "Mighty Swing",
+					"entries": [
+						"The Felucian can spend their bonus action to add an additional damage dice to their melee attack. This dice is doubled on a critical hit."
+					]
+				},
+				{
+					"name": "Burst",
+					"entries": [
+						"The Felucian causes the earth to burst from beneath their feet. Each creature within 5 ft., other than them, must succeed on a {@dc 10} Dexterity saving throw or take {@damage 1d6} kinetic damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Amphibious"
+			],
+			"miscTags": [
+				"MW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "Imperial Gunner",
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"heavy combat suit"
+					]
+				}
+			],
+			"hp": {
+				"average": 33,
+				"formula": "6d8 + 6"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 14,
+			"con": 12,
+			"int": 11,
+			"wis": 9,
+			"cha": 8,
+			"passive": 12,
+			"languages": [
+				"Galactic Basic"
+			],
+			"cr": "1/4",
+			"action": [
+				{
+					"name": "Light Repeater Burst",
+					"entries": [
+						"The Imperial gunner sprays a 10-foot-cube area within 80 ft. with shots. A creature in the area takes the weapon's {@damage 1d8 + 2} energy damage, or half damage on a successful {@dc 13} Dexterity saving throw. The gunner can perform this action 3 times before reloading."
+					]
+				},
+				{
+					"name": "Stock Strike",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5ft., one target. {@h}2 ({@damage 1d4}) kinetic damage."
+					]
+				}
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "Lieutenant Aden",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 10,
+					"from": [
+						"combat suit"
+					]
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 8,
+			"con": 10,
+			"int": 12,
+			"wis": 11,
+			"cha": 13,
+			"passive": 13,
+			"languages": [
+				"Galactic Basic",
+				"High Galactic"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"Lieutenant Aden has advantage on saving throws against being {@condition frightened}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Blaster Pistol",
+					"entries": [
+						"{@atk rw} {@hit 2} to hit, range 40/160 ft., one target. Hit 2 ({@damage 1d6 - 1}) energy damage. Reload 12."
+					]
+				},
+				{
+					"name": "Vibrodagger",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5ft., one target. {@h}2 ({@damage 1d4}) kinetic damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Leadership (1/Rest)",
+					"entries": [
+						"Lieutenant Aden can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand the Lieutenant. A creature can benefit from only one Leadership die at a time."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "Imperial Comm Operator",
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"combat suit"
+					]
+				}
+			],
+			"hp": {
+				"average": 18,
+				"formula": "4d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 13,
+			"con": 11,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 12,
+			"languages": [
+				"Galactic Basic"
+			],
+			"cr": "1/4",
+			"action": [
+				{
+					"name": "Blaster Pistol",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range 40/160 ft., one target. Hit 4 ({@damage 1d6 + 1}) energy damage. Reload 12."
+					]
+				},
+				{
+					"name": "Vibrodagger",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5ft., one target. {@h}3 ({@damage 1d4 + 1}) kinetic damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "Imperial Detention Block Guard",
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 12,
+					"from": [
+						"combat suit"
+					]
+				}
+			],
+			"hp": {
+				"average": 18,
+				"formula": "4d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 13,
+			"con": 11,
+			"int": 10,
+			"wis": 10,
+			"cha": 10,
+			"passive": 12,
+			"languages": [
+				"Galactic Basic"
+			],
+			"cr": "1/4",
+			"action": [
+				{
+					"name": "Blaster Pistol",
+					"entries": [
+						"{@atk rw} {@hit 3} to hit, range 40/160 ft., one target. Hit 4 ({@damage 1d6 + 1}) energy damage. Reload 12."
+					]
+				},
+				{
+					"name": "Stun Baton",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5ft., one target. {@h}4 ({@damage 1d6 + 1}) subdual damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "Prisoner (Felucia)",
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 16,
+				"formula": "3d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 11,
+			"dex": 13,
+			"con": 12,
+			"int": 8,
+			"wis": 9,
+			"cha": 10,
+			"passive": 11,
+			"languages": [
+				"Galactic Basic"
+			],
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Unarmed",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5ft., one target. {@h}3 ({@damage 1d4 + 1}) kinetic damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "Warden Droid",
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "droid",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 27,
+				"formula": "6d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 14,
+			"dex": 13,
+			"con": 10,
+			"int": 10,
+			"wis": 11,
+			"cha": 7,
+			"passive": 13,
+			"resist": [
+				"necrotic",
+				"psychic"
+			],
+			"vulnerable": [
+				"ion",
+				"lightning"
+			],
+			"conditionImmune": [
+				"poison",
+				"disease"
+			],
+			"languages": [
+				"Galactic Basic",
+				"Binary"
+			],
+			"cr": "1/4",
+			"action": [
+				{
+					"name": "Stun claws",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. Hit 5 ({@damage 1d6 + 2}) subdual damage."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Stun claws",
+					"entries": [
+						"The warden droid may make a second claw attack as a bonus action."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "Admiral Varth (as of Felucian Rescue)",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				11
+			],
+			"hp": {
+				"average": 54,
+				"formula": "12d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 12,
+			"con": 10,
+			"int": 20,
+			"wis": 16,
+			"cha": 16,
+			"save": {
+				"dexterity": "+6",
+				"intelligence": "+9",
+				"wisdom": "+7"
+			},
+			"skill": {
+				"deception": "+11",
+				"Demolitions Kit": "+9",
+				"insight": "+11",
+				"investigation": "+13",
+				"lore": "+9",
+				"perception": "+16",
+				"persuasion": "+7"
+			},
+			"passive": 26,
+			"languages": [
+				"Galactic Basic",
+				"High Galactic"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Defiant",
+					"entries": [
+						"Admiral Varth can add a {@dice d4} to a skill check or saving throw, after rolling but before the outcome is known. He must then finish a short or long rest before he can use this feature again."
+					]
+				},
+				{
+					"name": "Inspiring Leader",
+					"entries": [
+						"Admiral Varth can spend 10 minutes inspiring his companions, shoring up their resolve to fight. When he does so, choose up to six friendly creatures (which can include him) within 30 feet of him who can see or hear him and who can understand him. Each creature can gain temporary hit points equal to 15. A creature can't gain temporary hit points from this feat again until it has finished a short or long rest."
+					]
+				},
+				{
+					"name": "Academic Superiority",
+					"entries": [
+						"Admiral Varth knows how to apply his studies in practical ways known as maneuvers. His maneuvers are fueled by special dice called superiority dice. He has 6 superiority dice, which are d10s. A superiority die is expended when he uses it. He regains all of his expended superiority dice when he finishes a short or long rest. Some of his maneuvers require his target to make a saving throw to resist the maneuver's effects. The saving throw DC is 17.",
+						"Admiral Varth knows the following maneuvers from the {@i SW5e Player's Handbook}: Commander's Strike, Deliberate Movement, Heads Up, Measured Action, One Step Ahead, Riposte, Scholar's Parry, Targeted Strike"
+					]
+				},
+				{
+					"name": "Critical Analysis",
+					"entries": [
+						"Admiral Varth is able to analyze a target, develop a plan on how to best overcome any potential obstacle, and execute that plan with ruthless efficiency. As a bonus action on his turn, he can analyze a target he can see within 120 feet of him. For the next minute, or until he analyzes another target, he gain the following benefits: When he analyzes a hostile creature, attack and damage rolls made with vibroweapons wielded in onehand or blaster weapons against that target may use his Intelligence modifier instead of Strength or Dexterity.",
+						"When he analyzes a friendly creature, the target may use its reaction and end your Critical Analysis to add 5 to 1 attack roll, ability check, or saving throw."
+					]
+				},
+				{
+					"name": "Dicovery",
+					"entries": [
+						"Admiral Varth's studies have helped him discover new practices he can apply to his skills. He knows the following scholar discoveries from the {@i SW5e Player's Handbook}: Contingency Plan, Firing Command, Observant Leader, Running on Fumes, Tactical Retreat, Unbound Commander"
+					]
+				},
+				{
+					"name": "Fire as One",
+					"entries": [
+						"Admiral Varth can focus his target down with the help with an ally. Whenever the creature that is the target of his Critical Analysis feature is attacked by someone other than him, he can use his reaction to make one weapon attack against them."
+					]
+				},
+				{
+					"name": "Battlefield Survey",
+					"entries": [
+						"When Admiral Varth spends 10 minutes observing an area that is within 120 feet of him, or by using a detailed map, select 5 creatures. He and those selected allies ignore any known difficult terrain, and have adv"
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Unarmed",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5ft., one target. {@h}1 kinetic damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "Captain Vischera",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"L",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"heavy combat suit"
+					]
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 10,
+			"dex": 12,
+			"con": 10,
+			"int": 14,
+			"wis": 11,
+			"cha": 13,
+			"passive": 13,
+			"languages": [
+				"Galactic Basic",
+				"Bocce",
+				"Durese",
+				"High Galactic"
+			],
+			"cr": "1/4",
+			"trait": [
+				{
+					"name": "Brave",
+					"entries": [
+						"Captain Vischera has advantage on saving throws against being {@condition frightened}."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Blaster Pistol",
+					"entries": [
+						"{@atk rw} {@hit 4} to hit, range 40/160 ft., one target. Hit 4 ({@damage 1d6 + 1}) energy damage. Reload 12."
+					]
+				},
+				{
+					"name": "Vibrodagger",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5ft., one target. {@h}3 ({@damage 1d4 + 1}) kinetic damage."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Leadership (1/Rest)",
+					"entries": [
+						"Captain Vischera can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a {@dice d4} to its roll provided it can hear and understand the Lieutenant. A creature can benefit from only one Leadership die at a time."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "Kargrek and Hagark",
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"N"
+			],
+			"ac": [
+				13
+			],
+			"hp": {
+				"average": 57,
+				"formula": "6d8 + 30"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 22,
+			"dex": 13,
+			"con": 20,
+			"int": 8,
+			"wis": 11,
+			"cha": 8,
+			"skill": {
+				"stealth": "+4"
+			},
+			"passive": 13,
+			"languages": [
+				"None"
+			],
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"Felucians breathe air and water."
+					]
+				},
+				{
+					"name": "Mask of the Wild",
+					"entries": [
+						"Felucians may attempt to hide even when they are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Fused blade",
+					"entries": [
+						"{@atk mw} {@hit 9} to hit, reach 5ft., one target. Hit 11 ({@damage 1d10 + 6}) kinetic damage."
+					]
+				},
+				{
+					"name": "Mighty Swing",
+					"entries": [
+						"The Felucian can spend their bonus action to add an additional damage dice to their melee attack. This dice is doubled on a critical hit."
+					]
+				},
+				{
+					"name": "Burst",
+					"entries": [
+						"The Felucian causes the earth to burst from beneath their feet. Each creature within 5 ft., other than them, must succeed on a {@dc 10} Dexterity saving throw or take {@damage 1d6} kinetic damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Amphibious"
+			],
+			"miscTags": [
+				"MW",
+				"SW5e"
+			]
+		}
+	],
 	"adventure": [
 		{
 			"name": "Star Wars: Dawn of Defiance, Episode I - The Traitor's Gambit",
@@ -216,7 +2055,7 @@
 					"name": "Intro",
 					"headers": [
 						"What is Dawn of Defiance?",
-                        "Starting the Campaign",
+						"Starting the Campaign",
 						"Adventure Summary",
 						"Opening Crawl"
 					]
@@ -226,7 +2065,7 @@
 					"headers": [
 						"Sel Zonn Station",
 						"First Contact",
-						"Promenade Shootout",
+						"Promenade Shootout (CR 1)",
 						"Deep Storage Bay V14",
 						"Ganga Lor's Grudge (CR 3)",
 						"Blue Deck",
@@ -241,6 +2080,7 @@
 						"Evasive Maneuvers",
 						"Searching for Civilization",
 						"In the Wilds",
+						"Felucian Hospitality (CR 2)",
 						"Felucian Sanctuary",
 						"Imperial Scout",
 						"Jungle Watch Outpost (CR 3)"
@@ -256,7 +2096,7 @@
 						"P3: Communications Center",
 						"Communications Center (CR 3)",
 						"P4: Prison Block",
-						"Detention Block F-1A",
+						"Detention Block F-1A (CR 3)",
 						"Can't Get Out That Way!",
 						"Turbolift Cluster",
 						"P5: Command Center (CR 4)"
@@ -315,9 +2155,9 @@
 							"id": "Starting the Campaign",
 							"entries": [
 								"The {@b Dawn of Defiance} campaign opens some months after the rise of the Empire, with the Clone Wars a very recent and vivid memory for most beings in the galaxy. The Empire has begun tightening its grip on star systems throughout the galaxy, and Darth Vader stands at the newly declared Emperor's right hand, crushing any opposition and hunting down the last remnants of the Jedi Order. In these short months since the fall of the Republic, many have joined the Empire willingly, including the Core Worlds whose Human nobles stand to benefit a great deal from its tyranny. Similarly, many others have begun rebelling against Imperial oppression, finding themselves driven out of their homes (or worse) and forced to live in a galaxy that tolerates no opposition to the Empire. Throughout the {@b Dawn of Defiance} campaign, the heroes must deal with the reality that the Empire is a monolithic threat without any kind of organized opposition, and dealing with agents of the Empire can be dangerous.",
-                                "Despite the difficulties the heroes face in terms of Imperial dominance, they are in a unique position to deal the first significant blow against the Empire. In the first adventure, the heroes will come face to face with the man who will become their clandestine benefactor, Senator Bail Organa. In the new Empire, seditious acts are punished harshly, and as such the heroes will find that they must be extremely cautious in their actions. With nowhere to run and nowhere to hide, the heroes of the {@b Dawn of Defiance} campaign may find that a one-way trip to Kessel is the best they can hope for if they fall into the hands of the Empire.",
-                                "The first act of the campaign (comprised of the first three adventures — {@i The Traitor's Gambit}, {@i A Wretched Hive}, and {@i The Queen of Air and Darkness}) introduces the heroes to one another and to some of the key figures in the campaign. Over the course of the first arc, the heroes discover that the Empire has a secret project in the works that could have dire consequences for the galaxy if it comes to fruition. Thanks to the help of former Imperial Admiral Nathan Gilder, whom the heroes should rescue at the conclusion to the first adventure, the heroes learn that the Empire's secret project has left a trail of money and slaves that they can follow to find the truth. During the first three adventures, the heroes travel to famous planets such as Alderaan, Bespin, Cato Neimoidia, and Felucia, fighting Imperial stormtroopers, destroying secret labs and prisons, encountering vile Hutt gangsters, and participating in a dangerous sabacc tournament where the buy-in might be more than they can afford. The first adventure, The Traitor's Gambit, is relatively straightforward, allowing the heroes to become accustomed to one another and the SW5e rules. Each subsequent adventure leads the heroes down new paths and introduces different playstyles.",
-                                "Certain kinds of heroes will find it easier than others to flourish in the {@b Dawn of Defiance} campaign. First and foremost, the heroes should view the Empire as both a threat and an enemy. As the major villainous entity of the campaign, the Empire represents something that is to be feared and loathed, and characters with Imperial sympathies will likely find themselves in conflict with the overarching plot. Otherwise, the heroes can come from almost any background and profession. As long as they are willing to fight against the Empire (both covertly and openly), they should find the campaign engaging and exciting. Not every hero needs to be an idealistic freedom fighter; smugglers, bounty hunters, and free traders have just as much to gain from weakening the Empire as rebellious troops do. If the heroes' motivation is personal profit or increasing their own power, they could do worse than to work for Bail Organa. Not only is he rich, but he is also powerful and influential, and his influence could very easily be transferred to any heroes that get on his good side."
+								"Despite the difficulties the heroes face in terms of Imperial dominance, they are in a unique position to deal the first significant blow against the Empire. In the first adventure, the heroes will come face to face with the man who will become their clandestine benefactor, Senator Bail Organa. In the new Empire, seditious acts are punished harshly, and as such the heroes will find that they must be extremely cautious in their actions. With nowhere to run and nowhere to hide, the heroes of the {@b Dawn of Defiance} campaign may find that a one-way trip to Kessel is the best they can hope for if they fall into the hands of the Empire.",
+								"The first act of the campaign (comprised of the first three adventures — {@i The Traitor's Gambit}, {@i {@adventure A Wretched Hive|orcnogDoDEp2}}, and {@i {@adventure The Queen of Air and Darkness|orcnogDoDEp3}}) introduces the heroes to one another and to some of the key figures in the campaign. Over the course of the first arc, the heroes discover that the Empire has a secret project in the works that could have dire consequences for the galaxy if it comes to fruition. Thanks to the help of former Imperial Admiral Gilder Varth, whom the heroes should rescue at the conclusion to the first adventure, the heroes learn that the Empire's secret project has left a trail of money and slaves that they can follow to find the truth. During the first three adventures, the heroes travel to famous planets such as Alderaan, Bespin, Cato Neimoidia, and Felucia, fighting Imperial stormtroopers, destroying secret labs and prisons, encountering vile Hutt gangsters, and participating in a dangerous sabacc tournament where the buy-in might be more than they can afford. The first adventure, The Traitor's Gambit, is relatively straightforward, allowing the heroes to become accustomed to one another and the SW5e rules. Each subsequent adventure leads the heroes down new paths and introduces different playstyles.",
+								"Certain kinds of heroes will find it easier than others to flourish in the {@b Dawn of Defiance} campaign. First and foremost, the heroes should view the Empire as both a threat and an enemy. As the major villainous entity of the campaign, the Empire represents something that is to be feared and loathed, and characters with Imperial sympathies will likely find themselves in conflict with the overarching plot. Otherwise, the heroes can come from almost any background and profession. As long as they are willing to fight against the Empire (both covertly and openly), they should find the campaign engaging and exciting. Not every hero needs to be an idealistic freedom fighter; smugglers, bounty hunters, and free traders have just as much to gain from weakening the Empire as rebellious troops do. If the heroes' motivation is personal profit or increasing their own power, they could do worse than to work for Bail Organa. Not only is he rich, but he is also powerful and influential, and his influence could very easily be transferred to any heroes that get on his good side."
 							]
 						},
 						{
@@ -326,11 +2166,11 @@
 							"id": "Adventure Summary",
 							"entries": [
 								"After a chance encounter on a space station with a desperate agent of Senator Bail Organa of Alderaan, the heroes negotiate with a local crime lord and obtain valuable cargo intended for the Senator. Once they deliver the cargo, the heroes learn that it is actually a man frozen in carbonite who carries secret information for the Senator. Based on this information, the heroes are hired (as friends of Bail Organa, enemies of the Empire, or freelance entrepreneurs) to fly to the planet Felucia and discover the fate of a turncoat Imperial Admiral. If the Admiral still lives, they are to bring him back to Alderaan.",
-                                "The heroes arrive to find Felucia under tight Imperial control. After a brief skirmish with some Imperial starships in orbit, their ship makes a hard landing on Felucia to avoid detection. The ship is damaged, though Captain Okeefe believes it can be repaired. Once they are prepared, the heroes venture out into Felucia's jungles in search of signs of civilization. After fighting their way through the local flora and fauna, they discover a hidden village of Felucians that have fled deep into the jungles to escape Imperial oppression.",
-                                "The heroes negotiate for a guide to take them to a nearby Imperial facility known to the locals as the \"Vanishing Place.\" In truth, this is a prison for Imperial dissidents and traitors where Admiral Gilder is being held. The heroes prepare to set off for the prison when a cry goes up in the village—a scout trooper has just spotted the village and is headed back to alert the Empire! This leads into a chase scene in which the heroes ride kybucks in pursuit of the scout trooper. Once the trooper has been stopped, the heroes convince the Felucians to lead them to the Imperial base immediately so that they can rescue the Admiral and stop bringing danger to the hidden village.",
-                                "The heroes and their guide set off for the Imperial prison facility. It is heavily guarded from the outside, but the Felucian guide knows a secret way in. Once inside the base, the heroes find it more lightly guarded (and more along the lines of what they can handle). During the search for Admiral Gilder, the heroes come across a communication from Imperial Naval Command indicating that Inquisitor Varthis en route to Felucia to take custody of the Admiral. The heroes fight their way through the facility and eventually find Admiral Gilder in the detention block. They free him and head back to the secret entrance where their Felucian guide supposedly awaits their return.",
-                                "Unfortunately, the heroes find trouble instead. Their guide lies dead, and Imperials are gathering outside the facility. About this time, Captain Okeefe sends the heroes a message: She has completed repairs to her ship and can pick them up when they are ready. On their way to the roof, the heroes must deal with the cruel Captain Vischera and his genetically modified bodyguards. Once they reach the roof, they board Okeefe's ship and blast off from Felucia.",
-                                "The adventure concludes as the heroes bring Admiral Gilder to the rendezvous point designated by Senator Organa. There, the heroes are introduced to the Nebulon-B frigate {@i Resurgence}, which has been commissioned by Organa to serve as a mobile hiding place for the Admiral. Aboard the {@i Resurgence}, Admiral Gilder is debriefed and provides the heroes and Senator Organa with information related to a top-secret Imperial project."
+								"The heroes arrive to find Felucia under tight Imperial control. After a brief skirmish with some Imperial starships in orbit, their ship makes a hard landing on Felucia to avoid detection. The ship is damaged, though Captain Okeefe believes it can be repaired. Once they are prepared, the heroes venture out into Felucia's jungles in search of signs of civilization. After fighting their way through the local flora and fauna, they discover a hidden village of Felucians that have fled deep into the jungles to escape Imperial oppression.",
+								"The heroes negotiate for a guide to take them to a nearby Imperial facility known to the locals as the \"Vanishing Place.\" In truth, this is a prison for Imperial dissidents and traitors where Admiral Varth is being held. The heroes prepare to set off for the prison when a cry goes up in the village—a scout trooper has just spotted the village and is headed back to alert the Empire! This leads into a chase scene in which the heroes ride kybucks in pursuit of the scout trooper. Once the trooper has been stopped, the heroes convince the Felucians to lead them to the Imperial base immediately so that they can rescue the Admiral and stop bringing danger to the hidden village.",
+								"The heroes and their guide set off for the Imperial prison facility. It is heavily guarded from the outside, but the Felucian guide knows a secret way in. Once inside the base, the heroes find it more lightly guarded (and more along the lines of what they can handle). During the search for Admiral Varth, the heroes come across a communication from Imperial Naval Command indicating that Inquisitor Draco is en route to Felucia to take custody of the Admiral. The heroes fight their way through the facility and eventually find Admiral Varth in the detention block. They free him and head back to the secret entrance where their Felucian guide supposedly awaits their return.",
+								"Unfortunately, the heroes find trouble instead. Their guide lies dead, and Imperials are gathering outside the facility. About this time, Captain Okeefe sends the heroes a message: She has completed repairs to her ship and can pick them up when they are ready. On their way to the roof, the heroes must deal with the cruel Captain Vischera and his genetically modified bodyguards. Once they reach the roof, they board Okeefe's ship and blast off from Felucia.",
+								"The adventure concludes as the heroes bring Admiral Varth to the rendezvous point designated by Senator Organa. There, the heroes are introduced to the Nebulon-B frigate {@i Resurgence}, which has been commissioned by Organa to serve as a mobile hiding place for the Admiral. Aboard the {@i Resurgence}, Admiral Varth is debriefed and provides the heroes and Senator Organa with information related to a top-secret Imperial project."
 							]
 						},
 						{
@@ -346,8 +2186,8 @@
 										"Episode I",
 										"THE TRAITOR'S GAMBIT",
 										"It is a dark time in the galaxy. The evil Galactic Empire has spread from the Deep Core to the Outer Rim, and everywhere the Empire's tyranny can be felt.",
-                                        "Fleeing from the oppression of the Emperor's minions, agents of Senator Bail Organa have run to a remote space station above Brentaal. Known to be a vocal opponent of the Empire, Organa may be the last hope of freedom in the galaxy.",
-                                        "In the hopes of stopping these dissidents before they can reach the Senator, the Empire has alerted its forces on Sel Zonn Station, where the struggle for liberty rages on, and the first sparks of rebellion have begun to burn..."
+										"Fleeing from the oppression of the Emperor's minions, agents of Senator Bail Organa have run to a remote space station above Brentaal. Known to be a vocal opponent of the Empire, Organa may be the last hope of freedom in the galaxy.",
+										"In the hopes of stopping these dissidents before they can reach the Senator, the Empire has alerted its forces on Sel Zonn Station, where the struggle for liberty rages on, and the first sparks of rebellion have begun to burn..."
 									]
 								}
 							]
@@ -360,14 +2200,14 @@
 					"id": "Part 1: Prelude to Defiance",
 					"entries": [
 						"The Dawn of Defiance campaign opens on an unsuspecting space station orbiting the Core World of Brentaal. Sel Zonn Station is little more than a travel and cargo port, just like dozens of others in orbit around the world. However, the station is also home not only to the Empire and its lackeys among the nobility of Brentaal, but also to the beginnings of the first major resistance group — that of your heroes. In part 1 of The Traitor's Gambit, the heroes arrive on Sel Zonn Station to find that enemies of the Empire have been struggling to gather a valuable piece of cargo and make their way to Alderaan. When the heroes become embroiled in the plot, they find that they are rescuing an undercover agent frozen in carbonite who has valuable information for Senator Bail Organa. After some run-ins with local information brokers and Imperial agents, the heroes leave Brentaal and head for the scenic planet of Alderaan.",
-                        "Before the adventure opens, you (the GM) should determine whether the heroes already know one another or whether they are on Sel Zonn Station by chance. If the heroes already know one another, they have simply come to the station for the same reason as many other travelers—to rest, relax, refuel, and prepare for the next leg of their journey. If the heroes do not know one another before the adventure begins, discuss in advance what has brought each hero to Sel Zonn Station. They might be criminals escaping justice on Brentaal, fugitive Jedi on the run from the Empire, legitimate traders or business people passing through, or nobles who have traveled to Brentaal to investigate their financial interests.",
+						"Before the adventure opens, you (the GM) should determine whether the heroes already know one another or whether they are on Sel Zonn Station by chance. If the heroes already know one another, they have simply come to the station for the same reason as many other travelers—to rest, relax, refuel, and prepare for the next leg of their journey. If the heroes do not know one another before the adventure begins, discuss in advance what has brought each hero to Sel Zonn Station. They might be criminals escaping justice on Brentaal, fugitive Jedi on the run from the Empire, legitimate traders or business people passing through, or nobles who have traveled to Brentaal to investigate their financial interests.",
 						{
 							"type": "entries",
 							"name": "Sel Zonn Station",
 							"id": "Sel Zonn Station",
 							"entries": [
 								"Sel Zonn Station is one of over a dozen XQ2 Space Platforms in orbit around Brentaal. Manufactured by Bengel Shipbuilders some years before the beginning of the adventure, Sel Zonn Station has not flourished since the rise of the Empire. Though it still sees a great deal of traffic from Brentaal and from travelers, the Empire has allowed large sections of the station to languish and fall apart. Thanks to the rise of anti-alien sentiment, especially on the Core Worlds, the more run-down sections of Sel Zonn Station are now inhabited by aliens. As such, a rift divides the station—wealthy, privileged Human Imperial loyalists occupy the nicer sections of the station, while all others are relegated to worn and sometimes dangerous secondary sections.",
-                                "If the heroes arrive at Sel Zonn Station together aboard the same ship, read the following boxed text aloud.",
+								"If the heroes arrive at Sel Zonn Station together aboard the same ship, read the following boxed text aloud.",
 								{
 									"type": "insetReadaloud",
 									"entries": [
@@ -375,19 +2215,19 @@
 									]
 								},
 								"The interior of the space station conforms to the Imperial standard. Since Sel Zonn Station orbits a Core World, it is far better maintained than other structures of its age, and the main areas see constant renovations and repairs. However, a few steps off of the beaten path quickly reveal that the station is rotting from the inside out. A short walk away from the main venues leads to decrepit sections of the station, filled with broken lights, tarnished metal walls, missing deck plates, and all manner of suspicious aliens that have been driven out of the nicer sections by the Empire.",
-                                "Aboard Sel Zonn Station, all doors and walls are made of metal and conform to the standard statistics for objects. Slicing the station's central computer system has a DC of 27 and the computer will trace any failed slicing attempt to the terminal from which it was made. The station's information terminals can be found at regular intervals throughout public areas and in private rooms. These terminals can provide basic information on the layout and facilities of the station, but not much else. Each terminal is connected to the central computer system.",
-                                "In addition to providing boarding and supply services, Sel Zonn Station is host to a number of businesses that cater specifically to travelers. All shopkeepers on Sel Zonn Station sell at the prices listed in the {@i Saga Edition Core Rulebook}. Almost all shops are located on the Promenade, though a few are off the beaten path. Some of the most popular establishments include:",
-                                {
-                                    "type": "list",
-                                    "items": [
-                                        "{@i {@b Gundark's Cantina}}: Owned and operated by a gruff Human male named \"Gundark\" Saff, Gundark's Cantina is a place where people from all walks of life can come to relax. Though Gundark himself shows some anti-alien bias, he does not prevent non-Humans from patronizing his establishment. As such, it is a popular meeting place for nearly anyone on the station, and it features a large number of secluded booths for private conversations.",
-                                        "{@i {@b The Credit Chip}}: A local casino that attracts a wide variety of patrons, the Credit Chip is operated by a quiet and brooding Human named Cecil Vane. Vane doesn't like what the Empire has done to the station, especially since they don't take it too well when he cheats Imperial officers out of their money. The most popular games in the galaxy, including sabacc and pazaak, see a lot of play here.",
-                                        "{@i {@b Delgas Medical Supplies}}: A corporate medical practice and pharmaceutical supplier, Delgas Medical Supplies provides care to those who can afford it. The chief doctor in the practice is Byra Fenn, a talented Human woman with secrets to keep. Dr. Fenn has had extensive dealings with one of thestation's information brokers, a protocol droid named Switch, and she owes him several favors.",
-                                        "{@i {@b Mechanical Allies}}: A droid repair and sales shop, this is one of the few businesses run by a non-Human that hasn't been hut down by the Empire. Operated by an untrustworthy wi'lek named San, Mechanical Allies sells all manner of droid parts and reconditioned droids. Despite the fact that most of his droids are faulty, San has remained in business thanks to his own savvy and his ability to buy off the Empire from time to time."
-                                    ]
-                                },
-                                "There are two primary sources of law enforcement aboard Sel Zonn Station. The Empire has a moderate presence, with a garrison aboard to keep the peace and enforce Imperial law. In addition to stormtroopers and Imperial officers, Brentaal's planetary security force keeps a watchful eye on everything that happens on Sel Zonn Station. The planetary security force gets along well enough with the Empire, though questions of jurisdiction have caused tension between the two in the past. For the most part, the planetary security force operates out of the local security office, where it keeps a number of cells open for criminals and malcontents. Those captured by the Empire, however, are incarcerated in the security office briefly before being transported via shuttle to the planet's surface. Customs enforcement is relatively light simply because large cargo haulers cannot dock with the station. As such, usually only a single customs officer is on hand for any cargo inspection.",
-                                "The main commercial area of Sel Zonn Station is known as the Promenade. Filled with shops of all kinds, as well as large, open seating areas with fountains, plants, and other decorations, the Promenade is where Brentaal's nobles and other station visitors go to enjoy themselves. Security is tight on the Promenade, and Imperial forces are on hand at all times to keep the peace. Additionally, the Empire tries to keep the area free of aliens, and as such they harass any non-Humans moving about the Promenade. Although they won't go so far as to arrest anyone, they often try to start fights with aliens just to have an excuse to lock them up. For this reason, most non-Humans tend to stay clear of the Promenade, except on rare occasions."
+								"Aboard Sel Zonn Station, all doors and walls are made of metal and conform to the standard statistics for objects. Slicing the station's central computer system has a DC of 27 and the computer will trace any failed slicing attempt to the terminal from which it was made. The station's information terminals can be found at regular intervals throughout public areas and in private rooms. These terminals can provide basic information on the layout and facilities of the station, but not much else. Each terminal is connected to the central computer system.",
+								"In addition to providing boarding and supply services, Sel Zonn Station is host to a number of businesses that cater specifically to travelers. All shopkeepers on Sel Zonn Station sell at the prices listed in the {@i Saga Edition Core Rulebook}. Almost all shops are located on the Promenade, though a few are off the beaten path. Some of the most popular establishments include:",
+								{
+									"type": "list",
+									"items": [
+										"{@i {@b Gundark's Cantina}}: Owned and operated by a gruff Human male named \"Gundark\" Saff, Gundark's Cantina is a place where people from all walks of life can come to relax. Though Gundark himself shows some anti-alien bias, he does not prevent non-Humans from patronizing his establishment. As such, it is a popular meeting place for nearly anyone on the station, and it features a large number of secluded booths for private conversations.",
+										"{@i {@b The Credit Chip}}: A local casino that attracts a wide variety of patrons, the Credit Chip is operated by a quiet and brooding Human named Cecil Vane. Vane doesn't like what the Empire has done to the station, especially since they don't take it too well when he cheats Imperial officers out of their money. The most popular games in the galaxy, including sabacc and pazaak, see a lot of play here.",
+										"{@i {@b Delgas Medical Supplies}}: A corporate medical practice and pharmaceutical supplier, Delgas Medical Supplies provides care to those who can afford it. The chief doctor in the practice is Byra Fenn, a talented Human woman with secrets to keep. Dr. Fenn has had extensive dealings with one of thestation's information brokers, a protocol droid named Switch, and she owes him several favors.",
+										"{@i {@b Mechanical Allies}}: A droid repair and sales shop, this is one of the few businesses run by a non-Human that hasn't been hut down by the Empire. Operated by an untrustworthy wi'lek named San, Mechanical Allies sells all manner of droid parts and reconditioned droids. Despite the fact that most of his droids are faulty, San has remained in business thanks to his own savvy and his ability to buy off the Empire from time to time."
+									]
+								},
+								"There are two primary sources of law enforcement aboard Sel Zonn Station. The Empire has a moderate presence, with a garrison aboard to keep the peace and enforce Imperial law. In addition to stormtroopers and Imperial officers, Brentaal's planetary security force keeps a watchful eye on everything that happens on Sel Zonn Station. The planetary security force gets along well enough with the Empire, though questions of jurisdiction have caused tension between the two in the past. For the most part, the planetary security force operates out of the local security office, where it keeps a number of cells open for criminals and malcontents. Those captured by the Empire, however, are incarcerated in the security office briefly before being transported via shuttle to the planet's surface. Customs enforcement is relatively light simply because large cargo haulers cannot dock with the station. As such, usually only a single customs officer is on hand for any cargo inspection.",
+								"The main commercial area of Sel Zonn Station is known as the Promenade. Filled with shops of all kinds, as well as large, open seating areas with fountains, plants, and other decorations, the Promenade is where Brentaal's nobles and other station visitors go to enjoy themselves. Security is tight on the Promenade, and Imperial forces are on hand at all times to keep the peace. Additionally, the Empire tries to keep the area free of aliens, and as such they harass any non-Humans moving about the Promenade. Although they won't go so far as to arrest anyone, they often try to start fights with aliens just to have an excuse to lock them up. For this reason, most non-Humans tend to stay clear of the Promenade, except on rare occasions."
 							]
 						},
 						{
@@ -402,27 +2242,28 @@
 										"The Promenade is filled with the bustle of revelry and commerce. Spilling out of the gambling halls are the sounds of victory and the moans of defeat, while the music of local bands issues from the cantinas. Only a handful of citizens mill about in the main areas of the Promenade, a few gazing out the massive windows at the planet Brentaal hovering below. Businesspeople hawk their wares to the passersby, and a few Imperial stormtroopers make their way down the main avenue of the Promenade on their usual patrol at a leisurely pace."
 									]
 								},
-                                "After the heroes have had a moment to soak in the sights and sounds of the Promenade, give them each a chance to make a DC 10 Perception check. Those who succeed on the roll notice two men loitering on the Promenade who do not appear to be part of the larger crowd. Each seems to be scanning the crowd closely as though looking for someone, though they pay no attention to the heroes. Those who succeed on the Perception check with a roll of 15 or higher also notice that, despite wearing normal traveling clothes, each man is carrying a hold-out blaster tucked into his jacket, and both men are wearing identical garments. Those who succeed on the check with a 20 or higher also notice that both men seem to be whispering to themselves, obviously speaking into hidden comlinks.",
-                                "Within moments, a slender woman wearing the greasy clothes of a mechanic stumbles down the Promenade. Though she is trying to hide it, she has clearly been wounded somehow, and she looks disheveled. Once the heroes have had a chance to see the woman, the two men make their way toward her, and she turns and runs toward the nearest hero (or toward the heroes who are closest to one another). She pleads for assistance, offering credits to anyone who will help her. The two men give chase, and the first encounter begins.",
-                                "The woman is Maya, an Alderaanian Security agent, and the men are undercover informants for the Empire."
+								"After the heroes have had a moment to soak in the sights and sounds of the Promenade, give them each a chance to make a DC 10 Perception check. Those who succeed on the roll notice two men loitering on the Promenade who do not appear to be part of the larger crowd. Each seems to be scanning the crowd closely as though looking for someone, though they pay no attention to the heroes. Those who succeed on the Perception check with a roll of 15 or higher also notice that, despite wearing normal traveling clothes, each man is carrying a hold-out blaster tucked into his jacket, and both men are wearing identical garments. Those who succeed on the check with a 20 or higher also notice that both men seem to be whispering to themselves, obviously speaking into hidden comlinks.",
+								"Within moments, a slender woman wearing the greasy clothes of a mechanic stumbles down the Promenade. Though she is trying to hide it, she has clearly been wounded somehow, and she looks disheveled. Once the heroes have had a chance to see the woman, the two men make their way toward her, and she turns and runs toward the nearest hero (or toward the heroes who are closest to one another). She pleads for assistance, offering credits to anyone who will help her. The two men give chase, and the first encounter begins.",
+								"The woman is Maya, an Alderaanian Security agent, and the men are undercover informants for the Empire."
 							]
 						},
 						{
 							"type": "entries",
-							"name": "Promenade Shootout",
+							"name": "Promenade Shootout (CR 1)",
 							"id": "Promenade Shootout",
 							"entries": [
 								{
 									"type": "inset",
-									"name": "Promenade Shootout Encounter (CR 1)",
+									"name": "Promenade Shootout Encounter Encounter (CR 1)",
 									"entries": [
 										{
 											"type": "list",
 											"style": "list-no-bullets",
 											"items": [
-												"2 x {@creature Storm Trooper Recruit|SW5eDoD}",
-												"2 x {@creature Imperial Informant|SW5eDoD}",
-												"1 x {@creature Maya|SW5eDoD}",
+												"2 x {@creature trooper, recruit|orcnogDoDEp1|Stormtrooper Recruits}",
+												"2 x {@creature Imperial Informant|orcnogDoDEp1|Imperial Informants}",
+												"1 x {@creature Maya|orcnogDoDEp1}",
+												"<hr/>",
 												"See: {@area Promenade Shootout Encounter Map|Promenade Shootout Encounter Map|x}"
 											]
 										}
@@ -431,6 +2272,7 @@
 								{
 									"type": "entries",
 									"name": "Setup",
+									"id": "Setup",
 									"entries": [
 										"The open area of the Promenade features few places to hide during this encounter. The heroes find themselves boxed into a small, enclosed area when combat begins. Disperse the heroes throughout the Promenade, place the two stormtrooper recruits near the south entrance, and place the two Imperial informants at the north entrance."
 									]
@@ -438,16 +2280,17 @@
 								{
 									"type": "entries",
 									"name": "Read-Aloud Text",
+									"id": "Read-Aloud Text",
 									"entries": [
 										"After the heroes make their Perception checks to notice the two Imperial informants (whether they succeed or fail), introduce Maya, the stumbling Alderaanian Security agent who approaches the heroes and pleads for assistance:",
 										{
 											"type": "insetReadaloud",
 											"name": "",
 											"entries": [
-                                                "A woman with short black hair and the greasy uniform of a mechanic comes stumbling onto the Promenade, clutching her midsection as though injured. She struggles to make her way across the floor in your direction, though clearly she is having difficulty walking.",
-                                                "\"Please, help me,\" she calls out to you. \"There are credits in it for you, just help me!\"",
-                                                "Mere seconds later, two stormtrooper recruits burst into the area from the south end of the Promenade. They raise their blasters, aiming them at the woman, and shout through their helmet speakers, \"Step away from that woman. You are all under arrest in the name of the Emperor!\""
-                                            ]
+												"A woman with short black hair and the greasy uniform of a mechanic comes stumbling onto the Promenade, clutching her midsection as though injured. She struggles to make her way across the floor in your direction, though clearly she is having difficulty walking.",
+												"\"Please, help me,\" she calls out to you. \"There are credits in it for you, just help me!\"",
+												"Mere seconds later, two stormtrooper recruits burst into the area from the south end of the Promenade. They raise their blasters, aiming them at the woman, and shout through their helmet speakers, \"Step away from that woman. You are all under arrest in the name of the Emperor!\""
+											]
 										}
 									]
 								},
@@ -455,14 +2298,14 @@
 									"type": "entries",
 									"name": "Stormtrooper Recruits (2)",
 									"entries": [
-										"The Empire doesn't send its best and brightest to Sel Zonn Station; instead, the post is usually a testing ground for new stormtrooper recruits. Though adorned with the accoutrements of normal stormtroopers, these recruits don't have the experience that other stormtroopers do, and are prone to missing their targets under fire Though armed with blaster carbines and light armour, these officers don't have the experience that other troops do, and are prone to missing their targets under fire."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Stormtrooper Recruit Tactics",
-									"entries": [
-										"These stormtrooper recruits are solely concerned with capturing Maya, the Alderaanian Security agent. They are trigger happy, though, and are more than willing to shoot anyone who stands in their way. When the encounter begins, they attempt to stun Maya but use lethal force against any other opponents."
+										"The Empire doesn't send its best and brightest to Sel Zonn Station; instead, the post is usually a testing ground for new stormtrooper recruits. Though adorned with the accoutrements of normal stormtroopers, these recruits don't have the experience that other stormtroopers do, and are prone to missing their targets under fire Though armed with blaster carbines and light armour, these officers don't have the experience that other troops do, and are prone to missing their targets under fire.",
+										{
+											"type": "entries",
+											"name": "Stormtrooper Recruit Tactics",
+											"entries": [
+												"These stormtrooper recruits are solely concerned with capturing Maya, the Alderaanian Security agent. They are trigger happy, though, and are more than willing to shoot anyone who stands in their way. When the encounter begins, they attempt to stun Maya but use lethal force against any other opponents."
+											]
+										}
 									]
 								},
 								{
@@ -474,14 +2317,14 @@
 											"type": "insetReadaloud",
 											"name": "",
 											"entries": ["Dressed in traveler's clothes and carrying poorly concealed hold-out blaster pistols, these civilians seem as though they are keeping a watchful eye on nearly everyone at the same time."]
+										},
+										{
+											"type": "entries",
+											"name": "Imperial Informant Tactics",
+											"entries": [
+												"The Imperial informants have bought into the Empire's propaganda and are willing to risk their lives to help bring enemies of the state to justice. Unlike the stormtrooper recruits, they don't realize that Maya is wanted alive and use lethal force against her. However, when the heroes intervene, the informants ignore Maya and focus solely on the heroes."
+											]
 										}
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Imperial Informant Tactics",
-									"entries": [
-										"The Imperial informants have bought into the Empire's propaganda and are willing to risk their lives to help bring enemies of the state to justice. Unlike the stormtrooper recruits, they don't realize that Maya is wanted alive and use lethal force against her. However, when the heroes intervene, the informants ignore Maya and focus solely on the heroes."
 									]
 								},
 								{
@@ -489,18 +2332,18 @@
 									"name": "Maya, Alderaanian Security Agent",
 									"entries": [
 										"The woman begging the heroes for help is Maya, an agent of Alderaanian Security who has been grievously wounded in a run-in with the Empire on Sel Zonn Station. She has four levels of exhaustion (presented as the first statistics block below), meaning she doesn't have much fight left in her. Maya desperately reaches out to the heroes for help.",
-                                        {
+										{
 											"type": "insetReadaloud",
 											"name": "",
 											"entries": ["This slender, black-haired woman wears a blue uniform like that worn by many mechanics and repair crews aboard Sel Zonn Station. Her face and clothes are smudged with grease, and her look suggests that she has been in more than a few firefights."]
+										},
+										{
+											"type": "entries",
+											"name": "Maya's Tactics",
+											"entries": [
+												"Maya's chief concern is survival. She tries to find cover and hide, hoping that the heroes will take care of the Imperial agents that are after her. She will assist when possible, but her persistent condition makes her good for little besides encouragement and motivation. Maya fights defensively on every round, taking no attacks, and always tries to hide behind something to gain cover from attackers."
+											]
 										}
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Maya's Tactics",
-									"entries": [
-										"Maya's chief concern is survival. She tries to find cover and hide, hoping that the heroes will take care of the Imperial agents that are after her. She will assist when possible, but her persistent condition makes her good for little besides encouragement and motivation. Maya fights defensively on every round, taking no attacks, and always tries to hide behind something to gain cover from attackers."
 									]
 								},
 								{
@@ -510,27 +2353,27 @@
 										"When the encounter ends, the heroes should realize that reinforcements are likely on the way. In fact, 10 rounds after combat ends, a squad of six stormtroopers arrives. If the heroes have departed before this time, they are not pursued."
 									]
 								},
-                                {
-                                    "type": "entries",
-                                    "name": "Development",
-                                    "entries": [
-                                        "Once the heroes subdue the Imperial informers and defeat the security officers, they must quickly get to safety before reinforcements arrive. If the heroes did not manage to save Maya, a datapad she carries contains notes on \"V14\" and \"Switch\" as clues to the location of some valuable cargo. The heroes should be able to make Investigation checks to learn what those words mean. A successful DC 10 check reveals that V14 is a deep storage bay on the station. A successful DC 15 check reveals that information, plus the fact that Switch is a well-known droid information broker that operates from a secret location within the station. The heroes should be able to figure out that something important (and possibly profitable) is going on, and they should be on the right track to discover V14's secrets.",
-                                        "If the heroes keep Maya from being killed in the fracas, she directs them to safe quarters where they can talk. She is still grievously wounded and has four levels of exhaustion that can be removed only with surgery or a dip in a bacta tank. However, despite her injuries, she tells the heroes enough to set them on the right path. They need to get to deep storage bay V14, where a droid named Switch can provide them with the location of some very valuable cargo. According to Maya, Switch was responsible for receiving and storing this cargo, which was shipped all the way from the Deep Core. Maya was supposed to contact Switch, recover the cargo, and deliver it to Senator Bail Organa of Alderaan. She reveals that she is a member of Alderaanian Security and part of Organa's personal security detail, and that she was waylaid by the Empire mere hours after arriving on the station. Apparently, the fact that she works for a vocal opponent of the Emperor has flagged her as a troublemaker, and the Empire wants her off the station one way or the other.",
-                                        "If the heroes agree to help her further, Maya assures them that Bail Organa will be happy to reward them for their efforts, and she emphasizes that the work they are helping her with could save the lives of many innocent beings. She doesn't go into more detail than that, but she assures the heroes that her mission advances the cause of good. If the heroes can procure the cargo from Switch, she will provide them with transport from Sel Zonn Station to Alderaan. Unfortunately, due to the recent confrontation, the heroes will need to keep a low profile, and Maya herself must remain safe in her quarters until fully healed.",
-                                        "If the heroes take her up on her offer, Maya entrusts them with directions to bay V14 and tells them to contact her when they procure the cargo."
-                                    ]
-                                },
 								{
 									"type": "entries",
 									"name": "Encounter Map",
 									"entries": [
 										"{@area Promenade Shootout Encounter Map|Promenade Shootout Encounter Map|x}"
 									]
+								},
+								{
+									"type": "entries",
+									"name": "Development",
+									"entries": [
+										"Once the heroes subdue the Imperial informers and defeat the security officers, they must quickly get to safety before reinforcements arrive. If the heroes did not manage to save Maya, a datapad she carries contains notes on \"V14\" and \"Switch\" as clues to the location of some valuable cargo. The heroes should be able to make Investigation checks to learn what those words mean. A successful DC 10 check reveals that V14 is a deep storage bay on the station. A successful DC 15 check reveals that information, plus the fact that Switch is a well-known droid information broker that operates from a secret location within the station. The heroes should be able to figure out that something important (and possibly profitable) is going on, and they should be on the right track to discover V14's secrets.",
+										"If the heroes keep Maya from being killed in the fracas, she directs them to safe quarters where they can talk. She is still grievously wounded and has four levels of exhaustion that can be removed only with surgery or a dip in a bacta tank. However, despite her injuries, she tells the heroes enough to set them on the right path. They need to get to deep storage bay V14, where a droid named Switch can provide them with the location of some very valuable cargo. According to Maya, Switch was responsible for receiving and storing this cargo, which was shipped all the way from the Deep Core. Maya was supposed to contact Switch, recover the cargo, and deliver it to Senator Bail Organa of Alderaan. She reveals that she is a member of Alderaanian Security and part of Organa's personal security detail, and that she was waylaid by the Empire mere hours after arriving on the station. Apparently, the fact that she works for a vocal opponent of the Emperor has flagged her as a troublemaker, and the Empire wants her off the station one way or the other.",
+										"If the heroes agree to help her further, Maya assures them that Bail Organa will be happy to reward them for their efforts, and she emphasizes that the work they are helping her with could save the lives of many innocent beings. She doesn't go into more detail than that, but she assures the heroes that her mission advances the cause of good. If the heroes can procure the cargo from Switch, she will provide them with transport from Sel Zonn Station to Alderaan. Unfortunately, due to the recent confrontation, the heroes will need to keep a low profile, and Maya herself must remain safe in her quarters until fully healed.",
+										"If the heroes take her up on her offer, Maya entrusts them with directions to bay V14 and tells them to contact her when they procure the cargo."
+									]
 								}
 							]
 						},
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "Deep Storage Bay V14",
 							"id": "Deep Storage Bay V14",
 							"entries": [
@@ -547,7 +2390,7 @@
 										"The deep storage bay is as run-down as the hallways leading up to it, with entire metal plates missing from the floor and a huge, open exhaust shaft near the back of the room. Large crates litter the area, creating the appearance of a haphazard mess, and the air has a distinct smell of sweat and fumes that makes the entire area unpleasant. Flickering lights provide modest illumination, and a burst pipe along the ceiling leaks blue fluid down one wall."
 									]
 								},
-								"Near the center of the room is an item that seems very out of place \u00e2\u20ac\u201d a large, finely crafted desk made of Japor ivory wood, which means that the desk is both priceless and rare. Sitting peacefully behind the desk is a protocol droid with shiny, ebony coverings that seem to soak up light and offer only the slightest reflection. The droid's eyes flicker slightly, as though imitating a person blinking rapidly.",
+								"Near the center of the room is an item that seems very out of place\u2014a large, finely crafted desk made of Japor ivory wood, which means that the desk is both priceless and rare. Sitting peacefully behind the desk is a protocol droid with shiny, ebony coverings that seem to soak up light and offer only the slightest reflection. The droid's eyes flicker slightly, as though imitating a person blinking rapidly.",
 								"At first glance, Switch, the protocol droid information broker, appears to be the only occupant of the storage bay, but several of his thugs and associates are also spread throughout the room. Three bodyguards hide behind crates scattered around the room, and the heroes can make Perception checks (opposed by the thugs' Stealth checks) to notice them. Additionally, Switch's most valued companion - a blue-and-red astromech droid with the designation R5-B8 - beeps and burbles quietly besides the protocol droid, seemingly lost in its own world. Lastly, Switch's majordomo, a Twi'lek thug, stands quietly off to one side, not actively hiding but also not clearly visible until the heroes approach the desk.",
 								{
 									"type": "entries",
@@ -614,18 +2457,21 @@
 							]
 						},
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "Ganga Lor's Grudge (CR 3)",
-							"id": "Ganga Lor's Grudge (CR 3)",
+							"id": "Ganga Lor's Grudge",
 							"entries": [
 								{
 									"type": "inset",
-									"name": "Ganga Lor's Grudge (CR 3)",
+									"name": "Ganga Lor's Grudge Encounter (CR 3)",
 									"entries": [
 										{
 											"type": "list",
 											"style": "list-no-bullets",
 											"items": [
+												"1 x {@creature Ganga Lor|orcnogDoDEp1}",
+												"7 x {@creature Ganga Lor's Thug|orcnogDoDEp1|Ganga Lor's Thugs}",
+												"<hr/>",
 												"See: {@area Ganga Lor's Grudge Encounter Map|Ganga Lor's Grudge Encounter Map|x}"
 											]
 										}
@@ -634,7 +2480,7 @@
 								{
 									"type": "entries",
 									"name": "Setup",
-									"id": "Setup",
+									"id": "Setup 1",
 									"entries": [
 										"The heroes, Switch, and his thugs should be set up away from the door, behind some of the crates near the middle and back of bay V14. When the encounter begins, Ganga Lor and his thugs enter through the same double doors the heroes came through."
 									]
@@ -642,7 +2488,7 @@
 								{
 									"type": "entries",
 									"name": "Read-Aloud Text",
-									"id": "Read-Aloud Text",
+									"id": "Read-Aloud Text 1",
 									"entries": [
 										"Read the following text aloud when the Chevin and his enter the bay.",
 										{
@@ -686,7 +2532,7 @@
 											"type": "entries",
 											"name": "Thug Tactics",
 											"entries": [
-												"The thugs have no real strategy to their actions; they are straight-up fighters who care little for complex tactics. However, Switch's own thugs take pains not to hit Ganga Lor's goons\u00e2\u20ac\u201dthe Chevin secretly paid them to miss on purpose so that he could take Switch down more easily. If Ganga Lor sees that the fight is going badly for him, he calls upon Switch's thugs to switch sides, which they do. (This is a good opportunity to increase the challenge of the encounter later in the fight. On the other hand, if the fight is going poorly for the heroes, or if it might go either way, don't have Switch's thugs change sides at all.)",
+												"The thugs have no real strategy to their actions; they are straight-up fighters who care little for complex tactics. However, Switch's own thugs take pains not to hit Ganga Lor's goons\u2014the Chevin secretly paid them to miss on purpose so that he could take Switch down more easily. If Ganga Lor sees that the fight is going badly for him, he calls upon Switch's thugs to switch sides, which they do. (This is a good opportunity to increase the challenge of the encounter later in the fight. On the other hand, if the fight is going poorly for the heroes, or if it might go either way, don't have Switch's thugs change sides at all.)",
 												{
 													"type": "inset",
 													"name": "Features of the Area",
@@ -708,6 +2554,14 @@
 								},
 								{
 									"type": "entries",
+									"name": "Encounter Map",
+									"id": "Encounter Map",
+									"entries": [
+										"See: {@area Ganga Lor's Grudge Encounter Map|Ganga Lor's Grudge Encounter Map|x}"
+									]
+								},
+								{
+									"type": "entries",
 									"name": "Development",
 									"id": "Development",
 									"entries": [
@@ -715,17 +2569,11 @@
 										"If Switch does not survive the encounter, the heroes can learn the location of Maya's cargo by slicing into the computer in his desk (DC 18).",
 										"When the encounter with Switch is concluded, the heroes can head to Blue Deck's main docking bay and retrieve the cargo."
 									]
-								},
-								{
-									"type": "entries",
-									"name": "Encounter Map",
-									"id": "Encounter Map",
-									"entries": []
 								}
 							]
 						},
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "Blue Deck",
 							"id": "Blue Deck",
 							"entries": [
@@ -763,18 +2611,22 @@
 							]
 						},
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "Frozen Goods (CR 3)",
-							"id": "Frozen Goods (CR 3)",
+							"id": "Frozen Goods",
 							"entries": [
 								{
 									"type": "inset",
-									"name": "Frozen Goods (CR 3)",
+									"name": "Frozen Goods Encounter (CR 3)",
 									"entries": [
 										{
 											"type": "list",
 											"style": "list-no-bullets",
 											"items": [
+												"4 x {@creature trooper, recruit|orcnogDoDEp1|Stormtrooper Recruits}",
+												"1 x {@creature Imperial Officer|orcnogDoDEp1}",
+												"1 x {@creature Repulsor Sled|orcnogDoDEp1|Stormtrooper on Repulsor Sled}",
+												"<hr/>",
 												"See: {@area Frozen Goods Encounter Map|Frozen Goods Encounter Map|x}"
 											]
 										}
@@ -807,7 +2659,7 @@
 									"name": "Stormtrooper Recruits (4)",
 									"id": "Stormtrooper Recruits (4)",
 									"entries": [
-										"See Stormtrooper Recruit statblock."
+										"See {@creature trooper, recruit|Stormtrooper Recruit|orcnogDoDEp1} statblock."
 									]
 								},
 								{
@@ -815,15 +2667,15 @@
 									"name": "Imperial Officer (1)",
 									"id": "Imperial Officer (1)",
 									"entries": [
-										"See Imperial Officer statblock."
-									]
-								},
-								{
-									"type": "entries",
-									"name": "Imperial Tactics",
-									"id": "Imperial Tactics",
-									"entries": [
-										"By the time the heroes arrive, the Empire has discovered the Alderaanian Security agent's carbonite block, and a stormtrooper is using the repulsor sled to move it from one of the storage rooms into the main docking bay. When the heroes burst onto the scene, the Imperial officer immediately moves to take cover behind the nearest crates and calls for backup. When necessary he activates his Leadership ability. The stormtrooper piloting the repulsor sled releases the tow cable pulling the hovering block of carbonite, and the other recruits move to take down the heroes as quickly as possible."
+										"See {@creature Imperial Officer|orcnogDoDEp1} statblock.",
+										{
+											"type": "entries",
+											"name": "Imperial Tactics",
+											"id": "Imperial Tactics",
+											"entries": [
+												"By the time the heroes arrive, the Empire has discovered the Alderaanian Security agent's carbonite block, and a stormtrooper is using the repulsor sled to move it from one of the storage rooms into the main docking bay. When the heroes burst onto the scene, the Imperial officer immediately moves to take cover behind the nearest crates and calls for backup. When necessary he activates his Leadership ability. The stormtrooper piloting the repulsor sled releases the tow cable pulling the hovering block of carbonite, and the other recruits move to take down the heroes as quickly as possible."
+											]
+										}
 									]
 								},
 								{
@@ -831,14 +2683,7 @@
 									"name": "Stormtrooper on Repulsor Sled (1)",
 									"id": "Stormtrooper on Repulsor Sled (1)",
 									"entries": [
-										"See Stormtrooper on Repulsor Sled statblock.",
-										{
-											"type": "inset",
-											"name": "Features of the Area",
-											"entries": [
-												"This encounter features a large, open hangar bay with a number of places to hide and seek cover. Additionally, part of the encounter involves recovering an Alderaanian agent frozen in carbonite. The carbonite block has its own repulsors and hovers at roughly waist height on a Human. The block can be moved as a free action when someone else moves with it, though the person moving the block must remain adjacent to it throughout its movement. The carbonite block has DR 10, 20 hit points. If the block is reduced to 0 hit points, the agent inside is killed."
-											]
-										}
+										"See {@creature Repulsor Sled|orcnogDoDEp1} statblock."
 									]
 								},
 								{
@@ -851,6 +2696,21 @@
 								},
 								{
 									"type": "entries",
+									"name": "Encounter Map",
+									"id": "Encounter Map 2",
+									"entries": [
+										"See: {@area Frozen Goods Encounter Map|Frozen Goods Encounter Map|x}",
+										{
+											"type": "inset",
+											"name": "Features of the Area",
+											"entries": [
+												"This encounter features a large, open hangar bay with a number of places to hide and seek cover. Additionally, part of the encounter involves recovering an Alderaanian agent frozen in carbonite. The carbonite block has its own repulsors and hovers at roughly waist height on a Human. The block can be moved as a free action when someone else moves with it, though the person moving the block must remain adjacent to it throughout its movement. The carbonite block has DR 10, 20 hit points. If the block is reduced to 0 hit points, the agent inside is killed."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
 									"name": "Development",
 									"id": "Development 2",
 									"entries": [
@@ -858,22 +2718,16 @@
 										"If the heroes did not save Maya, you (the GM) have several options. The heroes might have met Captain Okeefe previously on the Promenade, or she might have been referred to them by Switch, who knew that they would need transport off the station. Failing that, the heroes might need to take their cargo and find a place to hide on the station until they can hire passage to Alderaan or stow away on a ship. Regardless, the heroes should take the frozen agent to Alderaan as quickly as possible.",
 										"(Note, escaping Sel Zonn station should be considered a level-up milestone.)"
 									]
-								},
-								{
-									"type": "entries",
-									"name": "Encounter Map",
-									"id": "Encounter Map 2",
-									"entries": []
 								}
 							]
 						},
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "Rendezvous on Alderaan",
 							"id": "Rendezvous on Alderaan",
 							"entries": [
 								"Eventually, the heroes should make their way to Alderaan to rendezvous with Bail Organa. Captain Okeefe can take the characters to meet with the Senator, and she encourages them to relax and recuperate during the journey to the peaceful planet of Alderaan. Feel free to use this time to allow the heroes to return to full health and take care of anything they need to do during the trip through hyperspace. The journey to Alderaan goes off without a hitch, and as the {@i Banshee} soars over the planet, the heroes enjoy a great view of the beautiful landscape of the world. Any heroes near the cockpit overhear Aldera's spaceport control tower clearing the ship to land at the Royal Palace's landing pad.",
-								"When the heroes disembark, they are immediately greeted by several Alderaanian honor guards and one of Bail Organa's servants, who escorts them into the palace and to the Grand Hall\u00e2\u20ac\u201dan ornately decorated chamber where the royalty of Alderaan holds court. The heroes are given refreshments and asked to wait on Organa's arrival. During this time, the Senator's servants unload the precious cargo from the {@i Banshee} and set about releasing the Alderaanian Security agent from the carbonite. The heroes aren't kept waiting long; Senator Organa arrives soon.",
+								"When the heroes disembark, they are immediately greeted by several Alderaanian honor guards and one of Bail Organa's servants, who escorts them into the palace and to the Grand Hall\u2014an ornately decorated chamber where the royalty of Alderaan holds court. The heroes are given refreshments and asked to wait on Organa's arrival. During this time, the Senator's servants unload the precious cargo from the {@i Banshee} and set about releasing the Alderaanian Security agent from the carbonite. The heroes aren't kept waiting long; Senator Organa arrives soon.",
 								{
 									"type": "entries",
 									"name": "Meeting with Bail Organa",
@@ -888,11 +2742,11 @@
 												"",
 												"\"I've asked you to join me today because the agents of mine that you rescued seem to think you can be trusted. Since you worked hard to help them, I believe I can put my faith in you as well. I have a task that needs to be completed, but unfortunately my status as a Senator prevents me from taking care of it myself, or even from sending someone directly associated with the Royal Family.",
 												"",
-												"\"The planet Felucia was ravaged during the Clone Wars, but once the fighting was over, the Empire set up a permanent facility on the world. Nothing large\u00e2\u20ac\u201djust a small garrison where they could keep prisoners out of the way. Some months ago, I was contacted by an Imperial Admiral who was disillusioned with the way the Empire had twisted the once-great Republic, and he began feeding me sensitive information. A little over a week ago, that communication stopped. My agents tell me that the Admiral has been taken to Felucia, where he is being held against his will. I'd like you to learn what has become of him, and rescue him if you can.\""
+												"\"The planet Felucia was ravaged during the Clone Wars, but once the fighting was over, the Empire set up a permanent facility on the world. Nothing large\u2014just a small garrison where they could keep prisoners out of the way. Some months ago, I was contacted by an Imperial Admiral who was disillusioned with the way the Empire had twisted the once-great Republic, and he began feeding me sensitive information. A little over a week ago, that communication stopped. My agents tell me that the Admiral has been taken to Felucia, where he is being held against his will. I'd like you to learn what has become of him, and rescue him if you can.\""
 											]
 										},
 										"After Organa delivers his proposition, the heroes probably have a number of questions. Here are some possible answers to likely questions:",
-										"{@b Who is this admiral?} \"Admiral Nathan Gilder is a veteran of the Clone Wars and an honorable man. He commanded one of the ships at the Battle of Coruscant and was promoted for bravery. His loyalty to the Empire seemed unwavering, but once you've seen what he has seen . . .\"",
+										"{@b Who is this admiral?} \"Admiral Gilder Varth is a veteran of the Clone Wars and an honorable man. He commanded one of the ships at the Battle of Coruscant and was promoted for bravery. His loyalty to the Empire seemed unwavering, but once you've seen what he has seen . . .\"",
 										"{@b What kind of opposition will we face?} \"The Imperial presence on Felucia is light. The facility itself is a secret, so they do not advertise its presence with large numbers of troops. Our knowledge of the facility's existence is our greatest advantage. Additionally, you shouldn't be going anywhere near the planet's major cities, so you should be able to travel largely undetected.\"",
 										"{@b What is Felucia like?} \"Dense overgrowth, huge fungi, and massive creatures are the order of the day on Felucia. It's a wild, untamed planet, and you should be careful to avoid much of the local wildlife.\"",
 										"{@b What's in it for us?} \"Each of you will receive 2,000 credits, and if things go well, I will guarantee more work when you return. Additionally, if the Admiral has as much information as I believe he does, this could be an excellent chance to strike a blow at the Galactic Empire.\""
@@ -901,12 +2755,12 @@
 							]
 						},
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "Sirona O'Keefe and the {@i Banshee}",
 							"id": "Sirona O'Keefe and the Banshee",
 							"entries": [
-								"If the heroes agree to discover the fate of Admiral Varth, Senator Organa tells them that he has arranged transport aboard a vessel owned and operated by one of his longtime friends. Sirona Okeefe is a free trader and transport pilot who frequently works for Organa and his agents \u00e2\u20ac\u201d most recently, Maya. On retainer from the Senator, Captain O'Keefe is a beautiful middle-aged woman who knows her way around the galaxy. For the first arc of the {@b Dawn of Defiance} campaign, her modified Baudo-class Star Yacht, the {@i Banshee}, will serve as the heroes' primary mode of transportation. Captain O'Keefe is fiercely loyal to Senator Organa and trusts the heroes only because he does.",
-								"The captain is something of a black sheep in her family (which hails from Brentaal) and doesn't care to speak about her past. She does mention that she has a niece who aspires to follow in her footsteps. Otherwise, O'Keefe always keeps the conversation light and flirty. Captain O'Keefe is also very fond of her droid copilot, an RX-13 pilot droid nicknamed \"Crash,\" who is curmudgeonly and prefers to gripe about nearly everything rather than go about his duties. Still, the two make a good pair \u00e2\u20ac\u201d the {@i Banshee} runs smoothly and has a number of special modifications that make it more than a match for Imperial patrols."
+								"If the heroes agree to discover the fate of Admiral Varth, Senator Organa tells them that he has arranged transport aboard a vessel owned and operated by one of his longtime friends. Sirona Okeefe is a free trader and transport pilot who frequently works for Organa and his agents\u2014most recently, Maya. On retainer from the Senator, Captain O'Keefe is a beautiful middle-aged woman who knows her way around the galaxy. For the first arc of the {@b Dawn of Defiance} campaign, her modified Baudo-class Star Yacht, the {@i Banshee}, will serve as the heroes' primary mode of transportation. Captain O'Keefe is fiercely loyal to Senator Organa and trusts the heroes only because he does.",
+								"The captain is something of a black sheep in her family (which hails from Brentaal) and doesn't care to speak about her past. She does mention that she has a niece who aspires to follow in her footsteps. Otherwise, O'Keefe always keeps the conversation light and flirty. Captain O'Keefe is also very fond of her droid copilot, an RX-13 pilot droid nicknamed \"Crash,\" who is curmudgeonly and prefers to gripe about nearly everything rather than go about his duties. Still, the two make a good pair\u2014the {@i Banshee} runs smoothly and has a number of special modifications that make it more than a match for Imperial patrols."
 							]
 						}
 					]
@@ -920,16 +2774,16 @@
 						"Felucia is an out-of-the-way jungle world where massive mushrooms dominate the landscape. The native Felucians retreated into hiding many years ago when Gossam colonists came to the world. Though the fierce battles of the Clone Wars made their way to the planet eventually, Felucia was left largely unscathed, and once the Separatist forces were defeated, the newly created Empire mostly withdrew from the system. As Bail Organa explained to the heroes, the Imperial presence on Felucia is based primarily around protecting the small prison facility left on the world. The few cities on Felucia have Imperial garrisons, and the Gossam colonists remaining on the world after the Clone Wars must deal with Imperial persecution.",
 						"However, the heroes won't be going anywhere near the cities. The prison facility, which does not exist on any official maps, is located deep in the Felucian jungle. If not for the Alderaanian Security agent frozen in carbonite, neither Bail Organa nor the heroes would have any knowledge of the facility's location. The {@i Banshee} has the coordinates in its nav computer, and the course plotted by RX-13 should bring the ship out of hyperspace on the side of the planet nearest to the prison facility.",
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "Evasive Maneuvers",
 							"id": "Evasive Maneuvers",
 							"entries": [
-								"As the {@i Banshee} emerges from hyperspace, Crash informs Captain Okeefe that their trajectory was perfect and that they are approaching in a vector that will take them to the Imperial prison facility. Almost instantaneously, the sensor board lights up with contacts \u00e2\u20ac\u201d Imperial contacts. The massive, dagger-shaped visage of a Victory-class Star Destroyer looms above the planet, and within seconds the flickering sensor board indicates that the capital ship has turned to intercept the {@i Banshee}. Captain Okeefe orders everyone to strap in so that she can make evasive maneuvers.",
+								"As the {@i Banshee} emerges from hyperspace, Crash informs Captain Okeefe that their trajectory was perfect and that they are approaching in a vector that will take them to the Imperial prison facility. Almost instantaneously, the sensor board lights up with contacts\u2014Imperial contacts. The massive, dagger-shaped visage of a Victory-class Star Destroyer looms above the planet, and within seconds the flickering sensor board indicates that the capital ship has turned to intercept the {@i Banshee}. Captain Okeefe orders everyone to strap in so that she can make evasive maneuvers.",
 								"When the heroes comply, read the following text aloud:",
 								{
 									"type": "insetReadaloud",
 									"entries": [
-										"As the blue tunnel of hyperspace fades away and the pinpoints of stars fill the windows of the cockpit, you get a brief glimpse of the planet Felucia hanging just below your ship. Almost instantly your eyes are drawn to the dagger-shaped starship looming ahead of you\u00e2\u20ac\u201dan Imperial Star Destroyer.",
+										"As the blue tunnel of hyperspace fades away and the pinpoints of stars fill the windows of the cockpit, you get a brief glimpse of the planet Felucia hanging just below your ship. Almost instantly your eyes are drawn to the dagger-shaped starship looming ahead of you\u2014an Imperial Star Destroyer.",
 										"",
 										"\"Hold on,\" Captain Okeefe says, \"We're in for a bumpy ride.\"",
 										"",
@@ -941,7 +2795,7 @@
 							]
 						},
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "Searching for Civilization",
 							"id": "Searching for Civilization",
 							"entries": [
@@ -967,35 +2821,64 @@
 							]
 						},
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "In the Wilds",
 							"id": "In the Wilds",
 							"entries": [
-								"Once the heroes have made at least 6 hours' worth of progress toward their destination, they encounter a group of natives\u00e2\u20ac\u201da Felucian scout party, just returning from patrol. Of late, the Felucian villages have been plagued by Imperial agents capturing their scouts, and as a result the Felucians are extremely wary of outsiders. As the heroes enter a clearing, four Felucian scouts emerge from the underbrush, thinking them to be more Imperial agents.",
+								"Once the heroes have made at least 6 hours' worth of progress toward their destination, they encounter a group of natives\u2014a Felucian scout party, just returning from patrol. Of late, the Felucian villages have been plagued by Imperial agents capturing their scouts, and as a result the Felucians are extremely wary of outsiders. As the heroes enter a clearing, four Felucian scouts emerge from the underbrush, thinking them to be more Imperial agents."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Felucian Hospitality (CR 2)",
+							"id": "Felucian Hospitality",
+							"entries": [
+								{
+									"type": "inset",
+									"name": "Felucian Hospitality Encounter (CR 2)",
+									"entries": [
+										{
+											"type": "list",
+											"style": "list-no-bullets",
+											"items": [
+												"4 x {@creature felucian|orcnogDoDEp1|Felucian Scouts}",
+												"<hr/>",
+												"See: {@area Felucian Hospitality Encounter Map|Felucian Hospitality Encounter Map|x}"
+											]
+										}
+									]
+								},
 								{
 									"type": "entries",
-									"name": "Felucian Hospitality",
-									"id": "Felucian Hospitality",
+									"name": "Setup",
+									"id": "Setup 3",
 									"entries": [
-										"The clearing is a swampy area with small islands of solid ground interspersed throughout a shallow pool of water. Each of the four Felucian scouts is lying prone on a different island, making Stealth checks with advantage to remain hidden from the heroes.",
+										"The encounter begins in a swampy area with small islands of solid ground interspersed throughout a shallow pool of water. Each of the four Felucian scouts is lying prone on a different island, making Stealth checks to remain hidden from the heroes."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Read-Aloud Text",
+									"id": "Read-Aloud Text 3",
+									"entries": [
 										"When the heroes enter the area, read the following text aloud:",
 										{
 											"type": "insetReadaloud",
 											"entries": [
 												"The cacophony of noise created by insects and other animals makes it nearly impossible to hear the splash of your footsteps through the Felucian swamp. The open area you walk into resembles a large, shallow pool of water with narrow islands rising out of the water, looking like stepping stones that are slightly too far apart to jump across. A faint mist hangs over the swampy ground, drifting over the still pool of water."
 											]
-										},
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Felucian Scout (4)",
+									"entries": [
+										"Four young Felucian scouts lie in wait in this area, having heard the heroes coming from some distance away. The scouts don't have any real malicious intent for the heroes, but they are young and impulsive and believe that the heroes are Imperial agents come to snatch others from their village. The Felucians are hiding on swampy islands in the shallow pool, and they wait until the heroes are in their midst before revealing themselves. Alternatively, if one of the heroes moves into the same square as a scout, all four scouts make themselves known. The Felucians only want to protect their village and will communicate with the heroes if possible, possibly even taking them to their village. However, if provoked they will attack.",
 										{
-											"type": "entries",
-											"name": "Felucian Scout (4)",
+											"type": "insetReadaloud",
 											"entries": [
-												"Four young Felucian scouts lie in wait in this area, having heard the heroes coming from some distance away. The scouts don't have any real malicious intent for the heroes, but they are young and impulsive and believe that the heroes are Imperial agents come to snatch others from their village. The Felucians are hiding on swampy islands in the shallow pool, and they wait until the heroes are in their midst before revealing themselves. Alternatively, if one of the heroes moves into the same square as a scout, all four scouts make themselves known. The Felucians only want to protect their village and will communicate with the heroes if possible, possibly even taking them to their village. However, if provoked they will attack.",
-												{
-													"type": "insetReadaloud",
-													"entries": [
-														"Tall and muscular, this bipedal being seems to be a member of the native Felucian species. The long, slender form of a rancor's jawbone juts down from the Felucian's hand, and the scout's body is barely covered by a leafy loincloth. A tangle of tendrils around his face makes it impossible to see his eyes, and the mud and other foliage plastered to his body camouflages him against the backdrop of the swamp."
-													]
-												}
+												"Tall and muscular, this bipedal being seems to be a member of the native Felucian species. The long, slender form of a rancor's jawbone juts down from the Felucian's hand, and the scout's body is barely covered by a leafy loincloth. A tangle of tendrils around his face makes it impossible to see his eyes, and the mud and other foliage plastered to his body camouflages him against the backdrop of the swamp."
 											]
 										},
 										{
@@ -1017,6 +2900,14 @@
 								},
 								{
 									"type": "entries",
+									"name": "Encounter Map",
+									"id": "Encounter Map 3",
+									"entries": [
+										"See: {@area Felucian Hospitality Encounter Map|Felucian Hospitality Encounter Map|x}"
+									]
+								},
+								{
+									"type": "entries",
 									"name": "Development",
 									"id": "Development 3",
 									"entries": [
@@ -1026,7 +2917,7 @@
 							]
 						},
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "Felucian Sanctuary",
 							"id": "Felucian Sanctuary",
 							"entries": [
@@ -1036,7 +2927,7 @@
 									"type": "list",
 									"items": [
 										"The former Separatist, an older man named Vazus Mandrake (described under \"The Translator\"), invites the heroes into the village, explaining that their fight with the Felucian scouts was just a misunderstanding.",
-										"The heroes notice signs that the Felucians aren't friendly to the Empire\u00e2\u20ac\u201dsuch as an effigy, dressed in stormtrooper armor, hanging outside the village.",
+										"The heroes notice signs that the Felucians aren't friendly to the Empire\u2014such as an effigy, dressed in stormtrooper armor, hanging outside the village.",
 										"You can impress upon the heroes the fact that the village might be a good place to ensure that their directions are correct and learn about any other hazards leading up to the prison facility."
 									]
 								},
@@ -1094,7 +2985,7 @@
 											"type": "entries",
 											"name": "Auxhiliary Challenge 2",
 											"entries": [
-												"Force-sensitive heroes have an opportunity to impress the chief and gain some of his knowledge. If the chief is friendly to the heroes, he can be convinced to give up a bit of Force lore. Any character who acknowledges his or her own Force sensitivity to the chief also gains his interest. The chief is eager to learn more about the ways of the Force, especially from outsiders, and he is willing to trade knowledge. If any hero demonstrates an aptitude for the Force that the chief himself does not have \u00e2\u20ac\u201d perhaps in the form of a Force power or other Force ability with visible results \u00e2\u20ac\u201d that hero receives some Force tutelage from the chief. Specifically, the hero learns the burst at-will power as an additional known power. Alternatively, this is a chance for you (the GM) to introduce any new Force powers or abilities into the campaign that might be available only to certain Forceusers, especially powers or abilities that differ greatly from those in the SW5e Player's Handbook."
+												"Force-sensitive heroes have an opportunity to impress the chief and gain some of his knowledge. If the chief is friendly to the heroes, he can be convinced to give up a bit of Force lore. Any character who acknowledges his or her own Force sensitivity to the chief also gains his interest. The chief is eager to learn more about the ways of the Force, especially from outsiders, and he is willing to trade knowledge. If any hero demonstrates an aptitude for the Force that the chief himself does not have\u2014perhaps in the form of a Force power or other Force ability with visible results\u2014that hero receives some Force tutelage from the chief. Specifically, the hero learns the burst at-will power as an additional known power. Alternatively, this is a chance for you (the GM) to introduce any new Force powers or abilities into the campaign that might be available only to certain Forceusers, especially powers or abilities that differ greatly from those in the SW5e Player's Handbook."
 											]
 										},
 										{
@@ -1112,7 +3003,7 @@
 									"id": "Sick Children",
 									"entries": [
 										"Several of the younger Felucians in the village have fallen ill in recent days, many of them deteriorating to the point of paralysis. The Felucians have hidden these children away in one of their mushroom huts, and only a hero who makes a successful DC 15 Perception check while walking through the village notices their anguished cries. If the hero investigates further, he or she discovers four Felucian children who lie on cots, frail and nearly immobile except when they cry out in pain. In truth, the children have contracted a virus engineered by Captain Vischera in the Imperial prison facility (see Part 3 for more information on Vischera and his experiments). The children's skin has faded to a sickly gray, and their muscles have thinned to the point that they are visibly too weak to support their weight.",
-										"A hero can treat the virus with a DC 10 Medicine check, and curing the children requires 8 hours of tending. Feel free to let the heroes take this time, since there is no real time restraint during this part of the adventure. Although the heroes should feel the illusion of pressure (reaching the prison facility before some ill fate befalls Admiral Gilder), they should not be punished for an altruistic act.",
+										"A hero can treat the virus with a DC 10 Medicine check, and curing the children requires 8 hours of tending. Feel free to let the heroes take this time, since there is no real time restraint during this part of the adventure. Although the heroes should feel the illusion of pressure (reaching the prison facility before some ill fate befalls Admiral Varth), they should not be punished for an altruistic act.",
 										{
 											"type": "entries",
 											"name": "Ad-Hoc XP Award",
@@ -1125,12 +3016,12 @@
 							]
 						},
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "Imperial Scout",
 							"id": "Imperial Scout",
 							"entries": [
 								"Once the heroes have had a chance to interact with the villagers and deal with the encounters above, have them make DC 10 Perception checks. Any hero who succeeds notices a low whine coming from the outskirts of the village, as though a repulsor were passing around its edges. Upon further investigation, the heroes spot a scout trooper on a speeder bike zooming away from the village, headed into the deep jungle. They catch only a glimpse of him before he speeds out of view, but it seems certain that the scout trooper saw them.",
-								"If the heroes don't realize it immediately, Vazus Mandrake does: The scout trooper will report the hidden Felucian village\u00e2\u20ac\u201dand the presence of the heroes\u00e2\u20ac\u201dto his superiors, and soon after, stormtroopers will descend upon them. Fortunately, though, the mushrooms in the area have chemicals in their stalks that block long-range communications, so there is little chance that the scout trooper could report his findings before reaching his base. Thus, Mandrake begs the heroes to take his kybucks and chase the scout trooper down. He assures them that the kybucks are tame (which is true) and urges them to catch the Imperial scout before it's too late.",
+								"If the heroes don't realize it immediately, Vazus Mandrake does: The scout trooper will report the hidden Felucian village\u2014and the presence of the heroes\u2014to his superiors, and soon after, stormtroopers will descend upon them. Fortunately, though, the mushrooms in the area have chemicals in their stalks that block long-range communications, so there is little chance that the scout trooper could report his findings before reaching his base. Thus, Mandrake begs the heroes to take his kybucks and chase the scout trooper down. He assures them that the kybucks are tame (which is true) and urges them to catch the Imperial scout before it's too late.",
 								"If all of the heroes fail the Perception check above, they still notice the scout trooper, but each hero has disadvantage on his or her Initiative check when the chase sequence begins.",
 								{
 									"type": "entries",
@@ -1252,18 +3143,21 @@
 							]
 						},
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "Jungle Watch Outpost (CR 3)",
-							"id": "Jungle Watch Outpost (CR 3)",
+							"id": "Jungle Watch Outpost",
 							"entries": [
 								{
 									"type": "inset",
-									"name": "Jungle Watch Outpost (CR 3)",
+									"name": "Jungle Watch Outpost Encounter (CR 3)",
 									"entries": [
 										{
 											"type": "list",
 											"style": "list-no-bullets",
 											"items": [
+												"4 x {@creature trooper, recruit|orcnogDoDEp1|Stormtrooper Recruits}",
+												"2 x {@creature 74-Z Speeder Bike|orcnogDoDEp1|Scout Troopers}",
+												"<hr/>",
 												"See: {@area Jungle Watch Outpost Encounter Map|Jungle Watch Outpost Encounter Map|x}"
 											]
 										}
@@ -1272,7 +3166,7 @@
 								{
 									"type": "entries",
 									"name": "Setup",
-									"id": "Setup 3",
+									"id": "Setup 4",
 									"entries": [
 										"This area, found at the end of the chase sequence through the jungles of Felucia, is actually a watch post for Imperial scouts and serves as a waystation for Imperial vehicles. Several towering mushrooms litter the area, placing the jungle watch outpost in the middle of a massive forest of fungi. The four Imperial soldiers are stationed near the communications computers, while the two scout troopers are ranging out away from the computers, scouting the area."
 									]
@@ -1280,7 +3174,7 @@
 								{
 									"type": "entries",
 									"name": "Read-Aloud Text",
-									"id": "Read-Aloud Text 3",
+									"id": "Read-Aloud Text 4",
 									"entries": [
 										{
 											"type": "insetReadaloud",
@@ -1292,9 +3186,11 @@
 								},
 								{
 									"type": "entries",
-									"name": "Imperial Soldiers (4)",
-									"id": "Imperial Soldiers (4)",
-									"entries": []
+									"name": "Stormtrooper Recruits (4)",
+									"id": "Stormtrooper Recruits (4) 2",
+									"entries": [
+										"See: {@creature Imperial Soldiers|orcnogDoDEp1} statblock."
+									]
 								},
 								{
 									"type": "entries",
@@ -1321,17 +3217,10 @@
 								},
 								{
 									"type": "entries",
-									"name": "Development",
-									"id": "Development 4",
-									"entries": [
-										"If the heroes successfully deal with the Imperial troops and scout troopers at the outpost, they prevent the Imperials from alerting the prison facility about their presence or the existence of the hidden Felucian village. Award the heroes experience points as if they had defeated a CR 3 enemy (in addition to any experience points they earned in combat). At that point, the heroes can return to the village at their leisure and either recuperate further or set out for the facility."
-									]
-								},
-								{
-									"type": "entries",
 									"name": "Encounter Map",
-									"id": "Encounter Map 3",
+									"id": "Encounter Map 4",
 									"entries": [
+										"See: {@area Jungle Watch Outpost Encounter Map|Jungle Watch Outpost Encounter Map|x}",
 										{
 											"type": "inset",
 											"name": "Features of the Area",
@@ -1339,6 +3228,14 @@
 												"The stream that runs through the middle of this area counts as difficult terrain, and any characters lying prone in the water must hold their breath or begin to drown. Additionally, the massive mushrooms in the area can be destroyed by weapons fire. Each mushroom has 50 hit points and no DR, and a destroyed mushroom no longer provides cover to anyone behind it."
 											]
 										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Development",
+									"id": "Development 4",
+									"entries": [
+										"If the heroes successfully deal with the Imperial troops and scout troopers at the outpost, they prevent the Imperials from alerting the prison facility about their presence or the existence of the hidden Felucian village. Award the heroes experience points as if they had defeated a CR 3 enemy (in addition to any experience points they earned in combat). At that point, the heroes can return to the village at their leisure and either recuperate further or set out for the facility."
 									]
 								}
 							]
@@ -1350,43 +3247,47 @@
 					"name": "Part 3: Imperial Prison Facility",
 					"id": "Part 3: Imperial Prison Facility",
 					"entries": [
-						"Once the heroes have concluded their visit to the Felucian village (and prevented the Imperials from reporting its location), they can make their way to the Imperial prison facility. Their Felucian scout leads them around obstacles and potential threats and takes them directly to the facility. Their guide doesn't say much on the journey \u00e2\u20ac\u201d and unless the heroes have a translating droid, they won't understand him, anyway \u00e2\u20ac\u201d and simply leads them to their target with solemn determination.",
+						"Once the heroes have concluded their visit to the Felucian village (and prevented the Imperials from reporting its location), they can make their way to the Imperial prison facility. Their Felucian scout leads them around obstacles and potential threats and takes them directly to the facility. Their guide doesn't say much on the journey\u2014and unless the heroes have a translating droid, they won't understand him, anyway\u2014and simply leads them to their target with solemn determination.",
 						"When the heroes arrive, they discover that the prison facility is a relatively squat, two-story building in characteristic Imperial style: gray walls with a slight outward slant, no visible windows, and a plain visage that leaves no room for accoutrements. The second story of the building is visibly smaller than the ground floor, and blinking lights line the top floor's edges. A large set of blast doors denotes the ground floor entry to the building, while a single gun turret (which appears to be an assault cannon built into the wall) juts out a few meters to the door's left. Otherwise, there are no other visible entrances or exits to the facility.",
 						"Stormtroopers stand guard at the facility's blast doors, while the low hum of speeder engines indicates that there might be scout troopers on patrol nearby. Additionally, any hero who succeeds on a DC 15 Perception check hears heavy thudding sounds in the distance, along with the noises of plants being crushed, indicating the presence of a walker of some kind.",
 						"Fortunately for the heroes, their Felucian scout is aware of a secret entrance. He leads them to the northwest corner of the building, where a ventilation grate barely hangs on its bolts. With the right application of force (dealing at least 10 points of damage to the grate), it can be pried free, giving the heroes a way into the prison facility.",
-						"Within the facility, the heroes will find that everything follows the typical Imperial style, with standard metal walls (DR 10, 150 hp) and metal doors (DR 10, 50 hp). Additionally, the facility has a central computer system with a Slicing DC of 20 without the correct code cylinder. All of the doors in the facility's interior are unlocked by default. However, the exterior blast doors are sealed from the inside. From the outside, the doors can be opened only by slicing the computer (using the terminal and scomp link that provides access to the computer).",
+						"Within the facility, the heroes will find that everything follows the typical Imperial style, with standard metal walls (DT 10, 150 hp) and metal doors (DT 10, 50 hp). Additionally, the facility has a central computer system with a Slicing DC of 20 without the correct code cylinder. All of the doors in the facility's interior are unlocked by default. However, the exterior blast doors are sealed from the inside. From the outside, the doors can be opened only by slicing the computer (using the terminal and scomp link that provides access to the computer).",
 						"An overall map of the first floor appears below. Each detailed encounter in the facility also has its own map.",
 						{
 							"type": "inset",
 							"name": "That Was Too Easy",
 							"entries": [
-								"After entering and making their way through the facility, some heroes may wonder how a secret prison for political malcontents could be infiltrated by novices so easily. In truth, the entire rescue of Admiral Gilder is a setup designed to lure the heroes into complacency and get them to accept the Admiral into their confidences. Gilder is merely pretending to be a traitor. He and Inquisitor Varth are the only two people who know the truth of the ploy. All other members of the Empire, including the Imperials stationed at the prison facility, believe that the Admiral really is a traitor. This level of deception was necessary to ensure that someone as resourceful as Bail Organa didn't find out about the ruse somehow."
+								"After entering and making their way through the facility, some heroes may wonder how a secret prison for political malcontents could be infiltrated by novices so easily. In truth, the entire rescue of Admiral Varth is a setup designed to lure the heroes into complacency and get them to accept the Admiral into their confidences. Varth is merely pretending to be a traitor. He and Inquisitor Draco are the only two people who know the truth of the ploy. All other members of the Empire, including the Imperials stationed at the prison facility, believe that the Admiral really is a traitor. This level of deception was necessary to ensure that someone as resourceful as Bail Organa didn't find out about the ruse somehow."
 							]
 						},
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "P1: Medical Bay",
 							"id": "P1: Medical Bay",
 							"entries": [
-								"Originally a standard medical bay intended to heal prisoners who were injured during interrogations, the bay has been transformed into a science lab for the slightly demented Captain Vischera. The room is littered with experimental equipment designed to alter the genetic material of the captain's test subjects\u00e2\u20ac\u201dnamely, the Felucians that the Empire has been snatching from the nearby villages. Three filled bacta tanks line the far wall. Currently, the tanks are empty of patients, but wear and scratches on the inside of each tank show that whatever had been floating within had tried to claw its way out.",
+								"Originally a standard medical bay intended to heal prisoners who were injured during interrogations, the bay has been transformed into a science lab for the slightly demented Captain Vischera. The room is littered with experimental equipment designed to alter the genetic material of the captain's test subjects\u2014namely, the Felucians that the Empire has been snatching from the nearby villages. Three filled bacta tanks line the far wall. Currently, the tanks are empty of patients, but wear and scratches on the inside of each tank show that whatever had been floating within had tried to claw its way out.",
 								"A former Imperial scientist and now the head of the prison facility, Captain Vischera has been altering the genetic code of Felucians to create mutant warriors. When the Confederacy collapsed, many Separatist secrets fell into the hands of the Empire, among them a few that Captain Vischera found most intriguing. Particularly of interest were experiments performed by the Techno Union on the natives of the planet Nelvaan, transforming them into massive, violent warriors that could be bent to their creator's will.",
 								"After months of experimentation, Vischera has managed to create two such monsters out of Felucian hosts, at the cost of many lives. Additionally, a small number of Felucians that were part of the evolutionary process still remain alive, and they are kept here for further observation.",
 								"When the heroes arrive in this room, they must fight the mutated Felucians and the medical attendant. See \"Imperial Research Lab\" for more information on running this encounter."
 							]
 						},
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "Imperial Research Lab (CR 2)",
 							"id": "Imperial Research Lab (CR 2)",
 							"entries": [
 								{
 									"type": "inset",
-									"name": "Imperial Research Lab (CR 2)",
+									"name": "Imperial Research Lab Encounter (CR 2)",
 									"entries": [
 										{
 											"type": "list",
 											"style": "list-no-bullets",
 											"items": [
+												"1 x {@creature Medical Researcher|orcnogDoDEp1}",
+												"2 x {@creature Genetically Modified Felucian|orcnogDoDEp1|Genetically Modified Felucians}",
+												"1 x {@creature 2-1B Medical Droid|orcnogDoDEp1}",
+												"<hr/>",
 												"See: {@area Imperial Research Lab Encounter Map|Imperial Research Lab Encounter Map|x}"
 											]
 										}
@@ -1395,7 +3296,7 @@
 								{
 									"type": "entries",
 									"name": "Setup",
-									"id": "Setup 4",
+									"id": "Setup 5",
 									"entries": [
 										"When the encounter begins, the Imperial medical researcher is standing at a computer console next to the large bacta tanks, as is the 2-1B medical droid. When the heroes enter, the researcher slaps a button and releases the two modified Felucians, who are strapped to medical beds."
 									]
@@ -1403,13 +3304,13 @@
 								{
 									"type": "entries",
 									"name": "Read-Aloud Text",
-									"id": "Read-Aloud Text 4",
+									"id": "Read-Aloud Text 5",
 									"entries": [
 										"When the heroes arrive in this area, read the following text aloud:",
 										{
 											"type": "insetReadaloud",
 											"entries": [
-												"This vast chamber seems at first to be a place of healing\u00e2\u20ac\u201dat least, until you take a closer look. Large bacta tanks line one border of the room, and other medical equipment is distributed haphazardly throughout the area. Operating tables, many with clamps and other restraint devices, seem to be scattered throughout the room with no real pattern to their arrangement, and the entire room has the same sterile smell of a medical bay."
+												"This vast chamber seems at first to be a place of healing\u2014at least, until you take a closer look. Large bacta tanks line one border of the room, and other medical equipment is distributed haphazardly throughout the area. Operating tables, many with clamps and other restraint devices, seem to be scattered throughout the room with no real pattern to their arrangement, and the entire room has the same sterile smell of a medical bay."
 											]
 										}
 									]
@@ -1458,10 +3359,10 @@
 								},
 								{
 									"type": "entries",
-									"name": "Features of the Area",
-									"id": "Features of the Area",
+									"name": "2-1B Medical Droid (1)",
+									"id": "2-1B Medical Droid (1)",
 									"entries": [
-										"This room is filled with medical equipment of all kinds. The beds (where the Felucians are secured until combat begins) provide low cover to anyone standing adjacent to them. Additionally, if any of the bacta tanks takes more than 5 points of damage, it shatters and spills bacta onto the floor. When this happens, unless a character moves at half speed, the character must succeed on an DC 10 Acrobatics check or fall prone."
+										"See: {@creature 2-1B Medical Droid|orcnogDoDEp1} statblock."
 									]
 								},
 								{
@@ -1475,13 +3376,22 @@
 								{
 									"type": "entries",
 									"name": "Encounter Map",
-									"id": "Encounter Map 4",
-									"entries": []
+									"id": "Encounter Map 5",
+									"entries": [
+                                        "See: {@area Imperial Research Lab Encounter Map|Imperial Research Lab Encounter Map|x}",
+                                        {
+                                            "type": "entries",
+                                            "name": "Features of the Area",
+                                            "entries": [
+                                                "This room is filled with medical equipment of all kinds. The beds (where the Felucians are secured until combat begins) provide low cover to anyone standing adjacent to them. Additionally, if any of the bacta tanks takes more than 5 points of damage, it shatters and spills bacta onto the floor. When this happens, unless a character moves at half speed, the character must succeed on an DC 10 Acrobatics check or fall prone."
+                                            ]
+                                        }
+                                    ]
 								}
 							]
 						},
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "P2: Defense Turret",
 							"id": "P2: Defense Turret",
 							"entries": [
@@ -1490,18 +3400,21 @@
 							]
 						},
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "Defense Turret Controls (CR 3)",
 							"id": "Defense Turret Controls (CR 3)",
 							"entries": [
 								{
 									"type": "inset",
-									"name": "Defense Turret Controls (CR 3)",
+									"name": "Defense Turret Controls Encounter Encounter (CR 3)",
 									"entries": [
 										{
 											"type": "list",
 											"style": "list-no-bullets",
 											"items": [
+												"1 x {@creature Imperial Gunner|orcnogDoDEp1}",
+												"4 x {@creature trooper, shore|orcnogSW5e|Stormtroopers}",
+												"<hr/>",
 												"See: {@area Defense Turret Controls Encounter Map|Defense Turret Controls Encounter Map|x}"
 											]
 										}
@@ -1510,15 +3423,15 @@
 								{
 									"type": "entries",
 									"name": "Setup",
-									"id": "Setup 5",
+									"id": "Setup 6",
 									"entries": [
-										"The Imperial turret gunner begins combat standing against the wall, holding the assault cannon turret and scanning the area outside the prison. The four soldiers stationed here stand casually around the area. One of the four soldiers is positioned near the common area at the center of the prison facility, allowing him to see the turret area, the entrance to the facility, one side of the turbolift cluster, and possibly even the entrance to the medical bay."
+										"The Imperial turret gunner begins combat standing against the wall, holding the assault cannon turret and scanning the area outside the prison. The four stormtroopers stationed here stand casually around the area. One of the four stormtroopers is positioned near the common area at the center of the prison facility, allowing him to see the turret area, the entrance to the facility, one side of the turbolift cluster, and possibly even the entrance to the medical bay."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Read-Aloud Text",
-									"id": "Read-Aloud Text 5",
+									"id": "Read-Aloud Text 6",
 									"entries": [
 										"When the heroes arrive in this area, read the following text aloud:",
 										{
@@ -1546,22 +3459,26 @@
 								},
 								{
 									"type": "entries",
-									"name": "Imperial Prison Guard (4)",
-									"id": "Imperial Prison Guard (4)",
-									"entries": []
-								},
-								{
-									"type": "entries",
-									"name": "Encounter Map",
-									"id": "Encounter Map 5",
-									"entries": []
+									"name": "Stormtrooper (4)",
+									"id": "Stormtrooper (4)",
+									"entries": [
+										"See: {@creature trooper, shore|Stormtrooper|orcnogSW5e} statblock."
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Conclusion",
-									"id": "Conclusion 5",
+									"id": "Conclusion 6",
 									"entries": [
-										"By the time the fight has concluded, the heroes might have alerted Imperials in other areas of the prison facility to their presence. Although the walls and doors reduce the noise of blaster fire, this encounter takes place in a wide-open area and gives the Imperials a chance to move around. Once the fight is over, the heroes could take control of the assault cannon mounted to the south wall, though toting it around could be troublesome.",
+										"By the time the fight has concluded, the heroes might have alerted Imperials in other areas of the prison facility to their presence. Although the walls and doors reduce the noise of blaster fire, this encounter takes place in a wide-open area and gives the Imperials a chance to move around. Once the fight is over, the heroes could take control of the assault cannon mounted to the south wall, though toting it around could be troublesome."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Encounter Map",
+									"id": "Encounter Map 6",
+									"entries": [
+										"See: {@area Defense Turret Controls Encounter Map|Defense Turret Controls Encounter Map|x}",
 										{
 											"type": "inset",
 											"name": "Features of the Area",
@@ -1574,7 +3491,7 @@
 							]
 						},
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "P3: Communications Center",
 							"id": "P3: Communications Center",
 							"entries": [
@@ -1583,18 +3500,21 @@
 							]
 						},
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "Communications Center (CR 3)",
 							"id": "Communications Center (CR 3)",
 							"entries": [
 								{
 									"type": "inset",
-									"name": "Communications Center (CR 3)",
+									"name": "Communications Center Encounter (CR 3)",
 									"entries": [
 										{
 											"type": "list",
 											"style": "list-no-bullets",
 											"items": [
+												"1 x {@creature Lieutenant Aden|orcnogDoDEp1}",
+												"3 x {@creature Imperial Comm Operator|orcnogDoDEp1|Imperial Comm Operators}",
+												"<hr/>",
 												"See: {@area Communications Center Encounter Map|Communications Center Encounter Map|x}"
 											]
 										}
@@ -1603,7 +3523,7 @@
 								{
 									"type": "entries",
 									"name": "Setup",
-									"id": "Setup 6",
+									"id": "Setup 7",
 									"entries": [
 										"The three Imperial communications operators sit at their computer stations, two in the circular side of the room and one across from the door. When combat begins, Lieutenant Aden is supervising the two comm operators in the circular section of the room."
 									]
@@ -1611,7 +3531,7 @@
 								{
 									"type": "entries",
 									"name": "Read-Aloud Text",
-									"id": "Read-Aloud Text 6",
+									"id": "Read-Aloud Text 7",
 									"entries": [
 										"When the heroes arrive in this area, read the following text aloud:",
 										{
@@ -1653,7 +3573,7 @@
 											"type": "entries",
 											"name": "Imperial Comm Operator Tactics",
 											"entries": [
-												"Trained by the Imperial Army, each comm operator knows how to fight an intruding enemy\u00e2\u20ac\u201dperhaps better than Lt. Aden does. They seek cover behind the computer equipment in the room and attempt to use their blaster pistols at a decent range to drive the heroes back. The comm operators are good shots with their blaster pistols, and they try to hunker down and the keep the heroes from taking advantage of cover as well."
+												"Trained by the Imperial Army, each comm operator knows how to fight an intruding enemy\u2014perhaps better than Lt. Aden does. They seek cover behind the computer equipment in the room and attempt to use their blaster pistols at a decent range to drive the heroes back. The comm operators are good shots with their blaster pistols, and they try to hunker down and the keep the heroes from taking advantage of cover as well."
 											]
 										}
 									]
@@ -1661,17 +3581,18 @@
 								{
 									"type": "entries",
 									"name": "Conclusion",
-									"id": "Conclusion 6",
+									"id": "Conclusion 7",
 									"entries": [
-										"When the encounter concludes, the heroes can access the Imperial network (as described under \"P3: Communications Center\"). Additionally, they can recover Lt. Aden's code cylinder, which allows them to use the turbolifts in the common area of the ground floor, granting them access to the command center.",
+										"When the encounter concludes, the heroes can access the Imperial network (as described under \"{@area P3: Communications Center|x}\"). Additionally, they can recover Lt. Aden's code cylinder, which allows them to use the turbolifts in the common area of the ground floor, granting them access to the command center.",
 										"If the heroes agreed to plant the explosives given to them by Vazus Mandrake, they may do so in this room. As long as all of the Imperials have been defeated, the heroes are under no time pressure to set the charges. If they successfully plant the explosives in the communications center, grant them experience points as if they had defeated a CR 3 enemy."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Encounter Map",
-									"id": "Encounter Map 6",
+									"id": "Encounter Map 7",
 									"entries": [
+										"See: {@area Communications Center Encounter Map|Communications Center Encounter Map|x}",
 										{
 											"type": "inset",
 											"name": "Features of the Area",
@@ -1695,43 +3616,61 @@
 												"//FROM NODE 6673-ALPHA VIA STAR DESTROYER ASSIDUOUS",
 												"Priority 1 Message Follows:",
 												"",
-												"Prepare former Admiral Nathan Gilder for transfer to the Citadel. Inquisitor Varth will be arriving within a standard Felucian day/night cycle to take custody of the prisoner. You are instructed to have your medical technicians ensure that Gilder is fully rested and at his highest possible strength.",
+												"Prepare former Admiral Gilder Varth for transfer to the Citadel. Inquisitor Draco will be arriving within a standard Felucian day/night cycle to take custody of the prisoner. You are instructed to have your medical technicians ensure that Varth is fully rested and at his highest possible strength.",
 												"",
-												"Interrogation chemicals should be administered to Varth upon notification that the Inquisitor has arrived on Felucia. Gilder will be transferred by shuttle to the Assiduous before Inquisitor Varth takes custody. Time from administration of interrogation chemicals to transfer to the Inquisitor's personal transport should fall within an acceptable window of 27 to 54 minutes.",
+												"Interrogation chemicals should be administered to Varth upon notification that the Inquisitor has arrived on Felucia. Varth will be transferred by shuttle to the Assiduous before Inquisitor Draco takes custody. Time from administration of interrogation chemicals to transfer to the Inquisitor's personal transport should fall within an acceptable window of 27 to 54 minutes.",
 												"",
 												"//END TRANSMISSION"
 											]
 										},
-										"Inquisitor Varth sent the message to make sure that everyone in the facility believes that Admiral Gilder is a traitor to the Empire. Only Varth and Gilder know the truth of the deception."
+										"Inquisitor Draco sent the message to make sure that everyone in the facility believes that Admiral Varth is a traitor to the Empire. Only Draco and Varth know the truth of the deception."
 									]
 								}
 							]
 						},
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "P4: Prison Block",
 							"id": "P4: Prison Block",
 							"entries": [
-								"The small prison block where Admiral Gilder is being held is unlike most Imperial detention centers. Instead of having individual holding cells, theprison block features an open but secure area where the prisoners share a living space. However, the space is filthy and the prisoners are treated poorly, and a former Imperial Admiral is no exception. Unlike the other locations in the facility, the prison block is closely monitored. As soon as the heroes enter the room, they find themselves under attack from the guards, who have orders to shoot first and ask questions later."
+								"The small prison block where Admiral Varth is being held is unlike most Imperial detention centers. Instead of having individual holding cells, theprison block features an open but secure area where the prisoners share a living space. However, the space is filthy and the prisoners are treated poorly, and a former Imperial Admiral is no exception. Unlike the other locations in the facility, the prison block is closely monitored. As soon as the heroes enter the room, they find themselves under attack from the guards, who have orders to shoot first and ask questions later."
 							]
 						},
 						{
-							"type": "section",
-							"name": "Detention Block F-1A",
-							"id": "Detention Block F-1A",
+							"type": "entries",
+							"name": "Detention Block F-1A (CR 3)",
+							"id": "Detention Block F-1A (CR 3)",
 							"entries": [
+								{
+									"type": "inset",
+									"name": "Detention Block F-1A Encounter (CR 3)",
+									"entries": [
+										{
+											"type": "list",
+											"style": "list-no-bullets",
+											"items": [
+												"2 x {@creature Imperial Detention Block Guard|orcnogDoDEp1|Imperial Detention Block Guards}",
+												"2 x {@creature Warden Droid|orcnogDoDEp1|Warden Droids}",
+												"1 x {@creature Admiral Varth (as of Felucian Rescue)|orcnogDoDEp1|Admiral Varth} {@color (Allied)|008e2f}",
+												"3 x {@creature Prisoner (Felucia)|orcnogDoDEp1|Prisoners} {@color (Allied)|008e2f}",
+												"<hr/>",
+												"See: {@area Detention Block F-1A Encounter Map|Detention Block F-1A Encounter Map|x}"
+											]
+										}
+									]
+								},
 								{
 									"type": "entries",
 									"name": "Setup",
-									"id": "Setup 7",
+									"id": "Setup 8",
 									"entries": [
-										"When the encounter begins, two detention block guards are standing behind the northern barricades, monitoring the prison area. The two warden droids stand at opposite ends of the narrow hallway leading to the holding area. Four prisoners, including Admiral Gilder, mill about in the holding area."
+										"When the encounter begins, two detention block guards are standing behind the northern barricades, monitoring the prison area. The two warden droids stand at opposite ends of the narrow hallway leading to the holding area. Four prisoners, including Admiral Varth, mill about in the holding area."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Read-Aloud Text",
-									"id": "Read-Aloud Text 7",
+									"id": "Read-Aloud Text 8",
 									"entries": [
 										"When the heroes arrive in this area, read the following text aloud:",
 										{
@@ -1744,13 +3683,13 @@
 								},
 								{
 									"type": "entries",
-									"name": "Imperial Detention Block Warden (2)",
-									"id": "Imperial Detention Block Warden (2)",
+									"name": "Imperial Detention Block Guard (2)",
+									"id": "Imperial Detention Block Guard (2)",
 									"entries": [
-										"Charged with ensuring that none of the Empire's political prisoners escape from the facility, these detention block wardens are excellent close-quarters combatants and are deadly with blaster pistols. Each warden is trained to pacify rioting prisoners, and though technically they are members of the Imperial Army, they have also received rudimentary training in prisoner psychology from Imperial Intelligence.",
+										"Charged with ensuring that none of the Empire's political prisoners escape from the facility, these detention block guards are excellent close-quarters combatants and are deadly with blaster pistols. Each warden is trained to pacify rioting prisoners, and though technically they are members of the Imperial Army, they have also received rudimentary training in prisoner psychology from Imperial Intelligence.",
 										{
 											"type": "entries",
-											"name": "Imperial Detention Block Warden Tactics",
+											"name": "Imperial Detention Block Guard Tactics",
 											"entries": [
 												"The guards prefer to let the warden droids engage intruders in melee combat, while the guards fire over the droids."
 											]
@@ -1762,7 +3701,7 @@
 									"name": "Prisoners (3)",
 									"id": "Prisoners (3)",
 									"entries": [
-										"Besides Admiral Gilder, three other Imperial prisoners await their fates in the detention block. The captives are more than happy to help the heroes overthrow the guards, though they are unarmed and their abilities are quite limited."
+										"Besides Admiral Varth, three other Imperial prisoners await their fates in the detention block. The captives are more than happy to help the heroes overthrow the guards, though they are unarmed and their abilities are quite limited."
 									]
 								},
 								{
@@ -1789,9 +3728,17 @@
 								{
 									"type": "entries",
 									"name": "Conclusion",
-									"id": "Conclusion 7",
+									"id": "Conclusion 8",
 									"entries": [
-										"When the encounter has concluded, the heroes can free Admiral Gilder from the holding area with little difficulty. The other three prisoners are also eager to leave. They would prefer to make a break for it through the front door and flee into the Felucian jungle\u00e2\u20ac\u201da dangerous prospect at best. However, the prisoners will agree to help their liberators if the heroes offer a solid plan for escape and make at least some guarantees as to their safety.",
+										"When the encounter has concluded, the heroes can free Admiral Varth from the holding area with little difficulty. The other three prisoners are also eager to leave. They would prefer to make a break for it through the front door and flee into the Felucian jungle\u2014a dangerous prospect at best. However, the prisoners will agree to help their liberators if the heroes offer a solid plan for escape and make at least some guarantees as to their safety."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Encounter Map",
+									"id": "Encounter Map 8",
+									"entries": [
+										"See: {@area Detention Block F-1A Encounter Map|Detention Block F-1A Encounter Map|x}",
 										{
 											"type": "inset",
 											"name": "Features of the Area",
@@ -1803,64 +3750,63 @@
 								},
 								{
 									"type": "entries",
-									"name": "Encounter Map",
-									"id": "Encounter Map 7",
-									"entries": []
-								},
-								{
-									"type": "entries",
 									"name": "Development",
 									"id": "Development 7",
 									"entries": [
-										"Admiral Gilder is a slightly overweight man with close-cropped gray hair and a bushy mustache. He has clearly seen better days; his right eye is swollen and bruised, and a trail of dried blood stains the corner of his mouth.",
-										"If the heroes manage to free Gilder, he is grateful but confused as to the identity of his rescuers. He expected to be freed by Bail Organa's staff, not by hired freelancers. However, he is willing to accept whatever stories the heroes tell him as long as they promise to get him out of the facility. Gilder is eager to take the ruse to the next stage and pass on socalled vital secrets that will lure Organa and his agents into a trap.",
-										"Admiral Gilder is fairly guarded about the specifics of his imprisonment. Unsure of who the heroes are, he doesn't want to reveal too much, but he confirms that he is a former Imperial Admiral who has been funneling information to \"interested third parties\" for some time now. He says that he was captured a short while ago and is being held at the Felucian prison facility until the proper Imperial authorities can arrive to retrieve him.",
-										"Admiral Gilder agrees to help the heroes escape from the facility, but he's not terribly interested in helping them fight. He can give them advice, but he is reluctant to pick up a blaster, even in his own defense. If pressed, he lends his aid, but in combat he usually provides the heroes with tactical assistance rather than shooting at anyone."
+										"{@creature Admiral Varth (as of Felucian Rescue)|orcnogDoDEp1|Admiral Varth} is a slightly overweight man with close-cropped gray hair and a bushy mustache. He has clearly seen better days; his right eye is swollen and bruised, and a trail of dried blood stains the corner of his mouth.",
+										"If the heroes manage to free Varth, he is grateful but confused as to the identity of his rescuers. He expected to be freed by Bail Organa's staff, not by hired freelancers. However, he is willing to accept whatever stories the heroes tell him as long as they promise to get him out of the facility. Varth is eager to take the ruse to the next stage and pass on socalled vital secrets that will lure Organa and his agents into a trap.",
+										"Admiral Varth is fairly guarded about the specifics of his imprisonment. Unsure of who the heroes are, he doesn't want to reveal too much, but he confirms that he is a former Imperial Admiral who has been funneling information to \"interested third parties\" for some time now. He says that he was captured a short while ago and is being held at the Felucian prison facility until the proper Imperial authorities can arrive to retrieve him.",
+										"Admiral Varth agrees to help the heroes escape from the facility, but he's not terribly interested in helping them fight. He can give them advice, but he is reluctant to pick up a blaster, even in his own defense. If pressed, he lends his aid, but in combat he usually provides the heroes with tactical assistance rather than shooting at anyone."
 									]
 								}
 							]
 						},
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "Can't Get Out That Way!",
 							"id": "Can't Get Out That Way!",
 							"entries": [
-								"When the heroes have retrieved Admiral Gilder (and possibly planted the explosives in the communications center), they likely make their way back to the ventilation grate they used to enter the facility. However, two developments threaten their plans. First, they come upon a disturbing sight\u00e2\u20ac\u201djust outside the grate, a large number of stormtroopers stand around the crumpled body of their Felucian guide, and an AT-ST stomps around the exterior of the facility. Second, Captain O'Keefe sends a message over the heroes' comlinks \u00e2\u20ac\u201d the {@i Banshee} is operational again, and they can leave the planet whenever they are ready. If the heroes don't remember the second floor of the facility (which they should have seen from the outside), Admiral Gilder mentions that some of the Imperials he dealt with mentioned the presence of a command center on the second floor. He suggests that they make their way up there and attempt to reach the roof. From there, they can call Captain O'Keefe for a pickup and avoid the Imperial presence outside."
+								"When the heroes have retrieved Admiral Varth (and possibly planted the explosives in the communications center), they likely make their way back to the ventilation grate they used to enter the facility. However, two developments threaten their plans. First, they come upon a disturbing sight\u2014just outside the grate, a large number of stormtroopers stand around the crumpled body of their Felucian guide, and an AT-ST stomps around the exterior of the facility. Second, Captain O'Keefe sends a message over the heroes' comlinks\u2014the {@i Banshee} is operational again, and they can leave the planet whenever they are ready. If the heroes don't remember the second floor of the facility (which they should have seen from the outside), Admiral Varth mentions that some of the Imperials he dealt with mentioned the presence of a command center on the second floor. He suggests that they make their way up there and attempt to reach the roof. From there, they can call Captain O'Keefe for a pickup and avoid the Imperial presence outside."
 							]
 						},
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "Turbolift Cluster",
 							"id": "Turbolift Cluster",
 							"entries": [
-								"This cluster of four standard turbolifts ferries troops and officers between the two floors of the prison facility. Unlike the rest of the computers in the facility, the computers that operate the turbolifts are hostile to anyone without a particular code cylinder\u00e2\u20ac\u201dspecifically, the one possessed by Lieutenant Aden. If the heroes have retrieved Aden's code cylinder, they can insert it in a port inside the turbolift, making the control computers helpful and gaining access to the command center on the second floor."
+								"This cluster of four standard turbolifts ferries troops and officers between the two floors of the prison facility. Unlike the rest of the computers in the facility, the computers that operate the turbolifts are hostile to anyone without a particular code cylinder\u2014specifically, the one possessed by Lieutenant Aden. If the heroes have retrieved Aden's code cylinder, they can insert it in a port inside the turbolift, making the control computers helpful and gaining access to the command center on the second floor."
 							]
 						},
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "P5: Command Center (CR 4)",
 							"id": "P5: Command Center (CR 4)",
 							"entries": [
 								{
 									"type": "inset",
-									"name": "P5: Command Center (CR 4)",
+									"name": "P5: Command Center Encounter (CR 4)",
 									"entries": [
 										{
 											"type": "list",
 											"style": "list-no-bullets",
 											"items": [
+												"1 x {@creature Captain Vischera|orcnogDoDEp1}",
+												"2 x {@creature Kargrek and Hagark|orcnogDoDEp1}",
+												"4 x {@creature trooper, shore|orcnogSW5e|Stormtroopers}",
+												"1 x {@creature Admiral Varth (as of Felucian Rescue)|orcnogDoDEp1|Admiral Varth} {@color (Allied)|008e2f}",
+												"<hr/>",
 												"See: {@area P5: Command Center Encounter Map|P5: Command Center Encounter Map|x}"
 											]
 										}
 									]
 								},
 								"Once the heroes reach the second floor, they find themselves face to face with Captain Vischera, the mastermind behind the cruel experiments being performed on captured Felucians. From the command center, Captain Vischera monitors the interactions among many Imperial facilities on Felucia, including his own.",
-								"The low level of security in the prison allows the heroes to move about without Vischera knowing exactly where they are, but by the time they reach the second floor, he almost assuredly knows of their presence. Unless the heroes managed to stop all of the Imperials in the facility from sounding an alarm (a difficult prospect, given the layout of the detention block), Vischera is waiting for them to arrive, attended by two bodyguards\u00e2\u20ac\u201dmutated Felucians that have been molded into terrifying fighting machines. See \"Command Center\" for more information on running this encounter.",
+								"The low level of security in the prison allows the heroes to move about without Vischera knowing exactly where they are, but by the time they reach the second floor, he almost assuredly knows of their presence. Unless the heroes managed to stop all of the Imperials in the facility from sounding an alarm (a difficult prospect, given the layout of the detention block), Vischera is waiting for them to arrive, attended by two bodyguards\u2014mutated Felucians that have been molded into terrifying fighting machines. See \"Command Center\" for more information on running this encounter.",
 								"When the heroes reach the command center, their primary goal should be getting to the roof. They can do so via two large platforms that rise up through hatches in the roof, allowing the Imperials to load and unload cargo. Each platform is controlled by a pad embedded in the wall adjacent to it, though the pads must be unlocked by using one of the computer terminals in the room.",
 								{
 									"type": "entries",
 									"name": "Setup",
-									"id": "Setup 8",
+									"id": "Setup 9",
 									"entries": [
 										"The encounter begins with Captain Vischera and Kargrek, one of his mutated Felucian bodyguards, standing near the holographic display table in the southwest corner of the room. Hagark, the other bodyguard, stands near the eastern wall, while the four prison guards are spaced evenly throughout the command center. At least two guards are watching the turbolift cluster when the encounter begins."
 									]
@@ -1868,13 +3814,13 @@
 								{
 									"type": "entries",
 									"name": "Read-Aloud Text",
-									"id": "Read-Aloud Text 8",
+									"id": "Read-Aloud Text 9",
 									"entries": [
 										"When the heroes arrive in the command center, read the following text aloud:",
 										{
 											"type": "insetReadaloud",
 											"entries": [
-												"Though a four-pod turbolift cluster fills the center of the room, this large chamber\u00e2\u20ac\u201dobviously a command center\u00e2\u20ac\u201dis alive with activity. Large banks of computers line the walls, showing tactical displays of multiple Imperial facilities, including this one. The room seems to be designed to allow officers to monitor multiple situations at once, with displays and holographic projections showing many locations simultaneously. Two large cargo platforms sit in one corner of the room, providing access to the roof."
+												"Though a four-pod turbolift cluster fills the center of the room, this large chamber\u2014obviously a command center\u2014is alive with activity. Large banks of computers line the walls, showing tactical displays of multiple Imperial facilities, including this one. The room seems to be designed to allow officers to monitor multiple situations at once, with displays and holographic projections showing many locations simultaneously. Two large cargo platforms sit in one corner of the room, providing access to the roof."
 											]
 										}
 									]
@@ -1923,14 +3869,16 @@
 								},
 								{
 									"type": "entries",
-									"name": "Imperial Prison Guard (4)",
-									"id": "Imperial Prison Guard (4) 2",
-									"entries": []
+									"name": "Stormtroopers (4)",
+									"id": "Stormtroopers (4) 3",
+									"entries": [
+										"See: {@creature trooper, shore|Stormtrooper|orcnogSW5e} statblock."
+									]
 								},
 								{
 									"type": "entries",
 									"name": "Conclusion",
-									"id": "Conclusion 8",
+									"id": "Conclusion 9",
 									"entries": [
 										"When the encounter has concluded, the heroes can escape to the roof using the cargo platforms. With Captain Vischera defeated, the Imperial prison facility no longer has a leader, and the chances of reinforcements arriving are minimal."
 									]
@@ -1938,8 +3886,9 @@
 								{
 									"type": "entries",
 									"name": "Encounter Map",
-									"id": "Encounter Map 8",
+									"id": "Encounter Map 9",
 									"entries": [
+										"See: {@area P5: Command Center Encounter Map|P5: Command Center Encounter Map|x}",
 										{
 											"type": "inset",
 											"name": "Features of the Area",
@@ -1958,17 +3907,17 @@
 					"name": "Concluding the Adventure",
 					"id": "Concluding the Adventure",
 					"entries": [
-						"When the heroes finally make their way to the roof of the facility with Admiral Gilder, Captain O'Keefe brings the {@i Banshee} swooping in to rescue them. As laser fire spatters ineffectually against the ship's shields, the heroes can climb into the transport via the extended landing ramp. If the heroes planted the explosives in the communications center, the first round of explosions begin tearing through the facility, growing louder and closer with each passing second. Once everyone is on board, Captain Okeefe blasts off, and within moments the ship is safely away from the lush fungal world and into hyperspace.",
-						"Instead of returning to Alderaan, Captain O'Keefe tells the heroes that she has been instructed to rendezvous with a starship in the remote and uninhabited Zandrax System. She goes out of her way not to mention Bail Organa's name, especially not in front of Admiral Gilder, and explains that their benefactor has set up a refuge for them. Upon exiting hyperspace, the heroes are greeted with the impressive vision of the {@i Resurgence}, a brand-new Nebulon-B frigate that will serve as a mobile safe house for the Admiral.",
+						"When the heroes finally make their way to the roof of the facility with Admiral Varth, Captain O'Keefe brings the {@i Banshee} swooping in to rescue them. As laser fire spatters ineffectually against the ship's shields, the heroes can climb into the transport via the extended landing ramp. If the heroes planted the explosives in the communications center, the first round of explosions begin tearing through the facility, growing louder and closer with each passing second. Once everyone is on board, Captain Okeefe blasts off, and within moments the ship is safely away from the lush fungal world and into hyperspace.",
+						"Instead of returning to Alderaan, Captain O'Keefe tells the heroes that she has been instructed to rendezvous with a starship in the remote and uninhabited Zandrax System. She goes out of her way not to mention Bail Organa's name, especially not in front of Admiral Varth, and explains that their benefactor has set up a refuge for them. Upon exiting hyperspace, the heroes are greeted with the impressive vision of the {@i Resurgence}, a brand-new Nebulon-B frigate that will serve as a mobile safe house for the Admiral.",
 						"Captain O'Keefe lands the {@i Banshee} in one of the {@i Resurgence}'s docking bays, and once they disembark, they meet the captain of the frigate, Adrian Verana. Captain Verana is a tall and slender man with jet-black hair and a finely trimmed beard that hugs his square jaw. He is dressed in the sterile uniform of an Alderaanian officer, and his dark eyes seem to weigh each hero carefully as he speaks to them. Captain Verana tells the heroes that they have been assigned quarters on the {@i Resurgence}, and that the ship's facilities (including the medical bay) are available at any time. Moreover, the agreed-upon credits have been transferred into their bank accounts, and they are free to confirm the transaction on terminals in their quarters.",
-						"Admiral Gilder is escorted away by several Alderaanian Security agents, who look at the former Imperial with a mix of suspicion and interest. Once Gilder is gone, Captain Verana tells the heroes that Senator Organa is thankful for their assistance and forever grateful that they went to such risks to aid him. If the heroes are willing, Verana offers them permanent quarters aboard the {@i Resurgence} in exchange for their assistance in the near future. Depending on the results of Gilder's debriefing, Verana believes that the Senator might have further need of clandestine agents to act on his behalf. He urges the heroes to keep as quiet as possible about the Senator's involvement. Even though Gilder has been communicating with Organa on a regular basis, now that they have taken overt action against the Empire, they do not wish to incriminate the Senator in any way.",
-						"If the heroes mention the message regarding Inquisitor Varth's visit to Felucia, Captain Verana becomes troubled and mutters that they might have uncovered something far more involved than a simple Imperial traitor. An Imperial Inquisitor should be a significant concern for any Jedi or Force-using characters as well\u00e2\u20ac\u201dthe chief concern of the Inquisitorius is hunting down, capturing, and killing Force-sensitive beings of all stripes.",
+						"Admiral Varth is escorted away by several Alderaanian Security agents, who look at the former Imperial with a mix of suspicion and interest. Once Varth is gone, Captain Verana tells the heroes that Senator Organa is thankful for their assistance and forever grateful that they went to such risks to aid him. If the heroes are willing, Verana offers them permanent quarters aboard the {@i Resurgence} in exchange for their assistance in the near future. Depending on the results of Varth's debriefing, Verana believes that the Senator might have further need of clandestine agents to act on his behalf. He urges the heroes to keep as quiet as possible about the Senator's involvement. Even though Varth has been communicating with Organa on a regular basis, now that they have taken overt action against the Empire, they do not wish to incriminate the Senator in any way.",
+						"If the heroes mention the message regarding Inquisitor Draco's visit to Felucia, Captain Verana becomes troubled and mutters that they might have uncovered something far more involved than a simple Imperial traitor. An Imperial Inquisitor should be a significant concern for any Jedi or Force-using characters as well\u2014the chief concern of the Inquisitorius is hunting down, capturing, and killing Force-sensitive beings of all stripes.",
 						{
 							"type": "entries",
 							"name": "Next Adventure: A Wretched Hive",
 							"id": "Next Adventure: A Wretched Hive",
 							"entries": [
-								"A Wretched Hive, the next adventure in the Dawn of Defiance campaign, will take the heroes to the planet Cato Neimoidia, where they encounter a Hutt crime lord and are drawn into his world of vice and violence. Not only will the heroes need to ingratiate themselves with the vile gangster Darga the Hutt, but they will also discover new secrets about Imperial projects and meet a Jedi Master who will play an integral role in the unfolding campaign."
+								"{@adventure A Wretched Hive|orcnogDoDEp2}, the next adventure in the Dawn of Defiance campaign, will take the heroes to the planet Cato Neimoidia, where they encounter a Hutt crime lord and are drawn into his world of vice and violence. Not only will the heroes need to ingratiate themselves with the vile gangster Darga the Hutt, but they will also discover new secrets about Imperial projects and meet a Jedi Master who will play an integral role in the unfolding campaign."
 							]
 						}
 					]
@@ -1979,7 +3928,7 @@
 					"id": "Encounter Maps",
 					"entries": [
 						{
-							"type": "section",
+							"type": "entries",
 							"name": "Promenade Shootout Encounter Map",
 							"id": "Promenade Shootout Encounter Map",
 							"entries": [
@@ -1988,66 +3937,84 @@
 							]
 						},
 						{
-							"type": "section",
-							"name": "Darga's Cronies Encounter Map",
-							"id": "Darga's Cronies Encounter Map",
+							"type": "entries",
+							"name": "Ganga Lor's Grudge Encounter Map",
+							"id": "Ganga Lor's Grudge Encounter Map",
 							"entries": [
-								"See: {@area Darga's Cronies|Darga's Cronies|x}",
-								"<img src='https://www.gmbinder.com/images/HuqkbWn.png' style='width:700px' />"
+								"See: {@area Ganga Lor's Grudge|Ganga Lor's Grudge|x}",
+								"<img src='https://www.gmbinder.com/images/aYFor0y.png' style='width:600px' />"
 							]
 						},
 						{
-							"type": "section",
-							"name": "Gladiator Match Encounter Map",
-							"id": "Gladiator Match Encounter Map",
+							"type": "entries",
+							"name": "Frozen Goods Encounter Map",
+							"id": "Frozen Goods Encounter Map",
 							"entries": [
-								"See: {@area Gladiator Match|Gladiator Match|x}",
-								"<img src='https://www.gmbinder.com/images/8V3wjuS.png' style='width:700px' />"
+								"See: {@area Frozen Goods|Frozen Goods|x}",
+								"<img src='https://www.gmbinder.com/images/DYCvwgK.png' style='width:600px' />"
 							]
 						},
 						{
-							"type": "section",
-							"name": "Aviary Attack Encounter Map",
-							"id": "Aviary Attack Encounter Map",
+							"type": "entries",
+							"name": "Felucian Hospitality Encounter Map",
+							"id": "Felucian Hospitality Encounter Map",
 							"entries": [
-								"See: {@area Aviary Attack|Aviary Attack|x}",
-								"<img src='https://www.gmbinder.com/images/0t927lh.png' style='width:700px' />"
+								"See: {@area Felucian Hospitality|Felucian Hospitality|x}",
+								"<img src='https://i.imgur.com/JjHKQhT.png' style='width:600px' />"
 							]
 						},
 						{
-							"type": "section",
-							"name": "A Knife in the Dark Encounter Map",
-							"id": "A Knife in the Dark Encounter Map",
+							"type": "entries",
+							"name": "Jungle Watch Outpost Encounter Map",
+							"id": "Jungle Watch Outpost Encounter Map",
 							"entries": [
-								"See: {@area A Knife in the Dark|A Knife in the Dark|x}",
-								"<img src='https://www.gmbinder.com/images/huLDXmT.png' style=' width:600px' />"
+								"See: {@area Jungle Watch Outpost|Jungle Watch Outpost|x}",
+								"<img src='https://www.gmbinder.com/images/Sls8wi4.png' style='width:600px' />"
 							]
 						},
 						{
-							"type": "section",
-							"name": "Into the Dungeons Encounter Map",
-							"id": "Into the Dungeons Encounter Map",
+							"type": "entries",
+							"name": "Imperial Research Lab Encounter Map",
+							"id": "Imperial Research Lab Encounter Map",
 							"entries": [
-								"See: {@area Into the Dungeons|Into the Dungeons|x}",
-								"<img src='https://www.gmbinder.com/images/01nJYwe.png' style='width:600px' />"
+								"See: {@area Imperial Research Lab|Imperial Research Lab|x}",
+								"<img src='https://www.gmbinder.com/images/a43liGz.png' style='width:600px' />"
 							]
 						},
 						{
-							"type": "section",
-							"name": "Out of Captivity Encounter Map",
-							"id": "Out of Captivity Encounter Map",
+							"type": "entries",
+							"name": "Defense Turret Controls Encounter Map",
+							"id": "Defense Turret Controls Encounter Map",
 							"entries": [
-								"See: {@area Out of Captivity|Out of Captivity|x}",
-								"<img src='https://www.gmbinder.com/images/iIo4y0F.png' style=' width:600px' />"
+								"See: {@area Defense Turret Controls|Defense Turret Controls|x}",
+								"<img src='https://www.gmbinder.com/images/Sbvuysi.png' style='width:600px' />"
 							]
 						},
 						{
-							"type": "section",
-							"name": "Confrontation with Demos Encounter Map",
-							"id": "Confrontation with Demos Encounter Map",
+							"type": "entries",
+							"name": "Communications Center Encounter Map",
+							"id": "Communications Center Encounter Map",
 							"entries": [
-								"See: {@area Confrontation with Demos|Confrontation with Demos|x}",
-								"<img src='https://www.gmbinder.com/images/tsczkm8.png' style='width:500px' />"
+								"See: {@area Communications Center|Communications Center|x}",
+								"<img src='https://www.gmbinder.com/images/kQhL5W7.png' style='width:600px' />"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Detention Block F-1A Encounter Map",
+							"id": "Detention Block F-1A Encounter Map",
+							"entries": [
+								"See: {@area Detention Block F-1A|Detention Block F-1A|x}",
+								"<img src='https://www.gmbinder.com/images/BEjgOkn.png' style='width:600px' />"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "P5: Command Center Encounter Map",
+							"id": "P5: Command Center Encounter Map",
+							"entries": [
+								"See: {@area P5: Command Center|P5: Command Center|x}",
+								"<img src='https://www.gmbinder.com/images/jV1Bmat.png' style='width:600px' />"
 							]
 						}
 					]
