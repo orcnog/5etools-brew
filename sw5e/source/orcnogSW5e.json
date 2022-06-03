@@ -57,13 +57,22 @@
 				"short": "Tch.",
 				"color": "008e2f"
 			}
+		},
+		"currencyConversions": {
+			"Credits": [
+				{
+					"coin": "cr",
+					"mult": 0.1,
+					"isFallback": true
+				}
+			]
 		}
 	},
 	"item": [
 		{
 			"name": "Mechanic's Kit",
 			"source": "orcnogSW5e",
-			"page": 1,
+			"page": 0,
 			"type": "T",
 			"rarity": "none",
 			"age": "futuristic",
@@ -71,6 +80,20 @@
 			"weight": 25,
 			"entries": [
 				"Mechanic's kits are used to craft and repair vehicles and starships."
+			]
+		},
+		{
+			"name": "Credit",
+			"source": "orcnogSW5e",
+			"page": 0,
+			"type": "$",
+			"rarity": "none",
+			"age": "futuristic",
+			"value": 10,
+			"entries": [
+				"Credits come in a variety of denominations: from a single chit to cards loaded with incredible value. While the Republic and Empire have their own currencies, in most worlds they can be used interchangeably.",
+                "With ten credits, a character can buy a power cell, a stylus, or a glowrod. A skilled (but not exceptional) artisan can earn ten credits a day. The credit is the standard unit of measure for wealth, even if the chit itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of credits, the transactions don’t usually involve the exchange of individual chits. Rather, the credit is a standard measure of value, and the actual exchange is in credit cards, letters of credit, or valuable goods.",
+                "A standard chit weighs about a third of an ounce, so fifty chits weigh a pound."
 			]
 		}
 	],
