@@ -2414,7 +2414,7 @@
 											"entries": [
 												"The heroes need to get their hands on whatever cargo Switch is holding for the Alderaanian Security officer, Maya. If they can make a DC 17 persuasion check, Switch acknowledges that he is holding cargo for Maya but does not tell them where. If they manage to get Switch talking, however, their options expand greatly.",
 												"Once Switch has been persuaded to admit possession of Maya's cargo, he is willing to accept payment to release it to the heroes. For the \"eminently reasonable\" sum of 1,000 credits, they can take the cargo wherever they wish. If the heroes don't have that much money, or if they don't want to spend that much, Switch is willing to accept less, provided that one or more of the heroes agrees to supply him with information on a regular basis from wherever their travels may take them. Each hero who agrees to this deal reduces the required payment by 200 credits. Of course, the heroes can agree with no intentions of sending information to Switch in the future, but doing so might have dire repercussions. (Any such consequences are beyond the scope of this adventure, but feel free to include your own adventures and enemies later in the campaign.) On the other hand, the heroes might like the idea of working for a droid crime lord, even indirectly, which can open up plot hooks of its own.",
-												"Once Switch is satisfied, he reveals that the cargo is in the main docking bay on Blue Deck, a section of the station heavily traveled by Imperial loyalists and one of the few places where Imperial ships dock. If the heroes fail to convince Switch to give them the cargo, they might have another chance to succeed; see the development section of \"Arrival of Ganga Lor\" (below)."
+												"Once Switch is satisfied, he reveals that the cargo is in the main docking bay on Blue Deck, a section of the station heavily traveled by Imperial loyalists and one of the few places where Imperial ships dock. If the heroes fail to convince Switch to give them the cargo, they might have another chance to succeed; see the development section of \"{@area Arrival of Ganga Lor|x}\" (below)."
 											]
 										},
 										{
@@ -2459,7 +2459,15 @@
 									"name": "Arrival of Ganga Lor",
 									"id": "Arrival of Ganga Lor",
 									"entries": [
-										"Once the heroes have concluded their business with Switch, an unexpected visitor arrives. If the heroes left the Gamorrean guards alive, they now die squealing amid a hail of blaster bolts, which can easily be heard from inside bay V14. Bursting into the room is Ganga Lor, a Chevin gangster, and a handful of his thugs. When he pushes his way into the room, Ganga Lor shouts in Basic, \"So you thought you could hide your deal with the offworlders from me, droid? I'm tired of not getting my cut! Turn him into a scrap heap, boys!\" With that, Ganga Lor's thugs attack Switch and the heroes, who are now caught up in a gang fight."
+										"Once the heroes have concluded their business with Switch, an unexpected visitor arrives. If the heroes left the Gamorrean guards alive, they now die squealing amid a hail of blaster bolts, which can easily be heard from inside bay V14. Bursting into the room is Ganga Lor, a Chevin gangster, and a handful of his thugs. When he pushes his way into the room, Ganga Lor shouts in Basic, \"So you thought you could hide your deal with the offworlders from me, droid? I'm tired of not getting my cut! Turn him into a scrap heap, boys!\" With that, Ganga Lor's thugs attack Switch and the heroes, who are now caught up in a gang fight.",
+										{
+											"type": "image",
+											"href": {
+												"type": "external",
+												"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/chevin-species.webp"
+											},
+											"title": "A member of the Chevin species"
+										}
 									]
 								}
 							]
@@ -2747,11 +2755,17 @@
 											"type": "insetReadaloud",
 											"entries": [
 												"The doors to the Grand Hall open, and in strides a middle-aged man who has a well-kept goatee and is wearing Senatorial robes. Easily recognizable as Bail Organa, he smiles and nods to the servants before turning to you. \"Welcome to Alderaan,\" he says. \"I had hoped we might meet under more pleasant circumstances, but unfortunately the Empire makes almost everything unpleasant. Still, I am glad to see that the... difficulties at the spaceport above Brentaal didn't impede you too much.",
-												"",
 												"\"I've asked you to join me today because the agents of mine that you rescued seem to think you can be trusted. Since you worked hard to help them, I believe I can put my faith in you as well. I have a task that needs to be completed, but unfortunately my status as a Senator prevents me from taking care of it myself, or even from sending someone directly associated with the Royal Family.",
-												"",
 												"\"The planet Felucia was ravaged during the Clone Wars, but once the fighting was over, the Empire set up a permanent facility on the world. Nothing large\u2014just a small garrison where they could keep prisoners out of the way. Some months ago, I was contacted by an Imperial Admiral who was disillusioned with the way the Empire had twisted the once-great Republic, and he began feeding me sensitive information. A little over a week ago, that communication stopped. My agents tell me that the Admiral has been taken to Felucia, where he is being held against his will. I'd like you to learn what has become of him, and rescue him if you can.\""
 											]
+										},
+										{
+											"type": "image",
+											"href": {
+												"type": "external",
+												"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/bailorgana.webp"
+											},
+											"title": "Senator Bail Organa"
 										},
 										"After Organa delivers his proposition, the heroes probably have a number of questions. Here are some possible answers to likely questions:",
 										"{@b Who is this admiral?} \"Admiral Gilder Varth is a veteran of the Clone Wars and an honorable man. He commanded one of the ships at the Battle of Coruscant and was promoted for bravery. His loyalty to the Empire seemed unwavering, but once you've seen what he has seen . . .\"",
@@ -2781,6 +2795,14 @@
 						"Senator Organa gives the heroes as much time as they need to prepare for their journey and sees them off. The journey from Alderaan to Felucia is relatively uneventful and should give the heroes plenty of downtime before their mission begins.",
 						"Felucia is an out-of-the-way jungle world where massive mushrooms dominate the landscape. The native Felucians retreated into hiding many years ago when Gossam colonists came to the world. Though the fierce battles of the Clone Wars made their way to the planet eventually, Felucia was left largely unscathed, and once the Separatist forces were defeated, the newly created Empire mostly withdrew from the system. As Bail Organa explained to the heroes, the Imperial presence on Felucia is based primarily around protecting the small prison facility left on the world. The few cities on Felucia have Imperial garrisons, and the Gossam colonists remaining on the world after the Clone Wars must deal with Imperial persecution.",
 						"However, the heroes won't be going anywhere near the cities. The prison facility, which does not exist on any official maps, is located deep in the Felucian jungle. If not for the Alderaanian Security agent frozen in carbonite, neither Bail Organa nor the heroes would have any knowledge of the facility's location. The {@i Banshee} has the coordinates in its nav computer, and the course plotted by RX-13 should bring the ship out of hyperspace on the side of the planet nearest to the prison facility.",
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/Baudo-class_star_yacht.webp"
+							},
+							"title": "Baudo-Class Star Yacht"
+						},
 						{
 							"type": "entries",
 							"name": "Evasive Maneuvers",
@@ -2930,11 +2952,19 @@
 							"id": "Felucian Sanctuary",
 							"entries": [
 								"A hidden village deep within the Felucian jungle, this sanctuary is home to more than a dozen Felucian families. Additionally, a former Separatist soldier, now a hermit on the fungal world, resides in the village, hiding from the Empire. The sanctuary has remained a secret in the months since the Empire took over, and it is a place where the Separatist and the Felucians can live without fear of Imperial discovery.",
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/Felucia_dawn.webp"
+									},
+									"title": "The Felucian Landscape"
+								},
 								"The village provides a place for the heroes to rest and recuperate a bit from their trek through the jungle. Additionally, the sanctuary offers a number of interesting roleplaying opportunities for the heroes, allowing them to interact with the locals and discover more about the conditions on the planet. If the heroes are reluctant to enter the village due to their recent conflict with the Felucian scouts, feel free to use the following to motivate them:",
 								{
 									"type": "list",
 									"items": [
-										"The former Separatist, an older man named Vazus Mandrake (described under \"The Translator\"), invites the heroes into the village, explaining that their fight with the Felucian scouts was just a misunderstanding.",
+										"The former Separatist, an older man named Vazus Mandrake (described under \"{@area The Translator|x}\"), invites the heroes into the village, explaining that their fight with the Felucian scouts was just a misunderstanding.",
 										"The heroes notice signs that the Felucians aren't friendly to the Empire\u2014such as an effigy, dressed in stormtrooper armor, hanging outside the village.",
 										"You can impress upon the heroes the fact that the village might be a good place to ensure that their directions are correct and learn about any other hazards leading up to the prison facility."
 									]
@@ -2948,6 +2978,14 @@
 								},
 								"While in the village, the heroes are approached cautiously until they convince the residents that they mean no harm. If any of the heroes has (or is) a protocol droid or other droid with a translator unit, they find that most of the villagers are indifferent toward the visitors. Unless the heroes are visibly pretending to be Imperial officials, the villagers are more curious about them than anything else. If the heroes can befriend the Felucians, the natives are happy to take them in and provide them with food and shelter, at least for a short time. Most of the villagers believe any non-Imperial visitors to be victims of Imperial oppression, as they are, and the Felucians are always eager to assist anyone who is not an agent of the Empire.",
 								"The encounters described below can occur any time that the heroes are in the village. Feel free to use the location as a place where the heroes can recuperate and interact with the locals. In part 3 of The Traitor's Gambit, the heroes will confront captured Felucians that have been tormented and twisted by the Empire. Therefore, use this time to let the heroes get to know the natives so that they will be more sympathetic later.",
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/Felucian.webp"
+									},
+									"title": "A member of the Felucian species"
+								},
 								{
 									"type": "entries",
 									"name": "The Translator",
@@ -3037,6 +3075,14 @@
 									"id": "Zone 1: The Chase Begins",
 									"entries": [
 										"The heroes mount their kybucks, and the chase begins! Have each hero roll Initiative as normal; this will determine not only the order in which they act, but also their Initiative score in the encounter at the end of the chase sequence. On the first round of the chase sequence, the heroes can mount the kybucks as normal. As promised, the kybucks are tamed and ready for riding. With a move action, a hero can spur his or her kybuck out of the village and in pursuit of the scout trooper.",
+										{
+											"type": "image",
+											"href": {
+												"type": "external",
+												"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/kybuck-with-rider.webp"
+											},
+											"title": "A kybuck (with a small green rider)"
+										},
 										"Kybucks move very, very quickly, and as the beasts lurch forward, the heroes realize that they'll have no trouble keeping up with a speeder bike. Large mushrooms and other huge fungi streak by faster than the eye can see, and the ground whips by at an incredible pace. The kybucks provide a relatively smooth ride, and it is clear that the animals know the terrain far better than any of the heroes might. Each kybuck leaps, turns, twists, and dodges between the massive growths of the fungal forest. Throughout the chase sequence, be sure to emphasize the speed at which the heroes are moving.",
 										"On the first round of the chase, the heroes streak out of the village and into an area of sparse growth. Although Animal Handling checks are not needed to control the kybucks, have each hero make a DC 10 Animal Handling check during the first round regardless.",
 										{
@@ -3126,7 +3172,15 @@
 												"Any hero who fails the Animal Handling check by 5 or more is attacked by the rancor. The creature makes a melee attack against the hero at a +8 bonus, dealing 2d6+5 points of damage on a success."
 											]
 										},
-										"Even if a hero is attacked by the rancor, all heroes who make it through the zone advance to Zone 5, an Imperial outpost."
+										"Even if a hero is attacked by the rancor, all heroes who make it through the zone advance to Zone 5, an Imperial outpost.",
+										{
+											"type": "image",
+											"href": {
+												"type": "external",
+												"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/felucian-rancor.webp"
+											},
+											"title": "A Felucian rancor"
+										}
 									]
 								},
 								{
@@ -3261,6 +3315,14 @@
 						"Fortunately for the heroes, their Felucian scout is aware of a secret entrance. He leads them to the northwest corner of the building, where a ventilation grate barely hangs on its bolts. With the right application of force (dealing at least 10 points of damage to the grate), it can be pried free, giving the heroes a way into the prison facility.",
 						"Within the facility, the heroes will find that everything follows the typical Imperial style, with standard metal walls (DT 10, 150 hp) and metal doors (DT 10, 50 hp). Additionally, the facility has a central computer system with a Slicing DC of 20 without the correct code cylinder. All of the doors in the facility's interior are unlocked by default. However, the exterior blast doors are sealed from the inside. From the outside, the doors can be opened only by slicing the computer (using the terminal and scomp link that provides access to the computer).",
 						"An overall map of the first floor appears below. Each detailed encounter in the facility also has its own map.",
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/KlvSLvw.webp"
+							},
+							"title": "Prison Facility Map (First Floor)"
+						},
 						{
 							"type": "inset",
 							"name": "That Was Too Easy",
@@ -3774,7 +3836,15 @@
 							"name": "Can't Get Out That Way!",
 							"id": "Can't Get Out That Way!",
 							"entries": [
-								"When the heroes have retrieved Admiral Varth (and possibly planted the explosives in the communications center), they likely make their way back to the ventilation grate they used to enter the facility. However, two developments threaten their plans. First, they come upon a disturbing sight\u2014just outside the grate, a large number of stormtroopers stand around the crumpled body of their Felucian guide, and an AT-ST stomps around the exterior of the facility. Second, Captain O'Keefe sends a message over the heroes' comlinks\u2014the {@i Banshee} is operational again, and they can leave the planet whenever they are ready. If the heroes don't remember the second floor of the facility (which they should have seen from the outside), Admiral Varth mentions that some of the Imperials he dealt with mentioned the presence of a command center on the second floor. He suggests that they make their way up there and attempt to reach the roof. From there, they can call Captain O'Keefe for a pickup and avoid the Imperial presence outside."
+								"When the heroes have retrieved Admiral Varth (and possibly planted the explosives in the communications center), they likely make their way back to the ventilation grate they used to enter the facility. However, two developments threaten their plans. First, they come upon a disturbing sight\u2014just outside the grate, a large number of stormtroopers stand around the crumpled body of their Felucian guide, and an AT-ST stomps around the exterior of the facility. Second, Captain O'Keefe sends a message over the heroes' comlinks\u2014the {@i Banshee} is operational again, and they can leave the planet whenever they are ready. If the heroes don't remember the second floor of the facility (which they should have seen from the outside), Admiral Varth mentions that some of the Imperials he dealt with mentioned the presence of a command center on the second floor. He suggests that they make their way up there and attempt to reach the roof. From there, they can call Captain O'Keefe for a pickup and avoid the Imperial presence outside.",
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/at-st.webp"
+									},
+									"title": "Unexpected company outside the facility"
+								}
 							]
 						},
 						{
