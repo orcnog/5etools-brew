@@ -3564,7 +3564,14 @@
 							"id": "Swoop Marauders Encounter Map",
 							"entries": [
 								"See: {@area Swoop Marauders|Swoop Marauders|x}",
-								"<img src='https://www.gmbinder.com/images/69D3s0Q.png' style='width:600px' />"
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/69D3s0Q.webp"
+									},
+									"title": "Swoop Marauders Encounter Map"
+								}
 							]
 						},
 						{
@@ -3573,7 +3580,14 @@
 							"id": "Darga's Cronies Encounter Map",
 							"entries": [
 								"See: {@area Darga's Cronies|Darga's Cronies|x}",
-								"<img src='https://www.gmbinder.com/images/HuqkbWn.png' style='width:700px' />"
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/HuqkbWn.webp"
+									},
+									"title": "Darga's Cronies Encounter Map"
+								}
 							]
 						},
 						{
@@ -3582,7 +3596,14 @@
 							"id": "Gladiator Match Encounter Map",
 							"entries": [
 								"See: {@area Gladiator Match|Gladiator Match|x}",
-								"<img src='https://www.gmbinder.com/images/8V3wjuS.png' style='width:700px' />"
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/8V3wjuS.webp"
+									},
+									"title": "Gladiator Match Encounter Map"
+								}
 							]
 						},
 						{
@@ -3591,7 +3612,14 @@
 							"id": "Aviary Attack Encounter Map",
 							"entries": [
 								"See: {@area Aviary Attack|Aviary Attack|x}",
-								"<img src='https://www.gmbinder.com/images/0t927lh.png' style='width:700px' />"
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/0t927lh.webp"
+									},
+									"title": "Aviary Attack Encounter Map"
+								}
 							]
 						},
 						{
@@ -3600,7 +3628,14 @@
 							"id": "A Knife in the Dark Encounter Map",
 							"entries": [
 								"See: {@area A Knife in the Dark|A Knife in the Dark|x}",
-								"<img src='https://www.gmbinder.com/images/huLDXmT.png' style=' width:600px' />"
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/huLDXmT.webp"
+									},
+									"title": "A Knife in the Dark Encounter Map"
+								}
 							]
 						},
 						{
@@ -3609,7 +3644,14 @@
 							"id": "Into the Dungeons Encounter Map",
 							"entries": [
 								"See: {@area Into the Dungeons|Into the Dungeons|x}",
-								"<img src='https://www.gmbinder.com/images/01nJYwe.png' style='width:600px' />"
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/01nJYwe.webp"
+									},
+									"title": "Into the Dungeons Encounter Map"
+								}
 							]
 						},
 						{
@@ -3618,7 +3660,14 @@
 							"id": "Out of Captivity Encounter Map",
 							"entries": [
 								"See: {@area Out of Captivity|Out of Captivity|x}",
-								"<img src='https://www.gmbinder.com/images/iIo4y0F.png' style=' width:600px' />"
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/iIo4y0F.webp"
+									},
+									"title": "Out of Captivity Encounter Map"
+								}
 							]
 						},
 						{
@@ -3627,7 +3676,14 @@
 							"id": "Confrontation with Demos Encounter Map",
 							"entries": [
 								"See: {@area Confrontation with Demos|Confrontation with Demos|x}",
-								"<img src='https://www.gmbinder.com/images/tsczkm8.png' style='width:500px' />"
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/tsczkm8.webp"
+									},
+									"title": "Confrontation with Demos Encounter Map"
+								}
 							]
 						}
 					]
