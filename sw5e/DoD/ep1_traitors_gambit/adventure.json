@@ -2254,7 +2254,7 @@
 							"entries": [
 								{
 									"type": "inset",
-									"name": "Promenade Shootout Encounter Encounter (CR 1)",
+									"name": "Promenade Shootout Encounter (CR 1)",
 									"entries": [
 										{
 											"type": "list",
@@ -3406,7 +3406,7 @@
 							"entries": [
 								{
 									"type": "inset",
-									"name": "Defense Turret Controls Encounter Encounter (CR 3)",
+									"name": "Defense Turret Controls Encounter (CR 3)",
 									"entries": [
 										{
 											"type": "list",
@@ -3462,7 +3462,7 @@
 									"name": "Stormtrooper (4)",
 									"id": "Stormtrooper (4)",
 									"entries": [
-										"See: {@creature trooper, shore|Stormtrooper|orcnogSW5e} statblock."
+										"See: {@creature trooper, shore|orcnogSW5e|Stormtrooper} statblock."
 									]
 								},
 								{
@@ -3872,7 +3872,7 @@
 									"name": "Stormtroopers (4)",
 									"id": "Stormtroopers (4) 3",
 									"entries": [
-										"See: {@creature trooper, shore|Stormtrooper|orcnogSW5e} statblock."
+										"See: {@creature trooper, shore|orcnogSW5e|Stormtrooper} statblock."
 									]
 								},
 								{
@@ -3977,7 +3977,7 @@
 							"name": "Imperial Research Lab Encounter Map",
 							"id": "Imperial Research Lab Encounter Map",
 							"entries": [
-								"See: {@area Imperial Research Lab|Imperial Research Lab|x}",
+								"See: {@area Imperial Research Lab (CR 2)|Imperial Research Lab (CR 2)|x}",
 								"<img src='https://www.gmbinder.com/images/a43liGz.png' style='width:600px' />"
 							]
 						},
@@ -3986,7 +3986,7 @@
 							"name": "Defense Turret Controls Encounter Map",
 							"id": "Defense Turret Controls Encounter Map",
 							"entries": [
-								"See: {@area Defense Turret Controls|Defense Turret Controls|x}",
+								"See: {@area Defense Turret Controls (CR 3)|Defense Turret Controls (CR 3)|x}",
 								"<img src='https://www.gmbinder.com/images/Sbvuysi.png' style='width:600px' />"
 							]
 						},
@@ -3995,7 +3995,7 @@
 							"name": "Communications Center Encounter Map",
 							"id": "Communications Center Encounter Map",
 							"entries": [
-								"See: {@area Communications Center|Communications Center|x}",
+								"See: {@area Communications Center (CR 3)|Communications Center (CR 3)|x}",
 								"<img src='https://www.gmbinder.com/images/kQhL5W7.png' style='width:600px' />"
 							]
 						},
@@ -4004,7 +4004,7 @@
 							"name": "Detention Block F-1A Encounter Map",
 							"id": "Detention Block F-1A Encounter Map",
 							"entries": [
-								"See: {@area Detention Block F-1A|Detention Block F-1A|x}",
+								"See: {@area Detention Block F-1A (CR 3)|Detention Block F-1A (CR 3)|x}",
 								"<img src='https://www.gmbinder.com/images/BEjgOkn.png' style='width:600px' />"
 							]
 						},
@@ -4013,7 +4013,7 @@
 							"name": "P5: Command Center Encounter Map",
 							"id": "P5: Command Center Encounter Map",
 							"entries": [
-								"See: {@area P5: Command Center|P5: Command Center|x}",
+								"See: {@area P5: Command Center (CR 4)|P5: Command Center (CR 4)|x}",
 								"<img src='https://www.gmbinder.com/images/jV1Bmat.png' style='width:600px' />"
 							]
 						}
