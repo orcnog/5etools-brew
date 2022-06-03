@@ -2207,6 +2207,14 @@
 							"id": "Sel Zonn Station",
 							"entries": [
 								"Sel Zonn Station is one of over a dozen XQ2 Space Platforms in orbit around Brentaal. Manufactured by Bengel Shipbuilders some years before the beginning of the adventure, Sel Zonn Station has not flourished since the rise of the Empire. Though it still sees a great deal of traffic from Brentaal and from travelers, the Empire has allowed large sections of the station to languish and fall apart. Thanks to the rise of anti-alien sentiment, especially on the Core Worlds, the more run-down sections of Sel Zonn Station are now inhabited by aliens. As such, a rift divides the station—wealthy, privileged Human Imperial loyalists occupy the nicer sections of the station, while all others are relegated to worn and sometimes dangerous secondary sections.",
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/orcnog/5etools-brew//main/sw5e/DoD/images/sel-zonn-station.webp"
+									},
+									"title": "A typical XQ-2 Space Platform"
+								},
 								"If the heroes arrive at Sel Zonn Station together aboard the same ship, read the following boxed text aloud.",
 								{
 									"type": "insetReadaloud",
@@ -3378,15 +3386,15 @@
 									"name": "Encounter Map",
 									"id": "Encounter Map 5",
 									"entries": [
-                                        "See: {@area Imperial Research Lab Encounter Map|Imperial Research Lab Encounter Map|x}",
-                                        {
-                                            "type": "entries",
-                                            "name": "Features of the Area",
-                                            "entries": [
-                                                "This room is filled with medical equipment of all kinds. The beds (where the Felucians are secured until combat begins) provide low cover to anyone standing adjacent to them. Additionally, if any of the bacta tanks takes more than 5 points of damage, it shatters and spills bacta onto the floor. When this happens, unless a character moves at half speed, the character must succeed on an DC 10 Acrobatics check or fall prone."
-                                            ]
-                                        }
-                                    ]
+										"See: {@area Imperial Research Lab Encounter Map|Imperial Research Lab Encounter Map|x}",
+										{
+											"type": "entries",
+											"name": "Features of the Area",
+											"entries": [
+												"This room is filled with medical equipment of all kinds. The beds (where the Felucians are secured until combat begins) provide low cover to anyone standing adjacent to them. Additionally, if any of the bacta tanks takes more than 5 points of damage, it shatters and spills bacta onto the floor. When this happens, unless a character moves at half speed, the character must succeed on an DC 10 Acrobatics check or fall prone."
+											]
+										}
+									]
 								}
 							]
 						},
@@ -3933,7 +3941,14 @@
 							"id": "Promenade Shootout Encounter Map",
 							"entries": [
 								"See: {@area Promenade Shootout|Promenade Shootout|x}",
-								"<img src='https://www.gmbinder.com/images/70zn7yq.png' style='width:600px' />"
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/70zn7yq.webp"
+									},
+									"title": "Promenade Shootout Encounter Map"
+								}
 							]
 						},
 						{
@@ -3942,7 +3957,14 @@
 							"id": "Ganga Lor's Grudge Encounter Map",
 							"entries": [
 								"See: {@area Ganga Lor's Grudge|Ganga Lor's Grudge|x}",
-								"<img src='https://www.gmbinder.com/images/aYFor0y.png' style='width:600px' />"
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/aYFor0y.webp"
+									},
+									"title": "Ganga Lor's Grudge Encounter Map"
+								}
 							]
 						},
 						{
@@ -3951,7 +3973,14 @@
 							"id": "Frozen Goods Encounter Map",
 							"entries": [
 								"See: {@area Frozen Goods|Frozen Goods|x}",
-								"<img src='https://www.gmbinder.com/images/DYCvwgK.png' style='width:600px' />"
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/DYCvwgK.webp"
+									},
+									"title": "Frozen Goods Encounter Map"
+								}
 							]
 						},
 						{
@@ -3960,7 +3989,14 @@
 							"id": "Felucian Hospitality Encounter Map",
 							"entries": [
 								"See: {@area Felucian Hospitality|Felucian Hospitality|x}",
-								"<img src='https://i.imgur.com/JjHKQhT.png' style='width:600px' />"
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/JjHKQhT.webp"
+									},
+									"title": "Felucian Hospitality Encounter Map"
+								}
 							]
 						},
 						{
@@ -3969,7 +4005,14 @@
 							"id": "Jungle Watch Outpost Encounter Map",
 							"entries": [
 								"See: {@area Jungle Watch Outpost|Jungle Watch Outpost|x}",
-								"<img src='https://www.gmbinder.com/images/Sls8wi4.png' style='width:600px' />"
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/Sls8wi4.webp"
+									},
+									"title": "Jungle Watch Outpost Encounter Map"
+								}
 							]
 						},
 						{
@@ -3978,7 +4021,14 @@
 							"id": "Imperial Research Lab Encounter Map",
 							"entries": [
 								"See: {@area Imperial Research Lab (CR 2)|Imperial Research Lab (CR 2)|x}",
-								"<img src='https://www.gmbinder.com/images/a43liGz.png' style='width:600px' />"
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/a43liGz.webp"
+									},
+									"title": "Imperial Research Lab Encounter Map"
+								}
 							]
 						},
 						{
@@ -3987,7 +4037,14 @@
 							"id": "Defense Turret Controls Encounter Map",
 							"entries": [
 								"See: {@area Defense Turret Controls (CR 3)|Defense Turret Controls (CR 3)|x}",
-								"<img src='https://www.gmbinder.com/images/Sbvuysi.png' style='width:600px' />"
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/Sbvuysi.webp"
+									},
+									"title": "Defense Turret Controls Encounter Map"
+								}
 							]
 						},
 						{
@@ -3996,7 +4053,14 @@
 							"id": "Communications Center Encounter Map",
 							"entries": [
 								"See: {@area Communications Center (CR 3)|Communications Center (CR 3)|x}",
-								"<img src='https://www.gmbinder.com/images/kQhL5W7.png' style='width:600px' />"
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/kQhL5W7.webp"
+									},
+									"title": "Communications Center Encounter Map"
+								}
 							]
 						},
 						{
@@ -4005,7 +4069,14 @@
 							"id": "Detention Block F-1A Encounter Map",
 							"entries": [
 								"See: {@area Detention Block F-1A (CR 3)|Detention Block F-1A (CR 3)|x}",
-								"<img src='https://www.gmbinder.com/images/BEjgOkn.png' style='width:600px' />"
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/BEjgOkn.webp"
+									},
+									"title": "Detention Block F-1A Encounter Map"
+								}
 							]
 						},
 						{
@@ -4014,7 +4085,14 @@
 							"id": "P5: Command Center Encounter Map",
 							"entries": [
 								"See: {@area P5: Command Center (CR 4)|P5: Command Center (CR 4)|x}",
-								"<img src='https://www.gmbinder.com/images/jV1Bmat.png' style='width:600px' />"
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/images/jV1Bmat.webp"
+									},
+									"title": "P5: Command Center Encounter Map"
+								}
 							]
 						}
 					]
