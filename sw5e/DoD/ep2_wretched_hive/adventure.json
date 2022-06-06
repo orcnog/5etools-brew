@@ -604,20 +604,40 @@
 				"Ryl"
 			],
 			"cr": "6",
+			"spellcasting": [
+				{
+					"name": "Innate Tech Casting",
+					"headerEntries": [
+						"Darga's innate tech casting ability is intelligence (tech save {@dc 16}). It can innately cast the following powers:"
+					],
+					"will": [
+							"{@spell assess the situation|orcnogSW5e}"
+						],
+					"daily": {
+						"1": [
+							"{@spell kolto cloud|orcnogSW5e}",
+							"{@spell tactical advantage|orcnogSW5e}"
+						],
+						"3": [
+							"{@spell absorb energy|orcnogSW5e}",
+							"{@spell element of surprise|orcnogSW5e}",
+							"{@spell fabricate trap|orcnogSW5e}",
+							"{@spell oil slick|orcnogSW5e}",
+							"{@spell smuggle|orcnogSW5e}",
+							"{@spell spot the weakness|orcnogSW5e}",
+							"{@spell stack the deck|orcnogSW5e}",
+							"{@spell tactical barrier|orcnogSW5e}"
+						]
+					},
+					"ability": "int"
+				}
+			],
 			"trait": [
 				{
 					"name": "Dominating Presence (1/Rest)",
 					"entries": [
 						"As a bonus action, Darga the Hutt can call out to a humanoid who can understand it that is {@condition charmed} by it or {@condition frightened} of it to direct their next action. The target must succeed on a Wisdom saving throw ({@dc 16}). On a failed save, until the end of Darga the Hutt's next turn, the creature takes only the actions Darga the Hutt chooses, and doesn't do anything that it doesn't allow it to do.",
 						"During this time Hutt Crime Lord can use its reaction to force the creature to use the creature's reaction."
-					]
-				},
-				{
-					"name": "Innate Tech Casting",
-					"entries": [
-						"Darga's innate tech casting ability is intelligence (tech save {@dc 16}). It can innately cast the following powers: At will: {@spell assess the situation|orcnogSW5e}",
-						"3/day: {@spell absorb energy|orcnogSW5e}, {@spell element of surprise|orcnogSW5e}, {@spell fabricate trap|orcnogSW5e}, {@spell oil slick|orcnogSW5e}, {@spell smuggle|orcnogSW5e}, {@spell spot the weakness|orcnogSW5e}, {@spell stack the deck|orcnogSW5e}, {@spell tactical barrier|orcnogSW5e}",
-						"1/day: {@spell kolto cloud|orcnogSW5e}, {@spell tactical advantage|orcnogSW5e}"
 					]
 				},
 				{
