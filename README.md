@@ -12,6 +12,7 @@ Currently the only SW5e data I have converted for 5etools are those which are us
 ## Dawn of Defiance, Episode I: The Traitor's Gambit
 
 This adventure was originally written for Star Wars Role Playing Game: Saga Edition, and has been converted (mostly by [Stormchaser](https://www.gmbinder.com/profile/stormchaser)) to work in the [SW5e](https://SW5e.com) system.  I've converted the GMBinder text, and defined all of the creatures, items, and even the currency (Galactic credits).  I've done nothing to define the broader system meta data for things like classes, species, or starships, I have only defined the data needed for a DM to run the adventure out of 5etools.
+
 ToDos:
 - I need to link all the skills and items in the text with tooltip tags.  Ex: {@skill Perception}
 - I plan to create a few starship statblocks, even though there are SW5e rules that don't map 1:1 with traditional DnD5e. I plan to define all the "Starship Action"s simply as "Traits".  Should be good enough to make the statblock usable.
@@ -21,6 +22,8 @@ ToDos:
 ## Dawn of Defiance, Episode II: A Wretched Hive
 
 For the next leg of the adventure, I set up several more SWRPG:Saga Edition creatures (mostly, or totally? converted to SW5e by [Mishy](https://www.gmbinder.com/profile/mishy)), and set up *all* of the (currently defined) Force Powers and Tech Powers.  If you DM anything like me, you really rely on those spell tooltips mid-session.  I've also set up custom skills (like piloting, and Mechanic's Kit), and the custom "spell schools" of Force Power: Lightside, Force Power: Darkside, and Tech Powers.
+
+ToDos:
 - Starships
 - Remastered maps
 - Map data (stretch)
