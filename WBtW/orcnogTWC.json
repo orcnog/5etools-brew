@@ -1663,11 +1663,11 @@
 					"name": "Fantasy Costco",
 					"headers": [
 						"Overview",
-						"What's for Sale"
+						"Resolving the Old Man's Quest",
+						"What's for Sale?",
+						"Making Deals for \"Precious Things\"",
+						"Conclusion"
 					]
-				},
-				{
-					"name": "Conclusion"
 				}
 			],
 			"level": {
@@ -3765,7 +3765,7 @@
 											"entries": [
 												"As Witch and Light move through the Hall of Illusions, their reflections in the mirrors show them as gloomy shadar-kai children, with your own youthful reflections following behind. Soon, they call you to a halt. The mirrors now reflect everyone's true age.",
 												"{@creature Mister Witch|orcnogTWC} addresses you. \"Everything you seek and more lies beyond this mirror. If you mean to step through, then stand in front of the glass and repeat this rhyme: Fantasy Costco, where all your dreams come true. We got a deal for you!\"",
-												"{@creature Mister Light|orcnogTWC} adds in a hushed tone, \"I must warn you. The deals are out of this world.\""
+												"{@creature Mister Light|orcnogTWC} adds in a hushed tone, \"I must warn you. The deals... they're insane!\""
 											]
 										},
 										"Witch and Light will also share the following information if asked:",
@@ -3833,258 +3833,353 @@
                             "page": 5,
                             "id": "438",
                             "entries": [
-                                "Todo: finish writing this section.",
-                                "Garfield the Deals Warlock is the sales associate at the Fantasy Costco and handles all of the buying and selling. If a customer does not have the money to pay for an item, Garfield will still accept payment in body parts and fluids. He appears to be the only person that works there."
+                                "Garfield the Deals Warlock is the sales associate at the Fantasy Costco and handles all of the buying and selling. If a customer does not have the money to pay for an item, Garfield will still accept payment in body parts and fluids. He's also been known to trade for other precious things... memories, years of one's life, talents, favors, etc.  But of particular note to adventurers is his willingness to accept XP and other stats as payment in place of gold pieces.  He appears to be the only person that works there."
                             ]
                         },
+						{
+							"type": "entries",
+							"name": "Resolving the Old Man's Quest",
+							"page": 5,
+							"id": "439",
+							"entries": [
+								"If/when the heroes ask Garfield about trading the Old Man's ring for some of his life back, he will regretably inform them that it's too late for the old man. By the time they leave this dimension, he will already have passed away.  Besides, Garfield will only offer coin as payment to sellers.",
+								"But he'd be happy to offer them 500 gp for the nifty little ring he gave them, after all it's theirs to do with what they please, now.  And also, while they are here, why don't they have a look at his wares?"
+							]
+						},
                         {
                             "type": "entries",
                             "name": "What's for Sale?",
                             "page": 5,
-                            "id": "439",
+                            "id": "440",
                             "entries": [
-                                {
-                                    "type": "table",
-                                    "colLabels": [
-                                        "Item Name",
-                                        "Cost (gp)",
-                                        "Description"
-                                    ],
-                                    "colStyles": [
-                                        "col-2",
-                                        "col-1 text-right",
-                                        "col-9"
-                                    ],
-                                    "rows": [
-                                        [
-                                            "Alchemist's Ring",
-                                            "500",
-                                            "When the wearer of this ring imbibes a healing potion, they receive an additional {@dice 1d6} HP."
-                                        ],
-                                        [
-                                            "All-or-Nothing Coin",
-                                            "700",
-                                            "Once per day, instead of rolling a {@dice d20}, you can flip a coin. Heads=critical hit, tails=critical fail."
-                                        ],
-                                        [
-                                            "Anti-Gravity Sphere",
-                                            "500",
-                                            "A small fist-sized glass ball filled with a silvery smoke. When the sphere is destroyed, it disables the effect of gravity on everything in a 30ft radius."
-                                        ],
-                                        [
-                                            "Arcane Trickster's Glove",
-                                            "1,500",
-                                            "This glove turns your \"Mage Hand\" spell invisible, allowing you to perform stealthy actions, such as pickpocketing, slight-of-hand, or other acts of remote legerdemain. For these checks, use your Arcana score, instead of Stealth or Slight of Hand."
-                                        ],
-                                        [
-                                            "Astral Shell",
-                                            "1,200",
-                                            "A conch shell that allows you to interrogate the souls of the recently dead."
-                                        ],
-                                        [
-                                            "Billow Branch",
-                                            "800",
-                                            "A cool vaping pen that you can use once per day to gain advantage on either Persuasion or Intimidation checks."
-                                        ],
-                                        [
-                                            "Champion's Belt",
-                                            "800",
-                                            "This ornate belt is given to someone who has bested all opponents in a test of strength. Once per day the wearer may substitute their Strength score for their Wisdom or Charisma when making a stat check."
-                                        ],
-                                        [
-                                            "Costco Comb of Come Back Any Time",
-                                            "100",
-                                            "For the low low price of 100 gp, this comb could be yours! Swipe it through your hair and you and any adjacent willing creatures will be magically transported back to the Fantasy Costco pocket dimension."
-                                        ],
-                                        [
-                                            "Diadem of Fabulous Truthiness",
-                                            "900",
-                                            "Once per long rest, you can channel your terminal fabulously into this simple circlet and cast a free \"Zone of Truth\", limited to a single target rather than a radius. Confound your enemies, emasculate your friends, and free up your cleric's spell slots so he can do some actual healing."
-                                        ],
-                                        [
-                                            "Extreme Teen Bible",
-                                            "350",
-                                            "A +1 Holy Symbol. The cover features a rad skateboarder. Allows the user to more easily spread the good word of your deity to teens."
-                                        ],
-                                        [
-                                            "Flaming Poisoning Raging Sword of Doom",
-                                            "60,000",
-                                            "A sword with a gigantic blade, wreathed in flames and with a crooked, oozing scorpion's stinger affixed to its point. Deals an extra 20 Melee Damage."
-                                        ],
-                                        [
-                                            "Glasses of Lightning Comprehension",
-                                            "600",
-                                            "Allows you to read and absorb written information in a language you understand ten times as fast."
-                                        ],
-                                        [
-                                            "Glutton's Fork",
-                                            "750",
-                                            "Once a day this fork will allow the user to eat any non-magical item they can fit in their mouth and gain {@dice 2d6} HP. Just tap the fork on the item and it will turn edible."
-                                        ],
-                                        [
-                                            "Grappling Hook",
-                                            "600",
-                                            "Once a day, you can shoot a grappling hook across a gap, up wall, or use it to help traverse other obstacles."
-                                        ],
-                                        [
-                                            "Haunted Doll",
-                                            "100",
-                                            "This doll is very creepy. If its owner ever fails a third death save, the doll will take the hit instead, and will die in place of its owner."
-                                        ],
-                                        [
-                                            "Immovable Rod",
-                                            "1,100",
-                                            "This rod is a flat iron bar with a small button on one end. When the button is pushed (a move action), the rod does not move from where it is, even if staying in place defies gravity. Thus, the owner can lift or place the rod wherever they wish, push the button, and let go. Several immovable rods can even make a ladder when used together (although only two are needed). An immovable rod can support up to 8,000lbs before falling to the ground. If a creature pushes against an immovable rod, it must make a DC 30 Strength check to move the rod up to 10ft in a single round."
-                                        ],
-                                        [
-                                            "Jar of Bees",
-                                            "200",
-                                            "A literal jar of bees. You could probably throw it at enemies or through a window and create a distraction. Or you could drop it like a dumb-dumb and get stung a bunch."
-                                        ],
-                                        [
-                                            "The Kiss the Cook Grill Master Edition Grill",
-                                            "500",
-                                            "The Kiss The Cook Grill Master Edition Grill has no peers when it comes to grilling meats n' good eats. This item can be used to cook meat, which must be hunted, during a short or long rest. Anyone in your party who eats this delicious meat will gain {@dice 1d8} temporary hit points after completing the rest. Shrinks to fit in your pocket when not in use."
-                                        ],
-                                        [
-                                            "Lens of Straight Creepin'",
-                                            "700",
-                                            "Once per day allows you to see the footprints, tracks, or markings of anything that moved through the observed area recently."
-                                        ],
-                                        [
-                                            "Magnetic Charge",
-                                            "900",
-                                            "A fist-sized glass ball with a blue button on top. Once the button is pressed, the ball will begin to glow and produce a magnetic field that lasts two rounds of combat. The field repels any metal objects within 10ft of the ball. One charge per day."
-                                        ],
-                                        [
-                                            "Mathias the Living Grimoire",
-                                            "1,300",
-                                            "This clockwork owl has been owned by dozens of different wizards throughout its lifespan and can now recite arcane knowledge on command. All Arcana checks made by the player who owns this item gain advantage. In addition, the player can use the owl to prepare a spell they do not know once per day. The spell still takes up a spell slot of the spell's level."
-                                        ],
-                                        [
-                                            "Mockingbird Gum",
-                                            "300",
-                                            "A pack of green and blue speckled minty sticks of chewing gum that allows anyone chewing it to emulate another person's voice for one hour. Contains five sticks of gum."
-                                        ],
-                                        [
-                                            "Mystery Bag",
-                                            "300",
-                                            "A small, softball-sized, patchwork leather bag with some sort of spherical object inside (holds a goldfish inside a sealed glass sphere filled with water)."
-                                        ],
-                                        [
-                                            "Mystery Powder",
-                                            "800",
-                                            "A bag of powder with one charge per day. When used on a creature, you roll {@dice 1d100}, and have the effect chosen from the \"Wild Magic Surge\" table."
-                                        ],
-                                        [
-                                            "Nitpicker",
-                                            "900",
-                                            "Resembles a miniature garden gnome that carries lock picking tools in his hands. When not in use, looks like a 4\" inch tall statue. Twice daily, can be placed in front of a locked object to unlock it (functions as the spell \"Knock\"). At this point, the statue comes to life in order to pick the lock. After the lock is picked (or if he is unable to open it), it reverts back to an inanimate statue. While picking the lock, the Nit Picker critiques any or all members of the party on their recent performance in the campaign. Nothing escapes the critical eye of the Nit Picker, no matter how small the perceived offence."
-                                        ],
-                                        [
-                                            "No-Sodium Salt Shaker",
-                                            "400",
-                                            "This might look like a simple salt shaker, but the contents have been bewitched to turn a bright shade of pink if sprinkled over food or drink that contains poison. Also makes food taste good, as it's a delicious spice."
-                                        ],
-                                        [
-                                            "Phantom Fist",
-                                            "600",
-                                            "Makes your unarmed strikes more powerful and grants them the ability to knock enemies backwards. Adds {@dice 1d4} Damage to unarmed strikes and knocks back 10ft on hit."
-                                        ],
-                                        [
-                                            "Phone-a-Friend Scrying Bones",
-                                            "500",
-                                            "Once per day, can be used to ask a yes, no, or maybe question to the fates (DM). There are three bones carved into people with happy faces and sad faces. All happy faces means yes, all sad faces mean no, anything in between means maybe. The DM can respond or choose not to answer."
-                                        ],
-                                        [
-                                            "Plastic Sheriff Badge",
-                                            "500",
-                                            "Adds +3 to Deception checks when impersonating a person of authority."
-                                        ],
-                                        [
-                                            "Pocket Spa",
-                                            "1,000",
-                                            "A pocket-sized tent that inflates to normal size upon use (four people can fit within). Short rests taken within will grant an extra {@dice 1d8} HP."
-                                        ],
-                                        [
-                                            "Pocket Workshop",
-                                            "1,200",
-                                            "From the makers of the Pocket Spa, comes the Pocket Workshop. A top-of-the-line Craftsman woodworking shop concealed within a battered red toolbox. When opened, the toolbox reveals a descending staircase that leads to a pocket dimension containing your deluxe Craftsman workshop. Your workshop is well-lit, properly ventilated, and equipped with saws, planes, lathes, and dozens of hand tools. Everything you need to make your project a success. The workshop is always stocked with the highest quality wood from across the realms, as well as nutritious snacks and refreshments."
-                                        ],
-                                        [
-                                            "Rickle Axager's Pocket Guide to Adventuring (3rd Edition)",
-                                            "1,500",
-                                            "Once per day, you can read a section on an associated skill check. For the next 24 hours, you have advantage on that skill check. Sections can also be read aloud to give an advantage to another party member."
-                                        ],
-                                        [
-                                            "Ring of Pointing",
-                                            "200",
-                                            "Copper ring with an inlaid ruby that shoots a laser out. It can be used as a distraction or to highlight salient information during business presentations."
-                                        ],
-                                        [
-                                            "Ring of Recall",
-                                            "1,000",
-                                            "Once per day, the wearer of this ring may recover the slot used on a failed spell."
-                                        ],
-                                        [
-                                            "Ring of the Grammarian",
-                                            "800",
-                                            "Once per day, you can alter one letter in a spell title and cast it with the new title and, therefore, new effect."
-                                        ],
-                                        [
-                                            "Rusted Can of Cheerwine",
-                                            "400",
-                                            "Has seen some shit, but seems to be radiating with vital energies. Grants +5 to Max HP. Brewed in beautiful Atlanta, Georgia. Probably. I don't know. I'm making that up."
-                                        ],
-                                        [
-                                            "Scuttlebuddy",
-                                            "500",
-                                            "A mechanical beetle you can use as a spy. An earpiece included to listen in from up to 100ft away. Cannot collect items or interact with environment. It's very fragile; it can be broken easily if discovered and breaks after four total uses."
-                                        ],
-                                        [
-                                            "Shield of Heroic Memories",
-                                            "1,200",
-                                            "This perfectly round silver shield initially has a mirror finish. As a hero takes it into battle, it remembers the enemies encountered, gaining a +1 AC on any subsequent battle with creatures of that type. The events of the battle are intricately engraved onto the shield's surface (which has a seemingly endless capacity for detail). The bearer of the shield may also attempt to recount past battles (real or imagined) to the shield. Upon a DC 10 Charisma check (real) or DC 15 Deception check (imagined), the shield confers a +1 AC against the creatures described in the tall tales. Three failed attempts at recounting stories cause the shield to be cleared of all of its memories; the engravings disappear, it reverts to its mirror finish, and all bonuses are lost."
-                                        ],
-                                        [
-                                            "Slicer of T'pire Weir Isles",
-                                            "900",
-                                            "This item is useless, but with a good enough sales pitch (Persuasion check), you can convince anyone of its value and get them to trade you their most valuable possession for it."
-                                        ],
-                                        [
-                                            "Stones of Farspeech",
-                                            "100",
-                                            "Walkie talkies, basically. Range of five miles."
-                                        ],
-                                        [
-                                            "Strongmouse's Laughing Amulet",
-                                            "1,200",
-                                            "Traditionally worn by high priests of the boisterous and jovial smiling god, the amulet carries the stylised image of a human face, mouth open in laughter. Whenever a foe is defeated, the wearer may activate the amulet by tapping it twice and then delivering the best taunting joke or victorious one-liner applicable to the current situation. If the jest pleases Strongmouse (DM), he rewards the adventurer by recharging up to {@dice 1d10}+CON HP. But Strongmouse is a fickle God; jokes that fail are punished with a small bolt of lightning, dealing {@dice 1d6} Lightning Damage per failure."
-                                        ],
-                                        [
-                                            "Tankard of Potent Drink",
-                                            "300",
-                                            "Makes alcoholic drinks more potent; but, if you drink water from it, you immediately become sober."
-                                        ],
-                                        [
-                                            "Tarantula Bracelet",
-                                            "800",
-                                            "Once per day, this bracelet bestows \"Spider Climb\" on the wearer for 10 minutes and renders their movement while climbing completely silent and gives them advantage on Stealth checks. I want to be explicitly clear: there's no web slinging. YOU WILL SLING NO WEBS. But you will climb, and slime, just like a spider can."
-                                        ],
-                                        [
-                                            "Throwing Shield",
-                                            "900",
-                                            "Confers the same AC bonus as a regular shield, and can be used as a thrown weapon. Can travel IN A STRAIGHT LINE up to 30ft, and deals {@dice 1d8}+STR Damage. IT DOESN'T COME BACK TO YOU AFTERWARDS. AND DON'T TRY TO RICOCHET THIS SHIT."
-                                        ],
-                                        [
-                                            "Tim Tebow's Ring",
-                                            "300",
-                                            "When worn, anything you can pick up and fit in your hand you can throw in a perfect spiral pass up to 100 yards."
-                                        ]
-                                    ]
-                                }                                                                                        
-                            ]
-                        }
+								{
+									"type": "table",
+									"colLabels": [
+										"Item Name",
+										"Cost (gp)",
+										"Description"
+									],
+									"colStyles": [
+										"col-2",
+										"col-1 text-right",
+										"col-9"
+									],
+									"rows": [
+										[
+											"Alchemist's Ring",
+											"500",
+											"When the wearer of this ring imbibes a healing potion, they receive an additional {@dice 1d6} HP."
+										],
+										[
+											"All-or-Nothing Coin",
+											"700",
+											"Once per day, instead of rolling a {@dice d20}, you can flip a coin. Heads=critical hit, tails=critical fail."
+										],
+										[
+											"Anti-Gravity Sphere",
+											"500",
+											"A small fist-sized glass ball filled with a silvery smoke. When the sphere is destroyed, it disables the effect of gravity on everything in a 30ft radius."
+										],
+										[
+											"Arcane Trickster's Glove",
+											"1,200",
+											"This glove turns your \"Mage Hand\" spell invisible, allowing you to perform stealthy actions, such as pickpocketing, slight-of-hand, or other acts of remote legerdemain. For these checks, use your Arcana score, instead of Stealth or Slight of Hand."
+										],
+										[
+											"Astral Shell",
+											"1,200",
+											"A conch shell that allows you to interrogate the souls of the recently dead."
+										],
+										[
+											"Billow Branch",
+											"800",
+											"A cool vaping pen that you can use once per day to gain advantage on either Persuasion or Intimidation checks."
+										],
+										[
+											"Champion's Belt",
+											"800",
+											"This ornate belt is given to someone who has bested all opponents in a test of strength. Once per day the wearer may substitute their Strength score for their Wisdom or Charisma when making a stat check."
+										],
+										[
+											"Costco Comb of Come Back Any Time",
+											"100",
+											"For the low low price of 100 gp, this comb could be yours! Swipe it through your hair and you and any adjacent willing creatures will be magically transported back to the Fantasy Costco pocket dimension."
+										],
+										[
+											"Diadem of Fabulous Truthiness",
+											"900",
+											"Once per long rest, you can channel your terminal fabulously into this simple circlet and cast a free \"{@spell Zone of Truth}\", limited to a single target rather than a radius. Confound your enemies, emasculate your friends, and free up your cleric's spell slots so he can do some actual healing."
+										],
+										[
+											"Extreme Teen Bible",
+											"350",
+											"A +1 Holy Symbol. The cover features a rad skateboarder. Allows the user to more easily spread the good word of your deity to teens."
+										],
+										[
+											"Flaming Poisoning Raging Sword of Doom",
+											"66,666",
+											"A sword with a gigantic blade, wreathed in flames and with a crooked, oozing scorpion's stinger affixed to its point. Deals an extra 20 Melee Damage."
+										],
+										[
+											"Glasses of Lightning Comprehension",
+											"600",
+											"Allows you to read and absorb written information in a language you understand ten times as fast."
+										],
+										[
+											"Glutton's Fork",
+											"750",
+											"Once a day this fork will allow the user to eat any non-magical item they can fit in their mouth and gain {@dice 2d6} HP. Just tap the fork on the item and it will turn edible. Once eaten, a transformed item is *gone forever*. Probably."
+										],
+										[
+											"Grappling Hook",
+											"600",
+											"Once a day, you can shoot a grappling hook across a gap, up wall, or use it to help traverse other obstacles."
+										],
+										[
+											"Haunted Doll",
+											"100",
+											"This doll is very creepy. If its owner ever fails a third death save, the doll will take the hit instead, and will die in place of its owner."
+										],
+										[
+											"Immovable Rod",
+											"1,100",
+											"This rod is a flat iron bar with a small button on one end. When the button is pushed (a move action), the rod does not move from where it is, even if staying in place defies gravity. Thus, the owner can lift or place the rod wherever they wish, push the button, and let go. Several immovable rods can even make a ladder when used together (although only two are needed). An immovable rod can support up to 8,000lbs before falling to the ground. If a creature pushes against an immovable rod, it must make a DC 30 Strength check to move the rod up to 10ft in a single round."
+										],
+										[
+											"Jar of Bees",
+											"200",
+											"A literal jar of bees. You could probably throw it at enemies or through a window and create a distraction. Or you could drop it like a dumb-dumb and get stung a bunch."
+										],
+										[
+											"The Kiss the Cook Grill Master Edition Grill",
+											"500",
+											"The Kiss The Cook Grill Master Edition Grill has no peers when it comes to grilling meats n' good eats. This item can be used to cook meat, which must be hunted, during a short or long rest. Anyone in your party who eats this delicious meat will gain {@dice 1d8} temporary hit points after completing the rest. Shrinks to fit in your pocket when not in use."
+										],
+										[
+											"Lens of Straight Creepin'",
+											"700",
+											"Once per day allows you to see the footprints, tracks, or markings of anything that moved through the observed area recently."
+										],
+										[
+											"Magnetic Charge",
+											"900",
+											"A fist-sized glass ball with a blue button on top. Once the button is pressed, the ball will begin to glow and produce a magnetic field that lasts two rounds of combat. The field repels any metal objects within 10ft of the ball. One charge per day."
+										],
+										[
+											"Mathias the Living Grimoire Owl",
+											"1,300",
+											"This clockwork owl has been owned by dozens of different wizards throughout its lifetime and can now recite arcane knowledge on command. All Arcana checks made by the player who owns this item gain advantage. In addition, the player can use the owl to prepare a spell they do not know once per day. The spell still takes up a spell slot of the spell's level."
+										],
+										[
+											"Mystery Powder",
+											"800",
+											"A bag of powder with one charge per day. When used on a creature, you roll {@dice 1d100}, and have the effect chosen from the \"{@table Wild Magic Surge|PHB}\" table."
+										],
+										[
+											"Nitpicker",
+											"900",
+											"Resembles a miniature garden gnome that carries lock picking tools in his hands. When not in use, looks like a 4\" inch tall statue. Once a day, he can be placed in front of a locked object, at which point the statue comes to life in order to attempt to pick the lock, rolling with a +10 to use his Thieves Tools. While picking the lock, the Nit Picker critiques any or all members of the party on their recent performance in the campaign. Nothing escapes the critical eye of the Nit Picker, no matter how small the perceived offence. Afterward, it reverts back to an inanimate statue."
+										],
+										[
+											"No-Sodium Salt Shaker",
+											"400",
+											"This might look like a simple salt shaker, but the contents have been bewitched to turn a bright shade of pink if sprinkled over food or drink that contains poison. Also makes food taste good, as it's a delicious spice."
+										],
+										[
+											"Phantom Fist",
+											"600",
+											"Makes your unarmed strikes more powerful and grants them the ability to knock enemies backwards. Adds {@dice 1d4} Damage to unarmed strikes and knocks back 10ft on hit."
+										],
+										[
+											"Phone-a-Friend Scrying Bones",
+											"500",
+											"Once per day, can be used to ask a yes, no, or maybe question to the fates (DM). There are three bones carved into people with happy faces and sad faces. All happy faces means yes, all sad faces mean no, anything in between means maybe. The DM can respond or choose not to answer."
+										],
+										[
+											"Plastic Sheriff Badge",
+											"500",
+											"Adds +3 to Deception checks when impersonating a person of authority."
+										],
+										[
+											"Pocket Spa",
+											"1,000",
+											"A pocket-sized tent that inflates to normal size upon use (four people can fit within). Short rests taken within will grant an extra {@dice 1d8} HP."
+										],
+										[
+											"Pocket Workshop",
+											"1,200",
+											"From the makers of the Pocket Spa, comes the Pocket Workshop. A top-of-the-line Craftsman woodworking shop concealed within a battered red toolbox. When opened, the toolbox reveals a descending staircase that leads to a pocket dimension containing your deluxe Craftsman workshop. Your workshop is well-lit, properly ventilated, and equipped with saws, planes, lathes, and dozens of hand tools. Everything you need to make your project a success. The workshop is always stocked with the highest quality wood from across the realms, as well as nutritious snacks and refreshments."
+										],
+										[
+											"Ring of Channel Changing'",
+											"1,000",
+											"The wearer of the ring ({@i cough A PALADIN cough}) can activate it to change their Channel Divity ability to that of any other paladin oath, once a day."
+										],
+										[
+											"Rickle Axager's Pocket Guide to Adventuring (3rd Edition)",
+											"900",
+											"Once per day, you can read a section on an associated skill check. For the next 24 hours, you have advantage on that skill check. Sections can also be read aloud to give an advantage to another party member."
+										],
+										[
+											"Ring of Pointing",
+											"200",
+											"Copper ring with an inlaid ruby that shoots a laser out. It can be used as a distraction or to highlight salient information during business presentations."
+										],
+										[
+											"Ring of Recall",
+											"1,300",
+											"This ring has 3 charges per day which can be spent to recover the slot used on a failed spell. A 3rd level spell costs 3 charges, 2nd level costs 2, and 1st level costs 1."
+										],
+										[
+											"Ring of \"I Would Like to Rage\"",
+											"1,000",
+											"The wearer of this ring ({@i cough A BARBARIAN cough}) regains an expended rage slot once a day.  But they have to politely say \"I would like to rage.\" for it to take effect."
+										],
+										[
+											"Ring of \"Yes We Can-trip\"",
+											"1,000",
+											"The wearer of this ring can perform any cantrip on their class's spell list, even ones they don't know. That's right, any. BUT, they have to announce \"YES WE CAN-TRIP\" in order for their cantrip to succeed."
+										],
+										[
+											"Rusted Can of Cheerwine",
+											"400",
+											"Has seen some shit, but seems to be radiating with vital energies. Grants +5 to Max HP. Brewed in beautiful Atlanta, Georgia. Probably. I don't know. I'm making that up."
+										],
+										[
+											"Scuttlebuddy",
+											"500",
+											"A mechanical beetle you can use as a spy. An earpiece included to listen in from up to 100ft away. Cannot collect items or interact with environment. It's very fragile; it can be broken easily if discovered and breaks after four total uses."
+										],
+										[
+											"Shield of Heroic Memories",
+											"1,200",
+											"This perfectly round silver shield initially has a mirror finish. As a hero takes it into battle, it remembers the enemies encountered, gaining a +1 AC on any subsequent battle with creatures of that type. The events of the battle are intricately engraved onto the shield's surface (which has a seemingly endless capacity for detail). The bearer of the shield may also attempt to recount past battles (real or imagined) to the shield. Upon a DC 10 Charisma check (real) or DC 15 Deception check (imagined), the shield confers a +1 AC against the creatures described in the tall tales. Three failed attempts at recounting stories cause the shield to be cleared of all of its memories; the engravings disappear, it reverts to its mirror finish, and all bonuses are lost."
+										],
+										[
+											"Slicer of T'pire Weir Isles",
+											"900",
+											"This item is useless, but with a good enough sales pitch (Persuasion check), you can convince anyone of its value and get them to trade you their most valuable possession for it."
+										],
+										[
+											"Stones of Farspeech",
+											"200",
+											"Walkie talkies, basically. Range of five miles. 200 gp each."
+										],
+										[
+											"Strongmouse's Laughing Amulet",
+											"1,200",
+											"Traditionally worn by high priests of the boisterous and jovial smiling god, the amulet carries the stylised image of a human face, mouth open in laughter. Whenever a foe is defeated, the wearer may activate the amulet by tapping it twice and then delivering the best taunting joke or victorious one-liner applicable to the current situation. If the jest pleases Strongmouse (DM), he rewards the adventurer by recharging up to {@dice 1d10}+CON HP. But Strongmouse is a fickle God; jokes that fail are punished with a small bolt of lightning, dealing {@dice 1d6} Lightning Damage per failure."
+										],
+										[
+											"Tankard of Potent Drink",
+											"300",
+											"Makes alcoholic drinks more potent; but, if you drink water from it, you immediately become sober."
+										],
+										[
+											"Tarantula Bracelet",
+											"800",
+											"Once per day, this bracelet bestows \"{@spell Spider Climb}\" on the wearer for 10 minutes and renders their movement while climbing completely silent and gives them advantage on Stealth checks. I want to be explicitly clear: there's no web slinging. YOU WILL SLING NO WEBS. But you will climb, and slime, just like a spider can."
+										],
+										[
+											"Throwing Shield",
+											"900",
+											"Confers the same AC bonus as a regular shield, and can be used as a thrown weapon. Can travel IN A STRAIGHT LINE up to 30ft, and deals {@dice 1d8}+STR Damage. IT DOESN'T COME BACK TO YOU AFTERWARDS. AND DON'T TRY TO RICOCHET THIS SHIT."
+										],
+										[
+											"Tim Tebow's Ring",
+											"300",
+											"When worn, anything you can pick up and fit in your hand you can throw in a perfect spiral pass up to 100 yards."
+										],
+										[
+											"Unlimited Pasta Pass",
+											"150",
+											"Can be used at any participating Olive Garden for free unlimited pasta for the owner of the pass and free soft drinks for their guests."
+										],
+										[
+											"Virtuoso's Mask",
+											"1,100",
+											"Allows you to cast \"{@spell Disguise Self}\" as a Cantrip instead of a 1st Level Spell."
+										],
+										[
+											"Wand of Switcheroo",
+											"1,300",
+											"When pointed at a creature of similar size within 100ft, the holder will switch places with that target, if it is willing. If it is unwilling, it must succeed on a DC 17 Constitution save to resist. One charge per long rest."
+										],
+										[
+											"Wordonomicon",
+											"400",
+											"A dictionary with three blank spaces that can be filled in to magically create words that will instantly be assimilated into the common tongue as if they always existed.  After 3 uses, the Wordonomicon is full and can't be used again."
+										]
+									]
+								}
+							]
+                        },
+						{
+							"type": "entries",
+							"name": "Making Deals for \"Precious Things\"",
+							"page": 5,
+							"id": "441",
+							"entries": [
+								"If adventures haven't the coin, Garfield is willing to accept other forms of payment, from favors to XP.  Below are some suggested \"precious things\" the heroes may be willing to part with, and their suggested value to Garfield. Tip: create a character sheet for Garfield and literally add anything the players give to his stats. You can even let this drive the demand for certain offerings, for ex: if he's already maxed out his CHA score, he's not interested in any CHA points in trade.",
+								"Note that while Garfield will accept these precious things as payment, he'll never give them back. The only thing he will offer as payment for items the players want to sell him is good old fashioned gold pieces. Remember, as with most merchants, Garfield will only offer to buy an item for half its value (gotta make a profit, am I right?).",
+								{
+									"type": "table",
+									"name": "Suggested Values of \"Precious Things\"",
+									"colLabels": [
+										"Precious Thing",
+										"Character Stat",
+										"Approx. Value in gp"
+									],
+									"colStyles": [
+										"col-2",
+										"col-6",
+										"col-4"
+									],
+									"rows": [
+										[
+											"Experience",
+											"50 XP",
+											"50 gp"
+										],
+										[
+											"Life Blood",
+											"1 Permanent Pt. of Max HP",
+											"100 gp"
+										],
+										[
+											"Trade Skill",
+											"1 Language or Tool Proficiency",
+											"100 gp"
+										],
+										[
+											"Talent",
+											"1 Skill Proficiency, ex: Stealth",
+											"1000 gp"
+										],
+										[
+											"Ability",
+											"1 Ability Point",
+											"2000 gp"
+										],
+										[
+											"Special Favor",
+											"At a point in time of Garfield's choosing (make it during combat or an important social encounter), the character will be transported into a pocket dimension to perform a task for Garfield. When they have completed it, they are returned. It could be as simple as \"chop this wood\", or \"solve this riddle\", or more complex or grim such as \"you must betray your ally in combat\"\u2014totally up to the DM's creativity.",
+											"Negotiable"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Conclusion",
+							"page": 5,
+							"id": "442",
+							"entries": [
+								"When the party is ready to depart, if they haven't purchased a \"Costco Comb of Come Back Any Time\", Garfield offers them a one-time-use \"silly ring\" which, when blown into, creates a silly siren noise as it transports them back to Fantasy Costco. The ring then disintegrates.",
+								"Before he casts the teleport spell to whisk them back to their realm, he also subtly reminds them that time flows a bit differently here, and there's no guarantee how much time will have passed when they return."
+							]
+						}
                     ]
                 }
 			]
