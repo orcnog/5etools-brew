@@ -1666,6 +1666,7 @@
 						"Resolving the Old Man's Quest",
 						"What's for Sale?",
 						"Making Deals for \"Precious Things\"",
+						"Special Favors for Garfield",
 						"Conclusion"
 					]
 				}
@@ -1707,7 +1708,7 @@
 							"id": "007",
 							"entries": [
 								"The goal of this side quest is to present your characters with a fun distraction from their possibly violent campaigning. The Witchlight Carnival is in town, and your characters have a day (or two) to kill, so why not buy a ticket and play some carnival games? The reward for completing enough of the objectives throughout the carnival is a chance for the adventurers to visit a fantastical magic shop, stocked with all manner of spell scrolls and magic items that may help the adventurers on their quests.",
-        						"To enter the Fantasy Costco, the characters must first visit the carnival, which travels across the Material Plane and appears on the characters' world once every eight years. The carnival owners are a pair of shadar-kai (elves native to the Shadowfell) named {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC}, who can help or hinder the characters' efforts to reach Fantasy Costco."
+        						"To enter the {@area Fantasy Costco|437|x}, the characters must first visit the carnival, which travels across the Material Plane and appears on the characters' world once every eight years. The carnival owners are a pair of shadar-kai (elves native to the Shadowfell) named {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC}, who can help or hinder the characters' efforts to reach {@area Fantasy Costco|437|x}."
 							]
 						},
 						{
@@ -1786,7 +1787,7 @@
 									"page": 2,
 									"id": "054",
 									"entries": [
-										"In this preamble, an aging treasure hunter named Madryck Roslof tells the characters about a fantastical magic shop called Fantasy Costco, which exists only in a pocket dimension and can only be reached by finding and using a portal in the carnival. Madryck says that he stumbled upon it years ago and bartered for a magic item which he's now lost. He impores the characters to journey to this pocket dimension and try to buy back some of what he barted away: years of his now dwindling life.",
+										"In this preamble, an aging treasure hunter named Madryck Roslof tells the characters about a fantastical magic shop called {@area Fantasy Costco|437|x}, which exists only in a pocket dimension and can only be reached by finding and using a portal in the carnival. Madryck says that he stumbled upon it years ago and bartered for a magic item which he's now lost. He impores the characters to journey to this pocket dimension and try to buy back some of what he barted away: years of his now dwindling life.",
 										"If you like, you can replace Madryck Roslof with a different NPC who better suits your campaign, such as Reidoth, the druid. Whether Madryck or someone else gives the quest, the characters must enter the carnival and charm their way into the good graces of the carnival owners, {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC} to be invited to use the portal, or investigate and unravel clues in order to discover the secret portal themselves.",
 										
 										{
@@ -1801,10 +1802,10 @@
 													"id": "057",
 													"entries": [
 														"You have been summoned to the abode of a renounced treasure hunter named Madryck Roslof. His adventuring days are behind him, and he looks quite old and frail. Nevertheless, he is delighted, or maybe relieved to make your acquaintance.",
-														"\"I've acquired many treasures during my lengthy adventuring career,\" says Madryck. \"but none as marvelous as the one I accquired from a legendary magic shop. This shop, whose name I shall not utter, is not easily found, and its wares do not come cheap.  For I was only able to acquire my prize by bartering for it. The item was tarnished brass framed spectacle, unassuming in appearance, but it granted the wearer the ability to find what they were looking for, be it lost items, clues, or even hidden treasures. The asking price was well beyond my means, so I struck a deal: in exchange for this ring, I traded 38 years of my life. At the budding young age of 20, it seemed like a fair deal at the time. But now look at me. Nearing death. I look and feel all of 90, when I'm actually in my 50's. I gambled away my twilight years for a parlor trick trinket that I've now... [sigh]... lost.  Yes, it's true.  It was a magic item that literally finds other items, making it the only object in my posession that I could {@i possibly lose}... Oh the terrible irony.  And now I am left with such regret over my foolish trade, I cannot stand it.\"",
-														"Madryck looks up at you with aged, sagging eyes. \"Please. I implore you to return to the magic shop and try to buy back some of my years. Take this and try to sell it to the shop keeper in exchange for as many years of my life as he'll trade for it. It's not much but since losing my spectacle, I've slowly had to sell off my treasures, and this ring is now all I have to trade.\" Madryck extends a shaky arm and opens his hand to reveal a small wooden ring. \"It is imbued with the magical gift of animal kinship. The wearer can speak with birds and beasts, and gains influence over them when needed.\" He forces a smile, \"In the right hands it really could be quite powerful!\" he says enthusiastically, doing his best to promote the ring's worth. \"Please convince the shop keep of its considerable value.\"",
-														"\"Know that this magic shop is not simple to find. It exists in a pocket dimension between planes, and can only be accessed one way: Every eight years, our world is visited by a traveling extravaganza called the Witchlight Carnival, and hidden somewhere in the carnival is a doorway to the magic shop. The exact location of this portal changes constantly, but rest assured that {@i someone} always knows where it is.  The Carnival has recently returned to this world and is camped closeby, just outside of Phandalin. I'm asking you now because the carnival might pack up and leave at any time, and it contains your only route to the dimensional crossing where you'll find the magic shop, whose terrible name I fear to utter aloud.",
-														"\"Seek out the portal. Take my ring to the shop keep. Buy me back some of my precious years.\""
+														"\"I've acquired many treasures during my lengthy adventuring career,\" says Madryck. \"but none as marvelous as the one I accquired from a legendary magic merchant. His magic shop, whose name I shall not utter, is not easily found, and his wares do not come cheap.  For I was only able to acquire my prize by bartering for it. The item was tarnished brass framed spectacle, unassuming in appearance, but it granted the wearer the ability to find what they were looking for, be it lost items, clues, or even hidden treasures. The asking price was well beyond my means, so I struck a deal: in exchange for this ring, I traded 38 years of my life. At the budding young age of 20, it seemed like a fair deal at the time. But now look at me. Nearing death. I look and feel all of 90, when I'm actually in my 50's. I gambled away my twilight years for a parlor trick trinket that I've now... [sigh]... lost.  Yes, it's true.  It was a magic item that literally finds other items, making it the only object in my posession that I could {@i possibly lose}... Oh the terrible irony.  And now I am left with such regret over my foolish trade, I cannot stand it.\"",
+														"Madryck looks up at you with aged, sagging eyes. \"Please. I implore you to return to the magic shop and try to buy back some of my years. Take this and try to sell it to the shop keeper in exchange for as many years of my life as he'll trade back. It's not much but since losing my spectacle, I've slowly had to sell off my treasures, and this ring is now all I have to trade.\" Madryck extends a shaky arm and opens his hand to reveal a small wooden ring. \"It is imbued with the magical gift of animal kinship. The wearer can speak with birds and beasts, and gains influence over them when needed.\" He forces a smile, \"In the right hands it really could be quite powerful!\" he says enthusiastically, doing his best to promote the ring's worth. \"Please convince the shop keep of its considerable value.\"",
+														"\"Know that this merchant is not simple to find. It exists in a pocket dimension between planes, and can only be accessed one way: Every eight years, our world is visited by a traveling extravaganza called the Witchlight Carnival, and hidden somewhere in the carnival is a doorway to the magic shop. The exact location of this portal changes constantly, but rest assured that {@i someone} always knows where it is.  The Carnival has recently returned to this world and is camped closeby, just outside of Phandalin. I'm asking you now because the carnival might pack up and leave at any time, and it contains your only route to the dimensional crossing where you'll find the magic shop, the shop whose terrible name I fear to utter aloud!\"",
+														"\"Seek out the portal. Take my ring to the merchant. Buy me back some of my precious years.\""
 													]
 												},
 												{
@@ -1826,7 +1827,7 @@
 														"{@b Who should they talk to?} Currying the favor of the carnival owners is adviseable, though it's not a guaranteed that even they know of the portal's existance or location.",
 														"{@b How does \"buying back years\" work? How do they know if it's successful?} If his theory is right, the shop keeper's word is all they need. That's all it took last time, at least.",
 														"{@b What's the shop keeper's name?} He has gone by many names. There are those who call him Garfield the Deals Warlock",
-														"{@b What's the name of this magic shop?} A DC 15 Charisma ({@skill Persuasion}) check convinces Madryck to reluctantly utter the name: \"Fantasy Costco\"."
+														"{@b What's the name of this magic shop?} A DC 15 Charisma ({@skill Persuasion}) check convinces Madryck to reluctantly whisper the name: \"{@area Fantasy Costco|437|x}\"."
 													]
 												}
 											]
@@ -1852,8 +1853,8 @@
 					"page": 4,
 					"id": "060",
 					"entries": [
-						"The Witchlight Carnival is a fairground of kaleidoscopic tents and wagons crewed by wondrous beings, including many denizens of the Feywild. This is no ordinary carnival; it uses magic to travel from world to world across the Material Plane, visiting each world once every eight years and setting up business on the outskirts of populated areas. The carnival spends a few days at each location, then packs up and moves to another location on the same world until the decision is made to leave that world and visit the next. The carnival includes a dimensional crossing, allowing travel to the magic shop known as Fantasy Costco.",
-						"The characters are free to explore the carnival as they please. There are many paths through this chapter, so it can play out differently each time you run it.",
+						"The Witchlight Carnival is a fairground of kaleidoscopic tents and wagons crewed by wondrous beings, including many denizens of the Feywild. This is no ordinary carnival; it uses magic to travel from world to world across the Material Plane, visiting each world once every eight years and setting up business on the outskirts of populated areas. The carnival spends a few days at each location, then packs up and moves to another location on the same world until the decision is made to leave that world and visit the next. The carnival includes a dimensional crossing, allowing travel to the magic shop known as {@area Fantasy Costco|437|x}.",
+						"The characters are free to explore the carnival as they please, so it can play out differently each time you run it.",
 						{
 							"type": "image",
 							"href": {
@@ -2661,7 +2662,7 @@
 													]
 												},
 												"Entering the tent costs 1 ticket punch.",
-												"The veil between the Material Plane and the Feywild is thinnest inside this hall of magical mirrors, and the door to the Fantasy Costco pocket dimension lies deep within. Thieves from The Hourglass Coven slip in and out of the tent as they desire, and most of the carnival staff prefer to give the attraction a wide berth, believing it to be jinxed or haunted."
+												"The veil between the Material Plane and the Feywild is thinnest inside this hall of magical mirrors, and the door to the {@area Fantasy Costco|437|x} pocket dimension lies deep within. Thieves from The Hourglass Coven slip in and out of the tent as they desire, and most of the carnival staff prefer to give the attraction a wide berth, believing it to be jinxed or haunted."
 											]
 										},
 										{
@@ -3633,7 +3634,7 @@
 												{
 													"type": "insetReadaloud",
 													"entries": [
-														"As the show comes to close, a dozen Faerie Dragons with bright streamers tied to their tails perform dazzling acts of synchronized flying as a troupe of acrobats, clowns, and firebreathers parade about. The slender, colourful Mr Light brandishes his scepter high above his head and invites anyone from the audience on stage to perform for the crowd. As he does, several giggling children run up immediately and start dancing and falling over."
+														"As the show comes to close, a dozen Faerie Dragons with bright streamers tied to their tails perform dazzling acts of synchronized flying as a troupe of acrobats, clowns, and firebreathers parade about. The slender, colourful {@creature Mister Light|orcnogTWC|Mr. Light} brandishes his scepter high above his head and invites anyone from the audience on stage to perform for the crowd. As he does, several giggling children run up immediately and start dancing and falling over."
 													]
 												},
 												"If {@creature Kester the Kenku|orcnogTWC|Kester} is still at large in the carnival, he can attempt to sabotage the party's performance, which otherwise plays out as written in the adventure:",
@@ -3673,7 +3674,7 @@
 											"page": 54,
 											"id": "0f3",
 											"entries": [
-												"Keep note of each time the party has done something to increase the mood of the carnival, such as rescuing the Dwarf on the Dragonfly Rides, saving Rubin from the Hall of Illusions, or participating in the Snail Race. In Mr Light's speech, he will touch on all the things they have done during their night at the carnival, displaying a seemingly omniscient knowledge of the actions the party has taken! Then, he will activate his Witchlight Vane to select the Monarch.",
+												"Keep note of each time the party has done something to increase the mood of the carnival, such as rescuing the Dwarf on the Dragonfly Rides, saving Rubin from the Hall of Illusions, or participating in the Snail Race. In {@creature Mister Light|orcnogTWC|Mr. Light}'s speech, he will touch on all the things they have done during their night at the carnival, displaying a seemingly omniscient knowledge of the actions the party has taken! Then, he will activate his Witchlight Vane to select the Monarch.",
 												"{@creature Mister Light|orcnogTWC}'s {@item Witchlight vane|orcnogTWC} selects the monarch from the carnival's guests, spinning a thread of golden light that winds its way to the chosen reveler. If the mood of the carnival is positive, choose the character who improved the carnival's mood the most, or ask the players to agree on which of their characters should be crowned. If it's not appropriate for any of the characters to be crowned monarch, then a jubilant halfling bedecked in flowers is selected from the crowd. {@creature Mister Light|orcnogTWC} exudes cheerfulness and follows through with the ceremony regardless of who is chosen.",
 												"At the end of the celebration, as the carnival begins to wind down, the ceremonial crown teleports back into its hatbox. Candlefoot returns the hatbox to the Staff Area, handing it off to Thaco the clown, who stashes it in the wagon belonging to {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC}."
 											]
@@ -3764,7 +3765,7 @@
 											"id": "0f9",
 											"entries": [
 												"As Witch and Light move through the Hall of Illusions, their reflections in the mirrors show them as gloomy shadar-kai children, with your own youthful reflections following behind. Soon, they call you to a halt. The mirrors now reflect everyone's true age.",
-												"{@creature Mister Witch|orcnogTWC} addresses you. \"Everything you seek and more lies beyond this mirror. If you mean to step through, then stand in front of the glass and repeat this rhyme: Fantasy Costco, where all your dreams come true. We got a deal for you!\"",
+												"{@creature Mister Witch|orcnogTWC} addresses you. \"Everything you seek and more lies beyond this mirror. If you mean to step through, then stand in front of the glass and repeat this rhyme: {@area Fantasy Costco|437|x}, where all your dreams come true. We got a deal for you!\"",
 												"{@creature Mister Light|orcnogTWC} adds in a hushed tone, \"I must warn you. The deals... they're insane!\""
 											]
 										},
@@ -3772,8 +3773,8 @@
 										{
 											"type": "list",
 											"items": [
-												"The pocket dimension beyond the mirror is called Fantasy Costco, wherein dwells the store owner, Garfield the Deals Warlock, who loves nothing more than to make a deal.",
-												"Time flows differently and unpredictably in Fantasy Costco. When the heros come back to this plane of existence, they may find that several days or only seconds have passed.",
+												"The pocket dimension beyond the mirror is called {@area Fantasy Costco|437|x}, wherein dwells the store owner, Garfield the Deals Warlock, who loves nothing more than to make a deal.",
+												"Time flows differently and unpredictably in {@area Fantasy Costco|437|x}. When the heros come back to this plane of existence, they may find that several days or only seconds have passed.",
 												"When the heros leave Fantasy Costo through the same portal they entered in, they'll no longer be at the carnival; it will deposit them back into their beds at the last location they long rested.",
 												"If they are questioned about conversations that were overheard (see \"{@area Witch and Light's Wagon|0d8|x}\" above and \"{@area Catching Kester|0e7|x}\" below), Witch and Light admit they're not the carnival's original owners and took over management through an honest pact with the owner of another carnival.",
 												"If asked about Kester, Witch and Light say he's \"a troublemaker from a competing carnival who just wants to stir up chaos and ruin everyone's fun."
@@ -3799,11 +3800,11 @@
 														"type": "internal",
 														"path": "adventure/WBtW/034-01-018.the-feywild-awaits.png"
 													},
-													"title": "Fantasy Costco awaits!",
+													"title": "{@area Fantasy Costco|437|x} awaits!",
 													"width": 1700,
 													"height": 1117
 												},
-												"Any creature that touches the surface of the misty mirror is pulled through it and deposited in Fantasy Costco. If a character tries to take either the {@item Witchlight watch|orcnogTWC} or the {@item Witchlight vane|orcnogTWC} through the mirror, the item drops to the floor as the character crosses the threshold. Neither item can be taken into the pocket dimension.",
+												"Any creature that touches the surface of the misty mirror is pulled through it and deposited in {@area Fantasy Costco|437|x}. If a character tries to take either the {@item Witchlight watch|orcnogTWC} or the {@item Witchlight vane|orcnogTWC} through the mirror, the item drops to the floor as the character crosses the threshold. Neither item can be taken into the pocket dimension.",
 												"If {@creature Mister Witch|orcnogTWC} and {@creature Mister Light|orcnogTWC} are both present, they wait until only one character remains and then impart the following information to that character:",
 												{
 													"type": "insetReadaloud",
@@ -3811,8 +3812,7 @@
 													"entries": [
 														"Give your player some prophetic guidance in their larger campaign quest here. Such as \"when the time is right, follow the white rabbit\"."
 													]
-												},
-												"Proceed with {@adventure chapter 2|WBtW|2} once the characters pass through the magic mirror."
+												}
 											]
 										}
 									]
@@ -3833,7 +3833,34 @@
                             "page": 5,
                             "id": "438",
                             "entries": [
-                                "Garfield the Deals Warlock is the sales associate at the Fantasy Costco and handles all of the buying and selling. If a customer does not have the money to pay for an item, Garfield will still accept payment in body parts and fluids. He's also been known to trade for other precious things... memories, years of one's life, talents, favors, etc.  But of particular note to adventurers is his willingness to accept XP and other stats as payment in place of gold pieces.  He appears to be the only person that works there."
+                                "Garfield the Deals Warlock is the sales associate at the Fantasy Costco and handles all of the buying and selling. If a customer does not have the money to pay for an item, Garfield will still accept payment in body parts and fluids. He's also been known to trade for other precious things... memories, years of one's life, talents, favors, etc.  But of particular note to adventurers is his willingness to accept XP and other stats as payment in place of gold pieces.  He appears to be the only person that works there.",
+                                "Read the following aloud after the party steps through the portal:",
+                                {
+                                    "type": "insetReadaloud",
+                                    "page": 5,
+                                    "entries": [
+                                        "Leaving the crisp night air of the carnival, your face is greeted with a flood of warmth and the smell of inscense. The sudden temperature change makes you want to shed a layer or two. As you step out of the swirling vortex, it shrinks behind you with a shlurping sound like the last few drops of a milkshake being sucked up through a straw. Upon immediate entry, you can see a series of ever-burning candles in sconces adorning the walls, each one burning a slightly different color, all of them flickering like there's wind when there's none.  Inside the chamber you can see shelves that have several small trinkets laid out, including a jar of buzzing bees, various rings, a bedazzled comb with the \"Kirkland\" brand name stamped on it, and high atop one shelf, a long blade that seems to ooze a black ichor. It looks simultaneously powerful and hideous. In the back behind a desk there appear to be more shelves with books and books and more books. You see only one figure in the room, standing behind the desk, who turns around to make your appearance. You see a large, seven-foot tall humanoid figure. Short, smooth, fine orange fur puffs up a little bit as his eyes meet yours. You can now see he's holding a cat-like critter with wings, stroking it's head as it purs. The figure's physicality is slightly hunched and there's just a big ol' smile on the face.",
+                                        "New customers, fantastic! Greetings and welcome to Fantasy Costco, where all your dreams come true! Have we got a deal for YOU! My name is Garfield the Deals Warlock! And you must be very special indeed to have found my magic shop! How may I help you today?"
+                                    ]
+                                },
+                                "Garfield is happy to converse with the party. He is wise, witty, and cunning. If the heroes inquire about any of the following, here's what Garfield knows (or is willing to tell them):",
+                                {
+                                    "type": "list",
+                                    "items": [
+                                        "{@b Where {@i are} we exactly?}: In a pocket dimension between worlds! Like a moon orbits a planet, we're kind of \"orbiting\" the Feywild right now.",
+                                        "{@b Do you live here?}: Sure do! I never venture outside my realm these days.",
+                                        "{@b Why did you set up shop in a pocket dimension?}: Security mainly. Pretty hard to steal from a place you can't find. And I've got plenty worth stealing.",
+                                        "{@b Who else works here?}: Just me! And little Pocket here.",
+                                        "{@b What is this creature called?}: Oh, Pocket?  She's a tressym from the northern city of Everlund. Adorable little kitty isn't she?",
+                                        "{@b So, is there a {@i Mrs.} Garfield the Deals Warlock?}: Married to my work, you might say!  Although Pocket here bosses me around enough that I may as well be {@i pussy-whipped}! [chuckles cheesily]",
+                                        "{@b How do you know the carnival owners?}: Oh we go way back!  I myself used to be a Witchlight Hand (one of the carnival workers).  I mean once I started really dealing in powerful items, I had to limit admittence to my shop. {@creature Mister Witch|orcnogTWC|Mr. Witch} and {@creature Mister Light|orcnogTWC|Mr. Light} offered me a reliable way to do so.  Isn't it a fun way to screen my customers?!",
+                                        "{@b Can we buy back any years of Madryck Roslof's life?}: See: {@area Resolving the Old Man's Quest|439|x} below.",
+                                        "{@b Okay, I hear you like to make deals? What's the most unusual deal you've made?}: Oh quite, yes! Only the very rich could afford most of my wares. But I do so love to take other forms of payment! The most interesting deal would have to be that one very charming young lad who offered to buy one of {@footnote my trinkets|If they must know, the trinket was an alchemy jug. Yeah the young man was a BIG fan of mayonaisse. Pretty gross.} with what he called \"his very Charisma\". He's a surly grump of a hermit these days, while I'm quite enjoying using his charasmatic talents as my own!",
+                                        "{@b Can we BUY stats? Like XP?}: Hell to the nah.  Garfield collects them for himself.  He does not sell them!",
+                                        "{@b Here's our quest... Will you come fight with us?}: Hmm, I think not! If I joined every adventuring band of heroes that tried to recruit me, I wouldn't be around long. Nope, Garfield intends to stay put, make a profit, and keep collecting my marvelous trasures.",
+                                        "{@b What are you planning to do with all this stuff, if not use it?}: Oh the baubles and trinkets of my shop may not be of much use to me here in my little pocket realm, but it's a means to acquire more precious things. I've scraped together enough years of life from destitute customers, for instance, that I shall live for hundreds more years before I even need to think about bargaining for more."
+                                    ]
+                                }
                             ]
                         },
 						{
@@ -3903,7 +3930,7 @@
 										[
 											"Costco Comb of Come Back Any Time",
 											"100",
-											"For the low low price of 100 gp, this comb could be yours! Swipe it through your hair and you and any adjacent willing creatures will be magically transported back to the Fantasy Costco pocket dimension."
+											"For the low low price of 100 gp, this comb could be yours! Swipe it through your hair and you and any adjacent willing creatures will be magically transported back to the {@area Fantasy Costco|437|x} pocket dimension."
 										],
 										[
 											"Diadem of Fabulous Truthiness",
@@ -3928,7 +3955,7 @@
 										[
 											"Glutton's Fork",
 											"750",
-											"Once a day this fork will allow the user to eat any non-magical item they can fit in their mouth and gain {@dice 2d6} HP. Just tap the fork on the item and it will turn edible. Once eaten, a transformed item is *gone forever*. Probably."
+											"Once a day this fork will allow the user to eat any non-magical item they can fit in their mouth and gain {@dice 2d6} HP. Just tap the fork on the item and it will turn edible. Once eaten, a transformed item is {@i gone forever}. Probably."
 										],
 										[
 											"Grappling Hook",
@@ -4078,7 +4105,7 @@
 										[
 											"Tarantula Bracelet",
 											"800",
-											"Once per day, this bracelet bestows \"{@spell Spider Climb}\" on the wearer for 10 minutes and renders their movement while climbing completely silent and gives them advantage on Stealth checks. I want to be explicitly clear: there's no web slinging. YOU WILL SLING NO WEBS. But you will climb, and slime, just like a spider can."
+											"Once per day, this bracelet bestows \"{@spell Spider Climb}\" on the wearer for 10 minutes and renders their movement while climbing completely silent, giving them advantage on Stealth checks. I want to be explicitly clear: there's no web slinging. YOU WILL SLING NO WEBS. But you will climb, and slime, just like a spider can."
 										],
 										[
 											"Throwing Shield",
@@ -4120,15 +4147,14 @@
 							"page": 5,
 							"id": "441",
 							"entries": [
-								"If adventures haven't the coin, Garfield is willing to accept other forms of payment, from favors to XP.  Below are some suggested \"precious things\" the heroes may be willing to part with, and their suggested value to Garfield. Tip: create a character sheet for Garfield and literally add anything the players give to his stats. You can even let this drive the demand for certain offerings, for ex: if he's already maxed out his CHA score, he's not interested in any CHA points in trade.",
-								"Note that while Garfield will accept these precious things as payment, he'll never give them back. The only thing he will offer as payment for items the players want to sell him is good old fashioned gold pieces. Remember, as with most merchants, Garfield will only offer to buy an item for half its value (gotta make a profit, am I right?).",
+								"If adventures haven't the coin, Garfield is willing to accept other forms of payment, from favors to XP.  Below are some suggested \"precious things\" the heroes may be willing to part with, and their suggested value to Garfield.",
 								{
 									"type": "table",
 									"name": "Suggested Values of \"Precious Things\"",
 									"colLabels": [
 										"Precious Thing",
 										"Character Stat",
-										"Approx. Value in gp"
+										"Garfield's Offer"
 									],
 									"colStyles": [
 										"col-2",
@@ -4137,8 +4163,8 @@
 									],
 									"rows": [
 										[
-											"Experience",
-											"50 XP",
+											"Memories/Experience",
+											"50 XP (minimum)",
 											"50 gp"
 										],
 										[
@@ -4152,31 +4178,49 @@
 											"100 gp"
 										],
 										[
-											"Talent",
+											"Natural Talent",
 											"1 Skill Proficiency, ex: Stealth",
 											"1000 gp"
 										],
 										[
 											"Ability",
-											"1 Ability Point",
+											"1 Ability Point (ability cannot be reduced below 10)",
 											"2000 gp"
 										],
 										[
+											"Unique Skill",
+											"1 Feat",
+											"4000 gp"
+										],
+										[
 											"Special Favor",
-											"At a point in time of Garfield's choosing (make it during combat or an important social encounter), the character will be transported into a pocket dimension to perform a task for Garfield. When they have completed it, they are returned. It could be as simple as \"chop this wood\", or \"solve this riddle\", or more complex or grim such as \"you must betray your ally in combat\"\u2014totally up to the DM's creativity.",
+                                            "The character will be transported to a pocket dimension to perform some kind of task for Garfield at a time of his choosing. (See: \"{@area Special Favors for Garfield|442|x}\" below.)",
 											"Negotiable"
 										]
 									]
-								}
+								},
+                                "Tip: create a character sheet for Garfield and anything the players trade away, literally add it to his stats. You can (and should!) even let this drive the demand for certain offerings, for ex: if he's already maxed out his CHA score, he's not interested in any CHA points in trade.",
+								"Note that while Garfield will accept these precious things as payment, he will {@i never} give them or sell them back. The only thing he will offer as payment for players' items is good ol' fashioned gold pieces. Remember, as with most merchants, Garfield will only offer to buy an item for half its real value (gotta make a profit, am I right?)."
+							]
+						},
+                        {
+							"type": "entries",
+							"name": "Special Favors for Garfield",
+							"page": 5,
+							"id": "442",
+							"entries": [
+                                "If a character opts to enter a pact with Garfield as part of a deal, they are bound to uphold their end of the bargain: performing a special favor for Garfield at a time of his choosing.",
+                                "The favor could be as simple as \"chop this wood\", or \"solve this riddle\", or more complex and grim such as \"you must betray your ally in combat\", perhaps meaning the PC's next attack or spell must target a fellow party member. The terms of the deal are totally up to the DM's creativity, but the difficulty of the task should reflect the amount of gold bargained for. As a baseline example, the gp value of a \"chop this wood\"-level task might be 100 gp, as it would be little more than a 1 to 2 round distraction during combat and some ATH checks. But a more serious and difficult favor like \"convince this powerful mage to incinerate this small village\" might be well worth 1000 gp or more.",
+                                "Regarding the \"time of his choosing\", it should be understood that the timing will almost certainly be suboptimal for the character. The obvious choice for the DM being during combat or an important social encounter. When the PC has completed the task, they are returned. Or, if their task requires them to be transported back before completing it (such as in a \"you must attack your ally\" scenario), then some sort of punishment for failure must be imposed. Suggestion: Garfield immediately takes an amount of the character's XP equal to the value of the failed favor."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "Conclusion",
 							"page": 5,
-							"id": "442",
+							"id": "443",
 							"entries": [
-								"When the party is ready to depart, if they haven't purchased a \"Costco Comb of Come Back Any Time\", Garfield offers them a one-time-use \"silly ring\" which, when blown into, creates a silly siren noise as it transports them back to Fantasy Costco. The ring then disintegrates.",
+								"When the party is ready to depart, if they haven't purchased a \"Costco Comb of Come Back Any Time\", Garfield offers them a one-time-use \"silly ring\" which, when blown into, creates a silly kazoo-siren noise as it transports them back to {@area Fantasy Costco|437|x}. The ring then disintegrates.",
 								"Before he casts the teleport spell to whisk them back to their realm, he also subtly reminds them that time flows a bit differently here, and there's no guarantee how much time will have passed when they return."
 							]
 						}
