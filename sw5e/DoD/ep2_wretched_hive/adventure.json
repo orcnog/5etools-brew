@@ -553,7 +553,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item hide armor|PHB|hide}",
+						"hide armor",
 						"survival instinct"
 					]
 				}

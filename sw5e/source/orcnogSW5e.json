@@ -83,6 +83,19 @@
 			]
 		},
 		{
+			"name": "Slicer's Kit",
+			"source": "orcnogSW5e",
+			"page": 0,
+			"type": "T",
+			"rarity": "none",
+			"age": "futuristic",
+			"value": 8000,
+			"weight": 6,
+			"entries": [
+				"Slicer’s kits can bypass computerized defenses and locks."
+			]
+		},
+		{
 			"name": "Credit",
 			"source": "orcnogSW5e",
 			"page": 0,
@@ -92,10 +105,47 @@
 			"value": 10,
 			"entries": [
 				"Credits come in a variety of denominations: from a single chit to cards loaded with incredible value. While the Republic and Empire have their own currencies, in most worlds they can be used interchangeably.",
-                "With ten credits, a character can buy a power cell, a stylus, or a glowrod. A skilled (but not exceptional) artisan can earn ten credits a day. The credit is the standard unit of measure for wealth, even if the chit itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of credits, the transactions don’t usually involve the exchange of individual chits. Rather, the credit is a standard measure of value, and the actual exchange is in credit cards, letters of credit, or valuable goods.",
+                "With ten credits, a character can buy a power cell, a stylus, or a glowrod. A skilled (but not exceptional) artisan can earn ten credits a day. The credit is the standard unit of measure for wealth, even if the chit itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of credits, the transactions don't usually involve the exchange of individual chits. Rather, the credit is a standard measure of value, and the actual exchange is in credit cards, letters of credit, or valuable goods.",
                 "A standard chit weighs about a third of an ounce, so fifty chits weigh a pound."
 			]
-		}
+		},
+        {
+            "name": "Credit Chip",
+            "source": "orcnogSW5e",
+            "page": 0,
+            "type": "$",
+            "rarity":"none",
+            "age":"futuristic",
+            "entries": [
+                "The credit chip is a small, flat card that features a security code and algorithm memory stripes. The chip can be preloaded with a specified number of {@item Credit|orcnogSW5e|credits}, or it can draw directly from a specific account held by the user. The credit chip can be accessed with a pin, or by a DC 15 {@item slicer's kit|orcnogSW5e} check."
+            ]
+        },
+        {
+            "name": "Datapad",
+            "source": "orcnogSW5e",
+            "page": 0,
+            "type": "T",
+            "rarity": "none",
+            "age": "futuristic",
+			"value": 1000,
+			"weight": 0.5,
+            "entries": [
+                "A datapad is a small electronic device used for the input, storage and displaying of inform-ation. It features a holoprojective surface for 3D viewing."
+            ]
+        },
+        {
+            "name": "Code Cylinder",
+            "source": "orcnogSW5e",
+            "page": 0,
+            "type": "T",
+            "rarity": "none",
+            "age": "futuristic",
+			"value": 200,
+			"weight": 0.5,
+            "entries": [
+                "Code cylinders are security devices in the shape of short cylinders that contain coded information about their bearers and grant them access to secure areas."
+            ]
+        }
 	],
 	"spell":
 	[
@@ -11704,7 +11754,7 @@
 			"duration": [{
 				"type": "instant"
 			}],
-			"entries": ["<p>This power creates a perfect duplicate of any written, drawn, or digital visual, audio or text-based data that you touch onto a datapad or datacard you supply. You can copy up to 10 pages of text or 10 minutes of visual or audio data with one casting of this power. Enhanced documents, such as datacrons, blueprints, or encrypted documents, can't be copied with this power.</p>"],
+			"entries": ["<p>This power creates a perfect duplicate of any written, drawn, or digital visual, audio or text-based data that you touch onto a {@item datapad|orcnogSW5e} or datacard you supply. You can copy up to 10 pages of text or 10 minutes of visual or audio data with one casting of this power. Enhanced documents, such as datacrons, blueprints, or encrypted documents, can't be copied with this power.</p>"],
 			"damageInflict": [],
 			"savingThrow": ""
 		}, {
