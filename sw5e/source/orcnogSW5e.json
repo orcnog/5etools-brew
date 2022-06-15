@@ -33,7 +33,27 @@
 			],
 			"Mechanic's Kit": [
 				"This kit contains all of the commonly required tools to make repairs on constructs, such as ships, speeders, and turrets. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to perform repairs or install ship upgrades.",
-				"{@homebrew A DnD5e character should replace their  {@skill Tinker's Tools} skill proficiency with the Mechanic's Kit skill proficiency.}"
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b {@skill Lore|orcnogSW5e}}. Your skill allows you to more readily discern the make and model of vehicle and ship parts.",
+                        "{@b {@skill Investigation}}. Your experience lets you more readily identify aftermarket modifications in vehicles and ships.",
+                        "{@b {@skill Technology|orcnogSW5e}}. Your experience grants you greater insight when conducting repairs on ships or vehicles."
+                    ]
+                },
+				"{@homebrew A DnD5e character should replace their {@skill Tinker's Tools} skill proficiency with the Mechanic's Kit skill proficiency.}"
+			],
+			"Slicer's Kit": [
+				"A slicer's kit includes all of the necessary components to interface with and disarm digital securities.",
+                {
+                    "type": "list",
+                    "items": [
+                        "{@b {@skill Lore|orcnogSW5e}}. Your knowledge of digital securities grants you insight when answering questions about them.",
+                        "{@b {@skill Investigation}}. You gain additional insight when looking for digital securities when using computers and terminals.",
+                        "{@b {@skill Technology|orcnogSW5e}}. Your knowledge of common digital security types makes it easier for you to identify them."
+                    ]
+                },
+				"{@homebrew A DnD5e character should consider claiming proficiency with a Slicer's Kit if they have proficiency with {@skill Thieves' Tools}.}"
 			]
 		},
 		"spellSchools": {
