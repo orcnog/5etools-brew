@@ -2513,7 +2513,7 @@
 									"type": "entries",
 									"name": "Excavation Droids (2)",
 									"entries": [
-										"After the devastation of the Clone Wars, what was left of the Cato Neimoidian government decided to turn some of the Confederacy's droid production power toward rebuilding their bridge cities. One of the droids manufactured under this initiative is the TaggeCo XK-V8 Excavation Droid, produced in partnership with TaggeCo specifically for use on Cato Neimoidia. The excavation droid has climbing claws and magnetic feet that allow it to work on the top and the underside of the planet's bridge cities. The droids in this encounter have been reprogrammed to obey Raden's commands (sent with his comlink and datapad) and to ignore their usual restriction against attacking living beings.",
+										"After the devastation of the Clone Wars, what was left of the Cato Neimoidian government decided to turn some of the Confederacy's droid production power toward rebuilding their bridge cities. One of the droids manufactured under this initiative is the TaggeCo XK-V8 Excavation Droid, produced in partnership with TaggeCo specifically for use on Cato Neimoidia. The excavation droid has climbing claws and magnetic feet that allow it to work on the top and the underside of the planet's bridge cities. The droids in this encounter have been reprogrammed to obey Raden's commands (sent with his {@item commlink|orcnogSW5e} and datapad) and to ignore their usual restriction against attacking living beings.",
 										{
 											"type": "insetReadaloud",
 											"name": "",
@@ -3426,7 +3426,8 @@
 									"name": "As you make your way up the winding secret passage, the dank smell of the dungeons fades, and the acrid smell of Darga's throne room again becomes prevalent. Just as the passage turns and opens up into the massive audience chamber, you see Darga's Neimoidian majordomo bowing deeply before the holographic image of a tall man dressed in dark robes with a lightsaber hanging at his belt.",
 									"entries": [
 										"\"The Hutt has fled aboard his personal yacht,\" Demos says respectfully.",
-										"\"I am on my way now, with the Assiduous.\" the hologram of the handsome man says. \"Pray that you have not summoned the Empire on a fool's errand, for the Inquisitorius is not gentle with those who deal with Jedi.\"",												"The hologram fades, and the Neimoidian straightens slowly, looking pale."
+										"\"I am on my way now, with the Assiduous.\" the hologram of the handsome man says. \"Pray that you have not summoned the Empire on a fool's errand, for the Inquisitorius is not gentle with those who deal with Jedi.\"",
+                                        "The hologram fades, and the Neimoidian straightens slowly, looking pale."
 									]
 								},
 								"After finishing his communication with Draco, the majordomo waits in the throne room with his Trandoshan bodyguard and four Gamorrean guards. The heroes need to pass through this room if they want to leave the palace. If the heroes are spotted, Demos orders his guards to attack and attempts to stop them from leaving with {@creature Jedi Master Denia|orcnogDoDEp2|Denia}."

@@ -144,7 +144,7 @@
             "name": "Datapad",
             "source": "orcnogSW5e",
             "page": 0,
-            "type": "T",
+            "type": "G",
             "rarity": "none",
             "age": "futuristic",
 			"value": 1000,
@@ -157,13 +157,26 @@
             "name": "Code Cylinder",
             "source": "orcnogSW5e",
             "page": 0,
-            "type": "T",
+            "type": "G",
             "rarity": "none",
             "age": "futuristic",
 			"value": 200,
 			"weight": 0.5,
             "entries": [
                 "Code cylinders are security devices in the shape of short cylinders that contain coded information about their bearers and grant them access to secure areas."
+            ]
+        },
+        {
+            "name": "Commlink",
+            "source": "orcnogSW5e",
+            "page": 0,
+            "type": "G",
+            "rarity": "none",
+            "age": "futuristic",
+			"value": 500,
+			"weight": 0.5,
+            "entries": [
+                "Commlinks are standard handheld communication devices, fitted with microphones and receivers. Standard, personal commlinks have a range of up to 30 miles, but are reduced in dense, urban areas or areas of high level interference."
             ]
         }
 	],
@@ -17389,65 +17402,6 @@
 		}
 	],
 	"monster": [
-		{
-			"name": "Thug",
-			"isNpc": true,
-			"source": "orcnogSW5e",
-			"page": 0,
-			"size": [
-				"M"
-			],
-			"type": "humanoid",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"ac": [
-				{
-					"ac": 13,
-					"from": [
-						"heavy combat suit"
-					]
-				}
-			],
-			"hp": {
-				"average": 11,
-				"formula": "2d8 + 2"
-			},
-			"speed": {
-				"walk": 30
-			},
-			"str": 13,
-			"dex": 11,
-			"con": 12,
-			"int": 8,
-			"wis": 9,
-			"cha": 10,
-			"passive": 11,
-			"languages": [
-				"Galactic Basic"
-			],
-			"cr": "1/8",
-			"action": [
-				{
-					"name": "Blaster pistol",
-					"entries": [
-						"{@atk rw} {@hit 2} to hit, range 40/160 ft., one target. {@h}3 ({@damage 1d6}) energy damage. Reload 20."
-					]
-				},
-				{
-					"name": "Vibroaxe",
-					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d12 + 1}) kinetic damage."
-					]
-				}
-			],
-			"miscTags": [
-				"MW",
-				"RW",
-				"SW5e"
-			]
-		},
 		{
 			"name": "3PO Series Protocol Droid",
 			"source": "orcnogSW5e",

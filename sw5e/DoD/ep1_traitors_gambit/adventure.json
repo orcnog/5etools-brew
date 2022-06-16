@@ -4,7 +4,7 @@
 			{
 				"json": "orcnogDoDEp1",
 				"abbreviation": "DoDTTG",
-				"full": "Dawn of Defiance, Episode 1 - The Traitor's Gambit",
+				"full": "Dawn of Defiance, Episode 1: The Traitor's Gambit",
 				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/ep1_traitors_gambit/adventure.json",
 				"authors": ["Rodney Thompson"],
 				"convertedBy": [
@@ -14,7 +14,10 @@
 		],
 		"dateAdded": 1613648837,
 		"dateLastModified": 1613648837,
-		"_dateLastModifiedHash": "e5f748a123"
+		"_dateLastModifiedHash": "e5f748a123",
+		"internalCopies": [
+			"monster"
+		]
 	},
 	"monster": [
 		{
@@ -333,12 +336,71 @@
 			]
 		},
 		{
+			"name": "Thug",
+			"isNpc": false,
+			"source": "orcnogDoDEp1",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 13,
+					"from": [
+						"heavy combat suit"
+					]
+				}
+			],
+			"hp": {
+				"average": 11,
+				"formula": "2d8 + 2"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 11,
+			"con": 12,
+			"int": 8,
+			"wis": 9,
+			"cha": 10,
+			"passive": 11,
+			"languages": [
+				"Galactic Basic"
+			],
+			"cr": "1/8",
+			"action": [
+				{
+					"name": "Blaster pistol",
+					"entries": [
+						"{@atk rw} {@hit 2} to hit, range 40/160 ft., one target. {@h}3 ({@damage 1d6}) energy damage. Reload 20."
+					]
+				},
+				{
+					"name": "Vibroaxe",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d12 + 1}) kinetic damage."
+					]
+				}
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"SW5e"
+			]
+		},
+		{
 			"name": "Gamorrean Thug",
 			"source": "orcnogDoDEp1",
 			"isNamedCreature": false,
 			"_copy": {
 				"name": "Thug",
-				"source": "orcnogSW5e"
+				"source": "orcnogDoDEp1"
 			},
 			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-thug4.webp"
 		},
@@ -348,7 +410,7 @@
 			"isNamedCreature": false,
 			"_copy": {
 				"name": "Thug",
-				"source": "orcnogSW5e"
+				"source": "orcnogDoDEp1"
 			},
 			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-thug2.webp"
 		},
@@ -358,7 +420,7 @@
 			"isNamedCreature": false,
 			"_copy": {
 				"name": "Thug",
-				"source": "orcnogSW5e"
+				"source": "orcnogDoDEp1"
 			},
 			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-thug5.webp"
 		},
@@ -368,7 +430,7 @@
 			"isNamedCreature": false,
 			"_copy": {
 				"name": "Thug",
-				"source": "orcnogSW5e"
+				"source": "orcnogDoDEp1"
 			},
 			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-thug1.webp"
 		},
@@ -2233,7 +2295,7 @@
 										"The Promenade is filled with the bustle of revelry and commerce. Spilling out of the gambling halls are the sounds of victory and the moans of defeat, while the music of local bands issues from the cantinas. Only a handful of citizens mill about in the main areas of the Promenade, a few gazing out the massive windows at the planet Brentaal hovering below. Businesspeople hawk their wares to the passersby, and a few Imperial stormtroopers make their way down the main avenue of the Promenade on their usual patrol at a leisurely pace."
 									]
 								},
-								"After the heroes have had a moment to soak in the sights and sounds of the Promenade, give them each a chance to make a DC 10 {@skill Perception} check. Those who succeed on the roll notice two men loitering on the Promenade who do not appear to be part of the larger crowd. Each seems to be scanning the crowd closely as though looking for someone, though they pay no attention to the heroes. Those who succeed on the {@skill Perception} check with a roll of 15 or higher also notice that, despite wearing normal traveling clothes, each man is carrying a hold-out blaster tucked into his jacket, and both men are wearing identical garments. Those who succeed on the check with a 20 or higher also notice that both men seem to be whispering to themselves, obviously speaking into hidden comlinks.",
+								"After the heroes have had a moment to soak in the sights and sounds of the Promenade, give them each a chance to make a DC 10 {@skill Perception} check. Those who succeed on the roll notice two men loitering on the Promenade who do not appear to be part of the larger crowd. Each seems to be scanning the crowd closely as though looking for someone, though they pay no attention to the heroes. Those who succeed on the {@skill Perception} check with a roll of 15 or higher also notice that, despite wearing normal traveling clothes, each man is carrying a hold-out blaster tucked into his jacket, and both men are wearing identical garments. Those who succeed on the check with a 20 or higher also notice that both men seem to be whispering to themselves, obviously speaking into hidden {@item commlink|orcnogSW5e|commlinks}.",
 								"Within moments, a slender woman wearing the greasy clothes of a mechanic stumbles down the Promenade. Though she is trying to hide it, she has clearly been wounded somehow, and she looks disheveled. Once the heroes have had a chance to see the woman, the two men make their way toward her, and she turns and runs toward the nearest hero (or toward the heroes who are closest to one another). She pleads for assistance, offering {@item credit|orcnogSW5e|credits} to anyone who will help her. The two men give chase, and the first encounter begins.",
 								"The woman is {@creature Maya|orcnogDoDEp1}, an Alderaanian Security agent, and the men are undercover {@creature Imperial Informant|orcnogDoDEp1|informants} for the Empire."
 							]
@@ -2303,7 +2365,7 @@
 									"type": "entries",
 									"name": "Imperial Informants (2)",
 									"entries": [
-										"Recruited to report on suspicious activity on Sel Zonn Station, the {@creature Imperial Informant|orcnogDoDEp1|Imperial informants} are regular citizens who have thrown their loyalty over to the Empire. These informants don't have the same kind of training that other Imperial agents do. In fact, they are little more than eager civilians who have been given a blaster and some basic combat training. They wear plain clothes, carry hold-out blaster pistols, and keep a comlink buttoned on the inside of their collars at all times.",
+										"Recruited to report on suspicious activity on Sel Zonn Station, the {@creature Imperial Informant|orcnogDoDEp1|Imperial informants} are regular citizens who have thrown their loyalty over to the Empire. These informants don't have the same kind of training that other Imperial agents do. In fact, they are little more than eager civilians who have been given a blaster and some basic combat training. They wear plain clothes, carry hold-out blaster pistols, and keep a {@item commlink|orcnogSW5e} buttoned on the inside of their collars at all times.",
 										{
 											"type": "insetReadaloud",
 											"name": "",
@@ -2713,7 +2775,7 @@
 									"name": "Development",
 									"id": "Development 2",
 									"entries": [
-										"Once the heroes obtain the agent frozen in carbonite, it quickly becomes time to get away from the Imperial presence on Sel Zonn Station. If the heroes managed to save {@creature Maya|orcnogDoDEp1}, she awaits their call on the comlink and sends one of her allies to pick them up. A short 5 rounds after the heroes call {@creature Maya|orcnogDoDEp1} for assistance, a large Baudo-class Star Yacht named the {@i {@creature The Banshee|orcnogDoDEp1|Banshee}} drifts into the main docking bay and lowers its ramp. Over the loudspeaker, the ship's captain, a woman named {@creature Sirona O'keefe|orcnogDoDEp1}, calls out to the heroes that {@creature Maya|orcnogDoDEp1} sent her to fetch them. When the heroes all board the ship, {@creature Sirona O'Keefe|orcnogDoDEp1|Captain O'Keefe} blasts off from Sel Zonn Station and makes a quick jump to hyperspace, headed for Alderaan.",
+										"Once the heroes obtain the agent frozen in carbonite, it quickly becomes time to get away from the Imperial presence on Sel Zonn Station. If the heroes managed to save {@creature Maya|orcnogDoDEp1}, she awaits their call on the {@item commlink|orcnogSW5e} and sends one of her allies to pick them up. A short 5 rounds after the heroes call {@creature Maya|orcnogDoDEp1} for assistance, a large Baudo-class Star Yacht named the {@i {@creature The Banshee|orcnogDoDEp1|Banshee}} drifts into the main docking bay and lowers its ramp. Over the loudspeaker, the ship's captain, a woman named {@creature Sirona O'keefe|orcnogDoDEp1}, calls out to the heroes that {@creature Maya|orcnogDoDEp1} sent her to fetch them. When the heroes all board the ship, {@creature Sirona O'Keefe|orcnogDoDEp1|Captain O'Keefe} blasts off from Sel Zonn Station and makes a quick jump to hyperspace, headed for Alderaan.",
 										"If the heroes did not save {@creature Maya|orcnogDoDEp1}, you (the GM) have several options. The heroes might have met {@creature Sirona O'Keefe|orcnogDoDEp1|Captain O'Keefe} previously on the Promenade, or she might have been referred to them by {@creature Switch|orcnogDoDEp1}, who knew that they would need transport off the station. Failing that, the heroes might need to take their cargo and find a place to hide on the station until they can hire passage to Alderaan or stow away on a ship. Regardless, the heroes should take the frozen agent to Alderaan as quickly as possible.",
 										"(Note, escaping Sel Zonn station should be considered a level-up milestone.)"
 									]
@@ -3819,7 +3881,7 @@
 							"name": "Can't Get Out That Way!",
 							"id": "Can't Get Out That Way!",
 							"entries": [
-								"When the heroes have retrieved Admiral Varth (and possibly planted the explosives in the communications center), they likely make their way back to the ventilation grate they used to enter the facility. However, two developments threaten their plans. First, they come upon a disturbing sight\u2014just outside the grate, a large number of stormtroopers stand around the crumpled body of their Felucian guide, and an AT-ST stomps around the exterior of the facility. Second, {@creature Sirona O'keefe|orcnogDoDEp1|Captain O'Keefe} sends a message over the heroes' comlinks\u2014the {@i {@creature The Banshee|orcnogDoDEp1|Banshee}} is operational again, and they can leave the planet whenever they are ready. If the heroes don't remember the second floor of the facility (which they should have seen from the outside), Admiral Varth mentions that some of the Imperials he dealt with mentioned the presence of a command center on the second floor. He suggests that they make their way up there and attempt to reach the roof. From there, they can call {@creature Sirona O'keefe|orcnogDoDEp1|Captain O'Keefe} for a pickup and avoid the Imperial presence outside.",
+								"When the heroes have retrieved Admiral Varth (and possibly planted the explosives in the communications center), they likely make their way back to the ventilation grate they used to enter the facility. However, two developments threaten their plans. First, they come upon a disturbing sight\u2014just outside the grate, a large number of stormtroopers stand around the crumpled body of their Felucian guide, and an AT-ST stomps around the exterior of the facility. Second, {@creature Sirona O'keefe|orcnogDoDEp1|Captain O'Keefe} sends a message over the heroes' {@item commlink|orcnogSW5e|commlinks}\u2014the {@i {@creature The Banshee|orcnogDoDEp1|Banshee}} is operational again, and they can leave the planet whenever they are ready. If the heroes don't remember the second floor of the facility (which they should have seen from the outside), Admiral Varth mentions that some of the Imperials he dealt with mentioned the presence of a command center on the second floor. He suggests that they make their way up there and attempt to reach the roof. From there, they can call {@creature Sirona O'keefe|orcnogDoDEp1|Captain O'Keefe} for a pickup and avoid the Imperial presence outside.",
 								{
 									"type": "image",
 									"href": {
