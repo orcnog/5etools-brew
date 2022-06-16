@@ -333,63 +333,44 @@
 			]
 		},
 		{
-			"name": "Ganga Lor's Thug",
-			"isNpc": true,
+			"name": "Gamorrean Thug",
 			"source": "orcnogDoDEp1",
-			"page": 0,
-			"size": [
-				"M"
-			],
-			"type": "humanoid",
-			"alignment": [
-				"C",
-				"N"
-			],
-			"ac": [
-				{
-					"ac": 13,
-					"from": [
-						"heavy combat suit"
-					]
-				}
-			],
-			"hp": {
-				"average": 11,
-				"formula": "2d8 + 2"
+			"isNamedCreature": false,
+			"_copy": {
+				"name": "Thug",
+				"source": "orcnogSW5e"
 			},
-			"speed": {
-				"walk": 30
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-thug4.webp"
+		},
+		{
+			"name": "Switch's Thug",
+			"source": "orcnogDoDEp1",
+			"isNamedCreature": false,
+			"_copy": {
+				"name": "Thug",
+				"source": "orcnogSW5e"
 			},
-			"str": 13,
-			"dex": 11,
-			"con": 12,
-			"int": 8,
-			"wis": 9,
-			"cha": 10,
-			"passive": 11,
-			"languages": [
-				"Galactic Basic"
-			],
-			"cr": "1/8",
-			"action": [
-				{
-					"name": "Blaster pistol",
-					"entries": [
-						"{@atk rw} {@hit 2} to hit, range 40/160 ft., one target. {@h}3 ({@damage 1d6}) energy damage. Reload 20."
-					]
-				},
-				{
-					"name": "Vibroaxe",
-					"entries": [
-						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d12 + 1}) kinetic damage."
-					]
-				}
-			],
-			"miscTags": [
-				"MW",
-				"RW",
-				"SW5e"
-			]
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-thug2.webp"
+		},
+		{
+			"name": "Twi'lek Thug",
+			"source": "orcnogDoDEp1",
+			"isNamedCreature": false,
+			"_copy": {
+				"name": "Thug",
+				"source": "orcnogSW5e"
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-thug5.webp"
+		},
+		{
+			"name": "Ganga Lor's Thug",
+			"source": "orcnogDoDEp1",
+			"isNamedCreature": false,
+			"_copy": {
+				"name": "Thug",
+				"source": "orcnogSW5e"
+			},
+			"tokenUrl": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/creatures/images/monster-thug1.webp"
 		},
 		{
 			"name": "Imperial Officer",
@@ -2232,7 +2213,7 @@
 									"items": [
 										"{@i {@b Gundark's Cantina}}: Owned and operated by a gruff Human male named \"Gundark\" Saff, Gundark's Cantina is a place where people from all walks of life can come to relax. Though Gundark himself shows some anti-alien bias, he does not prevent non-Humans from patronizing his establishment. As such, it is a popular meeting place for nearly anyone on the station, and it features a large number of secluded booths for private conversations.",
 										"{@i {@b The Credit Chip}}: A local casino that attracts a wide variety of patrons, the Credit Chip is operated by a quiet and brooding Human named Cecil Vane. Vane doesn't like what the Empire has done to the station, especially since they don't take it too well when he cheats Imperial officers out of their money. The most popular games in the galaxy, including sabacc and pazaak, see a lot of play here.",
-										"{@i {@b Delgas Medical Supplies}}: A corporate medical practice and pharmaceutical supplier, Delgas Medical Supplies provides care to those who can afford it. The chief doctor in the practice is Byra Fenn, a talented Human woman with secrets to keep. Dr. Fenn has had extensive dealings with one of thestation's information brokers, a protocol droid named Switch, and she owes him several favors.",
+										"{@i {@b Delgas Medical Supplies}}: A corporate medical practice and pharmaceutical supplier, Delgas Medical Supplies provides care to those who can afford it. The chief doctor in the practice is Byra Fenn, a talented Human woman with secrets to keep. Dr. Fenn has had extensive dealings with one of thestation's information brokers, a protocol droid named {@creature Switch|orcnogDoDEp1}, and she owes him several favors.",
 										"{@i {@b Mechanical Allies}}: A droid repair and sales shop, this is one of the few businesses run by a non-Human that hasn't been hut down by the Empire. Operated by an untrustworthy wi'lek named San, Mechanical Allies sells all manner of droid parts and reconditioned droids. Despite the fact that most of his droids are faulty, San has remained in business thanks to his own savvy and his ability to buy off the Empire from time to time."
 									]
 								},
@@ -2254,7 +2235,7 @@
 								},
 								"After the heroes have had a moment to soak in the sights and sounds of the Promenade, give them each a chance to make a DC 10 {@skill Perception} check. Those who succeed on the roll notice two men loitering on the Promenade who do not appear to be part of the larger crowd. Each seems to be scanning the crowd closely as though looking for someone, though they pay no attention to the heroes. Those who succeed on the {@skill Perception} check with a roll of 15 or higher also notice that, despite wearing normal traveling clothes, each man is carrying a hold-out blaster tucked into his jacket, and both men are wearing identical garments. Those who succeed on the check with a 20 or higher also notice that both men seem to be whispering to themselves, obviously speaking into hidden comlinks.",
 								"Within moments, a slender woman wearing the greasy clothes of a mechanic stumbles down the Promenade. Though she is trying to hide it, she has clearly been wounded somehow, and she looks disheveled. Once the heroes have had a chance to see the woman, the two men make their way toward her, and she turns and runs toward the nearest hero (or toward the heroes who are closest to one another). She pleads for assistance, offering {@item credit|orcnogSW5e|credits} to anyone who will help her. The two men give chase, and the first encounter begins.",
-								"The woman is Maya, an Alderaanian Security agent, and the men are undercover informants for the Empire."
+								"The woman is {@creature Maya|orcnogDoDEp1}, an Alderaanian Security agent, and the men are undercover {@creature Imperial Informant|orcnogDoDEp1|informants} for the Empire."
 							]
 						},
 						{
@@ -2284,7 +2265,7 @@
 									"name": "Setup",
 									"id": "Setup",
 									"entries": [
-										"The open area of the Promenade features few places to hide during this encounter. The heroes find themselves boxed into a small, enclosed area when combat begins. Disperse the heroes throughout the Promenade, place the two stormtrooper recruits near the south entrance, and place the two Imperial informants at the north entrance."
+										"The open area of the Promenade features few places to hide during this encounter. The heroes find themselves boxed into a small, enclosed area when combat begins. Disperse the heroes throughout the Promenade, place the two {@creature trooper, recruit|orcnogDoDEp1|stormtrooper recruits} near the south entrance, and place the two {@creature Imperial Informant|orcnogDoDEp1|Imperial informants} at the north entrance."
 									]
 								},
 								{
@@ -2292,7 +2273,7 @@
 									"name": "Read-Aloud Text",
 									"id": "Read-Aloud Text",
 									"entries": [
-										"After the heroes make their {@skill Perception} checks to notice the two Imperial informants (whether they succeed or fail), introduce Maya, the stumbling Alderaanian Security agent who approaches the heroes and pleads for assistance:",
+										"After the heroes make their {@skill Perception} checks to notice the two {@creature Imperial Informant|orcnogDoDEp1|Imperial informants} (whether they succeed or fail), introduce {@creature Maya|orcnogDoDEp1}, the stumbling Alderaanian Security agent who approaches the heroes and pleads for assistance:",
 										{
 											"type": "insetReadaloud",
 											"name": "",
@@ -2308,12 +2289,12 @@
 									"type": "entries",
 									"name": "Stormtrooper Recruits (2)",
 									"entries": [
-										"The Empire doesn't send its best and brightest to Sel Zonn Station; instead, the post is usually a testing ground for new stormtrooper recruits. Though adorned with the accoutrements of normal stormtroopers, these recruits don't have the experience that other stormtroopers do, and are prone to missing their targets under fire Though armed with blaster carbines and light armour, these officers don't have the experience that other troops do, and are prone to missing their targets under fire.",
+										"The Empire doesn't send its best and brightest to Sel Zonn Station; instead, the post is usually a testing ground for new {@creature Trooper, Recruit|orcnogDoDEp1|stormtrooper recruits}. Though adorned with the accoutrements of {@creature Trooper|orcnogSW5e|normal stormtroopers}, these recruits don't have the experience that other stormtroopers do, and are prone to missing their targets under fire.",
 										{
 											"type": "entries",
 											"name": "Stormtrooper Recruit Tactics",
 											"entries": [
-												"These stormtrooper recruits are solely concerned with capturing Maya, the Alderaanian Security agent. They are trigger happy, though, and are more than willing to shoot anyone who stands in their way. When the encounter begins, they attempt to stun Maya but use lethal force against any other opponents."
+												"These stormtrooper recruits are solely concerned with capturing {@creature Maya|orcnogDoDEp1}, the Alderaanian Security agent. They are trigger happy, though, and are more than willing to shoot anyone who stands in their way. When the encounter begins, they attempt to stun {@creature Maya|orcnogDoDEp1} but use lethal force against any other opponents."
 											]
 										}
 									]
@@ -2322,7 +2303,7 @@
 									"type": "entries",
 									"name": "Imperial Informants (2)",
 									"entries": [
-										"Recruited to report on suspicious activity on Sel Zonn Station, the Imperial informants are regular citizens who have thrown their loyalty over to the Empire. These informants don't have the same kind of training that other Imperial agents do. In fact, they are little more than eager civilians who have been given a blaster and some basic combat training. They wear plain clothes, carry hold-out blaster pistols, and keep a comlink buttoned on the inside of their collars at all times.",
+										"Recruited to report on suspicious activity on Sel Zonn Station, the {@creature Imperial Informant|orcnogDoDEp1|Imperial informants} are regular citizens who have thrown their loyalty over to the Empire. These informants don't have the same kind of training that other Imperial agents do. In fact, they are little more than eager civilians who have been given a blaster and some basic combat training. They wear plain clothes, carry hold-out blaster pistols, and keep a comlink buttoned on the inside of their collars at all times.",
 										{
 											"type": "insetReadaloud",
 											"name": "",
@@ -2332,7 +2313,7 @@
 											"type": "entries",
 											"name": "Imperial Informant Tactics",
 											"entries": [
-												"The Imperial informants have bought into the Empire's propaganda and are willing to risk their lives to help bring enemies of the state to justice. Unlike the stormtrooper recruits, they don't realize that Maya is wanted alive and use lethal force against her. However, when the heroes intervene, the informants ignore Maya and focus solely on the heroes."
+												"The {@creature Imperial Informant|orcnogDoDEp1|Imperial informants} have bought into the Empire's propaganda and are willing to risk their lives to help bring enemies of the state to justice. Unlike the stormtrooper recruits, they don't realize that {@creature Maya|orcnogDoDEp1} is wanted alive and use lethal force against her. However, when the heroes intervene, the informants ignore Maya and focus solely on the heroes."
 											]
 										}
 									]
@@ -2341,7 +2322,7 @@
 									"type": "entries",
 									"name": "Maya, Alderaanian Security Agent",
 									"entries": [
-										"The woman begging the heroes for help is Maya, an agent of Alderaanian Security who has been grievously wounded in a run-in with the Empire on Sel Zonn Station. She has four levels of exhaustion (presented as the first statistics block below), meaning she doesn't have much fight left in her. Maya desperately reaches out to the heroes for help.",
+										"The woman begging the heroes for help is {@creature Maya|orcnogDoDEp1}, an agent of Alderaanian Security who has been grievously wounded in a run-in with the Empire on Sel Zonn Station. She has four levels of exhaustion (presented as the first statistics block below), meaning she doesn't have much fight left in her. {@creature Maya|orcnogDoDEp1} desperately reaches out to the heroes for help.",
 										{
 											"type": "insetReadaloud",
 											"name": "",
@@ -2351,7 +2332,7 @@
 											"type": "entries",
 											"name": "Maya's Tactics",
 											"entries": [
-												"Maya's chief concern is survival. She tries to find cover and hide, hoping that the heroes will take care of the Imperial agents that are after her. She will assist when possible, but her persistent condition makes her good for little besides encouragement and motivation. Maya fights defensively on every round, taking no attacks, and always tries to hide behind something to gain cover from attackers."
+												"Maya's chief concern is survival. She tries to find cover and hide, hoping that the heroes will take care of the Imperial agents that are after her. She will assist when possible, but her persistent condition makes her good for little besides encouragement and motivation. {@creature Maya|orcnogDoDEp1} fights defensively on every round, taking no attacks, and always tries to hide behind something to gain cover from attackers."
 											]
 										}
 									]
@@ -2374,10 +2355,10 @@
 									"type": "entries",
 									"name": "Development",
 									"entries": [
-										"Once the heroes subdue the Imperial informers and defeat the security officers, they must quickly get to safety before reinforcements arrive. If the heroes did not manage to save Maya, a {@item datapad|orcnogSW5e} she carries contains notes on \"V14\" and \"Switch\" as clues to the location of some valuable cargo. The heroes should be able to make {@skill Investigation} checks to learn what those words mean. A successful DC 10 check reveals that V14 is a deep storage bay on the station. A successful DC 15} check reveals that information, plus the fact that Switch is a well-known droid information broker that operates from a secret location within the station. The heroes should be able to figure out that something important (and possibly profitable) is going on, and they should be on the right track to discover V14's secrets.",
-										"If the heroes keep Maya from being killed in the fracas, she directs them to safe quarters where they can talk. She is still grievously wounded and has four levels of exhaustion that can be removed only with surgery or a dip in a bacta tank. However, despite her injuries, she tells the heroes enough to set them on the right path. They need to get to deep storage bay V14, where a droid named Switch can provide them with the location of some very valuable cargo. According to Maya, Switch was responsible for receiving and storing this cargo, which was shipped all the way from the Deep Core. Maya was supposed to contact Switch, recover the cargo, and deliver it to Senator Bail Organa of Alderaan. She reveals that she is a member of Alderaanian Security and part of Organa's personal security detail, and that she was waylaid by the Empire mere hours after arriving on the station. Apparently, the fact that she works for a vocal opponent of the Emperor has flagged her as a troublemaker, and the Empire wants her off the station one way or the other.",
-										"If the heroes agree to help her further, Maya assures them that Bail Organa will be happy to reward them for their efforts, and she emphasizes that the work they are helping her with could save the lives of many innocent beings. She doesn't go into more detail than that, but she assures the heroes that her mission advances the cause of good. If the heroes can procure the cargo from Switch, she will provide them with transport from Sel Zonn Station to Alderaan. Unfortunately, due to the recent confrontation, the heroes will need to keep a low profile, and Maya herself must remain safe in her quarters until fully healed.",
-										"If the heroes take her up on her offer, Maya entrusts them with directions to bay V14 and tells them to contact her when they procure the cargo."
+										"Once the heroes subdue the Imperial informers and defeat the security officers, they must quickly get to safety before reinforcements arrive. If the heroes did not manage to save {@creature Maya|orcnogDoDEp1}, a {@item datapad|orcnogSW5e} she carries contains notes on \"V14\" and \"Switch\" as clues to the location of some valuable cargo. The heroes should be able to make {@skill Investigation} checks to learn what those words mean. A successful DC 10 check reveals that V14 is a deep storage bay on the station. A successful DC 15} check reveals that information, plus the fact that {@creature Switch|orcnogDoDEp1} is a well-known droid information broker that operates from a secret location within the station. The heroes should be able to figure out that something important (and possibly profitable) is going on, and they should be on the right track to discover V14's secrets.",
+										"If the heroes keep {@creature Maya|orcnogDoDEp1} from being killed in the fracas, she directs them to safe quarters where they can talk. She is still grievously wounded and has four levels of exhaustion that can be removed only with surgery or a dip in a bacta tank. However, despite her injuries, she tells the heroes enough to set them on the right path. They need to get to deep storage bay V14, where a droid named {@creature Switch|orcnogDoDEp1} can provide them with the location of some very valuable cargo. According to {@creature Maya|orcnogDoDEp1}, Switch was responsible for receiving and storing this cargo, which was shipped all the way from the Deep Core. {@creature Maya|orcnogDoDEp1} was supposed to contact {@creature Switch|orcnogDoDEp1}, recover the cargo, and deliver it to Senator Bail Organa of Alderaan. She reveals that she is a member of Alderaanian Security and part of Organa's personal security detail, and that she was waylaid by the Empire mere hours after arriving on the station. Apparently, the fact that she works for a vocal opponent of the Emperor has flagged her as a troublemaker, and the Empire wants her off the station one way or the other.",
+										"If the heroes agree to help her further, {@creature Maya|orcnogDoDEp1} assures them that Bail Organa will be happy to reward them for their efforts, and she emphasizes that the work they are helping her with could save the lives of many innocent beings. She doesn't go into more detail than that, but she assures the heroes that her mission advances the cause of good. If the heroes can procure the cargo from {@creature Switch|orcnogDoDEp1}, she will provide them with transport from Sel Zonn Station to Alderaan. Unfortunately, due to the recent confrontation, the heroes will need to keep a low profile, and {@creature Maya|orcnogDoDEp1} herself must remain safe in her quarters until fully healed.",
+										"If the heroes take her up on her offer, {@creature Maya|orcnogDoDEp1} entrusts them with directions to bay V14 and tells them to contact her when they procure the cargo."
 									]
 								}
 							]
@@ -2388,11 +2369,11 @@
 							"id": "Deep Storage Bay V14",
 							"entries": [
 								"If the heroes want to learn more about the deep storage bay V14, they can do so in a variety of ways. Any informational computer terminal on the station can confirm that bay V14 is on a level that is off limits to non-Imperial personnel. If the heroes attempt to access further information on V14 it can be obtained with the technology skill at a DC of 15. A successful check reveals that bay V14 is in a section of the station that has been quarantined for over a year and a half, yet no maintenance requests have been made for repairs to that section. Additionally, the terminal reveals that deep storage bay V14 is located along one of the station's primary exhaust systems, meaning that exhaust conduits should be running right through the storage bay.",
-								"An {@skill Investigation} check regarding storage bay V14 has a DC of 10 and counts as learning local news or rumors. Success reveals that despite the fact that V14 is in a quarantined zone, a large number of aliens are often seen going into that zone. Rumor has it that the aliens operate some kind of criminal organization out of that section of the station, and that a contingent of Gamorreans is always on guard near the deep storage bay.",
+								"An {@skill Investigation} check regarding storage bay V14 has a DC of 10 and counts as learning local news or rumors. Success reveals that despite the fact that V14 is in a quarantined zone, a large number of aliens are often seen going into that zone. Rumor has it that the aliens operate some kind of criminal organization out of that section of the station, and that a contingent of {@creature Gamorrean Thug|orcnogDoDEp1|Gamorreans} is always on guard near the deep storage bay.",
 								"An attempt to learn secret information about bay V14 has a DC of 20 and reveals that since the quarantine was put into place, the station manager has been taking bribes to keep it that way. The bribes are delivered to the manager on a monthly basis by an unsavory-looking Twi'lek, and though the Empire doesn't like it, the local security forces ensure that Imperials never get too close to the quarantined areas.",
-								"When the heroes finally arrive in the vicinity of deep storage bay V14, they find that they have entered a very neglected part of the station. Many of the lights have burned out, and blaster marks and carbon scoring mar the walls, ceiling, and floor. The area reeks of ozone and electrical fires, and pools of coolant litter the hallways at regular intervals. After winding their way through a near-labyrinth of decrepit corridors, the heroes come upon bay V14, which is guarded by a pair of Gamorreans wielding vibro-axes. (Use the generic thug statistics on page 44 of the SW5e Monster Manual for the Gamorreans.)",
-								"If the heroes approach openly, the Gamorreans take no hostile actions and seem concerned only with blocking the doors. If the heroes approach stealthily, the Gamorreans are not likely to notice and seem more interested in conversing in their grunting language than in watching for outsiders.",
-								"If the heroes attempt to persuade the guards to let them in to see Switch, they might find it easier than they suspect. Provided that the heroes do not attack them on sight, if the heroes make a successful DC 11 {@skill Persuasion} check, the guards let them inside. A bribe of at least 50 {@item credit|orcnogSW5e|credits} grants the heroes a +5 circumstance bonus on any {@skill Persuasion} checks against the guards.",
+								"When the heroes finally arrive in the vicinity of deep storage bay V14, they find that they have entered a very neglected part of the station. Many of the lights have burned out, and blaster marks and carbon scoring mar the walls, ceiling, and floor. The area reeks of ozone and electrical fires, and pools of coolant litter the hallways at regular intervals. After winding their way through a near-labyrinth of decrepit corridors, the heroes come upon bay V14, which is guarded by a pair of {@creature Gamorrean Thug|orcnogDoDEp1|Gamorreans} wielding vibro-axes.",
+								"If the heroes approach openly, the {@creature Gamorrean Thug|orcnogDoDEp1|Gamorreans} take no hostile actions and seem concerned only with blocking the doors. If the heroes approach stealthily, the {@creature Gamorrean Thug|orcnogDoDEp1|Gamorreans} are not likely to notice and seem more interested in conversing in their grunting language than in watching for outsiders.",
+								"If the heroes attempt to persuade the guards to let them in to see {@creature Switch|orcnogDoDEp1}, they might find it easier than they suspect. Provided that the heroes do not attack them on sight, if the heroes make a successful DC 11 {@skill Persuasion} check, the guards let them inside. A bribe of at least 50 {@item credit|orcnogSW5e|credits} grants the heroes a +5 circumstance bonus on any {@skill Persuasion} checks against the guards.",
 								"Once the heroes enter bay V14, read the following text aloud:",
 								{
 									"type": "insetReadaloud",
@@ -2401,57 +2382,57 @@
 									]
 								},
 								"Near the center of the room is an item that seems very out of place\u2014a large, finely crafted desk made of Japor ivory wood, which means that the desk is both priceless and rare. Sitting peacefully behind the desk is a protocol droid with shiny, ebony coverings that seem to soak up light and offer only the slightest reflection. The droid's eyes flicker slightly, as though imitating a person blinking rapidly.",
-								"At first glance, Switch, the protocol droid information broker, appears to be the only occupant of the storage bay, but several of his thugs and associates are also spread throughout the room. Three bodyguards hide behind crates scattered around the room, and the heroes can make {@skill Perception} checks (opposed by the thugs' {@skill Stealth} checks) to notice them. Additionally, Switch's most valued companion - a blue-and-red astromech droid with the designation R5-B8 - beeps and burbles quietly besides the protocol droid, seemingly lost in its own world. Lastly, Switch's majordomo, a Twi'lek thug, stands quietly off to one side, not actively hiding but also not clearly visible until the heroes approach the desk.",
+								"At first glance, {@creature Switch|orcnogDoDEp1}, the protocol droid information broker, appears to be the only occupant of the storage bay, but several of his thugs and associates are also spread throughout the room. Three {@creature Switch's Thug|orcnogDoDEp1|bodyguards} hide behind crates scattered around the room, and the heroes can make {@skill Perception} checks (opposed by the {@creature Switch's Thug|orcnogDoDEp1|thugs}' {@skill Stealth} checks) to notice them. Additionally, {@creature Switch|orcnogDoDEp1}'s most valued companion - a blue-and-red astromech droid with the designation R5-B8 - beeps and burbles quietly besides the protocol droid, seemingly lost in its own world. Lastly, {@creature Switch|orcnogDoDEp1}'s majordomo, a {@creature Twi'lek Thug|orcnogDoDEp1|Twi'lek thug}, stands quietly off to one side, not actively hiding but also not clearly visible until the heroes approach the desk.",
 								{
 									"type": "entries",
 									"name": "Meeting with Switch",
 									"id": "Meeting with Switch",
 									"entries": [
-										"Switch is a curious protocol droid that has clearly gone a long time since his last memory wipe. A self-fashioned information broker and budding crime lord, Switch has aspirations to sophistication that are likely remnants of his protocol droid programming. With a male personality and a Coruscanti-Imperial accent, Switch could fit in among Brentaal's nobility if he were not a droid. When he speaks, he does so cheerfully and lightly, as though his power and prestige leaves him without a care in the world. It is unclear how a protocol droid managed to convince a number of living beings that he should be their leader, but the fact that the thugs follow Switch loyally is a testament to his persuasive skills and his acumen as a crime lord.",
-										"When the heroes arrive in bay V14, Switch greets them warmly and welcomes them to his domain, regardless of how they enter. Even if the heroes killed the Gamorreans to get inside, Switch seems unfazed. As a protocol droid, he has no concept of the fragility or the value of life, a fact that makes him both easy to get along with and incredibly dangerous. After introducing himself and R5-B8, Switch offers the heroes a drink from his extensive collection of beverages; for a droid that does not consume, he has exceptionally refined tastes. Once his guests have been made comfortable, Switch explains that his services are available to anyone who can pay, and he implores the heroes to tell him why they have come.",
-										"The heroes have several challenges throughout their encounter with Switch, though only one is critical to the ongoing plot of the adventure. They must convince the droid to reveal the location of the cargo he is keeping for Maya and to turn that cargo over to them. The following encounter challenges demonstrate how the heroes can affect the outcome of the encounter:",
+										"Switch is a curious protocol droid that has clearly gone a long time since his last memory wipe. A self-fashioned information broker and budding crime lord, {@creature Switch|orcnogDoDEp1} has aspirations to sophistication that are likely remnants of his protocol droid programming. With a male personality and a Coruscanti-Imperial accent, {@creature Switch|orcnogDoDEp1} could fit in among Brentaal's nobility if he were not a droid. When he speaks, he does so cheerfully and lightly, as though his power and prestige leaves him without a care in the world. It is unclear how a protocol droid managed to convince a number of living beings that he should be their leader, but the fact that the {@creature Switch's Thug|orcnogDoDEp1|thugs} follow {@creature Switch|orcnogDoDEp1} loyally is a testament to his persuasive skills and his acumen as a crime lord.",
+										"When the heroes arrive in bay V14, {@creature Switch|orcnogDoDEp1} greets them warmly and welcomes them to his domain, regardless of how they enter. Even if the heroes killed the {@creature Gamorrean Thug|orcnogDoDEp1|Gamorreans} to get inside, {@creature Switch|orcnogDoDEp1} seems unfazed. As a protocol droid, he has no concept of the fragility or the value of life, a fact that makes him both easy to get along with and incredibly dangerous. After introducing himself and R5-B8, {@creature Switch|orcnogDoDEp1} offers the heroes a drink from his extensive collection of beverages; for a droid that does not consume, he has exceptionally refined tastes. Once his guests have been made comfortable, {@creature Switch|orcnogDoDEp1} explains that his services are available to anyone who can pay, and he implores the heroes to tell him why they have come.",
+										"The heroes have several challenges throughout their encounter with {@creature Switch|orcnogDoDEp1}, though only one is critical to the ongoing plot of the adventure. They must convince the droid to reveal the location of the cargo he is keeping for {@creature Maya|orcnogDoDEp1} and to turn that cargo over to them. The following encounter challenges demonstrate how the heroes can affect the outcome of the encounter:",
 										{
 											"type": "entries",
 											"name": "Critical Challenge",
 											"entries": [
-												"The heroes need to get their hands on whatever cargo Switch is holding for the Alderaanian Security officer, Maya. If they can make a DC 17 {@skill Persuasion} check, Switch acknowledges that he is holding cargo for Maya but does not tell them where. If they manage to get Switch talking, however, their options expand greatly.",
-												"Once Switch has been persuaded to admit possession of Maya's cargo, he is willing to accept payment to release it to the heroes. For the \"eminently reasonable\" sum of 1,000 {@item credit|orcnogSW5e|credits}, they can take the cargo wherever they wish. If the heroes don't have that much money, or if they don't want to spend that much, Switch is willing to accept less, provided that one or more of the heroes agrees to supply him with information on a regular basis from wherever their travels may take them. Each hero who agrees to this deal reduces the required payment by 200 {@item credit|orcnogSW5e|credits}. Of course, the heroes can agree with no intentions of sending information to Switch in the future, but doing so might have dire repercussions. (Any such consequences are beyond the scope of this adventure, but feel free to include your own adventures and enemies later in the campaign.) On the other hand, the heroes might like the idea of working for a droid crime lord, even indirectly, which can open up plot hooks of its own.",
-												"Once Switch is satisfied, he reveals that the cargo is in the main docking bay on Blue Deck, a section of the station heavily traveled by Imperial loyalists and one of the few places where Imperial ships dock. If the heroes fail to convince Switch to give them the cargo, they might have another chance to succeed; see the development section of \"{@area Arrival of Ganga Lor|Arrival of Ganga Lor|x}\" (below)."
+												"The heroes need to get their hands on whatever cargo {@creature Switch|orcnogDoDEp1} is holding for the Alderaanian Security officer, {@creature Maya|orcnogDoDEp1}. If they can make a DC 17 {@skill Persuasion} check, {@creature Switch|orcnogDoDEp1} acknowledges that he is holding cargo for {@creature Maya|orcnogDoDEp1} but does not tell them where. If they manage to get {@creature Switch|orcnogDoDEp1} talking, however, their options expand greatly.",
+												"Once {@creature Switch|orcnogDoDEp1} has been persuaded to admit possession of {@creature Maya|orcnogDoDEp1}'s cargo, he is willing to accept payment to release it to the heroes. For the \"eminently reasonable\" sum of 1,000 {@item credit|orcnogSW5e|credits}, they can take the cargo wherever they wish. If the heroes don't have that much money, or if they don't want to spend that much, {@creature Switch|orcnogDoDEp1} is willing to accept less, provided that one or more of the heroes agrees to supply him with information on a regular basis from wherever their travels may take them. Each hero who agrees to this deal reduces the required payment by 200 {@item credit|orcnogSW5e|credits}. Of course, the heroes can agree with no intentions of sending information to {@creature Switch|orcnogDoDEp1} in the future, but doing so might have dire repercussions. (Any such consequences are beyond the scope of this adventure, but feel free to include your own adventures and enemies later in the campaign.) On the other hand, the heroes might like the idea of working for a droid crime lord, even indirectly, which can open up plot hooks of its own.",
+												"Once {@creature Switch|orcnogDoDEp1} is satisfied, he reveals that the cargo is in the main docking bay on Blue Deck, a section of the station heavily traveled by Imperial loyalists and one of the few places where Imperial ships dock. If the heroes fail to convince {@creature Switch|orcnogDoDEp1} to give them the cargo, they might have another chance to succeed; see the development section of \"{@area Arrival of Ganga Lor|Arrival of Ganga Lor|x}\" (below)."
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Auxhiliary Challenge 1",
 											"entries": [
-												"Whether or not Switch agrees to turn the cargo over to the heroes, he does not freely volunteer the nature of the valuable goods. However, a simple bribe of 50 {@item credit|orcnogSW5e|credits} is enough to get him to reveal the secret. The cargo is, in fact, another agent of Alderaanian Security who has been frozen in carbonite for transport from the Deep Core world of Empress Teta. The agent had himself frozen so that he could be transported as cargo rather than as a passenger, reducing the chance that the Empire would find and arrest him."
+												"Whether or not {@creature Switch|orcnogDoDEp1} agrees to turn the cargo over to the heroes, he does not freely volunteer the nature of the valuable goods. However, a simple bribe of 50 {@item credit|orcnogSW5e|credits} is enough to get him to reveal the secret. The cargo is, in fact, another agent of Alderaanian Security who has been frozen in carbonite for transport from the Deep Core world of Empress Teta. The agent had himself frozen so that he could be transported as cargo rather than as a passenger, reducing the chance that the Empire would find and arrest him."
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Auxhiliary Challenge 2",
 											"entries": [
-												"After learning that they will be obtaining a person frozen in carbonite, the heroes might press Switch for more information on why the agent was smuggling himself from Empress Teta. This information requires a bribe of 200 {@item credit|orcnogSW5e|credits}, which the droid accepts only if the heroes were able to persuade him. If the bribe is paid, Switch reveals that the Alderaanian Security agent was spying on the Empire's secret interests in the Deep Core. In the months since the rise of the Empire, hundreds of warships have sealed off the few known trade routes into the Deep Core, only allowing wealthy Imperial loyalists in or out of that region of space. Over the last few months, the Empire has set up the Deep Core Security Zone, and Emperor Palpatine himself has overseen the transfer of large amounts of resources and nobles loyal to the Empire into the Deep Core. The frozen security agent had been scouting one of the dozens of worlds that the Empire had discovered during its recent expansion into the Deep Core."
+												"After learning that they will be obtaining a person frozen in carbonite, the heroes might press {@creature Switch|orcnogDoDEp1} for more information on why the agent was smuggling himself from Empress Teta. This information requires a bribe of 200 {@item credit|orcnogSW5e|credits}, which the droid accepts only if the heroes were able to persuade him. If the bribe is paid, {@creature Switch|orcnogDoDEp1} reveals that the Alderaanian Security agent was spying on the Empire's secret interests in the Deep Core. In the months since the rise of the Empire, hundreds of warships have sealed off the few known trade routes into the Deep Core, only allowing wealthy Imperial loyalists in or out of that region of space. Over the last few months, the Empire has set up the Deep Core Security Zone, and Emperor Palpatine himself has overseen the transfer of large amounts of resources and nobles loyal to the Empire into the Deep Core. The frozen security agent had been scouting one of the dozens of worlds that the Empire had discovered during its recent expansion into the Deep Core."
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Auxhiliary Challenge 3",
 											"entries": [
-												"In addition to the possibility of working for Switch, the heroes have a chance to make the droid a permanent contact and ally in the Core Worlds. If the heroes managed to persuade him, Switch is open to the idea of providing information the heroes need, wherever they may be. However, convincing Switch that this is a good idea is a bit more difficult. A down payment of 500 {@item credit|orcnogSW5e|credits} is enough to convince the droid that a deal is in his best interests. Other kinds of compensation work as well, provided that any items offered have a market value of roughly 500 {@item credit|orcnogSW5e|credits}."
+												"In addition to the possibility of working for {@creature Switch|orcnogDoDEp1}, the heroes have a chance to make the droid a permanent contact and ally in the Core Worlds. If the heroes managed to persuade him, {@creature Switch|orcnogDoDEp1} is open to the idea of providing information the heroes need, wherever they may be. However, convincing {@creature Switch|orcnogDoDEp1} that this is a good idea is a bit more difficult. A down payment of 500 {@item credit|orcnogSW5e|credits} is enough to convince the droid that a deal is in his best interests. Other kinds of compensation work as well, provided that any items offered have a market value of roughly 500 {@item credit|orcnogSW5e|credits}."
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Auxhiliary Challenge 4",
 											"entries": [
-												"Once the heroes convince Switch to turn over Maya's cargo, they also have the opportunity to make a bit of a profit. In addition to the cargo he is holding for Maya, Switch has a crate of bottles of Corellian ale that is bound for Alderaan. If, over the course of their conversations with the protocol droid, the heroes mention that they have access to a ship, Switch offers them a small fee to deliver the ale to Alderaan, with the promise of 500 additional {@item credit|orcnogSW5e|credits} on delivery. The Corellian ale is stored in the same docking bay as the frozen security officer, in a crate that can be carried by a single person. If the heroes agree to deliver the crate, they can do so without complications once they arrive on Alderaan. The {@item credit|orcnogSW5e|credits} will be sent to an account that Switch sets up on Alderaan, from which the heroes can easily retrieve their payment."
+												"Once the heroes convince {@creature Switch|orcnogDoDEp1} to turn over {@creature Maya|orcnogDoDEp1}'s cargo, they also have the opportunity to make a bit of a profit. In addition to the cargo he is holding for {@creature Maya|orcnogDoDEp1}, Switch has a crate of bottles of Corellian ale that is bound for Alderaan. If, over the course of their conversations with the protocol droid, the heroes mention that they have access to a ship, {@creature Switch|orcnogDoDEp1} offers them a small fee to deliver the ale to Alderaan, with the promise of 500 additional {@item credit|orcnogSW5e|credits} on delivery. The Corellian ale is stored in the same docking bay as the frozen security officer, in a crate that can be carried by a single person. If the heroes agree to deliver the crate, they can do so without complications once they arrive on Alderaan. The {@item credit|orcnogSW5e|credits} will be sent to an account that {@creature Switch|orcnogDoDEp1} sets up on Alderaan, from which the heroes can easily retrieve their payment."
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Ad-Hoc XP Award",
 											"entries": [
-												"If the heroes successfully negotiate with Switch for the frozen Alderaanian Security agent, award them experience points as if they had defeated a CR 2 opponent."
+												"If the heroes successfully negotiate with {@creature Switch|orcnogDoDEp1} for the frozen Alderaanian Security agent, award them experience points as if they had defeated a CR 2 opponent."
 											]
 										}
 									]
@@ -2461,7 +2442,7 @@
 									"name": "Arrival of Ganga Lor",
 									"id": "Arrival of Ganga Lor",
 									"entries": [
-										"Once the heroes have concluded their business with Switch, an unexpected visitor arrives. If the heroes left the Gamorrean guards alive, they now die squealing amid a hail of blaster bolts, which can easily be heard from inside bay V14. Bursting into the room is Ganga Lor, a Chevin gangster, and a handful of his thugs. When he pushes his way into the room, Ganga Lor shouts in Basic, \"So you thought you could hide your deal with the offworlders from me, droid? I'm tired of not getting my cut! Turn him into a scrap heap, boys!\" With that, Ganga Lor's thugs attack Switch and the heroes, who are now caught up in a gang fight.",
+										"Once the heroes have concluded their business with {@creature Switch|orcnogDoDEp1}, an unexpected visitor arrives. If the heroes left the Gamorrean guards alive, they now die squealing amid a hail of blaster bolts, which can easily be heard from inside bay V14. Bursting into the room is {@creature Ganga Lor|orcnogDoDEp1}, a Chevin gangster, and a handful of his {@creature Ganga Lor's Thug|orcnogDodEp1|thugs}. When he pushes his way into the room, {@creature Ganga Lor|orcnogDoDEp1} shouts in Basic, \"So you thought you could hide your deal with the offworlders from me, droid? I'm tired of not getting my cut! Turn him into a scrap heap, boys!\" With that, {@creature Ganga Lor's Thug|orcnogDoDEp1|Ganga Lor's thugs} attack {@creature Switch|orcnogDoDEp1} and the heroes, who are now caught up in a gang fight.",
 										{
 											"type": "image",
 											"href": {
@@ -2500,7 +2481,7 @@
 									"name": "Setup",
 									"id": "Setup 1",
 									"entries": [
-										"The heroes, Switch, and his thugs should be set up away from the door, behind some of the crates near the middle and back of bay V14. When the encounter begins, Ganga Lor and his thugs enter through the same double doors the heroes came through."
+										"The heroes, {@creature Switch|orcnogDoDEp1}, and his {@creature Switch's Thug|orcnogDoDEp1|thugs} should be set up away from the door, behind some of the crates near the middle and back of bay V14. When the encounter begins, {@creature Ganga Lor|orcnogDoDEp1} and his {@creature Ganga Lor's Thug|orcnogDoDEp1|thugs} enter through the same double doors the heroes came through."
 									]
 								},
 								{
@@ -2524,7 +2505,7 @@
 									"name": "Ganga Lor (1)",
 									"id": "Ganga Lor",
 									"entries": [
-										"Ganga Lor is a Chevin petty crime lord who has been engaged in a rivalry with Switch for years. Ganga Lor came to the station around the same time as Switch, and the two have never gotten along.",
+										"{@creature Ganga Lor|orcnogDoDEp1} is a Chevin petty crime lord who has been engaged in a rivalry with {@creature Switch|orcnogDoDEp1} for years. Ganga Lor came to the station around the same time as Switch, and the two have never gotten along.",
 										{
 											"type": "insetReadaloud",
 											"entries": [
@@ -2535,7 +2516,7 @@
 											"type": "entries",
 											"name": "Ganga Lor's Tactics",
 											"entries": [
-												"Ganga Lor is no fool, but he is a coward. He immediately seeks cover when the fight begins, letting his thugs take risks in his place. If the heroes seem to be targeting him specifically, Ganga Lor takes the dodge action. If the heroes don't seem to be paying any attention to him, he stays at range and uses his blaster pistol.",
+												"{@creature Ganga Lor|orcnogDoDEp1} is no fool, but he is a coward. He immediately seeks cover when the fight begins, letting his {@creature Ganga Lor's Thug|orcnogDoDEp1|thugs} take risks in his place. If the heroes seem to be targeting him specifically, {@creature Ganga Lor|orcnogDoDEp1} takes the dodge action. If the heroes don't seem to be paying any attention to him, he stays at range and uses his blaster pistol.",
 												"He is carrying a {@item datapad|orcnogSW5e} and 300 {@item credit|orcnogSW5e|credits}."
 											]
 										}
@@ -2550,7 +2531,7 @@
 											"type": "entries",
 											"name": "Thug Tactics",
 											"entries": [
-												"The thugs have no real strategy to their actions; they are straight-up fighters who care little for complex tactics. However, Switch's own thugs take pains not to hit Ganga Lor's goons\u2014the Chevin secretly paid them to miss on purpose so that he could take Switch down more easily. If Ganga Lor sees that the fight is going badly for him, he calls upon Switch's thugs to switch sides, which they do. (This is a good opportunity to increase the challenge of the encounter later in the fight. On the other hand, if the fight is going poorly for the heroes, or if it might go either way, don't have Switch's thugs change sides at all.)",
+												"The {@creature Ganga Lor's Thug|orcnogDoDEp1|thugs} have no real strategy to their actions; they are straight-up fighters who care little for complex tactics. However, {@creature Switch|orcnogDoDEp1}'s own {@creature Switch's Thug|orcnogDoDEp1|thugs} take pains not to hit Ganga Lor's goons\u2014the Chevin secretly paid them to miss on purpose so that he could take {@creature Switch|orcnogDoDEp1} down more easily. If Ganga Lor sees that the fight is going badly for him, he calls upon {@creature Switch's Thug|orcnogDoDEp1|Switch's thugs} to switch sides, which they do. (This is a good opportunity to increase the challenge of the encounter later in the fight. On the other hand, if the fight is going poorly for the heroes, or if it might go either way, don't have {@creature Switch's Thug|orcnogDoDEp1|Switch's thugs} change sides at all.)",
 												{
 													"type": "inset",
 													"name": "Features of the Area",
@@ -2567,7 +2548,7 @@
 									"name": "Conclusion",
 									"id": "Conclusion",
 									"entries": [
-										"When the encounter ends, Switch thanks the heroes for their assistance and tells them that Ganga Lor brought all of his cronies to the fight. Thus, the heroes have little to fear in the way of reprisals from the Chevin's organization."
+										"When the encounter ends, {@creature Switch|orcnogDoDEp1} thanks the heroes for their assistance and tells them that {@creature Ganga Lor|orcnogDoDEp1} brought all of his cronies to the fight. Thus, the heroes have little to fear in the way of reprisals from the Chevin's organization."
 									]
 								},
 								{
@@ -2583,9 +2564,9 @@
 									"name": "Development",
 									"id": "Development",
 									"entries": [
-										"Switch is most grateful for the heroes' assistance in the fight. If they had not yet convinced the droid to turn over Maya's cargo, he agrees to do so now (otherwise, he agrees to one of the auxiliary challenges free of charge). Additionally, if the heroes need medical attention, he promises to call in a favor with Dr. Fenn of Delgas Medical Supplies to get them treated free of charge.",
-										"If Switch does not survive the encounter, the heroes can learn the location of Maya's cargo by slicing into the computer in his desk (DC 18).",
-										"When the encounter with Switch is concluded, the heroes can head to Blue Deck's main docking bay and retrieve the cargo."
+										"Switch is most grateful for the heroes' assistance in the fight. If they had not yet convinced the droid to turn over {@creature Maya|orcnogDoDEp1}'s cargo, he agrees to do so now (otherwise, he agrees to one of the auxiliary challenges free of charge). Additionally, if the heroes need medical attention, he promises to call in a favor with Dr. Fenn of Delgas Medical Supplies to get them treated free of charge.",
+										"If {@creature Switch|orcnogDoDEp1} does not survive the encounter, the heroes can learn the location of {@creature Maya|orcnogDoDEp1}'s cargo by slicing into the computer in his desk (DC 18).",
+										"When the encounter with {@creature Switch|orcnogDoDEp1} is concluded, the heroes can head to Blue Deck's main docking bay and retrieve the cargo."
 									]
 								}
 							]
@@ -2611,10 +2592,10 @@
 									"name": "Skig Banos, Imperial Informant",
 									"id": "Skig Banos, Imperial Informant",
 									"entries": [
-										"As the heroes make their way across Blue Deck, they see a face that might be familiar. Any heroes who managed to notice the two Imperial informants on the Promenade before Maya approached them now also notice a similarly dressed man on Blue Deck. In fact, any hero who succeeds on a DC 15 {@skill Perception} check realizes that this man was on the Promenade earlier but fled at the first sign of blaster fire. The man is Skig Banos, an Imperial informant and world-class coward. With a mop of greasy black hair and a physique that is little more than skin hanging off bones, Skig looks a bit on the pathetic side. His beady eyes and oversized nose give him a more sinister edge, causing him to resemble a wild womp rat eager to escape captivity.",
+										"As the heroes make their way across Blue Deck, they see a face that might be familiar. Any heroes who managed to notice the two {@creature Imperial Informant|orcnogDoDEp1|Imperial informants} on the Promenade before {@creature Maya|orcnogDoDEp1} approached them now also notice a similarly dressed man on Blue Deck. In fact, any hero who succeeds on a DC 15 {@skill Perception} check realizes that this man was on the Promenade earlier but fled at the first sign of blaster fire. The man is Skig Banos, an {@creature Imperial Informant|orcnogDoDEp1|Imperial informant} and world-class coward. With a mop of greasy black hair and a physique that is little more than skin hanging off bones, Skig looks a bit on the pathetic side. His beady eyes and oversized nose give him a more sinister edge, causing him to resemble a wild womp rat eager to escape captivity.",
 										"If the heroes confront Skig, he immediately tries to escape. If the heroes manage to stop him without making too much of a ruckus, they should be able to interrogate him and get a bit more information about what is going on. Skig is too afraid of being harmed by the heroes to raise an alarm, and though he acts unfriendly at first, a successful DC 17 {@skill Persuasion} check can make him more amenable. Similarly, a successful DC 12 {@skill Intimidation} check can make him more helpful.",
-										"If either of these checks succeed, Skig is willing to tell the heroes almost anything so that they will let him go. This includes lying to them - he makes {@skill Deception} checks every round at +2 until caught in a lie - and Skig's lies include that the Empire has discovered them, that the Empire has killed Maya, and that he's just a merchant out for a walk on Blue Deck. An indifferent Skig simply wants to get away, and he does everything he can to escape without getting killed or raising an alarm. Truthfully, Skig is equally scared of the Empire and fears that they will betray him at any time.",
-										"If Skig can be made friendly, he actually volunteers useful information. He knows that the Imperials were recently tipped off about contraband in the main docking bay (by one of Ganga Lor's toadies looking to make a few quick {@item credit|orcnogSW5e|credits}, though Skig doesn't know that) and have gone to investigate. He saw at least three security officers and their sergeant head toward the docking bay, though he thinks there may be more in the bay. Additionally, Skig saw them moving a repulsor sled into the main docking bay, meaning that they have some heavier weapons at their disposal. With this information in hand, the heroes should be a bit better prepared for the fight ahead of them."
+										"If either of these checks succeed, Skig is willing to tell the heroes almost anything so that they will let him go. This includes lying to them - he makes {@skill Deception} checks every round at +2 until caught in a lie - and Skig's lies include that the Empire has discovered them, that the Empire has killed {@creature Maya|orcnogDoDEp1}, and that he's just a merchant out for a walk on Blue Deck. An indifferent Skig simply wants to get away, and he does everything he can to escape without getting killed or raising an alarm. Truthfully, Skig is equally scared of the Empire and fears that they will betray him at any time.",
+										"If Skig can be made friendly, he actually volunteers useful information. He knows that the Imperials were recently tipped off about contraband in the main docking bay (by one of {@creature Ganga Lor|orcnogDoDEp1}'s toadies looking to make a few quick {@item credit|orcnogSW5e|credits}, though Skig doesn't know that) and have gone to investigate. He saw at least three security officers and their sergeant head toward the docking bay, though he thinks there may be more in the bay. Additionally, Skig saw them moving a repulsor sled into the main docking bay, meaning that they have some heavier weapons at their disposal. With this information in hand, the heroes should be a bit better prepared for the fight ahead of them."
 									]
 								},
 								{
@@ -2622,7 +2603,7 @@
 									"name": "Main Docking Bay",
 									"id": "Main Docking Bay",
 									"entries": [
-										"The main docking bay on Blue Deck is used by the Empire to ferry cargo and personnel from the station to the surface of Brentaal and back. Switch managed to get Maya's cargo stored here by calling in some favors, reasoning that the Empire would not think anyone would be bold enough to hide contraband right under their noses.",
+										"The main docking bay on Blue Deck is used by the Empire to ferry cargo and personnel from the station to the surface of Brentaal and back. {@creature Switch|orcnogDoDEp1} managed to get {@creature Maya|orcnogDoDEp1}'s cargo stored here by calling in some favors, reasoning that the Empire would not think anyone would be bold enough to hide contraband right under their noses.",
 										"The main docking bay is a large, open area with a control room and two side storage rooms."
 									]
 								}
@@ -2709,7 +2690,7 @@
 									"name": "Conclusion",
 									"id": "Conclusion 2",
 									"entries": [
-										"Even if the heroes defeat the Imperial agents in this room, they probably have only a few rounds before reinforcements arrive. A squad of six stormtroopers arrives 10 rounds after combat begins, so if the heroes have not escaped by that time, the fight escalates. Once the heroes call Maya, it takes 5 rounds for their escape ship to arrive. Unless they finish off the stormtroopers quickly (or call Maya before the fight is over), there might be a few tense moments in which the heroes must fight stormtroopers as they climb into the {@i {@creature The Banshee|orcnogDoDEp1|Banshee}}."
+										"Even if the heroes defeat the Imperial agents in this room, they probably have only a few rounds before reinforcements arrive. A squad of six stormtroopers arrives 10 rounds after combat begins, so if the heroes have not escaped by that time, the fight escalates. Once the heroes call {@creature Maya|orcnogDoDEp1}, it takes 5 rounds for their escape ship to arrive. Unless they finish off the stormtroopers quickly (or call {@creature Maya|orcnogDoDEp1} before the fight is over), there might be a few tense moments in which the heroes must fight stormtroopers as they climb into the {@i {@creature The Banshee|orcnogDoDEp1|Banshee}}."
 									]
 								},
 								{
@@ -2732,8 +2713,8 @@
 									"name": "Development",
 									"id": "Development 2",
 									"entries": [
-										"Once the heroes obtain the agent frozen in carbonite, it quickly becomes time to get away from the Imperial presence on Sel Zonn Station. If the heroes managed to save Maya, she awaits their call on the comlink and sends one of her allies to pick them up. A short 5 rounds after the heroes call Maya for assistance, a large Baudo-class Star Yacht named the {@i {@creature The Banshee|orcnogDoDEp1|Banshee}} drifts into the main docking bay and lowers its ramp. Over the loudspeaker, the ship's captain, a woman named {@creature Sirona O'keefe|orcnogDoDEp1}, calls out to the heroes that Maya sent her to fetch them. When the heroes all board the ship, {@creature Sirona O'Keefe|orcnogDoDEp1|Captain O'Keefe} blasts off from Sel Zonn Station and makes a quick jump to hyperspace, headed for Alderaan.",
-										"If the heroes did not save Maya, you (the GM) have several options. The heroes might have met {@creature Sirona O'Keefe|orcnogDoDEp1|Captain O'Keefe} previously on the Promenade, or she might have been referred to them by Switch, who knew that they would need transport off the station. Failing that, the heroes might need to take their cargo and find a place to hide on the station until they can hire passage to Alderaan or stow away on a ship. Regardless, the heroes should take the frozen agent to Alderaan as quickly as possible.",
+										"Once the heroes obtain the agent frozen in carbonite, it quickly becomes time to get away from the Imperial presence on Sel Zonn Station. If the heroes managed to save {@creature Maya|orcnogDoDEp1}, she awaits their call on the comlink and sends one of her allies to pick them up. A short 5 rounds after the heroes call {@creature Maya|orcnogDoDEp1} for assistance, a large Baudo-class Star Yacht named the {@i {@creature The Banshee|orcnogDoDEp1|Banshee}} drifts into the main docking bay and lowers its ramp. Over the loudspeaker, the ship's captain, a woman named {@creature Sirona O'keefe|orcnogDoDEp1}, calls out to the heroes that {@creature Maya|orcnogDoDEp1} sent her to fetch them. When the heroes all board the ship, {@creature Sirona O'Keefe|orcnogDoDEp1|Captain O'Keefe} blasts off from Sel Zonn Station and makes a quick jump to hyperspace, headed for Alderaan.",
+										"If the heroes did not save {@creature Maya|orcnogDoDEp1}, you (the GM) have several options. The heroes might have met {@creature Sirona O'Keefe|orcnogDoDEp1|Captain O'Keefe} previously on the Promenade, or she might have been referred to them by {@creature Switch|orcnogDoDEp1}, who knew that they would need transport off the station. Failing that, the heroes might need to take their cargo and find a place to hide on the station until they can hire passage to Alderaan or stow away on a ship. Regardless, the heroes should take the frozen agent to Alderaan as quickly as possible.",
 										"(Note, escaping Sel Zonn station should be considered a level-up milestone.)"
 									]
 								}
@@ -2783,7 +2764,7 @@
 							"name": "Sirona O'Keefe and the {@i Banshee}",
 							"id": "Sirona O'Keefe and the Banshee",
 							"entries": [
-								"If the heroes agree to discover the fate of Admiral Varth, Senator Organa tells them that he has arranged transport aboard a vessel owned and operated by one of his longtime friends. {@creature Sirona O'keefe|orcnogDoDEp1} is a free trader and transport pilot who frequently works for Organa and his agents\u2014most recently, Maya. On retainer from the Senator, {@creature Sirona O'keefe|orcnogDoDEp1|Captain O'Keefe} is a beautiful middle-aged woman who knows her way around the galaxy. For the first arc of the {@b Dawn of Defiance} campaign, her modified Baudo-class Star Yacht, the {@i {@creature The Banshee|orcnogDoDEp1|Banshee}}, will serve as the heroes' primary mode of transportation. {@creature Sirona O'keefe|orcnogDoDEp1|Captain O'Keefe} is fiercely loyal to Senator Organa and trusts the heroes only because he does.",
+								"If the heroes agree to discover the fate of Admiral Varth, Senator Organa tells them that he has arranged transport aboard a vessel owned and operated by one of his longtime friends. {@creature Sirona O'keefe|orcnogDoDEp1} is a free trader and transport pilot who frequently works for Organa and his agents\u2014most recently, {@creature Maya|orcnogDoDEp1}. On retainer from the Senator, {@creature Sirona O'keefe|orcnogDoDEp1|Captain O'Keefe} is a beautiful middle-aged woman who knows her way around the galaxy. For the first arc of the {@b Dawn of Defiance} campaign, her modified Baudo-class Star Yacht, the {@i {@creature The Banshee|orcnogDoDEp1|Banshee}}, will serve as the heroes' primary mode of transportation. {@creature Sirona O'keefe|orcnogDoDEp1|Captain O'Keefe} is fiercely loyal to Senator Organa and trusts the heroes only because he does.",
 								"The captain is something of a black sheep in her family (which hails from Brentaal) and doesn't care to speak about her past. She does mention that she has a niece who aspires to follow in her footsteps. Otherwise, O'Keefe always keeps the conversation light and flirty. {@creature Sirona O'keefe|orcnogDoDEp1|Captain O'Keefe} is also very fond of her droid copilot, an RX-13 pilot droid nicknamed \"Crash,\" who is curmudgeonly and prefers to gripe about nearly everything rather than go about his duties. Still, the two make a good pair\u2014the {@i {@creature The Banshee|orcnogDoDEp1|Banshee}} runs smoothly and has a number of special modifications that make it more than a match for Imperial patrols."
 							]
 						}
@@ -3619,12 +3600,12 @@
 									"name": "Lieutenant Aden (1)",
 									"id": "Lieutenant Aden",
 									"entries": [
-										"Lieutenant Aden is a young officer who believes that he is on the rise in the Empire. Unfortunately, he's sadly mistaken. His posting to the backwater world of Felucia is meant to keep him out of the way, just as the secret facility is intended to keep prisoners hidden. Lt. Aden has delusions of grandeur, but he is a violent and ill-tempered man who thinks he has something to prove. A number of commanders transferred him out of their units after he decided to demonstrate his loyalty to the Empire by berating fellow officers for even the smallest offense. Loud and angry, Lt. Aden would like nothing more than to kill some rebellious scum and earn a promotion off of Felucia.",
+										"Lieutenant Aden is a young officer who believes that he is on the rise in the Empire. Unfortunately, he's sadly mistaken. His posting to the backwater world of Felucia is meant to keep him out of the way, just as the secret facility is intended to keep prisoners hidden. {@creature Lieutenant Aden|orcnogDoDEp1|Lieutenant Aden} has delusions of grandeur, but he is a violent and ill-tempered man who thinks he has something to prove. A number of commanders transferred him out of their units after he decided to demonstrate his loyalty to the Empire by berating fellow officers for even the smallest offense. Loud and angry, {@creature Lieutenant Aden|orcnogDoDEp1|Lieutenant Aden} would like nothing more than to kill some rebellious scum and earn a promotion off of Felucia.",
 										{
 											"type": "entries",
 											"name": "Lt. Aden's Tactics",
 											"entries": [
-												"Lt. Aden's zeal sometimes gets the best of him, especially in combat. He activates his Leadership ability as often as possible and fights more aggressively than most Imperial officers. Though he seeks cover when possible, Lt. Aden takes a shot at the heroes each round, even if it exposes him to their attacks."
+												"Lt. Aden's zeal sometimes gets the best of him, especially in combat. He activates his Leadership ability as often as possible and fights more aggressively than most Imperial officers. Though he seeks cover when possible, {@creature Lieutenant Aden|orcnogDoDEp1|Lieutenant Aden} takes a shot at the heroes each round, even if it exposes him to their attacks."
 											]
 										}
 									]
@@ -3645,7 +3626,7 @@
 											"type": "entries",
 											"name": "Imperial Comm Operator Tactics",
 											"entries": [
-												"Trained by the Imperial Army, each comm operator knows how to fight an intruding enemy\u2014perhaps better than Lt. Aden does. They seek cover behind the computer equipment in the room and attempt to use their blaster pistols at a decent range to drive the heroes back. The comm operators are good shots with their blaster pistols, and they try to hunker down and the keep the heroes from taking advantage of cover as well."
+												"Trained by the Imperial Army, each comm operator knows how to fight an intruding enemy\u2014perhaps better than {@creature Lieutenant Aden|orcnogDoDEp1|Lieutenant Aden} does. They seek cover behind the computer equipment in the room and attempt to use their blaster pistols at a decent range to drive the heroes back. The comm operators are good shots with their blaster pistols, and they try to hunker down and the keep the heroes from taking advantage of cover as well."
 											]
 										}
 									]
@@ -3854,7 +3835,7 @@
 							"name": "Turbolift Cluster",
 							"id": "Turbolift Cluster",
 							"entries": [
-								"This cluster of four standard turbolifts ferries troops and officers between the two floors of the prison facility. Unlike the rest of the computers in the facility, the computers that operate the turbolifts are hostile to anyone without a particular {@item code cylinder|orcnogSW5e}\u2014specifically, the one possessed by Lieutenant Aden. If the heroes have retrieved Aden's {@item code cylinder|orcnogSW5e}, they can insert it in a port inside the turbolift, making the control computers helpful and gaining access to the command center on the second floor."
+								"This cluster of four standard turbolifts ferries troops and officers between the two floors of the prison facility. Unlike the rest of the computers in the facility, the computers that operate the turbolifts are hostile to anyone without a particular {@item code cylinder|orcnogSW5e}\u2014specifically, the one possessed by {@creature Lieutenant Aden|orcnogDoDEp1|Lieutenant Aden}. If the heroes have retrieved Aden's code cylinder, they can insert it in a port inside the turbolift, making the control computers helpful and gaining access to the command center on the second floor."
 							]
 						},
 						{
