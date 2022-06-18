@@ -658,11 +658,11 @@
 				"persuasion": "+5",
 				"sleight of hand": "+6",
                 "special": [
-                    "Mechanic's Kit +10 (expertise)",
-                    "Piloting +10 (expertise)",
-                    "Security Kit +10 (expertise)",
-                    "Slicer's Kit +10 (expertise)",
-                    "Technology +10 (expertise)"
+                    "{@skill Mechanic's Kit|orcnogSW5e|Mechanic's Kit} {@skillCheck Mechanic's_Kit 10} (expertise), ",
+                    "{@skill Piloting|orcnogSW5e|Piloting} {@skillCheck Piloting 10} (expertise), ",
+                    "{@skill Security Kit|orcnogSW5e|Security Kit} {@skillCheck Security_Kit 10} (expertise), ",
+                    "{@skill Slicer's Kit|orcnogSW5e|Slicer's Kit} {@skillCheck Slicer's_Kit 10} (expertise), ",
+                    "{@skill Technology|orcnogSW5e|Technology} {@skillCheck Technology 10} (expertise)"
                 ]
 			},
 			"passive": 14,
@@ -773,14 +773,16 @@
 			"cha": 8,
 			"skill": {
 				"investigation": "+6",
-				"lore": "+6",
 				"medicine": "+4",
 				"nature": "+6",
-				"mechanic'skit": "+6",
 				"perception": "+4",
-				"piloting": "+6",
-				"slicer'skit": "+6",
-				"technology+8": "(expertise)"
+                "special": [
+                    "{@skill Lore|orcnogSW5e|Lore} {@skillCheck Lore 6}, ",
+                    "{@skill Mechanic's Kit|orcnogSW5e|Mechanic's Kit} {@skillCheck Mechanic's_Kit 6}, ",
+                    "{@skill Piloting|orcnogSW5e|Piloting} {@skillCheck Piloting 6}, ",
+                    "{@skill Slicer's Kit|orcnogSW5e|Slicer's Kit} {@skillCheck Slicer's_Kit 6}, ",
+                    "{@skill Technology|orcnogSW5e|Technology} {@skillCheck Technology 8} (expertise)"
+                ]
 			},
 			"senses": [
 				"darkvision 30 ft."
@@ -1860,12 +1862,14 @@
 			},
 			"skill": {
 				"deception": "+11",
-				"Demolitions Kit": "+9",
 				"insight": "+11",
 				"investigation": "+13",
-				"lore": "+9",
 				"perception": "+16",
-				"persuasion": "+7"
+				"persuasion": "+7",
+                "special": [
+                    "{@skill Demolitions Kit|orcnogSW5e|Demolitions Kit} {@skillCheck Demolitions_Kit 9}, ",
+                    "{@skill Lore|orcnogSW5e|Lore} {@skillCheck Lore 9}"
+                ]
 			},
 			"passive": 26,
 			"languages": [
@@ -2268,7 +2272,7 @@
 									]
 								},
 								"The interior of the space station conforms to the Imperial standard. Since Sel Zonn Station orbits a Core World, it is far better maintained than other structures of its age, and the main areas see constant renovations and repairs. However, a few steps off of the beaten path quickly reveal that the station is rotting from the inside out. A short walk away from the main venues leads to decrepit sections of the station, filled with broken lights, tarnished metal walls, missing deck plates, and all manner of suspicious aliens that have been driven out of the nicer sections by the Empire.",
-								"Aboard Sel Zonn Station, all doors and walls are made of metal and conform to the standard statistics for objects. Slicing the station's central computer system has a DC of 27 and the computer will trace any failed slicing attempt to the terminal from which it was made. The station's information terminals can be found at regular intervals throughout public areas and in private rooms. These terminals can provide basic information on the layout and facilities of the station, but not much else. Each terminal is connected to the central computer system.",
+								"Aboard Sel Zonn Station, all doors and walls are made of metal and conform to the standard statistics for objects. {@skill Slicer's Kit|orcnogSW5e|Slicing} the station's central computer system has a DC of 27 and the computer will trace any failed slicing attempt to the terminal from which it was made. The station's information terminals can be found at regular intervals throughout public areas and in private rooms. These terminals can provide basic information on the layout and facilities of the station, but not much else. Each terminal is connected to the central computer system.",
 								"In addition to providing boarding and supply services, Sel Zonn Station is host to a number of businesses that cater specifically to travelers. All shopkeepers on Sel Zonn Station sell at the prices listed in the {@i Saga Edition Core Rulebook}. Almost all shops are located on the Promenade, though a few are off the beaten path. Some of the most popular establishments include:",
 								{
 									"type": "list",
@@ -2627,7 +2631,7 @@
 									"id": "Development",
 									"entries": [
 										"Switch is most grateful for the heroes' assistance in the fight. If they had not yet convinced the droid to turn over {@creature Maya|orcnogDoDEp1}'s cargo, he agrees to do so now (otherwise, he agrees to one of the auxiliary challenges free of charge). Additionally, if the heroes need medical attention, he promises to call in a favor with Dr. Fenn of Delgas Medical Supplies to get them treated free of charge.",
-										"If {@creature Switch|orcnogDoDEp1} does not survive the encounter, the heroes can learn the location of {@creature Maya|orcnogDoDEp1}'s cargo by slicing into the computer in his desk (DC 18).",
+										"If {@creature Switch|orcnogDoDEp1} does not survive the encounter, the heroes can learn the location of Maya's cargo by {@skill Slicer's Kit|orcnogSW5e|slicing} into the computer in his desk (DC 18).",
 										"When the encounter with {@creature Switch|orcnogDoDEp1} is concluded, the heroes can head to Blue Deck's main docking bay and retrieve the cargo."
 									]
 								}
@@ -3358,7 +3362,7 @@
 						"When the heroes arrive, they discover that the prison facility is a relatively squat, two-story building in characteristic Imperial style: gray walls with a slight outward slant, no visible windows, and a plain visage that leaves no room for accoutrements. The second story of the building is visibly smaller than the ground floor, and blinking lights line the top floor's edges. A large set of blast doors denotes the ground floor entry to the building, while a single gun turret (which appears to be an assault cannon built into the wall) juts out a few meters to the door's left. Otherwise, there are no other visible entrances or exits to the facility.",
 						"Stormtroopers stand guard at the facility's blast doors, while the low hum of speeder engines indicates that there might be scout troopers on patrol nearby. Additionally, any hero who succeeds on a DC 15 {@skill Perception} check hears heavy thudding sounds in the distance, along with the noises of plants being crushed, indicating the presence of a walker of some kind.",
 						"Fortunately for the heroes, their Felucian scout is aware of a secret entrance. He leads them to the northwest corner of the building, where a ventilation grate barely hangs on its bolts. With the right application of force (dealing at least 10 points of damage to the grate), it can be pried free, giving the heroes a way into the prison facility.",
-						"Within the facility, the heroes will find that everything follows the typical Imperial style, with standard metal walls (DT 10, 150 hp) and metal doors (DT 10, 50 hp). Additionally, the facility has a central computer system with a Slicing DC of 20 without the correct {@item code cylinder|orcnogSW5e}. All of the doors in the facility's interior are unlocked by default. However, the exterior blast doors are sealed from the inside. From the outside, the doors can be opened only by slicing the computer (using the terminal and scomp link that provides access to the computer).",
+						"Within the facility, the heroes will find that everything follows the typical Imperial style, with standard metal walls (DT 10, 150 hp) and metal doors (DT 10, 50 hp). Additionally, the facility has a central computer system with a {@skill Slicer's Kit|orcnogSW5e|Slicing} DC of 20 without the correct {@item code cylinder|orcnogSW5e}. All of the doors in the facility's interior are unlocked by default. However, the exterior blast doors are sealed from the inside. From the outside, the doors can be opened only by {@skill Slicer's Kit|orcnogSW5e|slicing} the computer (using the terminal and scomp link that provides access to the computer).",
 						"An overall map of the first floor appears below. Each detailed encounter in the facility also has its own map.",
 						{
 							"type": "image",

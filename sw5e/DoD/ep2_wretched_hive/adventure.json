@@ -110,12 +110,7 @@
 			"con": 14,
 			"int": 10,
 			"wis": 10,
-			"save": {},
-			"skill": {},
-			"senses": [],
 			"passive": 10,
-			"immune": [],
-			"conditionImmune": [],
 			"languages": [
 				"Galactic Basic"
 			],
@@ -580,9 +575,11 @@
 				"deception": "+8",
 				"insight": "+6",
 				"intimidate": "+12",
-				"lore": "+8",
 				"perception": "+6",
-				"persuasion": "+8"
+				"persuasion": "+8",
+                "special": [
+                    "{@skill Lore|Lore|orcnogSW5e} {@skillCheck Lore 8}"
+                ]
 			},
 			"passive": 16,
 			"resist": [
@@ -1674,9 +1671,11 @@
 			"skill": {
 				"acrobatics": "+7",
 				"insight": "+9",
-				"lore": "+8",
 				"medicine": "+8",
-				"perception": "+9"
+				"perception": "+9",
+                "special": [
+                    "{@skill Lore|Lore|orcnogSW5e} {@skillCheck Lore 8}"
+                ]
 			},
 			"passive": 21,
 			"languages": [
@@ -2024,10 +2023,10 @@
 				"dexterity": "+5"
 			},
 			"skill": {
-				"intimidate": "+4",
-				"survival": "+2",
-				"sensespassiveperception": "10"
-			},
+				"intimidation": "+4",
+				"survival": "+2"
+            },
+            "passive": 10,
 			"languages": [
 				"Galactic Basic",
 				"Dosh",
