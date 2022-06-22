@@ -306,7 +306,8 @@
 			"dmgType": "Lightning",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 9
+			"reload": 9,
+			"range": "60/240"
 		},
 		{
 			"name": "Afixed Rifle",
@@ -327,7 +328,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "90/360"
 		},
 		{
 			"name": "Alchemist's kit",
@@ -395,7 +397,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 2
+			"reload": 2,
+			"range": "180/720"
 		},
 		{
 			"name": "Anti-materiel Rifle",
@@ -416,7 +419,8 @@
 			"dmgType": "Kinetic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 2
+			"reload": 2,
+			"range": "180/720"
 		},
 		{
 			"name": "Antitoxkit",
@@ -609,7 +613,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 4
+			"reload": 4,
+			"range": "90/360"
 		},
 		{
 			"name": "Astrotech's implements",
@@ -670,7 +675,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 2
+			"reload": 2,
+			"range": "120/480"
 		},
 		{
 			"name": "Backpack",
@@ -744,7 +750,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 2
+			"reload": 2,
+			"range": "150/600"
 		},
 		{
 			"name": "Bedroll",
@@ -878,7 +885,8 @@
 			"dmg1": "2d6",
 			"dmgType": "Energy",
 			"firearm": true,
-			"ammoType": "energy cell"
+			"ammoType": "energy cell",
+			"range": "120/480"
 		},
 		{
 			"name": "Blaster carbine",
@@ -899,7 +907,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 16
+			"reload": 16,
+			"range": "70/280"
 		},
 		{
 			"name": "Blaster pistol",
@@ -919,7 +928,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 16
+			"reload": 16,
+			"range": "50/200"
 		},
 		{
 			"name": "Blaster rifle",
@@ -940,7 +950,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 12
+			"reload": 12,
+			"range": "105/420"
 		},
 		{
 			"name": "Blight-saber",
@@ -964,12 +975,14 @@
 			"name": "Bo-rifle",
 			"source": "orcnogSW5e",
 			"page": 0,
-			"type": "M",
+			"type": "R",
 			"rarity": "none",
 			"age": "futuristic",
 			"value": 10750,
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"firearm": true,
+			"ammoType": "energy cell"
 		},
 		{
 			"name": "Bolas",
@@ -1071,7 +1084,8 @@
 			"weaponCategory": "Martial",
 			"firearm": true,
 			"ammoType": "crossbow bolts|phb",
-			"reload": 1
+			"reload": 1,
+			"range": "90/360"
 		},
 		{
 			"name": "Bone light shield",
@@ -1119,7 +1133,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 4
+			"reload": 4,
+			"range": "50/200"
 		},
 		{
 			"name": "Brewer's kit",
@@ -1243,7 +1258,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 12
+			"reload": 12,
+			"range": "90/360"
 		},
 		{
 			"name": "Cesta",
@@ -1323,7 +1339,8 @@
 			"dmgType": "Kinetic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "80/320"
 		},
 		{
 			"name": "Chakram",
@@ -1618,7 +1635,8 @@
 			"dmg1": "1d8",
 			"dmgType": "Kinetic",
 			"firearm": true,
-			"ammoType": "arrow|phb"
+			"ammoType": "arrow|phb",
+			"range": "75/300"
 		},
 		{
 			"name": "Computer spike",
@@ -1754,7 +1772,8 @@
 			"dmgType": "Cold",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 4
+			"reload": 4,
+			"range": "75/300"
 		},
 		{
 			"name": "Cryo Rifle",
@@ -1775,7 +1794,8 @@
 			"dmgType": "Cold",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 4
+			"reload": 4,
+			"range": "50/200"
 		},
 		{
 			"name": "Cryo carbine",
@@ -1796,7 +1816,8 @@
 			"dmgType": "Cold",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 12
+			"reload": 12,
+			"range": "45/180"
 		},
 		{
 			"name": "Cryo cell",
@@ -1832,7 +1853,8 @@
 			"dmgType": "Cold",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "30/120"
 		},
 		{
 			"name": "Crystadium medium shield",
@@ -1876,7 +1898,8 @@
 			"dmgType": "Kinetic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "90/360"
 		},
 		{
 			"name": "Dart",
@@ -2111,7 +2134,8 @@
 			"dmgType": "Acid",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "60/240"
 		},
 		{
 			"name": "Disruptor pistol",
@@ -2131,7 +2155,8 @@
 			"dmgType": "Acid",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 12
+			"reload": 12,
+			"range": "45/180"
 		},
 		{
 			"name": "Disruptor rifle",
@@ -2152,7 +2177,8 @@
 			"dmgType": "Acid",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 4
+			"reload": 4,
+			"range": "60/240"
 		},
 		{
 			"name": "Disruptor sniper",
@@ -2173,7 +2199,8 @@
 			"dmgType": "Acid",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 2
+			"reload": 2,
+			"range": "120/480"
 		},
 		{
 			"name": "Disruptorshiv",
@@ -2606,7 +2633,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 4
+			"reload": 4,
+			"range": "80/320"
 		},
 		{
 			"name": "Energy slingshot",
@@ -2627,7 +2655,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 20
+			"reload": 20,
+			"range": "20/80"
 		},
 		{
 			"name": "Enviro-suit",
@@ -3118,7 +3147,8 @@
 			"weaponCategory": "Martial",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 16
+			"reload": 16,
+			"range": "90/360"
 		},
 		{
 			"name": "Grenade, corrosive",
@@ -3312,7 +3342,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 4
+			"reload": 4,
+			"range": "50/200"
 		},
 		{
 			"name": "Hand blaster",
@@ -3333,7 +3364,8 @@
 			"dmgType": "Kinetic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "40/160"
 		},
 		{
 			"name": "Hand cannon",
@@ -3354,7 +3386,8 @@
 			"dmgType": "Kinetic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "25/100"
 		},
 		{
 			"name": "Hand prosthesis",
@@ -3410,7 +3443,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "100/400"
 		},
 		{
 			"name": "Heavy bowcaster",
@@ -3432,7 +3466,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 4
+			"reload": 4,
+			"range": "90/360"
 		},
 		{
 			"name": "Heavy carbine",
@@ -3452,7 +3487,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 16
+			"reload": 16,
+			"range": "60/240"
 		},
 		{
 			"name": "Heavy exoskeleton",
@@ -3503,7 +3539,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 16
+			"reload": 16,
+			"range": "45/180"
 		},
 		{
 			"name": "Heavy repeater",
@@ -3525,7 +3562,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "80/320"
 		},
 		{
 			"name": "Heavy shield generator",
@@ -3561,7 +3599,8 @@
 			"dmgType": "Kinetic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "60/240"
 		},
 		{
 			"name": "Heavy slugpistol",
@@ -3581,7 +3620,8 @@
 			"dmgType": "Kinetic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 12
+			"reload": 12,
+			"range": "30/120"
 		},
 		{
 			"name": "Hidden blade",
@@ -3620,7 +3660,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "30/120"
 		},
 		{
 			"name": "Holocomm",
@@ -3749,7 +3790,8 @@
 			"dmgType": "Kinetic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 4
+			"reload": 4,
+			"range": "125/500"
 		},
 		{
 			"name": "Hydrospanner",
@@ -3810,7 +3852,8 @@
 			"dmgType": "Fire",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 12
+			"reload": 12,
+			"range": "60/240"
 		},
 		{
 			"name": "Incinerator pistol",
@@ -3830,7 +3873,8 @@
 			"dmgType": "Fire",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 16
+			"reload": 16,
+			"range": "40/160"
 		},
 		{
 			"name": "Incinerator rifle",
@@ -3851,7 +3895,8 @@
 			"dmgType": "Fire",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "80/320"
 		},
 		{
 			"name": "Incinerator sniper",
@@ -3872,7 +3917,8 @@
 			"dmgType": "Fire",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 2
+			"reload": 2,
+			"range": "120/480"
 		},
 		{
 			"name": "Ion cannon",
@@ -3894,7 +3940,8 @@
 			"dmgType": "Ion",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 4
+			"reload": 4,
+			"range": "90/360"
 		},
 		{
 			"name": "Ion carbine",
@@ -3915,7 +3962,8 @@
 			"dmgType": "Ion",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 16
+			"reload": 16,
+			"range": "60/240"
 		},
 		{
 			"name": "Ion pistol",
@@ -3935,7 +3983,8 @@
 			"dmgType": "Ion",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 16
+			"reload": 16,
+			"range": "40/160"
 		},
 		{
 			"name": "Ion rifle",
@@ -3956,7 +4005,8 @@
 			"dmgType": "Ion",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "80/320"
 		},
 		{
 			"name": "Jagged vibroblade",
@@ -4097,7 +4147,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "40/160"
 		},
 		{
 			"name": "Light repeater",
@@ -4118,7 +4169,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 20
+			"reload": 20,
+			"range": "50/200"
 		},
 		{
 			"name": "Light shield generator",
@@ -4152,7 +4204,8 @@
 			"dmgType": "Kinetic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "35/140"
 		},
 		{
 			"name": "Light-axe",
@@ -4400,7 +4453,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 2
+			"reload": 2,
+			"range": "60/240"
 		},
 		{
 			"name": "Lightning Cannon",
@@ -4424,7 +4478,8 @@
 			"dmgType": "Lightning",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 4
+			"reload": 4,
+			"range": "90/360"
 		},
 		{
 			"name": "Lightning Rifle",
@@ -4448,7 +4503,8 @@
 			"dmgType": "Lightning",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "60/240"
 		},
 		{
 			"name": "Lightning carbine",
@@ -4469,7 +4525,8 @@
 			"dmgType": "Lightning",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 12
+			"reload": 12,
+			"range": "60/240"
 		},
 		{
 			"name": "Lightning pistol",
@@ -4489,7 +4546,8 @@
 			"dmgType": "Lightning",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 16
+			"reload": 16,
+			"range": "30/120"
 		},
 		{
 			"name": "Lightsaber",
@@ -4599,7 +4657,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "125/500"
 		},
 		{
 			"name": "Martial lightsaber",
@@ -4936,7 +4995,8 @@
 			"weaponCategory": "Martial",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 1
+			"reload": 1,
+			"range": "150/600"
 		},
 		{
 			"name": "Mummergy",
@@ -4995,7 +5055,8 @@
 			"dmg1": "1d4",
 			"dmgType": "Kinetic",
 			"firearm": true,
-			"ammoType": "energy cell"
+			"ammoType": "energy cell",
+			"range": "30/160"
 		},
 		{
 			"name": "Nerve-baton",
@@ -5082,7 +5143,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 2
+			"reload": 2,
+			"range": "125/500"
 		},
 		{
 			"name": "Novanian grog",
@@ -5526,7 +5588,8 @@
 			"dmgType": "Necrotic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 4
+			"reload": 4,
+			"range": "75/300"
 		},
 		{
 			"name": "Radrifle",
@@ -5548,7 +5611,8 @@
 			"dmgType": "Necrotic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "120/480"
 		},
 		{
 			"name": "Railgun",
@@ -5569,7 +5633,8 @@
 			"dmgType": "Kinetic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 2
+			"reload": 2,
+			"range": "150/600"
 		},
 		{
 			"name": "Ram, portable",
@@ -5630,7 +5695,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "75/300"
 		},
 		{
 			"name": "Repelling wristpad",
@@ -5723,7 +5789,8 @@
 			"dmgType": "Kinetic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "60/240"
 		},
 		{
 			"name": "Riot baton",
@@ -5780,7 +5847,8 @@
 			"weaponCategory": "Martial",
 			"firearm": true,
 			"ammoType": "rockets",
-			"reload": 1
+			"reload": 1,
+			"range": "150/600"
 		},
 		{
 			"name": "Rocket Rifle",
@@ -5802,7 +5870,8 @@
 			"weaponCategory": "Martial",
 			"firearm": true,
 			"ammoType": "small missiles",
-			"reload": 6
+			"reload": 6,
+			"range": "60/240"
 		},
 		{
 			"name": "Rocket boots",
@@ -5897,7 +5966,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "75/300"
 		},
 		{
 			"name": "Sabacc deck",
@@ -6038,7 +6108,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 12
+			"reload": 12,
+			"range": "40/160"
 		},
 		{
 			"name": "Scattergun",
@@ -6059,7 +6130,8 @@
 			"dmgType": "Kinetic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "30/120"
 		},
 		{
 			"name": "Scavenging kit",
@@ -6119,7 +6191,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 4
+			"reload": 4,
+			"range": "120/480"
 		},
 		{
 			"name": "Shatter Cannon",
@@ -6141,7 +6214,8 @@
 			"dmgType": "Kinetic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "75/300"
 		},
 		{
 			"name": "Shatter Rifle",
@@ -6162,7 +6236,8 @@
 			"dmgType": "Kinetic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "100/400"
 		},
 		{
 			"name": "Shatter pistol",
@@ -6183,7 +6258,8 @@
 			"dmgType": "Kinetic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 12
+			"reload": 12,
+			"range": "60/240"
 		},
 		{
 			"name": "Shawm",
@@ -6245,7 +6321,8 @@
 			"dmg1": "1d6",
 			"dmgType": "Kinetic",
 			"firearm": true,
-			"ammoType": "arrow|phb"
+			"ammoType": "arrow|phb",
+			"range": "60/240"
 		},
 		{
 			"name": "Shotgun",
@@ -6267,7 +6344,8 @@
 			"dmgType": "Kinetic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 4
+			"reload": 4,
+			"range": "30/120"
 		},
 		{
 			"name": "Shotosaber",
@@ -6309,7 +6387,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 16
+			"reload": 16,
+			"range": "40/160"
 		},
 		{
 			"name": "Shoulder Cannon",
@@ -6334,7 +6413,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "60/240"
 		},
 		{
 			"name": "Shovel",
@@ -6437,7 +6517,8 @@
 			"dmgType": "Kinetic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 16
+			"reload": 16,
+			"range": "40/160"
 		},
 		{
 			"name": "Slugthrower",
@@ -6458,7 +6539,8 @@
 			"dmgType": "Kinetic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 12
+			"reload": 12,
+			"range": "105/420"
 		},
 		{
 			"name": "Smart Cannon",
@@ -6480,7 +6562,8 @@
 			"dmgType": "Kinetic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 4
+			"reload": 4,
+			"range": "75/300"
 		},
 		{
 			"name": "Smart Pistol",
@@ -6500,7 +6583,8 @@
 			"dmgType": "Kinetic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 16
+			"reload": 16,
+			"range": "40/160"
 		},
 		{
 			"name": "Smugglepack",
@@ -6549,7 +6633,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 2
+			"reload": 2,
+			"range": "150/600"
 		},
 		{
 			"name": "Sonic Cannon",
@@ -6571,7 +6656,8 @@
 			"dmgType": "Sonic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 4
+			"reload": 4,
+			"range": "90/360"
 		},
 		{
 			"name": "Sonic Rifle",
@@ -6592,7 +6678,8 @@
 			"dmgType": "Sonic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "80/320"
 		},
 		{
 			"name": "Sonic carbine",
@@ -6612,7 +6699,8 @@
 			"dmgType": "Sonic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 12
+			"reload": 12,
+			"range": "60/240"
 		},
 		{
 			"name": "Sonic pistol",
@@ -6632,7 +6720,8 @@
 			"dmgType": "Sonic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 16
+			"reload": 16,
+			"range": "30/120"
 		},
 		{
 			"name": "Spicebrew",
@@ -6692,7 +6781,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 16
+			"reload": 16,
+			"range": "70/280"
 		},
 		{
 			"name": "Stealth field generator",
@@ -6753,7 +6843,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 16
+			"reload": 16,
+			"range": "30/120"
 		},
 		{
 			"name": "Sunsaber",
@@ -6815,7 +6906,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 4
+			"reload": 4,
+			"range": "100/400"
 		},
 		{
 			"name": "Switch Rifle",
@@ -6836,7 +6928,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "105/420"
 		},
 		{
 			"name": "Switch Sniper",
@@ -6857,7 +6950,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 12
+			"reload": 12,
+			"range": "150/600"
 		},
 		{
 			"name": "Switch carbine",
@@ -6878,7 +6972,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 16
+			"reload": 16,
+			"range": "70/280"
 		},
 		{
 			"name": "Switch pistol",
@@ -6898,7 +6993,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 20
+			"reload": 20,
+			"range": "40/160"
 		},
 		{
 			"name": "Synthweaver's implements",
@@ -7049,7 +7145,8 @@
 			"weaponCategory": "Martial",
 			"firearm": true,
 			"ammoType": "torpedoes",
-			"reload": 1
+			"reload": 1,
+			"range": "1200/3600"
 		},
 		{
 			"name": "Torpedo, fragmentation",
@@ -7121,7 +7218,8 @@
 			"dmgType": "Kinetic",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 4
+			"reload": 4,
+			"range": "60/240"
 		},
 		{
 			"name": "Trapper's kit",
@@ -7895,7 +7993,8 @@
 			"weaponCategory": "Simple",
 			"firearm": true,
 			"ammoType": "darts, small missiles, or specialized canisters",
-			"reload": 1
+			"reload": 1,
+			"range": "30/120"
 		},
 		{
 			"name": "Wrist-saber",
@@ -7951,7 +8050,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 8
+			"reload": 8,
+			"range": "30/120"
 		},
 		{
 			"name": "Wristpad",
@@ -7984,7 +8084,8 @@
 			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 12
+			"reload": 12,
+			"range": "60/240"
 		},
 		{
 			"name": "Writer's implements",
