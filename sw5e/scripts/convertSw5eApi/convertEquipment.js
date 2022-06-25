@@ -45,29 +45,21 @@ const equipmentConfig = {
                 "rarity": "none",
                 "age": "futuristic"
             };
-            if (obj.cost) {
-                ret.value = parseInt(obj.cost) * 10;
-            }
-            if (obj.weight && parseFloat(obj.weight) > 0) {
-                ret.weight = parseFloat(obj.weight);
-            }
-            if (obj.description) {
-                ret.entries = [
-                    obj.description || ""
-                ]
-            }
-            const props = getItemProperty(obj);
-            if (props && props.length > 0) {
-                ret.property = props;
-            }
+            ret.value = obj.cost ? parseInt(obj.cost) * 10 : undefined;
+            ret.weight = obj.weight && parseFloat(obj.weight) > 0 ? ret.weight = parseFloat(obj.weight) : undefined;
+            ret.entries = obj.description ? [obj.description] : undefined;
+            ret.property = getItemProperty(obj);
+            ret.foundryType = getItemType(obj, true);
             // Weapons
             if (ret.type === "M" || ret.type === "R") {
                 ret.weapon = true;
                 ret.weaponCategory = obj.weaponClassification.indexOf("Martial") > -1 ? "Martial" : "Simple";
+                // has damage
                 if (obj.damageNumberOfDice && obj.damageDieType && obj.damageType) {
                     ret.dmg1 = obj.damageNumberOfDice + "d" + obj.damageDieType + (obj.damageDieModifier !== 0 ? " + " + damageDieModifier : "");
                     ret.dmgType = obj.damageType;
                 }
+                // is versatile
                 if ("Versatile" in obj.propertiesMap) {
                     ret.dmg2 = obj.propertiesMap.Versatile.split(/[()]/)[1]; // get the value between parentheses, ex: 1d10
                 }
@@ -104,27 +96,13 @@ const equipmentConfig = {
             }
             return ret;
 
-            function getItemType(o) {
-                // API item types:
-                //	1: Ammunition 				=> AF
-                //	2: Explosive				=> EXP
-                //	3: Weapon					=> M or R
-                //	4: Armor					=> HA, MA, LA, or S
-                //	5: Storage					=> G
-                //	7: Communications			=> G
-                //	8: DataRecordingAndStorage	=> G
-                //	9: LifeSupport				=> G
-                //	10: Medical					=> G
-                //	11: WeaponOrArmorAccessory	=> G
-                //	12: Tool					=> AT
-                //	16: Utility					=> G
-                //	17: GamingSet				=> GS
-                //	18: MusicalInstrument		=> INS
-                //	20: Clothing				=> G
-                //	21: Kit						=> T
-                //	22: AlcoholicBeverage		=> FD
-                //	23: Spice					=> OTH
-
+            /**
+             * @function
+             * @param {Object} o entity object to parse 
+             * @param {Boolean} foundry if true, return the 5etools "foundryType". default is False: return the 5etools "type"
+             * @returns {String}
+             */
+            function getItemType(o, foundry) {
                 // 5eTools item types:
                 // $: Treasure
                 // A: Ammunition
@@ -158,31 +136,57 @@ const equipmentConfig = {
                 // TG: Trade Good
                 // VEH: Vehicle (land)
                 // WD: Wand
-                const itemtype = o.equipmentCategoryEnum === 1 ? "AF" :
-                    o.equipmentCategoryEnum === 2 ? "EXP" :
+
+                // API item types:
+                //	1: Ammunition 				=> AF
+                //	2: Explosive				=> EXP
+                //	3: Weapon					=> M or R
+                //	4: Armor					=> HA, MA, LA, or S
+                //	5: Storage					=> G
+                //	7: Communications			=> G
+                //	8: DataRecordingAndStorage	=> G
+                //	9: LifeSupport				=> G
+                //	10: Medical					=> G
+                //	11: WeaponOrArmorAccessory	=> G
+                //	12: Tool					=> AT
+                //	16: Utility					=> G
+                //	17: GamingSet				=> GS
+                //	18: MusicalInstrument		=> INS
+                //	20: Clothing				=> G
+                //	21: Kit						=> T
+                //	22: AlcoholicBeverage		=> FD
+                //	23: Spice					=> OTH
+
+                const itemTypeStr = o.equipmentCategoryEnum === 1 ? "AF|consumable" :
+                    o.equipmentCategoryEnum === 2 ? "EXP|consumable" :
                     o.equipmentCategoryEnum === 3 ? (
-                    o.weaponClassification.indexOf("Blaster") > -1 ? "R" :
-                        o.weaponClassification.indexOf("Blaster") == -1 ? "M" : "") :
+                    o.weaponClassification.indexOf("Blaster") > -1 ? "R|weapon" :
+                        o.weaponClassification.indexOf("Blaster") == -1 ? "M|weapon" : "") :
                     o.equipmentCategoryEnum === 4 ? (
-                        o.armorClassification.indexOf("Heavy") > -1 ? "HA" :
-                        o.armorClassification.indexOf("Medium") > -1 ? "MA" :
-                        o.armorClassification.indexOf("Light") > -1 ? "LA" :
-                        o.armorClassification.indexOf("Shield") > -1 ? "S" : "") :
-                    o.equipmentCategoryEnum === 5 ? "G" :
-                    o.equipmentCategoryEnum === 7 ? "G" :
-                    o.equipmentCategoryEnum === 8 ? "G" :
-                    o.equipmentCategoryEnum === 9 ? "G" :
-                    o.equipmentCategoryEnum === 10 ? "G" :
-                    o.equipmentCategoryEnum === 11 ? "G" :
-                    o.equipmentCategoryEnum === 12 ? "AT" :
-                    o.equipmentCategoryEnum === 16 ? "G" :
-                    o.equipmentCategoryEnum === 17 ? "GS" :
-                    o.equipmentCategoryEnum === 18 ? "INS" :
-                    o.equipmentCategoryEnum === 20 ? "G" :
-                    o.equipmentCategoryEnum === 21 ? "T" :
-                    o.equipmentCategoryEnum === 22 ? "FD" :
-                    o.equipmentCategoryEnum === 23 ? "OTH" : "";
-                return itemtype;
+                        o.armorClassification.indexOf("Heavy") > -1 ? "HA|armor" :
+                        o.armorClassification.indexOf("Medium") > -1 ? "MA|armor" :
+                        o.armorClassification.indexOf("Light") > -1 ? "LA|armor" :
+                        o.armorClassification.indexOf("Shield") > -1 ? "S|armor" : "") :
+                    o.equipmentCategoryEnum === 5 ? "G|backpack" :
+                    o.equipmentCategoryEnum === 7 ? "G|equipment" :
+                    o.equipmentCategoryEnum === 8 ? "G|equipment" :
+                    o.equipmentCategoryEnum === 9 ? "G|equipment" :
+                    o.equipmentCategoryEnum === 10 ? "G|consumable" :
+                    o.equipmentCategoryEnum === 11 ? "G|equipment" :
+                    o.equipmentCategoryEnum === 12 ? "AT|tool" :
+                    o.equipmentCategoryEnum === 16 ? "G|equipment" :
+                    o.equipmentCategoryEnum === 17 ? "GS|equipment" :
+                    o.equipmentCategoryEnum === 18 ? "INS|equipment" :
+                    o.equipmentCategoryEnum === 20 ? "G|equipment" :
+                    o.equipmentCategoryEnum === 21 ? "T|consumable" :
+                    o.equipmentCategoryEnum === 22 ? "FD|consumable" :
+                    o.equipmentCategoryEnum === 23 ? "OTH|consumable" : "";
+                if (itemTypeStr.length > 0) {
+                    const itemType = itemTypeStr.split('|')[0];
+                    const foundryType = itemTypeStr.split('|')[1];
+                    return foundry ? foundryType : itemType;
+                }
+                return undefined;
             }
 
             function getItemProperty(o) {
@@ -241,7 +245,7 @@ const equipmentConfig = {
                         property.push("V");
                     }
                 }
-                return property;
+                return property.length > 0 ? property : undefined;
             }
         }
     },
