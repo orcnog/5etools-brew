@@ -42,59 +42,131 @@ const equipmentConfig = {
                 "source": sourceString,
                 "page": 0,
                 "type": getItemType(obj),
-                "rarity": "none",
+                "rarity": getItemRarity(obj),
                 "age": "futuristic"
             };
             ret.value = obj.cost ? parseInt(obj.cost) * 10 : undefined;
             ret.weight = obj.weight && parseFloat(obj.weight) > 0 ? ret.weight = parseFloat(obj.weight) : undefined;
-            ret.entries = obj.description ? [obj.description] : undefined;
+            ret.entries = getItemEntries(obj);
             ret.property = getItemProperty(obj);
             ret.foundryType = getItemType(obj, true);
+            ret.reqAttune = undefined;
+
+            // TODO: ret.reqAttune // String like "by a cleric or paladin of good alignment"
+            // TODO: ret.reqAttuneAlt // String OR Boolean. Used for filtering.
+            // TODO: ret.reqAttuneTags // Array of objects (see D:\Development\5etools-mirror-1.github.io\test\schema\items.json)
+            // TODO: ret.recharge // String like "dawn"
+            // TODO: ret.charges // Integer
+
+            // TODO: ret.baseItem // String, ID of an existing item?
+            // TODO: ret.valueMult // Number
+            // TODO: ret.weightMult // Number
+            // TODO: ret.wondrous // Boolean
+            // TODO: ret.tier // String like "major"
+            // TODO: ret.ammunition // Boolean. An item that uses ammunition; not an item that is ammunition.
+			// TODO: ret.poison // Boolean
+			// TODO: ret.poisonTypes // Array of strings (enum: "contact","ingested","injury","inhaled")
+			// TODO: ret.tatoo // Boolean
+			// TODO: ret.curse // Boolean
+			// TODO: ret.sentient // Boolean
+			// TODO: ret.vulnerable // Array (see D:\Development\5etools-mirror-1.github.io\test\schema\items.json)
+			// TODO: ret.immune // Array (see D:\Development\5etools-mirror-1.github.io\test\schema\items.json)
+			// TODO: ret.conditionImmune // Array (see D:\Development\5etools-mirror-1.github.io\test\schema\items.json)
+			// TODO: ret.bonusSpellAttack // String like "+2"
+			// TODO: ret.bonusSpellSaveDc // String like "+2"
+			// TODO: ret.bonusSpellDamage // String like "+2"
+			// TODO: ret.bonusSavingThrow // String like "+1"
+			// TODO: ret.bonusAbilityCheck // String like "+1"
+			// TODO: ret.bonusProficiencyBonus // String like "+1"
+			// TODO: ret.bonusAc // String like "+1"
+			// TODO: ret.bonusWeapon // String like "+3"
+			// TODO: ret.bonusWeaponAttack // String like "+3"
+			// TODO: ret.bonusWeaponDamage // String like "+2"
+			// TODO: ret.bonusWeaponCritDamage // String like "4d6"
+			// TODO: ret.critThreshold // Integer. Ex: 19
+			// TODO: ret.modifySpeed // Ex: {"equal":{"swim:"walk"}}, Ex2: "bonus":{"*":5}, Ex3: {"multiply":{"walk":2}}, Ex4: {"static":{"fly":150}}
+            // TODO: ret.focus // Boolean, OR Array with class names. Ex: ["Druid","Warlock"]
+            // TODO: ret.scfType // String enum "arcane","druid","holy"
+            // TODO: ret.packContents // Array of item name strings, or objects (see D:\Development\5etools-mirror-1.github.io\data\items.json)
+            // TODO: ret.containerCapacity // Complex object. Ex: {"weight":[6],"item":[{"sling bullet|phb":20,"blowgun needle|phb":50}],"weightless":true}
+            // TODO: ret.atomicPackContents // Boolean. If the item's pack contents should be treated as one atomic unit, rather than handled as individual sub-items.
+            // TODO: ret.carryingCapacity // Integer. Of a mount/beast, not a container.
+            // TODO: ret.resist // Array of damage type strings Ex: ["lightning"]
+            // TODO: ret.grantsProficiency // Boolean
+            // TODO: ret.ability // Object with ability abbrevs. and int value, maybe wrapped with "static". Ex: {"str":2}, Ex 2: {"static": {"str": 21}}
+            // TODO: ret.attachedSpells // Array of spell name strings. Ex: ["reincarnate"]
+            // TODO: ret.spellScrollLevel // Integer
+            // TODO: ret.additionalEntries // complex object (see D:\Development\5etools-mirror-1.github.io\data\items.json)
+            // TODO: ret.detail1 // String. A descriptive field that can be used to complete entries in variants.
+            // TODO: ret.dexterityMax // not sure if i need this?  Max dex for medium armor
+            // TODO: ret.typeAlt // not sure if i need this?
+            // MAYBE TODO: Vehicles as Items...
+            // Veh TODO: "crew": 1
+            // Veh TODO: "crewMax": 13
+            // Veh TODO: "crewMin": 3
+			// Veh TODO: "vehAc": 11
+			// Veh TODO: "vehHp": 50
+            // Veh TODO: "vehDmgThresh": 15
+			// Veh TODO: "vehSpeed": 1.5
+			// Veh TODO: "capPassenger": 3
+			// Veh TODO: "capCargo": 100,
+			// Veh TODO: "travelCost": 100, // in copper pieces per mi. per passenger
+			// Veh TODO: "shippingCost": 10, // in copper pieces per 100 lbs. per mi.
+			// Veh TODO: "seeAlsoVehicle": ["Sailing Ship"]
+
             // Weapons
             if (ret.type === "M" || ret.type === "R") {
                 ret.weapon = true;
-                ret.weaponCategory = obj.weaponClassification.indexOf("Martial") > -1 ? "Martial" : "Simple";
+                ret.weaponCategory = obj.weaponClassification && obj.weaponClassification.indexOf("Martial") > -1 ? "Martial" : "Simple";
                 // has damage
                 if (obj.damageNumberOfDice && obj.damageDieType && obj.damageType) {
                     ret.dmg1 = obj.damageNumberOfDice + "d" + obj.damageDieType + (obj.damageDieModifier !== 0 ? " + " + damageDieModifier : "");
                     ret.dmgType = obj.damageType;
                 }
                 // is versatile
-                if ("Versatile" in obj.propertiesMap) {
+                if (obj.propertiesMap && "Versatile" in obj.propertiesMap) {
                     ret.dmg2 = obj.propertiesMap.Versatile.split(/[()]/)[1]; // get the value between parentheses, ex: 1d10
                 }
                 // Ranged Weapons
                 if (ret.type === "R") {
                     ret.firearm = true;
-                    ret.ammoType = "energy cell"; // possible values: "energy cell", "modern bullet", "blowgun needle|phb", "crossbow bolt|phb", "arrow|phb", "renaissance bullet", "sling bullet|phb"
-                    var matchAlternativeAmmo = new RegExp(/[Rr]ather than traditional power cells.*?in the form of (.*?)\./);
-                    if (typeof obj.description === "string") {
-                        var match = obj.description.match(matchAlternativeAmmo);
-                        if (match && match.length > 0) {
-                            ret.ammoType = obj.description.match(matchAlternativeAmmo)[1];
-                            ret.ammoType = ret.ammoType === "arrows" ? "arrow|phb" : ret.ammoType === "bolts" ? "crossbow bolts|phb" : ret.ammoType.indexOf("slug") > -1 ? 'modern bullet' : ret.ammoType;
-                        }
-                    }
-                    if (obj.propertiesMap) {
-                        Object.values(obj.propertiesMap).forEach((v) => {
-                            if (v.search(/\(range \d/g) > -1) {
-                                ret.range = (v.match(/[\d/]+/g)).join(); // filter out everything but digits and "/". Ex: "Power Cell (range 20/40)"" becomes "20/40"
-                            }
-                        });
-                    }
-                    if (obj.propertiesMap["Reload"]) {
+                    ret.ammoType = getAmmo(obj);
+                    if (obj.propertiesMap && "Reload" in obj.propertiesMa) {
                         ret.reload = parseInt(obj.propertiesMap.Reload.split(" ")[1]); // Ex: "reload 6" returns 6
                     }
                 }
             }
+            ret.range = getRange(obj);
+
             // Armor
             if (["HA", "MA", "LA", "S"].indexOf(ret.type) > -1) {
                 ret.armor = true;
-                ret.ac = obj.ac.match(/\d+/g)[0]; // Get only the AC number. Ex: filters "12 + Dex modifier (Max: 2)" to just "12".
-                ret.stealth = obj.stealthDisadvantage;
-                ret.strength = "Strength" in obj.propertiesMap ? parseInt(obj.propertiesMap.Strength.split(" ")[1]) : null; // Ex: "strength 11" returns 11
             }
+            ret.ac = 'ac' in obj ? obj.ac.match(/\d+/g)[0] : undefined; // Get only the AC number. Ex: filters "12 + Dex modifier (Max: 2)" to just "12".
+            ret.stealth = 'stealthDisadvantage' in obj ? obj.stealthDisadvantage : undefined;
+            ret.strength = obj.propertiesMap && "Strength" in obj.propertiesMap ? parseInt(obj.propertiesMap.Strength.split(" ")[1]) : undefined; // Ex: "strength 11" returns 11
             return ret;
+            
+            function getItemEntries(o) {
+                let description;
+                if ('description' in o) {
+                    description = [o.description]
+                } else if ('text' in o) {
+                    let txt = o.text;
+                    txt = txt.replace('_**Requires attunement**_\r\n', '');
+                    txt = txt.replace('\r\n', ' ');
+                    txt = txt.replace('\r', ' ');
+                    txt = txt.replace('\n', ' ');
+                    const bold = /\*\*(.*?)\*\*/gm;
+                    txt = txt.replace(bold, '\{@b $1\}');
+                    const italic1 = /\*(.*?)\*/gm;
+                    const italic2 = /_(.*?)_/gm;
+                    txt = txt.replace(italic1, '\{@i $1\}');
+                    txt = txt.replace(italic2, '\{@i $1\}');
+                    description = [txt];
+                }
+                return description || undefined;
+            }
 
             /**
              * @function
@@ -103,6 +175,8 @@ const equipmentConfig = {
              * @returns {String}
              */
             function getItemType(o, foundry) {
+                // Mapping Notes
+
                 // 5eTools item types:
                 // $: Treasure
                 // A: Ammunition
@@ -137,25 +211,40 @@ const equipmentConfig = {
                 // VEH: Vehicle (land)
                 // WD: Wand
 
-                // API item types:
-                //	1: Ammunition 				=> AF
-                //	2: Explosive				=> EXP
-                //	3: Weapon					=> M or R
-                //	4: Armor					=> HA, MA, LA, or S
-                //	5: Storage					=> G
-                //	7: Communications			=> G
-                //	8: DataRecordingAndStorage	=> G
-                //	9: LifeSupport				=> G
-                //	10: Medical					=> G
-                //	11: WeaponOrArmorAccessory	=> G
-                //	12: Tool					=> AT
-                //	16: Utility					=> G
-                //	17: GamingSet				=> GS
-                //	18: MusicalInstrument		=> INS
-                //	20: Clothing				=> G
-                //	21: Kit						=> T
-                //	22: AlcoholicBeverage		=> FD
-                //	23: Spice					=> OTH
+                // API equipment types:
+                //	1: Ammunition 				=> AF|consumable
+                //	2: Explosive				=> EXP|consumable
+                //	3: Weapon					=> M or R |weapon
+                //	4: Armor					=> HA, MA, LA, or S |armor
+                //	5: Storage					=> G|backpack
+                //	7: Communications			=> G|equipment
+                //	8: DataRecordingAndStorage	=> G|equipment
+                //	9: LifeSupport				=> G|equipment
+                //	10: Medical					=> G|consumable
+                //	11: WeaponOrArmorAccessory	=> G|equipment
+                //	12: Tool					=> AT|tool
+                //	16: Utility					=> G|equipment
+                //	17: GamingSet				=> GS|equipment
+                //	18: MusicalInstrument		=> INS|equipment
+                //	20: Clothing				=> G|equipment
+                //	21: Kit						=> T|consumable
+                //	22: AlcoholicBeverage		=> FD|consumable
+                //	23: Spice					=> OTH|consumable
+
+                // API enhancedItem types:
+                //	1: AdventuringGear			=> G|equipment
+                //	2: Armor    				=> G|equipment // TODO: convert generic variants to "GV" (ex: general augments like +1 armor)
+                //	3: Consumable				=> FD|consumable // TODO: in the future, consider using P (potion) for some consumables?
+                //	4: CyberneticAugmentation   => G|equipment
+                //	5: DroidCustomization       => G|equipment
+                //	6: Focus					=> SCF|equipment
+                //	7: ItemModification			=> G|equipment
+                //	8: Shield					=> S|equipment
+                //	9: Weapon   				=> M or R |weapon
+                //	10: ??? 					=> 
+                //	11: ShipArmor            	=> G|equipment
+                //	12: ShipShield          	=> G|equipment
+                //	13: ShipWeapon				=> G|equipment
 
                 const itemTypeStr = o.equipmentCategoryEnum === 1 ? "AF|consumable" :
                     o.equipmentCategoryEnum === 2 ? "EXP|consumable" :
@@ -180,7 +269,21 @@ const equipmentConfig = {
                     o.equipmentCategoryEnum === 20 ? "G|equipment" :
                     o.equipmentCategoryEnum === 21 ? "T|consumable" :
                     o.equipmentCategoryEnum === 22 ? "FD|consumable" :
-                    o.equipmentCategoryEnum === 23 ? "OTH|consumable" : "";
+                    o.equipmentCategoryEnum === 23 ? "OTH|consumable" :
+                    o.typeEnum === 1 ? "G|equipment" :
+                    o.typeEnum === 2 ? "G|equipment" :
+                    o.typeEnum === 3 ? "FD|equipment" :
+                    o.typeEnum === 4 ? "G|equipment" :
+                    o.typeEnum === 5 ? "G|equipment" :
+                    o.typeEnum === 6 ? "SCF|equipment" :
+                    o.typeEnum === 7 ? "G|equipment" :
+                    o.typeEnum === 8 ? "S|equipment" :
+                    o.typeEnum === 9 ? (
+                        o.subtype.indexOf("blaster") > -1 ? "R|weapon" : "M|weapon") :
+                    o.typeEnum === 10 ? "G|equipment" :
+                    o.typeEnum === 11 ? "G|equipment" :
+                    o.typeEnum === 12 ? "G|equipment" :
+                    o.typeEnum === 13 ? "G|equipment" : "";
                 if (itemTypeStr.length > 0) {
                     const itemType = itemTypeStr.split('|')[0];
                     const foundryType = itemTypeStr.split('|')[1];
@@ -246,6 +349,42 @@ const equipmentConfig = {
                     }
                 }
                 return property.length > 0 ? property : undefined;
+            }
+
+            function getItemRarity(o) {
+                let rarity = "none";
+                if (o.rarityOptionsEnum === 1) rarity === "common" // Standard
+                if (o.rarityOptionsEnum === 2) rarity === "uncommon" // Premium
+                if (o.rarityOptionsEnum === 3) rarity === "rare" // Prototype
+                if (o.rarityOptionsEnum === 4) rarity === "very rare" // Advanced
+                if (o.rarityOptionsEnum === 5) rarity === "legendary" // Legendary
+                if (o.rarityOptionsEnum === 6) rarity === "artifact" // Artifact
+
+                return rarity;
+            }
+
+            function getAmmo(o) {
+                let ammoType = "energy cell"; // possible values: "energy cell", "modern bullet", "blowgun needle|phb", "crossbow bolt|phb", "arrow|phb", "renaissance bullet", "sling bullet|phb"
+                const matchAlternativeAmmo = new RegExp(/[Rr]ather than traditional power cells.*?in the form of (.*?)\./);
+                if (typeof obj.description === "string") {
+                    var match = obj.description.match(matchAlternativeAmmo);
+                    if (match && match.length > 0) {
+                        ammoType = obj.description.match(matchAlternativeAmmo)[1];
+                        ammoType = ammoType === "arrows" ? "arrow|phb" : ret.ammoType === "bolts" ? "crossbow bolts|phb" : ret.ammoType.indexOf("slug") > -1 ? 'modern bullet' : ret.ammoType;
+                    }
+                }
+                return ammoType;
+            }
+
+            function getRange(o) {
+                if (o.propertiesMap) {
+                    Object.values(o.propertiesMap).forEach((v) => {
+                        if (v.search(/\(range \d/g) > -1) {
+                            return (v.match(/[\d/]+/g)).join(); // filter out everything but digits and "/". Ex: "Power Cell (range 20/40)"" becomes "20/40"
+                        }
+                    });
+                }
+                return undefined;
             }
         }
     },

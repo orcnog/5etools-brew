@@ -139,7 +139,7 @@ function getConfig(conversionType) {
     } else if (conversionType === 'class') {
         return classConfig;
     } else if (conversionType === 'enhancedItem') {
-        return enhancedItemConfig;
+        return equipmentConfig;
     } else if (conversionType === 'equipment') {
         return equipmentConfig;
     } else if (conversionType === 'feat') {
