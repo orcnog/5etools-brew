@@ -353,12 +353,12 @@ const equipmentConfig = {
 
             function getItemRarity(o) {
                 let rarity = "none";
-                if (o.rarityOptionsEnum === 1) rarity === "common" // Standard
-                if (o.rarityOptionsEnum === 2) rarity === "uncommon" // Premium
-                if (o.rarityOptionsEnum === 3) rarity === "rare" // Prototype
-                if (o.rarityOptionsEnum === 4) rarity === "very rare" // Advanced
-                if (o.rarityOptionsEnum === 5) rarity === "legendary" // Legendary
-                if (o.rarityOptionsEnum === 6) rarity === "artifact" // Artifact
+                if (o.rarityOptionsEnum[0] === 1) rarity = "common" // Standard
+                if (o.rarityOptionsEnum[0] === 2) rarity = "uncommon" // Premium
+                if (o.rarityOptionsEnum[0] === 3) rarity = "rare" // Prototype
+                if (o.rarityOptionsEnum[0] === 4) rarity = "very rare" // Advanced
+                if (o.rarityOptionsEnum[0] === 5) rarity = "legendary" // Legendary
+                if (o.rarityOptionsEnum[0] === 6) rarity = "artifact" // Artifact
 
                 return rarity;
             }
