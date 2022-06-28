@@ -218,40 +218,49 @@ const equipmentConfig = {
                     o.equipmentCategoryEnum === 2 ? "EXP|consumable" :
                         o.equipmentCategoryEnum === 3 ? (
                             o.weaponClassification.indexOf("Blaster") > -1 ? "R|weapon" :
-                                o.weaponClassification.indexOf("Blaster") == -1 ? "M|weapon" : "") :
-                            o.equipmentCategoryEnum === 4 ? (
-                                o.armorClassification.indexOf("Heavy") > -1 ? "HA|armor" :
-                                    o.armorClassification.indexOf("Medium") > -1 ? "MA|armor" :
-                                        o.armorClassification.indexOf("Light") > -1 ? "LA|armor" :
-                                            o.armorClassification.indexOf("Shield") > -1 ? "S|armor" : "") :
-                                o.equipmentCategoryEnum === 5 ? "G|backpack" :
-                                    o.equipmentCategoryEnum === 7 ? "G|equipment" :
-                                        o.equipmentCategoryEnum === 8 ? "G|equipment" :
-                                            o.equipmentCategoryEnum === 9 ? "G|equipment" :
-                                                o.equipmentCategoryEnum === 10 ? "G|consumable" :
-                                                    o.equipmentCategoryEnum === 11 ? "G|equipment" :
-                                                        o.equipmentCategoryEnum === 12 ? "AT|tool" :
-                                                            o.equipmentCategoryEnum === 16 ? "G|equipment" :
-                                                                o.equipmentCategoryEnum === 17 ? "GS|equipment" :
-                                                                    o.equipmentCategoryEnum === 18 ? "INS|equipment" :
-                                                                        o.equipmentCategoryEnum === 20 ? "G|equipment" :
-                                                                            o.equipmentCategoryEnum === 21 ? "T|consumable" :
-                                                                                o.equipmentCategoryEnum === 22 ? "FD|consumable" :
-                                                                                    o.equipmentCategoryEnum === 23 ? "OTH|consumable" :
-                                                                                        o.typeEnum === 1 ? "G|equipment" :
-                                                                                            o.typeEnum === 2 ? "G|equipment" :
-                                                                                                o.typeEnum === 3 ? "FD|equipment" :
-                                                                                                    o.typeEnum === 4 ? "G|equipment" :
-                                                                                                        o.typeEnum === 5 ? "G|equipment" :
-                                                                                                            o.typeEnum === 6 ? "SCF|equipment" :
-                                                                                                                o.typeEnum === 7 ? "G|equipment" :
-                                                                                                                    o.typeEnum === 8 ? "S|equipment" :
-                                                                                                                        o.typeEnum === 9 ? (
-                                                                                                                            o.subtype.indexOf("blaster") > -1 ? "R|weapon" : "M|weapon") :
-                                                                                                                            o.typeEnum === 10 ? "G|equipment" :
-                                                                                                                                o.typeEnum === 11 ? "G|equipment" :
-                                                                                                                                    o.typeEnum === 12 ? "G|equipment" :
-                                                                                                                                        o.typeEnum === 13 ? "G|equipment" : "";
+                            o.weaponClassification.indexOf("Blaster") == -1 ? "M|weapon" : "") :
+                        o.equipmentCategoryEnum === 4 ? (
+                            o.armorClassification.indexOf("Heavy") > -1 ? "HA|armor" :
+                            o.armorClassification.indexOf("Medium") > -1 ? "MA|armor" :
+                            o.armorClassification.indexOf("Light") > -1 ? "LA|armor" :
+                            o.armorClassification.indexOf("Shield") > -1 ? "S|armor" : "") :
+                        o.equipmentCategoryEnum === 5 ? "G|backpack" :
+                        o.equipmentCategoryEnum === 7 ? "G|equipment" :
+                        o.equipmentCategoryEnum === 8 ? "G|equipment" :
+                        o.equipmentCategoryEnum === 9 ? "G|equipment" :
+                        o.equipmentCategoryEnum === 10 ? "G|consumable" :
+                        o.equipmentCategoryEnum === 11 ? "G|equipment" :
+                        o.equipmentCategoryEnum === 12 ? "AT|tool" :
+                        o.equipmentCategoryEnum === 16 ? "G|equipment" :
+                        o.equipmentCategoryEnum === 17 ? "GS|equipment" :
+                        o.equipmentCategoryEnum === 18 ? "INS|equipment" :
+                        o.equipmentCategoryEnum === 20 ? "G|equipment" :
+                        o.equipmentCategoryEnum === 21 ? "T|consumable" :
+                        o.equipmentCategoryEnum === 22 ? "FD|consumable" :
+                        o.equipmentCategoryEnum === 23 ? "OTH|consumable" :
+                        o.typeEnum === 1 ? "G|equipment" :
+                        o.typeEnum === 2 ? "G|equipment" :
+                        o.typeEnum === 3 ? (
+                            o.subtype === "adrenal" ? "FD|consumable" :
+                            o.subtype === "substance" ? "FD|consumable" :
+                            o.subtype === "medpac" ? "FD|consumable" :
+                            o.subtype === "poison" ? "FD|consumable" : 
+                            o.subtype === "stimpac" ? "FD|consumable" : 
+                            o.subtype === "explosive" ? "EXP|consumable" :
+                            o.subtype === "ammunition" ? "AF|consumable" :
+                            o.subtype === "technology" ? "G|consumable" :
+                            o.subtype === "barrier" ? "G|consumable" : "G|consumable") :
+                        o.typeEnum === 4 ? "G|equipment" :
+                        o.typeEnum === 5 ? "G|equipment" :
+                        o.typeEnum === 6 ? "SCF|equipment" :
+                        o.typeEnum === 7 ? "G|equipment" :
+                        o.typeEnum === 8 ? "S|equipment" :
+                        o.typeEnum === 9 ? (
+                            o.subtype.indexOf("blaster") > -1 ? "R|weapon" : "M|weapon") :
+                        o.typeEnum === 10 ? "G|equipment" :
+                        o.typeEnum === 11 ? "G|equipment" :
+                        o.typeEnum === 12 ? "G|equipment" :
+                        o.typeEnum === 13 ? "G|equipment" : "";
                 if (itemTypeStr.length > 0) {
                     const itemType = itemTypeStr.split('|')[0];
                     const foundryType = itemTypeStr.split('|')[1];
