@@ -4632,7 +4632,7 @@
 			"rarity": "rare",
 			"age": "futuristic",
 			"entries": [
-				"You have a +1 bonus to attack and damage rolls with this weapon. Additionally, it has the disarming property, and when a creature tries to reduce the damage of a shot from this weapon with a feature or power, such as monk�s Deflect Missiles or the {@i saber reflect} force power, they have disadvantage on the reduction roll. Lastly, on a hit, if the target is wearing heavy armor, it deals an additional 1d6 lightning damage.  {@i The proprietary Charric pistol was the standard issue weapon of all of the soldiers in the Chiss Expansionary Defense Force.}"
+				"You have a +1 bonus to attack and damage rolls with this weapon. Additionally, it has the disarming property, and when a creature tries to reduce the damage of a shot from this weapon with a feature or power, such as monk's Deflect Missiles or the {@i saber reflect} force power, they have disadvantage on the reduction roll. Lastly, on a hit, if the target is wearing heavy armor, it deals an additional 1d6 lightning damage.  {@i The proprietary Charric pistol was the standard issue weapon of all of the soldiers in the Chiss Expansionary Defense Force.}"
 			],
 			"foundryType": "weapon",
 			"weapon": true,
@@ -4649,7 +4649,7 @@
 			"rarity": "very rare",
 			"age": "futuristic",
 			"entries": [
-				"You have a +2 bonus to attack and damage rolls with this weapon. Additionally, it has the disarming property, and when a creature tries to reduce the damage of a shot from this weapon with a feature or power, such as monk�s Deflect Missiles or the {@i saber reflect} force power, they have disadvantage on the reduction roll. Lastly, on a hit, if the target is wearing heavy armor, it deals an additional 1d8 lightning damage.  {@i The proprietary Charric rifle was the standard issue weapon of all of the soldiers in the Chiss Expansionary Defense Force.}"
+				"You have a +2 bonus to attack and damage rolls with this weapon. Additionally, it has the disarming property, and when a creature tries to reduce the damage of a shot from this weapon with a feature or power, such as monk's Deflect Missiles or the {@i saber reflect} force power, they have disadvantage on the reduction roll. Lastly, on a hit, if the target is wearing heavy armor, it deals an additional 1d8 lightning damage.  {@i The proprietary Charric rifle was the standard issue weapon of all of the soldiers in the Chiss Expansionary Defense Force.}"
 			],
 			"foundryType": "weapon",
 			"weapon": true,

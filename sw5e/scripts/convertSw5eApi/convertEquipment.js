@@ -300,7 +300,7 @@ const equipmentConfig = {
                 if ('description' in o) {
                     description = [o.description]
                 } else if ('text' in o) {
-                    let txt = o.text;
+                    let txt = o.text.replaceAll('�','\'');
                     txt = txt.replaceAll('_**Requires attunement**_\r\n', '');
                     txt = txt.replaceAll('\r\n', ' ');
                     txt = txt.replaceAll('\r', ' ');
