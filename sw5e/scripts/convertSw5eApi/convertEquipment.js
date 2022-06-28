@@ -377,7 +377,7 @@ const equipmentConfig = {
 
             function getItemReqAttune(o) {
                 // String like "by a cleric or paladin of good alignment"
-                return "requiresAttunement" in o ? o.requiresAttunement : undefined;
+                return "requiresAttunement" in o && o.requiresAttunement ? true : undefined;
             }
 
             function getItemRecharge(o) {
