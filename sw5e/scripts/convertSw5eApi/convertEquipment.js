@@ -301,10 +301,10 @@ const equipmentConfig = {
                     description = [o.description]
                 } else if ('text' in o) {
                     let txt = o.text;
-                    txt = txt.replace('_**Requires attunement**_\r\n', '');
-                    txt = txt.replace('\r\n', ' ');
-                    txt = txt.replace('\r', ' ');
-                    txt = txt.replace('\n', ' ');
+                    txt = txt.replaceAll('_**Requires attunement**_\r\n', '');
+                    txt = txt.replaceAll('\r\n', ' ');
+                    txt = txt.replaceAll('\r', ' ');
+                    txt = txt.replaceAll('\n', ' ');
                     const bold = /\*\*(.*?)\*\*/gm;
                     txt = txt.replace(bold, '\{@b $1\}');
                     const italic1 = /\*(.*?)\*/gm;
@@ -408,10 +408,10 @@ const equipmentConfig = {
                 const mDiceRoll = /(?:have|has|with) (\d+)d(\d+) charges.*?/gi.exec(txt); // Array w/ 2 int values from dice roll, ex: [2,6] for 2d6
                 const mNumberOfCharges = /number of charges equals? (to )?half your .*? level \(rounded up\)/gi.exec(txt); // Array or null
                 if (mInteger) {
-                    return mInteger[0];
+                    return mInteger[1];
                 }
                 if (mDiceRoll) {
-                    return mDiceRoll[0] * mDiceRoll[1]; // return the max possible roll. ex: 2d6 returns 12
+                    return mDiceRoll[1] * mDiceRoll[2]; // return the max possible roll. ex: 2d6 returns 12
                 }
                 if (mNumberOfCharges) {
                     return 10; // assuming 20 is the PC's max class level, 10 is this item's max number of possible charges
