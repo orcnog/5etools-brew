@@ -700,8 +700,8 @@ const equipmentConfig = {
      * @function
      * @description  A customizer function to use in lodash _.mergeWith methods for case-by-case value merge handling.
      * @example {"weight": 0} merged into {"weight": 3} becomes {"weight": 3}
-     * @param {*} o "object" - value to compare from destination (ex: 0)
-     * @param {*} s "source" - value to compare from source (ex: 3)
+     * @param {*} o "object" - value to compare from destination/existing JSON (ex: 0)
+     * @param {*} s "source" - value to compare from source/incoming JSON (ex: 3)
      * @param {String} k "key" - this value's property ID, matching in both the destination and source objects (ex: "weight"). Read-Only.
      * @returns {*} value you want to assign as the "merged" value (ex: 3), or undefined to fallback to using the OOTB _mergeWith logic
      */
