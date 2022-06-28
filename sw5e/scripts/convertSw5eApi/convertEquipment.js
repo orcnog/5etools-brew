@@ -40,11 +40,12 @@ const equipmentConfig = {
             let isWeapon = false;
             let isRangedWeapon = false;
             let isArmor = false;
+            let isFocus = false;
             let ret = {
                 "name": obj.name,
                 "source": sourceString,
                 "page": 0,
-                "type": getItemType(obj), // also sets value for isWeapon, isRangedWeapon, and isArmor
+                "type": getItemType(obj),
                 "rarity": getItemRarity(obj),
                 "age": "futuristic",
                 "value": getItemValue(obj),
@@ -56,6 +57,7 @@ const equipmentConfig = {
                 "reqAttune": getItemReqAttune(obj),
                 "recharge": getItemRecharge(obj),
                 "charges": getItemCharges(obj),
+                "focus": getItemFocus(obj),
                 // weapon
                 "weapon": getItemWeapon(obj),
                 "weaponCategory": getItemWeaponCategory(obj),
@@ -253,7 +255,8 @@ const equipmentConfig = {
                         o.typeEnum === 4 ? "G|equipment" :
                         o.typeEnum === 5 ? "G|equipment" :
                         o.typeEnum === 6 ? "SCF|equipment" :
-                        o.typeEnum === 7 ? "G|equipment" :
+                        o.typeEnum === 7 ? (
+                            o.subtype.indexOf("focus") > -1 ? "SCF|equipment" : "G|equipment") :
                         o.typeEnum === 8 ? "S|equipment" :
                         o.typeEnum === 9 ? (
                             o.subtype.indexOf("blaster") > -1 ? "R|weapon" : "M|weapon") :
@@ -269,6 +272,7 @@ const equipmentConfig = {
                     if (itemType === "M" || itemType === "R") isWeapon = true;
                     if (itemType === "R") isRangedWeapon = true;
                     if (["HA", "MA", "LA", "S"].indexOf(itemType) > -1) isArmor = true;
+                    if (itemType === "SCF") isFocus = true;
 
                     return foundry ? foundryType : itemType;
                 }
@@ -377,7 +381,7 @@ const equipmentConfig = {
 
             function getItemBaseItem(o) {
                 // String, ID of an existing item, pipe, then source
-                if (isWeapon && "subtype" in o && !o.subtype.match(/any /)) {
+                if ((isWeapon || isFocus) && "subtype" in o && !o.subtype.match(/any /)) {
                     return o.subtype + "|orcnogSW5e";
                 }
                 return undefined;
@@ -644,8 +648,13 @@ const equipmentConfig = {
                 // return a Ex: {"equal":{"swim:"walk"}}, Ex2: "bonus":{"*":5}, Ex3: {"multiply":{"walk":2}}, Ex4: {"static":{"fly":150}}
             }
 
-            function getItemfocus(o) {
-                // return a Boolean, OR Array with class names. Ex: ["Druid","Warlock"]
+            function getItemFocus(o) {
+                // return a Boolean, or Array
+                if (isFocus) {
+                    return true;
+                    // TODO: alternatively, return Array with class names. Ex: ["Druid","Warlock"]
+                }
+                return undefined;
             }
 
             function getItemscfType(o) {
