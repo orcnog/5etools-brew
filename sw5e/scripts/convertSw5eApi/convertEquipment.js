@@ -52,6 +52,7 @@ const equipmentConfig = {
                 "entries": getItemEntries(obj),
                 "property": getItemProperty(obj),
                 "foundryType": getItemType(obj, true),
+                "baseItem": getItemBaseItem(obj),
                 "reqAttune": getItemReqAttune(obj),
                 "recharge": getItemRecharge(obj),
                 "charges": getItemCharges(obj),
@@ -125,7 +126,6 @@ const equipmentConfig = {
 
             // Possible TODO: ret.reqAttuneAlt // String OR Boolean. Used for filtering.  // there's only one item in core that uses this so, probably not needed for sw5e.
             // Possible TODO: ret.reqAttuneTags // Array of objects (see D:\Development\5etools-mirror-1.github.io\test\schema\items.json). // Nothing in sw5e seems to have any attunement conditions though
-            // Possible TODO: ret.baseItem // String, ID of an existing item?
             // Possible TODO: ret.valueMult // Number
             // Possible TODO: ret.weightMult // Number
             // Possible TODO: ret.wondrous // Boolean
@@ -373,6 +373,14 @@ const equipmentConfig = {
                     }
                 }
                 return property.length > 0 ? property : undefined;
+            }
+
+            function getItemBaseItem(o) {
+                // String, ID of an existing item, pipe, then source
+                if (isWeapon && "subtype" in o && !o.subtype.match(/any /)) {
+                    return o.subtype + "|orcnogSW5e";
+                }
+                return undefined;
             }
 
             function getItemReqAttune(o) {

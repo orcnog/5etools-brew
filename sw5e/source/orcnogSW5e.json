@@ -290,12 +290,15 @@
 			"type": "M",
 			"rarity": "rare",
 			"age": "futuristic",
+			"value": 228000,
+			"weight": 7,
 			"entries": [
 				"You have a +2 bonus to attack and damage rolls with this enhanced weapon. Additionally, while it is in staff mode, the save DC for its shocking property increases to 15.  {@i This version of the bo-rifle was exclusive to high-ranking members of the Honor Guard of Lasan.}"
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "bo-rifle|orcnogSW5e"
 		},
 		{
 			"name": "ARC caster",
@@ -2942,16 +2945,26 @@
 			"type": "R",
 			"rarity": "none",
 			"age": "futuristic",
-			"value": 10750,
+			"value": 23000,
+			"weight": 7,
 			"weapon": true,
 			"weaponCategory": "Simple",
+			"dmg1": "1d6",
+			"dmgType": "Energy",
 			"firearm": true,
 			"ammoType": "energy cell",
 			"entries": [
-				null
+				"The bo-rifle is a lasat weapon most commonly carried by the Honor Guard of Lasan, which has the unique property of functioning as both a rifle and a staff. As a bonus action, you can switch between each mode, detailed below.",
+				"{@b {@i Rifle.}} While in this mode, the weapon uses traditional power cells.",
+				"{@b {@i Staff.}} While in this mode, the weapon gains the shocking property."
+			],
+			"property": [
+				"2H",
+				"RLD"
 			],
 			"foundryType": "weapon",
-			"dmgType": "Unknown",
+			"reload": 6,
+			"range": "100/400",
 			"ammunition": true
 		},
 		{
@@ -2988,7 +3001,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "bolas|orcnogSW5e"
 		},
 		{
 			"name": "Bolas (Exceptional)",
@@ -3002,7 +3016,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "bolas|orcnogSW5e"
 		},
 		{
 			"name": "Bolas (Fine)",
@@ -3016,7 +3031,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "bolas|orcnogSW5e"
 		},
 		{
 			"name": "Bolas (Improved)",
@@ -3030,7 +3046,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "bolas|orcnogSW5e"
 		},
 		{
 			"name": "Bolas (Superior)",
@@ -3044,7 +3061,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "bolas|orcnogSW5e"
 		},
 		{
 			"name": "Bolstering Channel (Adept)",
@@ -4639,7 +4657,8 @@
 			"weaponCategory": "Simple",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"ammunition": true
+			"ammunition": true,
+			"baseItem": "blaster pistol|orcnogSW5e"
 		},
 		{
 			"name": "Charric Rifle",
@@ -4653,7 +4672,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "sniper rifle|orcnogSW5e"
 		},
 		{
 			"name": "Chatta-ragul set",
@@ -6699,7 +6719,8 @@
 			"foundryType": "weapon",
 			"weapon": true,
 			"weaponCategory": "Simple",
-			"reqAttune": true
+			"reqAttune": true,
+			"baseItem": "martial lightsaber|orcnogSW5e"
 		},
 		{
 			"name": "Darkvision Goggles",
@@ -10726,7 +10747,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "heavy pistol|orcnogSW5e"
 		},
 		{
 			"name": "Flask",
@@ -12184,7 +12206,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "grenade launcher|orcnogSW5e"
 		},
 		{
 			"name": "Grenade Launcher (Exceptional)",
@@ -12198,7 +12221,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "grenade launcher|orcnogSW5e"
 		},
 		{
 			"name": "Grenade Launcher (Fine)",
@@ -12212,7 +12236,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "grenade launcher|orcnogSW5e"
 		},
 		{
 			"name": "Grenade Launcher (Improved)",
@@ -12226,7 +12251,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "grenade launcher|orcnogSW5e"
 		},
 		{
 			"name": "Grenade Launcher (Superior)",
@@ -12240,7 +12266,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "grenade launcher|orcnogSW5e"
 		},
 		{
 			"name": "Grenade launcher",
@@ -13923,7 +13950,8 @@
 			"weapon": true,
 			"weaponCategory": "Simple",
 			"recharge": "long rest",
-			"charges": "6"
+			"charges": "6",
+			"baseItem": "vibroblade|orcnogSW5e"
 		},
 		{
 			"name": "Hidden Compartment Blaster",
@@ -15637,7 +15665,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "bo-rifle|orcnogSW5e"
 		},
 		{
 			"name": "Jagged vibroblade",
@@ -19339,7 +19368,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "net|orcnogSW5e"
 		},
 		{
 			"name": "Net (Exceptional)",
@@ -19353,7 +19383,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "net|orcnogSW5e"
 		},
 		{
 			"name": "Net (Fine)",
@@ -19367,7 +19398,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "net|orcnogSW5e"
 		},
 		{
 			"name": "Net (Improved)",
@@ -19381,7 +19413,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "net|orcnogSW5e"
 		},
 		{
 			"name": "Net (Superior)",
@@ -19395,7 +19428,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "net|orcnogSW5e"
 		},
 		{
 			"name": "Neuralizing Oscillator",
@@ -25685,7 +25719,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "shotgun|orcnogSW5e"
 		},
 		{
 			"name": "Shotosaber",
@@ -25776,7 +25811,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "shoulder cannon|orcnogSW5e"
 		},
 		{
 			"name": "Shoulder Cannon (Exceptional)",
@@ -25790,7 +25826,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "shoulder cannon|orcnogSW5e"
 		},
 		{
 			"name": "Shoulder Cannon (Fine)",
@@ -25804,7 +25841,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "shoulder cannon|orcnogSW5e"
 		},
 		{
 			"name": "Shoulder Cannon (Improved)",
@@ -25818,7 +25856,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "shoulder cannon|orcnogSW5e"
 		},
 		{
 			"name": "Shoulder Cannon (Superior)",
@@ -25832,7 +25871,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "shoulder cannon|orcnogSW5e"
 		},
 		{
 			"name": "Shovel",
@@ -26800,7 +26840,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "light pistol|orcnogSW5e"
 		},
 		{
 			"name": "Spicebrew",
@@ -28908,7 +28949,8 @@
 			"weaponCategory": "Simple",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"ammunition": true
+			"ammunition": true,
+			"baseItem": "blaster pistol|orcnogSW5e"
 		},
 		{
 			"name": "Torpedo Launcher (Fine)",
@@ -28922,7 +28964,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "torpedo launcher|orcnogSW5e"
 		},
 		{
 			"name": "Torpedo Launcher (Improved)",
@@ -28936,7 +28979,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "torpedo launcher|orcnogSW5e"
 		},
 		{
 			"name": "Torpedo Launcher (Superior)",
@@ -28950,7 +28994,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "torpedo launcher|orcnogSW5e"
 		},
 		{
 			"name": "Torpedo launcher",
@@ -30933,7 +30978,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "any|orcnogSW5e"
 		},
 		{
 			"name": "Weapon (Exceptional)",
@@ -30947,7 +30993,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "any|orcnogSW5e"
 		},
 		{
 			"name": "Weapon (Fine)",
@@ -30961,7 +31008,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "any|orcnogSW5e"
 		},
 		{
 			"name": "Weapon (Improved)",
@@ -30975,7 +31023,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "any|orcnogSW5e"
 		},
 		{
 			"name": "Weapon (Superior)",
@@ -30989,7 +31038,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "any|orcnogSW5e"
 		},
 		{
 			"name": "Weapon Integration Armoring",
@@ -32193,7 +32243,8 @@
 			],
 			"foundryType": "weapon",
 			"weapon": true,
-			"weaponCategory": "Simple"
+			"weaponCategory": "Simple",
+			"baseItem": "nightstinger rifle|orcnogSW5e"
 		},
 		{
 			"name": "Yaladai",
