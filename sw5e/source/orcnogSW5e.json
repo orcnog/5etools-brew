@@ -1850,7 +1850,7 @@
 				"You install an artificial intelligence into this armor. While wearing this armor, when you make an ability check, this armor's artificial intelligence can take the Help action.  You can use this feature twice. You regain all expended uses when you complete a short or long rest."
 			],
 			"foundryType": "equipment",
-			"recharge": "long rest"
+			"recharge": "restLong"
 		},
 		{
 			"name": "Artillerist's kit",
@@ -3358,7 +3358,7 @@
 				"While wearing these boots, creatures have disadvantage on Wisdom (Survival) checks made to track your steps.  Additionally, you can use a bonus action to cause the boots to leave behind no footprints for 1 minute. When you do, another set of similar footprints appear on the ground that lead in random directions. These footprints last for 8 hours and travel up to 300 feet. A successful DC 14 Intelligence (Investigation) check reveals that the footprints are false. Once you've used this feature, you must complete a short or long rest before you can use it again."
 			],
 			"foundryType": "equipment",
-			"recharge": "long rest"
+			"recharge": "restLong"
 		},
 		{
 			"name": "Bottle",
@@ -6689,7 +6689,7 @@
 				"When you score a critical hit or reduce a creature to 0 hit points with a ranged attack using this weapon, you can regain a number of tech points equal to your Intelligence modifier (a minimum of one, no action required).  Once you've used this feature, you must complete a short or long rest before you can use it again."
 			],
 			"foundryType": "equipment",
-			"recharge": "long rest"
+			"recharge": "restLong"
 		},
 		{
 			"name": "Czerka Elite Pro Mk V",
@@ -6714,7 +6714,7 @@
 				"This augmentation replaces a hand.  As a bonus action, you can transform this claw-hand into one of the following items of your choice, or back its default claw-hand state. While your claw-hand is transformed, you are considered to be proficient in the item it is replicating, if you are not already:   - Security kit  - Artisan tools (one set, chosen at the time this augmentation is installed)  - Commlink  - Fusion cutter  - Grappling hook (with 50 feet of fibercord cable)  - Hydrospanner  - Traumakit  - Repair kit  - Hidden blade {@i (martial vibroweapon)}  - Hold out {@i (simple blaster)}  - Medium shield generator {@i (medium armor)}  For items that have charges such as the repair kit, you regain all expended charges at the end of a long rest. For items that use power cells, you can reload those with power cells normally.    {@b Side Effect:} Once this hand replacement has been installed, you can no longer wield weapons in this hand other than those this augmentation can transform into.   {@i The CVCM hand replacement appears to be a simple claw, but it contains a startling variety of tools, transforming to become whatever gadget is needed at the moment.} "
 			],
 			"foundryType": "equipment",
-			"recharge": "long rest"
+			"recharge": "restLong"
 		},
 		{
 			"name": "Damind Crystal (Flawed)",
@@ -8898,7 +8898,7 @@
 				"When you hit with the weapon, you can create an electronic burst. Each creature in a 15-foot cone centered on the creature you hit must make a DC 15 Dexterity saving throw, taking 1d8 lightning damage on a failed save or half as much on a successful one.  Once you've used this feature, you must complete a long rest before you can use it again."
 			],
 			"foundryType": "equipment",
-			"recharge": "long rest"
+			"recharge": "restLong"
 		},
 		{
 			"name": "Electrifying calibrator",
@@ -9478,7 +9478,7 @@
 				"When you are reduced to 0 hit points while wearing this armor but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest."
 			],
 			"foundryType": "equipment",
-			"recharge": "long rest"
+			"recharge": "restLong"
 		},
 		{
 			"name": "Enhanced Reconstructor",
@@ -14127,7 +14127,7 @@
 			"foundryType": "weapon",
 			"weapon": true,
 			"weaponCategory": "Simple",
-			"recharge": "long rest",
+			"recharge": "restLong",
 			"charges": "6",
 			"baseItem": "vibroblade|orcnogSW5e"
 		},
@@ -17250,7 +17250,7 @@
 				"While you wear these boots, you can activate or deactivate heir mag-locks as a bonus action. While the mag locks are engaged, you move at half speed, can walk on any solid metallic surface, ignore difficult terrain caused by metallic debris, and ignore the effects of gravity (or the lack thereof), allowing you to walk up vertical surfaces or even upside-down.   The battery in these boots lasts for a total of 1 hour and recharges at the end of a long rest."
 			],
 			"foundryType": "equipment",
-			"recharge": "long rest"
+			"recharge": "restLong"
 		},
 		{
 			"name": "Magnetic Forearm Enhancement",
@@ -17545,7 +17545,7 @@
 				"As an action, you can activate the repair tools, choosing one of the following options: - You can stabilize a droid within 5 feet of you that has 0 hit points, without needing to make an Intelligence (Technology) check. - You can restore 2d4+2 hit points to a droid or construct within 5 feet.  You can use each feature once. You regain all expended uses when you complete a long rest.  {@i This part equips the droid with a series of machine repair tools.}"
 			],
 			"foundryType": "equipment",
-			"recharge": "long rest"
+			"recharge": "restLong"
 		},
 		{
 			"name": "Mechanic's kit",
@@ -17572,7 +17572,7 @@
 				"As an action, you can activate the medical kit, choosing one of the following options: - You can stabilize a creature within 5 feet of you that has 0 hit points, without needing to make a Wisdom (Medicine) check. - You can restore 1d4+1 hit points to a creature within 5 feet. - You can cure a target of one poison affecting them or to give them advantage on saving throws against poison for 1 hour.  This medical kit has no effect on droids or constructs. You can use each feature once. You regain all expended uses when you complete a long rest.  {@i This part equips the droid with a compact medical kit.}"
 			],
 			"foundryType": "equipment",
-			"recharge": "long rest"
+			"recharge": "restLong"
 		},
 		{
 			"name": "Medic's Pattern (Basic)",
@@ -20425,7 +20425,7 @@
 				"You modify this shield generator to overload. As an action you can overload this shield. Each Large or smaller creature within 5 feet of you must make a DC 13 Dexterity or Strength saving throw (their choice). On a failed save, they are pushed back 5 feet and knocked prone.  You can use this feature twice. You regain all expended uses when you complete a short or long rest."
 			],
 			"foundryType": "equipment",
-			"recharge": "long rest"
+			"recharge": "restLong"
 		},
 		{
 			"name": "Pacnorval Chem Integrator",
@@ -21253,7 +21253,8 @@
 			"entries": [
 				"As an action, you can use the poison in this vial to coat one vibroweapon, one slug cartridge, or one wrist launcher dart. A creature hit by the poisoned weapon must make a DC 16 Constitution saving throw, taking 4d4 poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying."
 			],
-			"foundryType": "consumable"
+			"foundryType": "consumable",
+			"poison": true
 		},
 		{
 			"name": "Poison (Deadly)",
@@ -21265,7 +21266,8 @@
 			"entries": [
 				"As an action, you can use the poison in this vial to coat one vibroweapon, one slug cartridge, or one wrist launcher dart. A creature hit by the poisoned weapon must make a DC 20 Constitution saving throw, taking 8d4 poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying."
 			],
-			"foundryType": "consumable"
+			"foundryType": "consumable",
+			"poison": true
 		},
 		{
 			"name": "Poison (Devastating)",
@@ -21277,7 +21279,8 @@
 			"entries": [
 				"As an action, you can use the poison in this vial to coat one vibroweapon, one slug cartridge, or one wrist launcher dart. A creature hit by the poisoned weapon must make a DC 24 Constitution saving throw, taking 12d4 poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying."
 			],
-			"foundryType": "consumable"
+			"foundryType": "consumable",
+			"poison": true
 		},
 		{
 			"name": "Poison (Lethal)",
@@ -21289,7 +21292,8 @@
 			"entries": [
 				"As an action, you can use the poison in this vial to coat one vibroweapon, one slug cartridge, or one wrist launcher dart. A creature hit by the poisoned weapon must make a DC 22 Constitution saving throw, taking 10d4 poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying."
 			],
-			"foundryType": "consumable"
+			"foundryType": "consumable",
+			"poison": true
 		},
 		{
 			"name": "Poison (Major)",
@@ -21301,7 +21305,8 @@
 			"entries": [
 				"As an action, you can use the poison in this vial to coat one vibroweapon, one slug cartridge, or one wrist launcher dart. A creature hit by the poisoned weapon must make a DC 18 Constitution saving throw, taking 6d4 poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying."
 			],
-			"foundryType": "consumable"
+			"foundryType": "consumable",
+			"poison": true
 		},
 		{
 			"name": "Poisoner's kit",
@@ -24951,7 +24956,7 @@
 				"When you take the Attack action and hit a target with a ranged attack with this weapon, you can repeat the attack against another creature up to 15 feet from the target in a direct line from you (no action required). Once you've used this feature, you must complete a short or long rest before you can use it again."
 			],
 			"foundryType": "equipment",
-			"recharge": "long rest"
+			"recharge": "restLong"
 		},
 		{
 			"name": "Sabacc deck",
@@ -25330,7 +25335,7 @@
 				"You learn the {@i alarm} tech power. You can cast it once, without the use of a wristpad and without spending tech points, and you regain the ability to do so when you finish a long rest. Intelligence is your techcasting ability for this power.  {@i This part equips a droid with a small rotating sensory dish.}"
 			],
 			"foundryType": "equipment",
-			"recharge": "long rest"
+			"recharge": "restLong"
 		},
 		{
 			"name": "Sentry Gun",
@@ -25579,7 +25584,7 @@
 				"You modify this shield generator to project outward. As a bonus action you can amplify this shield until the start of your next turn. Each creature within 5 feet of you gains a bonus to AC equal to this shield's bonus.  You can use this feature twice. You regain all expended uses when you complete a short or long rest."
 			],
 			"foundryType": "equipment",
-			"recharge": "long rest"
+			"recharge": "restLong"
 		},
 		{
 			"name": "Shield Anchor",
@@ -26403,7 +26408,7 @@
 			],
 			"foundryType": "equipment",
 			"reqAttune": true,
-			"recharge": "long rest"
+			"recharge": "restLong"
 		},
 		{
 			"name": "Slitherhorn",
@@ -27320,7 +27325,7 @@
 				"When you hit with the weapon, you can force the target to make a DC 13 Strength saving throw. On a failed save, the creature is pushed back 10 feet and knocked prone.  Once you've used this feature, you must complete a short or long rest before you can use it again."
 			],
 			"foundryType": "equipment",
-			"recharge": "long rest"
+			"recharge": "restLong"
 		},
 		{
 			"name": "Stamina Adrenal (Basic)",
@@ -29715,7 +29720,7 @@
 				"When you or a creature you can see that can see and understand you makes an ability check, attack roll, or saving throw, you can roll a d4 and add it to their roll (no action required). You can use this before or after the roll, but before the GM determines the roll's outcome. Once you've used this feature, you must complete a short or long rest before you can use it again."
 			],
 			"foundryType": "equipment",
-			"recharge": "long rest"
+			"recharge": "restLong"
 		},
 		{
 			"name": "Underlay Amplifier Mk I",
@@ -29965,7 +29970,7 @@
 				"As a bonus action, you can coat this weapon in a thin layer of poison for 1 minute. The next time you hit with the weapon, the creature must make a DC 15 Constitution saving throw. On a failed save, a creature takes 1d10 poison damage and becomes poisoned for 1 minute.  Once you've used this feature, you must complete a long rest before you can use it again."
 			],
 			"foundryType": "equipment",
-			"recharge": "long rest"
+			"recharge": "restLong"
 		},
 		{
 			"name": "Ventilation Stabilizer",
@@ -29978,7 +29983,7 @@
 				"When you take the Attack action and hit a creature with this weapon, you can repeat the attack against another creature within 5 feet, no action required. Once you've used this feature, you must complete a short or long rest before you can use it again."
 			],
 			"foundryType": "equipment",
-			"recharge": "long rest"
+			"recharge": "restLong"
 		},
 		{
 			"name": "Verpine Auto-Shielding Unit",
@@ -30980,7 +30985,7 @@
 				"This armor has 3 charges. As an action, you can spend 1 or more charges to cast the {@i voltaic shielding} tech power, 1 charge per level. All expended charges are regained after you complete a long rest.  {@i This proprietary armor made by the renowned engineer Viir Agathys includes integrated access to his signature tech power.}"
 			],
 			"foundryType": "equipment",
-			"recharge": "long rest",
+			"recharge": "restLong",
 			"charges": "3"
 		},
 		{
@@ -30994,7 +30999,7 @@
 				"This armor has 3 charges. As an action, you can spend 1 or more charges to cast the {@i voltaic shielding} tech power, 1 charge per level. All expended charges are regained after you complete a long rest.  {@i This armoring grants access to renowned engineer Viir Agathys's signature tech power.}"
 			],
 			"foundryType": "equipment",
-			"recharge": "long rest",
+			"recharge": "restLong",
 			"charges": "3"
 		},
 		{

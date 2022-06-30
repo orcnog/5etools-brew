@@ -58,6 +58,7 @@ const equipmentConfig = {
                 "recharge": getItemRecharge(obj),
                 "charges": getItemCharges(obj),
                 "focus": getItemFocus(obj),
+                "poison": getItemPoison(obj),
                 // weapon
                 "weapon": getItemWeapon(obj),
                 "weaponCategory": getItemWeaponCategory(obj),
@@ -77,9 +78,6 @@ const equipmentConfig = {
                 "strength": getItemStrength(obj)
             };
 
-            // TODO: ret.tier // String like "major"
-            // TODO: ret.ammunition // Boolean. An item that uses ammunition; not an item that is ammunition.
-            // TODO: ret.poison // Boolean
             // TODO: ret.poisonTypes // Array of strings (enum: "contact","ingested","injury","inhaled")
             // TODO: ret.vulnerable // Array (see D:\Development\5etools-mirror-1.github.io\test\schema\items.json)
             // TODO: ret.immune // Array (see D:\Development\5etools-mirror-1.github.io\test\schema\items.json)
@@ -126,6 +124,7 @@ const equipmentConfig = {
             // Possible Veh TODO: "shippingCost": 10, // in copper pieces per 100 lbs. per mi.
             // Possible Veh TODO: "seeAlsoVehicle": ["Sailing Ship"]
 
+            // Possible TODO: ret.tier // String like "major" // would probably require going through every single item to decide a tier. Not likely going to do that.
             // Possible TODO: ret.reqAttuneAlt // String OR Boolean. Used for filtering.  // there's only one item in core that uses this so, probably not needed for sw5e.
             // Possible TODO: ret.reqAttuneTags // Array of objects (see D:\Development\5etools-mirror-1.github.io\test\schema\items.json). // Nothing in sw5e seems to have any attunement conditions though
             // Possible TODO: ret.valueMult // Number
@@ -405,10 +404,13 @@ const equipmentConfig = {
                     if (mMidnight) return o.recharge = "midnight";
 
                     const mLong = /(?:charges?|uses?) [^\.]+ long rest|long rest [^\.]+ (?:charges?|uses?)/gi.exec(o.text);
-                    if (mLong) return o.recharge = "long rest";
+                    if (mLong) return o.recharge = "restLong";
 
                     const mShort = /(?:charges?|uses?) [^\.]+ short rest|short rest [^\.]+ (?:charges?|uses?)/gi.exec(o.text);
-                    if (mShort) return o.recharge = "short rest";
+                    if (mShort) return o.recharge = "restShort";
+
+                    const mRound = /(?:charges?|uses?) [^\.]+ each round|each round [^\.]+ (?:charges?|uses?)/gi.exec(o.text);
+                    if (mRound) return o.recharge = "round";
                 }
                 return undefined;
             }
@@ -495,9 +497,9 @@ const equipmentConfig = {
                     var match = matchAlternativeAmmo.exec(o.description);
                     if (match) {
                         ammoType = match[1] === "arrows" ? "arrow|phb" :
-                            match[1] === "bolts" ? "crossbow bolts|phb" :
-                                match[1].indexOf("slug") > -1 ? 'modern bullet' :
-                                    match[1];
+                        match[1] === "bolts" ? "crossbow bolts|phb" :
+                        match[1].indexOf("slug cartridge") > -1 ? 'modern bullet' :
+                        match[1];
                     }
                 }
                 return ammoType;
@@ -538,7 +540,7 @@ const equipmentConfig = {
             function getItemAc(o) {
                 // return an Integer or undefined
                 if (isArmor && 'ac' in o) {
-                    return o.ac.match(/\d+/g)[0]; // Get only the AC number. Ex: filters "12 + Dex modifier (Max: 2)" to just "12".
+                    return o.ac.match(/\d+/g)[0]; // Get only the AC number. Ex: filters "12 + Dex modifier (Max: 2)" to just "12". (the max:2 thing is mechanically baked into Medium Armor already)
                 }
                 return undefined;
             }
@@ -558,26 +560,13 @@ const equipmentConfig = {
                 }
                 return undefined;
             }
-            
-            function getItemtier(o) {
-                // return a String like "major"
 
-            }
-
-            function getItemtier(o) {
-                // return a String like "major"
-
-            }
-
-            function getItemammunition(o) {
-                // return a Boolean. An item that uses ammunition; not an item that is ammunition.
-            }
-
-            function getItemammunition(o) {
-                // return a Boolean. An item that uses ammunition; not an item that is ammunition.
-            }
-            function getItempoison(o) {
+            function getItemPoison(o) {
                 // return a Boolean
+                if (o.typeEnum === 3 && o.subtype === "poison") {
+                    return true;
+                }
+                return undefined;
             }
 
             function getItempoisonTypes(o) {
