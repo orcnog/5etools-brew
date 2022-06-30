@@ -245,7 +245,7 @@ const equipmentConfig = {
                             o.subtype === "adrenal" ? "FD|consumable" :
                             o.subtype === "substance" ? "FD|consumable" :
                             o.subtype === "medpac" ? "FD|consumable" :
-                            o.subtype === "poison" ? "FD|consumable" : 
+                            o.subtype === "poison" ? "G|consumable" : // not FD (food & drink) because in SW5e poisons are seemingly only used to coat weapons and ammunition
                             o.subtype === "stimpac" ? "FD|consumable" : 
                             o.subtype === "explosive" ? "EXP|consumable" :
                             o.subtype === "ammunition" ? "AF|consumable" :

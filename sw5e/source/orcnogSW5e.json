@@ -21241,13 +21241,14 @@
 			"entries": [
 				"As an action, you can use the poison in this vial to coat one vibroweapon, one slug cartridge, or one wrist launcher dart. A creature hit by the poisoned weapon must make a DC 14 Constitution saving throw, taking 2d4 poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying."
 			],
-			"foundryType": "consumable"
+			"foundryType": "consumable",
+			"poison": true
 		},
 		{
 			"name": "Poison (Average)",
 			"source": "orcnogSW5e",
 			"page": 0,
-			"type": "FD",
+			"type": "G",
 			"rarity": "uncommon",
 			"age": "futuristic",
 			"entries": [
@@ -21260,7 +21261,7 @@
 			"name": "Poison (Deadly)",
 			"source": "orcnogSW5e",
 			"page": 0,
-			"type": "FD",
+			"type": "G",
 			"rarity": "very rare",
 			"age": "futuristic",
 			"entries": [
@@ -21273,7 +21274,7 @@
 			"name": "Poison (Devastating)",
 			"source": "orcnogSW5e",
 			"page": 0,
-			"type": "FD",
+			"type": "G",
 			"rarity": "artifact",
 			"age": "futuristic",
 			"entries": [
@@ -21286,7 +21287,7 @@
 			"name": "Poison (Lethal)",
 			"source": "orcnogSW5e",
 			"page": 0,
-			"type": "FD",
+			"type": "G",
 			"rarity": "legendary",
 			"age": "futuristic",
 			"entries": [
@@ -21299,7 +21300,7 @@
 			"name": "Poison (Major)",
 			"source": "orcnogSW5e",
 			"page": 0,
-			"type": "FD",
+			"type": "G",
 			"rarity": "rare",
 			"age": "futuristic",
 			"entries": [
