@@ -946,7 +946,7 @@
 							"Sonic"
 						]
 					]
-				},				
+				},
 				"{@i Those foolhardy enough to not treat a hostile planet as worthy a foe as the ones carrying blasters don't often live long enough to boast about it.}"
 			],
 			"foundryType": "equipment",
@@ -36060,11 +36060,31 @@
 				"{@i {@b Prerequisite}: Horror}",
 				"This power assaults and twists creatures' minds, spawning delusions and provoking uncontrolled action. Each creature in a 30-foot-radius sphere centered on you must succeed on a Wisdom saving throw when you cast this power or be affected by it.",
 				"An affected target can't take reactions and must roll a {@damage d8} at the start of each of its turns to determine its behavior for that turn. This power has no effect on constructs or droids.",
-				"|{@damage d8}|Behavior|",
-				"|:--:|:--|",
-				"|1| The creature uses all its movement to move in a random direction. To determine the direction, roll a {@damage d8} and assign a direction to each die face. The creature doesn't take an action this turn.|",
-				"|2-6| The creature doesn't move or take actions this turn.|",
-				"|7-8|The creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn.|",
+				{
+					"type": "table",
+					"colLabels": [
+						"d8",
+						"Behavior"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"The creature uses all its movement to move in a random direction. To determine the direction, roll a {@dice d8} and assign a direction to each die face. The creature doesn't take an action this turn."
+						],
+						[
+							"2-6",
+							"The creature doesn't move or take actions this turn."
+						],
+						[
+							"7-8",
+							"The creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn."
+						]
+					]
+				},
 				"At the end of each of its turns, an affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target.",
 				"{@b {@i Force Potency.}} When you cast this power using a power slot of 6th level or higher, the radius of the sphere increases by 5 feet for each force slot level above 5th."
 			],
@@ -36900,13 +36920,53 @@
 				"{@i {@b Prerequisite}: Animate Weapon}",
 				"You snag several objects using the Force and whip them into the air around you, controlling them to attack at your command. Choose up to ten unenhanced objects within range that are not being worn or carried. Medium targets count as two objects, Large targets count as four objects, Huge targets count as eight objects. You can't control any object larger than Huge. Each object animates and hovers near you, remaining within 100 feet of you for the duration. An animated object behaves as though it is was a construct, with AC, hit points, and attacks determined by its size, and a flying speed of 30 feet.",
 				"As a bonus action, you can mentally direct any object controlled by this power. If you control multiple objects, you can command any or all of them at the same time. You decide what action the object will take and where it will move. The objects act at the end of your turn. If you command an object to attack, it can make a single melee attack against a creature within 5 feet of it. It makes a slam attack with an attack bonus and kinetic damage determined by its size.",
-				"|Size|\t\tHP|\tAC|\tAttack|",
-				"|:--|:--:|:--:|:--:|",
-				"|Tiny\t|20|16|+6 to hit, {@damage 1d4 + 3} damage|",
-				"|Small\t|25|15|+6 to hit, {@damage 1d8 + 2} damage|",
-				"|Medium\t|40|13|+5 to hit, {@damage 2d6 + 1} damage|",
-				"|Large\t|50|10|+6 to hit, {@damage 2d10 + 2} damage|",
-				"|Huge\t|80|10|+8 to hit, {@damage 2d12 + 4} damage|",
+				{
+					"type": "table",
+					"colLabels": [
+						"Size",
+						"HP",
+						"AC",
+						"Attack"
+					],
+					"colStyles": [
+						"col-2",
+						"col-0 text-right",
+						"col-0 text-right",
+						"col-9"
+					],
+					"rows": [
+						[
+							"Tiny",
+							"20",
+							"16",
+							"+6 to hit, {@dice 1d4+3} damage"
+						],
+						[
+							"Small",
+							"25",
+							"15",
+							"+6 to hit, {@dice 1d8+2} damage"
+						],
+						[
+							"Medium",
+							"40",
+							"13",
+							"+5 to hit, {@dice 2d6+1} damage"
+						],
+						[
+							"Large",
+							"50",
+							"10",
+							"+6 to hit, {@dice 2d10+2} damage"
+						],
+						[
+							"Huge",
+							"80",
+							"10",
+							"+8 to hit, {@dice 2d12+4} damage"
+						]
+					]
+				},
 				"{@b {@i Force Potency.}} If you cast this power using a force slot of 6th level or higher, you can animate two additional objects for each slot level above 5th."
 			],
 			"damageInflict": [],
@@ -44859,50 +44919,50 @@
 			"entries": [
 				"You fire an undulating, warbling bolt of energy at a creature within range. Make a ranged tech attack against the target. On a hit, the target takes {@damage 2d8} + {@damage 1d6} damage. Choose one of the d8s. The number rolled on that die determines the attacks damage type, as shown below.",
 				{
-                    "type": "table",
-                    "colLabels": [
-                        "1d8",
-                        "Damage Type"
-                    ],
-                    "colStyles": [
-                        "col-1 text-center",
-                        "col-11"
-                    ],
-                    "rows": [
-                        [
-                            "1",
-                            "Acid"
-                        ],
-                        [
-                            "2",
-                            "Cold"
-                        ],
-                        [
-                            "3",
-                            "Fire"
-                        ],
-                        [
-                            "4",
-                            "Energy"
-                        ],
-                        [
-                            "5",
-                            "Ion"
-                        ],
-                        [
-                            "6",
-                            "Lightning"
-                        ],
-                        [
-                            "7",
-                            "Poison"
-                        ],
-                        [
-                            "8",
-                            "Sonic"
-                        ]
-                    ]
-                },
+					"type": "table",
+					"colLabels": [
+						"1d8",
+						"Damage Type"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"Acid"
+						],
+						[
+							"2",
+							"Cold"
+						],
+						[
+							"3",
+							"Fire"
+						],
+						[
+							"4",
+							"Energy"
+						],
+						[
+							"5",
+							"Ion"
+						],
+						[
+							"6",
+							"Lightning"
+						],
+						[
+							"7",
+							"Poison"
+						],
+						[
+							"8",
+							"Sonic"
+						]
+					]
+				},
 				"If you roll the same number on both d8s, the bolt leaps from the target to a different creature of your choice within 30 feet of it. Make a new attack roll against the new target, and make a new damage roll, which could cause the bolt to leap again. A creature can be targeted only once by each casting of this power.",
 				"{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 2nd level or higher, each target takes {@damage 1d6} extra damage of the type rolled for each slot level above 1st."
 			],
@@ -51287,7 +51347,15 @@
 				}
 			],
 			"entries": [
-				"<p>For the duration, you gain the following benefits:</p>\n<ul>\n<li>You are immune to the {@i homing rockets} tech power. </li>\n<li>You and objects you are wearing or carrying cannot be detected by tech powers that reveal your location, such as {@i scan area} or {@i frequency scan}, unless the caster makes a successful Intelligence saving throw. </li>\n<li>Creatures have disadvantage on Wisdom (Survival) checks to track you.</li></ul>"
+				"For the duration, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You are immune to the {@spell homing rockets|orcnogsw5e} tech power.",
+						"You and objects you are wearing or carrying cannot be detected by tech powers that reveal your location, such as {@spell scan area|orcnogsw5e} or {@spell frequency scan|orcnogsw5e}, unless the caster makes a successful Intelligence saving throw.",
+						"Creatures have disadvantage on Wisdom ({@skill Survival}) checks to track you."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -51522,86 +51590,86 @@
 				"prone"
 			]
 		},
-        {
-            "name": "Autonomous Servant",
-            "source": "orcnogSW5e",
-            "page": 0,
-            "size": [
-                "T"
-            ],
-            "type": "construct",
-            "alignment": [
-                "U"
-            ],
-            "ac": [
-                {
-                    "ac": 15,
-                    "from": [
-                        "natural armor"
-                    ]
-                }
-            ],
-            "hp": {
-                "average": 10,
-                "formula": "4d4"
-            },
-            "speed": {
-                "walk": 30,
-                "climb": 30
-            },
-            "str": 4,
-            "dex": 16,
-            "con": 10,
-            "int": 2,
-            "wis": 10,
-            "cha": 1,
-            "senses": [
-                "blindsight 60 feet (blind beyond this radius)"
-            ],
-            "passive": 10,
-            "resist": [
-                "necrotic",
-                "poison",
-                "psychic"
-            ],
-            "vulnerable": [
-                "ion"
-            ],
-            "conditionImmune": [
-                "charmed",
-                "deafened",
-                "exhaustion",
-                "poisoned"
-            ],
-            "languages": [
-                ""
-            ],
-            "trait": [
-                {
-                    "name": "Circuitry",
-                    "entries": [
-                        "The construct has disadvantage on saving throws against effects that would deal ion or lightning damage."
-                    ]
-                }
-            ],
-            "action": [
-                {
-                    "name": "Slam",
-                    "entries": [
-                        "{@atk mw} {@hit 4} to hit, reach 5 feet, one target. Hit 5 ({@damage 1d4 + 3}) kinetic damage."
-                    ]
-                }
-            ],
-            "senseTags": [
-                "B"
-            ],
-            "damageTags": [
-                "K"
-            ],
-            "miscTags": [
-                "MW",
-                "SW5e"
-            ]
-        }        
+		{
+			"name": "Autonomous Servant",
+			"source": "orcnogSW5e",
+			"page": 0,
+			"size": [
+				"T"
+			],
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 10,
+				"formula": "4d4"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 4,
+			"dex": 16,
+			"con": 10,
+			"int": 2,
+			"wis": 10,
+			"cha": 1,
+			"senses": [
+				"blindsight 60 feet (blind beyond this radius)"
+			],
+			"passive": 10,
+			"resist": [
+				"necrotic",
+				"poison",
+				"psychic"
+			],
+			"vulnerable": [
+				"ion"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				""
+			],
+			"trait": [
+				{
+					"name": "Circuitry",
+					"entries": [
+						"The construct has disadvantage on saving throws against effects that would deal ion or lightning damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 feet, one target. Hit 5 ({@damage 1d4 + 3}) kinetic damage."
+					]
+				}
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"K"
+			],
+			"miscTags": [
+				"MW",
+				"SW5e"
+			]
+		}
 	]
 }
