@@ -1875,7 +1875,7 @@
 			"age": "futuristic",
 			"value": 1500,
 			"entries": [
-				"An electroshock arrow is a specialized arrow for use with bow weapons. When you hit a creature with this arrow, the creature must make a DC 14 Dexterity saving throw. On a failed save, the creature takes {@damage 1d3} ion damage and becomes {@condition stunned} until the start of its next turn. On a successful save, a creature takes half damage and isn’t {@condition stunned}. Once the arrow hits a target, it no longer gives a bonus."
+				"An electroshock arrow is a specialized arrow for use with bow weapons. When you hit a creature with this arrow, the creature must make a DC 14 Dexterity saving throw. On a failed save, the creature takes {@damage 1d3} ion damage and becomes {@condition stunned} until the start of its next turn. On a successful save, a creature takes half damage and isn't {@condition stunned}. Once the arrow hits a target, it no longer gives a bonus."
 			],
 			"property": [
 				"AF"
@@ -2021,7 +2021,7 @@
 			"value": 3750,
 			"weight": 1.25,
 			"entries": [
-				"This specialized gungan club can be used to throw grenades or similar objects at long distances. If you are wielding this weapon, as part of the action to throw a grenade, you can instead throw it using an atlatl you are holding. The grenade can be thrown at a short distance of 30ft and a long distance of 120ft. When throwing a grenade at long range, creatures within the radius of the grenade’s explosion have advantage on the saving throw.  If you lack proficiency in the atlatl, you must roll the damage dice twice and take the lesser total."
+				"This specialized gungan club can be used to throw grenades or similar objects at long distances. If you are wielding this weapon, as part of the action to throw a grenade, you can instead throw it using an atlatl you are holding. The grenade can be thrown at a short distance of 30ft and a long distance of 120ft. When throwing a grenade at long range, creatures within the radius of the grenade's explosion have advantage on the saving throw.  If you lack proficiency in the atlatl, you must roll the damage dice twice and take the lesser total."
 			],
 			"property": [
 				"L",
@@ -2901,7 +2901,7 @@
 			"weight": 18.5,
 			"entries": [
 				"Rather than traditional power cells, the blaster cannon uses a specialized power generator that allows it to fire continuously for 10 minutes. Replacing a power generator takes an action.",
-				"Before firing the blaster cannon, you must deploy it using an action unless you meet its strength requirement. Alternatively, if you’re able to make multiple attacks with the {@action Attack} action, this action replaces one of them.  While deployed in this way, you treat this weapon’s strength number as two steps less (from 19 to 15), your speed is reduced by half, and you cannot fire this weapon at long range. You can collapse the blaster cannon as an action or bonus action."
+				"Before firing the blaster cannon, you must deploy it using an action unless you meet its strength requirement. Alternatively, if you're able to make multiple attacks with the {@action Attack} action, this action replaces one of them.  While deployed in this way, you treat this weapon's strength number as two steps less (from 19 to 15), your speed is reduced by half, and you cannot fire this weapon at long range. You can collapse the blaster cannon as an action or bonus action."
 			],
 			"property": [
 				"2H",
@@ -3130,7 +3130,7 @@
 			"value": 1000,
 			"weight": 2,
 			"entries": [
-				"A Large or smaller creature hit by a bolas is {@condition restrained} until it is freed. A bolas has no effect on formless or Huge or larger creatures. A creature can use its action to make a DC 13 Dexterity check, freeing itself or another creature within its reach on a success. The bolas has an AC of 10, 5 hit points, and immunity to all damage not dealt by melee weapons. Destroying the bolas frees the creature without harming it and immediately ends the bolas’s effects. While a creature is {@condition restrained} by a bolas, you can make no further attacks with it.",
+				"A Large or smaller creature hit by a bolas is {@condition restrained} until it is freed. A bolas has no effect on formless or Huge or larger creatures. A creature can use its action to make a DC 13 Dexterity check, freeing itself or another creature within its reach on a success. The bolas has an AC of 10, 5 hit points, and immunity to all damage not dealt by melee weapons. Destroying the bolas frees the creature without harming it and immediately ends the bolas's effects. While a creature is {@condition restrained} by a bolas, you can make no further attacks with it.",
 				"Due to their unwieldy nature, bolas make ineffective melee weapons. Melee attack rolls made with them are made at disadvantage."
 			],
 			"property": [
@@ -3327,7 +3327,8 @@
 			"age": "futuristic",
 			"value": 1400,
 			"entries": [
-				"This bolt-thrower ammunition deals {@damage 2d6} kinetic damage on a hit. Also on a hit, the creature must make a DC 14 Constitution saving throw, taking {@damage 2d4} sonic damage on a failed save.\r\nAdditionally, on a failed save, a creature is {@condition deafened} for 1 minute. At the end of an affected creature’s turn, it can repeat this save, ending the effect on a success."
+				"This bolt-thrower ammunition deals {@damage 2d6} kinetic damage on a hit. Also on a hit, the creature must make a DC 14 Constitution saving throw, taking {@damage 2d4} sonic damage on a failed save.",
+				"Additionally, on a failed save, a creature is {@condition deafened} for 1 minute. At the end of an affected creature's turn, it can repeat this save, ending the effect on a success."
 			],
 			"property": [
 				"AF"
@@ -3343,7 +3344,8 @@
 			"age": "futuristic",
 			"value": 1700,
 			"entries": [
-				"This bolt-thrower ammunition deals {@damage 2d6} kinetic damage on a hit. Also on a hit, the creature must make a DC 14 Dexterity saving throw, taking {@damage 2d4} lightning damage on a failed save.\r\nAdditionally, on a failed save, a creature is shocked for 1 minute. At the end of an affected creature’s turn, it can repeat this save, ending the effect on a success."
+				"This bolt-thrower ammunition deals {@damage 2d6} kinetic damage on a hit. Also on a hit, the creature must make a DC 14 Dexterity saving throw, taking {@damage 2d4} lightning damage on a failed save.",
+				"Additionally, on a failed save, a creature is shocked for 1 minute. At the end of an affected creature's turn, it can repeat this save, ending the effect on a success."
 			],
 			"property": [
 				"AF"
@@ -3359,7 +3361,8 @@
 			"age": "futuristic",
 			"value": 2000,
 			"entries": [
-				"This bolt-thrower ammunition deals {@damage 2d6} kinetic damage on a hit. Also on a hit, the creature must make a DC 14 Wisdom saving throw, taking {@damage 2d4} psychic damage on a failed save.\r\nAdditionally, on a failed save, a creature becomes {@condition frightened} of you for 1 minute. At the start of an affected creature’s turn, it can repeat this save, ending the effect on a success."
+				"This bolt-thrower ammunition deals {@damage 2d6} kinetic damage on a hit. Also on a hit, the creature must make a DC 14 Wisdom saving throw, taking {@damage 2d4} psychic damage on a failed save.",
+				"Additionally, on a failed save, a creature becomes {@condition frightened} of you for 1 minute. At the start of an affected creature's turn, it can repeat this save, ending the effect on a success."
 			],
 			"property": [
 				"AF"
@@ -4141,7 +4144,7 @@
 			"value": 6750,
 			"weight": 4.75,
 			"entries": [
-				"This specialized gungan staff can be used to throw grenades or similar objects at long distances. If you are wielding this weapon, as part of the action to throw a grenade, you can instead throw it using a cesta you are holding. The grenade can be thrown at a short distance of 60ft and a long distance of 240ft. When throwing a grenade at long range, creatures within the radius of the grenade’s explosion have advantage on the saving throw. If you lack proficiency in the cesta, you must roll the damage dice twice and take the lesser total."
+				"This specialized gungan staff can be used to throw grenades or similar objects at long distances. If you are wielding this weapon, as part of the action to throw a grenade, you can instead throw it using a cesta you are holding. The grenade can be thrown at a short distance of 60ft and a long distance of 240ft. When throwing a grenade at long range, creatures within the radius of the grenade's explosion have advantage on the saving throw. If you lack proficiency in the cesta, you must roll the damage dice twice and take the lesser total."
 			],
 			"property": [
 				"F",
@@ -17667,7 +17670,7 @@
 			"value": 8000,
 			"weight": 7,
 			"entries": [
-				"When you would make a Strength ({@skill Athletics}) check to attempt to grapple a creature while wielding a weapon with the grappling property, you can instead make a melee weapon attack with it. If the attack hits, the creature becomes {@condition grappled} by you, and it takes damage equal to your Strength modifier of the same type as the weapon’s damage."
+				"When you would make a Strength ({@skill Athletics}) check to attempt to grapple a creature while wielding a weapon with the grappling property, you can instead make a melee weapon attack with it. If the attack hits, the creature becomes {@condition grappled} by you, and it takes damage equal to your Strength modifier of the same type as the weapon's damage."
 			],
 			"property": [
 				"2H",
@@ -19513,7 +19516,7 @@
 			"value": 35000,
 			"weight": 25,
 			"entries": [
-				"Rather than traditional power cells, the mortar launcher fires grenades. If you lack proficiency in the mortar launcher, you must roll the damage dice twice and take the lesser total. A mortar launcher cannot fire on targets within its short range and when firing a grenade at long range, creatures within the radius of the grenade’s explosion do not have advantage on the saving throw. Additionally, when you launch a mortar at a target, you can treat the Weapon's point of origin as being 200ft in the air for the purposes of determining line of sight and cover.",
+				"Rather than traditional power cells, the mortar launcher fires grenades. If you lack proficiency in the mortar launcher, you must roll the damage dice twice and take the lesser total. A mortar launcher cannot fire on targets within its short range and when firing a grenade at long range, creatures within the radius of the grenade's explosion do not have advantage on the saving throw. Additionally, when you launch a mortar at a target, you can treat the Weapon's point of origin as being 200ft in the air for the purposes of determining line of sight and cover.",
 				"The mortar launcher requires the use of a tripod, which is included in the price. Over the course of 1 minute, you can deploy or collapse the mortar launcher on the tripod. While deployed, your speed is reduced to 0."
 			],
 			"property": [
@@ -25849,7 +25852,7 @@
 			"value": 32500,
 			"weight": 16.5,
 			"entries": [
-				"Before firing the sentry gun, you must deploy it using an action unless you meet its strength requirement. Alternatively, if you’re able to make multiple attacks with the {@action Attack} action, this action replaces one of them.  While deployed in this way, you treat this weapon’s strength number as two steps less (from 19 to 15), your speed is reduced by half, and you cannot fire this weapon at long range. You can collapse the sentry gun as an action or bonus action."
+				"Before firing the sentry gun, you must deploy it using an action unless you meet its strength requirement. Alternatively, if you're able to make multiple attacks with the {@action Attack} action, this action replaces one of them.  While deployed in this way, you treat this weapon's strength number as two steps less (from 19 to 15), your speed is reduced by half, and you cannot fire this weapon at long range. You can collapse the sentry gun as an action or bonus action."
 			],
 			"property": [
 				"2H",
@@ -29818,7 +29821,7 @@
 			"value": 150000,
 			"weight": 30,
 			"entries": [
-				"Rather than traditional power cells, the torpedo launcher fires specialized projectiles in the form of torpedoes. Torpedo launchers have advantage on attack rolls against Gargantuan creatures and disadvantage on attack rolls against Large and smaller creatures. Unlike other weapons, the torpedo launcher can only be loaded using an action, and you don’t add your Dexterity modifier to damage rolls you make with it.",
+				"Rather than traditional power cells, the torpedo launcher fires specialized projectiles in the form of torpedoes. Torpedo launchers have advantage on attack rolls against Gargantuan creatures and disadvantage on attack rolls against Large and smaller creatures. Unlike other weapons, the torpedo launcher can only be loaded using an action, and you don't add your Dexterity modifier to damage rolls you make with it.",
 				"The torpedo launcher requires the use of a tripod, which is included in the price. Over the course of 1 minute, you can deploy or collapse the torpedo launcher on the tripod. While deployed, your speed is reduced to 0."
 			],
 			"property": [
@@ -31058,7 +31061,7 @@
 			"value": 15000,
 			"weight": 8.5,
 			"entries": [
-				"You have disadvantage when you use a vibrolance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren’t mounted."
+				"You have disadvantage when you use a vibrolance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted."
 			],
 			"property": [
 				"R",
