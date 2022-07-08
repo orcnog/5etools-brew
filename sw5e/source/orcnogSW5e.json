@@ -24908,7 +24908,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 11
+			"strength": 11,
+			"burst": 4
 		},
 		{
 			"name": "Repelling Cycler (Chipped)",
@@ -29644,6 +29645,7 @@
 			"entries": [
 				"This augmentation replaces your eyes and face.",
 				"This implant contains several tools for long-term survival and reconnaissance. As a bonus action, you can activate one of the below modes that enable you to use several of these tools at once. Only one mode can be active at a time.",
+				"{@i}_",
 				{
 					"type": "list",
 					"items": [
@@ -29667,6 +29669,7 @@
 			"entries": [
 				"This augmentation replaces your eyes and face.",
 				"This implant contains several improved tools for long-term survival and reconnaissance. As a bonus action, you can activate one of the below modes that enable you to use several of these tools at once. Only one mode can be active at a time.",
+				"{@i}_",
 				{
 					"type": "list",
 					"items": [
@@ -34406,7 +34409,8 @@
 						"When you would make a ranged weapon attack with a weapon with the burst property, you can instead spray a 10-foot-cube area within range with shots, consuming ammunition equal to the burst number. Each creature in the area must make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon) or take the weapon's normal damage. Before you use the burst property, you can declare one creature that would be affected by it. If the creature fails its save, in addition to the weapon's normal damage, it is subjected to any additional effects that would occur on a hit. If the targeted area is beyond normal range but within long range, affected targets have advantage on the save."
 					]
 				}
-			]
+			],
+			"template": "{{prop_name}} ({{item.burst}})"
 		},
 		{
 			"abbreviation": "COR",
@@ -34938,7 +34942,8 @@
 						"Weapons with the thrown property can be thrown to make a ranged attack. If the weapon would normally be used to make melee weapon attacks, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. "
 					]
 				}
-			]
+			],
+			"template": "{{prop_name}} ({{item.range}} ft.)"
 		},
 		{
 			"abbreviation": "2H",
@@ -34966,7 +34971,8 @@
 						"A weapon with the versatile property can be used with one or two hands. A damage value in parentheses appears with the property�the damage when the weapon is used with two hands to make a melee attack."
 					]
 				}
-			]
+			],
+			"template": "{{prop_name}} ({{item.dmg2}})"
 		},
 		{
 			"abbreviation": "VSC",
