@@ -24918,7 +24918,7 @@
 			"rarity": "artifact",
 			"age": "futuristic",
 			"entries": [
-				"Rocket boots are a form of rocket propulsion system affixed to a pair of boots instead of being worn on the back like a standard jetpack. Activating or deactivating the boots requires a bonus action and, while active, you have a flying speed of 50 feet. The rocket boots last for 1 minute and can be recharged by a power source or replacing the power cell.\t"
+				"Rocket boots are a form of rocket propulsion system affixed to a pair of boots instead of being worn on the back like a standard jetpack. Activating or deactivating the boots requires a bonus action and, while active, you have a flying speed of 50 feet. The rocket boots last for 1 minute and can be recharged by a power source or replacing the power cell."
 			],
 			"foundryType": "equipment",
 			"modifySpeed": {
@@ -24935,7 +24935,7 @@
 			"rarity": "legendary",
 			"age": "futuristic",
 			"entries": [
-				"Rocket boots are a form of rocket propulsion system affixed to a pair of boots instead of being worn on the back like a standard jetpack. Activating or deactivating the boots requires a bonus action and, while active, you have a flying speed of 45 feet. The rocket boots last for 1 minute and can be recharged by a power source or replacing the power cell.\t"
+				"Rocket boots are a form of rocket propulsion system affixed to a pair of boots instead of being worn on the back like a standard jetpack. Activating or deactivating the boots requires a bonus action and, while active, you have a flying speed of 45 feet. The rocket boots last for 1 minute and can be recharged by a power source or replacing the power cell."
 			],
 			"foundryType": "equipment",
 			"modifySpeed": {
@@ -24952,7 +24952,7 @@
 			"rarity": "uncommon",
 			"age": "futuristic",
 			"entries": [
-				"Rocket boots are a form of rocket propulsion system affixed to a pair of boots instead of being worn on the back like a standard jetpack. Activating or deactivating the boots requires a bonus action and, while active, you have a flying speed of 30 feet. The rocket boots last for 1 minute and can be recharged by a power source or replacing the power cell.\t"
+				"Rocket boots are a form of rocket propulsion system affixed to a pair of boots instead of being worn on the back like a standard jetpack. Activating or deactivating the boots requires a bonus action and, while active, you have a flying speed of 30 feet. The rocket boots last for 1 minute and can be recharged by a power source or replacing the power cell."
 			],
 			"foundryType": "equipment",
 			"modifySpeed": {
@@ -24969,7 +24969,7 @@
 			"rarity": "rare",
 			"age": "futuristic",
 			"entries": [
-				"Rocket boots are a form of rocket propulsion system affixed to a pair of boots instead of being worn on the back like a standard jetpack. Activating or deactivating the boots requires a bonus action and, while active, you have a flying speed of 35 feet. The rocket boots last for 1 minute and can be recharged by a power source or replacing the power cell.\t"
+				"Rocket boots are a form of rocket propulsion system affixed to a pair of boots instead of being worn on the back like a standard jetpack. Activating or deactivating the boots requires a bonus action and, while active, you have a flying speed of 35 feet. The rocket boots last for 1 minute and can be recharged by a power source or replacing the power cell."
 			],
 			"foundryType": "equipment",
 			"modifySpeed": {
@@ -24986,7 +24986,7 @@
 			"rarity": "very rare",
 			"age": "futuristic",
 			"entries": [
-				"Rocket boots are a form of rocket propulsion system affixed to a pair of boots instead of being worn on the back like a standard jetpack. Activating or deactivating the boots requires a bonus action and, while active, you have a flying speed of 40 feet. The rocket boots last for 1 minute and can be recharged by a power source or replacing the power cell.\t"
+				"Rocket boots are a form of rocket propulsion system affixed to a pair of boots instead of being worn on the back like a standard jetpack. Activating or deactivating the boots requires a bonus action and, while active, you have a flying speed of 40 feet. The rocket boots last for 1 minute and can be recharged by a power source or replacing the power cell."
 			],
 			"foundryType": "equipment",
 			"modifySpeed": {
@@ -25058,7 +25058,7 @@
 			"value": 25000,
 			"weight": 3,
 			"entries": [
-				"Rocket boots are a form of rocket propulsion system affixed to a pair of boots instead of being worn on the back like a standard jetpack. Activating or deactivating the boots requires a bonus action and, while active, you have a flying speed of 25 feet. The rocket boots last for 1 minute and can be recharged by a power source or replacing the power cells.\t"
+				"Rocket boots are a form of rocket propulsion system affixed to a pair of boots instead of being worn on the back like a standard jetpack. Activating or deactivating the boots requires a bonus action and, while active, you have a flying speed of 25 feet. The rocket boots last for 1 minute and can be recharged by a power source or replacing the power cells."
 			],
 			"foundryType": "equipment",
 			"modifySpeed": {
@@ -32678,7 +32678,7 @@
 			"rarity": "artifact",
 			"age": "futuristic",
 			"entries": [
-				"This item gains the withering 3 property. If it already has the withering property, its withering number increases to 3.\t"
+				"This item gains the withering 3 property. If it already has the withering property, its withering number increases to 3."
 			],
 			"foundryType": "equipment",
 			"baseItem": "focus generator|orcnogSW5e",
@@ -32720,7 +32720,7 @@
 			"rarity": "artifact",
 			"age": "futuristic",
 			"entries": [
-				"This item gains the withering 3 property. If it already has the withering property, its withering number increases to 3.\t"
+				"This item gains the withering 3 property. If it already has the withering property, its withering number increases to 3."
 			],
 			"foundryType": "equipment"
 		},
@@ -33259,6 +33259,1072 @@
 				"Yarrock is a hallucinogen which is said to instill a creature with a clear vision of \"the meaning of life\", granting a boost to confidence. As an action, you can apply this substance to a creature within 5 feet. For the next 10 minutes, the creature experiences a high that allows them to roll an additional {@dice d6} when making an ability check, attack roll, or saving throw using Charisma. At the end of the high, the creature must succeed on a DC 18 Wisdom saving throw or experience a low that lasts 1 hour, during which they must roll a {@dice d6} and subtract the result when making an ability check, attack roll, or saving throw using Charisma. At the end of the low, the creature must make a DC 18 Constitution saving throw to resist addiction."
 			],
 			"foundryType": "consumable"
+		}
+	],
+	"itemProperty": [
+		{
+			"abbreviation": "AST",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Strength",
+					"entries": [
+						"While wearing armor or wielding a shield with the strength property, your speed is reduced by 10 unless your Strength score meets or exceeds the strength number."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "AUT",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Auto",
+					"entries": [
+						"Weapons with the auto property can only fire in burst, penetrating, or rapid modes. If the weapon has any combination of burst, penetrating, and rapid modes, you choose which mode to use. You can only use one mode at a time."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "BIT",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Biting",
+					"entries": [
+						"This weapon's damage becomes acid. Additionally, when you would make a melee weapon attack with a weapon with the biting property, you can instead force the target to make a Constitution saving throw (DC = 8 + your bonus to attacks with the weapon, or the biting number, whichever is lower). If you would have advantage on your attack roll, the creature instead has disadvantage on their saving throw, and if you would have disadvantage on your attack roll, the creature instead has advantage on their saving throw. On a failed save, the target takes normal weapon damage and is subjected to any additional effects that would occur on a hit, and the first attack it makes before the end of its next turn has disadvantage. If damage dealt by this weapon reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing and carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "BRT",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Bright",
+					"entries": [
+						"This weapon's damage becomes fire, and its luminous property sheds bright light in a 5-foot radius and dim light for an additional 5 feet while activated, instead of only dim light in a 5-foot radius. Additionally, when you would make a melee weapon attack with a weapon with the bright property, you can instead force the target to make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon, or the bright number, whichever is lower). If you would have advantage on your attack roll, the creature instead has disadvantage on their saving throw, and if you would have disadvantage on your attack roll, the creature instead has advantage on their saving throw. On a failed save, the target takes normal weapon damage and is subjected to any additional effects that would occur on a hit, and the creature takes additional damage of the same type at the start of its next turn equal to your governing ability modifier."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "BLK",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Bulky",
+					"entries": [
+						"While wearing armor with the bulky property, you have disadvantage on Dexterity ({@skill Stealth}) checks that rely on sound."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "BRU",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Brutal",
+					"entries": [
+						"When you score a critical hit with a weapon with the brutal property, you roll a number of additional weapon damage dice equal to the brutal number."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "BST",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Burst",
+					"entries": [
+						"When you would make a ranged weapon attack with a weapon with the burst property, you can instead spray a 10-foot-cube area within range with shots, consuming ammunition equal to the burst number. Each creature in the area must make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon) or take the weapon's normal damage. Before you use the burst property, you can declare one creature that would be affected by it. If the creature fails its save, in addition to the weapon's normal damage, it is subjected to any additional effects that would occur on a hit. If the targeted area is beyond normal range but within long range, affected targets have advantage on the save."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "COR",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Corruption",
+					"entries": [
+						"This weapon's damage becomes necrotic, and it loses the luminous property if it has it. Additionally, when you would make a melee weapon attack with a weapon with the corruption property, you can instead force the target to make a Wisdom saving throw (DC = 8 + your bonus to attacks with the weapon, or the corruption number, whichever is lower). If you would have advantage on your attack roll, the creature instead has disadvantage on their saving throw, and if you would have disadvantage on your attack roll, the creature instead has advantage on their saving throw. On a failed save, the target takes normal weapon damage and is subjected to any additional effects that would occur on a hit, and the creature cannot regain hit points until the start of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DEF",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Defensive",
+					"entries": [
+						"When you make your first attack on your turn with a weapon with the defensive property, you can choose to suffer a penalty to attack and damage rolls with that weapon up to the defensive number. If you do so, you gain the same bonus to AC. These effects last until the start of your next turn, as long as you're holding the weapon."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DEX",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Dexterity",
+					"entries": [
+						"A weapon with the dexterity property requires more skill to control. While wielding it, you have disadvantage on attack rolls unless you meet the Dexterity requirement. "
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DIR",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Dire",
+					"entries": [
+						"Before you make a weapon attack with a weapon with the dire property, you can choose to suffer a penalty to the attack roll up to the dire number. If you do so and you hit with it, you gain an equivalent bonus to the damage roll."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DSA",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Disarming",
+					"entries": [
+						"When you score a critical hit with a weapon with the disarming property against a creature that is holding an object, you can attempt to disarm the target (no action required). If the target is no more than one size larger than you (your size or smaller if your weapon has the light property), it must succeed on a Strength saving throw (DC = 8 + your bonus to attacks with the weapon) or it drops an object of your choice at its feet."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DSG",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Disguised",
+					"entries": [
+						"You have advantage on Charisma ({@skill Deception}) checks made to hide the nature of a weapon with the disguised property."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DSN",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Disintegrate",
+					"entries": [
+						"When a creature is reduced to 0 hit points by a weapon with the disintegrate property, it must make a Constitution saving throw, DC equal to the disintegrate number. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing or carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DSR",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Disruptive",
+					"entries": [
+						"When a creature is forced to make a Constitution saving throw to maintain concentration due to taking damage from a weapon with the disruptive property, the DC for the check equals 10 or the full damage taken, whichever number is higher, instead of only half."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DBL",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Double",
+					"entries": [
+						"A weapon with the double property can be used with one or two hands. A damage value in parentheses appears with the property�the damage when the weapon is used with Double-Weapon Fighting. See the rules for Double-Weapon Fighting in chapter 9."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "F",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Finesse",
+					"entries": [
+						"When making an attack with a weapon with the finesse property, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "FXD",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Fixed",
+					"entries": [
+						"A weapon with the fixed property does not fill the hand, but you can't use the weapon while the hand is full. Additionally, you have a +10 bonus to ability checks and saving throws to avoid being disarmed of this weapon."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "H",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Heavy",
+					"entries": [
+						"When you hit with an attack roll using Strength with a weapon with the heavy property, you deal additional damage equal to half your Strength modifier (rounded up, minimum of +1)."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "HID",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Hidden",
+					"entries": [
+						"You have advantage on Dexterity ({@skill Sleight of Hand}) checks made to conceal a weapon with the hidden property."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "INL",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Interlocking",
+					"entries": [
+						"While wielding a weapon with the interlocking property, you can use your object interaction to detach the weapon into two separate weapons or reattach into a single weapon. While separated, each weapon has the same damage, damage type, combined value and weight, and properties (except for the double property) as the single weapon."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "KEN",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Keen",
+					"entries": [
+						"When you make a weapon attack with a weapon with the keen property, the critical hit range increases by an amount equal to the keen number."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "L",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Light",
+					"entries": [
+						"A weapon with the light property is small and easy to handle, making it ideal for use when engaging in Double- or Two-Weapon Fighting. See the rules for Double- and Two-Weapon Fighting in chapter 9."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "LUM",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Luminous",
+					"entries": [
+						"A weapon with the luminous property sheds dim light in a 5-foot radius while activated. Additionally, Dexterity (Stealth) checks made while the weapon is activated have disadvantage."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "MIG",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mighty",
+					"entries": [
+						"When making an attack with a mighty weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "MOD",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Modal",
+					"entries": [
+						"A weapon with the modal property can switch between modes. A list of weapons in parentheses appears with the property-the weapons between which an exotic weapon can be switched by using an object interaction."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "NEU",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Neuralizing",
+					"entries": [
+						"When you hit a creature with a weapon with the neuralizing property, you can force it to make a Wisdom saving throw, DC equal to the neuralizing number. On a failed save, the creature takes an additional 1d4 psychic damage and becomes frightened of you until the start of its next turn."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "OBT",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Obtrusive",
+					"entries": [
+						"While wielding a shield with the obtrusive property, you have disadvantage on Dexterity ({@skill Stealth}) checks that rely on sight."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "PEN",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Penetrating",
+					"entries": [
+						"When you would make a ranged weapon attack with a weapon with the penetrating property, you can instead attempt to penetrate and hit a creature behind the target, consuming ammunition equal to the penetrating number. Make an attack roll against the initial target. If the attack hits, there is a creature within 15 feet of that creature and directly behind it, and the original attack roll would hit the second creature, it also takes normal weapon damage."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "PRC",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Piercing",
+					"entries": [
+						"Before you make a weapon attack with a weapon with the piercing property, you can choose to gain a bonus to the attack roll up to the piercing number. If you do so and you hit with it, you suffer an equivalent penalty to the damage roll."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "PCL",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Power Cell",
+					"entries": [
+						"Weapons with the power cell property are fueled by power cells, which must be loaded in order to fire the weapon."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "RNG",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Range",
+					"entries": [
+						"A weapon that can be used to make a ranged attack has the range property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's long range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "RAP",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Rapid",
+					"entries": [
+						"When you would make a ranged weapon attack with a weapon with the rapid property, you can instead unload on a single target, consuming ammunition equal to the rapid number. The target must make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon). On a failed save, roll the weapon's damage dice twice and add them together, adding relevant modifiers as normal and subjecting the target to any additional effects that would occur on a hit. If the target is beyond normal range but within long range, it has advantage on the save."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "R",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reach",
+					"entries": [
+						"A weapon with the reach property adds 5 feet to your reach with it."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "RLD",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"A number of shots equal to the reload number can be made with a weapon with the reload property. A character must then reload it using an action or a bonus action (their choice). You must have one free hand to reload."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "RET",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Returning",
+					"entries": [
+						"When you throw a weapon with the returning property, it automatically returns to your hand after the attack is complete, whether you hit or miss."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SHO",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Shocking",
+					"entries": [
+						"When you hit a creature with a weapon with the shocking property, you can force it to make a Dexterity saving throw, DC equal to the shocking number. On a failed save, the creature takes an additional 1d4 lightning damage and becomes shocked until the end of its next turn."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SIL",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Silent",
+					"entries": [
+						"When you make a ranged weapon attack with a weapon with the silent property while hidden, it does not automatically reveal your presence. Make a Dexterity (Stealth) check contested by your targets' Wisdom (Perception) check. On a success, you remain hidden."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SLG",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Slug Cartridge",
+					"entries": [
+						"Weapons with the slug cartridge property fire slug cartridges, which must be loaded in order to fire the weapon."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SMT",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Smart",
+					"entries": [
+						"This weapon ignores your Dexterity score and proficiency bonus. Two numbers appear in parentheses with the property�the first is the weapon's Dexterity score, and the second is the weapon's proficiency bonus. The weapon uses these values instead of yours when you make attack and damage rolls with it. If you lack proficiency with the weapon, the weapon does not benefit from its proficiency bonus."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SON",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Sonorous",
+					"entries": [
+						"When you hit a creature with a weapon with the sonorous property, you can force it to make a Constitution saving throw, DC equal to the sonorous number. On a failed save, the creature takes an additional 1d4 sonic damage and becomes deafened until the end of its next turn."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "S",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"A weapon with the special property has unusual rules governing its use, explained in the weapon's description (see \"Special Weapons\" later in this section)."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SPC",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Specialized",
+					"entries": [
+						"A weapon with the specialized property bypasses the base and cap of certain properties. Another weapon property in parentheses with the property-the weapon property that the exotic bypasses the base and cap for."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SWI",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Switch",
+					"entries": [
+						"A weapon with the switch property can deal an alternate type of damage. A damage value appears in parentheses appears with the property-the damage when the weapon uses its alternate damage type. On your turn, you can use your object interaction to change the weapon's damage type."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "T",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Thrown",
+					"entries": [
+						"Weapons with the thrown property can be thrown to make a ranged attack. If the weapon would normally be used to make melee weapon attacks, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. "
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "2H",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Two-Handed",
+					"entries": [
+						"A weapon with the two-handed property requires two hands to use."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "V",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Versatile",
+					"entries": [
+						"A weapon with the versatile property can be used with one or two hands. A damage value in parentheses appears with the property�the damage when the weapon is used with two hands to make a melee attack."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "VSC",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Vicious",
+					"entries": [
+						"Whenever you deal damage with a weapon with the vicious property and roll the maximum on a weapon damage die, you gain a bonus to damage equal to the vicious number."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "STR",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Strength",
+					"entries": [
+						"A weapon with the strength property has a heavy kickback. While wielding it, you have disadvantage on attack rolls unless you meet the Strength requirement. If the weapon has the burst, penetrating, or rapid property, you must meet the Strength requirement to use this feature. If the weapon lacks the two-handed property, you can wield the weapon in two hands to temporarily reduce the strength number by one step (from 19 to 17, 17 to 15, 15 to 13, or 13 to 11). If this would reduce the strength number below 11, you ignore it entirely."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "ABS",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Absorptive",
+					"entries": [
+						"When you are wearing armor or wielding a shield with the absorptive property, damage that you take from weapons is reduced by an amount equal to the absorptive number. If this would reduce the damage to 0, the damage is instead reduced to 1."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "AGI",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Agile",
+					"entries": [
+						"While wearing armor or wielding a shield with the agile property, your Dexterity score becomes equal to the agile number. If your Dexterity is already equal to or greater than the agile number, it has no effect on you."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "ANC",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Anchor",
+					"entries": [
+						"A shield with the anchor property can be used to provide cover. As an action, you can anchor or recover the shield. While anchored, you gain no benefit from a shield, and it does not require the use of a hand. Instead, while anchored, a light shield provides one-quarter cover, a medium shield provides half cover, and a heavy shield provides three-quarters cover."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "AVO",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Avoidant",
+					"entries": [
+						"When wearing armor or wielding a shield with the avoidant property and a creature makes an attack against you, the critical hit range decreases by an amount equal to the avoidant number, to a minimum of 1."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "BAR",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Barbed",
+					"entries": [
+						"When you succeed on a Strength (Athletics) check to initiate or maintain a grapple while wearing armor with the barbed property, the creature takes kinetic damage using the barbed damage (which appears in parentheses with the property) + your Strength modifier."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "CHG",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Charging",
+					"entries": [
+						"When you take damage while wearing armor or wielding a shield with the charging property, you gain a charge. You can store a maximum number of charges equal to the charging number, and the charges last for 1 minute. The next time you hit with a melee weapon attack while you have charges, you deal additional damage of the same type as the weapon’s damage equal to the number of charges stored, and the charges are expended."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "CON",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Concealing",
+					"entries": [
+						"While wielding a shield with the concealing property, you have advantage on Dexterity (Stealth) checks that rely on sight."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "CMB",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Cumbersome",
+					"entries": [
+						"While wearing armor or wielding a shield with the cumbersome property, your speed is reduced by 5."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "GAU",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Gauntleted",
+					"entries": [
+						"While wearing armor with the gauntleted property, your unarmed strikes deal kinetic damage using the gauntleted damage (which appears in parentheses with the property) + your Strength modifier."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "IMB",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Imbalanced",
+					"entries": [
+						"When you are critically hit while wielding a shield with the imbalanced property, you can’t take reactions until the start of your next turn, and you gain no AC benefit from your shield against the next attack against you before the start of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "IMP",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Impermeable",
+					"entries": [
+						"Armor with the impermeable property functions as an enviro-suit, flight suit, and water suit."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "INS",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Insulated",
+					"entries": [
+						"When you make a saving throw against an effect that would deal ion or lightning damage while wearing armor or wielding a shield with the insulated property, you can treat a d20 roll of below the insulated number as the insulated number."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "INT",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Interlocking",
+					"entries": [
+						"While wielding a shield with the interlocking property within 5 feet of a friendly creature who is also wielding a shield with the interlocking property, you can both use your reactions on either of your turns to interlock the shields. While interlocked, both creatures gain a bonus to AC equal to the interlocking number. If at any point the creatures are more than 5 feet from each other, the shields immediately de-interlock, and this effect ends."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "LAM",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Lambent",
+					"entries": [
+						"While wielding a shield with the lambent property, you can use a bonus action to activate or deactivate the shield’s light. While active, the shield sheds bright light in a 5-foot radius and dim light for an additional 5 feet. Additionally, Dexterity (Stealth) checks made while the shield’s light is active that rely on sight have disadvantage."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "LIG",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Lightweight",
+					"entries": [
+						"Armor and shields with the lightweight property have their weight reduced by half."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "MAG",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Magnetic",
+					"entries": [
+						"While you are wielding a shield with the magnetic property and a melee weapon attack misses you by an amount less than or equal to your bonus to AC from your shield, the attacking creature must make a Strength check, DC equal to the magnetic number. On a failed save, the creature’s weapon adheres to the shield. As an action, a creature can repeat this check. On a success, the weapon is freed."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "OBS",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Obscured",
+					"entries": [
+						"While wearing armor or wielding a shield with the obscured property, electronic sensors and cameras have disadvantage on Wisdom (Perception) and Intelligence (Investigation) checks against you that rely on sight."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "POW",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Powered",
+					"entries": [
+						"While wearing armor with the powered property, your Strength score becomes equal to the powered number. If your Strength is already equal to or greater than the powered number, it has no effect on you."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "REA",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reactive",
+					"entries": [
+						"When you are wearing armor with the reactive property and a creature hits you with an attack roll, you gain a bonus to AC against the next attack from that creature before the start of your next turn equal to the reactive number."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "REG",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Regulated",
+					"entries": [
+						"When you are wearing armor or wielding a shield with the regulated property and a creature rolls the maximum on a weapon damage die against you, they must reroll and use the new roll, even if the new roll is the maximum on the weapon damage die."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "REI",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reinforced",
+					"entries": [
+						"When you make a long jump while wearing armor with the reinforced property, you can cover a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "RES",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Responsive",
+					"entries": [
+						"While you are wielding a shield with the responsive property and an attack misses you by an amount less than or equal to your bonus to AC from your shield, you gain a bonus to AC against the next attack from that creature before the start of your next turn equal to the responsive number."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "RIG",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Rigid",
+					"entries": [
+						"While wearing armor with the rigid property, you add half your Dexterity modifier (rounded down), instead of your full Dexterity modifier, to Dexterity saving throws you make. If your Dexterity modifier is negative, you instead subtract the full modifier."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SIL",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Silent",
+					"entries": [
+						"While wearing armor with the silent property, you have advantage on Dexterity (Stealth) checks that rely on sound."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SPK",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Spiked",
+					"entries": [
+						"When you succeed on a Strength (Athletics) check to shove or trip a creature while wielding a shield with the spiked property, the creature takes kinetic damage using the spiked damage (which appears in parentheses with the property) + your Strength modifier. If you use a shield with the spiked property as an improvised weapon, the damage increases by one step (from d4 to d6, d6 to d8, or d8 to 2d4)."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "STE",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Steadfast",
+					"entries": [
+						"While wearing armor or wielding a shield with the steadfast property, you have advantage on Strength checks and Strength saving throws to avoid being moved."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "VSA",
+			"source": "orcnogSw5e",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Versatile",
+					"entries": [
+						"A shield with the versatile property can be used with one or two hands. While wielded in two hands, you gain an additional bonus to AC equal to the versatile number."
+					]
+				}
+			]
 		}
 	],
 	"spell": [
