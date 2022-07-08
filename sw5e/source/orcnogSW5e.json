@@ -316,7 +316,11 @@
 			"property": [
 				"2H",
 				"BF",
-				"RLD"
+				"RLD",
+				"BST",
+				"POW",
+				"RAP",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -327,7 +331,8 @@
 			"reload": 9,
 			"range": "60/240",
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Absorbing Amplifier Mk I",
@@ -1015,7 +1020,11 @@
 			"weight": 8,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"FXD",
+				"POW",
+				"RAP",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -1029,7 +1038,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Agile Armoring Mk I",
@@ -1514,7 +1524,11 @@
 			"weight": 18.5,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"AUT",
+				"PEN",
+				"POW",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -1528,7 +1542,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 19
 		},
 		{
 			"name": "Anti-materiel Rifle",
@@ -1541,7 +1556,10 @@
 			"weight": 17,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"PEN",
+				"RNG",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -1555,7 +1573,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 19
 		},
 		{
 			"name": "Antitoxkit",
@@ -1968,7 +1987,11 @@
 			"ac": "17",
 			"stealth": true,
 			"strength": 15,
-			"foundryType": "armor"
+			"foundryType": "armor",
+			"property": [
+				"BLK",
+				"AST"
+			]
 		},
 		{
 			"name": "Assault cannon",
@@ -1982,7 +2005,10 @@
 			"property": [
 				"2H",
 				"BF",
-				"RLD"
+				"RLD",
+				"BST",
+				"POW",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -1996,7 +2022,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 15
 		},
 		{
 			"name": "Astrotech's implements",
@@ -2025,7 +2052,8 @@
 			],
 			"property": [
 				"L",
-				"S"
+				"S",
+				"DSG"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -2166,7 +2194,13 @@
 			"property": [
 				"2H",
 				"BF",
-				"RLD"
+				"RLD",
+				"AUT",
+				"BST",
+				"POW",
+				"SRT",
+				"DSN",
+				"VSC"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -2180,7 +2214,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 19
 		},
 		{
 			"name": "Backpack",
@@ -2192,7 +2227,7 @@
 			"value": 500,
 			"weight": 5,
 			"entries": [
-				"A backpack stores 30 lb., not exceeding 1 cubic foot. "
+				"A backpack stores 30 lb., not exceeding 1 cubic foot."
 			],
 			"foundryType": "backpack"
 		},
@@ -2373,7 +2408,11 @@
 			"ac": "16",
 			"stealth": true,
 			"strength": 13,
-			"foundryType": "armor"
+			"foundryType": "armor",
+			"property": [
+				"BLK",
+				"AST"
+			]
 		},
 		{
 			"name": "Bayonet",
@@ -2398,7 +2437,10 @@
 			"weight": 16,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"PEN",
+				"POW",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -2412,7 +2454,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 15
 		},
 		{
 			"name": "Bedroll",
@@ -2481,7 +2524,11 @@
 			"entries": [
 				null
 			],
-			"foundryType": "armor"
+			"foundryType": "armor",
+			"property": [
+				"AST",
+				"REG"
+			]
 		},
 		{
 			"name": "Binders",
@@ -2672,7 +2719,10 @@
 			"value": 18000,
 			"weight": 2.5,
 			"property": [
-				"V"
+				"V",
+				"HID",
+				"LUM",
+				"BIT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -2905,7 +2955,12 @@
 			],
 			"property": [
 				"2H",
-				"BF"
+				"BF",
+				"AUT",
+				"BST",
+				"RNG",
+				"RAP",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -2915,7 +2970,8 @@
 			"ammoType": "energy cell",
 			"range": "120/480",
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 19
 		},
 		{
 			"name": "Blaster carbine",
@@ -2928,7 +2984,8 @@
 			"weight": 5.5,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"POW"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -2954,7 +3011,8 @@
 			"value": 1750,
 			"weight": 2.5,
 			"property": [
-				"RLD"
+				"RLD",
+				"POW"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -2981,7 +3039,8 @@
 			"weight": 7.5,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"POW"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -3007,7 +3066,10 @@
 			"value": 18000,
 			"weight": 2.5,
 			"property": [
-				"V"
+				"V",
+				"HID",
+				"LUM",
+				"COR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -3112,7 +3174,7 @@
 				"{@b {@i Staff.}} While in this mode, the weapon gains the shocking property."
 			],
 			"property": [
-				"2H",
+				"MOD",
 				"RLD"
 			],
 			"foundryType": "weapon",
@@ -3136,7 +3198,8 @@
 			"property": [
 				"L",
 				"S",
-				"T"
+				"T",
+				"RNG"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -3383,7 +3446,10 @@
 			],
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"RNG",
+				"SRT",
+				"SIL"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -3393,7 +3459,8 @@
 			"range": "90/360",
 			"foundryType": "weapon",
 			"dmgType": "Unknown",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 13
 		},
 		{
 			"name": "Bonded Plates Mk I",
@@ -3462,7 +3529,10 @@
 			"entries": [
 				null
 			],
-			"foundryType": "armor"
+			"foundryType": "armor",
+			"property": [
+				"SPK"
+			]
 		},
 		{
 			"name": "Boots of Bounding",
@@ -3522,7 +3592,10 @@
 			"property": [
 				"2H",
 				"BF",
-				"RLD"
+				"RLD",
+				"BST",
+				"POW",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -3536,7 +3609,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 13
 		},
 		{
 			"name": "Brawny Arm Prosthesis",
@@ -3718,7 +3792,10 @@
 			"value": 18000,
 			"weight": 2.5,
 			"property": [
-				"V"
+				"V",
+				"HID",
+				"LUM",
+				"BRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -3740,7 +3817,10 @@
 			"value": 10000,
 			"weight": 2.75,
 			"property": [
-				"V"
+				"V",
+				"DEX",
+				"LUM",
+				"DIR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -3934,7 +4014,11 @@
 			"property": [
 				"2H",
 				"H",
-				"R"
+				"R",
+				"DEX",
+				"LUM",
+				"BRU",
+				"KEN"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -4094,7 +4178,11 @@
 			"weight": 8.5,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"AUT",
+				"POW",
+				"RAP",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -4108,7 +4196,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Celerity Leg Prosthesis",
@@ -4149,7 +4238,8 @@
 			"property": [
 				"F",
 				"S",
-				"V"
+				"V",
+				"DSG"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -4169,7 +4259,8 @@
 			"weight": 3.75,
 			"property": [
 				"F",
-				"R"
+				"R",
+				"DSA"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -4191,7 +4282,9 @@
 			"weight": 3.5,
 			"property": [
 				"F",
-				"R"
+				"R",
+				"LUM",
+				"DSA"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -4213,7 +4306,12 @@
 			"weight": 10.5,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"AUT",
+				"RNG",
+				"RAP",
+				"SRT",
+				"VSC"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -4227,7 +4325,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 13
 		},
 		{
 			"name": "Chakram",
@@ -4240,7 +4339,9 @@
 			"weight": 3,
 			"property": [
 				"F",
-				"T"
+				"T",
+				"RNG",
+				"RET"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -4910,7 +5011,7 @@
 			"value": 500,
 			"weight": 25,
 			"entries": [
-				"A chest stores 300 lb., not exceeding 12 cubic feet. "
+				"A chest stores 300 lb., not exceeding 12 cubic feet."
 			],
 			"foundryType": "backpack"
 		},
@@ -5111,7 +5212,9 @@
 			"value": 23000,
 			"weight": 3.5,
 			"property": [
-				"2H"
+				"2H",
+				"DEX",
+				"LUM"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -5565,7 +5668,10 @@
 			"ac": "15",
 			"stealth": true,
 			"strength": null,
-			"foundryType": "armor"
+			"foundryType": "armor",
+			"property": [
+				"BLK"
+			]
 		},
 		{
 			"name": "Compound bow",
@@ -5581,7 +5687,10 @@
 				"Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield."
 			],
 			"property": [
-				"2H"
+				"2H",
+				"RNG",
+				"MIG",
+				"SIL"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -6191,7 +6300,7 @@
 			"age": "futuristic",
 			"value": 420,
 			"entries": [
-				"A corrosive cartridge is a specialized slug cartridge for use with blaster weapons that deal kinetic damage. When you hit with a shot with the loaded weapon, the creature must make a DC 14 Constitution saving throw, taking {@damage 1d8} acid damage on a failed save or half as much on a successful one. If you reduce a creature to 0 hit points with the loaded weapon, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing or carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized. "
+				"A corrosive cartridge is a specialized slug cartridge for use with blaster weapons that deal kinetic damage. When you hit with a shot with the loaded weapon, the creature must make a DC 14 Constitution saving throw, taking {@damage 1d8} acid damage on a failed save or half as much on a successful one. If you reduce a creature to 0 hit points with the loaded weapon, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing or carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized."
 			],
 			"property": [
 				"AF"
@@ -6420,7 +6529,10 @@
 			"weight": 5.25,
 			"property": [
 				"H",
-				"R"
+				"R",
+				"DEX",
+				"DBL",
+				"LUM"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -6478,7 +6590,10 @@
 			"weight": 3.25,
 			"property": [
 				"H",
-				"V"
+				"V",
+				"DEX",
+				"LUM",
+				"DEF"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -6502,7 +6617,12 @@
 			"property": [
 				"2H",
 				"BF",
-				"RLD"
+				"RLD",
+				"AUT",
+				"BST",
+				"POW",
+				"SRT",
+				"VSC"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -6516,7 +6636,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 13
 		},
 		{
 			"name": "Cryo Cell (Average)",
@@ -6594,7 +6715,10 @@
 			"weight": 10.5,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"POW",
+				"SRT",
+				"VSC"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -6608,7 +6732,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Cryo carbine",
@@ -6621,7 +6746,9 @@
 			"weight": 6,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"POW",
+				"VSC"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -6664,7 +6791,9 @@
 			"value": 7500,
 			"weight": 2,
 			"property": [
-				"RLD"
+				"RLD",
+				"POW",
+				"VSC"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -6696,7 +6825,12 @@
 			"entries": [
 				null
 			],
-			"foundryType": "armor"
+			"foundryType": "armor",
+			"property": [
+				"AST",
+				"ABS",
+				"IMB"
+			]
 		},
 		{
 			"name": "Crystalizing Amplifier (Dueling)",
@@ -6818,7 +6952,10 @@
 			"weight": 7.5,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"RNG",
+				"RAP",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -6832,7 +6969,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Czerka Attenuating Pulsator",
@@ -7163,7 +7301,7 @@
 			"value": 1000,
 			"weight": 0.5,
 			"entries": [
-				"A datapad is a small electronic device used for the input, storage and displaying of inform-ation. It features a holoprojective surface for 3D viewing. "
+				"A datapad is a small electronic device used for the input, storage and displaying of inform-ation. It features a holoprojective surface for 3D viewing."
 			],
 			"foundryType": "equipment"
 		},
@@ -7455,7 +7593,7 @@
 			"value": 4250,
 			"weight": 1,
 			"entries": [
-				"A deafening cell is a specialized power cell for use with blaster weapons that deal acid, energy, fire, ion, or sonic damage. The loaded weapon deals sonic damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 14 Constitution saving throw. On a failed save, the creature takes {@damage 1d6} sonic damage and is {@condition deafened} until the start of your next turn. On a successful save, a creature takes half damage and isn't {@condition deafened}. "
+				"A deafening cell is a specialized power cell for use with blaster weapons that deal acid, energy, fire, ion, or sonic damage. The loaded weapon deals sonic damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 14 Constitution saving throw. On a failed save, the creature takes {@damage 1d6} sonic damage and is {@condition deafened} until the start of your next turn. On a successful save, a creature takes half damage and isn't {@condition deafened}."
 			],
 			"property": [
 				"AF"
@@ -7981,7 +8119,9 @@
 			"value": 5500,
 			"weight": 7,
 			"property": [
-				"V"
+				"V",
+				"DEX",
+				"DIR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -8003,7 +8143,9 @@
 			"value": 3000,
 			"weight": 3.75,
 			"property": [
-				"H"
+				"H",
+				"DEX",
+				"DIR"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -8099,7 +8241,9 @@
 			"weight": 1,
 			"property": [
 				"F",
-				"L"
+				"L",
+				"DSG",
+				"DSA"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -8385,7 +8529,10 @@
 			"weight": 8.5,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"POW",
+				"SRT",
+				"DSN"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -8399,7 +8546,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Disruptor pistol",
@@ -8411,7 +8559,10 @@
 			"value": 7500,
 			"weight": 4.5,
 			"property": [
-				"RLD"
+				"RLD",
+				"POW",
+				"SRT",
+				"DSN"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -8425,7 +8576,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Disruptor rifle",
@@ -8438,7 +8590,10 @@
 			"weight": 13.5,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"POW",
+				"SRT",
+				"DSN"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -8452,7 +8607,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 13
 		},
 		{
 			"name": "Disruptor sniper",
@@ -8465,7 +8621,10 @@
 			"weight": 15,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"POW",
+				"SRT",
+				"DSN"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -8479,7 +8638,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 15
 		},
 		{
 			"name": "Disruptorshiv",
@@ -8491,7 +8651,9 @@
 			"value": 4250,
 			"weight": 2.5,
 			"property": [
-				"F"
+				"F",
+				"DSR",
+				"SHO"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -8550,7 +8712,8 @@
 			"weight": 3.5,
 			"property": [
 				"F",
-				"L"
+				"L",
+				"DBL"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -8571,7 +8734,9 @@
 			"value": 7250,
 			"weight": 2.25,
 			"property": [
-				"F"
+				"F",
+				"DBL",
+				"LUM"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -8593,7 +8758,9 @@
 			"weight": 1.75,
 			"property": [
 				"F",
-				"L"
+				"L",
+				"DBL",
+				"LUM"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -8614,7 +8781,8 @@
 			"value": 4500,
 			"weight": 5.5,
 			"property": [
-				"F"
+				"F",
+				"DBL"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -8685,7 +8853,11 @@
 			"value": 12500,
 			"weight": 3,
 			"property": [
-				"V"
+				"V",
+				"DEX",
+				"HID",
+				"LUM",
+				"VSC"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -8741,7 +8913,11 @@
 			"entries": [
 				null
 			],
-			"foundryType": "armor"
+			"foundryType": "armor",
+			"property": [
+				"BLK",
+				"AST"
+			]
 		},
 		{
 			"name": "Duranium combat suit",
@@ -8759,7 +8935,11 @@
 			"entries": [
 				null
 			],
-			"foundryType": "armor"
+			"foundryType": "armor",
+			"property": [
+				"CMB",
+				"REA"
+			]
 		},
 		{
 			"name": "Durasteel exoskeleton",
@@ -8777,7 +8957,13 @@
 			"entries": [
 				null
 			],
-			"foundryType": "armor"
+			"foundryType": "armor",
+			"property": [
+				"BLK",
+				"AST",
+				"IMP",
+				"RIG"
+			]
 		},
 		{
 			"name": "Duravlex fiber armor",
@@ -8795,7 +8981,10 @@
 			"entries": [
 				null
 			],
-			"foundryType": "armor"
+			"foundryType": "armor",
+			"property": [
+				"SIL"
+			]
 		},
 		{
 			"name": "Ear prosthesis",
@@ -8821,7 +9010,9 @@
 			"value": 6000,
 			"weight": 5,
 			"property": [
-				"F"
+				"F",
+				"DBL",
+				"SON"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -9185,7 +9376,8 @@
 			"weight": 1,
 			"property": [
 				"F",
-				"L"
+				"L",
+				"SHO"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -9207,7 +9399,9 @@
 			"weight": 8.75,
 			"property": [
 				"2H",
-				"H"
+				"H",
+				"DEX",
+				"SHO"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -9228,7 +9422,9 @@
 			"value": 6500,
 			"weight": 6,
 			"property": [
-				"2H"
+				"2H",
+				"DSR",
+				"SHO"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -9249,7 +9445,9 @@
 			"value": 6000,
 			"weight": 5,
 			"property": [
-				"F"
+				"F",
+				"DBL",
+				"SHO"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -9271,7 +9469,9 @@
 			"weight": 10,
 			"property": [
 				"2H",
-				"R"
+				"R",
+				"DEX",
+				"SHO"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -9292,7 +9492,10 @@
 			"value": 7250,
 			"weight": 4.25,
 			"property": [
-				"R"
+				"R",
+				"DEX",
+				"DSR",
+				"SHO"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -9608,7 +9811,9 @@
 			"weight": 4.5,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"POW",
+				"MIG"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -9635,7 +9840,11 @@
 			"weight": 4,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"FXD",
+				"POW",
+				"DSR",
+				"MIG"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -11495,7 +11704,9 @@
 			"property": [
 				"2H",
 				"RLD",
-				"S"
+				"S",
+				"RNG",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -11504,7 +11715,8 @@
 			"reload": 6,
 			"foundryType": "weapon",
 			"dmgType": "Unknown",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 13
 		},
 		{
 			"name": "Flechette clip, fragmentation",
@@ -11567,7 +11779,7 @@
 			"value": 5500,
 			"weight": 4,
 			"entries": [
-				"When triggered, this flechette cannon ammunition fires a volley of kinetic flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 14 Dexterity saving throw. A creature takes {@damage 2d10} kinetic damage on a failed save, or half as much as on a successful one. "
+				"When triggered, this flechette cannon ammunition fires a volley of kinetic flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 14 Dexterity saving throw. A creature takes {@damage 2d10} kinetic damage on a failed save, or half as much as on a successful one."
 			],
 			"property": [
 				"AF"
@@ -11601,7 +11813,7 @@
 			"value": 5750,
 			"weight": 4,
 			"entries": [
-				"When triggered, this flechette cannon ammunition fires a volley of energy flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 14 Dexterity saving throw. A creature takes {@damage 2d10} energy damage on a failed save, or half as much as on a successful one. "
+				"When triggered, this flechette cannon ammunition fires a volley of energy flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 14 Dexterity saving throw. A creature takes {@damage 2d10} energy damage on a failed save, or half as much as on a successful one."
 			],
 			"property": [
 				"AF"
@@ -11636,7 +11848,11 @@
 			"entries": [
 				null
 			],
-			"foundryType": "armor"
+			"foundryType": "armor",
+			"property": [
+				"AST",
+				"AVO"
+			]
 		},
 		{
 			"name": "Flight suit",
@@ -12522,7 +12738,7 @@
 			"value": 100,
 			"weight": 2,
 			"entries": [
-				"Glowrods create a beam of light illuminating the area around you in bright light for a 20-foot radius and dim light for an additional 20 feet. The glowrod lasts for 10 hours and can be recharged by connecting to a power source or by replacing the power cell. "
+				"Glowrods create a beam of light illuminating the area around you in bright light for a 20-foot radius and dim light for an additional 20 feet. The glowrod lasts for 10 hours and can be recharged by connecting to a power source or by replacing the power cell."
 			],
 			"foundryType": "equipment"
 		},
@@ -12590,7 +12806,9 @@
 			"value": 17250,
 			"weight": 3.25,
 			"property": [
-				"2H"
+				"2H",
+				"DEX",
+				"LUM"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -12694,7 +12912,9 @@
 			"property": [
 				"2H",
 				"RLD",
-				"S"
+				"S",
+				"RNG",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -12704,7 +12924,8 @@
 			"range": "90/360",
 			"foundryType": "weapon",
 			"dmgType": "Unknown",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Grenade, Corrosive (Average)",
@@ -13538,7 +13759,7 @@
 			"weight": 1,
 			"entries": [
 				"Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. The grenade explodes, setting the ground in a 10-foot radius ablaze for 1 minute. The fire ignites any flammable objects in the area that aren't being worn or carried.",
-				"When a creature enters the fire or starts its turn there, it creature must make a DC 14 Dexterity saving throw. The creature takes {@damage 2d8} fire damage on a failed save, or half as much damage on a successful one. "
+				"When a creature enters the fire or starts its turn there, it creature must make a DC 14 Dexterity saving throw. The creature takes {@damage 2d8} fire damage on a failed save, or half as much damage on a successful one."
 			],
 			"foundryType": "consumable"
 		},
@@ -13552,7 +13773,7 @@
 			"value": 2500,
 			"weight": 1,
 			"entries": [
-				"Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Dexterity saving throw. A creature takes {@damage 2d6} ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius are disabled until rebooted. "
+				"Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Dexterity saving throw. A creature takes {@damage 2d6} ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius are disabled until rebooted."
 			],
 			"foundryType": "consumable"
 		},
@@ -13707,7 +13928,9 @@
 			"weight": 1.25,
 			"property": [
 				"F",
-				"L"
+				"L",
+				"HID",
+				"DEF"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -13752,7 +13975,12 @@
 			"value": 15500,
 			"weight": 10,
 			"property": [
-				"RLD"
+				"RLD",
+				"POW",
+				"SRT",
+				"BRU",
+				"DSN",
+				"KEN"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -13766,7 +13994,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 15
 		},
 		{
 			"name": "Hand blaster",
@@ -13779,7 +14008,9 @@
 			"weight": 0.5,
 			"property": [
 				"L",
-				"RLD"
+				"RLD",
+				"POW",
+				"KEN"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -13806,7 +14037,10 @@
 			"weight": 10.5,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"RNG",
+				"SRT",
+				"BRU"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -13820,7 +14054,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Hand prosthesis",
@@ -14114,7 +14349,10 @@
 			"weight": 10,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"POW",
+				"RAP",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -14128,7 +14366,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 13
 		},
 		{
 			"name": "Heavy bowcaster",
@@ -14142,7 +14381,10 @@
 			"property": [
 				"2H",
 				"BF",
-				"RLD"
+				"RLD",
+				"BST",
+				"POW",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -14156,7 +14398,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 17
 		},
 		{
 			"name": "Heavy carbine",
@@ -14168,7 +14411,10 @@
 			"value": 7750,
 			"weight": 7.5,
 			"property": [
-				"RLD"
+				"RLD",
+				"POW",
+				"RAP",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -14182,7 +14428,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Heavy exoskeleton",
@@ -14200,7 +14447,11 @@
 			"ac": "18",
 			"stealth": true,
 			"strength": 17,
-			"foundryType": "armor"
+			"foundryType": "armor",
+			"property": [
+				"BLK",
+				"AST"
+			]
 		},
 		{
 			"name": "Heavy physical shield",
@@ -14218,7 +14469,10 @@
 			"entries": [
 				null
 			],
-			"foundryType": "armor"
+			"foundryType": "armor",
+			"property": [
+				"AST"
+			]
 		},
 		{
 			"name": "Heavy pistol",
@@ -14230,7 +14484,8 @@
 			"value": 3000,
 			"weight": 4,
 			"property": [
-				"RLD"
+				"RLD",
+				"POW"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -14258,7 +14513,12 @@
 			"property": [
 				"2H",
 				"BF",
-				"RLD"
+				"RLD",
+				"AUT",
+				"BST",
+				"POW",
+				"RAP",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -14272,7 +14532,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 13
 		},
 		{
 			"name": "Heavy shield generator",
@@ -14304,7 +14565,10 @@
 			"property": [
 				"2H",
 				"BF",
-				"RLD"
+				"RLD",
+				"BST",
+				"RNG",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -14318,7 +14582,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 13
 		},
 		{
 			"name": "Heavy slugpistol",
@@ -14330,7 +14595,9 @@
 			"value": 3750,
 			"weight": 3.5,
 			"property": [
-				"RLD"
+				"RLD",
+				"RNG",
+				"RAP"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -14400,7 +14667,9 @@
 			"weight": 1,
 			"property": [
 				"F",
-				"L"
+				"L",
+				"FXD",
+				"HID"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -14458,7 +14727,9 @@
 			"weight": 0.5,
 			"property": [
 				"L",
-				"RLD"
+				"RLD",
+				"HID",
+				"POW"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -14640,7 +14911,8 @@
 			"value": 2250,
 			"weight": 3.75,
 			"property": [
-				"F"
+				"F",
+				"DSA"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -14700,7 +14972,9 @@
 			"weight": 11,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"RNG",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -14714,7 +14988,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Hydraulic Equalizer",
@@ -14820,7 +15095,10 @@
 			],
 			"foundryType": "weapon",
 			"dmgType": "Unknown",
-			"ammunition": true
+			"ammunition": true,
+			"property": [
+				"MOD"
+			]
 		},
 		{
 			"name": "Impermeable Armoring",
@@ -14927,7 +15205,11 @@
 			"weight": 7.5,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"POW",
+				"SRT",
+				"DIR",
+				"DSN"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -14941,7 +15223,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Incinerator pistol",
@@ -14953,7 +15236,11 @@
 			"value": 12500,
 			"weight": 3.5,
 			"property": [
-				"RLD"
+				"RLD",
+				"POW",
+				"SRT",
+				"DIR",
+				"DSN"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -14967,7 +15254,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Incinerator rifle",
@@ -14980,7 +15268,11 @@
 			"weight": 9.5,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"POW",
+				"SRT",
+				"DIR",
+				"DSN"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -14994,7 +15286,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Incinerator sniper",
@@ -15007,7 +15300,11 @@
 			"weight": 14.5,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"POW",
+				"SRT",
+				"DIR",
+				"DSN"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -15021,7 +15318,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 15
 		},
 		{
 			"name": "Inconspicuous Shielding",
@@ -16005,7 +16303,11 @@
 			"property": [
 				"2H",
 				"BF",
-				"RLD"
+				"RLD",
+				"AUT",
+				"BST",
+				"POW",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -16019,7 +16321,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 15
 		},
 		{
 			"name": "Ion carbine",
@@ -16032,7 +16335,8 @@
 			"weight": 5,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"POW"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -16058,7 +16362,8 @@
 			"value": 2500,
 			"weight": 1,
 			"property": [
-				"RLD"
+				"RLD",
+				"POW"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -16085,7 +16390,8 @@
 			"weight": 8,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"POW"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -16139,7 +16445,9 @@
 			"value": 6500,
 			"weight": 7,
 			"property": [
-				"V"
+				"V",
+				"DEX",
+				"KEN"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -16640,7 +16948,13 @@
 			"entries": [
 				null
 			],
-			"foundryType": "armor"
+			"foundryType": "armor",
+			"property": [
+				"BLK",
+				"AST",
+				"CMB",
+				"OBS"
+			]
 		},
 		{
 			"name": "Leg Reinforcements",
@@ -16731,7 +17045,8 @@
 			"weight": 0.5,
 			"property": [
 				"L",
-				"RLD"
+				"RLD",
+				"POW"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -16758,7 +17073,10 @@
 			"weight": 6,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"AUT",
+				"POW",
+				"RAP"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -16802,7 +17120,8 @@
 			"weight": 1,
 			"property": [
 				"L",
-				"RLD"
+				"RLD",
+				"RNG"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -16829,7 +17148,9 @@
 			"weight": 3.75,
 			"property": [
 				"2H",
-				"H"
+				"H",
+				"DEX",
+				"LUM"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -16850,7 +17171,9 @@
 			"value": 4000,
 			"weight": 1.25,
 			"property": [
-				"L"
+				"L",
+				"HID",
+				"LUM"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -16872,7 +17195,9 @@
 			"weight": 1,
 			"property": [
 				"F",
-				"L"
+				"L",
+				"HID",
+				"LUM"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -16894,7 +17219,9 @@
 			"weight": 3.75,
 			"property": [
 				"2H",
-				"H"
+				"H",
+				"DEX",
+				"LUM"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -16921,7 +17248,12 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"property": [
+				"DEX",
+				"HID",
+				"LUM"
+			]
 		},
 		{
 			"name": "Light-dagger",
@@ -16935,7 +17267,10 @@
 			"property": [
 				"F",
 				"L",
-				"T"
+				"T",
+				"HID",
+				"LUM",
+				"RNG"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -16956,7 +17291,10 @@
 			"value": 6500,
 			"weight": 1.5,
 			"property": [
-				"L"
+				"L",
+				"FXD",
+				"LUM",
+				"DSR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -16977,7 +17315,9 @@
 			"value": 4750,
 			"weight": 1.5,
 			"property": [
-				"F"
+				"F",
+				"HID",
+				"LUM"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -16999,7 +17339,10 @@
 			"weight": 5.75,
 			"property": [
 				"2H",
-				"R"
+				"R",
+				"DEX",
+				"LUM",
+				"BRU"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -17020,7 +17363,11 @@
 			"value": 9250,
 			"weight": 2.75,
 			"property": [
-				"V"
+				"V",
+				"DEX",
+				"HID",
+				"LUM",
+				"PRC"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -17043,7 +17390,9 @@
 			"weight": 4.25,
 			"property": [
 				"2H",
-				"R"
+				"R",
+				"DEX",
+				"LUM"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -17064,7 +17413,11 @@
 			"value": 30500,
 			"weight": 4.5,
 			"property": [
-				"2H"
+				"2H",
+				"DEX",
+				"LUM",
+				"PRC",
+				"VSC"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -17086,7 +17439,11 @@
 			"weight": 2,
 			"property": [
 				"F",
-				"T"
+				"T",
+				"HID",
+				"LUM",
+				"RNG",
+				"RET"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -17108,7 +17465,10 @@
 			"weight": 14,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"POW",
+				"SRT",
+				"PRC"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -17122,7 +17482,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 15
 		},
 		{
 			"name": "Lightning Cannon",
@@ -17138,7 +17499,11 @@
 			],
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"AUT",
+				"PEN",
+				"POW",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -17149,7 +17514,8 @@
 			"reload": 4,
 			"range": "90/360",
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 15
 		},
 		{
 			"name": "Lightning Rifle",
@@ -17165,7 +17531,10 @@
 			],
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"PEN",
+				"POW",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -17176,7 +17545,8 @@
 			"reload": 8,
 			"range": "60/240",
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Lightning carbine",
@@ -17189,7 +17559,10 @@
 			"weight": 7,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"PEN",
+				"POW",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -17203,7 +17576,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Lightning pistol",
@@ -17215,7 +17589,9 @@
 			"value": 5500,
 			"weight": 2,
 			"property": [
-				"RLD"
+				"RLD",
+				"PEN",
+				"POW"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -17241,7 +17617,9 @@
 			"value": 4500,
 			"weight": 2.25,
 			"property": [
-				"V"
+				"V",
+				"HID",
+				"LUM"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -17263,7 +17641,10 @@
 			"value": 11750,
 			"weight": 4.25,
 			"property": [
-				"R"
+				"R",
+				"DEX",
+				"DBL",
+				"LUM"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -17773,7 +18154,9 @@
 			"weight": 12,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"POW",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -17787,7 +18170,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 13
 		},
 		{
 			"name": "Martial lightsaber",
@@ -17799,7 +18183,9 @@
 			"value": 5500,
 			"weight": 2.25,
 			"property": [
-				"V"
+				"V",
+				"HID",
+				"LUM"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -17963,7 +18349,10 @@
 			"entries": [
 				null
 			],
-			"foundryType": "armor"
+			"foundryType": "armor",
+			"property": [
+				"AST"
+			]
 		},
 		{
 			"name": "Medium shield generator",
@@ -18965,7 +19354,7 @@
 			"value": 6250,
 			"weight": 2,
 			"entries": [
-				"Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a remote "
+				"Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a remote"
 			],
 			"foundryType": "consumable"
 		},
@@ -18980,7 +19369,7 @@
 			"weight": 2,
 			"entries": [
 				"Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a remote detonator. As an action, you can prime and set a mine on a surface you can reach, which arms at the start of your next turn. When detonated, the mine sets the ground in a 15-foot radius ablaze for 1 minute. The fire ignites any flammable objects in the area that aren't being worn or carried.",
-				"When a creature enters the fire or starts its turn there, it creature must make a DC 14 Dexterity saving throw. The creature takes {@damage 2d8} fire damage on a failed save, or half as much damage on a successful one. "
+				"When a creature enters the fire or starts its turn there, it creature must make a DC 14 Dexterity saving throw. The creature takes {@damage 2d8} fire damage on a failed save, or half as much damage on a successful one."
 			],
 			"foundryType": "consumable"
 		},
@@ -19521,7 +19910,8 @@
 			],
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"RNG"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -19841,7 +20231,10 @@
 				"The needler includes a specialized compartment for poison. One dose of poison, when installed in this compartment, retains its potency for 1 hour before drying. One dose of poison is effective for the next 10 shots fired by the weapon."
 			],
 			"property": [
-				"S"
+				"S",
+				"RNG",
+				"PRC",
+				"SIL"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -19869,7 +20262,11 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"property": [
+				"DSR",
+				"NEU"
+			]
 		},
 		{
 			"name": "Net",
@@ -19887,7 +20284,8 @@
 				"F",
 				"L",
 				"S",
-				"T"
+				"T",
+				"RNG"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -20051,7 +20449,8 @@
 			"value": 7250,
 			"property": [
 				"R",
-				"S"
+				"S",
+				"SHO"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -20130,7 +20529,11 @@
 			"entries": [
 				null
 			],
-			"foundryType": "armor"
+			"foundryType": "armor",
+			"property": [
+				"AST",
+				"INS"
+			]
 		},
 		{
 			"name": "Nighthawk Ocular Implant",
@@ -20155,7 +20558,10 @@
 			"weight": 11,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"POW",
+				"SRT",
+				"SIL"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -20169,7 +20575,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Novanian Grog (Aged)",
@@ -21299,7 +21706,13 @@
 			"value": 10250,
 			"weight": 1.75,
 			"property": [
-				"L"
+				"L",
+				"DEX",
+				"DSG",
+				"HID",
+				"LUM",
+				"KEN",
+				"VSC"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -21529,7 +21942,9 @@
 			"weight": 5.25,
 			"property": [
 				"2H",
-				"R"
+				"R",
+				"DEX",
+				"LUM"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -21570,7 +21985,12 @@
 			"entries": [
 				null
 			],
-			"foundryType": "armor"
+			"foundryType": "armor",
+			"property": [
+				"BLK",
+				"REI",
+				"RIG"
+			]
 		},
 		{
 			"name": "Pocket scrambler",
@@ -21791,7 +22211,7 @@
 			"value": 50,
 			"weight": 1,
 			"entries": [
-				"A pouch stores 6.00 lb., not exceeding 1/5 cubic foot. "
+				"A pouch stores 6.00 lb., not exceeding 1/5 cubic foot."
 			],
 			"foundryType": "backpack"
 		},
@@ -22646,7 +23066,7 @@
 			"value": 6250,
 			"weight": 3,
 			"entries": [
-				"When triggered, this vapor projector ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 14 Constitution saving throw. On a failed save, a creature takes {@damage 2d6} acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. "
+				"When triggered, this vapor projector ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 14 Constitution saving throw. On a failed save, a creature takes {@damage 2d6} acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust."
 			],
 			"property": [
 				"AF"
@@ -22722,7 +23142,12 @@
 			"entries": [
 				null
 			],
-			"foundryType": "armor"
+			"foundryType": "armor",
+			"property": [
+				"AST",
+				"CHG",
+				"CMB"
+			]
 		},
 		{
 			"name": "Quantum Splitter Mk I",
@@ -22966,7 +23391,12 @@
 			"property": [
 				"2H",
 				"BF",
-				"RLD"
+				"RLD",
+				"AUT",
+				"BST",
+				"POW",
+				"SRT",
+				"KEN"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -22980,7 +23410,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 13
 		},
 		{
 			"name": "Radrifle",
@@ -22994,7 +23425,10 @@
 			"property": [
 				"2H",
 				"RLD",
-				"S"
+				"S",
+				"POW",
+				"SRT",
+				"DSN"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -23008,7 +23442,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 13
 		},
 		{
 			"name": "Railgun",
@@ -23021,7 +23456,10 @@
 			"weight": 16,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"RNG",
+				"SRT",
+				"PRC"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -23035,7 +23473,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 17
 		},
 		{
 			"name": "Ram, portable",
@@ -24175,7 +24614,12 @@
 			"property": [
 				"2H",
 				"BF",
-				"RLD"
+				"RLD",
+				"AUT",
+				"BST",
+				"POW",
+				"RAP",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -24189,7 +24633,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Repelling Cycler (Chipped)",
@@ -24623,7 +25068,7 @@
 			"weight": 1,
 			"entries": [
 				"Restraining bolts are small, cylindrical devices that can be affixed to a droid in order to limit its functions and enforce its obedience. When inserted, a restraining bolt restricts the droid from any movement its master does not desire, and also forced it to respond to signals produced by a hand-held control unit.",
-				"Installing a restraining bolt takes 1 minute. The droid must make a DC 14 Constitution saving throw. A hostile droid makes this save with advantage. On a successful save, the restraining bolt overloads and is rendered useless. On a failed save, the restraining bolt is correctly installed, and the control unit can be used to actively control the droid. While the control unit is inactive, the droid can act freely but it can not attempt to remove the restraining bolt. "
+				"Installing a restraining bolt takes 1 minute. The droid must make a DC 14 Constitution saving throw. A hostile droid makes this save with advantage. On a successful save, the restraining bolt overloads and is rendered useless. On a failed save, the restraining bolt is correctly installed, and the control unit can be used to actively control the droid. While the control unit is inactive, the droid can act freely but it can not attempt to remove the restraining bolt."
 			],
 			"foundryType": "equipment"
 		},
@@ -24640,7 +25085,9 @@
 				"The retrosaber is an ancient type of lightweapon that requires a power cell to function. Once four attacks have been made with a retrosaber, a character must replace the power cell using an action or bonus action. You must have one free hand to replace the power cell."
 			],
 			"property": [
-				"V"
+				"V",
+				"DEX",
+				"DIR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -24696,7 +25143,10 @@
 			"value": 6250,
 			"weight": 6.5,
 			"property": [
-				"RLD"
+				"RLD",
+				"RNG",
+				"RAP",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -24710,7 +25160,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Ring of Adept Force Storing",
@@ -24878,7 +25329,8 @@
 			"value": 2500,
 			"weight": 1.5,
 			"property": [
-				"L"
+				"L",
+				"DEF"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -24899,7 +25351,9 @@
 			"value": 4250,
 			"weight": 1,
 			"property": [
-				"L"
+				"L",
+				"DEF",
+				"SHO"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -25010,7 +25464,9 @@
 			"property": [
 				"2H",
 				"RLD",
-				"S"
+				"S",
+				"RNG",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -25020,7 +25476,8 @@
 			"range": "150/600",
 			"foundryType": "weapon",
 			"dmgType": "Unknown",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 13
 		},
 		{
 			"name": "Rocket Rifle",
@@ -25036,7 +25493,9 @@
 			],
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"RNG",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -25046,7 +25505,8 @@
 			"range": "60/240",
 			"foundryType": "weapon",
 			"dmgType": "Unknown",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Rocket boots",
@@ -25434,7 +25894,11 @@
 			"weight": 12.5,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"AUT",
+				"POW",
+				"RAP",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -25448,7 +25912,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 13
 		},
 		{
 			"name": "Rylith Power Core",
@@ -25492,7 +25957,10 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"property": [
+				"LUM"
+			]
 		},
 		{
 			"name": "Saber-gauntlet",
@@ -25504,7 +25972,9 @@
 			"value": 4750,
 			"weight": 1.5,
 			"property": [
-				"F"
+				"F",
+				"FXD",
+				"LUM"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -25525,7 +25995,11 @@
 			"value": 9500,
 			"weight": 2.75,
 			"property": [
-				"V"
+				"V",
+				"DEX",
+				"HID",
+				"LUM",
+				"BRU"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -25548,7 +26022,9 @@
 			"weight": 2,
 			"property": [
 				"T",
-				"V"
+				"V",
+				"LUM",
+				"RNG"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -25571,7 +26047,9 @@
 			"weight": 3.5,
 			"property": [
 				"F",
-				"R"
+				"R",
+				"HID",
+				"LUM"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -25596,7 +26074,10 @@
 				null
 			],
 			"foundryType": "weapon",
-			"dmgType": "Unknown"
+			"dmgType": "Unknown",
+			"property": [
+				"DBL"
+			]
 		},
 		{
 			"name": "Sack",
@@ -25608,7 +26089,7 @@
 			"value": 50,
 			"weight": 0.5,
 			"entries": [
-				"A sack stores 30 ounces, not exceeding 1 cubic foot. "
+				"A sack stores 30 ounces, not exceeding 1 cubic foot."
 			],
 			"foundryType": "backpack"
 		},
@@ -25624,7 +26105,10 @@
 			"property": [
 				"2H",
 				"BF",
-				"RLD"
+				"RLD",
+				"BST",
+				"POW",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -25638,7 +26122,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 13
 		},
 		{
 			"name": "Scattergun",
@@ -25651,7 +26136,10 @@
 			"weight": 2,
 			"property": [
 				"BF",
-				"RLD"
+				"RLD",
+				"BST",
+				"RNG",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -25665,7 +26153,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Scavenging kit",
@@ -25856,7 +26345,11 @@
 			],
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"RNG",
+				"SRT",
+				"BRU",
+				"KEN"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -25867,7 +26360,8 @@
 			"reload": 4,
 			"range": "120/480",
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 19
 		},
 		{
 			"name": "Serrated Edge Mk I",
@@ -25929,7 +26423,12 @@
 			"property": [
 				"2H",
 				"BF",
-				"RLD"
+				"RLD",
+				"AUT",
+				"BST",
+				"RNG",
+				"SRT",
+				"SIL"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -25943,7 +26442,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 15
 		},
 		{
 			"name": "Shatter Rifle",
@@ -25956,7 +26456,10 @@
 			"weight": 9.5,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"RNG",
+				"SRT",
+				"SIL"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -25970,7 +26473,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Shatter pistol",
@@ -25983,7 +26487,10 @@
 			"weight": 2,
 			"property": [
 				"L",
-				"RLD"
+				"RLD",
+				"RNG",
+				"SRT",
+				"SIL"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -25997,7 +26504,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Shawm",
@@ -26346,7 +26854,8 @@
 			"value": 4750,
 			"weight": 3.5,
 			"property": [
-				"R"
+				"R",
+				"SHO"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -26443,7 +26952,10 @@
 				"Drawing the ammunition from a quiver, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield."
 			],
 			"property": [
-				"2H"
+				"2H",
+				"RNG",
+				"MIG",
+				"SIL"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -26467,7 +26979,10 @@
 			"property": [
 				"2H",
 				"BF",
-				"RLD"
+				"RLD",
+				"BST",
+				"RNG",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -26481,7 +26996,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Shotgun Axe",
@@ -26511,7 +27027,9 @@
 			"weight": 1,
 			"property": [
 				"F",
-				"L"
+				"L",
+				"HID",
+				"LUM"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -26536,7 +27054,10 @@
 			],
 			"property": [
 				"RLD",
-				"S"
+				"S",
+				"POW",
+				"RAP",
+				"SMT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -26564,7 +27085,12 @@
 			"property": [
 				"BF",
 				"RLD",
-				"S"
+				"S",
+				"AUT",
+				"BST",
+				"POW",
+				"SRT",
+				"SMT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -26575,7 +27101,8 @@
 			"reload": 8,
 			"range": "60/240",
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Shoulder Cannon (Champion)",
@@ -26681,7 +27208,11 @@
 			"value": 7000,
 			"weight": 1,
 			"property": [
-				"L"
+				"L",
+				"DEX",
+				"HID",
+				"LUM",
+				"DIR"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -26862,7 +27393,10 @@
 			"value": 9250,
 			"weight": 2.75,
 			"property": [
-				"V"
+				"V",
+				"DEX",
+				"HID",
+				"KEN"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -27046,7 +27580,10 @@
 			"value": 3250,
 			"weight": 3,
 			"property": [
-				"RLD"
+				"RLD",
+				"RNG",
+				"RAP",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -27060,7 +27597,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Slugthrower",
@@ -27073,7 +27611,8 @@
 			"weight": 7.5,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"RNG"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -27101,7 +27640,13 @@
 			"property": [
 				"2H",
 				"BF",
-				"RLD"
+				"RLD",
+				"AUT",
+				"BST",
+				"RNG",
+				"RAP",
+				"SRT",
+				"SMT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -27115,7 +27660,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 15
 		},
 		{
 			"name": "Smart Interface (Basic)",
@@ -27199,7 +27745,12 @@
 			"value": 10750,
 			"weight": 4,
 			"property": [
-				"RLD"
+				"RLD",
+				"RNG",
+				"RAP",
+				"SRT",
+				"PRC",
+				"SMT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -27213,7 +27764,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Smugglepack",
@@ -27376,7 +27928,9 @@
 			"weight": 13.5,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"POW",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -27390,7 +27944,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 13
 		},
 		{
 			"name": "Sonic Cannon",
@@ -27404,7 +27959,12 @@
 			"property": [
 				"2H",
 				"BF",
-				"RLD"
+				"RLD",
+				"AUT",
+				"BST",
+				"POW",
+				"SRT",
+				"DSR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -27418,7 +27978,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 17
 		},
 		{
 			"name": "Sonic Rifle",
@@ -27431,7 +27992,10 @@
 			"weight": 9,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"POW",
+				"SRT",
+				"DSR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -27445,7 +28009,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Sonic carbine",
@@ -27457,7 +28022,10 @@
 			"value": 6750,
 			"weight": 7,
 			"property": [
-				"RLD"
+				"RLD",
+				"POW",
+				"SRT",
+				"DSR"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -27471,7 +28039,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Sonic pistol",
@@ -27483,7 +28052,9 @@
 			"value": 3750,
 			"weight": 2,
 			"property": [
-				"RLD"
+				"RLD",
+				"POW",
+				"DSR"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -27770,7 +28341,9 @@
 			"value": 11500,
 			"weight": 2,
 			"property": [
-				"L"
+				"L",
+				"DBL",
+				"LUM"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -27961,7 +28534,9 @@
 			"weight": 6,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"POW",
+				"SIL"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -28536,7 +29111,12 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"property": [
+				"FXD",
+				"DSR",
+				"SHO"
+			]
 		},
 		{
 			"name": "Stylus pen",
@@ -28563,7 +29143,11 @@
 			"weight": 4,
 			"property": [
 				"L",
-				"RLD"
+				"RLD",
+				"AUT",
+				"POW",
+				"RAP",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -28577,7 +29161,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 11
 		},
 		{
 			"name": "Sunsaber",
@@ -28589,7 +29174,10 @@
 			"value": 18750,
 			"property": [
 				"S",
-				"V"
+				"V",
+				"DEX",
+				"HID",
+				"BRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -28820,7 +29408,11 @@
 			"property": [
 				"2H",
 				"BF",
-				"RLD"
+				"RLD",
+				"BST",
+				"POW",
+				"SRT",
+				"SWI"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -28834,7 +29426,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 15
 		},
 		{
 			"name": "Switch Rifle",
@@ -28847,7 +29440,9 @@
 			"weight": 9.5,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"POW",
+				"SWI"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -28874,7 +29469,10 @@
 			"weight": 15.5,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"POW",
+				"SRT",
+				"SWI"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -28888,7 +29486,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 13
 		},
 		{
 			"name": "Switch carbine",
@@ -28901,7 +29500,9 @@
 			"weight": 7.5,
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"POW",
+				"SWI"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -28927,7 +29528,9 @@
 			"value": 6750,
 			"weight": 4.5,
 			"property": [
-				"RLD"
+				"RLD",
+				"POW",
+				"SWI"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -29119,7 +29722,8 @@
 			"weight": 1,
 			"property": [
 				"L",
-				"T"
+				"T",
+				"RNG"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -29162,7 +29766,9 @@
 			"value": 6500,
 			"weight": 5.25,
 			"property": [
-				"L"
+				"L",
+				"DEX",
+				"DBL"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -29341,7 +29947,7 @@
 			"value": 20000,
 			"weight": 1,
 			"entries": [
-				"Thermal detonators are unique in that can only be turned off by whoever turned them on. They can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 20 feet must make a DC 14 Dexterity saving throw. A creature takes {@dice 2d6} fire and {@damage 2d10} kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked {@condition prone}. "
+				"Thermal detonators are unique in that can only be turned off by whoever turned them on. They can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 20 feet must make a DC 14 Dexterity saving throw. A creature takes {@dice 2d6} fire and {@damage 2d10} kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked {@condition prone}."
 			],
 			"foundryType": "consumable"
 		},
@@ -29826,7 +30432,8 @@
 			],
 			"property": [
 				"2H",
-				"RLD"
+				"RLD",
+				"RNG"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -30043,7 +30650,9 @@
 			],
 			"property": [
 				"RLD",
-				"S"
+				"S",
+				"RNG",
+				"SIL"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -30431,7 +31040,9 @@
 			"property": [
 				"2H",
 				"RLD",
-				"S"
+				"S",
+				"RNG",
+				"SRT"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -30440,7 +31051,8 @@
 			"reload": 6,
 			"foundryType": "weapon",
 			"dmgType": "Unknown",
-			"ammunition": true
+			"ammunition": true,
+			"strength": 13
 		},
 		{
 			"name": "Vayerbok",
@@ -30700,7 +31312,8 @@
 			"weight": 9.25,
 			"property": [
 				"2H",
-				"H"
+				"H",
+				"DEX"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -30740,7 +31353,9 @@
 			"weight": 10,
 			"property": [
 				"2H",
-				"H"
+				"H",
+				"DEX",
+				"BRU"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -30785,7 +31400,10 @@
 			"property": [
 				"2H",
 				"H",
-				"R"
+				"R",
+				"DEX",
+				"BRU",
+				"KEN"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -30807,7 +31425,8 @@
 			"weight": 0.75,
 			"property": [
 				"F",
-				"L"
+				"L",
+				"FXD"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -30828,7 +31447,8 @@
 			"value": 17000,
 			"weight": 10.5,
 			"property": [
-				"2H"
+				"2H",
+				"DEX"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -30855,7 +31475,10 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"property": [
+				"DEX"
+			]
 		},
 		{
 			"name": "Vibro-cutter",
@@ -30890,7 +31513,8 @@
 			"property": [
 				"F",
 				"L",
-				"T"
+				"T",
+				"RNG"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -30913,7 +31537,8 @@
 			"property": [
 				"F",
 				"S",
-				"T"
+				"T",
+				"RNG"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -30940,7 +31565,10 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"property": [
+				"DEX"
+			]
 		},
 		{
 			"name": "Vibro-glaive",
@@ -30953,7 +31581,9 @@
 			"weight": 10,
 			"property": [
 				"2H",
-				"R"
+				"R",
+				"DEX",
+				"BRU"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -30975,7 +31605,8 @@
 			"weight": 7.5,
 			"property": [
 				"2H",
-				"H"
+				"H",
+				"VSC"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -30996,7 +31627,9 @@
 			"value": 4500,
 			"weight": 5.75,
 			"property": [
-				"V"
+				"V",
+				"DEX",
+				"PRC"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -31019,7 +31652,8 @@
 			"weight": 1,
 			"property": [
 				"F",
-				"L"
+				"L",
+				"PRC"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -31040,7 +31674,8 @@
 			"value": 750,
 			"weight": 1.25,
 			"property": [
-				"L"
+				"L",
+				"HID"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -31065,7 +31700,8 @@
 			],
 			"property": [
 				"R",
-				"S"
+				"S",
+				"DEX"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -31084,7 +31720,8 @@
 			"weight": 7,
 			"property": [
 				"2H",
-				"H"
+				"H",
+				"DEX"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -31106,7 +31743,9 @@
 			"weight": 12,
 			"property": [
 				"2H",
-				"V"
+				"V",
+				"DEX",
+				"PRC"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -31129,7 +31768,8 @@
 			"weight": 9.25,
 			"property": [
 				"2H",
-				"R"
+				"R",
+				"DEX"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -31171,7 +31811,9 @@
 			"value": 3000,
 			"weight": 1.75,
 			"property": [
-				"L"
+				"L",
+				"DEX",
+				"KEN"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -31198,7 +31840,11 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"property": [
+				"FXD",
+				"DEF"
+			]
 		},
 		{
 			"name": "Vibro-spear",
@@ -31210,7 +31856,8 @@
 			"value": 1250,
 			"weight": 4,
 			"property": [
-				"V"
+				"V",
+				"RNG"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -31256,7 +31903,9 @@
 			"property": [
 				"F",
 				"L",
-				"T"
+				"T",
+				"RNG",
+				"KEN"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -31277,7 +31926,8 @@
 			"value": 11500,
 			"weight": 9.25,
 			"property": [
-				"2H"
+				"2H",
+				"DEX"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -31299,7 +31949,8 @@
 			"weight": 1,
 			"property": [
 				"F",
-				"L"
+				"L",
+				"DEF"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -31726,7 +32377,11 @@
 			"value": 3500,
 			"weight": 3.25,
 			"property": [
-				"T"
+				"T",
+				"DSG",
+				"RNG",
+				"RET",
+				"DEF"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -31747,7 +32402,9 @@
 			"value": 21750,
 			"weight": 4.25,
 			"property": [
-				"2H"
+				"2H",
+				"DEX",
+				"VSC"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -31768,7 +32425,9 @@
 			"value": 16500,
 			"weight": 10.75,
 			"property": [
-				"2H"
+				"2H",
+				"DEX",
+				"VSC"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -32794,11 +33453,13 @@
 			"value": 4000,
 			"weight": 2,
 			"entries": [
-				"Rather than traditional power cells, the wrist launcher fires specialized projectiles in the form of darts, small missiles, or specialized canisters. "
+				"Rather than traditional power cells, the wrist launcher fires specialized projectiles in the form of darts, small missiles, or specialized canisters."
 			],
 			"property": [
 				"RLD",
-				"S"
+				"S",
+				"FXD",
+				"RNG"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -32833,7 +33494,9 @@
 			"weight": 1,
 			"property": [
 				"F",
-				"L"
+				"L",
+				"FXD",
+				"LUM"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -32854,7 +33517,9 @@
 			"value": 2750,
 			"weight": 1.75,
 			"property": [
-				"L"
+				"L",
+				"FXD",
+				"PRC"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -32876,7 +33541,10 @@
 			"weight": 0.5,
 			"property": [
 				"L",
-				"RLD"
+				"RLD",
+				"DSG",
+				"FXD",
+				"POW"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -33054,7 +33722,8 @@
 			"value": 2500,
 			"weight": 4.5,
 			"property": [
-				"RLD"
+				"RLD",
+				"POW"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -39991,7 +40660,7 @@
 			"entries": [
 				"{@i {@b Prerequisite}: Sense Emotion}",
 				"For the duration, you can read the thoughts of certain creatures. When you cast the power and as your action on each turn until the power ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn't speak any language, the creature is unaffected.",
-				"You initially learn the surface thoughts of the creature\u2014what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, it takes {@damage 1d6} psychic damage as you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the power ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your forcecasting ability check; if it succeeds, the power ends.",
+				"You initially learn the surface thoughts of the creature—what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, it takes {@damage 1d6} psychic damage as you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the power ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your forcecasting ability check; if it succeeds, the power ends.",
 				"On subsequent turns after probing deeper, you can use your action to deal {@damage 1d6} psychic damage to the target automatically.",
 				"Questions verbally directed at the target creature naturally shape the course of its thoughts, so this power is particularly effective as part of an interrogation.",
 				"You can also use this power to detect the presence of thinking creatures you can't see. When you cast the power or as your action during the duration, you can search for thoughts within 30 feet of you. The power can penetrate barriers. You can't detect a creature with an Intelligence of 3 or lower or one that doesn't speak any language.",
@@ -42575,7 +43244,7 @@
 				"{@i {@b Prerequisite}: Spare the Dying}",
 				"You return a dead creature you touch to life, provided that it has been dead no longer than 10 minutes. If the creature's soul is both willing and at liberty to rejoin the body, the creature returns to life with 1 hit point. This power has no effect on droids or constructs.",
 				"This power also neutralizes any poisons and cures diseases that affected the creature at the time it died.",
-				"This power closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival\u2014its head, for instance\u2014the power automatically fails.",
+				"This power closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival—its head, for instance—the power automatically fails.",
 				"Coming back from the dead is an ordeal. The target takes a -4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears. "
 			],
 			"damageInflict": [],
@@ -43832,7 +44501,7 @@
 			],
 			"entries": [
 				"A sphere of shimmering energy springs into being and encloses a creature or object of Large size or smaller within range. An unwilling creature must make a Dexterity saving throw. On a failed save, the creature is enclosed for the duration.",
-				"Nothing\u2014not physical objects, energy, or other power effects\u2014can pass through the barrier, in or out, though a creature in the sphere can breathe. The sphere is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.",
+				"Nothing—not physical objects, energy, or other power effects—can pass through the barrier, in or out, though a creature in the sphere can breathe. The sphere is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.",
 				"The sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can use its action to push against the sphere's walls and thus roll the sphere at up to half the creature's speed. Similarly, the globe can be picked up and moved by other creatures.",
 				"A disintegrate power targeting the globe destroys it without harming anything inside it."
 			],
@@ -43874,7 +44543,7 @@
 			"entries": [
 				"For the duration, you can detect electronic transmissions. When you cast the power and as your action on each turn until the power ends, you can focus on any one creature that you can see within 30 feet of you. If the creature you choose does not possess a commlink, or is not a droid or construct, the creature is unaffected.",
 				"If the creature possesses a commlink or other communications device, you receive any transmissions it broadcasts or receives for the duration.",
-				"Additionally, if the target is a droid or construct, you can read its \"thoughts.\" You initially learn the surface thoughts of the creature\u2014what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), and something that looms large in its mind (such as its current objectives). If it succeeds, the power ends. Either way, the target (or its pilot, if it has one) knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the power ends.",
+				"Additionally, if the target is a droid or construct, you can read its \"thoughts.\" You initially learn the surface thoughts of the creature—what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), and something that looms large in its mind (such as its current objectives). If it succeeds, the power ends. Either way, the target (or its pilot, if it has one) knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the power ends.",
 				"Questions verbally directed at the target creature naturally shape the course of its thoughts, so this power is particularly effective as part of an interrogation.",
 				"You can also use this power to detect the presence of droids, constructs, or creatures bearing communications devices you can't see. When you cast the power or as your action during the duration, you can search for transmissions within 30 feet of you. The power can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you.",
 				"Once you detect the presence of a creature in this way, you can read its thoughts or transmissions for the rest of the duration as described above, even if you can't see it, but it must still be within range."
@@ -48819,7 +49488,7 @@
 			],
 			"entries": [
 				"Choose a manufactured metal object, such as a blaster or a suit of heavy or medium metal armor, that you can see within range. You cause the object to glow red-hot. Any creature in physical contact with the object takes {@damage 2d8} fire damage when you cast the power. Until the power ends, you can use a bonus action on each of your subsequent turns to cause this damage again.",
-				"If an object is held, worn, or integrated, and a creature takes the damage from it, the creature must succeed on a Constitution saving throw or drop the object if it can. If it doesn't\u2014or can't\u2014drop the object, it has disadvantage on attack rolls and ability checks until the start of your next turn.",
+				"If an object is held, worn, or integrated, and a creature takes the damage from it, the creature must succeed on a Constitution saving throw or drop the object if it can. If it doesn't—or can't—drop the object, it has disadvantage on attack rolls and ability checks until the start of your next turn.",
 				"{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 3rd level or higher, the damage increases by {@damage 1d8} for each slot level above 2nd."
 			],
 			"damageInflict": [
@@ -50988,7 +51657,7 @@
 				}
 			],
 			"entries": [
-				"You enhance your fists\u2014or analogous appendages\u2014with sonic energy. For the duration, you have a natural weapon which deals {@damage 1d10} sonic damage on a hit. Every time you hit a creature that is no more than one size larger than you with a melee attack with this weapon, you can push it 5 feet away from you."
+				"You enhance your fists—or analogous appendages—with sonic energy. For the duration, you have a natural weapon which deals {@damage 1d10} sonic damage on a hit. Every time you hit a creature that is no more than one size larger than you with a melee attack with this weapon, you can push it 5 feet away from you."
 			],
 			"damageInflict": [
 				[
@@ -51313,7 +51982,7 @@
 			],
 			"entries": [
 				"You read the memory of an incapacitated droid or construct within range. The target must have its memory core (and/or other appropriate components) intact.",
-				"Until the power ends, you can ask up to five questions. Depending on what it would know or has witnessed, the target provides visual, audio, or text-based data in response. The target can\u2014t provide new information, and can't speculate about future events."
+				"Until the power ends, you can ask up to five questions. Depending on what it would know or has witnessed, the target provides visual, audio, or text-based data in response. The target can—t provide new information, and can't speculate about future events."
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -51510,7 +52179,7 @@
 			],
 			"entries": [
 				"Program a creature or object that you are familiar with into your tech focus. Using a sonar scan, the tech focus attempts to find a path to the creature's or objects location, as long as that creature or object is within 1,000 feet of you. If the creature or object is moving, you know the direction of its movement.",
-				"The power can locate a specific creature or object known to you, or the nearest creature/object of a specific kind (such as a droid or a bothan), so long as you have seen such a creature up close\u2014within 30 feet\u2014at least once. "
+				"The power can locate a specific creature or object known to you, or the nearest creature/object of a specific kind (such as a droid or a bothan), so long as you have seen such a creature up close—within 30 feet—at least once. "
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -51666,7 +52335,7 @@
 			],
 			"entries": [
 				"You scramble the targeting protocols of nearby machines. Each droid or construct in a 30-foot-radius sphere centered on a point you choose within range must make an Intelligence saving throw. If a construct has the 'Piloted' trait, and has a pilot controlling it that is not incapacitated, it gains a bonus to the saving throw equal to the pilot's Intelligence modifier. On a failed save, the target loses the ability to distinguish friend from foe, regarding all creatures it can see as enemies until the power ends. Each time the target takes damage, it can repeat the saving throw, ending the effect on itself on a success.",
-				"Whenever the affected creature chooses another creature as a target, it must choose the target at random from among the creatures it can see within range of the attack, power, or other ability it\u2014s using. If an enemy provokes an opportunity attack from the affected creature, the creature must make that attack if it is able to."
+				"Whenever the affected creature chooses another creature as a target, it must choose the target at random from among the creatures it can see within range of the attack, power, or other ability it—s using. If an enemy provokes an opportunity attack from the affected creature, the creature must make that attack if it is able to."
 			],
 			"damageInflict": [],
 			"savingThrow": "intelligence"
@@ -52192,7 +52861,7 @@
 				}
 			],
 			"entries": [
-				"You touch a creature that has died within the last minute and administer a shock to restore it to life. That creature returns to life with 1 hit point. This power can't return to life a creature that has died of old age, nor can it restore any missing body parts. If the creature is lacking body parts or organs integral for its survival\u2014its head, for instance\u2014the power automatically fails. Once this power has restored a creature to life, it cannot benefit from this power again until it finishes a short or long rest."
+				"You touch a creature that has died within the last minute and administer a shock to restore it to life. That creature returns to life with 1 hit point. This power can't return to life a creature that has died of old age, nor can it restore any missing body parts. If the creature is lacking body parts or organs integral for its survival—its head, for instance—the power automatically fails. Once this power has restored a creature to life, it cannot benefit from this power again until it finishes a short or long rest."
 			],
 			"damageInflict": [],
 			"savingThrow": ""
