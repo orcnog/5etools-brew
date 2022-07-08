@@ -1390,7 +1390,7 @@
 				"BST",
 				"POW",
 				"RAP",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -2057,7 +2057,7 @@
 				"FXD",
 				"POW",
 				"RAP",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -2561,7 +2561,7 @@
 				"AUT",
 				"PEN",
 				"POW",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -2592,7 +2592,7 @@
 				"RLD",
 				"PEN",
 				"RNG",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -3047,7 +3047,7 @@
 				"RLD",
 				"BST",
 				"POW",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -3217,7 +3217,7 @@
 				"AUT",
 				"BST",
 				"POW",
-				"SRT",
+				"STR",
 				"DSN",
 				"VSC"
 			],
@@ -3462,7 +3462,7 @@
 				"RLD",
 				"PEN",
 				"POW",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -3983,7 +3983,7 @@
 				"BST",
 				"RNG",
 				"RAP",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -4482,7 +4482,7 @@
 				"2H",
 				"RLD",
 				"RNG",
-				"SRT",
+				"STR",
 				"SIL"
 			],
 			"weapon": true,
@@ -4634,7 +4634,7 @@
 				"RLD",
 				"BST",
 				"POW",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -5229,7 +5229,7 @@
 				"AUT",
 				"POW",
 				"RAP",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -5360,7 +5360,7 @@
 				"AUT",
 				"RNG",
 				"RAP",
-				"SRT",
+				"STR",
 				"VSC"
 			],
 			"weapon": true,
@@ -7696,7 +7696,7 @@
 				"AUT",
 				"BST",
 				"POW",
-				"SRT",
+				"STR",
 				"VSC"
 			],
 			"weapon": true,
@@ -7792,7 +7792,7 @@
 				"2H",
 				"RLD",
 				"POW",
-				"SRT",
+				"STR",
 				"VSC"
 			],
 			"weapon": true,
@@ -8030,7 +8030,7 @@
 				"RLD",
 				"RNG",
 				"RAP",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -9649,7 +9649,7 @@
 				"2H",
 				"RLD",
 				"POW",
-				"SRT",
+				"STR",
 				"DSN"
 			],
 			"weapon": true,
@@ -9679,7 +9679,7 @@
 			"property": [
 				"RLD",
 				"POW",
-				"SRT",
+				"STR",
 				"DSN"
 			],
 			"weapon": true,
@@ -9710,7 +9710,7 @@
 				"2H",
 				"RLD",
 				"POW",
-				"SRT",
+				"STR",
 				"DSN"
 			],
 			"weapon": true,
@@ -9741,7 +9741,7 @@
 				"2H",
 				"RLD",
 				"POW",
-				"SRT",
+				"STR",
 				"DSN"
 			],
 			"weapon": true,
@@ -12835,7 +12835,7 @@
 				"RLD",
 				"S",
 				"RNG",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -14059,7 +14059,7 @@
 				"RLD",
 				"S",
 				"RNG",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -15157,7 +15157,7 @@
 			"property": [
 				"RLD",
 				"POW",
-				"SRT",
+				"STR",
 				"BRU",
 				"DSN",
 				"KEN"
@@ -15219,7 +15219,7 @@
 				"2H",
 				"RLD",
 				"RNG",
-				"SRT",
+				"STR",
 				"BRU"
 			],
 			"weapon": true,
@@ -15544,7 +15544,7 @@
 				"RLD",
 				"POW",
 				"RAP",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -15576,7 +15576,7 @@
 				"RLD",
 				"BST",
 				"POW",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -15606,7 +15606,7 @@
 				"RLD",
 				"POW",
 				"RAP",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -15710,7 +15710,7 @@
 				"BST",
 				"POW",
 				"RAP",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -15760,7 +15760,7 @@
 				"RLD",
 				"BST",
 				"RNG",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -16182,7 +16182,7 @@
 				"2H",
 				"RLD",
 				"RNG",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -16415,7 +16415,7 @@
 				"2H",
 				"RLD",
 				"POW",
-				"SRT",
+				"STR",
 				"DIR",
 				"DSN"
 			],
@@ -16446,7 +16446,7 @@
 			"property": [
 				"RLD",
 				"POW",
-				"SRT",
+				"STR",
 				"DIR",
 				"DSN"
 			],
@@ -16478,7 +16478,7 @@
 				"2H",
 				"RLD",
 				"POW",
-				"SRT",
+				"STR",
 				"DIR",
 				"DSN"
 			],
@@ -16510,7 +16510,7 @@
 				"2H",
 				"RLD",
 				"POW",
-				"SRT",
+				"STR",
 				"DIR",
 				"DSN"
 			],
@@ -17534,7 +17534,7 @@
 				"AUT",
 				"BST",
 				"POW",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -18707,7 +18707,7 @@
 				"2H",
 				"RLD",
 				"POW",
-				"SRT",
+				"STR",
 				"PRC"
 			],
 			"weapon": true,
@@ -18743,7 +18743,7 @@
 				"AUT",
 				"PEN",
 				"POW",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -18774,7 +18774,7 @@
 				"RLD",
 				"PEN",
 				"POW",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -18802,7 +18802,7 @@
 				"RLD",
 				"PEN",
 				"POW",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -19414,7 +19414,7 @@
 				"2H",
 				"RLD",
 				"POW",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -21884,7 +21884,7 @@
 				"2H",
 				"RLD",
 				"POW",
-				"SRT",
+				"STR",
 				"SIL"
 			],
 			"weapon": true,
@@ -24734,7 +24734,7 @@
 				"AUT",
 				"BST",
 				"POW",
-				"SRT",
+				"STR",
 				"KEN"
 			],
 			"weapon": true,
@@ -24766,7 +24766,7 @@
 				"RLD",
 				"S",
 				"POW",
-				"SRT",
+				"STR",
 				"DSN"
 			],
 			"weapon": true,
@@ -24797,7 +24797,7 @@
 				"2H",
 				"RLD",
 				"RNG",
-				"SRT",
+				"STR",
 				"PRC"
 			],
 			"weapon": true,
@@ -25962,7 +25962,7 @@
 				"BST|orcnogSW5e",
 				"POW",
 				"RAP",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -26500,7 +26500,7 @@
 				"RLD",
 				"RNG",
 				"RAP",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -26844,7 +26844,7 @@
 				"RLD",
 				"S",
 				"RNG",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -26873,7 +26873,7 @@
 				"2H",
 				"RLD",
 				"RNG",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -27281,7 +27281,7 @@
 				"AUT",
 				"POW",
 				"RAP",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -27491,7 +27491,7 @@
 				"RLD",
 				"BST",
 				"POW",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -27522,7 +27522,7 @@
 				"RLD",
 				"BST",
 				"RNG",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -27731,7 +27731,7 @@
 				"2H",
 				"RLD",
 				"RNG",
-				"SRT",
+				"STR",
 				"BRU",
 				"KEN"
 			],
@@ -27811,7 +27811,7 @@
 				"AUT",
 				"BST",
 				"RNG",
-				"SRT",
+				"STR",
 				"SIL"
 			],
 			"weapon": true,
@@ -27842,7 +27842,7 @@
 				"2H",
 				"RLD",
 				"RNG",
-				"SRT",
+				"STR",
 				"SIL"
 			],
 			"weapon": true,
@@ -27873,7 +27873,7 @@
 				"L",
 				"RLD",
 				"RNG",
-				"SRT",
+				"STR",
 				"SIL"
 			],
 			"weapon": true,
@@ -28368,7 +28368,7 @@
 				"RLD",
 				"BST",
 				"RNG",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -28477,7 +28477,7 @@
 				"AUT",
 				"BST",
 				"POW",
-				"SRT",
+				"STR",
 				"SMT"
 			],
 			"weapon": true,
@@ -28977,7 +28977,7 @@
 				"RLD",
 				"RNG",
 				"RAP",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -29039,7 +29039,7 @@
 				"BST",
 				"RNG",
 				"RAP",
-				"SRT",
+				"STR",
 				"SMT"
 			],
 			"weapon": true,
@@ -29142,7 +29142,7 @@
 				"RLD",
 				"RNG",
 				"RAP",
-				"SRT",
+				"STR",
 				"PRC",
 				"SMT"
 			],
@@ -29324,7 +29324,7 @@
 				"2H",
 				"RLD",
 				"POW",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -29357,7 +29357,7 @@
 				"AUT",
 				"BST",
 				"POW",
-				"SRT",
+				"STR",
 				"DSR"
 			],
 			"weapon": true,
@@ -29388,7 +29388,7 @@
 				"2H",
 				"RLD",
 				"POW",
-				"SRT",
+				"STR",
 				"DSR"
 			],
 			"weapon": true,
@@ -29418,7 +29418,7 @@
 			"property": [
 				"RLD",
 				"POW",
-				"SRT",
+				"STR",
 				"DSR"
 			],
 			"weapon": true,
@@ -30548,7 +30548,7 @@
 				"AUT",
 				"POW",
 				"RAP",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -30839,7 +30839,7 @@
 				"RLD",
 				"BST",
 				"POW",
-				"SRT",
+				"STR",
 				"SWI"
 			],
 			"weapon": true,
@@ -30899,7 +30899,7 @@
 				"2H",
 				"RLD",
 				"POW",
-				"SRT",
+				"STR",
 				"SWI"
 			],
 			"weapon": true,
@@ -32476,7 +32476,7 @@
 				"RLD",
 				"S",
 				"RNG",
-				"SRT"
+				"STR"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
