@@ -1421,7 +1421,9 @@
 			"range": "60/240",
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 11
+			"strength": 11,
+			"burst": 8,
+			"rapid": 4
 		},
 		{
 			"name": "Absorbing Amplifier Mk I",
@@ -2091,7 +2093,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 11
+			"strength": 11,
+			"rapid": 4
 		},
 		{
 			"name": "Agile Armoring Mk I",
@@ -2595,7 +2598,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 19
+			"strength": 19,
+			"penetrating": 2
 		},
 		{
 			"name": "Anti-materiel Rifle",
@@ -2611,6 +2615,7 @@
 				"RLD",
 				"PEN",
 				"RNG",
+				"SLG",
 				"STR"
 			],
 			"weapon": true,
@@ -2626,7 +2631,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 19
+			"strength": 19,
+			"penetrating": 2
 		},
 		{
 			"name": "Antitoxkit",
@@ -3081,7 +3087,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 15
+			"strength": 15,
+			"burst": 4
 		},
 		{
 			"name": "Astrotech's implements",
@@ -3253,7 +3260,10 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 19
+			"strength": 19,
+			"burst": 2,
+			"disintegrate": 13,
+			"vicious": 1
 		},
 		{
 			"name": "Backpack",
@@ -3496,7 +3506,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 15
+			"strength": 15,
+			"penetrating": 2
 		},
 		{
 			"name": "Bedroll",
@@ -4121,7 +4132,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"corruption": 13
 		},
 		{
 			"name": "Blueprint (Advanced)",
@@ -4668,7 +4680,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 13
+			"strength": 13,
+			"burst": 4
 		},
 		{
 			"name": "Brawny Arm Prosthesis",
@@ -4866,7 +4879,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"bright": 13
 		},
 		{
 			"name": "Broad-saber",
@@ -4891,7 +4905,9 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 13,
+			"dire": 1
 		},
 		{
 			"name": "Brutal Cell",
@@ -5088,7 +5104,10 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 19,
+			"brutal": 1,
+			"keen": 1
 		},
 		{
 			"name": "Byrothsis Adept Cell",
@@ -5263,7 +5282,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 11
+			"strength": 11,
+			"rapid": 3
 		},
 		{
 			"name": "Celerity Leg Prosthesis",
@@ -5379,6 +5399,7 @@
 				"AUT",
 				"RNG",
 				"RAP",
+				"SLG",
 				"STR",
 				"VSC"
 			],
@@ -5395,7 +5416,9 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 13
+			"strength": 13,
+			"rapid": 2,
+			"vicious": 1
 		},
 		{
 			"name": "Chakram",
@@ -6311,7 +6334,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 13
 		},
 		{
 			"name": "Cloak Chassis (Advanced)",
@@ -7635,7 +7659,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 15
 		},
 		{
 			"name": "Crossguard Hilt",
@@ -7697,7 +7722,9 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 13,
+			"defensive": 1
 		},
 		{
 			"name": "Cryo Cannon",
@@ -7731,7 +7758,9 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 13
+			"strength": 13,
+			"burst": 2,
+			"vicious": 1
 		},
 		{
 			"name": "Cryo Cell (Average)",
@@ -7827,7 +7856,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 11
+			"strength": 11,
+			"vicious": 1
 		},
 		{
 			"name": "Cryo carbine",
@@ -7856,7 +7886,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"vicious": 1
 		},
 		{
 			"name": "Cryo cell",
@@ -7901,7 +7932,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"vicious": 1
 		},
 		{
 			"name": "Crystadium medium shield",
@@ -7924,7 +7956,8 @@
 				"AST",
 				"ABS",
 				"IMB"
-			]
+			],
+			"absorptive": 1
 		},
 		{
 			"name": "Crystalizing Amplifier (Dueling)",
@@ -8049,6 +8082,7 @@
 				"RLD",
 				"RNG",
 				"RAP",
+				"SLG",
 				"STR"
 			],
 			"weapon": true,
@@ -8064,7 +8098,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 11
+			"strength": 11,
+			"rapid": 2
 		},
 		{
 			"name": "Czerka Attenuating Pulsator",
@@ -9268,7 +9303,9 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 13,
+			"dire": 1
 		},
 		{
 			"name": "Diresword",
@@ -9291,7 +9328,9 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 11,
+			"dire": 1
 		},
 		{
 			"name": "Disarming Cell",
@@ -9684,7 +9723,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 11
+			"strength": 11,
+			"disintegrate": 13
 		},
 		{
 			"name": "Disruptor pistol",
@@ -9714,7 +9754,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 11
+			"strength": 11,
+			"disintegrate": 13
 		},
 		{
 			"name": "Disruptor rifle",
@@ -9745,7 +9786,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 13
+			"strength": 13,
+			"disintegrate": 13
 		},
 		{
 			"name": "Disruptor sniper",
@@ -9776,7 +9818,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 15
+			"strength": 15,
+			"disintegrate": 13
 		},
 		{
 			"name": "Disruptorshiv",
@@ -9799,7 +9842,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"shocking": 13
 		},
 		{
 			"name": "Dominator Belt",
@@ -10008,7 +10052,9 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 13,
+			"vicious": 1
 		},
 		{
 			"name": "Duplexed Extender Channel",
@@ -10162,7 +10208,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"sonorous": 13
 		},
 		{
 			"name": "Electrifying Calibrator (Average)",
@@ -10533,7 +10580,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"shocking": 13
 		},
 		{
 			"name": "Electro-hammer",
@@ -10557,7 +10605,9 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 11,
+			"shocking": 13
 		},
 		{
 			"name": "Electro-prod",
@@ -10580,7 +10630,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"shocking": 12
 		},
 		{
 			"name": "Electro-staff",
@@ -10603,7 +10654,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"shocking": 13
 		},
 		{
 			"name": "Electro-vougle",
@@ -10627,7 +10679,9 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 13,
+			"shocking": 13
 		},
 		{
 			"name": "Electro-whip",
@@ -10651,7 +10705,9 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 11,
+			"shocking": 13
 		},
 		{
 			"name": "Elongating Dataport Mk I",
@@ -13000,7 +13056,8 @@
 			"property": [
 				"AST",
 				"AVO"
-			]
+			],
+			"avoidant": 1
 		},
 		{
 			"name": "Flight suit",
@@ -13981,7 +14038,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 11
 		},
 		{
 			"name": "Grenade Launcher (Champion)",
@@ -15138,7 +15196,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"defensive": 1
 		},
 		{
 			"name": "Guardian Defensive Augment",
@@ -15194,7 +15253,10 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 15
+			"strength": 15,
+			"brutal": 1,
+			"disintegrate": 1,
+			"keen": 1
 		},
 		{
 			"name": "Hand blaster",
@@ -15223,7 +15285,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"keen": 1
 		},
 		{
 			"name": "Hand cannon",
@@ -15238,6 +15301,7 @@
 				"2H",
 				"RLD",
 				"RNG",
+				"SLG",
 				"STR",
 				"BRU"
 			],
@@ -15254,7 +15318,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 11
+			"strength": 11,
+			"brutal": 1
 		},
 		{
 			"name": "Hand prosthesis",
@@ -15578,7 +15643,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 13
+			"strength": 13,
+			"rapid": 2
 		},
 		{
 			"name": "Heavy bowcaster",
@@ -15610,7 +15676,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 17
+			"strength": 17,
+			"burst": 2
 		},
 		{
 			"name": "Heavy carbine",
@@ -15640,7 +15707,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 11
+			"strength": 11,
+			"rapid": 4
 		},
 		{
 			"name": "Heavy exoskeleton",
@@ -15744,7 +15812,9 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 13
+			"strength": 13,
+			"burst": 4,
+			"rapid": 4
 		},
 		{
 			"name": "Heavy shield generator",
@@ -15779,6 +15849,7 @@
 				"RLD",
 				"BST",
 				"RNG",
+				"SLG",
 				"STR"
 			],
 			"weapon": true,
@@ -15794,7 +15865,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 13
+			"strength": 13,
+			"burst": 2
 		},
 		{
 			"name": "Heavy slugpistol",
@@ -15808,7 +15880,8 @@
 			"property": [
 				"RLD",
 				"RNG",
-				"RAP"
+				"RAP",
+				"SLG"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -15822,7 +15895,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"rapid": 8
 		},
 		{
 			"name": "Helisaber Attachment",
@@ -16201,6 +16275,7 @@
 				"2H",
 				"RLD",
 				"RNG",
+				"SLG",
 				"STR"
 			],
 			"weapon": true,
@@ -16451,7 +16526,9 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 11
+			"strength": 11,
+			"dire": 1,
+			"disintegrate": 13
 		},
 		{
 			"name": "Incinerator pistol",
@@ -16482,7 +16559,9 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 11
+			"strength": 11,
+			"dire": 1,
+			"disintegrate": 13
 		},
 		{
 			"name": "Incinerator rifle",
@@ -16514,7 +16593,9 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 11
+			"strength": 11,
+			"dire": 1,
+			"disintegrate": 13
 		},
 		{
 			"name": "Incinerator sniper",
@@ -16546,7 +16627,9 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 15
+			"strength": 15,
+			"dire": 1,
+			"disintegrate": 13
 		},
 		{
 			"name": "Inconspicuous Shielding",
@@ -17568,7 +17651,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 15
+			"strength": 15,
+			"burst": 4
 		},
 		{
 			"name": "Ion carbine",
@@ -17707,7 +17791,9 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 13,
+			"keen": 1
 		},
 		{
 			"name": "Jedi Knight's Robe",
@@ -18349,7 +18435,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"rapid": 5
 		},
 		{
 			"name": "Light shield generator",
@@ -18380,7 +18467,8 @@
 			"property": [
 				"L",
 				"RLD",
-				"RNG"
+				"RNG",
+				"SLG"
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -18418,7 +18506,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 11
 		},
 		{
 			"name": "Light-baton",
@@ -18489,7 +18578,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 11
 		},
 		{
 			"name": "Light-cutlass",
@@ -18512,7 +18602,8 @@
 				"DEX",
 				"HID",
 				"LUM"
-			]
+			],
+			"dexterity": 11
 		},
 		{
 			"name": "Light-dagger",
@@ -18610,7 +18701,9 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 13,
+			"brutal": 1
 		},
 		{
 			"name": "Light-katana",
@@ -18636,7 +18729,9 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 11,
+			"piercing": 1
 		},
 		{
 			"name": "Light-lance",
@@ -18660,7 +18755,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 11
 		},
 		{
 			"name": "Light-nodachi",
@@ -18685,7 +18781,10 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 17,
+			"piercing": 1,
+			"vicious": 1
 		},
 		{
 			"name": "Light-ring",
@@ -18742,7 +18841,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 15
+			"strength": 15,
+			"piercing": 1
 		},
 		{
 			"name": "Lightning Cannon",
@@ -18774,7 +18874,8 @@
 			"range": "90/360",
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 15
+			"strength": 15,
+			"penetrating": 2
 		},
 		{
 			"name": "Lightning Rifle",
@@ -18805,7 +18906,8 @@
 			"range": "60/240",
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 11
+			"strength": 11,
+			"penetrating": 2
 		},
 		{
 			"name": "Lightning carbine",
@@ -18836,7 +18938,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 11
+			"strength": 11,
+			"penetrating": 6
 		},
 		{
 			"name": "Lightning pistol",
@@ -18864,7 +18967,8 @@
 				null
 			],
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"penetrating": 8
 		},
 		{
 			"name": "Lightsaber",
@@ -18912,7 +19016,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 11
 		},
 		{
 			"name": "Lightweapon Chassis (Advanced)",
@@ -21574,6 +21679,7 @@
 			"property": [
 				"S",
 				"RNG",
+				"SLG",
 				"PRC",
 				"SIL"
 			],
@@ -21585,7 +21691,8 @@
 			"ammoType": "energy cell",
 			"range": "30/160",
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"piercing": 1
 		},
 		{
 			"name": "Nerve-baton",
@@ -21607,7 +21714,8 @@
 			"property": [
 				"DSR",
 				"NEU"
-			]
+			],
+			"neuralizing": 13
 		},
 		{
 			"name": "Net",
@@ -21800,7 +21908,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"shocking": 15
 		},
 		{
 			"name": "Neutronium Edge (Average)",
@@ -21874,7 +21983,8 @@
 			"property": [
 				"AST",
 				"INS"
-			]
+			],
+			"insulated": 1
 		},
 		{
 			"name": "Nighthawk Ocular Implant",
@@ -23076,7 +23186,9 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 11,
+			"keen": 1
 		},
 		{
 			"name": "Phobium Echoer (Improved)",
@@ -23308,7 +23420,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 11
 		},
 		{
 			"name": "Pitcher",
@@ -24503,7 +24616,8 @@
 				"AST",
 				"CHG",
 				"CMB"
-			]
+			],
+			"charging": 1
 		},
 		{
 			"name": "Quantum Splitter Mk I",
@@ -24769,7 +24883,9 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 13
+			"strength": 13,
+			"burst": 2,
+			"keen": 1
 		},
 		{
 			"name": "Radrifle",
@@ -24801,7 +24917,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 13
+			"strength": 13,
+			"disintegrate": 15
 		},
 		{
 			"name": "Railgun",
@@ -24816,6 +24933,7 @@
 				"2H",
 				"RLD",
 				"RNG",
+				"SLG",
 				"STR",
 				"PRC"
 			],
@@ -24832,7 +24950,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 17
+			"strength": 17,
+			"piercing": 1
 		},
 		{
 			"name": "Ram, portable",
@@ -25997,7 +26116,8 @@
 			"foundryType": "weapon",
 			"ammunition": true,
 			"strength": 11,
-			"burst": 4
+			"burst": 4,
+			"rapid": 4
 		},
 		{
 			"name": "Repelling Cycler (Chipped)",
@@ -26466,7 +26586,9 @@
 			"dmg1": "1d8",
 			"dmgType": "Energy",
 			"dmg2": "1d10",
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 13,
+			"dire": 1
 		},
 		{
 			"name": "Returning Weapon Guard",
@@ -26519,6 +26641,7 @@
 				"RLD",
 				"RNG",
 				"RAP",
+				"SLG",
 				"STR"
 			],
 			"weapon": true,
@@ -26534,7 +26657,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 11
+			"strength": 11,
+			"rapid": 4
 		},
 		{
 			"name": "Ring of Adept Force Storing",
@@ -26736,7 +26860,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"defensive": 1
 		},
 		{
 			"name": "Riot shocker",
@@ -26759,7 +26884,9 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"defensive": 1,
+			"shocking": 13
 		},
 		{
 			"name": "Rocket Boots (Champion)",
@@ -27315,7 +27442,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 13
+			"strength": 13,
+			"rapid": 2
 		},
 		{
 			"name": "Rylith Power Core",
@@ -27411,7 +27539,9 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 13,
+			"brutal": 1
 		},
 		{
 			"name": "Saber-spear",
@@ -27525,7 +27655,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 13
+			"strength": 13,
+			"burst": 3
 		},
 		{
 			"name": "Scattergun",
@@ -27541,6 +27672,7 @@
 				"RLD",
 				"BST",
 				"RNG",
+				"SLG",
 				"STR"
 			],
 			"weapon": true,
@@ -27556,7 +27688,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 11
+			"strength": 11,
+			"burst": 2
 		},
 		{
 			"name": "Scavenging kit",
@@ -27764,7 +27897,8 @@
 			"range": "120/480",
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 19
+			"strength": 19,
+			"keen": 1
 		},
 		{
 			"name": "Serrated Edge Mk I",
@@ -27830,6 +27964,7 @@
 				"AUT",
 				"BST",
 				"RNG",
+				"SLG",
 				"STR",
 				"SIL"
 			],
@@ -27846,7 +27981,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 15
+			"strength": 15,
+			"burst": 4
 		},
 		{
 			"name": "Shatter Rifle",
@@ -27861,6 +27997,7 @@
 				"2H",
 				"RLD",
 				"RNG",
+				"SLG",
 				"STR",
 				"SIL"
 			],
@@ -27892,6 +28029,7 @@
 				"L",
 				"RLD",
 				"RNG",
+				"SLG",
 				"STR",
 				"SIL"
 			],
@@ -28269,7 +28407,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"shocking": 13
 		},
 		{
 			"name": "Shocking Oscillator",
@@ -28387,6 +28526,7 @@
 				"RLD",
 				"BST",
 				"RNG",
+				"SLG",
 				"STR"
 			],
 			"weapon": true,
@@ -28402,7 +28542,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 11
+			"strength": 11,
+			"burst": 2
 		},
 		{
 			"name": "Shotgun Axe",
@@ -28475,7 +28616,8 @@
 			"reload": 16,
 			"range": "40/160",
 			"foundryType": "weapon",
-			"ammunition": true
+			"ammunition": true,
+			"rapid": 4
 		},
 		{
 			"name": "Shoulder Cannon",
@@ -28509,7 +28651,8 @@
 			"range": "60/240",
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 11
+			"strength": 11,
+			"burst": 8
 		},
 		{
 			"name": "Shoulder Cannon (Champion)",
@@ -28628,7 +28771,9 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 11,
+			"dire": 1
 		},
 		{
 			"name": "Siege Weapon",
@@ -28815,7 +28960,9 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 11,
+			"keen": 1
 		},
 		{
 			"name": "Sith Strength Belt",
@@ -28996,6 +29143,7 @@
 				"RLD",
 				"RNG",
 				"RAP",
+				"SLG",
 				"STR"
 			],
 			"weapon": true,
@@ -29011,7 +29159,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 11
+			"strength": 11,
+			"rapid": 8
 		},
 		{
 			"name": "Slugthrower",
@@ -29025,7 +29174,8 @@
 			"property": [
 				"2H",
 				"RLD",
-				"RNG"
+				"RNG",
+				"SLG"
 			],
 			"weapon": true,
 			"weaponCategory": "Martial",
@@ -29058,6 +29208,7 @@
 				"BST",
 				"RNG",
 				"RAP",
+				"SLG",
 				"STR",
 				"SMT"
 			],
@@ -29074,7 +29225,9 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 15
+			"strength": 15,
+			"burst": 2,
+			"rapid": 2
 		},
 		{
 			"name": "Smart Interface (Basic)",
@@ -29161,6 +29314,7 @@
 				"RLD",
 				"RNG",
 				"RAP",
+				"SLG",
 				"STR",
 				"PRC",
 				"SMT"
@@ -29178,7 +29332,9 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 11
+			"strength": 11,
+			"rapid": 2,
+			"piercing": 1
 		},
 		{
 			"name": "Smugglepack",
@@ -29392,7 +29548,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 17
+			"strength": 17,
+			"burst": 2
 		},
 		{
 			"name": "Sonic Rifle",
@@ -30536,7 +30693,8 @@
 				"FXD",
 				"DSR",
 				"SHO"
-			]
+			],
+			"shocking": 13
 		},
 		{
 			"name": "Stylus pen",
@@ -30582,7 +30740,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 11
+			"strength": 11,
+			"rapid": 4
 		},
 		{
 			"name": "Sunsaber",
@@ -30607,7 +30766,9 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 11,
+			"bright": 15
 		},
 		{
 			"name": "Sunshades",
@@ -30874,7 +31035,8 @@
 			],
 			"foundryType": "weapon",
 			"ammunition": true,
-			"strength": 15
+			"strength": 15,
+			"burst": 2
 		},
 		{
 			"name": "Switch Rifle",
@@ -31225,7 +31387,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 11
 		},
 		{
 			"name": "Techie's Pattern (Basic)",
@@ -32101,6 +32264,7 @@
 				"RLD",
 				"S",
 				"RNG",
+				"SLG",
 				"SIL"
 			],
 			"weapon": true,
@@ -32780,7 +32944,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 11
 		},
 		{
 			"name": "Vibro-baton",
@@ -32822,7 +32987,9 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 13,
+			"brutal": 1
 		},
 		{
 			"name": "Vibro-blade",
@@ -32870,7 +33037,10 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 19,
+			"brutal": 1,
+			"keen": 1
 		},
 		{
 			"name": "Vibro-claw",
@@ -32915,7 +33085,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 13
 		},
 		{
 			"name": "Vibro-cutless",
@@ -32936,7 +33107,8 @@
 			"foundryType": "weapon",
 			"property": [
 				"DEX"
-			]
+			],
+			"dexterity": 11
 		},
 		{
 			"name": "Vibro-cutter",
@@ -33026,7 +33198,8 @@
 			"foundryType": "weapon",
 			"property": [
 				"DEX"
-			]
+			],
+			"dexterity": 11
 		},
 		{
 			"name": "Vibro-glaive",
@@ -33050,7 +33223,9 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 13,
+			"brutal": 1
 		},
 		{
 			"name": "Vibro-hammer",
@@ -33073,7 +33248,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"vicious": 1
 		},
 		{
 			"name": "Vibro-katana",
@@ -33097,7 +33273,9 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 11,
+			"piercing": 1
 		},
 		{
 			"name": "Vibro-knife",
@@ -33120,7 +33298,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"piercing": 1
 		},
 		{
 			"name": "Vibro-knuckler",
@@ -33165,7 +33344,8 @@
 			"weaponCategory": "Martial",
 			"dmg1": "1d12",
 			"dmgType": "Kinetic",
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 13
 		},
 		{
 			"name": "Vibro-mace",
@@ -33188,7 +33368,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 11
 		},
 		{
 			"name": "Vibro-nodachi",
@@ -33213,7 +33394,9 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 17,
+			"piercing": 1
 		},
 		{
 			"name": "Vibro-pike",
@@ -33236,7 +33419,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 11
 		},
 		{
 			"name": "Vibro-rapier",
@@ -33280,7 +33464,9 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 11,
+			"keen": 1
 		},
 		{
 			"name": "Vibro-shield",
@@ -33302,7 +33488,8 @@
 			"property": [
 				"FXD",
 				"DEF"
-			]
+			],
+			"defensive": 1
 		},
 		{
 			"name": "Vibro-spear",
@@ -33372,7 +33559,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"keen": 1
 		},
 		{
 			"name": "Vibro-sword",
@@ -33394,7 +33582,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 11
 		},
 		{
 			"name": "Vibro-tonfa",
@@ -33417,7 +33606,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"defensive": 1
 		},
 		{
 			"name": "Vibro-whip",
@@ -33850,7 +34040,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"defensive": 1
 		},
 		{
 			"name": "Warsaber",
@@ -33873,7 +34064,9 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 15,
+			"vicious": 1
 		},
 		{
 			"name": "Warsword",
@@ -33896,7 +34089,9 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"dexterity": 15,
+			"vicious": 1
 		},
 		{
 			"name": "Water suit",
@@ -34997,7 +35192,8 @@
 			"entries": [
 				null
 			],
-			"foundryType": "weapon"
+			"foundryType": "weapon",
+			"piercing": 1
 		},
 		{
 			"name": "Wristblaster",
