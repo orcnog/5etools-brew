@@ -337,7 +337,8 @@
 						"This weapon's damage becomes fire, and its luminous property sheds bright light in a 5-foot radius and dim light for an additional 5 feet while activated, instead of only dim light in a 5-foot radius. Additionally, when you would make a melee weapon attack with a weapon with the bright property, you can instead force the target to make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon, or the bright number, whichever is lower). If you would have advantage on your attack roll, the creature instead has disadvantage on their saving throw, and if you would have disadvantage on your attack roll, the creature instead has advantage on their saving throw. On a failed save, the target takes normal weapon damage and is subjected to any additional effects that would occur on a hit, and the creature takes additional damage of the same type at the start of its next turn equal to your governing ability modifier."
 					]
 				}
-			]
+			],
+			"template": "{{prop_name}} ({{item.bright}})"
 		},
 		{
 			"abbreviation": "BLK",
@@ -365,7 +366,8 @@
 						"When you score a critical hit with a weapon with the brutal property, you roll a number of additional weapon damage dice equal to the brutal number."
 					]
 				}
-			]
+			],
+			"template": "{{prop_name}} ({{item.brutal}})"
 		},
 		{
 			"abbreviation": "BST",
@@ -394,7 +396,8 @@
 						"This weapon's damage becomes necrotic, and it loses the luminous property if it has it. Additionally, when you would make a melee weapon attack with a weapon with the corruption property, you can instead force the target to make a Wisdom saving throw (DC = 8 + your bonus to attacks with the weapon, or the corruption number, whichever is lower). If you would have advantage on your attack roll, the creature instead has disadvantage on their saving throw, and if you would have disadvantage on your attack roll, the creature instead has advantage on their saving throw. On a failed save, the target takes normal weapon damage and is subjected to any additional effects that would occur on a hit, and the creature cannot regain hit points until the start of your next turn."
 					]
 				}
-			]
+			],
+			"template": "{{prop_name}} ({{item.corruption}})"
 		},
 		{
 			"abbreviation": "DEF",
@@ -408,7 +411,8 @@
 						"When you make your first attack on your turn with a weapon with the defensive property, you can choose to suffer a penalty to attack and damage rolls with that weapon up to the defensive number. If you do so, you gain the same bonus to AC. These effects last until the start of your next turn, as long as you're holding the weapon."
 					]
 				}
-			]
+			],
+			"template": "{{prop_name}} ({{item.defensive}})"
 		},
 		{
 			"abbreviation": "DEX",
@@ -422,7 +426,8 @@
 						"A weapon with the dexterity property requires more skill to control. While wielding it, you have disadvantage on attack rolls unless you meet the Dexterity requirement. "
 					]
 				}
-			]
+			],
+			"template": "{{prop_name}} ({{item.dexterity}})"
 		},
 		{
 			"abbreviation": "DIR",
@@ -436,7 +441,8 @@
 						"Before you make a weapon attack with a weapon with the dire property, you can choose to suffer a penalty to the attack roll up to the dire number. If you do so and you hit with it, you gain an equivalent bonus to the damage roll."
 					]
 				}
-			]
+			],
+			"template": "{{prop_name}} ({{item.dire}})"
 		},
 		{
 			"abbreviation": "DSA",
@@ -478,7 +484,8 @@
 						"When a creature is reduced to 0 hit points by a weapon with the disintegrate property, it must make a Constitution saving throw, DC equal to the disintegrate number. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing or carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized."
 					]
 				}
-			]
+			],
+			"template": "{{prop_name}} ({{item.disintegrate}})"
 		},
 		{
 			"abbreviation": "DSR",
@@ -590,7 +597,8 @@
 						"When you make a weapon attack with a weapon with the keen property, the critical hit range increases by an amount equal to the keen number."
 					]
 				}
-			]
+			],
+			"template": "{{prop_name}} ({{item.keen}})"
 		},
 		{
 			"abbreviation": "L",
@@ -660,7 +668,8 @@
 						"When you hit a creature with a weapon with the neuralizing property, you can force it to make a Wisdom saving throw, DC equal to the neuralizing number. On a failed save, the creature takes an additional 1d4 psychic damage and becomes frightened of you until the start of its next turn."
 					]
 				}
-			]
+			],
+			"template": "{{prop_name}} ({{item.neuralizing}})"
 		},
 		{
 			"abbreviation": "OBT",
@@ -688,7 +697,8 @@
 						"When you would make a ranged weapon attack with a weapon with the penetrating property, you can instead attempt to penetrate and hit a creature behind the target, consuming ammunition equal to the penetrating number. Make an attack roll against the initial target. If the attack hits, there is a creature within 15 feet of that creature and directly behind it, and the original attack roll would hit the second creature, it also takes normal weapon damage."
 					]
 				}
-			]
+			],
+			"template": "{{prop_name}} ({{item.penetrating}})"
 		},
 		{
 			"abbreviation": "PRC",
@@ -702,7 +712,8 @@
 						"Before you make a weapon attack with a weapon with the piercing property, you can choose to gain a bonus to the attack roll up to the piercing number. If you do so and you hit with it, you suffer an equivalent penalty to the damage roll."
 					]
 				}
-			]
+			],
+			"template": "{{prop_name}} ({{item.piercing}})"
 		},
 		{
 			"abbreviation": "PCL",
@@ -744,7 +755,8 @@
 						"When you would make a ranged weapon attack with a weapon with the rapid property, you can instead unload on a single target, consuming ammunition equal to the rapid number. The target must make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon). On a failed save, roll the weapon's damage dice twice and add them together, adding relevant modifiers as normal and subjecting the target to any additional effects that would occur on a hit. If the target is beyond normal range but within long range, it has advantage on the save."
 					]
 				}
-			]
+			],
+			"template": "{{prop_name}} ({{item.rapid}})"
 		},
 		{
 			"abbreviation": "R",
@@ -800,7 +812,8 @@
 						"When you hit a creature with a weapon with the shocking property, you can force it to make a Dexterity saving throw, DC equal to the shocking number. On a failed save, the creature takes an additional 1d4 lightning damage and becomes shocked until the end of its next turn."
 					]
 				}
-			]
+			],
+			"template": "{{prop_name}} ({{item.shocking}})"
 		},
 		{
 			"abbreviation": "SIL",
@@ -856,7 +869,8 @@
 						"When you hit a creature with a weapon with the sonorous property, you can force it to make a Constitution saving throw, DC equal to the sonorous number. On a failed save, the creature takes an additional 1d4 sonic damage and becomes deafened until the end of its next turn."
 					]
 				}
-			]
+			],
+			"template": "{{prop_name}} ({{item.sonorous}})"
 		},
 		{
 			"abbreviation": "S",
@@ -956,7 +970,8 @@
 						"Whenever you deal damage with a weapon with the vicious property and roll the maximum on a weapon damage die, you gain a bonus to damage equal to the vicious number."
 					]
 				}
-			]
+			],
+			"template": "{{prop_name}} ({{item.vicious}})"
 		},
 		{
 			"abbreviation": "STR",
@@ -984,7 +999,8 @@
 						"When you are wearing armor or wielding a shield with the absorptive property, damage that you take from weapons is reduced by an amount equal to the absorptive number. If this would reduce the damage to 0, the damage is instead reduced to 1."
 					]
 				}
-			]
+			],
+			"template": "{{prop_name}} ({{item.absorptive}})"
 		},
 		{
 			"abbreviation": "AGI",
@@ -1026,7 +1042,8 @@
 						"When wearing armor or wielding a shield with the avoidant property and a creature makes an attack against you, the critical hit range decreases by an amount equal to the avoidant number, to a minimum of 1."
 					]
 				}
-			]
+			],
+			"template": "{{prop_name}} ({{item.avoidant}})"
 		},
 		{
 			"abbreviation": "BAR",
@@ -1054,7 +1071,8 @@
 						"When you take damage while wearing armor or wielding a shield with the charging property, you gain a charge. You can store a maximum number of charges equal to the charging number, and the charges last for 1 minute. The next time you hit with a melee weapon attack while you have charges, you deal additional damage of the same type as the weapon’s damage equal to the number of charges stored, and the charges are expended."
 					]
 				}
-			]
+			],
+			"template": "{{prop_name}} ({{item.charging}})"
 		},
 		{
 			"abbreviation": "CON",
@@ -1138,7 +1156,8 @@
 						"When you make a saving throw against an effect that would deal ion or lightning damage while wearing armor or wielding a shield with the insulated property, you can treat a d20 roll of below the insulated number as the insulated number."
 					]
 				}
-			]
+			],
+			"template": "{{prop_name}} ({{item.insulated}})"
 		},
 		{
 			"abbreviation": "INT",
