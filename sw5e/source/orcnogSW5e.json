@@ -623,7 +623,7 @@
 					"type": "entries",
 					"name": "Luminous",
 					"entries": [
-						"A weapon with the luminous property sheds dim light in a 5-foot radius while activated. Additionally, Dexterity (Stealth) checks made while the weapon is activated have disadvantage."
+						"A weapon with the luminous property sheds dim light in a 5-foot radius while activated. Additionally, Dexterity ({@skill Stealth}) checks made while the weapon is activated have disadvantage."
 					]
 				}
 			]
@@ -824,7 +824,7 @@
 					"type": "entries",
 					"name": "Silent",
 					"entries": [
-						"When you make a ranged weapon attack with a weapon with the silent property while hidden, it does not automatically reveal your presence. Make a Dexterity ({@skill Stealth}) check contested by your targets' Wisdom (Perception) check. On a success, you remain hidden."
+						"When you make a ranged weapon attack with a weapon with the silent property while hidden, it does not automatically reveal your presence. Make a Dexterity ({@skill Stealth}) check contested by your targets' Wisdom ({@skill Perception}) check. On a success, you remain hidden."
 					]
 				}
 			]
@@ -1054,7 +1054,7 @@
 					"type": "entries",
 					"name": "Barbed",
 					"entries": [
-						"When you succeed on a Strength (Athletics) check to initiate or maintain a grapple while wearing armor with the barbed property, the creature takes kinetic damage using the barbed damage (which appears in parentheses with the property) + your Strength modifier."
+						"When you succeed on a Strength ({@skill Athletics}) check to initiate or maintain a grapple while wearing armor with the barbed property, the creature takes kinetic damage using the barbed damage (which appears in parentheses with the property) + your Strength modifier."
 					]
 				}
 			]
@@ -1182,7 +1182,7 @@
 					"type": "entries",
 					"name": "Lambent",
 					"entries": [
-						"While wielding a shield with the lambent property, you can use a bonus action to activate or deactivate the shield’s light. While active, the shield sheds bright light in a 5-foot radius and dim light for an additional 5 feet. Additionally, Dexterity (Stealth) checks made while the shield’s light is active that rely on sight have disadvantage."
+						"While wielding a shield with the lambent property, you can use a bonus action to activate or deactivate the shield’s light. While active, the shield sheds bright light in a 5-foot radius and dim light for an additional 5 feet. Additionally, Dexterity ({@skill Stealth}) checks made while the shield’s light is active that rely on sight have disadvantage."
 					]
 				}
 			]
@@ -1336,7 +1336,7 @@
 					"type": "entries",
 					"name": "Spiked",
 					"entries": [
-						"When you succeed on a Strength (Athletics) check to shove or trip a creature while wielding a shield with the spiked property, the creature takes kinetic damage using the spiked damage (which appears in parentheses with the property) + your Strength modifier. If you use a shield with the spiked property as an improvised weapon, the damage increases by one step (from d4 to d6, d6 to d8, or d8 to 2d4)."
+						"When you succeed on a Strength ({@skill Athletics}) check to shove or trip a creature while wielding a shield with the spiked property, the creature takes kinetic damage using the spiked damage (which appears in parentheses with the property) + your Strength modifier. If you use a shield with the spiked property as an improvised weapon, the damage increases by one step (from d4 to d6, d6 to d8, or d8 to 2d4)."
 					]
 				}
 			]
@@ -40433,7 +40433,7 @@
 				"You create an illusory copy of yourself that lasts for the duration. The copy can appear at any location that you have seen before, regardless of intervening obstacles. The illusion looks and sounds like you but is intangible. If the illusion takes any damage, it disappears, and the power ends.",
 				"You can use your action to move this illusion up to twice your speed, and make it gesture, speak, and behave in whatever way you choose. It mimics your mannerisms perfectly.",
 				"You can see through its eyes and hear through its ears as if you were in its space. On your turn as a bonus action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are blinded and deafened in regard to your own surroundings.",
-				"Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your force save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature."
+				"Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence ({@skill Investigation}) check against your force save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature."
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -41084,7 +41084,7 @@
 			"entries": [
 				"{@i {@b Prerequisite}: Mind Trick}",
 				"Until the power ends or you use an action to dismiss it, you can disguise yourself through use of the Force in many ways. You can appear to be shorter or taller by about a foot and change the appearance of your body and weight, but you cannot change the basic structure of your body. This effect can include your clothes, weapons, and other belongings on your person.",
-				"This effect is only visual, so any sort of physical contact will only interact with the real size and shape of you. A creature that uses its action to examine you can identify this effect with a successful Intelligence (Investigation) check against your force save DC. This power has no effect on droids or constructs."
+				"This effect is only visual, so any sort of physical contact will only interact with the real size and shape of you. A creature that uses its action to examine you can identify this effect with a successful Intelligence ({@skill Investigation}) check against your force save DC. This power has no effect on droids or constructs."
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -42541,7 +42541,7 @@
 				"This power can have additional effects depending on the terrain in the area, as determined by the GM.",
 				"{@b {@i Fissures.}} Fissures open throughout the power's area at the start of your next turn after you cast the power. A total of {@damage 1d6} such fissures open in locations chosen by the GM. Each is {@damage 1d10 * 10} feet deep, 10 feet wide, and extends from one edge of the power's area to the opposite side. A creature standing on a spot where a fissure opens must succeed on a Dexterity saving throw or fall in. A creature that successfully saves moves with the fissure's edge as it opens.",
 				"A fissure that opens beneath a structure causes it to automatically collapse (see below).",
-				"{@b {@i Structures.}} The tremor deals 50 kinetic damage to any structure in contact with the ground in the area when you cast the power and at the start of each of your turns until the power ends. If a structure drops to 0 hit points, it collapses and potentially damages nearby creatures. A creature within half the distance of a structure's height must make a Dexterity saving throw. On a failed save, the creature takes {@damage 5d6} kinetic damage, is knocked prone, and is buried in the rubble, requiring a DC 20 Strength (Athletics) check as an action to escape. The GM can adjust the DC higher or lower, depending on the nature of the rubble. On a successful save, the creature takes half as much damage and doesn't fall prone or become buried."
+				"{@b {@i Structures.}} The tremor deals 50 kinetic damage to any structure in contact with the ground in the area when you cast the power and at the start of each of your turns until the power ends. If a structure drops to 0 hit points, it collapses and potentially damages nearby creatures. A creature within half the distance of a structure's height must make a Dexterity saving throw. On a failed save, the creature takes {@damage 5d6} kinetic damage, is knocked prone, and is buried in the rubble, requiring a DC 20 Strength ({@skill Athletics}) check as an action to escape. The GM can adjust the DC higher or lower, depending on the nature of the rubble. On a successful save, the creature takes half as much damage and doesn't fall prone or become buried."
 			],
 			"damageInflict": [
 				[
@@ -42781,7 +42781,7 @@
 			"entries": [
 				"You craft a dangerous illusion in the mind of a creature that you can see within range. The target must make a Wisdom saving throw. On a failed save, you create a phantasmal object, creature, or other visible phenomenon of your choice that is no larger than a 10-foot cube and that is perceivable only to the target for the duration. This power has no effect on droids or constructs.",
 				"The hallucination includes sound, temperature, and other stimuli, also evident only to the creature.",
-				"The target can use its action to examine the hallucination with an Intelligence (Investigation) check against your force power save DC. If the check succeeds, the target realizes that the hallucination is an illusion, and the power ends.",
+				"The target can use its action to examine the hallucination with an Intelligence ({@skill Investigation}) check against your force power save DC. If the check succeeds, the target realizes that the hallucination is an illusion, and the power ends.",
 				"While a target is affected by the power, the target treats the hallucination as if it were real. The target rationalizes any illogical outcomes from interacting with the hallucination. For example, a target attempting to walk across a phantasmal bridge that spans a chasm falls once it steps onto the bridge. If the target survives the fall, it still believes that the bridge exists and comes up with some other explanation for its fall - it was pushed, it slipped, or a strong wind might have knocked it off.",
 				"An affected target is so convinced of the hallucination's reality that it can even take damage from the illusion. A hallucination created to appear as a creature can attack the target. Similarly, a hallucination created to appear as fire, a pool of acid, or lava can burn the target. Each round on your turn, the hallucination can deal {@damage 1d6} psychic damage to the target if it is in the hallucination's area or within 5 feet of the hallucination, provided that the illusion is of a creature or hazard that could logically deal damage, such as by attacking. The target perceives the damage as a type appropriate to the illusion.",
 				"{@b {@i Force Potency.}} When you cast this power using a force power slot of 3rd level or higher, the range increases by 20 feet, the image dimensions increase by 5 feet, and you can target one additional creature for every two slot levels above 2nd."
@@ -48095,7 +48095,7 @@
 			],
 			"entries": [
 				"You make terrain in a 150-foot cube in range look, sound, and smell like some other sort of terrain.",
-				"The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to see through the illusion. If the difference isn't obvious by touch, a creature carefully examining the illusion can attempt an Intelligence (Investigation) check against your tech save DC to disbelieve it. A creature who discerns the illusion for what it is, sees it as a vague image superimposed on the terrain."
+				"The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to see through the illusion. If the difference isn't obvious by touch, a creature carefully examining the illusion can attempt an Intelligence ({@skill Investigation}) check against your tech save DC to disbelieve it. A creature who discerns the illusion for what it is, sees it as a vague image superimposed on the terrain."
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -48402,7 +48402,7 @@
 				"You create an illusory copy of yourself that lasts for the duration. The copy can appear at any location within range that you have seen before, regardless of intervening obstacles. The illusion looks and sounds like you but is intangible. If the illusion takes any damage, it disappears, and the power ends.",
 				"You can use your action to move this illusion up to twice your speed, and make it gesture, speak, and behave in whatever way you choose. It mimics your mannerisms perfectly.",
 				"You can see through its eyes and hear through its ears as if you were in its space. On your turn as a bonus action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are blinded and deafened in regard to your own surroundings.",
-				"Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your tech save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature."
+				"Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence ({@skill Investigation}) check against your tech save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature."
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -49225,7 +49225,7 @@
 			],
 			"entries": [
 				"You project a length of wire towards a foe to bring them within your grasp. Make a ranged tech attack against the target. On a hit, the target takes {@damage 2d10} kinetic damage, and you can pull it up to 25 feet closer to you. If you score a critical hit, the target is also knocked prone. If the target ends this movement within 5 feet of you and is no more than one size larger than you, the target is grappled by you for the duration.",
-				"If a creature you grapple with this power uses its action to escape, it must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check against your tech save DC to do so.",
+				"If a creature you grapple with this power uses its action to escape, it must succeed on a Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check against your tech save DC to do so.",
 				"This power ends if the attack misses or the grapple ends.",
 				"{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 3rd level or higher, the damage increases by {@damage 1d10} for each slot level above 2nd."
 			],
@@ -49307,7 +49307,7 @@
 			],
 			"entries": [
 				"When you cast this power, you create a trap that will later trigger in response to a certain condition. You must attach it either to a surface (such as a table or a section of floor or wall) or within an object that can be closed or turned on (such as a book, door, or computer terminal) to conceal the trap. The trap can cover an area no larger than 10 feet in diameter. At the GM's discretion, certain actions may cause the trap to break or be rendered inoperative.",
-				"The trap is well disguised, and generally and requires a successful Intelligence (Investigation) check against your tech save DC to be found.",
+				"The trap is well disguised, and generally and requires a successful Intelligence ({@skill Investigation}) check against your tech save DC to be found.",
 				"You decide what triggers the trap when you cast the power, such as entering a certain area or powering on the object. You can further refine the trigger so the trap activates only under certain circumstances or according to physical characteristics (such as height or weight) or creature kind (for example, the trap could be set to go off only droids or gungans). You can also set conditions for creatures that don't trigger the trap, such as those who say a certain password.",
 				"You may only have one instance of this trap active at a time. If you cast another trap before the previous one is triggered, the other trap becomes inert.",
 				"When you create the trap, choose an explosive trap or a power trap:",
@@ -51478,7 +51478,7 @@
 				"You create an illusion of an object, a creature, or some other visible phenomenon within range that activates when a specific condition occurs. The illusion is imperceptible until then. It must be no larger than a 30-foot cube, and you decide when you cast the power how the illusion behaves and what sounds it makes. This scripted performance can last up to 5 minutes.",
 				"When the condition you specify occurs, the illusion springs into existence and performs in the manner you described. Once the illusion finishes performing, it disappears and remains dormant for 10 minutes. After this time, the illusion can be activated again.",
 				"The triggering condition can be as general or as detailed as you like, though it must be based on visual or audible conditions that occur within 30 feet of the area. For example, you could create an illusion of yourself to appear and warn off others who attempt to open a trapped door, or you could set the illusion to trigger only when a creature says the correct word or phrase.",
-				"Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your tech save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature."
+				"Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence ({@skill Investigation}) check against your tech save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature."
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -51716,7 +51716,7 @@
 			"entries": [
 				"You create an image that is no larger than a 15-foot cube. The image appears at a spot within range and lasts for the duration. The image is purely visual. If anything passes through it, it is revealed to be an illusion.",
 				"You can use your action to cause the image to move to any spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image.",
-				"A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your tech save DC. If a creature discerns the illusion for what it is, the creature can see through the image."
+				"A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence ({@skill Investigation}) check against your tech save DC. If a creature discerns the illusion for what it is, the creature can see through the image."
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -52331,7 +52331,7 @@
 				}
 			],
 			"entries": [
-				"You dampen sound and light and dull the scent from creatures in your vicinity. For the duration, each creature you choose within 30 feet of you has a +10 bonus to Dexterity (Stealth) checks and can't be tracked except by enhanced means while within this radius. You can choose yourself as well. A creature that receives this bonus leaves behind no traces of its passage."
+				"You dampen sound and light and dull the scent from creatures in your vicinity. For the duration, each creature you choose within 30 feet of you has a +10 bonus to Dexterity ({@skill Stealth}) checks and can't be tracked except by enhanced means while within this radius. You can choose yourself as well. A creature that receives this bonus leaves behind no traces of its passage."
 			],
 			"damageInflict": [],
 			"savingThrow": ""
