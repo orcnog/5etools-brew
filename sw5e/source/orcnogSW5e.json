@@ -21352,16 +21352,16 @@
 			],
 			"property": [
 				"2H",
-				"RLD",
-				"RNG"
+				"RLD"
 			],
 			"weapon": true,
-			"weaponCategory": "Martial",
+			"weaponCategory": "martial",
 			"firearm": true,
 			"ammoType": "energy cell",
 			"reload": 1,
 			"range": "150/600",
 			"foundryType": "weapon",
+            "dmg1": "3d8",
 			"dmgType": "P",
 			"ammunition": true
 		},
