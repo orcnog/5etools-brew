@@ -21343,49 +21343,28 @@
 			"page": 0,
 			"type": "R",
 			"rarity": "none",
-			"weight": 25,
-            "weaponCategory": "martial",
 			"age": "futuristic",
 			"value": 35000,
-            "property": [
-                "2H",
-                "RLD"
-            ],
-            "range": "150/600",
-            "reload": 1,
-            "dmg1": "3d8",
-            "dmgType": "P",
-            "firearm": true,
-            "weapon": true,
-            "ammoType": "energy cell",
-            "foundryType": "weapon",
+			"weight": 25,
 			"entries": [
 				"Rather than traditional power cells, the mortar launcher fires grenades. If you lack proficiency in the mortar launcher, you must roll the damage dice twice and take the lesser total. A mortar launcher cannot fire on targets within its short range and when firing a grenade at long range, creatures within the radius of the grenade's explosion do not have advantage on the saving throw. Additionally, when you launch a mortar at a target, you can treat the Weapon's point of origin as being 200ft in the air for the purposes of determining line of sight and cover.",
 				"The mortar launcher requires the use of a tripod, which is included in the price. Over the course of 1 minute, you can deploy or collapse the mortar launcher on the tripod. While deployed, your speed is reduced to 0."
-			]
+			],
+			"property": [
+				"2H",
+				"RLD",
+				"RNG"
+			],
+			"weapon": true,
+			"weaponCategory": "Martial",
+			"firearm": true,
+			"ammoType": "energy cell",
+			"reload": 1,
+			"range": "150/600",
+			"foundryType": "weapon",
+			"dmgType": "Unknown",
+			"ammunition": true
 		},
-        {
-            "name": "Laser Pistol",
-            "source": "orcnogSW5e",
-            "page": 268,
-            "type": "R",
-            "rarity": "none",
-            "weight": 2,
-            "weaponCategory": "martial",
-            "age": "futuristic",
-            "property": [
-                "AF",
-                "RLD"
-            ],
-            "range": "30/120",
-            "reload": 50,
-            "dmg1": "3d6",
-            "dmgType": "R",
-            "firearm": true,
-            "weapon": true,
-            "ammoType": "energy cell",
-            "entries": []
-        },
 		{
 			"name": "Multispectral Optics (Champion)",
 			"source": "orcnogSW5e",
