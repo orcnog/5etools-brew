@@ -1404,6 +1404,7 @@
 			],
 			"property": [
 				"2H",
+				"AF",
 				"BF",
 				"RLD",
 				"BST",
@@ -2074,6 +2075,7 @@
 			"weight": 8,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"FXD",
 				"POW",
@@ -2579,6 +2581,7 @@
 			"weight": 18.5,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"AUT",
 				"PEN",
@@ -2612,6 +2615,7 @@
 			"weight": 17,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"PEN",
 				"RNG",
@@ -3068,6 +3072,7 @@
 			"weight": 15,
 			"property": [
 				"2H",
+				"AF",
 				"BF",
 				"RLD",
 				"BST",
@@ -3238,6 +3243,7 @@
 			"weight": 19,
 			"property": [
 				"2H",
+				"AF",
 				"BF",
 				"RLD",
 				"AUT",
@@ -3488,6 +3494,7 @@
 			"weight": 16,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"PEN",
 				"POW",
@@ -4008,6 +4015,7 @@
 			],
 			"property": [
 				"2H",
+				"AF",
 				"BF",
 				"AUT",
 				"BST",
@@ -4037,6 +4045,7 @@
 			"weight": 5.5,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"POW"
 			],
@@ -4064,6 +4073,7 @@
 			"value": 1750,
 			"weight": 2.5,
 			"property": [
+				"AF",
 				"RLD",
 				"POW"
 			],
@@ -4092,6 +4102,7 @@
 			"weight": 7.5,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"POW"
 			],
@@ -4511,6 +4522,7 @@
 			],
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"RNG",
 				"STR",
@@ -4661,6 +4673,7 @@
 			"weight": 11,
 			"property": [
 				"2H",
+				"AF",
 				"BF",
 				"RLD",
 				"BST",
@@ -5263,6 +5276,7 @@
 			"weight": 8.5,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"AUT",
 				"POW",
@@ -5395,6 +5409,7 @@
 			"weight": 10.5,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"AUT",
 				"RNG",
@@ -6800,6 +6815,7 @@
 			],
 			"property": [
 				"2H",
+				"AF",
 				"RNG",
 				"MIG",
 				"SIL"
@@ -7737,6 +7753,7 @@
 			"weight": 12.5,
 			"property": [
 				"2H",
+				"AF",
 				"BF",
 				"RLD",
 				"AUT",
@@ -7838,6 +7855,7 @@
 			"weight": 10.5,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"POW",
 				"STR",
@@ -7870,6 +7888,7 @@
 			"weight": 6,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"POW",
 				"VSC"
@@ -7916,6 +7935,7 @@
 			"value": 7500,
 			"weight": 2,
 			"property": [
+				"AF",
 				"RLD",
 				"POW",
 				"VSC"
@@ -8079,6 +8099,7 @@
 			"weight": 7.5,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"RNG",
 				"RAP",
@@ -9705,6 +9726,7 @@
 			"weight": 8.5,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"POW",
 				"STR",
@@ -9736,6 +9758,7 @@
 			"value": 7500,
 			"weight": 4.5,
 			"property": [
+				"AF",
 				"RLD",
 				"POW",
 				"STR",
@@ -9768,6 +9791,7 @@
 			"weight": 13.5,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"POW",
 				"STR",
@@ -9800,6 +9824,7 @@
 			"weight": 15,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"POW",
 				"STR",
@@ -11014,6 +11039,7 @@
 			"weight": 4.5,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"POW",
 				"MIG"
@@ -11043,6 +11069,7 @@
 			"weight": 4,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"FXD",
 				"POW",
@@ -12907,6 +12934,7 @@
 			],
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"S",
 				"RNG",
@@ -14133,6 +14161,7 @@
 			],
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"S",
 				"RNG",
@@ -15233,6 +15262,7 @@
 			"value": 15500,
 			"weight": 10,
 			"property": [
+				"AF",
 				"RLD",
 				"POW",
 				"STR",
@@ -15268,6 +15298,7 @@
 			"value": 5000,
 			"weight": 0.5,
 			"property": [
+				"AF",
 				"L",
 				"RLD",
 				"POW",
@@ -15299,6 +15330,7 @@
 			"weight": 10.5,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"RNG",
 				"SLG",
@@ -15625,6 +15657,7 @@
 			"weight": 10,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"POW",
 				"RAP",
@@ -15657,6 +15690,7 @@
 			"weight": 15.5,
 			"property": [
 				"2H",
+				"AF",
 				"BF",
 				"RLD",
 				"BST",
@@ -15689,6 +15723,7 @@
 			"value": 7750,
 			"weight": 7.5,
 			"property": [
+				"AF",
 				"RLD",
 				"POW",
 				"RAP",
@@ -15763,6 +15798,7 @@
 			"value": 3000,
 			"weight": 4,
 			"property": [
+				"AF",
 				"RLD",
 				"POW"
 			],
@@ -15791,6 +15827,7 @@
 			"weight": 11,
 			"property": [
 				"2H",
+				"AF",
 				"BF",
 				"RLD",
 				"AUT",
@@ -15845,6 +15882,7 @@
 			"weight": 9.5,
 			"property": [
 				"2H",
+				"AF",
 				"BF",
 				"RLD",
 				"BST",
@@ -15878,6 +15916,7 @@
 			"value": 3750,
 			"weight": 3.5,
 			"property": [
+				"AF",
 				"RLD",
 				"RNG",
 				"RAP",
@@ -16021,6 +16060,7 @@
 			"value": 2250,
 			"weight": 0.5,
 			"property": [
+				"AF",
 				"L",
 				"RLD",
 				"HID",
@@ -16273,6 +16313,7 @@
 			"weight": 11,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"RNG",
 				"SLG",
@@ -16399,6 +16440,7 @@
 			"dmgType": "Unknown",
 			"ammunition": true,
 			"property": [
+				"AF",
 				"MOD"
 			]
 		},
@@ -16507,6 +16549,7 @@
 			"weight": 7.5,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"POW",
 				"STR",
@@ -16540,6 +16583,7 @@
 			"value": 12500,
 			"weight": 3.5,
 			"property": [
+				"AF",
 				"RLD",
 				"POW",
 				"STR",
@@ -16574,6 +16618,7 @@
 			"weight": 9.5,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"POW",
 				"STR",
@@ -16608,6 +16653,7 @@
 			"weight": 14.5,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"POW",
 				"STR",
@@ -17631,6 +17677,7 @@
 			"weight": 16.5,
 			"property": [
 				"2H",
+				"AF",
 				"BF",
 				"RLD",
 				"AUT",
@@ -17665,6 +17712,7 @@
 			"weight": 5,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"POW"
 			],
@@ -17692,6 +17740,7 @@
 			"value": 2500,
 			"weight": 1,
 			"property": [
+				"AF",
 				"RLD",
 				"POW"
 			],
@@ -17720,6 +17769,7 @@
 			"weight": 8,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"POW"
 			],
@@ -18389,6 +18439,7 @@
 			"value": 2500,
 			"weight": 0.5,
 			"property": [
+				"AF",
 				"L",
 				"RLD",
 				"POW"
@@ -18418,6 +18469,7 @@
 			"weight": 6,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"AUT",
 				"POW",
@@ -18465,6 +18517,7 @@
 			"value": 2500,
 			"weight": 1,
 			"property": [
+				"AF",
 				"L",
 				"RLD",
 				"RNG",
@@ -18823,6 +18876,7 @@
 			"weight": 14,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"POW",
 				"STR",
@@ -18858,6 +18912,7 @@
 			],
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"AUT",
 				"PEN",
@@ -18891,6 +18946,7 @@
 			],
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"PEN",
 				"POW",
@@ -18920,6 +18976,7 @@
 			"weight": 7,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"PEN",
 				"POW",
@@ -18951,6 +19008,7 @@
 			"value": 5500,
 			"weight": 2,
 			"property": [
+				"AF",
 				"RLD",
 				"PEN",
 				"POW"
@@ -19536,6 +19594,7 @@
 			"weight": 12,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"POW",
 				"STR"
@@ -21352,6 +21411,7 @@
 			],
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"RNG"
 			],
@@ -21677,6 +21737,7 @@
 				"The needler includes a specialized compartment for poison. One dose of poison, when installed in this compartment, retains its potency for 1 hour before drying. One dose of poison is effective for the next 10 shots fired by the weapon."
 			],
 			"property": [
+				"AF",
 				"S",
 				"RNG",
 				"SLG",
@@ -22011,6 +22072,7 @@
 			"weight": 11,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"POW",
 				"STR",
@@ -24862,6 +24924,7 @@
 			"weight": 12.5,
 			"property": [
 				"2H",
+				"AF",
 				"BF",
 				"RLD",
 				"AUT",
@@ -24898,6 +24961,7 @@
 			"weight": 14,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"S",
 				"POW",
@@ -24931,6 +24995,7 @@
 			"weight": 16,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"RNG",
 				"SLG",
@@ -26094,6 +26159,7 @@
 			"weight": 9,
 			"property": [
 				"2H",
+				"AF",
 				"BF",
 				"RLD",
 				"AUT",
@@ -26638,6 +26704,7 @@
 			"value": 6250,
 			"weight": 6.5,
 			"property": [
+				"AF",
 				"RLD",
 				"RNG",
 				"RAP",
@@ -26987,6 +27054,7 @@
 			],
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"S",
 				"RNG",
@@ -27017,6 +27085,7 @@
 			],
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"RNG",
 				"STR"
@@ -27423,6 +27492,7 @@
 			"weight": 12.5,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"AUT",
 				"POW",
@@ -27636,6 +27706,7 @@
 			"weight": 9.5,
 			"property": [
 				"2H",
+				"AF",
 				"BF",
 				"RLD",
 				"BST",
@@ -27668,6 +27739,7 @@
 			"value": 6250,
 			"weight": 2,
 			"property": [
+				"AF",
 				"BF",
 				"RLD",
 				"BST",
@@ -27881,6 +27953,7 @@
 			],
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"RNG",
 				"STR",
@@ -27959,6 +28032,7 @@
 			"weight": 14,
 			"property": [
 				"2H",
+				"AF",
 				"BF",
 				"RLD",
 				"AUT",
@@ -27995,6 +28069,7 @@
 			"weight": 9.5,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"RNG",
 				"SLG",
@@ -28026,6 +28101,7 @@
 			"value": 3750,
 			"weight": 2,
 			"property": [
+				"AF",
 				"L",
 				"RLD",
 				"RNG",
@@ -28497,6 +28573,7 @@
 			],
 			"property": [
 				"2H",
+				"AF",
 				"RNG",
 				"MIG",
 				"SIL"
@@ -28522,6 +28599,7 @@
 			"weight": 6.5,
 			"property": [
 				"2H",
+				"AF",
 				"BF",
 				"RLD",
 				"BST",
@@ -28601,6 +28679,7 @@
 				"Mounted by the shoulder slot, a shoulder blaster does not require a free hand to use. Additionally, you have advantage on Strength ability checks and saving throws to avoid being disarmed of this weapon."
 			],
 			"property": [
+				"AF",
 				"RLD",
 				"S",
 				"POW",
@@ -28632,6 +28711,7 @@
 				"Mounted by the shoulder slot, a shoulder cannon does not require a free hand to use. Additionally, you have advantage on Strength ability checks and saving throws to avoid being disarmed of this weapon."
 			],
 			"property": [
+				"AF",
 				"BF",
 				"RLD",
 				"S",
@@ -29140,6 +29220,7 @@
 			"value": 3250,
 			"weight": 3,
 			"property": [
+				"AF",
 				"RLD",
 				"RNG",
 				"RAP",
@@ -29173,6 +29254,7 @@
 			"weight": 7.5,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"RNG",
 				"SLG"
@@ -29202,6 +29284,7 @@
 			"weight": 13.5,
 			"property": [
 				"2H",
+				"AF",
 				"BF",
 				"RLD",
 				"AUT",
@@ -29311,6 +29394,7 @@
 			"value": 10750,
 			"weight": 4,
 			"property": [
+				"AF",
 				"RLD",
 				"RNG",
 				"RAP",
@@ -29497,6 +29581,7 @@
 			"weight": 13.5,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"POW",
 				"STR"
@@ -29527,6 +29612,7 @@
 			"weight": 16.5,
 			"property": [
 				"2H",
+				"AF",
 				"BF",
 				"RLD",
 				"AUT",
@@ -29562,6 +29648,7 @@
 			"weight": 9,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"POW",
 				"STR",
@@ -29592,6 +29679,7 @@
 			"value": 6750,
 			"weight": 7,
 			"property": [
+				"AF",
 				"RLD",
 				"POW",
 				"STR",
@@ -29622,6 +29710,7 @@
 			"value": 3750,
 			"weight": 2,
 			"property": [
+				"AF",
 				"RLD",
 				"POW",
 				"DSR"
@@ -30109,6 +30198,7 @@
 			"weight": 6,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"POW",
 				"SIL"
@@ -30720,6 +30810,7 @@
 			"value": 6250,
 			"weight": 4,
 			"property": [
+				"AF",
 				"L",
 				"RLD",
 				"AUT",
@@ -31015,6 +31106,7 @@
 			"weight": 12.5,
 			"property": [
 				"2H",
+				"AF",
 				"BF",
 				"RLD",
 				"BST",
@@ -31049,6 +31141,7 @@
 			"weight": 9.5,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"POW",
 				"SWI"
@@ -31078,6 +31171,7 @@
 			"weight": 15.5,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"POW",
 				"STR",
@@ -31109,6 +31203,7 @@
 			"weight": 7.5,
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"POW",
 				"SWI"
@@ -31137,6 +31232,7 @@
 			"value": 6750,
 			"weight": 4.5,
 			"property": [
+				"AF",
 				"RLD",
 				"POW",
 				"SWI"
@@ -32044,6 +32140,7 @@
 			],
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"RNG"
 			],
@@ -32261,6 +32358,7 @@
 				"The tranquilizer rifle includes a specialized compartment for poison. One dose of poison, when installed in this compartment, retains its potency for 1 hour before drying. One dose of poison is effective for the next 4 shots fired by the weapon. Additionally, creatures reduced to 0 hit points by this weapon are immediately stabilized, unless that damage would instantly kill them."
 			],
 			"property": [
+				"AF",
 				"RLD",
 				"S",
 				"RNG",
@@ -32656,6 +32754,7 @@
 			],
 			"property": [
 				"2H",
+				"AF",
 				"RLD",
 				"S",
 				"RNG",
@@ -35117,6 +35216,7 @@
 				"Rather than traditional power cells, the wrist launcher fires specialized projectiles in the form of darts, small missiles, or specialized canisters."
 			],
 			"property": [
+				"AF",
 				"RLD",
 				"S",
 				"FXD",
@@ -35205,6 +35305,7 @@
 			"value": 2000,
 			"weight": 0.5,
 			"property": [
+				"AF",
 				"L",
 				"RLD",
 				"DSG",
@@ -35387,6 +35488,7 @@
 			"value": 2500,
 			"weight": 4.5,
 			"property": [
+				"AF",
 				"RLD",
 				"POW"
 			],
@@ -35709,12 +35811,12 @@
 				{
 					"type": "list",
 					"items": [
-                        "{@b 1st Hit:} If the target fails its saving throw, it gains 1 slowed level until the end of its next turn.",
-                        "{@b 2nd Hit:} If the target fails its saving throw, it takes {@damage 1d6} kinetic damage and cannot take reactions until after the end of its next turn.",
-                        "{@b 3rd Hit:} If the target fails its saving throw, it takes {@damage 2d6} kinetic damage and cannot take bonus actions during its next turn."
-                    ]
+						"{@b 1st Hit:} If the target fails its saving throw, it gains 1 slowed level until the end of its next turn.",
+						"{@b 2nd Hit:} If the target fails its saving throw, it takes {@damage 1d6} kinetic damage and cannot take reactions until after the end of its next turn.",
+						"{@b 3rd Hit:} If the target fails its saving throw, it takes {@damage 2d6} kinetic damage and cannot take bonus actions during its next turn."
+					]
 				},
-                "{@b {@i Force Potency.}} When you cast this power using a force slot of 3rd level or higher, the damage of the second and third hit each increase by {@damage 1d6} for every two slot levels above 1st."
+				"{@b {@i Force Potency.}} When you cast this power using a force slot of 3rd level or higher, the damage of the second and third hit each increase by {@damage 1d6} for every two slot levels above 1st."
 			],
 			"damageInflict": [
 				[
@@ -36760,15 +36862,15 @@
 				{
 					"type": "list",
 					"items": [
-                        "{@b {@i Strength.}} The target has advantage on Strength checks, and his or her carrying capacity doubles.",
-                        "{@b {@i Dexterity.}} The target has advantage on Dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't incapacitated.",
-                        "{@b {@i Endurance.}} The target has advantage on Constitution checks. It also gains {@damage 2d6} temporary hit points, which are lost when the power ends.",
-                        "{@b {@i Cunning.}} The target has advantage on Intelligence checks.",
-                        "{@b {@i Wisdom.}} The target has advantage on Wisdom checks.",
-                        "{@b {@i Splendor.}} The target has advantage on Charisma checks."
-                    ]
+						"{@b {@i Strength.}} The target has advantage on Strength checks, and his or her carrying capacity doubles.",
+						"{@b {@i Dexterity.}} The target has advantage on Dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't incapacitated.",
+						"{@b {@i Endurance.}} The target has advantage on Constitution checks. It also gains {@damage 2d6} temporary hit points, which are lost when the power ends.",
+						"{@b {@i Cunning.}} The target has advantage on Intelligence checks.",
+						"{@b {@i Wisdom.}} The target has advantage on Wisdom checks.",
+						"{@b {@i Splendor.}} The target has advantage on Charisma checks."
+					]
 				},
-                "This power has no effect on droids or constructs.",
+				"This power has no effect on droids or constructs.",
 				"{@b {@i Force Potency.}} When you cast this power using a force slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
 			],
 			"damageInflict": [
@@ -37313,19 +37415,19 @@
 			],
 			"entries": [
 				"You sublimate yourself before the will of the Force, attempting to use it to affect change in the galaxy around you.",
-                "The basic use of this power is to duplicate any other light side or universal force power of 8th level or lower. You don't need to meet any requirements in that power; it simply takes effect. Alternatively, you can create one of the following effects of your choice:",
+				"The basic use of this power is to duplicate any other light side or universal force power of 8th level or lower. You don't need to meet any requirements in that power; it simply takes effect. Alternatively, you can create one of the following effects of your choice:",
 				{
 					"type": "list",
 					"items": [
-                        "You summon one object to you of up to 250,000 cr in value that isn't an enhanced item. The object can be no more than 300 feet in any dimension, and it appears in an unoccupied space you can see on the ground.",
-                        "You allow up to twenty creatures that you can see to regain all hit points, and you end all effects on them described in the {@i improved restoration} power.",
-                        "You grant up to ten creatures that you can see resistance to a damage type you choose.",
-                        "You grant up to ten creatures you can see immunity to a single power or other specific enhanced effect for 8 hours. For instance, you could make yourself and all your companions immune to the Manifestation of Abeloth's Will ability.",
-                        "You undo a single recent event by forcing a reroll of any roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, {@i will of the force} could undo an opponent's successful save, a foe's critical hit, or a friend's failed save. You can force the reroll to be made with advantage or disadvantage, and you can choose whether to use the reroll or the original roll."
-                    ]
+						"You summon one object to you of up to 250,000 cr in value that isn't an enhanced item. The object can be no more than 300 feet in any dimension, and it appears in an unoccupied space you can see on the ground.",
+						"You allow up to twenty creatures that you can see to regain all hit points, and you end all effects on them described in the {@i improved restoration} power.",
+						"You grant up to ten creatures that you can see resistance to a damage type you choose.",
+						"You grant up to ten creatures you can see immunity to a single power or other specific enhanced effect for 8 hours. For instance, you could make yourself and all your companions immune to the Manifestation of Abeloth's Will ability.",
+						"You undo a single recent event by forcing a reroll of any roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, {@i will of the force} could undo an opponent's successful save, a foe's critical hit, or a friend's failed save. You can force the reroll to be made with advantage or disadvantage, and you can choose whether to use the reroll or the original roll."
+					]
 				},
 				"You might be able to achieve something beyond the scope of the above examples. State your wish to the DM as precisely as possible. The DM has great latitude in ruling what occurs in such an instance; the greater the wish, the greater the likelihood that something goes wrong. This power might simply fail, the effect you desire might only be partly achieved, or you might suffer some unforeseen consequence as a result of how you worded the wish. For example, wishing that a villain were dead might propel you forward in time to a period when that villain is no longer alive, effectively removing you from the game. Similarly, wishing for a legendary enhanced item or artifact might instantly transport you to the presence of the item's current owner.",
-                "The stress of casting this power to produce any effect other than duplicating another power weakens you. After enduring that stress, each time you cast a power until you finish a long rest, you take {@damage 1d10} necrotic damage per level of that power, which can't be reduced or prevented in any way. Additionally, your Strength drops to 3, if it isn't 3 or lower already, for {@damage 2d4} days. For each of those days that you spend resting and doing nothing more than light activity, your remaining recovery time decreases by 2 days. Additionally, there is a 33 percent chance that you are unable to cast {@i will of the force} ever again if you suffer this stress. Finally, if you are reduced to 0 hit points as a result of this necrotic damage, or at any point before you have fully recovered from the Strength reduction, you immediately die and cannot be resurrected as your body fades away, absorbed into the living Force."
+				"The stress of casting this power to produce any effect other than duplicating another power weakens you. After enduring that stress, each time you cast a power until you finish a long rest, you take {@damage 1d10} necrotic damage per level of that power, which can't be reduced or prevented in any way. Additionally, your Strength drops to 3, if it isn't 3 or lower already, for {@damage 2d4} days. For each of those days that you spend resting and doing nothing more than light activity, your remaining recovery time decreases by 2 days. Additionally, there is a 33 percent chance that you are unable to cast {@i will of the force} ever again if you suffer this stress. Finally, if you are reduced to 0 hit points as a result of this necrotic damage, or at any point before you have fully recovered from the Strength reduction, you immediately die and cannot be resurrected as your body fades away, absorbed into the living Force."
 			],
 			"damageInflict": [
 				[
@@ -37526,17 +37628,17 @@
 				{
 					"type": "list",
 					"items": [
-                        "Your speed increases by 5 feet. ",
-                        "You have resistance to falling damage. ",
-                        "You ignore difficult terrain. ",
-                        "You have a climb speed equal to your walking speed. ",
-                        "You add 10 feet to your long jump distance and 3 feet to your high jump distance. ",
-                        "You can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. ",
-                        "You do not sink when moving over soft or brittle terrain, such as dust, silt, mud, snow, or thin ice. This effect does not allow you to move across liquid surfaces.",
-                        "If you move at least 20 feet straight toward a creature and then hit it with a melee weapon attack for the first time on the same turn, you deal an extra {@damage 1d4} damage with that attack."
-                    ]
+						"Your speed increases by 5 feet. ",
+						"You have resistance to falling damage. ",
+						"You ignore difficult terrain. ",
+						"You have a climb speed equal to your walking speed. ",
+						"You add 10 feet to your long jump distance and 3 feet to your high jump distance. ",
+						"You can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. ",
+						"You do not sink when moving over soft or brittle terrain, such as dust, silt, mud, snow, or thin ice. This effect does not allow you to move across liquid surfaces.",
+						"If you move at least 20 feet straight toward a creature and then hit it with a melee weapon attack for the first time on the same turn, you deal an extra {@damage 1d4} damage with that attack."
+					]
 				},
-                "At the end of the turn, the benefits fade entirely until you spend another speed point. If these benefits end while you are still on a vertical surface, or anywhere else where you would normally fall or sink, you immediately fall or begin to sink unless you have some other means to remain there.",
+				"At the end of the turn, the benefits fade entirely until you spend another speed point. If these benefits end while you are still on a vertical surface, or anywhere else where you would normally fall or sink, you immediately fall or begin to sink unless you have some other means to remain there.",
 				"This power ends when its duration expires, when you cast this power again, or when you have spent all your speed points. When the power ends, any unspent speed points are lost.",
 				"{@b {@i Force Potency.}} When you cast this power using a force slot of 2nd level or higher, the extra damage increases by {@damage 1d4} for each slot level above 1st. In addition, if you cast this power with a force slot of 3rd level or higher, you gain one additional speed point for every two slot levels above 1st."
 			],
@@ -39775,11 +39877,11 @@
 				{
 					"type": "list",
 					"items": [
-                        "You ignore the effects of any levels of exhaustion you have. ",
-                        "You do not need to eat, drink, or sleep. You can't be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading and keeping watch."
-                    ]
+						"You ignore the effects of any levels of exhaustion you have. ",
+						"You do not need to eat, drink, or sleep. You can't be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading and keeping watch."
+					]
 				},
-                "If you still have any levels of exhaustion when this power ends, you must make a DC 15 Constitution saving throw. On a failed save, you gain one additional level of exhaustion."
+				"If you still have any levels of exhaustion when this power ends, you must make a DC 15 Constitution saving throw. On a failed save, you gain one additional level of exhaustion."
 			],
 			"damageInflict": [],
 			"savingThrow": "constitution"
@@ -40550,11 +40652,11 @@
 				{
 					"type": "list",
 					"items": [
-                        "One effect that charmed the target.",
-                        "One curse, including the target's attunement to a cursed item.",
-                        "Any reduction to one of the target's ability scores.",
-                        "One effect reducing the target's hit point maximum."
-                    ]
+						"One effect that charmed the target.",
+						"One curse, including the target's attunement to a cursed item.",
+						"Any reduction to one of the target's ability scores.",
+						"One effect reducing the target's hit point maximum."
+					]
 				}
 			],
 			"damageInflict": [],
@@ -40635,9 +40737,9 @@
 				{
 					"type": "list",
 					"items": [
-                        "Living things glow with the power of the Force. Those with an affinity for the light side glow blue, those with an affinity for the dark side glow red, and those with no attunement to either side of the Force glow yellow. How bright they glow is determined by how strong their connection to the Force is.",
-                        "You gain blindsight to 30 feet.",
-                        "You have advantage on Wisdom ({@skill Perception}) checks that rely on sight against living targets within 30 feet."
+						"Living things glow with the power of the Force. Those with an affinity for the light side glow blue, those with an affinity for the dark side glow red, and those with no attunement to either side of the Force glow yellow. How bright they glow is determined by how strong their connection to the Force is.",
+						"You gain blindsight to 30 feet.",
+						"You have advantage on Wisdom ({@skill Perception}) checks that rely on sight against living targets within 30 feet."
 					]
 				}
 			],
@@ -41555,15 +41657,15 @@
 				{
 					"type": "list",
 					"items": [
-                        "You gain 50 temporary hit points. If any of these remain when the power ends, they are lost.",
-                        "You have advantage on attack rolls that you make with lightweapons and vibroweapons.",
-                        "When you hit a target with a weapon attack, that target takes an extra {@damage 2d12} force damage.",
-                        "You have proficiency with all armor, lightweapons, and vibroweapons.",
-                        "You have proficiency in Strength and Constitution saving throws.",
-                        "You can attack twice, instead of once, when you take the Attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks."
-                    ]
+						"You gain 50 temporary hit points. If any of these remain when the power ends, they are lost.",
+						"You have advantage on attack rolls that you make with lightweapons and vibroweapons.",
+						"When you hit a target with a weapon attack, that target takes an extra {@damage 2d12} force damage.",
+						"You have proficiency with all armor, lightweapons, and vibroweapons.",
+						"You have proficiency in Strength and Constitution saving throws.",
+						"You can attack twice, instead of once, when you take the Attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks."
+					]
 				},
-                "Immediately after the power ends, you must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion."
+				"Immediately after the power ends, you must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion."
 			],
 			"damageInflict": [
 				[
@@ -41775,13 +41877,13 @@
 				{
 					"type": "list",
 					"items": [
-                        "Choose one ability score. While cursed, the target has disadvantage on ability checks and saving throws made with that ability score.",
-                        "While cursed, the target has disadvantage on attack rolls against you.",
-                        "While cursed, the target must make a Wisdom saving throw at the start of each of its turns. lf it fails, it wastes its action that turn doing nothing.",
-                        "While the target is cursed, your attacks and powers deal an extra {@damage 1d8} necrotic damage to the target."
-                    ]
+						"Choose one ability score. While cursed, the target has disadvantage on ability checks and saving throws made with that ability score.",
+						"While cursed, the target has disadvantage on attack rolls against you.",
+						"While cursed, the target must make a Wisdom saving throw at the start of each of its turns. lf it fails, it wastes its action that turn doing nothing.",
+						"While the target is cursed, your attacks and powers deal an extra {@damage 1d8} necrotic damage to the target."
+					]
 				},
-                "A remove curse power ends this effect. At the GM's discretion, you may choose an alternative curse effect, but it should be no more powerful than those described above. The GM has final say on such a curse's effect. This power has no effect on droids or constructs."
+				"A remove curse power ends this effect. At the GM's discretion, you may choose an alternative curse effect, but it should be no more powerful than those described above. The GM has final say on such a curse's effect. This power has no effect on droids or constructs."
 			],
 			"damageInflict": [
 				[
@@ -42061,16 +42163,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Force Barrier}",
-                "This power further bolsters your allies with toughness and resolve. Choose up to twelve creatures within range. Each target gains the following benefits:",
+				"This power further bolsters your allies with toughness and resolve. Choose up to twelve creatures within range. Each target gains the following benefits:",
 				{
 					"type": "list",
 					"items": [
-                        "The becomes immune to poison and disease. Any currently existing poison or diseases still exist.",
-                        "The creature becomes immune to being frightened by powers.",
-                        "The creature's hit point maximum and current hit points increase by {@damage 2d10} for the duration."
-                    ]
+						"The becomes immune to poison and disease. Any currently existing poison or diseases still exist.",
+						"The creature becomes immune to being frightened by powers.",
+						"The creature's hit point maximum and current hit points increase by {@damage 2d10} for the duration."
+					]
 				},
-                "These benefits last for 24 hours or until the end of your next long rest, whichever happens first."
+				"These benefits last for 24 hours or until the end of your next long rest, whichever happens first."
 			],
 			"damageInflict": [
 				[
@@ -42582,12 +42684,12 @@
 				{
 					"type": "list",
 					"items": [
-                        "{@b Peace}, for results which are not dangerous",
-                        "{@b Danger}, for results which are dangerous but perhaps still worth the danger",
-                        "{@b Ruin}, for results which are certain to end in death or tragedy"
-                    ]
+						"{@b Peace}, for results which are not dangerous",
+						"{@b Danger}, for results which are dangerous but perhaps still worth the danger",
+						"{@b Ruin}, for results which are certain to end in death or tragedy"
+					]
 				},
-                "The power doesn't take into account any possible circumstances that might change the outcome, such as the use of additional powers or the loss or gain of a companion.",
+				"The power doesn't take into account any possible circumstances that might change the outcome, such as the use of additional powers or the loss or gain of a companion.",
 				"If you use this power two or more times before completing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a neutral result regardless of the actual outcome."
 			],
 			"damageInflict": [],
@@ -44318,17 +44420,17 @@
 			"entries": [
 				"You use the Force to produce an effect within range. You create one of the following special effects within range:",
 				{
-                    "type": "list",
+					"type": "list",
 					"items": [
-                        "Your voice booms up to three times as loud as normal, and you can alter its tone, for 1 minute.",
-                        "You cause harmless tremors in the ground for 1 minute.",
-                        "You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a bird, or ominous whispers.",
-                        "You gain the ability to speak like another species for 1 minute, allowing you to speak in a language you know but otherwise lack the physical ability to speak, such as a Wookiee speaking Basic.",
-                        "You create an instantaneous, harmless sensory effect, such as falling leaves, a puff of wind, a billowing of someone's clothes, or a flickering of unenhanced light fixtures within range."
-                    ]
+						"Your voice booms up to three times as loud as normal, and you can alter its tone, for 1 minute.",
+						"You cause harmless tremors in the ground for 1 minute.",
+						"You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a bird, or ominous whispers.",
+						"You gain the ability to speak like another species for 1 minute, allowing you to speak in a language you know but otherwise lack the physical ability to speak, such as a Wookiee speaking Basic.",
+						"You create an instantaneous, harmless sensory effect, such as falling leaves, a puff of wind, a billowing of someone's clothes, or a flickering of unenhanced light fixtures within range."
+					]
 				},
 				"A wary creature can use its action to make an Intelligence ({@skill Investigation}) check against your force save DC, discerning that the effects are illusory on a success.",
-                "If you cast this power multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action."
+				"If you cast this power multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action."
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -44371,11 +44473,11 @@
 				{
 					"type": "list",
 					"items": [
-                        "The creature sheds dim light in a 5-foot radius.",
-                        "The creature has advantage on all saving throws",
-                        "Other creatures have disadvantage on attack rolls against them.",
-                        "When a dark side creature hits them with a melee attack, that creature must make a Constitution saving throw or be blinded until the power ends."
-                    ]
+						"The creature sheds dim light in a 5-foot radius.",
+						"The creature has advantage on all saving throws",
+						"Other creatures have disadvantage on attack rolls against them.",
+						"When a dark side creature hits them with a melee attack, that creature must make a Constitution saving throw or be blinded until the power ends."
+					]
 				}
 			],
 			"damageInflict": [],
@@ -44702,7 +44804,7 @@
 			"entries": [
 				"{@i {@b Prerequisite}: Instinctive Movement}",
 				"By letting the Force flow through you, you move with preternatural grace, leaping onto or over tall obstacles that impede others. Until the power ends, you gain the following benefits:",
-                "You create a strong magnetic field around you in a 10-foot radius which moves with you, remaining centered on you. The field lasts for the power's duration."
+				"You create a strong magnetic field around you in a 10-foot radius which moves with you, remaining centered on you. The field lasts for the power's duration."
 			],
 			"damageInflict": [
 				[
@@ -44750,11 +44852,11 @@
 				{
 					"type": "list",
 					"items": [
-                        "You can suppress any effect causing a target to be charmed or frightened. When this power ends, any suppressed effect resumes, provided that its duration has not expired in the meantime.",
-                        "You can make a target indifferent about creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a power or if it witnesses any of its friends being harmed."
-                    ]
+						"You can suppress any effect causing a target to be charmed or frightened. When this power ends, any suppressed effect resumes, provided that its duration has not expired in the meantime.",
+						"You can make a target indifferent about creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a power or if it witnesses any of its friends being harmed."
+					]
 				},
-                "When the power ends, the creature becomes hostile again, unless the GM rules otherwise."
+				"When the power ends, the creature becomes hostile again, unless the GM rules otherwise."
 			],
 			"damageInflict": [],
 			"savingThrow": "charisma"
@@ -45368,12 +45470,12 @@
 				{
 					"type": "list",
 					"items": [
-                        "Physical or energy projectiles.",
-                        "A specific effect, such as a thermal detonator's explosion.",
-                        "An environmental danger, such as falling rocks or a lava flow."
-                    ]
+						"Physical or energy projectiles.",
+						"A specific effect, such as a thermal detonator's explosion.",
+						"An environmental danger, such as falling rocks or a lava flow."
+					]
 				},
-                "{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 8th level or higher, the maximum radius increases by 10 feet for each slot level above 7th. In addition, the barrier blocks powers of one level higher for each slot level above 7th."
+				"{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 8th level or higher, the maximum radius increases by 10 feet for each slot level above 7th. In addition, the barrier blocks powers of one level higher for each slot level above 7th."
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -46511,14 +46613,14 @@
 				{
 					"type": "list",
 					"items": [
-                        "60 hit points or fewer: poisoned for 1 minute",
-                        "50 hit points or fewer: poisoned and deafened for 1 minute",
-                        "40 hit points or fewer: poisoned, deafened, and blinded for 10 minutes",
-                        "30 hit points or fewer: poisoned, blinded, deafened, and stunned for 1 hour",
-                        "20 hit points or fewer: killed instantly"
-                    ]
+						"60 hit points or fewer: poisoned for 1 minute",
+						"50 hit points or fewer: poisoned and deafened for 1 minute",
+						"40 hit points or fewer: poisoned, deafened, and blinded for 10 minutes",
+						"30 hit points or fewer: poisoned, blinded, deafened, and stunned for 1 hour",
+						"20 hit points or fewer: killed instantly"
+					]
 				},
-                "This power has no effect on droids or constructs."
+				"This power has no effect on droids or constructs."
 			],
 			"damageInflict": [],
 			"savingThrow": "constitution"
@@ -47035,13 +47137,13 @@
 				{
 					"type": "list",
 					"items": [
-                        "Choose one ability score. While cursed, the target has disadvantage on ability checks and saving throws made with that ability score.",
-                        "While cursed, the target has disadvantage on attack rolls against you.",
-                        "While cursed, the target must make an Intelligence saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing.",
-                        "While the target is cursed, your attacks and powers deal an extra {@damage 1d8} lightning damage to the target."
-                    ]
+						"Choose one ability score. While cursed, the target has disadvantage on ability checks and saving throws made with that ability score.",
+						"While cursed, the target has disadvantage on attack rolls against you.",
+						"While cursed, the target must make an Intelligence saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing.",
+						"While the target is cursed, your attacks and powers deal an extra {@damage 1d8} lightning damage to the target."
+					]
 				},
-                "A {@i remove virus} power ends this effect. At the GM's discretion, you may choose an alternative curse effect, but it should be no more powerful than those described above. The GM has final say on such a curse's effect.",
+				"A {@i remove virus} power ends this effect. At the GM's discretion, you may choose an alternative curse effect, but it should be no more powerful than those described above. The GM has final say on such a curse's effect.",
 				"{@b Overcharge Tech.} If you cast this power using a tech slot of 4th level or higher, the duration is concentration, up to 10 minutes. If you use a tech slot of 5th level or higher, the duration is 8 hours. If you use a tech slot of 7th level or higher, the duration is 24 hours. If you use a 9th-level tech slot, the power lasts until it is dispelled. Using a tech slot of 5th level or higher grants a duration that doesn't require concentration."
 			],
 			"damageInflict": [
@@ -47171,18 +47273,18 @@
 				{
 					"type": "list",
 					"items": [
-                        "Your body becomes more flexible. You have advantage on ability checks and saving throws against effects that would grapple or restrain you, and your movement is unaffected by difficult terrain or squeezing.",
-                        "You grow one additional appendage. This appendage serves as an arm and a hand, though it can take the shape of a limb, tentacle, or similar appendage. You can select this property twice to grow a maximum number of two appendages. You can only gain the benefit of items held by two of your arms at any given time, and once per round you can switch which arms you are benefiting from (no action required).",
-                        "You sprout antennae that give you tremorsense out to a range of 30 feet.",
-                        "You extend the length of your limbs. When you make a melee attack or attempt to grapple, shove, or trip a creature on your turn, your reach for it is 5 feet greater than normal.",
-                        "You gain a burrowing speed equal to your walking speed.",
-                        "Your flesh hardens. Your AC can't be less than 16, regardless of what kind of armor you're wearing.",
-                        "You can gain the benefits of any one option of the {@i alter self} power. You can select this property multiple times to gain the benefits of multiple options of the {@i alter self} power, choosing a different option each time.",
-                        "You gain the effect of the {@i magnetic hold} power, but you can affix to and move along any surface, instead of only metallic surfaces. You have a climbing speed equal to your walking speed.",
-                        "You can gain any one effect of the {@i force enlightenment} power."
-                    ]
+						"Your body becomes more flexible. You have advantage on ability checks and saving throws against effects that would grapple or restrain you, and your movement is unaffected by difficult terrain or squeezing.",
+						"You grow one additional appendage. This appendage serves as an arm and a hand, though it can take the shape of a limb, tentacle, or similar appendage. You can select this property twice to grow a maximum number of two appendages. You can only gain the benefit of items held by two of your arms at any given time, and once per round you can switch which arms you are benefiting from (no action required).",
+						"You sprout antennae that give you tremorsense out to a range of 30 feet.",
+						"You extend the length of your limbs. When you make a melee attack or attempt to grapple, shove, or trip a creature on your turn, your reach for it is 5 feet greater than normal.",
+						"You gain a burrowing speed equal to your walking speed.",
+						"Your flesh hardens. Your AC can't be less than 16, regardless of what kind of armor you're wearing.",
+						"You can gain the benefits of any one option of the {@i alter self} power. You can select this property multiple times to gain the benefits of multiple options of the {@i alter self} power, choosing a different option each time.",
+						"You gain the effect of the {@i magnetic hold} power, but you can affix to and move along any surface, instead of only metallic surfaces. You have a climbing speed equal to your walking speed.",
+						"You can gain any one effect of the {@i force enlightenment} power."
+					]
 				},
-                "{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 4th level or higher, you can select an additional property for each slot level above 3rd."
+				"{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 4th level or higher, you can select an additional property for each slot level above 3rd."
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -47805,15 +47907,15 @@
 				{
 					"type": "list",
 					"items": [
-                        "You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor. ",
-                        "You instantaneously light or snuff out a source of light. ",
-                        "You instantaneously clean or soil an object no larger than 1 cubic foot. ",
-                        "You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour. ",
-                        "You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour. ",
-                        "You create a trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn."
+						"You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor. ",
+						"You instantaneously light or snuff out a source of light. ",
+						"You instantaneously clean or soil an object no larger than 1 cubic foot. ",
+						"You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour. ",
+						"You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour. ",
+						"You create a trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn."
 					]
 				},
-                "If you use this power multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action."
+				"If you use this power multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action."
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -48688,21 +48790,21 @@
 				{
 					"type": "list",
 					"items": [
-                        "{@b {@i Corridors.}} Fog fills all the secured corridors, making them heavily obscured. In addition, at each intersection or branching passage offering a choice of direction, there is a 50 percent chance that a creature other than you will believe it is going in the opposite direction from the one it chooses.",
-                        "{@b {@i Doors.}} All doors in the secured area are locked, as if sealed by the {@i lock} power. In addition, you can cover up to ten doors with an image (equivalent to the illusory object function of the {@i minor hologram} power) to make them appear as plain sections of wall.",
-                        "{@b {@i Stairs.}} Electromesh fills all stairs in the secured area from top to bottom, as the {@i electromesh} power. This mesh regrows in 10 minutes if it is burned or torn away while {@i security protocols} lasts."
+						"{@b {@i Corridors.}} Fog fills all the secured corridors, making them heavily obscured. In addition, at each intersection or branching passage offering a choice of direction, there is a 50 percent chance that a creature other than you will believe it is going in the opposite direction from the one it chooses.",
+						"{@b {@i Doors.}} All doors in the secured area are locked, as if sealed by the {@i lock} power. In addition, you can cover up to ten doors with an image (equivalent to the illusory object function of the {@i minor hologram} power) to make them appear as plain sections of wall.",
+						"{@b {@i Stairs.}} Electromesh fills all stairs in the secured area from top to bottom, as the {@i electromesh} power. This mesh regrows in 10 minutes if it is burned or torn away while {@i security protocols} lasts."
 					]
 				},
 				"{@b {@i Other power effect.}} You can place your choice of one of the following enhanced effects within the secured area of the stronghold.",
 				{
 					"type": "list",
 					"items": [
-                        "Place {@i mobile lights} in four corridors. You can designate a simple program that the lights repeat as long as {@i security protocols} lasts.",
-                        "Place {@i implant message} in two locations.",
-                        "Place {@i debilitating gas} in two locations. The vapors appear in the places you designate; they return within 10 minutes if dispersed by wind while {@i security protocols} lasts."
+						"Place {@i mobile lights} in four corridors. You can designate a simple program that the lights repeat as long as {@i security protocols} lasts.",
+						"Place {@i implant message} in two locations.",
+						"Place {@i debilitating gas} in two locations. The vapors appear in the places you designate; they return within 10 minutes if dispersed by wind while {@i security protocols} lasts."
 					]
 				},
-                "The whole secured area radiates power. A {@i dimish tech} cast on a specific effect, if successful, removes only that effect.",
+				"The whole secured area radiates power. A {@i dimish tech} cast on a specific effect, if successful, removes only that effect.",
 				"You can create a permanently guarded and secured structure by casting this power there every day for one year."
 			],
 			"damageInflict": [],
@@ -50104,9 +50206,9 @@
 				{
 					"type": "list",
 					"items": [
-                        "The area is difficult terrain for creatures other than you.",
-                        "The attack rolls of ranged weapon attacks which deal kinetic, energy, or ion damage have disadvantage if the attacks pass in or out of the field.",
-                        "Communications equipment cannot communicate into or out of the field."
+						"The area is difficult terrain for creatures other than you.",
+						"The attack rolls of ranged weapon attacks which deal kinetic, energy, or ion damage have disadvantage if the attacks pass in or out of the field.",
+						"Communications equipment cannot communicate into or out of the field."
 					]
 				}
 			],
@@ -50867,15 +50969,15 @@
 				{
 					"type": "list",
 					"items": [
-                        "{@b {@i Servomotor.}} The target has advantage on Strength checks, and its carrying capacity doubles. ",
-                        "{@b {@i Motivator.}} The target has advantage on Dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't incapacitated. ",
-                        "{@b {@i Power Core.}} The target has advantage on Constitution checks. It also gains {@damage 2d6} temporary hit points, which are lost when the power ends. ",
-                        "{@b {@i Databanks.}} The target has advantage on Intelligence checks. ",
-                        "{@b {@i Sensors.}} The target has advantage on Wisdom checks. ",
-                        "{@b {@i Relations Protocols.}} The target has advantage on Charisma checks."
+						"{@b {@i Servomotor.}} The target has advantage on Strength checks, and its carrying capacity doubles. ",
+						"{@b {@i Motivator.}} The target has advantage on Dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't incapacitated. ",
+						"{@b {@i Power Core.}} The target has advantage on Constitution checks. It also gains {@damage 2d6} temporary hit points, which are lost when the power ends. ",
+						"{@b {@i Databanks.}} The target has advantage on Intelligence checks. ",
+						"{@b {@i Sensors.}} The target has advantage on Wisdom checks. ",
+						"{@b {@i Relations Protocols.}} The target has advantage on Charisma checks."
 					]
 				},
-                "{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 3rd level or higher, you can target one additional droid or construct for each slot level above 2nd."
+				"{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 3rd level or higher, you can target one additional droid or construct for each slot level above 2nd."
 			],
 			"damageInflict": [
 				[
