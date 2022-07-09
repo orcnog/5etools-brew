@@ -21362,7 +21362,7 @@
 			"reload": 1,
 			"range": "150/600",
 			"foundryType": "weapon",
-			"dmgType": "Unknown",
+			"dmgType": "P",
 			"ammunition": true
 		},
 		{
