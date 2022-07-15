@@ -6,7 +6,7 @@
 				"abbreviation": "PHB",
 				"full": "SW5e: Player's Handbook",
 				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/source/sw5e.json",
-				"color": "#ee0000",
+				"color": "#aa0000",
 				"authors": [],
 				"convertedBy": [
 					"orcnog"
@@ -17,7 +17,7 @@
 				"abbreviation": "SnV",
 				"full": "SW5e: Scum and Villainy",
 				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/source/sw5e.json",
-				"color": "#dd0000",
+				"color": "#00aa00",
 				"authors": [],
 				"convertedBy": [
 					"orcnog"
@@ -28,7 +28,7 @@
 				"abbreviation": "SotG",
 				"full": "SW5e: Starships of the Galaxy",
 				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/source/sw5e.json",
-				"color": "#cc0000",
+				"color": "#5577ee",
 				"authors": [],
 				"convertedBy": [
 					"orcnog"
@@ -39,7 +39,7 @@
 				"abbreviation": "WH",
 				"full": "SW5e: Wretched Hives",
 				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/source/sw5e.json",
-				"color": "#bb0000",
+				"color": "#bb8833",
 				"authors": [],
 				"convertedBy": [
 					"orcnog"
@@ -50,7 +50,7 @@
 				"abbreviation": "VR",
 				"full": "SW5e: Variant Rules",
 				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/source/sw5e.json",
-				"color": "#aa0000",
+				"color": "#8811cc",
 				"authors": [],
 				"convertedBy": [
 					"orcnog"
@@ -61,7 +61,7 @@
 				"abbreviation": "EC",
 				"full": "SW5e: Expanded Content",
 				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/source/sw5e.json",
-				"color": "#990000",
+				"color": "#00aabb",
 				"authors": [],
 				"convertedBy": [
 					"orcnog"
