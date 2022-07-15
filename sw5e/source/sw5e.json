@@ -3,7 +3,7 @@
 		"sources": [
 			{
 				"json": "sw5ephb",
-				"abbreviation": "SW5ePHB",
+				"abbreviation": "PHB",
 				"full": "SW5e: Player's Handbook",
 				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/source/sw5e.json",
 				"color": "#ee0000",
@@ -13,9 +13,20 @@
 				]
 			},
 			{
-				"json": "sw5ewh",
-				"abbreviation": "SW5eWH",
-				"full": "SW5e: A Wretched Hive",
+				"json": "sw5esnv",
+				"abbreviation": "SnV",
+				"full": "SW5e: Scum and Villainy",
+				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/source/sw5e.json",
+				"color": "#dd0000",
+				"authors": [],
+				"convertedBy": [
+					"orcnog"
+				]
+			},
+			{
+				"json": "sw5esotg",
+				"abbreviation": "SotG",
+				"full": "SW5e: Starships of the Galaxy",
 				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/source/sw5e.json",
 				"color": "#cc0000",
 				"authors": [],
@@ -24,11 +35,33 @@
 				]
 			},
 			{
-				"json": "sw5eec",
-				"abbreviation": "SW5eEC",
-				"full": "SW5e: Extended Content",
+				"json": "sw5ewh",
+				"abbreviation": "WH",
+				"full": "SW5e: Wretched Hives",
+				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/source/sw5e.json",
+				"color": "#bb0000",
+				"authors": [],
+				"convertedBy": [
+					"orcnog"
+				]
+			},
+			{
+				"json": "sw5evr",
+				"abbreviation": "VR",
+				"full": "SW5e: Variant Rules",
 				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/source/sw5e.json",
 				"color": "#aa0000",
+				"authors": [],
+				"convertedBy": [
+					"orcnog"
+				]
+			},
+			{
+				"json": "sw5eec",
+				"abbreviation": "EC",
+				"full": "SW5e: Expanded Content",
+				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/source/sw5e.json",
+				"color": "#990000",
 				"authors": [],
 				"convertedBy": [
 					"orcnog"
