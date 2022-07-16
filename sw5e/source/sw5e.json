@@ -17,7 +17,7 @@
 				"abbreviation": "SnV",
 				"full": "SW5e: Scum and Villainy",
 				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/source/sw5e.json",
-				"color": "#00aa00",
+				"color": "#11aa11",
 				"authors": [],
 				"convertedBy": [
 					"orcnog"
@@ -68,12 +68,8 @@
 				]
 			}
 		],
-		"dateAdded": 1613648837,
-		"dateLastModified": 1613648837,
-		"_dateLastModifiedHash": "e5f748a123",
-		"internalCopies": [
-			"monster"
-		],
+		"dateAdded": 1657936771,
+		"dateLastModified": 1657936771,
 		"skills": {
 			"Piloting": [
 				"Your Intelligence (Piloting) check measures your ability to control vehicles, aircraft, and spaceships. Piloting governs your ability to maneuver through tight spaces and debris fields or dogfight with enemy craft.",
@@ -307,19 +303,19 @@
 			]
 		},
 		"spellSchools": {
-			"FPL": {
-				"full": "Force Power (Light)",
+			"LT": {
+				"full": "Light",
 				"short": "Lght.",
 				"color": "2c90dd"
 			},
-			"FPD": {
-				"full": "Force Power (Dark)",
+			"DK": {
+				"full": "Dark",
 				"short": "Drk.",
 				"color": "#940000"
 			},
-			"FPU": {
-				"full": "Force Power (Universal)",
-				"short": "Uni.",
+			"UV": {
+				"full": "Universal",
+				"short": "Univ.",
 				"color": "d29a38"
 			},
 			"TP": {
@@ -1097,7 +1093,7 @@
 					"type": "entries",
 					"name": "Charging",
 					"entries": [
-						"When you take damage while wearing armor or wielding a shield with the charging property, you gain a charge. You can store a maximum number of charges equal to the charging number, and the charges last for 1 minute. The next time you hit with a melee weapon attack while you have charges, you deal additional damage of the same type as the weapon’s damage equal to the number of charges stored, and the charges are expended."
+						"When you take damage while wearing armor or wielding a shield with the charging property, you gain a charge. You can store a maximum number of charges equal to the charging number, and the charges last for 1 minute. The next time you hit with a melee weapon attack while you have charges, you deal additional damage of the same type as the weapon's damage equal to the number of charges stored, and the charges are expended."
 					]
 				}
 			],
@@ -1154,7 +1150,7 @@
 					"type": "entries",
 					"name": "Imbalanced",
 					"entries": [
-						"When you are critically hit while wielding a shield with the imbalanced property, you can’t take reactions until the start of your next turn, and you gain no AC benefit from your shield against the next attack against you before the start of your next turn."
+						"When you are critically hit while wielding a shield with the imbalanced property, you can't take reactions until the start of your next turn, and you gain no AC benefit from your shield against the next attack against you before the start of your next turn."
 					]
 				}
 			]
@@ -1211,7 +1207,7 @@
 					"type": "entries",
 					"name": "Lambent",
 					"entries": [
-						"While wielding a shield with the lambent property, you can use a bonus action to activate or deactivate the shield’s light. While active, the shield sheds bright light in a 5-foot radius and dim light for an additional 5 feet. Additionally, Dexterity ({@skill Stealth}) checks made while the shield’s light is active that rely on sight have disadvantage."
+						"While wielding a shield with the lambent property, you can use a bonus action to activate or deactivate the shield's light. While active, the shield sheds bright light in a 5-foot radius and dim light for an additional 5 feet. Additionally, Dexterity ({@skill Stealth}) checks made while the shield's light is active that rely on sight have disadvantage."
 					]
 				}
 			]
@@ -1239,7 +1235,7 @@
 					"type": "entries",
 					"name": "Magnetic",
 					"entries": [
-						"While you are wielding a shield with the magnetic property and a melee weapon attack misses you by an amount less than or equal to your bonus to AC from your shield, the attacking creature must make a Strength check, DC equal to the magnetic number. On a failed save, the creature’s weapon adheres to the shield. As an action, a creature can repeat this check. On a success, the weapon is freed."
+						"While you are wielding a shield with the magnetic property and a melee weapon attack misses you by an amount less than or equal to your bonus to AC from your shield, the attacking creature must make a Strength check, DC equal to the magnetic number. On a failed save, the creature's weapon adheres to the shield. As an action, a creature can repeat this check. On a success, the weapon is freed."
 					]
 				}
 			]
@@ -30956,7 +30952,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 9,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -30991,7 +30987,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -31031,7 +31027,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 0,
@@ -31063,12 +31059,20 @@
 				{
 					"type": "list",
 					"items": [
-						"{@b 1st Hit:} If the target fails its saving throw, it gains 1 slowed level until the end of its next turn.",
+						"{@b 1st Hit:} If the target fails its saving throw, it gains 1 {@condition slowed} level until the end of its next turn.",
 						"{@b 2nd Hit:} If the target fails its saving throw, it takes {@damage 1d6} kinetic damage and cannot take reactions until after the end of its next turn.",
 						"{@b 3rd Hit:} If the target fails its saving throw, it takes {@damage 2d6} kinetic damage and cannot take bonus actions during its next turn."
 					]
-				},
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 3rd level or higher, the damage of the second and third hit each increase by {@damage 1d6} for every two slot levels above 1st."
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 3rd level or higher, the damage of the second and third hit each increase by {@damage 1d6} for every two slot levels above 1st."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -31082,7 +31086,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 6,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -31112,8 +31116,16 @@
 			"entries": [
 				"{@i {@b Prerequisite}: Telekinetic Storm}",
 				"A beam of Force energy flashes out from your hand in a 5-foot-wide, 60-foot-long line. Each creature in the line must make a Constitution saving throw. On a failed save, a creature takes {@damage 8d6} force damage and is knocked prone. On a successful save, it takes half as much damage and isn't knocked prone.",
-				"You can create a new telekinetic gust as your action on your turn until the power ends.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 7th level or higher, the damage increases by {@damage 2d6} for each slot level above 6th."
+				"You can create a new telekinetic gust as your action on your turn until the power ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 7th level or higher, the damage increases by {@damage 2d6} for each slot level above 6th."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -31127,7 +31139,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -31157,8 +31169,16 @@
 			"entries": [
 				"{@i {@b Prerequisite}: Force Whisper}",
 				"You establish a telepathic link with one willing creature you touch. Until the power ends, whenever you and the target can see each other, each of you can communicate with the other via telepathy.",
-				"You don't need to share a language with a creature for it to understand your telepathic utterances, and the creature understands you even if it lacks a language. The creature can respond to you telepathically as well, but it must understand at least one language in order to communicate this way. This power has no effect on droids or constructs.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 3rd level or higher, the duration increases to concentration, up to 1 hour, and if either you or the creature you are linked to are surprised while the other isn't, and both of you can see each other, the surprised creature can still act normally on its first turn in combat, as if it were not surprised."
+				"You don't need to share a language with a creature for it to understand your telepathic utterances, and the creature understands you even if it lacks a language. The creature can respond to you telepathically as well, but it must understand at least one language in order to communicate this way. This power has no effect on droids or constructs."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 3rd level or higher, the duration increases to concentration, up to 1 hour, and if either you or the creature you are linked to are surprised while the other isn't, and both of you can see each other, the surprised creature can still act normally on its first turn in combat, as if it were not surprised."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -31168,7 +31188,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 6,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -31195,8 +31215,16 @@
 				"{@i {@b Prerequisite}: Convulsion}",
 				"You cause up to six pillars of stone to burst from places on the ground that you can see within range. Each pillar is a cylinder that has a diameter of 5 feet and a height of up to 30 feet. The ground where a pillar appears must be wide enough for its diameter, and you can target the ground under a creature if that creature is Medium or smaller. Each pillar has AC 5 and 30 hit points. When reduced to 0 hit points, a pillar crumbles into rubble, which creates an area of difficult terrain with a 10 - foot radius that lasts until the rubble is cleared. Each 5-foot-diameter portion of the area requires at least 1 minute to clear by hand.",
 				"If a pillar is created under a creature, that creature must succeed on a Dexterity saving throw or be lifted by the pillar. A creature can choose to fail the save.",
-				"If a pillar is prevented from reaching its full height because of a ceiling or other obstacle, a creature on the pillar takes {@damage 6d6} kinetic damage and is restrained, pinched between the pillar and the obstacle. The restrained creature can use an action to make a Strength or Dexterity check (the creature's choice) against the power's save DC. On a success, the creature is no longer restrained and must either move off the pillar or fall off it.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 7th level or higher, you can create two additional pillars for each slot level above 6th."
+				"If a pillar is prevented from reaching its full height because of a ceiling or other obstacle, a creature on the pillar takes {@damage 6d6} kinetic damage and is restrained, pinched between the pillar and the obstacle. The restrained creature can use an action to make a Strength or Dexterity check (the creature's choice) against the power's save DC. On a success, the creature is no longer restrained and must either move off the pillar or fall off it."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 7th level or higher, you can create two additional pillars for each slot level above 6th."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -31210,7 +31238,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -31243,7 +31271,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 4,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -31271,8 +31299,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Saber Strike}",
-				"You assume a battle stance. Until the end of your turn, your movement does not provoke opportunity attacks. Additionally, whenever you move, you can make one melee weapon attack against each creature you move within 5 feet of for the first time this turn. On a hit, the attack deals an extra {@damage 1d6} damage of the weapon's type, and the target must make a Strength saving throw. On a failed save, you can choose to either knock the target prone, or push it 5 feet away from you.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 5th level or higher, the bonus weapon damage increases by {@damage 1d6} for each slot level above 4th."
+				"You assume a battle stance. Until the end of your turn, your movement does not provoke opportunity attacks. Additionally, whenever you move, you can make one melee weapon attack against each creature you move within 5 feet of for the first time this turn. On a hit, the attack deals an extra {@damage 1d6} damage of the weapon's type, and the target must make a Strength saving throw. On a failed save, you can choose to either knock the target prone, or push it 5 feet away from you."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 5th level or higher, the bonus weapon damage increases by {@damage 1d6} for each slot level above 4th."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": "strength"
@@ -31282,7 +31318,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -31315,7 +31351,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -31348,7 +31384,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 4,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -31380,8 +31416,16 @@
 				"{@i {@b Prerequisite}: Improved Pyrokinesis}",
 				"You create a wall of Force-enhanced fire on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration.",
 				"When the wall appears, each creature within its area must make a Dexterity saving throw. On a failed save, a creature takes {@damage 5d8} energy damage, or half as much damage on a successful save.",
-				"One side of the wall, selected by you when you cast this power, deals {@damage 5d8} energy damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 5th level or higher, the damage increases by {@damage 1d8} for each slot level above 4th."
+				"One side of the wall, selected by you when you cast this power, deals {@damage 5d8} energy damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 5th level or higher, the damage increases by {@damage 1d8} for each slot level above 4th."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -31395,7 +31439,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 6,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -31425,8 +31469,16 @@
 			"entries": [
 				"{@i {@b Prerequisite}: Force Immunity}",
 				"An immobile, faintly shimmering barrier springs into existence in a 15-foot radius around you and remains for the duration. The barrier moves with you.",
-				"Any force power of 5th level or lower cast from outside the barrier can't affect creatures or objects within it, even if the power is cast using a higher level force slot. Such a power can target creatures and objects within the barrier, but the power has no effect on them. Similarly, the area within the barrier is excluded from the areas affected by such powers.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 7th level or higher, the barrier blocks powers of one level higher for each slot level above 6th."
+				"Any force power of 5th level or lower cast from outside the barrier can't affect creatures or objects within it, even if the power is cast using a higher level force slot. Such a power can target creatures and objects within the barrier, but the power has no effect on them. Similarly, the area within the barrier is excluded from the areas affected by such powers."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 7th level or higher, the barrier blocks powers of one level higher for each slot level above 6th."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -31436,7 +31488,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -31474,7 +31526,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -31515,7 +31567,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -31555,7 +31607,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 7,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -31586,8 +31638,16 @@
 			"entries": [
 				"{@i {@b Prerequisite}: Knight Speed}",
 				"Choose up to two willing creatures that you can see within range. Until the power ends, each targets' speed is doubled, they gain a +2 bonus to AC, they have advantage on Dexterity saving throws, and they gain an additional action on each of their turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or the Use an Object Action.",
-				"When the power ends, each target can't move or take actions until after its next turn, as a wave of lethargy sweeps over it.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 8th-level or higher, you can target one additional creature for each slot level above 7th."
+				"When the power ends, each target can't move or take actions until after its next turn, as a wave of lethargy sweeps over it."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 8th-level or higher, you can target one additional creature for each slot level above 7th."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -31597,7 +31657,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 5,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -31625,8 +31685,16 @@
 				"As a part of the action used to cast this power, you must make a ranged force attack with a lightweapon or vibroweapon against one target within the power's range, otherwise the power fails. On a hit, the target takes {@damage 6d8} damage of the same type as the weapon's damage and must make a Constitution saving throw against an additional effect depending on your choice of casting ability:",
 				"{@b {@i Wisdom.}} The target takes an additional {@damage 4d6} force damage and it gains four levels of slowed until the end of its next turn. On a success, the target takes half as much damage and its speed isn't reduced.",
 				"{@b {@i Charisma.}} The target takes an additional {@damage 4d6} necrotic damage and cannot regain hit points until the end of its next turn. On a success, the target takes half as much damage and its healing capability is unaffected.",
-				"The weapon then immediately returns to your hand.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 6th level or higher, the force or necrotic damage increases by {@damage 1d6} for each slot above 5th."
+				"The weapon then immediately returns to your hand."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 6th level or higher, the force or necrotic damage increases by {@damage 1d6} for each slot above 5th."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -31646,7 +31714,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -31685,7 +31753,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -31722,7 +31790,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -31752,8 +31820,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Denounce}",
-				"Up to three creatures of your choice that you can see within range must make Charisma saving throws. The first time each turn a target that fails this saving throw makes an attack roll or a saving throw before the power ends, the target must roll a {@damage d4} and subtract the number rolled from the attack roll or saving throw.",
-				"{@b {@i Force Potency.}} When you cast this power with a force slot of 3rd level or higher, you can target one additional creature for every two slot levels above 1st. When you cast this power at 3rd, 6th, or 9th level, the die increases to {@damage d6}, {@damage d8}, and {@damage d10}, respectively."
+				"Up to three creatures of your choice that you can see within range must make Charisma saving throws. The first time each turn a target that fails this saving throw makes an attack roll or a saving throw before the power ends, the target must roll a {@damage d4} and subtract the number rolled from the attack roll or saving throw."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power with a force slot of 3rd level or higher, you can target one additional creature for every two slot levels above 1st. When you cast this power at 3rd, 6th, or 9th level, the die increases to {@damage d6}, {@damage d8}, and {@damage d10}, respectively."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -31763,7 +31839,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -31788,8 +31864,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Tremor}",
-				"Choose a point you can see on the ground within range. A fountain of churned earth and stone erupts in a 20-foot cube centered on that point. Each creature in that area must make a Dexterity saving throw. A creature takes {@damage 3d12} kinetic damage on a failed save, or half as much damage on a successful one. Additionally, the ground in that area becomes difficult terrain until cleared. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 4th level or higher, the damage increases by {@damage 1d12} for each slot level above 3rd."
+				"Choose a point you can see on the ground within range. A fountain of churned earth and stone erupts in a 20-foot cube centered on that point. Each creature in that area must make a Dexterity saving throw. A creature takes {@damage 3d12} kinetic damage on a failed save, or half as much damage on a successful one. Additionally, the ground in that area becomes difficult terrain until cleared. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 4th level or higher, the damage increases by {@damage 1d12} for each slot level above 3rd."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -31803,7 +31887,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 5,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -31842,7 +31926,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -31870,8 +31954,16 @@
 				}
 			],
 			"entries": [
-				"For the duration, you sense the use of the Force, or its presence in an inanimate object within 30 feet of you. If you sense the Force in this way, you can use your action to determine the direction from which it originates and, if it's in line of sight, you see a faint aura around the person or object from which the Force emanates.",
-				"{@b {@i Force Potency.}} When you cast this power using a 3rd-level force slot, the range increases to 60 feet. When you use a 5th-level force slot, the range increases to 500 feet. When you use a 7th-level force slot, the range increases to 1 mile. When you use a 9th-level force slot, the range increases to 10 miles."
+				"For the duration, you sense the use of the Force, or its presence in an inanimate object within 30 feet of you. If you sense the Force in this way, you can use your action to determine the direction from which it originates and, if it's in line of sight, you see a faint aura around the person or object from which the Force emanates."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a 3rd-level force slot, the range increases to 60 feet. When you use a 5th-level force slot, the range increases to 500 feet. When you use a 7th-level force slot, the range increases to 1 mile. When you use a 9th-level force slot, the range increases to 10 miles."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -31881,7 +31973,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 4,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -31921,7 +32013,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 6,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -31952,8 +32044,16 @@
 				"{@i {@b Prerequisite}: Coerce Mind}",
 				"You suggest a course of activity (limited to a sentence or two) and influence with the Force up to twelve creatures of your choice that you can see within range and that can hear and understand you. Creatures that can't be charmed are immune to this effect. The suggestion must be worded in such a manner as to make the course of action sound reasonable. Asking the creature to harm itself automatically negates the effect of the power.",
 				"Each target must make a Wisdom saving throw. On a failed save, it pursues the course of action you described to the best of its ability. The suggested course of action can continue for the entire duration. If the suggested activity can be completed in a shorter time, the power ends when the subject finishes what it was asked to do.",
-				"You can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a group of soldiers give all their money to the first beggar they meet. If the condition isn't met before the power ends, the activity isn't performed. If you or any of your companions damage a creature affected by this power, the power ends for that creature. This power has no effect on droids or constructs.",
-				"{@b {@i Force Potency.}} When you cast this power using a 7th-level force slot, the duration is 10 days. When you use an 8th-level force slot, the duration is 30 days. When you use a 9th-level force slot, the duration is a year and a day."
+				"You can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a group of soldiers give all their money to the first beggar they meet. If the condition isn't met before the power ends, the activity isn't performed. If you or any of your companions damage a creature affected by this power, the power ends for that creature. This power has no effect on droids or constructs."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a 7th-level force slot, the duration is 10 days. When you use an 8th-level force slot, the duration is 30 days. When you use a 9th-level force slot, the duration is a year and a day."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": "wisdom"
@@ -31963,7 +32063,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -31988,8 +32088,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Force Push/Pull}",
-				"You use the Force to move a Large or smaller creature or object not being worn or carried within range. The target must make a Strength saving throw. An object automatically fails this saving throw. On a failed save, the creature or object moves a number of feet in a direction of your choice based on its size. A Tiny creature or object can be moved up to 90 feet, a Small creature or object can be moved up to 60 feet, a Medium creature or object can be moved up to 30 feet, and a Large creature or object can be moved up to 10 feet. If at the end of this movement the creature or object strikes another creature or object, they both take {@damage 2d8} force damage.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 3rd level or higher, the range you can throw a creature or object increases by 10 feet, to a maximum of 90 feet, and the power's damage increases by {@damage 1d8}."
+				"You use the Force to move a Large or smaller creature or object not being worn or carried within range. The target must make a Strength saving throw. An object automatically fails this saving throw. On a failed save, the creature or object moves a number of feet in a direction of your choice based on its size. A Tiny creature or object can be moved up to 90 feet, a Small creature or object can be moved up to 60 feet, a Medium creature or object can be moved up to 30 feet, and a Large creature or object can be moved up to 10 feet. If at the end of this movement the creature or object strikes another creature or object, they both take {@damage 2d8} force damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 3rd level or higher, the range you can throw a creature or object increases by 10 feet, to a maximum of 90 feet, and the power's damage increases by {@damage 1d8}."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -32003,7 +32111,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 5,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -32033,8 +32141,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Stun}",
-				"Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the power ends on the target. This power has no effect on droids or constructs.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 6th level or higher, you can target an additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them."
+				"Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the power ends on the target. This power has no effect on droids or constructs."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 6th level or higher, you can target an additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": "wisdom"
@@ -32044,7 +32160,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -32081,7 +32197,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -32123,7 +32239,15 @@
 					]
 				},
 				"This power has no effect on droids or constructs.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -32137,7 +32261,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -32175,7 +32299,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 4,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -32200,8 +32324,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Drain Vitality}",
-				"You draw the life force from a creature you can see within range. The target must make a Constitution saving throw. The target takes {@damage 8d8} necrotic damage on a failed save, or half as much damage on a successful one. If you reduce a hostile creature to 0, you gain temporary hit points equal to half the damage dealt. This power has no effect on droids or constructs.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 5th level or higher, the damage increases by {@damage 1d8} for each slot level above 4th."
+				"You draw the life force from a creature you can see within range. The target must make a Constitution saving throw. The target takes {@damage 8d8} necrotic damage on a failed save, or half as much damage on a successful one. If you reduce a hostile creature to 0, you gain temporary hit points equal to half the damage dealt. This power has no effect on droids or constructs."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 5th level or higher, the damage increases by {@damage 1d8} for each slot level above 4th."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -32215,7 +32347,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 5,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -32256,7 +32388,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -32280,8 +32412,16 @@
 			],
 			"entries": [
 				"You release an omnidirectional telekinetic burst. Each creature within 20 feet must make a Dexterity saving throw. On a failed save, a creature takes {@damage 8d6} force damage and is pushed back 5 feet. On a successful save, a creature takes half damage and isn't pushed.",
-				"All small objects that are not worn or carried are also pushed 5 feet back.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 4th level or higher, the damage increases by {@damage 1d6} for each slot level above 3rd."
+				"All small objects that are not worn or carried are also pushed 5 feet back."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 4th level or higher, the damage increases by {@damage 1d6} for each slot level above 3rd."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -32295,7 +32435,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -32319,8 +32459,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Saber Assault}",
-				"As part of the action used to cast the power, you can move up to your speed and make one melee weapon attack. On a hit, the attack deals an extra {@damage 1d10} damage of the weapon's type. In addition, if you hit with the attack, the target must succeed on a Strength saving throw or be knocked prone.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 4th level or higher, the bonus weapon damage increases by {@damage 1d10} for every two slot levels above 2nd."
+				"As part of the action used to cast the power, you can move up to your speed and make one melee weapon attack. On a hit, the attack deals an extra {@damage 1d10} damage of the weapon's type. In addition, if you hit with the attack, the target must succeed on a Strength saving throw or be knocked prone."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 4th level or higher, the bonus weapon damage increases by {@damage 1d10} for every two slot levels above 2nd."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": "strength"
@@ -32330,7 +32478,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 7,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -32354,8 +32502,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Force Chain Lightning}",
-				"Lightning arcs from your hands. Each creature in a 60-foot cone must make a Dexterity saving throw. A creatures takes {@damage 12d6} lightning damage on a failed save, or half as much on a successful one.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 8th level or higher, the damage increases by {@damage 2d6} for each slot level above 7th."
+				"Lightning arcs from your hands. Each creature in a 60-foot cone must make a Dexterity saving throw. A creatures takes {@damage 12d6} lightning damage on a failed save, or half as much on a successful one."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 8th level or higher, the damage increases by {@damage 2d6} for each slot level above 7th."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -32369,7 +32525,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -32409,7 +32565,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -32448,7 +32604,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 4,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -32486,7 +32642,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 5,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -32525,7 +32681,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -32564,7 +32720,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -32593,8 +32749,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Force Imbuement}",
-				"You touch an unenhanced weapon with which you are proficient. While you wield it for the duration, that weapon becomes an enhanced weapon with a +1 bonus to attack rolls and damage rolls. Additionally, you can use your forcecasting modifier instead of your Strength or Dexterity modifier for attacks and damage rolls when attacking with that weapon.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 5th level or higher, the bonus increases to +2. When you use a force slot of 7th level or higher, the bonus increases to +3."
+				"You touch an unenhanced weapon with which you are proficient. While you wield it for the duration, that weapon becomes an enhanced weapon with a +1 bonus to attack rolls and damage rolls. Additionally, you can use your forcecasting modifier instead of your Strength or Dexterity modifier for attacks and damage rolls when attacking with that weapon."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 5th level or higher, the bonus increases to +2. When you use a force slot of 7th level or higher, the bonus increases to +3."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -32604,7 +32768,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 8,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -32643,7 +32807,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 9,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -32693,7 +32857,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 6,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -32719,8 +32883,16 @@
 			"entries": [
 				"{@i {@b Prerequisite}: Force Lightning}",
 				"You create a bolt of lightning that arcs toward a target of your choice that you can see within range. Three bolts then leap from that target to as many as three other targets, each of which must be within 30 feet of the first target. A target can be a creature or an object and can be targeted by only one of the bolts.",
-				"A target must make a Dexterity saving throw. The target takes {@damage 10d8} lightning damage on a failed save, or half as much damage on a successful one.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 7th level or higher, one additional bolt leaps from the first target to another target for each slot level above 6th."
+				"A target must make a Dexterity saving throw. The target takes {@damage 10d8} lightning damage on a failed save, or half as much damage on a successful one."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 7th level or higher, one additional bolt leaps from the first target to another target for each slot level above 6th."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -32734,7 +32906,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -32763,8 +32935,16 @@
 			],
 			"entries": [
 				"You receive a vision of the future through the Force, giving you or one willing creature you can see within range a chance to change fate. When the chosen creature makes an ability check, an attack roll, or a saving throw before the power ends, it can dismiss this power on itself to roll an additional {@damage d20} and choose which of the d20s to use. Alternatively, when an attack roll is made against the chosen creature, it can dismiss this power on itself to roll a {@damage d20} and choose which of the d20s to use, the one it rolled or the one the attacker rolled.",
-				"If the original {@damage d20} roll has advantage or disadvantage, the creature rolls the additional {@damage d20} after advantage or disadvantage has been applied to the original roll.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+				"If the original {@damage d20} roll has advantage or disadvantage, the creature rolls the additional {@damage d20} after advantage or disadvantage has been applied to the original roll."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -32774,7 +32954,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -32809,7 +32989,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -32848,7 +33028,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -32891,8 +33071,16 @@
 					]
 				},
 				"At the end of the turn, the benefits fade entirely until you spend another speed point. If these benefits end while you are still on a vertical surface, or anywhere else where you would normally fall or sink, you immediately fall or begin to sink unless you have some other means to remain there.",
-				"This power ends when its duration expires, when you cast this power again, or when you have spent all your speed points. When the power ends, any unspent speed points are lost.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 2nd level or higher, the extra damage increases by {@damage 1d4} for each slot level above 1st. In addition, if you cast this power with a force slot of 3rd level or higher, you gain one additional speed point for every two slot levels above 1st."
+				"This power ends when its duration expires, when you cast this power again, or when you have spent all your speed points. When the power ends, any unspent speed points are lost."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 2nd level or higher, the extra damage increases by {@damage 1d4} for each slot level above 1st. In addition, if you cast this power with a force slot of 3rd level or higher, you gain one additional speed point for every two slot levels above 1st."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -32902,7 +33090,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -32942,7 +33130,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -32972,8 +33160,16 @@
 			"entries": [
 				"{@i {@b Prerequisite}: Turbulence}",
 				"You stir the Force around you, creating a turbulent field of telekinetic energy that buffets enemies around you. The field extends out to a distance of 15 feet around you for the duration.",
-				"When you cast this power, you can designate any number of creatures you can see to be unaffected by it. An affected creature gains 1 slowed level while in the area, and when the creature enters the area for the first time on a turn or starts its turn there, it must make a Constitution saving throw. On a failed save, the creature takes {@damage 3d8} force damage. On a successful save, the creature takes half as much damage.",
-				"{@b {@i Force Potency.}} When you cast this power using a force power slot of 4th level or higher, the damage increases by {@damage 1d8} for each slot level above 3rd."
+				"When you cast this power, you can designate any number of creatures you can see to be unaffected by it. An affected creature gains 1 slowed level while in the area, and when the creature enters the area for the first time on a turn or starts its turn there, it must make a Constitution saving throw. On a failed save, the creature takes {@damage 3d8} force damage. On a successful save, the creature takes half as much damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force power slot of 4th level or higher, the damage increases by {@damage 1d8} for each slot level above 3rd."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -32987,7 +33183,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -33028,7 +33224,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -33071,7 +33267,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -33110,7 +33306,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 7,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 10,
@@ -33147,7 +33343,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 5,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -33187,7 +33383,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -33211,8 +33407,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Force Push/Pull}",
-				"When you cast this power, you raise your hand and unleash a burst of Force energy. Each creature in a 15-foot cone must make a Strength saving throw. On a failed save, a creature takes {@damage 3d6} force damage and, if it is Large or smaller, is also pushed back 5 feet. On a successful save, a creature takes half as much damage and isn't pushed. All Medium or smaller objects that are not worn or carried within the area of effect are also pushed 5 feet.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 2nd level or higher, the damage increases by {@damage 1d6} for each slot level above 1st. For each slot 2 levels higher than 1st, you can add an additional 5 feet to the push."
+				"When you cast this power, you raise your hand and unleash a burst of Force energy. Each creature in a 15-foot cone must make a Strength saving throw. On a failed save, a creature takes {@damage 3d6} force damage and, if it is Large or smaller, is also pushed back 5 feet. On a successful save, a creature takes half as much damage and isn't pushed. All Medium or smaller objects that are not worn or carried within the area of effect are also pushed 5 feet."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 2nd level or higher, the damage increases by {@damage 1d6} for each slot level above 1st. For each slot 2 levels higher than 1st, you can add an additional 5 feet to the push."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -33226,7 +33430,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -33269,7 +33473,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -33308,7 +33512,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 6,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -33352,7 +33556,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 5,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -33392,7 +33596,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -33424,8 +33628,16 @@
 				"{@i {@b Prerequisite}: Sustained Lightning}",
 				"A 5-foot-diameter sphere of compressed lightning appears in an unoccupied space of your choice within range and lasts for the duration. Any creature that ends its turn within 5 feet of the sphere must make a Dexterity saving throw. The creature takes {@damage 2d6} lightning damage on a failed save, or half as much damage on a successful one.",
 				"As a bonus action, you can move the sphere up to 30 feet. If you ram the sphere into a creature, that creature must make a Dexterity saving throw, taking {@damage 2d6} kinetic damage on a failed save or half as much damage on a successful one, and the sphere stops moving this turn.",
-				"When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.",
-				"{@b {@i Force Potency.}} When you cast this power with a force slot of 3rd level or higher, both the lightning and kinetic damage increase by {@damage 1d6} for each slot level above 2nd."
+				"When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power with a force slot of 3rd level or higher, both the lightning and kinetic damage increase by {@damage 1d6} for each slot level above 2nd."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -33442,7 +33654,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -33487,7 +33699,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -33511,8 +33723,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Saber Reflect}",
-				"In response to being attacked, you attempt to deflect the attack with the Force. When you use this power, the damage you take from the attack is reduced by {@damage 1d10}. If you reduce the damage to 0 and the damage is energy, force, ion, kinetic, lightning, necrotic, or sonic, you can reflect the attack at a target within range as part of the same reaction. Make a ranged force attack at a target you can see. The attack has a normal range of 30 feet and a long range of 90 feet. On a hit, the target takes the triggering attack's normal damage.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 2nd level or higher, the damage reduction increases by {@damage 1d10} for each slot level above 1st."
+				"In response to being attacked, you attempt to deflect the attack with the Force. When you use this power, the damage you take from the attack is reduced by {@damage 1d10}. If you reduce the damage to 0 and the damage is energy, force, ion, kinetic, lightning, necrotic, or sonic, you can reflect the attack at a target within range as part of the same reaction. Make a ranged force attack at a target you can see. The attack has a normal range of 30 feet and a long range of 90 feet. On a hit, the target takes the triggering attack's normal damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 2nd level or higher, the damage reduction increases by {@damage 1d10} for each slot level above 1st."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -33522,7 +33742,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -33549,8 +33769,16 @@
 				}
 			],
 			"entries": [
-				"A protective force surrounds you, manifesting as shimmering light that covers you and your gear. You gain 5 temporary hit points for the duration. If a creature hits you with a melee attack while you have these hit points, the creature takes 5 psychic damage.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 2nd level or higher, both the temporary hit points and the psychic damage increase by 5 for each slot."
+				"A protective force surrounds you, manifesting as shimmering light that covers you and your gear. You gain 5 temporary hit points for the duration. If a creature hits you with a melee attack while you have these hit points, the creature takes 5 psychic damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 2nd level or higher, both the temporary hit points and the psychic damage increase by 5 for each slot."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -33567,7 +33795,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -33605,7 +33833,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -33646,7 +33874,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 4,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -33690,7 +33918,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -33728,7 +33956,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -33767,7 +33995,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 5,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -33823,8 +34051,16 @@
 						]
 					]
 				},
-				"At the end of each of its turns, an affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target.",
-				"{@b {@i Force Potency.}} When you cast this power using a power slot of 6th level or higher, the radius of the sphere increases by 5 feet for each force slot level above 5th."
+				"At the end of each of its turns, an affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a power slot of 6th level or higher, the radius of the sphere increases by 5 feet for each force slot level above 5th."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": "wisdom"
@@ -33834,7 +34070,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 8,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -33864,8 +34100,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Stasis}",
-				"Choose a point that you can see within range. Each creature within range of that point must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of a target's turns, it can make another Wisdom saving throw. On a success, the power ends on the target. This power has no effect on droids or constructs.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 9th level, the size of the cube increases to 40 feet."
+				"Choose a point that you can see within range. Each creature within range of that point must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of a target's turns, it can make another Wisdom saving throw. On a success, the power ends on the target. This power has no effect on droids or constructs."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 9th level, the size of the cube increases to 40 feet."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": "wisdom"
@@ -33875,7 +34119,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -33900,8 +34144,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Force Push/Pull}",
-				"Choose one or more creatures or objects not being worn or carried within 60 feet that weigh up to a combined total of 15 pounds. The creatures or objects immediately move 60 feet in a direction of your choice. If the creatures or objects end this movement in the air, they immediately fall to the ground. If the creatures or objects collide with any one target during its travel, both the creatures or objects and the target take {@damage 3d8} kinetic damage. If the target is a creature, it must make a Dexterity saving throw. On a failed save, it takes {@damage 3d8} kinetic damage, or half as much on a successful one.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 2nd level or higher, the maximum weight increases by 15 pounds and the damage increases by {@damage 1d8} for each slot level above 1st."
+				"Choose one or more creatures or objects not being worn or carried within 60 feet that weigh up to a combined total of 15 pounds. The creatures or objects immediately move 60 feet in a direction of your choice. If the creatures or objects end this movement in the air, they immediately fall to the ground. If the creatures or objects collide with any one target during its travel, both the creatures or objects and the target take {@damage 3d8} kinetic damage. If the target is a creature, it must make a Dexterity saving throw. On a failed save, it takes {@damage 3d8} kinetic damage, or half as much on a successful one."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 2nd level or higher, the maximum weight increases by 15 pounds and the damage increases by {@damage 1d8} for each slot level above 1st."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -33915,7 +34167,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -33953,7 +34205,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -33981,8 +34233,16 @@
 				}
 			],
 			"entries": [
-				"You make a calming gesture, and up to three willing creatures of your choice that you can see within range fall unconscious for the power's duration. The power ends on a target early if it takes damage or someone uses an action to shake or slap it awake. If a target remains unconscious for the full duration, that target gains the benefit of a short rest, and it can't be affected by this power again until it finishes a long rest. This power has no effect on droids or constructs.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 4th level or higher, you can target one additional willing creature for each slot level above 3rd."
+				"You make a calming gesture, and up to three willing creatures of your choice that you can see within range fall unconscious for the power's duration. The power ends on a target early if it takes damage or someone uses an action to shake or slap it awake. If a target remains unconscious for the full duration, that target gains the benefit of a short rest, and it can't be affected by this power again until it finishes a long rest. This power has no effect on droids or constructs."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 4th level or higher, you can target one additional willing creature for each slot level above 3rd."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -33992,7 +34252,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 8,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -34034,7 +34294,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 9,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -34068,7 +34328,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -34110,7 +34370,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -34137,7 +34397,7 @@
 				}
 			],
 			"entries": [
-				"Until the end of the turn, you have a climbing speed equal to your walking speed and you have advantage on Dexterity ({@skill Acrobatics}) and Strength ({@skill Athletics}) checks that involve movement. For the same duration, you can move up, down, and across vertical surfaces while leaving your hands free. This does not allow you to move upside down along ceilings. If you are on a vertical surface when you no longer have a climbing speed, you immediately fall unless you have some other means of remaining there."
+				"Until the end of the turn, you have a climbing speed equal to your walking speed and you have advantage on Dexterity (Acrobatics) and Strength (Athletics) checks that involve movement. For the same duration, you can move up, down, and across vertical surfaces while leaving your hands free. This does not allow you to move upside down along ceilings. If you are on a vertical surface when you no longer have a climbing speed, you immediately fall unless you have some other means of remaining there."
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -34147,7 +34407,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 9,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -34185,7 +34445,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -34219,7 +34479,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -34242,8 +34502,16 @@
 				}
 			],
 			"entries": [
-				"A creature you touch regains a number of hit points equal to {@damage 1d8} + your forcecasting ability modifier. This power has no effect on droids or constructs.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 2nd level or higher, the healing increases by {@damage 1d8} for each slot level above 1st."
+				"A creature you touch regains a number of hit points equal to {@damage 1d8} + your forcecasting ability modifier. This power has no effect on droids or constructs."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 2nd level or higher, the healing increases by {@damage 1d8} for each slot level above 1st."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -34257,7 +34525,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -34296,7 +34564,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -34327,8 +34595,16 @@
 				"{@i {@b Prerequisite}: Force Disarm}",
 				"You select a light- or vibro-weapon within this power's range that is not worn or carried by a conscious creature other than you, and use the Force to cause it to levitate, acting as an extension of your will for the duration or until you cast this power again. When you use this power, you can cause the weapon to move up to 20 feet and make a melee force attack against a creature within 5 feet of it. On a hit, the target takes {@damage 1d8} + your forcecasting ability modifier damage. The type is of the normal damage dealt by the weapon.",
 				"While the weapon is animated, on each of your turns you can use a bonus action to move the weapon up to 20 feet and repeat the attack against a creature within 5 feet of it. At any time, you can end this force power to return the animated weapon to your hand.",
-				"An enemy can attempt to gain control of the weapon by using its action to make a Strength ({@skill Athletics}) check against your force save DC. On a success, the creature gains control of the weapon and the power ends.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 3rd level or higher, the weapon's damage increases by {@damage 1d8} for every two slot levels above 2nd."
+				"An enemy can attempt to gain control of the weapon by using its action to make a Strength (Athletics) check against your force save DC. On a success, the creature gains control of the weapon and the power ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 3rd level or higher, the weapon's damage increases by {@damage 1d8} for every two slot levels above 2nd."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -34338,7 +34614,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -34366,8 +34642,16 @@
 				}
 			],
 			"entries": [
-				"A willing creature you touch is imbued with bravery. Until the power ends, the creature is immune to being frightened and gains temporary hit points equal to your forcecasting ability modifier at the start of each of its turns. When the power ends, the target loses any remaining temporary hit points from this power. This power has no effect on droids or constructs.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
+				"A willing creature you touch is imbued with bravery. Until the power ends, the creature is immune to being frightened and gains temporary hit points equal to your forcecasting ability modifier at the start of each of its turns. When the power ends, the target loses any remaining temporary hit points from this power. This power has no effect on droids or constructs."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -34377,7 +34661,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -34411,7 +34695,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -34454,7 +34738,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 8,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -34502,7 +34786,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -34544,7 +34828,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -34586,7 +34870,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -34626,7 +34910,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 5,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -34704,8 +34988,16 @@
 							"+8 to hit, {@dice 2d12+4} damage"
 						]
 					]
-				},
-				"{@b {@i Force Potency.}} If you cast this power using a force slot of 6th level or higher, you can animate two additional objects for each slot level above 5th."
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"If you cast this power using a force slot of 6th level or higher, you can animate two additional objects for each slot level above 5th."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -34715,7 +35007,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -34754,7 +35046,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -34778,8 +35070,16 @@
 				}
 			],
 			"entries": [
-				"You make a piercing gesture at a creature within range. Make a ranged force attack against the target. On a hit, the target takes {@damage 2d8} necrotic damage and must make a Constitution saving throw. On a failed save, it is also poisoned until the end of your next turn.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 2nd level or higher, the damage increases by {@damage 1d8} for each slot level above 1st."
+				"You make a piercing gesture at a creature within range. Make a ranged force attack against the target. On a hit, the target takes {@damage 2d8} necrotic damage and must make a Constitution saving throw. On a failed save, it is also poisoned until the end of your next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 2nd level or higher, the damage increases by {@damage 1d8} for each slot level above 1st."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -34793,7 +35093,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 8,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -34831,7 +35131,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -34856,8 +35156,16 @@
 			"entries": [
 				"{@i {@b Prerequisite}: Shock}",
 				"A stroke of lightning forming a line 100 feet long and 5 feet wide blasts out from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes {@damage 8d6} lightning damage on a failed save, or half as much damage on a successful one.",
-				"The lightning ignites flammable objects in the area that aren't being worn or carried.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 4th level or higher, the damage increases by {@damage 1d6} for each slot level above 3rd."
+				"The lightning ignites flammable objects in the area that aren't being worn or carried."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 4th level or higher, the damage increases by {@damage 1d6} for each slot level above 3rd."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -34871,7 +35179,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -34905,7 +35213,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -34942,7 +35250,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 5,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -34982,7 +35290,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -35016,7 +35324,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -35058,7 +35366,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -35096,7 +35404,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -35129,7 +35437,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You ignore the effects of any levels of exhaustion you have. ",
+						"You ignore the effects of any levels of exhaustion you have.",
 						"You do not need to eat, drink, or sleep. You can't be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading and keeping watch."
 					]
 				},
@@ -35143,7 +35451,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 6,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -35168,8 +35476,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Plague}",
-				"You wrack the body of a creature that you can see with a virulent, disease-like condition. The target must make a Constitution saving throw. On a failed save, it takes {@damage 14d6} necrotic damage, or half as much damage on a successful save. The damage can't reduce the target's hit points below 1. If the target fails the saving throw, its hit point maximum is reduced for 1 hour by an amount equal to the necrotic damage it took. Any effect that removes a disease allows a creature's hit point maximum to return to normal immediately.",
-				"{@b {@i Force Potency.}} If you cast this power using a force slot of 7th level or higher, the power deals an extra {@damage 2d6} damage for each slot level above 6th."
+				"You wrack the body of a creature that you can see with a virulent, disease-like condition. The target must make a Constitution saving throw. On a failed save, it takes {@damage 14d6} necrotic damage, or half as much damage on a successful save. The damage can't reduce the target's hit points below 1. If the target fails the saving throw, its hit point maximum is reduced for 1 hour by an amount equal to the necrotic damage it took. Any effect that removes a disease allows a creature's hit point maximum to return to normal immediately."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"If you cast this power using a force slot of 7th level or higher, the power deals an extra {@damage 2d6} damage for each slot level above 6th."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -35183,7 +35499,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -35209,8 +35525,16 @@
 			"entries": [
 				"{@i {@b Prerequisite}: Saber Throw}",
 				"As a part of the action used to cast this power, you must make a ranged force attack with a lightweapon or vibroweapon against one target within the power's range, otherwise the power fails.",
-				"On a hit, the target takes {@damage 2d8} damage of the same type as the weapon's damage and must make a Constitution saving throw. On a failed save, the target gains 1 slowed level until the end of its next turn and the weapon then immediately returns to your hand. The next attack made against the target that hits it before the end of the target's next turn deals an additional {@damage 1d10} force damage. On a successful save, the target takes half as much additional force damage on the next attack that hits it, and suffers no additional effect.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 3rd level or higher, the force damage increases by {@damage 1d10} for each slot level above 2nd."
+				"On a hit, the target takes {@damage 2d8} damage of the same type as the weapon's damage and must make a Constitution saving throw. On a failed save, the target gains 1 slowed level until the end of its next turn and the weapon then immediately returns to your hand. The next attack made against the target that hits it before the end of the target's next turn deals an additional {@damage 1d10} force damage. On a successful save, the target takes half as much additional force damage on the next attack that hits it, and suffers no additional effect."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 3rd level or higher, the force damage increases by {@damage 1d10} for each slot level above 2nd."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -35227,7 +35551,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 9,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -35272,7 +35596,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 5,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -35311,7 +35635,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -35341,8 +35665,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Resistance}",
-				"You bless up to three creatures of your choice within range. Whenever a target makes an attack roll or a saving throw before the power ends, the target can roll a {@damage d4} and add the number rolled to the attack roll or saving throw.",
-				"{@b {@i Force Potency.}} When you cast this power with a force slot of 3rd level or higher, you can target one additional creature for every two slot levels above 1st. When you cast this power at 3rd, 6th, or 9th level, the die increases to {@damage d6}, {@damage d8}, and {@damage d10}, respectively."
+				"You bless up to three creatures of your choice within range. Whenever a target makes an attack roll or a saving throw before the power ends, the target can roll a {@damage d4} and add the number rolled to the attack roll or saving throw."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power with a force slot of 3rd level or higher, you can target one additional creature for every two slot levels above 1st. When you cast this power at 3rd, 6th, or 9th level, the die increases to {@damage d6}, {@damage d8}, and {@damage d10}, respectively."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -35352,7 +35684,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 4,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -35382,8 +35714,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Hallucination}",
-				"You tap into the nightmares of a creature you can see within range and create an illusory manifestation of its deepest fears, visible only to that creature. The target must succeed on a Wisdom saving throw or become frightened for the duration. At the end of each of the target's turns before the power ends, the target must succeed on a Wisdom saving throw or take {@damage 4d10} psychic damage. On a successful save, the power ends. This power has no effect on droids or constructs.",
-				"{@b {@i Force Potency.}} When you cast this power using a force power slot of 5th level or higher, the damage increases by {@damage 1d10} for each slot level above 4th."
+				"You tap into the nightmares of a creature you can see within range and create an illusory manifestation of its deepest fears, visible only to that creature. The target must succeed on a Wisdom saving throw or become frightened for the duration. At the end of each of the target's turns before the power ends, the target must succeed on a Wisdom saving throw or take {@damage 4d10} psychic damage. On a successful save, the power ends. This power has no effect on droids or constructs."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force power slot of 5th level or higher, the damage increases by {@damage 1d10} for each slot level above 4th."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -35397,7 +35737,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -35435,7 +35775,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -35463,8 +35803,16 @@
 				}
 			],
 			"entries": [
-				"This power bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target's hit point maximum and current hit points increase by 5 for the duration.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 3rd level or higher, a target's hit points increase by an additional 5 for each slot level above 2nd."
+				"This power bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target's hit point maximum and current hit points increase by 5 for the duration."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 3rd level or higher, a target's hit points increase by an additional 5 for each slot level above 2nd."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -35478,7 +35826,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -35521,7 +35869,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -35558,7 +35906,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 5,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -35592,8 +35940,16 @@
 				"{@b {@i Creature.}} You can try to move a Huge or smaller creature. The target must make a Strength saving throw. On a failed save, you move the creature up to 30 feet in any direction, including upward but not beyond the range of this power. Until the end of your next turn, the creature is restrained in your telekinetic grip. A creature lifted upward is suspended in mid-air.",
 				"On subsequent rounds, you can use your action to attempt to maintain your telekinetic grip on the creature by repeating the contest.",
 				"{@b {@i Object.}} You move an object that isn't being worn or carried and weighs up to 2,500 lbs up to 30 feet in any direction, but not beyond the range of this power.",
-				"You can exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 6th level or higher, the maximum object weight increases by 2,500 lbs for every slot level above 5th."
+				"You can exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 6th level or higher, the maximum object weight increases by 2,500 lbs for every slot level above 5th."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": "strength"
@@ -35603,7 +35959,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -35627,8 +35983,16 @@
 				}
 			],
 			"entries": [
-				"Choose one creature, object, or force effect within range. Any force power of 3rd level or lower on the target ends. For each force power of 4th level or higher on the target, make an ability check using your forcecasting ability. The DC equals 10 + the power's level. On a success, the power ends.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 4th level or higher, you automatically end the effects of a force power on the target if the power's level is equal to or less than the level of the force slot you used."
+				"Choose one creature, object, or force effect within range. Any force power of 3rd level or lower on the target ends. For each force power of 4th level or higher on the target, make an ability check using your forcecasting ability. The DC equals 10 + the power's level. On a success, the power ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 4th level or higher, you automatically end the effects of a force power on the target if the power's level is equal to or less than the level of the force slot you used."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -35638,7 +36002,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -35662,8 +36026,16 @@
 				}
 			],
 			"entries": [
-				"You attempt to interrupt a creature in the process of casting a force power. If the creature is casting a power of 3rd level or lower, its power fails and has no effect. If it is casting a power of 4th level or higher, make an ability check using your forcecasting ability. The DC equals 10 + the power's level. On a success, the creature's power fails and has no effect.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 4th level or higher, the interrupted power has no effect if its level is less than or equal to the level of the force slot you used."
+				"You attempt to interrupt a creature in the process of casting a force power. If the creature is casting a power of 3rd level or lower, its power fails and has no effect. If it is casting a power of 4th level or higher, make an ability check using your forcecasting ability. The DC equals 10 + the power's level. On a success, the creature's power fails and has no effect."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 4th level or higher, the interrupted power has no effect if its level is less than or equal to the level of the force slot you used."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -35673,7 +36045,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -35715,7 +36087,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 9,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -35756,7 +36128,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 7,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -35797,7 +36169,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -35838,7 +36210,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 8,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -35876,7 +36248,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 5,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -35919,7 +36291,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -35956,7 +36328,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -35984,7 +36356,7 @@
 				}
 			],
 			"entries": [
-				"<p>{@i {@b Prerequisite}: Sense Force}",
+				"{@i {@b Prerequisite}: Sense Force}",
 				"You shift your vision to see through use of the Force; colors fade and inanimate objects appear as shades of gray. For the duration, you gain the following benefits.",
 				{
 					"type": "list",
@@ -36003,7 +36375,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -36032,8 +36404,16 @@
 			],
 			"entries": [
 				"You create a weapon of imperceptible Force energy that lasts until the power ends. It counts as a simple lightweapon with which you are proficient. It deals {@damage 2d6} psychic damage, and has the finesse, light, and thrown properties (range 20/60). When you attack while within dim light or darkness, you have advantage.",
-				"If you drop the weapon or throw it, it disappears at the end of the turn. While the power lasts, you can use a bonus action to make the weapon reappear in your hand.",
-				"{@b {@i Force Potency.}} When you cast this power using a 3rd or 4th level force slot, the damage increases by {@damage 1d6} ({@damage 3d6}). At 5th or 6th level, the damage increases by {@damage 2d6} ({@damage 4d6}). At 7th level or higher, the damage increases by {@damage 3d6} ({@damage 5d6}). "
+				"If you drop the weapon or throw it, it disappears at the end of the turn. While the power lasts, you can use a bonus action to make the weapon reappear in your hand."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a 3rd or 4th level force slot, the damage increases by {@damage 1d6} ({@damage 3d6}). At 5th or 6th level, the damage increases by {@damage 2d6} ({@damage 4d6}). At 7th level or higher, the damage increases by {@damage 3d6} ({@damage 5d6}). "
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -36047,7 +36427,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 6,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -36086,7 +36466,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -36117,8 +36497,16 @@
 			"entries": [
 				"{@i {@b Prerequisite}: Sap Vitality}",
 				"You draw the willpower from a creature you can see within range. Make a ranged force attack against the target. On a hit, the target takes {@damage 2d6} necrotic damage and it deals only half damage with weapon attacks that use Strength until the power ends.",
-				"At the end of each of the target's turns, it can make a Constitution saving throw against the power. On a success, the power ends.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 3rd level or higher, the damage increases by {@damage 1d6} for each slot level above 2nd."
+				"At the end of each of the target's turns, it can make a Constitution saving throw against the power. On a success, the power ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 3rd level or higher, the damage increases by {@damage 1d6} for each slot level above 2nd."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -36132,7 +36520,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -36175,7 +36563,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -36213,7 +36601,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -36238,8 +36626,16 @@
 			],
 			"entries": [
 				"You make a constricting gesture at a creature within range. The target must make a Constitution saving throw. On a failed save target takes {@damage 5d8} force damage and is restrained until the end of your next turn. On a successful save, the target takes half as much damage and is not restrained.",
-				"You can use a bonus action while the target is restrained to move the target up to 5 feet in any direction.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 4th level or higher, the damage increases by {@damage 1d8} for each slot level above 3rd."
+				"You can use a bonus action while the target is restrained to move the target up to 5 feet in any direction."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 4th level or higher, the damage increases by {@damage 1d8} for each slot level above 3rd."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -36253,7 +36649,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -36290,7 +36686,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 7,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -36330,7 +36726,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -36355,8 +36751,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Burst}",
-				"You cause a tremor in the ground within range. Each creature other than you in a 5-foot-radius sphere centered on that point must make a Dexterity saving throw. On a failed save, a creature takes {@damage 1d8} kinetic damage and is knocked prone. On a successful save, the creature takes half as much damage and isn't knocked prone. If the ground in that area is loose earth or stone, it becomes difficult terrain until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 2nd level or higher, the damage increases by {@damage 1d8} for each slot level above 1st."
+				"You cause a tremor in the ground within range. Each creature other than you in a 5-foot-radius sphere centered on that point must make a Dexterity saving throw. On a failed save, a creature takes {@damage 1d8} kinetic damage and is knocked prone. On a successful save, the creature takes half as much damage and isn't knocked prone. If the ground in that area is loose earth or stone, it becomes difficult terrain until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 2nd level or higher, the damage increases by {@damage 1d8} for each slot level above 1st."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -36370,7 +36774,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -36409,7 +36813,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -36448,7 +36852,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 6,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -36473,8 +36877,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Improved Heal}",
-				"Choose a creature that you can see within range. A surge of positive energy washes through the creature, causing it to regain 70 hit points. This power also ends blindness, deafness, and any diseases affecting the target. This power has no effect on droids or constructs.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 7th level or higher, the healing increases by 10 for each slot level above 6th."
+				"Choose a creature that you can see within range. A surge of positive energy washes through the creature, causing it to regain 70 hit points. This power also ends blindness, deafness, and any diseases affecting the target. This power has no effect on droids or constructs."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 7th level or higher, the healing increases by 10 for each slot level above 6th."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -36488,7 +36900,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -36527,7 +36939,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 5,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -36552,8 +36964,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Heal}",
-				"A wave of healing energy washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to {@damage 3d8} + your forcecasting ability modifier. This power has no effect on droids or constructs.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 6th level or higher, the healing increases by {@damage 1d8} for each slot level above 5th."
+				"A wave of healing energy washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to {@damage 3d8} + your forcecasting ability modifier. This power has no effect on droids or constructs."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 6th level or higher, the healing increases by {@damage 1d8} for each slot level above 5th."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -36567,7 +36987,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 5,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -36598,8 +37018,16 @@
 			"entries": [
 				"{@i {@b Prerequisite}: Drain Life}",
 				"A tendril of inky darkness reaches out from you, touching a creature you can see within range to drain life from it. The target must make a Dexterity saving throw. On a successful save, the target takes {@damage 2d8} necrotic damage, and the power ends. On a failed save, the target takes {@damage 4d8} necrotic damage, and until the power ends, you can use your action on each of your turns to automatically deal {@damage 4d8} necrotic damage to the target. The power ends if you use your action to do anything else, if the target is ever outside the power's range, or if the target has total cover from you.",
-				"Whenever the power deals damage to a target, you regain hit points equal to half the amount of necrotic damage the target takes.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 6th level or higher, the damage increases by {@damage 1d8} for each slot level above 5th."
+				"Whenever the power deals damage to a target, you regain hit points equal to half the amount of necrotic damage the target takes."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 6th level or higher, the damage increases by {@damage 1d8} for each slot level above 5th."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -36613,7 +37041,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 9,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -36654,7 +37082,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -36690,8 +37118,16 @@
 				"Questions verbally directed at the target creature naturally shape the course of its thoughts, so this power is particularly effective as part of an interrogation.",
 				"You can also use this power to detect the presence of thinking creatures you can't see. When you cast the power or as your action during the duration, you can search for thoughts within 30 feet of you. The power can penetrate barriers. You can't detect a creature with an Intelligence of 3 or lower or one that doesn't speak any language.",
 				"Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can't see it, but it must still be within range.",
-				"This power has no effect on droids or constructs.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 3rd level or higher, the initial psychic damage a target takes the first time you probe deeper into its mind increases by {@damage 1d6} for each slot level above 2nd."
+				"This power has no effect on droids or constructs."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 3rd level or higher, the initial psychic damage a target takes the first time you probe deeper into its mind increases by {@damage 1d6} for each slot level above 2nd."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -36705,7 +37141,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 9,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -36749,7 +37185,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -36780,8 +37216,16 @@
 				"{@i {@b Prerequisite}: Hex}",
 				"You manifest a mantle of malevolent dark side energy for the duration.",
 				"Until the power ends, any attack you make deals an extra {@damage 1d8} necrotic damage when you hit a creature within 10 feet of you. Any creature that takes this damage can't regain hit points until the start of your next turn.",
-				"Additionally, any creature of your choice that you can see that starts its turn within 10 feet of you gains 1 slowed level until the start of your next turn.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 4th level or higher, the extra damage increases by {@damage 1d8} for each slot level above 3rd."
+				"Additionally, any creature of your choice that you can see that starts its turn within 10 feet of you gains 1 slowed level until the start of your next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 4th level or higher, the extra damage increases by {@damage 1d8} for each slot level above 3rd."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -36795,7 +37239,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 5,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -36836,7 +37280,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -36877,7 +37321,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 6,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -36934,7 +37378,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -36973,7 +37417,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 4,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -37014,7 +37458,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -37042,8 +37486,16 @@
 				}
 			],
 			"entries": [
-				"You can blind or deafen a foe. Choose one creature that you can see within range to make a Constitution saving throw. If it fails, the target is either blinded or deafened (your choice) for the duration. At the end of each of its turns, the target can make a Constitution saving throw. On a success, the power ends.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+				"You can blind or deafen a foe. Choose one creature that you can see within range to make a Constitution saving throw. If it fails, the target is either blinded or deafened (your choice) for the duration. At the end of each of its turns, the target can make a Constitution saving throw. On a success, the power ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": "constitution"
@@ -37053,7 +37505,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -37081,8 +37533,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Saber Ward}",
-				"This power absorbs damage from certain incoming attacks, lessening its effect on you and distributing it throughout your body. You have resistance to the triggering damage type until the start of your next turn. Also, you gain 5 temporary hit points to potentially absorb the attack. These temporary hit points last until the start of your next turn.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 2nd level or higher, the temporary hit points increases by 5 for each slot level above 1st."
+				"This power absorbs damage from certain incoming attacks, lessening its effect on you and distributing it throughout your body. You have resistance to the triggering damage type until the start of your next turn. Also, you gain 5 temporary hit points to potentially absorb the attack. These temporary hit points last until the start of your next turn."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 2nd level or higher, the temporary hit points increases by 5 for each slot level above 1st."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -37096,7 +37556,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -37149,7 +37609,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -37189,7 +37649,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -37229,7 +37689,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -37267,7 +37727,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -37297,8 +37757,16 @@
 			],
 			"entries": [
 				"You curse an opponent within range. Until the power ends, you deal an extra {@damage 1d6} necrotic damage to the target whenever you hit it with an attack. Also, choose one ability when you cast the power. The target has disadvantage on ability checks made with the chosen ability.",
-				"If the target drops to 0 hit points before this power ends, you can use a bonus action on a subsequent turn of yours to curse a new creature.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 3rd or 4th level, you can maintain your concentration on the power for up to 8 hours. When you use a force slot of 5th level or higher, you can maintain your concentration on the power for up to 24 hours."
+				"If the target drops to 0 hit points before this power ends, you can use a bonus action on a subsequent turn of yours to curse a new creature."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 3rd or 4th level, you can maintain your concentration on the power for up to 8 hours. When you use a force slot of 5th level or higher, you can maintain your concentration on the power for up to 24 hours."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -37312,7 +37780,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -37335,8 +37803,16 @@
 				}
 			],
 			"entries": [
-				"Tendrils of dark energy erupt from you and batter all creatures within 10 feet of you. Each creature in that area must make a Strength saving throw. On a failed save, a target takes {@damage 2d6} necrotic damage and can't take reactions until its next turn. On a successful save, the creature takes half damage, but suffers no other effect.",
-				"{@b {@i Force Potency.}} When you cast this power using a power slot of 2nd level or higher, the damage increases by {@damage 1d6} for each slot level above 1st."
+				"Tendrils of dark energy erupt from you and batter all creatures within 10 feet of you. Each creature in that area must make a Strength saving throw. On a failed save, a target takes {@damage 2d6} necrotic damage and can't take reactions until its next turn. On a successful save, the creature takes half damage, but suffers no other effect."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a power slot of 2nd level or higher, the damage increases by {@damage 1d6} for each slot level above 1st."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -37350,7 +37826,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -37375,8 +37851,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Give Life}",
-				"You sacrifice some of your health to mend another creature's injuries. You take {@damage 4d8} necrotic damage, and one creature of your choice that you can see within range regains a number of hit points equal to twice the necrotic damage you take. This power has no effect on droids or constructs.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 4th level or higher, the damage increases by {@damage 1d8} for each slot level above 3rd."
+				"You sacrifice some of your health to mend another creature's injuries. You take {@damage 4d8} necrotic damage, and one creature of your choice that you can see within range regains a number of hit points equal to twice the necrotic damage you take. This power has no effect on droids or constructs."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 4th level or higher, the damage increases by {@damage 1d8} for each slot level above 3rd."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -37390,7 +37874,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 5,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 10,
@@ -37438,7 +37922,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -37477,7 +37961,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -37500,8 +37984,16 @@
 				}
 			],
 			"entries": [
-				"Make a melee force attack against a creature you can reach. On a hit, the target takes {@damage 3d10} necrotic damage.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 2nd level or higher, the damage increases by {@damage 1d10} for each slot level above 1st."
+				"Make a melee force attack against a creature you can reach. On a hit, the target takes {@damage 3d10} necrotic damage."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 2nd level or higher, the damage increases by {@damage 1d10} for each slot level above 1st."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -37515,7 +38007,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -37558,7 +38050,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -37595,7 +38087,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 6,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -37639,7 +38131,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 7,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -37663,8 +38155,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Greater Saber Throw}",
-				"When you cast this power, you must be wielding at least one lightweapon or vibroweapon, otherwise the power fails. When you cast this power, you can throw two weapons, striking creatures in two lines originating from yourself, both 90 feet long and 5 feet wide, or you can throw one weapon in a 90-foot long, 5-foot wide line of your choice originating from yourself and change its direction to move in a second identical line of your choice within range. Each creature in a line must make a Dexterity saving throw. A creature takes {@damage 5d8} damage of the same type as the weapon's damage and {@damage 5d8} force damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one line is affected only once. The weapons then immediately return to your hand.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 8th level or higher, the weapon damage and force damage each increase by {@damage 1d8} for each slot level above 7th."
+				"When you cast this power, you must be wielding at least one lightweapon or vibroweapon, otherwise the power fails. When you cast this power, you can throw two weapons, striking creatures in two lines originating from yourself, both 90 feet long and 5 feet wide, or you can throw one weapon in a 90-foot long, 5-foot wide line of your choice originating from yourself and change its direction to move in a second identical line of your choice within range. Each creature in a line must make a Dexterity saving throw. A creature takes {@damage 5d8} damage of the same type as the weapon's damage and {@damage 5d8} force damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one line is affected only once. The weapons then immediately return to your hand."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 8th level or higher, the weapon damage and force damage each increase by {@damage 1d8} for each slot level above 7th."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -37681,7 +38181,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -37711,8 +38211,16 @@
 			"entries": [
 				"{@i {@b Prerequisite}: Animate Weapon}",
 				"You lift three piles of debris or small objects from the ground and interpose them between you and your opponents for the duration.",
-				"While at least three piles remain, you have three-quarters cover. While two piles remain, you have half cover. While only one pile remains, you have one-quarter cover. The piles don't hinder your attacks. When you cast the power, or as an action on a subsequent turn, you can direct up to two piles to attack up to two creatures you can see within 30 feet. Make a ranged force attack roll for each pile. On a hit, a creature takes {@damage 2d6} kinetic plus {@damage 1d10} force damage. The pile is destroyed whether it hits or misses.",
-				"{@b {@i Force Potency.}} If you cast this power with a force slot of 4th level or higher, the power creates one additional pile for each level above 3rd. "
+				"While at least three piles remain, you have three-quarters cover. While two piles remain, you have half cover. While only one pile remains, you have one-quarter cover. The piles don't hinder your attacks. When you cast the power, or as an action on a subsequent turn, you can direct up to two piles to attack up to two creatures you can see within 30 feet. Make a ranged force attack roll for each pile. On a hit, a creature takes {@damage 2d6} kinetic plus {@damage 1d10} force damage. The pile is destroyed whether it hits or misses."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"If you cast this power with a force slot of 4th level or higher, the power creates one additional pile for each level above 3rd. "
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -37729,7 +38237,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 5,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -37762,8 +38270,16 @@
 				"You attempt to beguile a humanoid that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.",
 				"While the target is charmed, you have a telepathic link with it as long as you are within 1 mile of it. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as \"Attack that creature,\" \"Run over there,\" or \"Fetch that object.\" If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.",
 				"You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.",
-				"Each time the target takes damage, it makes a new Wisdom saving throw against the power. If the saving throw succeeds, the power ends.",
-				"{@b {@i Force Potency.}} When you cast this power using a 6th-level force slot, the duration is 10 minutes. When you use a 7th-level force slot, the duration is 1 hour. When you use a force slot of 8th level or higher, the duration is 8 hours."
+				"Each time the target takes damage, it makes a new Wisdom saving throw against the power. If the saving throw succeeds, the power ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a 6th-level force slot, the duration is 10 minutes. When you use a 7th-level force slot, the duration is 1 hour. When you use a force slot of 8th level or higher, the duration is 8 hours."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": "wisdom"
@@ -37773,7 +38289,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 7,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -37816,7 +38332,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 4,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -37848,8 +38364,16 @@
 				"A beast you can see must succeed on a Wisdom save or be charmed. If you or your companions are fighting it, it has advantage on this saving throw.",
 				"While it's charmed, you have a telepathic link to it if you're on the same planet. You can use this link to issue commands while you are conscious, no action required, which it does its best to obey. You can specify a simple and general course of action. If it completes the order and doesn't receive further orders, it focuses on defending itself.",
 				"You can use your action to take total control of the target. Until the end of your next turn, the beast takes only the actions you decide and nothing you don't allow it to. You can also have the beast use a reaction, but this takes your reaction as well.",
-				"If the beast takes damage, it makes another Wisdom save. On a success, the power ends.",
-				"{@b {@i Force Potency.}} When you cast this power using a 5th-level force slot, the duration is up to 10 minutes. At a 6th-level slot, the duration is up to 1 hour. At a slot of 7th or higher, the duration is up to 8 hours."
+				"If the beast takes damage, it makes another Wisdom save. On a success, the power ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a 5th-level force slot, the duration is up to 10 minutes. At a 6th-level slot, the duration is up to 1 hour. At a slot of 7th or higher, the duration is up to 8 hours."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -37859,7 +38383,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 8,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -37909,7 +38433,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -37952,7 +38476,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 6,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -37978,8 +38502,16 @@
 			"entries": [
 				"{@i {@b Prerequisite}: Choke}",
 				"You make a crushing gesture at a creature within range. The target must make a Constitution saving throw. On a failed save target takes {@damage 10d8} force damage and is paralyzed until the end of your next turn. On a successful save, the target takes half as much damage and is not paralyzed.",
-				"You can use a bonus action while the target is paralyzed to move the target up to 10 feet in any direction.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 7th level or higher, the damage increases by {@damage 1d8} for each slot level above 6th."
+				"You can use a bonus action while the target is paralyzed to move the target up to 10 feet in any direction."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 7th level or higher, the damage increases by {@damage 1d8} for each slot level above 6th."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -37993,7 +38525,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -38021,8 +38553,16 @@
 			],
 			"entries": [
 				"You use the Force to emit a blinding flash of light from your hand. Roll {@damage 6d10}, the total is how many hit points of creatures this power can effect. Creatures in a 15-foot cone originating from you are affected in ascending order of their current hit points (ignoring unconscious creatures and creatures that can't see).",
-				"Starting with the creature that has the lowest current hit points, each creature affected by this power is blinded until the power ends. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for the creature to be affected.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 2nd level or higher, roll an additional {@damage 2d10} for each slot level above 1st."
+				"Starting with the creature that has the lowest current hit points, each creature affected by this power is blinded until the power ends. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for the creature to be affected."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 2nd level or higher, roll an additional {@damage 2d10} for each slot level above 1st."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -38032,7 +38572,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -38056,8 +38596,16 @@
 				}
 			],
 			"entries": [
-				"You lift three piles of debris or small objects from the ground and hurl them. Each pile hits a creature of your choice that you can see within range. The pile deals {@damage 1d4+1} force damage to its target. The piles all strike simultaneously and you can direct them to hit one creature or several.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 2nd level or higher, you lift and throw an additional pile of debris for each slot level above 1st."
+				"You lift three piles of debris or small objects from the ground and hurl them. Each pile hits a creature of your choice that you can see within range. The pile deals {@damage 1d4+1} force damage to its target. The piles all strike simultaneously and you can direct them to hit one creature or several."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 2nd level or higher, you lift and throw an additional pile of debris for each slot level above 1st."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -38071,7 +38619,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -38104,7 +38652,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -38137,8 +38685,16 @@
 				"The hallucination includes sound, temperature, and other stimuli, also evident only to the creature.",
 				"The target can use its action to examine the hallucination with an Intelligence ({@skill Investigation}) check against your force power save DC. If the check succeeds, the target realizes that the hallucination is an illusion, and the power ends.",
 				"While a target is affected by the power, the target treats the hallucination as if it were real. The target rationalizes any illogical outcomes from interacting with the hallucination. For example, a target attempting to walk across a phantasmal bridge that spans a chasm falls once it steps onto the bridge. If the target survives the fall, it still believes that the bridge exists and comes up with some other explanation for its fall - it was pushed, it slipped, or a strong wind might have knocked it off.",
-				"An affected target is so convinced of the hallucination's reality that it can even take damage from the illusion. A hallucination created to appear as a creature can attack the target. Similarly, a hallucination created to appear as fire, a pool of acid, or lava can burn the target. Each round on your turn, the hallucination can deal {@damage 1d6} psychic damage to the target if it is in the hallucination's area or within 5 feet of the hallucination, provided that the illusion is of a creature or hazard that could logically deal damage, such as by attacking. The target perceives the damage as a type appropriate to the illusion.",
-				"{@b {@i Force Potency.}} When you cast this power using a force power slot of 3rd level or higher, the range increases by 20 feet, the image dimensions increase by 5 feet, and you can target one additional creature for every two slot levels above 2nd."
+				"An affected target is so convinced of the hallucination's reality that it can even take damage from the illusion. A hallucination created to appear as a creature can attack the target. Similarly, a hallucination created to appear as fire, a pool of acid, or lava can burn the target. Each round on your turn, the hallucination can deal {@damage 1d6} psychic damage to the target if it is in the hallucination's area or within 5 feet of the hallucination, provided that the illusion is of a creature or hazard that could logically deal damage, such as by attacking. The target perceives the damage as a type appropriate to the illusion."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force power slot of 3rd level or higher, the range increases by 20 feet, the image dimensions increase by 5 feet, and you can target one additional creature for every two slot levels above 2nd."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -38152,7 +38708,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -38177,8 +38733,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Feedback}",
-				"You unleash a blast of psychic energy at a target within range. If the target can hear you (though it need not understand you), it must succeed on an Intelligence saving throw. On a failed save, it takes {@damage 3d6} psychic damage and must immediately use its reaction, if available, to move as far as its speed allows away from you. The creature doesn't move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn't have to move away. A deafened creature automatically succeeds on the save.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 2nd level or higher, the damage increases by {@damage 1d6} for each slot level above 1st."
+				"You unleash a blast of psychic energy at a target within range. If the target can hear you (though it need not understand you), it must succeed on an Intelligence saving throw. On a failed save, it takes {@damage 3d6} psychic damage and must immediately use its reaction, if available, to move as far as its speed allows away from you. The creature doesn't move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn't have to move away. A deafened creature automatically succeeds on the save."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 2nd level or higher, the damage increases by {@damage 1d6} for each slot level above 1st."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -38192,7 +38756,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 8,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -38225,8 +38789,16 @@
 				"You attempt to beguile a creature that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.",
 				"While the creature is charmed, you have a telepathic link with it as long as you are within 1 mile of it. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as \"Attack that creature,\" \"Run over there,\" or \"Fetch that object.\" If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.",
 				"You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.",
-				"Each time the target takes damage, it makes a new Wisdom saving throw against the power. If the saving throw succeeds, the power ends. This power has no effect on droids or constructs.",
-				"{@b {@i Force Potency.}} When you cast this power with a 9th-level force slot, the duration is concentration, up to 8 hours."
+				"Each time the target takes damage, it makes a new Wisdom saving throw against the power. If the saving throw succeeds, the power ends. This power has no effect on droids or constructs."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power with a 9th-level force slot, the duration is concentration, up to 8 hours."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": "wisdom"
@@ -38236,7 +38808,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 5,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -38260,8 +38832,16 @@
 				}
 			],
 			"entries": [
-				"Choose a spot within range. All force powers of 5th level or lower in the area end. For each force power of 6th level or higher in the area, make an ability check using your forcecasting ability. The DC equals 10 + the power's level. On a successful check, the force power ends.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 6th level or higher, you automatically end the effects of a force power on the target if the power's level is equal to or less than the level of the force slot you used."
+				"Choose a spot within range. All force powers of 5th level or lower in the area end. For each force power of 6th level or higher in the area, make an ability check using your forcecasting ability. The DC equals 10 + the power's level. On a successful check, the force power ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 6th level or higher, you automatically end the effects of a force power on the target if the power's level is equal to or less than the level of the force slot you used."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -38271,7 +38851,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -38308,7 +38888,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -38348,7 +38928,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -38381,7 +38961,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -38415,7 +38995,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 8,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -38440,8 +39020,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Telekinetic Burst}",
-				"You manipulate the Force in a 60-foot radius centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. On a failed save, a creature takes {@damage 12d6} force damage, is knocked prone, and moved 5 feet in a direction of your choice. On a successful save, it takes half as much damage and isn't knocked prone or moved.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 9th level, the damage increases by {@damage 2d6}."
+				"You manipulate the Force in a 60-foot radius centered on a point you choose within range. Each creature in that area must make a Constitution saving throw. On a failed save, a creature takes {@damage 12d6} force damage, is knocked prone, and moved 5 feet in a direction of your choice. On a successful save, it takes half as much damage and isn't knocked prone or moved."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 9th level, the damage increases by {@damage 2d6}."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -38455,7 +39043,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -38483,8 +39071,16 @@
 				}
 			],
 			"entries": [
-				"This power lets you distract a beast. Choose a beast that you can see within range. If the beast's Intelligence is 4 or higher, the power fails. Otherwise, the beast must succeed on a Wisdom saving throw or be charmed by you for the power's duration. If you or one of your companions harms the target, the power ends.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 2nd level or higher, you can affect one additional beast for each slot level above 1st."
+				"This power lets you distract a beast. Choose a beast that you can see within range. If the beast's Intelligence is 4 or higher, the power fails. Otherwise, the beast must succeed on a Wisdom saving throw or be charmed by you for the power's duration. If you or one of your companions harms the target, the power ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 2nd level or higher, you can affect one additional beast for each slot level above 1st."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": "wisdom"
@@ -38494,7 +39090,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -38532,7 +39128,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -38565,7 +39161,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -38592,8 +39188,16 @@
 				}
 			],
 			"entries": [
-				"You touch a creature. The target's speed increases by 10 feet until the power ends.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
+				"You touch a creature. The target's speed increases by 10 feet until the power ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -38603,7 +39207,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 4,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -38631,8 +39235,16 @@
 				}
 			],
 			"entries": [
-				"An immobile, faintly shimmering barrier springs into existence around you and remains for the duration. The barrier moves with you. Any force power of 3rd level or lower cast from outside the barrier can't affect you, even if the power is cast using a higher level force slot. Such a power can target you, but the power has no effect on you. Similarly, the area within the barrier is excluded from the areas affected by such powers.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 5th level or higher, the barrier blocks powers of one level higher for each slot level above 4th."
+				"An immobile, faintly shimmering barrier springs into existence around you and remains for the duration. The barrier moves with you. Any force power of 3rd level or lower cast from outside the barrier can't affect you, even if the power is cast using a higher level force slot. Such a power can target you, but the power has no effect on you. Similarly, the area within the barrier is excluded from the areas affected by such powers."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 5th level or higher, the barrier blocks powers of one level higher for each slot level above 4th."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -38642,7 +39254,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -38681,7 +39293,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 6,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -38723,7 +39335,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -38763,7 +39375,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -38804,7 +39416,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 4,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -38843,7 +39455,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -38867,8 +39479,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Force Leap}",
-				"Using the Force to augment the strength in your legs, you leap up to 30 feet to an unoccupied space you can see.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 2nd level or higher, your jump distance increases by 5 feet for each slot level above 1st."
+				"Using the Force to augment the strength in your legs, you leap up to 30 feet to an unoccupied space you can see."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 2nd level or higher, your jump distance increases by 5 feet for each slot level above 1st."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -38878,7 +39498,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -38917,7 +39537,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -38956,7 +39576,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 8,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -39001,7 +39621,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -39041,7 +39661,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 9,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -39076,7 +39696,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 7,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -39116,7 +39736,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -39155,7 +39775,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -39185,8 +39805,16 @@
 			],
 			"entries": [
 				"As you align yourself with nature through the Force, a 10-foot tall, 60-foot radius storm cloud cylinder appears, centered on a point you can see within range above you, with you as the center point. The power fails if your location can't accommodate the cloud's size or height. When you cast the power, choose a point under the cloud for lightning to strike. Each creature within 5 feet must make a Dexterity save, taking {@damage 3d10} lightning damage on a fail and half on a success. While the power persists, you can use your action to call lightning to a point in range again.",
-				"If you're outdoors and in a storm, the power gives you control of the storm rather than creating a new one. The lightning damage also increases by {@damage 1d10}.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 4th level or higher, the damage increases by {@damage 1d10} for each slot level above 3rd."
+				"If you're outdoors and in a storm, the power gives you control of the storm rather than creating a new one. The lightning damage also increases by {@damage 1d10}."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 4th level or higher, the damage increases by {@damage 1d10} for each slot level above 3rd."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -39203,7 +39831,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -39243,7 +39871,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -39268,8 +39896,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Pyrokinesis}",
-				"A line of roaring Force-enhanced flame 30 feet long and 5 feet wide emanates from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes {@damage 3d8} energy damage on a failed save, or half as much damage on a successful one.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 3rd level or higher, the damage increases by {@damage 1d8} for each slot level above 2nd."
+				"A line of roaring Force-enhanced flame 30 feet long and 5 feet wide emanates from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes {@damage 3d8} energy damage on a failed save, or half as much damage on a successful one."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 3rd level or higher, the damage increases by {@damage 1d8} for each slot level above 2nd."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -39283,7 +39919,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 5,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -39320,7 +39956,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 6,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -39361,7 +39997,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -39399,7 +40035,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 4,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -39438,7 +40074,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 4,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -39481,7 +40117,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -39514,7 +40150,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 4,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -39553,7 +40189,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -39595,7 +40231,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -39642,7 +40278,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -39692,7 +40328,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 8,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -39740,7 +40376,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 0,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -39779,7 +40415,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -39816,7 +40452,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 7,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -39861,7 +40497,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 4,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -39891,8 +40527,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Force Confusion}",
-				"You attempt to trap the mind of your target in a psychic cage. The target must make a Charisma saving throw. On a failed save, the creature is incapacitated for the duration as its mind is trapped. It can think, but it can't have any contact with or perceive the outside world. If the creature takes damage, it makes another Charisma save. On a success, the power ends. This power has no effect on droids or constructs.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 6th level or higher, after 1 minute of concentration the power's duration becomes 24 hours and it no longer requires your concentration."
+				"You attempt to trap the mind of your target in a psychic cage. The target must make a Charisma saving throw. On a failed save, the creature is incapacitated for the duration as its mind is trapped. It can think, but it can't have any contact with or perceive the outside world. If the creature takes damage, it makes another Charisma save. On a success, the power ends. This power has no effect on droids or constructs."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 6th level or higher, after 1 minute of concentration the power's duration becomes 24 hours and it no longer requires your concentration."
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": "charisma"
@@ -39902,7 +40546,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 7,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -39939,7 +40583,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -39970,8 +40614,16 @@
 				"Roll {@damage 5d8}; the total is how many hit points of creatures this power can affect. Creatures within 20 feet of a point you choose are affected in order of their current hit points.",
 				"Starting with the creature that has the lowest current hit points, each creature affected by this power falls unconscious. If the power ends, the sleeper takes damage, or someone uses an action wake the sleeper, they will be awoken.",
 				"Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected.",
-				"This power has no effect on droids or constructs.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 2nd level or higher, you can roll an additional {@damage 2d8} for each slot level above 1st. "
+				"This power has no effect on droids or constructs."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 2nd level or higher, you can roll an additional {@damage 2d8} for each slot level above 1st. "
+					]
+				}
 			],
 			"damageInflict": [],
 			"savingThrow": ""
@@ -39981,7 +40633,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 1,
-			"school": "FPD",
+			"school": "DK",
 			"time": [
 				{
 					"number": 1,
@@ -40011,8 +40663,16 @@
 			],
 			"entries": [
 				"{@i {@b Prerequisite}: Shock}",
-				"You lash out against a creature within range with continual jolts of Force lightning. Make a ranged force attack against that creature. On a hit, the target takes {@damage 1d12} lightning damage, and on each of your turns for the duration, you can use your action to deal {@damage 1d12} lightning damage to the target automatically. The power ends if you use your action to do anything else. The power also ends if the target is ever outside the power's range or if it has total cover from you.",
-				"{@b {@i Force Potency.}} When you cast this power using a force slot of 2nd level or higher, the initial damage increases by {@damage 1d12} for each slot level above 1st."
+				"You lash out against a creature within range with continual jolts of Force lightning. Make a ranged force attack against that creature. On a hit, the target takes {@damage 1d12} lightning damage, and on each of your turns for the duration, you can use your action to deal {@damage 1d12} lightning damage to the target automatically. The power ends if you use your action to do anything else. The power also ends if the target is ever outside the power's range or if it has total cover from you."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 2nd level or higher, the initial damage increases by {@damage 1d12} for each slot level above 1st."
+					]
+				}
 			],
 			"damageInflict": [
 				[
@@ -40026,7 +40686,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 3,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
@@ -40070,7 +40730,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPL",
+			"school": "LT",
 			"time": [
 				{
 					"number": 1,
@@ -40118,7 +40778,7 @@
 			"source": "sw5ephb",
 			"page": 0,
 			"level": 2,
-			"school": "FPU",
+			"school": "UV",
 			"time": [
 				{
 					"number": 1,
