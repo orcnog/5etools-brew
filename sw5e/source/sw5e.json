@@ -2779,7 +2779,7 @@
 			"rarity": "none",
 			"value": 1000,
 			"entries": [
-				"A combustive arrow is a specialized {@item arrow|sw5ephb} for use with bow weapons. When the arrow hits another creature, object, or surface it detonates. Each creature within 5ft of the arrow's detonation must make a DC 14 Dexterity saving throw or take {@damage 1d8} fire damage. On a successful save, a creature takes half damage. Once the arrow hits a target, it no longer gives a bonus."
+				"A combustive arrow is a specialized {@item arrow|sw5eec} for use with bow weapons. When the arrow hits another creature, object, or surface it detonates. Each creature within 5ft of the arrow's detonation must make a DC 14 Dexterity saving throw or take {@damage 1d8} fire damage. On a successful save, a creature takes half damage. Once the arrow hits a target, it no longer gives a bonus."
 			],
 			"baseItem": "arrow|sw5ephb"
 		},
@@ -2791,7 +2791,7 @@
 			"rarity": "none",
 			"value": 1500,
 			"entries": [
-				"An electroshock arrow is a specialized {@item arrow|sw5ephb} for use with bow weapons. When you hit a creature with this arrow, the creature must make a DC 14 Dexterity saving throw. On a failed save, the creature takes {@damage 1d3} ion damage and becomes {@condition stunned} until the start of its next turn. On a successful save, a creature takes half damage and isn't {@condition stunned}. Once the arrow hits a target, it no longer gives a bonus."
+				"An electroshock arrow is a specialized {@item arrow|sw5eec} for use with bow weapons. When you hit a creature with this arrow, the creature must make a DC 14 Dexterity saving throw. On a failed save, the creature takes {@damage 1d3} ion damage and becomes {@condition stunned} until the start of its next turn. On a successful save, a creature takes half damage and isn't {@condition stunned}. Once the arrow hits a target, it no longer gives a bonus."
 			],
 			"baseItem": "arrow|sw5ephb"
 		},
@@ -2803,7 +2803,7 @@
 			"rarity": "none",
 			"value": 1250,
 			"entries": [
-				"A noisemaker arrow is a specialized {@item arrow|sw5ephb} for use with bow weapons. When the arrow hits another creature, object, or surface it generates an explosion of sound that can be heard up to 100 feet away. If the target of the attack is a creature, the creature must make a DC 14 Constitution saving throw. On a failed save, the creature takes {@damage 1d6} sonic damage and is {@condition deafened} until the end of its next turn. Once the arrow hits a target, it no longer gives a bonus."
+				"A noisemaker arrow is a specialized {@item arrow|sw5eec} for use with bow weapons. When the arrow hits another creature, object, or surface it generates an explosion of sound that can be heard up to 100 feet away. If the target of the attack is a creature, the creature must make a DC 14 Constitution saving throw. On a failed save, the creature takes {@damage 1d6} sonic damage and is {@condition deafened} until the end of its next turn. Once the arrow hits a target, it no longer gives a bonus."
 			],
 			"baseItem": "arrow|sw5ephb"
 		},
@@ -3730,7 +3730,7 @@
 			"value": 55000,
 			"weight": 18.5,
 			"entries": [
-				"Rather than traditional {@item power cell|sw5ephb|power cells}, the blaster cannon uses a specialized {@item power generator|sw5ephb} that allows it to fire continuously for 10 minutes. Replacing a {@item power generator|sw5ephb} takes an action.",
+				"Rather than traditional {@item power cell|sw5ephb|power cells}, the blaster cannon uses a specialized {@item power generator|sw5ewh} that allows it to fire continuously for 10 minutes. Replacing a {@item power generator|sw5ewh} takes an action.",
 				"Before firing the blaster cannon, you must deploy it using an action unless you meet its strength requirement. Alternatively, if you're able to make multiple attacks with the {@action Attack} action, this action replaces one of them.  While deployed in this way, you treat this weapon's strength number as two steps less (from 19 to 15), your speed is reduced by half, and you cannot fire this weapon at long range. You can collapse the blaster cannon as an action or bonus action."
 			],
 			"property": [
@@ -4120,7 +4120,7 @@
 			"rarity": "none",
 			"value": 100,
 			"entries": [
-				"Rather than traditional {@item power cell|sw5ephb|power cells}, the {@item bolt-thrower|sw5ephb} fires specialized projectiles in the form of bolts."
+				"Rather than traditional {@item power cell|sw5ephb|power cells}, the {@item bolt-thrower|sw5eec} fires specialized projectiles in the form of bolts."
 			]
 		},
 		{
@@ -4131,7 +4131,7 @@
 			"rarity": "none",
 			"value": 1400,
 			"entries": [
-				"This {@item bolt-thrower|sw5ephb} ammunition deals {@damage 2d6} kinetic damage on a hit. Also on a hit, the creature must make a DC 14 Constitution saving throw, taking {@damage 2d4} sonic damage on a failed save.",
+				"This {@item bolt-thrower|sw5eec} ammunition deals {@damage 2d6} kinetic damage on a hit. Also on a hit, the creature must make a DC 14 Constitution saving throw, taking {@damage 2d4} sonic damage on a failed save.",
 				"Additionally, on a failed save, a creature is {@condition deafened} for 1 minute. At the end of an affected creature's turn, it can repeat this save, ending the effect on a success."
 			],
 			"baseItem": "bolt"
@@ -4144,7 +4144,7 @@
 			"rarity": "none",
 			"value": 1700,
 			"entries": [
-				"This {@item bolt-thrower|sw5ephb} ammunition deals {@damage 2d6} kinetic damage on a hit. Also on a hit, the creature must make a DC 14 Dexterity saving throw, taking {@damage 2d4} lightning damage on a failed save.",
+				"This {@item bolt-thrower|sw5eec} ammunition deals {@damage 2d6} kinetic damage on a hit. Also on a hit, the creature must make a DC 14 Dexterity saving throw, taking {@damage 2d4} lightning damage on a failed save.",
 				"Additionally, on a failed save, a creature is shocked for 1 minute. At the end of an affected creature's turn, it can repeat this save, ending the effect on a success."
 			],
 			"baseItem": "bolt"
@@ -4157,7 +4157,7 @@
 			"rarity": "none",
 			"value": 2000,
 			"entries": [
-				"This {@item bolt-thrower|sw5ephb} ammunition deals {@damage 2d6} kinetic damage on a hit. Also on a hit, the creature must make a DC 14 Wisdom saving throw, taking {@damage 2d4} psychic damage on a failed save.",
+				"This {@item bolt-thrower|sw5eec} ammunition deals {@damage 2d6} kinetic damage on a hit. Also on a hit, the creature must make a DC 14 Wisdom saving throw, taking {@damage 2d4} psychic damage on a failed save.",
 				"Additionally, on a failed save, a creature becomes {@condition frightened} of you for 1 minute. At the start of an affected creature's turn, it can repeat this save, ending the effect on a success."
 			],
 			"baseItem": "bolt"
@@ -4171,7 +4171,7 @@
 			"value": 18250,
 			"weight": 13.5,
 			"entries": [
-				"Rather than traditional {@item power cell|sw5ephb|power cells}, the bolt-thrower fires specialized projectiles in the form of {@item bolt|sw5ephb|bolts}."
+				"Rather than traditional {@item power cell|sw5ephb|power cells}, the bolt-thrower fires specialized projectiles in the form of {@item bolt|sw5eec|bolts}."
 			],
 			"property": [
 				"AF",
@@ -6136,8 +6136,8 @@
 			"value": 6000,
 			"weight": 6.5,
 			"entries": [
-				"Rather than traditional {@item power cell|sw5ephb|power cells}, the compound bow fires specialized projectiles in the form of {@item arrow|sw5ephb|arrows}. You can make a ranged weapon attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one {@item arrow|sw5ephb}.",
-				"Drawing the ammunition from a {@item quiver|sw5ephb}, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield."
+				"Rather than traditional {@item power cell|sw5ephb|power cells}, the compound bow fires specialized projectiles in the form of {@item arrow|sw5eec|arrows}. You can make a ranged weapon attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one {@item arrow|sw5eec}.",
+				"Drawing the ammunition from a {@item quiver|sw5eec}, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield."
 			],
 			"property": [
 				"AF",
@@ -6603,7 +6603,7 @@
 			"type": "AF",
 			"rarity": "uncommon",
 			"entries": [
-				"You have a +1 bonus to attack and damage rolls made with this enhanced {@item corrosive cartridge|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item corrosive cartridge|sw5ephb} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 16 Constitution saving throw, taking {@damage 1d8} acid damage on a failed save or half as much on a successful one. If you reduce a creature to 0 hit points with the loaded weapon, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing and carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized."
+				"You have a +1 bonus to attack and damage rolls made with this enhanced {@item corrosive cartridge|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item corrosive cartridge|sw5ewh} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 16 Constitution saving throw, taking {@damage 1d8} acid damage on a failed save or half as much on a successful one. If you reduce a creature to 0 hit points with the loaded weapon, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing and carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized."
 			],
 			"bonusWeapon": "+1"
 		},
@@ -6614,7 +6614,7 @@
 			"type": "AF",
 			"rarity": "very rare",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item corrosive cartridge|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item corrosive cartridge|sw5ephb} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 20 Constitution saving throw, taking {@damage 1d8} acid damage on a failed save or half as much on a successful one. If you reduce a creature to 0 hit points with the loaded weapon, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing and carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized."
+				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item corrosive cartridge|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item corrosive cartridge|sw5ewh} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 20 Constitution saving throw, taking {@damage 1d8} acid damage on a failed save or half as much on a successful one. If you reduce a creature to 0 hit points with the loaded weapon, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing and carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized."
 			],
 			"bonusWeapon": "+3"
 		},
@@ -6625,7 +6625,7 @@
 			"type": "AF",
 			"rarity": "artifact",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item corrosive cartridge|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item corrosive cartridge|sw5ephb} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 24 Constitution saving throw, taking {@damage 1d12} acid damage on a failed save or half as much on a successful one. If you reduce a creature to 0 hit points with the loaded weapon, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing and carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized."
+				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item corrosive cartridge|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item corrosive cartridge|sw5ewh} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 24 Constitution saving throw, taking {@damage 1d12} acid damage on a failed save or half as much on a successful one. If you reduce a creature to 0 hit points with the loaded weapon, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing and carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized."
 			],
 			"bonusWeapon": "+3"
 		},
@@ -6636,7 +6636,7 @@
 			"type": "AF",
 			"rarity": "legendary",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item corrosive cartridge|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item corrosive cartridge|sw5ephb} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 22 Constitution saving throw, taking {@damage 1d10} acid damage on a failed save or half as much on a successful one. If you reduce a creature to 0 hit points with the loaded weapon, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing and carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized."
+				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item corrosive cartridge|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item corrosive cartridge|sw5ewh} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 22 Constitution saving throw, taking {@damage 1d10} acid damage on a failed save or half as much on a successful one. If you reduce a creature to 0 hit points with the loaded weapon, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing and carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized."
 			],
 			"bonusWeapon": "+3"
 		},
@@ -6647,7 +6647,7 @@
 			"type": "AF",
 			"rarity": "rare",
 			"entries": [
-				"You have a +2 bonus to attack and damage rolls made with this enhanced {@item corrosive cartridge|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item corrosive cartridge|sw5ephb} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 18 Constitution saving throw, taking {@damage 1d8} acid damage on a failed save or half as much on a successful one. If you reduce a creature to 0 hit points with the loaded weapon, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing and carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized."
+				"You have a +2 bonus to attack and damage rolls made with this enhanced {@item corrosive cartridge|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item corrosive cartridge|sw5ewh} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 18 Constitution saving throw, taking {@damage 1d8} acid damage on a failed save or half as much on a successful one. If you reduce a creature to 0 hit points with the loaded weapon, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything unenhanced it is wearing and carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized."
 			],
 			"bonusWeapon": "+2"
 		},
@@ -6965,7 +6965,7 @@
 			"type": "AF",
 			"rarity": "uncommon",
 			"entries": [
-				"You have a +1 bonus to attack and damage rolls made with this enhanced {@item cryo cell|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item cryo cell|sw5ephb} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals cold damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 16 Constitution saving throw. On a failed save, the creature takes {@damage 1d4} cold damage and gains 1 slowed level until the end of its next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour."
+				"You have a +1 bonus to attack and damage rolls made with this enhanced {@item cryo cell|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item cryo cell|sw5ewh} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals cold damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 16 Constitution saving throw. On a failed save, the creature takes {@damage 1d4} cold damage and gains 1 slowed level until the end of its next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour."
 			],
 			"bonusWeapon": "+1"
 		},
@@ -6976,7 +6976,7 @@
 			"type": "AF",
 			"rarity": "very rare",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item cryo cell|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item cryo cell|sw5ephb} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals cold damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 20 Constitution saving throw. On a failed save, the creature takes {@damage 1d4} cold damage and gains 1 slowed level until the end of its next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour."
+				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item cryo cell|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item cryo cell|sw5ewh} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals cold damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 20 Constitution saving throw. On a failed save, the creature takes {@damage 1d4} cold damage and gains 1 slowed level until the end of its next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour."
 			],
 			"bonusWeapon": "+3"
 		},
@@ -6987,7 +6987,7 @@
 			"type": "AF",
 			"rarity": "artifact",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item cryo cell|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item cryo cell|sw5ephb} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals cold damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 24 Constitution saving throw. On a failed save, the creature takes {@damage 1d8} cold damage and gains 1 slowed level until the end of its next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour."
+				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item cryo cell|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item cryo cell|sw5ewh} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals cold damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 24 Constitution saving throw. On a failed save, the creature takes {@damage 1d8} cold damage and gains 1 slowed level until the end of its next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour."
 			],
 			"bonusWeapon": "+3"
 		},
@@ -6998,7 +6998,7 @@
 			"type": "AF",
 			"rarity": "legendary",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item cryo cell|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item cryo cell|sw5ephb} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals cold damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 22 Constitution saving throw. On a failed save, the creature takes {@damage 1d6} cold damage and gains 1 slowed level until the end of its next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour."
+				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item cryo cell|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item cryo cell|sw5ewh} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals cold damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 22 Constitution saving throw. On a failed save, the creature takes {@damage 1d6} cold damage and gains 1 slowed level until the end of its next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour."
 			],
 			"bonusWeapon": "+3"
 		},
@@ -7009,7 +7009,7 @@
 			"type": "AF",
 			"rarity": "rare",
 			"entries": [
-				"You have a +2 bonus to attack and damage rolls made with this enhanced {@item cryo cell|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item cryo cell|sw5ephb} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals cold damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 18 Constitution saving throw. On a failed save, the creature takes {@damage 1d4} cold damage and gains 1 slowed level until the end of its next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour."
+				"You have a +2 bonus to attack and damage rolls made with this enhanced {@item cryo cell|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item cryo cell|sw5ewh} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals cold damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 18 Constitution saving throw. On a failed save, the creature takes {@damage 1d4} cold damage and gains 1 slowed level until the end of its next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour."
 			],
 			"bonusWeapon": "+2"
 		},
@@ -7627,7 +7627,7 @@
 			"type": "AF",
 			"rarity": "uncommon",
 			"entries": [
-				"You have a +1 bonus to attack and damage rolls made with this enhanced {@item deafening cell|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item deafening cell|sw5ephb} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals sonic damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 16 Constitution saving throw. On a failed save, the creature takes {@damage 1d6} sonic damage and is {@condition deafened} until the start of your next turn. On a successful save, a creature takes half damage and isn't {@condition deafened}."
+				"You have a +1 bonus to attack and damage rolls made with this enhanced {@item deafening cell|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item deafening cell|sw5ewh} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals sonic damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 16 Constitution saving throw. On a failed save, the creature takes {@damage 1d6} sonic damage and is {@condition deafened} until the start of your next turn. On a successful save, a creature takes half damage and isn't {@condition deafened}."
 			],
 			"bonusWeapon": "+1"
 		},
@@ -7638,7 +7638,7 @@
 			"type": "AF",
 			"rarity": "very rare",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item deafening cell|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item deafening cell|sw5ephb} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals sonic damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 20 Constitution saving throw. On a failed save, the creature takes {@damage 1d6} sonic damage and is {@condition deafened} until the start of your next turn. On a successful save, a creature takes half damage and isn't {@condition deafened}."
+				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item deafening cell|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item deafening cell|sw5ewh} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals sonic damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 20 Constitution saving throw. On a failed save, the creature takes {@damage 1d6} sonic damage and is {@condition deafened} until the start of your next turn. On a successful save, a creature takes half damage and isn't {@condition deafened}."
 			],
 			"bonusWeapon": "+3"
 		},
@@ -7649,7 +7649,7 @@
 			"type": "AF",
 			"rarity": "artifact",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item deafening cell|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item deafening cell|sw5ephb} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals sonic damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 24 Constitution saving throw. On a failed save, the creature takes {@damage 1d10} sonic damage and is {@condition deafened} until the start of your next turn. On a successful save, a creature takes half damage and isn't {@condition deafened}."
+				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item deafening cell|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item deafening cell|sw5ewh} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals sonic damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 24 Constitution saving throw. On a failed save, the creature takes {@damage 1d10} sonic damage and is {@condition deafened} until the start of your next turn. On a successful save, a creature takes half damage and isn't {@condition deafened}."
 			],
 			"bonusWeapon": "+3"
 		},
@@ -7660,7 +7660,7 @@
 			"type": "AF",
 			"rarity": "legendary",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item deafening cell|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item deafening cell|sw5ephb} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals sonic damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 22 Constitution saving throw. On a failed save, the creature takes {@damage 1d8} sonic damage and is {@condition deafened} until the start of your next turn. On a successful save, a creature takes half damage and isn't {@condition deafened}."
+				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item deafening cell|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item deafening cell|sw5ewh} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals sonic damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 22 Constitution saving throw. On a failed save, the creature takes {@damage 1d8} sonic damage and is {@condition deafened} until the start of your next turn. On a successful save, a creature takes half damage and isn't {@condition deafened}."
 			],
 			"bonusWeapon": "+3"
 		},
@@ -7671,7 +7671,7 @@
 			"type": "AF",
 			"rarity": "rare",
 			"entries": [
-				"You have a +2 bonus to attack and damage rolls made with this enhanced {@item deafening cell|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item deafening cell|sw5ephb} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals sonic damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 18 Constitution saving throw. On a failed save, the creature takes {@damage 1d6} sonic damage and is {@condition deafened} until the start of your next turn. On a successful save, a creature takes half damage and isn't {@condition deafened}."
+				"You have a +2 bonus to attack and damage rolls made with this enhanced {@item deafening cell|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item deafening cell|sw5ewh} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals sonic damage instead of its normal damage type, and when you hit with a shot the creature must make a DC 18 Constitution saving throw. On a failed save, the creature takes {@damage 1d6} sonic damage and is {@condition deafened} until the start of your next turn. On a successful save, a creature takes half damage and isn't {@condition deafened}."
 			],
 			"bonusWeapon": "+2"
 		},
@@ -8936,7 +8936,7 @@
 			"type": "SCF",
 			"rarity": "common",
 			"entries": [
-				"When you cast a force power through this {@item focus generator|sw5ephb} that has a range of 5 feet or greater, you can increase the range of that force power by 10 feet."
+				"When you cast a force power through this {@item focus generator|sw5ewh} that has a range of 5 feet or greater, you can increase the range of that force power by 10 feet."
 			],
 			"baseItem": "focus generator|sw5ephb",
 			"focus": true
@@ -8948,7 +8948,7 @@
 			"type": "SCF",
 			"rarity": "uncommon",
 			"entries": [
-				"When you cast a force power through this {@item focus generator|sw5ephb} that has a range of 5 feet or greater, you can increase the range of that force power by 20 feet."
+				"When you cast a force power through this {@item focus generator|sw5ewh} that has a range of 5 feet or greater, you can increase the range of that force power by 20 feet."
 			],
 			"baseItem": "focus generator|sw5ephb",
 			"focus": true
@@ -9150,7 +9150,7 @@
 			"type": "AF",
 			"rarity": "uncommon",
 			"entries": [
-				"You have a +1 bonus to attack and damage rolls made with this enhanced {@item electrifying cartridge|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item electrifying cartridge|sw5ephb} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 16 Dexterity saving throw. On a failed save, the creature takes {@damage 1d4} lightning damage and becomes shocked until the end of its next turn. On a successful save, a creature takes half damage and isn't shocked."
+				"You have a +1 bonus to attack and damage rolls made with this enhanced {@item electrifying cartridge|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item electrifying cartridge|sw5ewh} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 16 Dexterity saving throw. On a failed save, the creature takes {@damage 1d4} lightning damage and becomes shocked until the end of its next turn. On a successful save, a creature takes half damage and isn't shocked."
 			],
 			"bonusWeapon": "+1"
 		},
@@ -9161,7 +9161,7 @@
 			"type": "AF",
 			"rarity": "very rare",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item electrifying cartridge|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item electrifying cartridge|sw5ephb} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 20 Dexterity saving throw. On a failed save, the creature takes {@damage 1d4} lightning damage and becomes shocked until the end of its next turn. On a successful save, a creature takes half damage and isn't shocked."
+				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item electrifying cartridge|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item electrifying cartridge|sw5ewh} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 20 Dexterity saving throw. On a failed save, the creature takes {@damage 1d4} lightning damage and becomes shocked until the end of its next turn. On a successful save, a creature takes half damage and isn't shocked."
 			],
 			"bonusWeapon": "+3"
 		},
@@ -9172,7 +9172,7 @@
 			"type": "AF",
 			"rarity": "artifact",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item electrifying cartridge|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item electrifying cartridge|sw5ephb} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 24 Dexterity saving throw. On a failed save, the creature takes {@damage 1d8} lightning damage and becomes shocked until the end of its next turn. On a successful save, a creature takes half damage and isn't shocked."
+				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item electrifying cartridge|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item electrifying cartridge|sw5ewh} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 24 Dexterity saving throw. On a failed save, the creature takes {@damage 1d8} lightning damage and becomes shocked until the end of its next turn. On a successful save, a creature takes half damage and isn't shocked."
 			],
 			"bonusWeapon": "+3"
 		},
@@ -9183,7 +9183,7 @@
 			"type": "AF",
 			"rarity": "legendary",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item electrifying cartridge|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item electrifying cartridge|sw5ephb} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 22 Dexterity saving throw. On a failed save, the creature takes {@damage 1d6} lightning damage and becomes shocked until the end of its next turn. On a successful save, a creature takes half damage and isn't shocked."
+				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item electrifying cartridge|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item electrifying cartridge|sw5ewh} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 22 Dexterity saving throw. On a failed save, the creature takes {@damage 1d6} lightning damage and becomes shocked until the end of its next turn. On a successful save, a creature takes half damage and isn't shocked."
 			],
 			"bonusWeapon": "+3"
 		},
@@ -9194,7 +9194,7 @@
 			"type": "AF",
 			"rarity": "rare",
 			"entries": [
-				"You have a +2 bonus to attack and damage rolls made with this enhanced {@item electrifying cartridge|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item electrifying cartridge|sw5ephb} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 18 Dexterity saving throw. On a failed save, the creature takes {@damage 1d4} lightning damage and becomes shocked until the end of its next turn. On a successful save, a creature takes half damage and isn't shocked."
+				"You have a +2 bonus to attack and damage rolls made with this enhanced {@item electrifying cartridge|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item electrifying cartridge|sw5ewh} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 18 Dexterity saving throw. On a failed save, the creature takes {@damage 1d4} lightning damage and becomes shocked until the end of its next turn. On a successful save, a creature takes half damage and isn't shocked."
 			],
 			"bonusWeapon": "+2"
 		},
@@ -9725,7 +9725,7 @@
 			"value": 6000,
 			"weight": 15,
 			"entries": [
-				"This shelter comes packed in a 2-foot-long tube. When activated, the shelter deploys, expanding to full size in 1 minute. The shelter is 8 feet long, 8 feet wide, and 6 feet tall, and can house up to six Medium creatures. The shelter includes spikes that automatically mount to the ground, provided they can find purchase. The shelter comes with an integrated {@item power generator|sw5ephb}, faint glowing lights in the interior which provide dim light, and creatures in the shelter are protected from the elements, including hot and cold climates, as described in chapter 5 of the Dungeon Master's Guide. The shelter's {@item power generator|sw5ephb} lasts for seven days, after which it stops providing light. The shelter can be collapsed and restored over the course of 10 minutes."
+				"This shelter comes packed in a 2-foot-long tube. When activated, the shelter deploys, expanding to full size in 1 minute. The shelter is 8 feet long, 8 feet wide, and 6 feet tall, and can house up to six Medium creatures. The shelter includes spikes that automatically mount to the ground, provided they can find purchase. The shelter comes with an integrated {@item power generator|sw5ewh}, faint glowing lights in the interior which provide dim light, and creatures in the shelter are protected from the elements, including hot and cold climates, as described in chapter 5 of the Dungeon Master's Guide. The shelter's {@item power generator|sw5ewh} lasts for seven days, after which it stops providing light. The shelter can be collapsed and restored over the course of 10 minutes."
 			]
 		},
 		{
@@ -11241,7 +11241,7 @@
 			"type": "AF",
 			"rarity": "uncommon",
 			"entries": [
-				"When triggered, this enhanced {@item flechette cannon|sw5ephb} ammunition fires a volley of kinetic flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 16 Dexterity saving throw. A creature takes {@damage 3d10} kinetic damage on a failed save, or half as much as on a successful one."
+				"When triggered, this enhanced {@item flechette cannon|sw5ewh} ammunition fires a volley of kinetic flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 16 Dexterity saving throw. A creature takes {@damage 3d10} kinetic damage on a failed save, or half as much as on a successful one."
 			]
 		},
 		{
@@ -11251,7 +11251,7 @@
 			"type": "AF",
 			"rarity": "very rare",
 			"entries": [
-				"When triggered, this enhanced {@item flechette cannon|sw5ephb} ammunition fires a volley of kinetic flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 20 Dexterity saving throw. A creature takes {@damage 5d10} kinetic damage on a failed save, or half as much as on a successful one."
+				"When triggered, this enhanced {@item flechette cannon|sw5ewh} ammunition fires a volley of kinetic flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 20 Dexterity saving throw. A creature takes {@damage 5d10} kinetic damage on a failed save, or half as much as on a successful one."
 			]
 		},
 		{
@@ -11261,7 +11261,7 @@
 			"type": "AF",
 			"rarity": "artifact",
 			"entries": [
-				"When triggered, this enhanced {@item flechette cannon|sw5ephb} ammunition fires a volley of kinetic flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 24 Dexterity saving throw. A creature takes {@damage 7d10} kinetic damage on a failed save, or half as much as on a successful one."
+				"When triggered, this enhanced {@item flechette cannon|sw5ewh} ammunition fires a volley of kinetic flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 24 Dexterity saving throw. A creature takes {@damage 7d10} kinetic damage on a failed save, or half as much as on a successful one."
 			]
 		},
 		{
@@ -11271,7 +11271,7 @@
 			"type": "AF",
 			"rarity": "legendary",
 			"entries": [
-				"When triggered, this enhanced {@item flechette cannon|sw5ephb} ammunition fires a volley of kinetic flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 22 Dexterity saving throw. A creature takes {@damage 6d10} kinetic damage on a failed save, or half as much as on a successful one."
+				"When triggered, this enhanced {@item flechette cannon|sw5ewh} ammunition fires a volley of kinetic flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 22 Dexterity saving throw. A creature takes {@damage 6d10} kinetic damage on a failed save, or half as much as on a successful one."
 			]
 		},
 		{
@@ -11281,7 +11281,7 @@
 			"type": "AF",
 			"rarity": "rare",
 			"entries": [
-				"When triggered, this enhanced {@item flechette cannon|sw5ephb} ammunition fires a volley of kinetic flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 18 Dexterity saving throw. A creature takes {@damage 4d10} kinetic damage on a failed save, or half as much as on a successful one."
+				"When triggered, this enhanced {@item flechette cannon|sw5ewh} ammunition fires a volley of kinetic flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 18 Dexterity saving throw. A creature takes {@damage 4d10} kinetic damage on a failed save, or half as much as on a successful one."
 			]
 		},
 		{
@@ -11291,7 +11291,7 @@
 			"type": "AF",
 			"rarity": "uncommon",
 			"entries": [
-				"When triggered, this enhanced {@item flechette cannon|sw5ephb} ammunition fires a volley of ion flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 16 Dexterity saving throw. A creature takes {@damage 3d6} ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
+				"When triggered, this enhanced {@item flechette cannon|sw5ewh} ammunition fires a volley of ion flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 16 Dexterity saving throw. A creature takes {@damage 3d6} ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
 			]
 		},
 		{
@@ -11301,7 +11301,7 @@
 			"type": "AF",
 			"rarity": "very rare",
 			"entries": [
-				"When triggered, this enhanced {@item flechette cannon|sw5ephb} ammunition fires a volley of ion flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 20 Dexterity saving throw. A creature takes {@damage 5d6} ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
+				"When triggered, this enhanced {@item flechette cannon|sw5ewh} ammunition fires a volley of ion flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 20 Dexterity saving throw. A creature takes {@damage 5d6} ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
 			]
 		},
 		{
@@ -11311,7 +11311,7 @@
 			"type": "AF",
 			"rarity": "artifact",
 			"entries": [
-				"When triggered, this enhanced {@item flechette cannon|sw5ephb} ammunition fires a volley of ion flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 24 Dexterity saving throw. A creature takes {@damage 7d6} ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
+				"When triggered, this enhanced {@item flechette cannon|sw5ewh} ammunition fires a volley of ion flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 24 Dexterity saving throw. A creature takes {@damage 7d6} ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
 			]
 		},
 		{
@@ -11321,7 +11321,7 @@
 			"type": "AF",
 			"rarity": "legendary",
 			"entries": [
-				"When triggered, this enhanced {@item flechette cannon|sw5ephb} ammunition fires a volley of ion flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 22 Dexterity saving throw. A creature takes {@damage 6d6} ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
+				"When triggered, this enhanced {@item flechette cannon|sw5ewh} ammunition fires a volley of ion flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 22 Dexterity saving throw. A creature takes {@damage 6d6} ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
 			]
 		},
 		{
@@ -11331,7 +11331,7 @@
 			"type": "AF",
 			"rarity": "rare",
 			"entries": [
-				"When triggered, this enhanced {@item flechette cannon|sw5ephb} ammunition fires a volley of ion flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 18 Dexterity saving throw. A creature takes {@damage 4d6} ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
+				"When triggered, this enhanced {@item flechette cannon|sw5ewh} ammunition fires a volley of ion flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 18 Dexterity saving throw. A creature takes {@damage 4d6} ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
 			]
 		},
 		{
@@ -11341,7 +11341,7 @@
 			"type": "AF",
 			"rarity": "uncommon",
 			"entries": [
-				"When triggered, this enhanced {@item flechette cannon|sw5ephb} ammunition fires a volley of energy flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 16 Dexterity saving throw. A creature takes {@damage 3d10} energy damage on a failed save, or half as much as on a successful one."
+				"When triggered, this enhanced {@item flechette cannon|sw5ewh} ammunition fires a volley of energy flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 16 Dexterity saving throw. A creature takes {@damage 3d10} energy damage on a failed save, or half as much as on a successful one."
 			]
 		},
 		{
@@ -11351,7 +11351,7 @@
 			"type": "AF",
 			"rarity": "very rare",
 			"entries": [
-				"When triggered, this enhanced {@item flechette cannon|sw5ephb} ammunition fires a volley of energy flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 20 Dexterity saving throw. A creature takes {@damage 5d10} energy damage on a failed save, or half as much as on a successful one."
+				"When triggered, this enhanced {@item flechette cannon|sw5ewh} ammunition fires a volley of energy flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 20 Dexterity saving throw. A creature takes {@damage 5d10} energy damage on a failed save, or half as much as on a successful one."
 			]
 		},
 		{
@@ -11361,7 +11361,7 @@
 			"type": "AF",
 			"rarity": "artifact",
 			"entries": [
-				"When triggered, this enhanced {@item flechette cannon|sw5ephb} ammunition fires a volley of energy flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 24 Dexterity saving throw. A creature takes {@damage 7d10} energy damage on a failed save, or half as much as on a successful one."
+				"When triggered, this enhanced {@item flechette cannon|sw5ewh} ammunition fires a volley of energy flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 24 Dexterity saving throw. A creature takes {@damage 7d10} energy damage on a failed save, or half as much as on a successful one."
 			]
 		},
 		{
@@ -11371,7 +11371,7 @@
 			"type": "AF",
 			"rarity": "legendary",
 			"entries": [
-				"When triggered, this enhanced {@item flechette cannon|sw5ephb} ammunition fires a volley of energy flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 22 Dexterity saving throw. A creature takes {@damage 6d10} energy damage on a failed save, or half as much as on a successful one."
+				"When triggered, this enhanced {@item flechette cannon|sw5ewh} ammunition fires a volley of energy flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 22 Dexterity saving throw. A creature takes {@damage 6d10} energy damage on a failed save, or half as much as on a successful one."
 			]
 		},
 		{
@@ -11381,7 +11381,7 @@
 			"type": "AF",
 			"rarity": "rare",
 			"entries": [
-				"When triggered, this enhanced {@item flechette cannon|sw5ephb} ammunition fires a volley of energy flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 18 Dexterity saving throw. A creature takes {@damage 4d10} energy damage on a failed save, or half as much as on a successful one."
+				"When triggered, this enhanced {@item flechette cannon|sw5ewh} ammunition fires a volley of energy flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 18 Dexterity saving throw. A creature takes {@damage 4d10} energy damage on a failed save, or half as much as on a successful one."
 			]
 		},
 		{
@@ -11456,7 +11456,7 @@
 			"value": 5500,
 			"weight": 4,
 			"entries": [
-				"When triggered, this {@item flechette cannon|sw5ephb} ammunition fires a volley of kinetic flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 14 Dexterity saving throw. A creature takes {@damage 2d10} kinetic damage on a failed save, or half as much as on a successful one."
+				"When triggered, this {@item flechette cannon|sw5ewh} ammunition fires a volley of kinetic flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 14 Dexterity saving throw. A creature takes {@damage 2d10} kinetic damage on a failed save, or half as much as on a successful one."
 			]
 		},
 		{
@@ -11468,7 +11468,7 @@
 			"value": 6000,
 			"weight": 4,
 			"entries": [
-				"When triggered, this {@item flechette cannon|sw5ephb} ammunition fires a volley of ion flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 14 Dexterity saving throw. A creature takes {@damage 2d6} ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
+				"When triggered, this {@item flechette cannon|sw5ewh} ammunition fires a volley of ion flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 14 Dexterity saving throw. A creature takes {@damage 2d6} ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
 			]
 		},
 		{
@@ -11480,7 +11480,7 @@
 			"value": 5750,
 			"weight": 4,
 			"entries": [
-				"When triggered, this {@item flechette cannon|sw5ephb} ammunition fires a volley of energy flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 14 Dexterity saving throw. A creature takes {@damage 2d10} energy damage on a failed save, or half as much as on a successful one."
+				"When triggered, this {@item flechette cannon|sw5ewh} ammunition fires a volley of energy flechette rounds in a short line 15 feet long and 5 feet wide or a long line 45 feet long and 5 feet wide. A single flechette mag holds enough ammunition for three attacks in a short line or one attack in a long line. Each creature must make a DC 14 Dexterity saving throw. A creature takes {@damage 2d10} energy damage on a failed save, or half as much as on a successful one."
 			]
 		},
 		{
@@ -11613,7 +11613,7 @@
 			"type": "SCF",
 			"rarity": "uncommon",
 			"entries": [
-				"You gain a +1 bonus to the force attack rolls for force powers you cast through this {@item focus generator|sw5ephb}."
+				"You gain a +1 bonus to the force attack rolls for force powers you cast through this {@item focus generator|sw5ewh}."
 			],
 			"reqAttune": true,
 			"baseItem": "focus|sw5ephb",
@@ -11627,7 +11627,7 @@
 			"type": "SCF",
 			"rarity": "rare",
 			"entries": [
-				"You gain a +2 bonus to the force attack rolls for force powers you cast through this {@item focus generator|sw5ephb}."
+				"You gain a +2 bonus to the force attack rolls for force powers you cast through this {@item focus generator|sw5ewh}."
 			],
 			"reqAttune": true,
 			"baseItem": "focus|sw5ephb",
@@ -11641,7 +11641,7 @@
 			"type": "SCF",
 			"rarity": "very rare",
 			"entries": [
-				"You gain a +3 bonus to the force attack rolls for force powers you cast through this {@item focus generator|sw5ephb}."
+				"You gain a +3 bonus to the force attack rolls for force powers you cast through this {@item focus generator|sw5ewh}."
 			],
 			"reqAttune": true,
 			"baseItem": "focus|sw5ephb",
@@ -11655,7 +11655,7 @@
 			"type": "SCF",
 			"rarity": "very rare",
 			"entries": [
-				"This modifiable {@item focus generator|sw5ephb} chassis comes with vacant modification slots for {@item focus generator|sw5ephb} modifications, as well as one augment slot. It can house modifications of advanced rarity or lower."
+				"This modifiable {@item focus generator|sw5ewh} chassis comes with vacant modification slots for {@item focus generator|sw5ewh} modifications, as well as one augment slot. It can house modifications of advanced rarity or lower."
 			],
 			"reqAttune": true,
 			"baseItem": "force|sw5ephb",
@@ -11668,7 +11668,7 @@
 			"type": "SCF",
 			"rarity": "artifact",
 			"entries": [
-				"This modifiable {@item focus generator|sw5ephb} chassis comes with vacant modification slots for {@item focus generator|sw5ephb} modifications, as well as two augment slots. It can house modifications of artifact rarity or lower."
+				"This modifiable {@item focus generator|sw5ewh} chassis comes with vacant modification slots for {@item focus generator|sw5ewh} modifications, as well as two augment slots. It can house modifications of artifact rarity or lower."
 			],
 			"reqAttune": true,
 			"baseItem": "force|sw5ephb",
@@ -11681,7 +11681,7 @@
 			"type": "SCF",
 			"rarity": "legendary",
 			"entries": [
-				"This modifiable {@item focus generator|sw5ephb} chassis comes with vacant modification slots for {@item focus generator|sw5ephb} modifications, as well as two augment slots. It can house modifications of legendary rarity or lower."
+				"This modifiable {@item focus generator|sw5ewh} chassis comes with vacant modification slots for {@item focus generator|sw5ewh} modifications, as well as two augment slots. It can house modifications of legendary rarity or lower."
 			],
 			"reqAttune": true,
 			"baseItem": "force|sw5ephb",
@@ -11694,7 +11694,7 @@
 			"type": "SCF",
 			"rarity": "uncommon",
 			"entries": [
-				"This modifiable {@item focus generator|sw5ephb} chassis comes with vacant modification slots for {@item focus generator|sw5ephb} modifications. It can house modifications of premium rarity or lower."
+				"This modifiable {@item focus generator|sw5ewh} chassis comes with vacant modification slots for {@item focus generator|sw5ewh} modifications. It can house modifications of premium rarity or lower."
 			],
 			"reqAttune": true,
 			"baseItem": "force|sw5ephb",
@@ -11707,7 +11707,7 @@
 			"type": "SCF",
 			"rarity": "rare",
 			"entries": [
-				"This modifiable {@item focus generator|sw5ephb} chassis comes with vacant modification slots for {@item focus generator|sw5ephb} modifications, as well as one augment slot. It can house modifications of prototype rarity or lower."
+				"This modifiable {@item focus generator|sw5ewh} chassis comes with vacant modification slots for {@item focus generator|sw5ewh} modifications, as well as one augment slot. It can house modifications of prototype rarity or lower."
 			],
 			"reqAttune": true,
 			"baseItem": "force|sw5ephb",
@@ -11720,7 +11720,7 @@
 			"type": "SCF",
 			"rarity": "common",
 			"entries": [
-				"This modifiable {@item focus generator|sw5ephb} chassis comes with vacant modification slots for {@item focus generator|sw5ephb} modifications. It can house modifications of standard rarity."
+				"This modifiable {@item focus generator|sw5ewh} chassis comes with vacant modification slots for {@item focus generator|sw5ewh} modifications. It can house modifications of standard rarity."
 			],
 			"reqAttune": true,
 			"baseItem": "force|sw5ephb",
@@ -12001,7 +12001,7 @@
 			"type": "AF",
 			"rarity": "uncommon",
 			"entries": [
-				"You have a +1 bonus to attack and damage rolls made with this enhanced {@item gas cartridge|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item gas cartridge|sw5ephb} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 16 Constitution saving throw. On a failed save, the creature takes {@damage 1d6} poison damage and is {@condition poisoned} until the start of its next turn. On a successful save, a creature takes half damage and isn't {@condition poisoned}."
+				"You have a +1 bonus to attack and damage rolls made with this enhanced {@item gas cartridge|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item gas cartridge|sw5ewh} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 16 Constitution saving throw. On a failed save, the creature takes {@damage 1d6} poison damage and is {@condition poisoned} until the start of its next turn. On a successful save, a creature takes half damage and isn't {@condition poisoned}."
 			],
 			"bonusWeapon": "+1"
 		},
@@ -12012,7 +12012,7 @@
 			"type": "AF",
 			"rarity": "very rare",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item gas cartridge|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item gas cartridge|sw5ephb} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 20 Constitution saving throw. On a failed save, the creature takes {@damage 1d6} poison damage and is {@condition poisoned} until the start of its next turn. On a successful save, a creature takes half damage and isn't {@condition poisoned}."
+				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item gas cartridge|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item gas cartridge|sw5ewh} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 20 Constitution saving throw. On a failed save, the creature takes {@damage 1d6} poison damage and is {@condition poisoned} until the start of its next turn. On a successful save, a creature takes half damage and isn't {@condition poisoned}."
 			],
 			"bonusWeapon": "+3"
 		},
@@ -12023,7 +12023,7 @@
 			"type": "AF",
 			"rarity": "artifact",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item gas cartridge|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item gas cartridge|sw5ephb} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 24 Constitution saving throw. On a failed save, the creature takes {@damage 1d10} poison damage and is {@condition poisoned} until the start of its next turn. On a successful save, a creature takes half damage and isn't {@condition poisoned}."
+				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item gas cartridge|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item gas cartridge|sw5ewh} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 24 Constitution saving throw. On a failed save, the creature takes {@damage 1d10} poison damage and is {@condition poisoned} until the start of its next turn. On a successful save, a creature takes half damage and isn't {@condition poisoned}."
 			],
 			"bonusWeapon": "+3"
 		},
@@ -12034,7 +12034,7 @@
 			"type": "AF",
 			"rarity": "legendary",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item gas cartridge|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item gas cartridge|sw5ephb} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 22 Constitution saving throw. On a failed save, the creature takes {@damage 1d8} poison damage and is {@condition poisoned} until the start of its next turn. On a successful save, a creature takes half damage and isn't {@condition poisoned}."
+				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item gas cartridge|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item gas cartridge|sw5ewh} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 22 Constitution saving throw. On a failed save, the creature takes {@damage 1d8} poison damage and is {@condition poisoned} until the start of its next turn. On a successful save, a creature takes half damage and isn't {@condition poisoned}."
 			],
 			"bonusWeapon": "+3"
 		},
@@ -12045,7 +12045,7 @@
 			"type": "AF",
 			"rarity": "rare",
 			"entries": [
-				"You have a +2 bonus to attack and damage rolls made with this enhanced {@item gas cartridge|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item gas cartridge|sw5ephb} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 18 Constitution saving throw. On a failed save, the creature takes {@damage 1d6} poison damage and is {@condition poisoned} until the start of its next turn. On a successful save, a creature takes half damage and isn't {@condition poisoned}."
+				"You have a +2 bonus to attack and damage rolls made with this enhanced {@item gas cartridge|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item gas cartridge|sw5ewh} has been fired, it no longer gives a bonus. Additionally, when you hit with a shot with the loaded weapon, the creature must make a DC 18 Constitution saving throw. On a failed save, the creature takes {@damage 1d6} poison damage and is {@condition poisoned} until the start of its next turn. On a successful save, a creature takes half damage and isn't {@condition poisoned}."
 			],
 			"bonusWeapon": "+2"
 		},
@@ -12296,7 +12296,7 @@
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"This armor gains an integrated {@item grappling harpoon|sw5ephb} set into your gauntlet. With this harpoon, you can make a ranged weapon attack with a range of 30/60. On a hit, it deals {@damage 1d6} kinetic damage. This attack can target a surface, object, or creature.",
+				"This armor gains an integrated {@item grappling harpoon|sw5ewh} set into your gauntlet. With this harpoon, you can make a ranged weapon attack with a range of 30/60. On a hit, it deals {@damage 1d6} kinetic damage. This attack can target a surface, object, or creature.",
 				"A creature struck by this attack is impaled by the harpoon. As an action, a creature can attempt to remove the harpoon. Removing the harpoon requires a DC 15 Strength check. While the harpoon is stuck in the target, you are connected to the target by a 60 foot cable.",
 				"While the harpoon is deployed, you can use your bonus action to activate the reel, pulling yourself to the location if the target is larger than you. A creature or object your size or smaller is pulled to you. Alternatively, you can opt to release the cable (no action required).",
 				"Once you've used this feature, you can't use it again until you recover and reinsert the harpoon as an action."
@@ -12355,7 +12355,7 @@
 			"type": "M",
 			"rarity": "artifact",
 			"entries": [
-				"Rather than traditional {@item power cell|sw5ephb|power cells}, the {@item grenade launcher|sw5ephb} fires grenades. When firing a grenade at long range, or if you don't meet the {@item grenade launcher|sw5ephb}'s strength requirement, creatures within the radius of the grenade's explosion have advantage on the saving throw. If you lack proficiency in the {@item grenade launcher|sw5ephb}, you must roll the damage dice twice and take the lesser total. You have a +3 bonus to the save DC and deal two additional damage dice with grenades fired by this enhanced {@item grenade launcher|sw5ephb}."
+				"Rather than traditional {@item power cell|sw5ephb|power cells}, the {@item grenade launcher|sw5ewh} fires grenades. When firing a grenade at long range, or if you don't meet the {@item grenade launcher|sw5ewh}'s strength requirement, creatures within the radius of the grenade's explosion have advantage on the saving throw. If you lack proficiency in the {@item grenade launcher|sw5ewh}, you must roll the damage dice twice and take the lesser total. You have a +3 bonus to the save DC and deal two additional damage dice with grenades fired by this enhanced {@item grenade launcher|sw5ewh}."
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -12368,7 +12368,7 @@
 			"type": "M",
 			"rarity": "legendary",
 			"entries": [
-				"Rather than traditional {@item power cell|sw5ephb|power cells}, the {@item grenade launcher|sw5ephb} fires grenades. When firing a grenade at long range, or if you don't meet the {@item grenade launcher|sw5ephb}'s strength requirement, creatures within the radius of the grenade's explosion have advantage on the saving throw. If you lack proficiency in the {@item grenade launcher|sw5ephb}, you must roll the damage dice twice and take the lesser total. You have a +3 bonus to the save DC and deal one additional damage die with grenades fired by this enhanced {@item grenade launcher|sw5ephb}."
+				"Rather than traditional {@item power cell|sw5ephb|power cells}, the {@item grenade launcher|sw5ewh} fires grenades. When firing a grenade at long range, or if you don't meet the {@item grenade launcher|sw5ewh}'s strength requirement, creatures within the radius of the grenade's explosion have advantage on the saving throw. If you lack proficiency in the {@item grenade launcher|sw5ewh}, you must roll the damage dice twice and take the lesser total. You have a +3 bonus to the save DC and deal one additional damage die with grenades fired by this enhanced {@item grenade launcher|sw5ewh}."
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -12381,7 +12381,7 @@
 			"type": "M",
 			"rarity": "uncommon",
 			"entries": [
-				"Rather than traditional {@item power cell|sw5ephb|power cells}, the {@item grenade launcher|sw5ephb} fires grenades. When firing a grenade at long range, or if you don't meet the {@item grenade launcher|sw5ephb}'s strength requirement, creatures within the radius of the grenade's explosion have advantage on the saving throw. If you lack proficiency in the {@item grenade launcher|sw5ephb}, you must roll the damage dice twice and take the lesser total. You have a +1 bonus to the save DC and damage rolls of grenades fired by this enhanced {@item grenade launcher|sw5ephb}."
+				"Rather than traditional {@item power cell|sw5ephb|power cells}, the {@item grenade launcher|sw5ewh} fires grenades. When firing a grenade at long range, or if you don't meet the {@item grenade launcher|sw5ewh}'s strength requirement, creatures within the radius of the grenade's explosion have advantage on the saving throw. If you lack proficiency in the {@item grenade launcher|sw5ewh}, you must roll the damage dice twice and take the lesser total. You have a +1 bonus to the save DC and damage rolls of grenades fired by this enhanced {@item grenade launcher|sw5ewh}."
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -12395,7 +12395,7 @@
 			"type": "M",
 			"rarity": "rare",
 			"entries": [
-				"Rather than traditional {@item power cell|sw5ephb|power cells}, the {@item grenade launcher|sw5ephb} fires grenades. When firing a grenade at long range, or if you don't meet the {@item grenade launcher|sw5ephb}'s strength requirement, creatures within the radius of the grenade's explosion have advantage on the saving throw. If you lack proficiency in the {@item grenade launcher|sw5ephb}, you must roll the damage dice twice and take the lesser total. You have a +2 bonus to the save DC and damage rolls of grenades fired by this enhanced {@item grenade launcher|sw5ephb}."
+				"Rather than traditional {@item power cell|sw5ephb|power cells}, the {@item grenade launcher|sw5ewh} fires grenades. When firing a grenade at long range, or if you don't meet the {@item grenade launcher|sw5ewh}'s strength requirement, creatures within the radius of the grenade's explosion have advantage on the saving throw. If you lack proficiency in the {@item grenade launcher|sw5ewh}, you must roll the damage dice twice and take the lesser total. You have a +2 bonus to the save DC and damage rolls of grenades fired by this enhanced {@item grenade launcher|sw5ewh}."
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -12409,7 +12409,7 @@
 			"type": "M",
 			"rarity": "very rare",
 			"entries": [
-				"Rather than traditional {@item power cell|sw5ephb|power cells}, the {@item grenade launcher|sw5ephb} fires grenades. When firing a grenade at long range, or if you don't meet the {@item grenade launcher|sw5ephb}'s strength requirement, creatures within the radius of the grenade's explosion have advantage on the saving throw. If you lack proficiency in the {@item grenade launcher|sw5ephb}, you must roll the damage dice twice and take the lesser total. You have a +3 bonus to the save DC and damage rolls of grenades fired by this enhanced {@item grenade launcher|sw5ephb}."
+				"Rather than traditional {@item power cell|sw5ephb|power cells}, the {@item grenade launcher|sw5ewh} fires grenades. When firing a grenade at long range, or if you don't meet the {@item grenade launcher|sw5ewh}'s strength requirement, creatures within the radius of the grenade's explosion have advantage on the saving throw. If you lack proficiency in the {@item grenade launcher|sw5ewh}, you must roll the damage dice twice and take the lesser total. You have a +3 bonus to the save DC and damage rolls of grenades fired by this enhanced {@item grenade launcher|sw5ewh}."
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
@@ -14399,7 +14399,7 @@
 			"property": [
 				"MOD"
 			],
-			"modal": "{@item blaster rifle|sw5ephb}, {@item grenade launcher|sw5ephb}, and {@item sniper rifle|sw5ephb}"
+			"modal": "{@item blaster rifle|sw5ephb}, {@item grenade launcher|sw5ewh}, and {@item sniper rifle|sw5ephb}"
 		},
 		{
 			"name": "Impermeable Armoring",
@@ -14418,7 +14418,7 @@
 			"type": "AF",
 			"rarity": "uncommon",
 			"entries": [
-				"You have a +1 bonus to attack and damage rolls made with this enhanced {@item incendiary cell|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item incendiary cell|sw5ephb} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals fire damage instead of its normal damage type, and when you hit with a shot it sets the ground beneath it in a 5-foot square ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 16 Dexterity saving throw. On a failed save, the creature takes {@damage 1d8} fire damage or half as much on a successful one. A construct makes this save with disadvantage."
+				"You have a +1 bonus to attack and damage rolls made with this enhanced {@item incendiary cell|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item incendiary cell|sw5ewh} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals fire damage instead of its normal damage type, and when you hit with a shot it sets the ground beneath it in a 5-foot square ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 16 Dexterity saving throw. On a failed save, the creature takes {@damage 1d8} fire damage or half as much on a successful one. A construct makes this save with disadvantage."
 			],
 			"bonusWeapon": "+1"
 		},
@@ -14429,7 +14429,7 @@
 			"type": "AF",
 			"rarity": "very rare",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item incendiary cell|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item incendiary cell|sw5ephb} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals fire damage instead of its normal damage type, and when you hit with a shot it sets the ground beneath it in a 5-foot square ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 20 Dexterity saving throw. On a failed save, the creature takes {@damage 1d8} fire damage or half as much on a successful one. A construct makes this save with disadvantage."
+				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item incendiary cell|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item incendiary cell|sw5ewh} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals fire damage instead of its normal damage type, and when you hit with a shot it sets the ground beneath it in a 5-foot square ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 20 Dexterity saving throw. On a failed save, the creature takes {@damage 1d8} fire damage or half as much on a successful one. A construct makes this save with disadvantage."
 			],
 			"bonusWeapon": "+3"
 		},
@@ -14440,7 +14440,7 @@
 			"type": "AF",
 			"rarity": "artifact",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item incendiary cell|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item incendiary cell|sw5ephb} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals fire damage instead of its normal damage type, and when you hit with a shot it sets the ground beneath it in a 5-foot square ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 24 Dexterity saving throw. On a failed save, the creature takes {@damage 1d12} fire damage or half as much on a successful one. A construct makes this save with disadvantage."
+				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item incendiary cell|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item incendiary cell|sw5ewh} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals fire damage instead of its normal damage type, and when you hit with a shot it sets the ground beneath it in a 5-foot square ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 24 Dexterity saving throw. On a failed save, the creature takes {@damage 1d12} fire damage or half as much on a successful one. A construct makes this save with disadvantage."
 			],
 			"bonusWeapon": "+3"
 		},
@@ -14451,7 +14451,7 @@
 			"type": "AF",
 			"rarity": "legendary",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item incendiary cell|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item incendiary cell|sw5ephb} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals fire damage instead of its normal damage type, and when you hit with a shot it sets the ground beneath it in a 5-foot square ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 22 Dexterity saving throw. On a failed save, the creature takes {@damage 1d10} fire damage or half as much on a successful one. A construct makes this save with disadvantage."
+				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item incendiary cell|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item incendiary cell|sw5ewh} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals fire damage instead of its normal damage type, and when you hit with a shot it sets the ground beneath it in a 5-foot square ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 22 Dexterity saving throw. On a failed save, the creature takes {@damage 1d10} fire damage or half as much on a successful one. A construct makes this save with disadvantage."
 			],
 			"bonusWeapon": "+3"
 		},
@@ -14462,7 +14462,7 @@
 			"type": "AF",
 			"rarity": "rare",
 			"entries": [
-				"You have a +2 bonus to attack and damage rolls made with this enhanced {@item incendiary cell|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item incendiary cell|sw5ephb} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals fire damage instead of its normal damage type, and when you hit with a shot it sets the ground beneath it in a 5-foot square ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 18 Dexterity saving throw. On a failed save, the creature takes {@damage 1d8} fire damage or half as much on a successful one. A construct makes this save with disadvantage."
+				"You have a +2 bonus to attack and damage rolls made with this enhanced {@item incendiary cell|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item incendiary cell|sw5ewh} is depleted, it no longer gives a bonus. Additionally, the loaded weapon deals fire damage instead of its normal damage type, and when you hit with a shot it sets the ground beneath it in a 5-foot square ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 18 Dexterity saving throw. On a failed save, the creature takes {@damage 1d8} fire damage or half as much on a successful one. A construct makes this save with disadvantage."
 			],
 			"bonusWeapon": "+2"
 		},
@@ -15657,7 +15657,7 @@
 			"rarity": "rare",
 			"entries": [
 				"While wearing this armor, you are considered proficient regardless of whether or not you have proficiency in medium armor. Additionally, it grants a +1 bonus to AC.",
-				"{@b {@i Jensaarai Regalia.}} While wearing and attuned to this armor and {@item Jensaarai Cloak|sw5ephb}, you are adapted to both hot and cold climates, as described in chapter 5 of the Dungeon Master's Guide. Additionally, this armor now grants a +2 bonus to AC, instead of +1. While wearing and attuned to this armor, {@item Jensaarai Cloak|sw5ephb}, and {@item Jensaarai Headgear|sw5ephb}, this armor now grants a +3 bonus to AC, instead of +2.",
+				"{@b {@i Jensaarai Regalia.}} While wearing and attuned to this armor and {@item Jensaarai Cloak|sw5ewh}, you are adapted to both hot and cold climates, as described in chapter 5 of the Dungeon Master's Guide. Additionally, this armor now grants a +2 bonus to AC, instead of +1. While wearing and attuned to this armor, {@item Jensaarai Cloak|sw5ewh}, and {@item Jensaarai Headgear|sw5ewh}, this armor now grants a +3 bonus to AC, instead of +2.",
 				"{@i At the height of their training, Jensaarai craft and bond with their own armor. While each set of armor is unique to its bearer, they share similar traits.}"
 			],
 			"reqAttune": true,
@@ -15672,7 +15672,7 @@
 			"rarity": "uncommon",
 			"entries": [
 				"While wearing this cloak with its hood up, you can try to hide when you are lightly obscured from the creature from which you are hiding. Pulling the hood up or down requires a bonus action.",
-				"{@b {@i Jensaarai Regalia.}} While wearing and attuned to this cloak and {@item Jensaarai Armor|sw5ephb}, while its hood is up, Wisdom ({@skill Perception}) checks made to see you have disadvantage, and you have advantage on Dexterity ({@skill Stealth}) checks made to hide. While wearing and attuned to this cloak, Jensaraai Armor, and {@item Jensaarai Headgear|sw5ephb}, when you make a Dexterity saving throw to an avoid an effect that would deal cold, energy, fire, force, or kinetic damage, you can add your Wisdom or Charisma modifier (your choice, minimum of one) to the roll if it doesn't already include that modifier.",
+				"{@b {@i Jensaarai Regalia.}} While wearing and attuned to this cloak and {@item Jensaarai Armor|sw5ewh}, while its hood is up, Wisdom ({@skill Perception}) checks made to see you have disadvantage, and you have advantage on Dexterity ({@skill Stealth}) checks made to hide. While wearing and attuned to this cloak, Jensaraai Armor, and {@item Jensaarai Headgear|sw5ewh}, when you make a Dexterity saving throw to an avoid an effect that would deal cold, energy, fire, force, or kinetic damage, you can add your Wisdom or Charisma modifier (your choice, minimum of one) to the roll if it doesn't already include that modifier.",
 				"{@i Most Jensaari wear a gray cloak that subtly adapts to their surroundings.}"
 			],
 			"reqAttune": true
@@ -15685,7 +15685,7 @@
 			"rarity": "very rare",
 			"entries": [
 				"While you are wearing this headgear, kinetic and energy damage that you take from unenhanced weapons is reduced by an amount equal to your proficiency bonus.",
-				"{@b {@i Jensaarai Regalia.}} While wearing and attuned to this armor and {@item Jensaarai Armor|sw5ephb}, this headgear no longer count towards your maximum attunement. While wearing and attuned to this headgear, {@item Jensaarai Armor|sw5ephb}, and {@item Jensaarai Cloak|sw5ephb}, fire, cold, and force damage you take is reduced by an amount equal to your proficiency bonus.",
+				"{@b {@i Jensaarai Regalia.}} While wearing and attuned to this armor and {@item Jensaarai Armor|sw5ewh}, this headgear no longer count towards your maximum attunement. While wearing and attuned to this headgear, {@item Jensaarai Armor|sw5ewh}, and {@item Jensaarai Cloak|sw5ewh}, fire, cold, and force damage you take is reduced by an amount equal to your proficiency bonus.",
 				"{@i Most Jensaarai craft a mask or helmet bearing the visage of an animal that best personifies their desires or goals.}"
 			],
 			"reqAttune": true
@@ -17068,7 +17068,7 @@
 			"rarity": "rare",
 			"entries": [
 				"This armor comes equipped with 24 slots that can each hold a single item that weighs less than 2 lb. Additionally, it grants a +1 bonus to AC.",
-				"{@b {@i Mandalorian Vestments.}} While wearing and attuned to this armor and {@item Mandalorian Helmet|sw5ephb}, you are able to survive and operate in zero gravity space and other dangerous conditions. Additionally, this armor now grants a +2 bonus to AC, instead of +1. While wearing and attuned to this armor, {@item Mandalorian Helmet|sw5ephb}, and {@item Mandalorian Shuk'orok|sw5ephb}, this armor now grants a +3 bonus to AC, instead of +2.",
+				"{@b {@i Mandalorian Vestments.}} While wearing and attuned to this armor and {@item Mandalorian Helmet|sw5ewh}, you are able to survive and operate in zero gravity space and other dangerous conditions. Additionally, this armor now grants a +2 bonus to AC, instead of +1. While wearing and attuned to this armor, {@item Mandalorian Helmet|sw5ewh}, and {@item Mandalorian Shuk'orok|sw5ewh}, this armor now grants a +3 bonus to AC, instead of +2.",
 				"{@i This armor is forged from an incredibly rare material known as beskar, a highly durable metal.}"
 			],
 			"reqAttune": true,
@@ -17082,7 +17082,7 @@
 			"rarity": "uncommon",
 			"entries": [
 				"This helmet comes equipped with a {@item headcomm|sw5ephb} and {@item holorecorder|sw5ephb}. Additionally, while wearing this helmet, you have {@sense darkvision} out to 60 feet.",
-				"{@b {@i Mandalorian Vestments.}} While wearing and attuned to this helmet and {@item Mandalorian Beskar'gam|sw5ephb}, you have advantage on Wisdom ({@skill Perception}) checks that rely on sight within 60 feet. While wearing and attuned to this helmet, {@item Mandalorian Beskar'gam|sw5ephb}, and {@item Mandalorian Shuk'orok|sw5ephb}, you have advantage on Intelligence ({@skill Investigation}) checks within 5 feet.",
+				"{@b {@i Mandalorian Vestments.}} While wearing and attuned to this helmet and {@item Mandalorian Beskar'gam|sw5ewh}, you have advantage on Wisdom ({@skill Perception}) checks that rely on sight within 60 feet. While wearing and attuned to this helmet, {@item Mandalorian Beskar'gam|sw5ewh}, and {@item Mandalorian Shuk'orok|sw5ewh}, you have advantage on Intelligence ({@skill Investigation}) checks within 5 feet.",
 				"{@i Featuring the iconic T-shaped visor of the Mandalorians, this helmet strikes fear into the hearts of the unwary.}"
 			],
 			"reqAttune": true
@@ -17095,7 +17095,7 @@
 			"rarity": "very rare",
 			"entries": [
 				"While wearing these gloves, your Strength score becomes 21. If your Strength is already equal to or greater than 21, it has no effect on you.",
-				"{@b {@i Mandalorian Vestments.}} While wearing and attuned to these gloves and {@item Mandalorian Beskar'gam|sw5ephb}, these gauntlets no longer count towards your maximum attunement. While wearing and attuned to these gloves, {@item Mandalorian Beskar'gam|sw5ephb}, and {@item Mandalorian Helmet|sw5ephb}, you have resistance to kinetic and energy damage from unenhanced sources.",
+				"{@b {@i Mandalorian Vestments.}} While wearing and attuned to these gloves and {@item Mandalorian Beskar'gam|sw5ewh}, these gauntlets no longer count towards your maximum attunement. While wearing and attuned to these gloves, {@item Mandalorian Beskar'gam|sw5ewh}, and {@item Mandalorian Helmet|sw5ewh}, you have resistance to kinetic and energy damage from unenhanced sources.",
 				"{@i The final piece of a Mandalorian's armor, these gauntlets grant augmented strength.}"
 			],
 			"reqAttune": true,
@@ -18792,7 +18792,7 @@
 			"type": "FD",
 			"rarity": "uncommon",
 			"entries": [
-				"{@item Muon gold|sw5ephb} is a lubricant-based spice that gives users intensified mental clarity and focus for a short time. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that increases their current and maximum tech points by {@dice 2d4}. At the end of the high, the creature must succeed on a DC 16 Wisdom saving throw or experience a low that lasts 1 hour, their current and maximum tech points are reduced by {@dice 2d4}. At the end of the low, the creature must make a DC 16 Constitution saving throw to resist addiction."
+				"{@item Muon gold|sw5ewh} is a lubricant-based spice that gives users intensified mental clarity and focus for a short time. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that increases their current and maximum tech points by {@dice 2d4}. At the end of the high, the creature must succeed on a DC 16 Wisdom saving throw or experience a low that lasts 1 hour, their current and maximum tech points are reduced by {@dice 2d4}. At the end of the low, the creature must make a DC 16 Constitution saving throw to resist addiction."
 			]
 		},
 		{
@@ -18802,7 +18802,7 @@
 			"type": "FD",
 			"rarity": "very rare",
 			"entries": [
-				"{@item Muon gold|sw5ephb} is a lubricant-based spice that gives users intensified mental clarity and focus for a short time. As an action, you can apply this substance to a creature within 5 feet. For the next 10 minutes, the creature experiences a high that increases their current and maximum tech points by {@dice 2d8}. At the end of the high, the creature must succeed on a DC 20 Wisdom saving throw or experience a low that lasts 4 hours, their current and maximum tech points are reduced by {@dice 2d8}. At the end of the low, the creature must make a DC 20 Constitution saving throw to resist addiction."
+				"{@item Muon gold|sw5ewh} is a lubricant-based spice that gives users intensified mental clarity and focus for a short time. As an action, you can apply this substance to a creature within 5 feet. For the next 10 minutes, the creature experiences a high that increases their current and maximum tech points by {@dice 2d8}. At the end of the high, the creature must succeed on a DC 20 Wisdom saving throw or experience a low that lasts 4 hours, their current and maximum tech points are reduced by {@dice 2d8}. At the end of the low, the creature must make a DC 20 Constitution saving throw to resist addiction."
 			]
 		},
 		{
@@ -18812,7 +18812,7 @@
 			"type": "FD",
 			"rarity": "legendary",
 			"entries": [
-				"{@item Muon gold|sw5ephb} is a lubricant-based spice that gives users intensified mental clarity and focus for a short time. As an action, you can apply this substance to a creature within 5 feet. For the next hour, the creature experiences a high that increases their current and maximum tech points by {@dice 2d10}. At the end of the high, the creature must succeed on a DC 22 Wisdom saving throw or experience a low that lasts 4 hours, their current and maximum tech points are reduced by {@dice 2d10}. At the end of the low, the creature must make a DC 22 Constitution saving throw to resist addiction."
+				"{@item Muon gold|sw5ewh} is a lubricant-based spice that gives users intensified mental clarity and focus for a short time. As an action, you can apply this substance to a creature within 5 feet. For the next hour, the creature experiences a high that increases their current and maximum tech points by {@dice 2d10}. At the end of the high, the creature must succeed on a DC 22 Wisdom saving throw or experience a low that lasts 4 hours, their current and maximum tech points are reduced by {@dice 2d10}. At the end of the low, the creature must make a DC 22 Constitution saving throw to resist addiction."
 			]
 		},
 		{
@@ -18822,7 +18822,7 @@
 			"type": "FD",
 			"rarity": "artifact",
 			"entries": [
-				"{@item Muon gold|sw5ephb} is a lubricant-based spice that gives users intensified mental clarity and focus for a short time. As an action, you can apply this substance to a creature within 5 feet. For the next hour, the creature experiences a high that increases their current and maximum tech points by {@dice 2d12}. At the end of the high, the creature must succeed on a DC 24 Wisdom saving throw or experience a low that lasts 8 hours, their current and maximum tech points are reduced by {@dice 2d12}. At the end of the low, the creature must make a DC 24 Constitution saving throw to resist addiction."
+				"{@item Muon gold|sw5ewh} is a lubricant-based spice that gives users intensified mental clarity and focus for a short time. As an action, you can apply this substance to a creature within 5 feet. For the next hour, the creature experiences a high that increases their current and maximum tech points by {@dice 2d12}. At the end of the high, the creature must succeed on a DC 24 Wisdom saving throw or experience a low that lasts 8 hours, their current and maximum tech points are reduced by {@dice 2d12}. At the end of the low, the creature must make a DC 24 Constitution saving throw to resist addiction."
 			]
 		},
 		{
@@ -18832,7 +18832,7 @@
 			"type": "FD",
 			"rarity": "rare",
 			"entries": [
-				"{@item Muon gold|sw5ephb} is a lubricant-based spice that gives users intensified mental clarity and focus for a short time. As an action, you can apply this substance to a creature within 5 feet. For the next 10 minutes, the creature experiences a high that increases their current and maximum tech points by {@dice 2d6}. At the end of the high, the creature must succeed on a DC 18 Wisdom saving throw or experience a low that lasts 1 hour, their current and maximum tech points are reduced by {@dice 2d6}. At the end of the low, the creature must make a DC 18 Constitution saving throw to resist addiction."
+				"{@item Muon gold|sw5ewh} is a lubricant-based spice that gives users intensified mental clarity and focus for a short time. As an action, you can apply this substance to a creature within 5 feet. For the next 10 minutes, the creature experiences a high that increases their current and maximum tech points by {@dice 2d6}. At the end of the high, the creature must succeed on a DC 18 Wisdom saving throw or experience a low that lasts 1 hour, their current and maximum tech points are reduced by {@dice 2d6}. At the end of the low, the creature must make a DC 18 Constitution saving throw to resist addiction."
 			]
 		},
 		{
@@ -20496,7 +20496,7 @@
 			"value": 1250,
 			"weight": 0.5,
 			"entries": [
-				"As an action, you can use the poison in this {@item vial|sw5ephb} to coat one vibroweapon, one {@item slug cartridge|sw5ephb}, or one wrist launcher {@item dart|sw5ephb}. A creature hit by the poisoned weapon must make a DC 14 Constitution saving throw, taking {@damage 2d4} poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying."
+				"As an action, you can use the poison in this {@item vial|sw5eec} to coat one vibroweapon, one {@item slug cartridge|sw5ephb}, or one wrist launcher {@item dart|sw5ephb}. A creature hit by the poisoned weapon must make a DC 14 Constitution saving throw, taking {@damage 2d4} poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying."
 			],
 			"poison": true
 		},
@@ -20507,7 +20507,7 @@
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"As an action, you can use the poison in this {@item vial|sw5ephb} to coat one vibroweapon, one {@item slug cartridge|sw5ephb}, or one {@item wrist launcher|sw5ephb} {@item dart|sw5ephb}. A creature hit by the {@condition poisoned} weapon must make a DC 16 Constitution saving throw, taking {@damage 4d4} poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying."
+				"As an action, you can use the poison in this {@item vial|sw5eec} to coat one vibroweapon, one {@item slug cartridge|sw5ephb}, or one wrist launcher {@item dart|sw5ephb}. A creature hit by the poisoned weapon must make a DC 16 Constitution saving throw, taking {@damage 4d4} poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying."
 			],
 			"poison": true,
 			"poisonTypes": [
@@ -20521,7 +20521,7 @@
 			"type": "G",
 			"rarity": "very rare",
 			"entries": [
-				"As an action, you can use the poison in this {@item vial|sw5ephb} to coat one vibroweapon, one {@item slug cartridge|sw5ephb}, or one {@item wrist launcher|sw5ephb} {@item dart|sw5ephb}. A creature hit by the {@condition poisoned} weapon must make a DC 20 Constitution saving throw, taking {@damage 8d4} poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying."
+				"As an action, you can use the poison in this {@item vial|sw5eec} to coat one vibroweapon, one {@item slug cartridge|sw5ephb}, or one wrist launcher {@item dart|sw5ephb}. A creature hit by the poisoned weapon must make a DC 20 Constitution saving throw, taking {@damage 8d4} poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying."
 			],
 			"poison": true,
 			"poisonTypes": [
@@ -20535,7 +20535,7 @@
 			"type": "G",
 			"rarity": "artifact",
 			"entries": [
-				"As an action, you can use the poison in this {@item vial|sw5ephb} to coat one vibroweapon, one {@item slug cartridge|sw5ephb}, or one {@item wrist launcher|sw5ephb} {@item dart|sw5ephb}. A creature hit by the {@condition poisoned} weapon must make a DC 24 Constitution saving throw, taking {@damage 12d4} poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying."
+				"As an action, you can use the poison in this {@item vial|sw5eec} to coat one vibroweapon, one {@item slug cartridge|sw5ephb}, or one wrist launcher {@item dart|sw5ephb}. A creature hit by the poisoned weapon must make a DC 24 Constitution saving throw, taking {@damage 12d4} poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying."
 			],
 			"poison": true,
 			"poisonTypes": [
@@ -20549,7 +20549,7 @@
 			"type": "G",
 			"rarity": "legendary",
 			"entries": [
-				"As an action, you can use the poison in this {@item vial|sw5ephb} to coat one vibroweapon, one {@item slug cartridge|sw5ephb}, or one {@item wrist launcher|sw5ephb} {@item dart|sw5ephb}. A creature hit by the {@condition poisoned} weapon must make a DC 22 Constitution saving throw, taking {@damage 10d4} poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying."
+				"As an action, you can use the poison in this {@item vial|sw5eec} to coat one vibroweapon, one {@item slug cartridge|sw5ephb}, or one wrist launcher {@item dart|sw5ephb}. A creature hit by the poisoned weapon must make a DC 22 Constitution saving throw, taking {@damage 10d4} poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying."
 			],
 			"poison": true,
 			"poisonTypes": [
@@ -20563,7 +20563,7 @@
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"As an action, you can use the poison in this {@item vial|sw5ephb} to coat one vibroweapon, one {@item slug cartridge|sw5ephb}, or one {@item wrist launcher|sw5ephb} {@item dart|sw5ephb}. A creature hit by the {@condition poisoned} weapon must make a DC 18 Constitution saving throw, taking {@damage 6d4} poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying."
+				"As an action, you can use the poison in this {@item vial|sw5eec} to coat one vibroweapon, one {@item slug cartridge|sw5ephb}, or one wrist launcher {@item dart|sw5ephb}. A creature hit by the poisoned weapon must make a DC 18 Constitution saving throw, taking {@damage 6d4} poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying."
 			],
 			"poison": true,
 			"poisonTypes": [
@@ -20728,7 +20728,7 @@
 			"type": "AF",
 			"rarity": "uncommon",
 			"entries": [
-				"You have a +1 bonus to attack and damage rolls made with this enhanced {@item power generator|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item power generator|sw5ephb} is depleted, it no longer gives a bonus."
+				"You have a +1 bonus to attack and damage rolls made with this enhanced {@item power generator|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item power generator|sw5ewh} is depleted, it no longer gives a bonus."
 			],
 			"bonusWeapon": "+1"
 		},
@@ -20739,7 +20739,7 @@
 			"type": "AF",
 			"rarity": "very rare",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item power generator|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item power generator|sw5ephb} is depleted, it no longer gives a bonus."
+				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item power generator|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item power generator|sw5ewh} is depleted, it no longer gives a bonus."
 			],
 			"bonusWeapon": "+3"
 		},
@@ -20750,7 +20750,7 @@
 			"type": "AF",
 			"rarity": "artifact",
 			"entries": [
-				"You have a +3 bonus to attack rolls and deal an additional {@damage 1d10} damage with this enhanced {@item power generator|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item power generator|sw5ephb} is depleted, it no longer gives a bonus."
+				"You have a +3 bonus to attack rolls and deal an additional {@damage 1d10} damage with this enhanced {@item power generator|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item power generator|sw5ewh} is depleted, it no longer gives a bonus."
 			],
 			"bonusWeaponAttack": "+3"
 		},
@@ -20761,7 +20761,7 @@
 			"type": "AF",
 			"rarity": "legendary",
 			"entries": [
-				"You have a +3 bonus to attack rolls and deal an additional {@damage 1d8} damage with this enhanced {@item power generator|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the torpedo is depleted, it no longer gives a bonus."
+				"You have a +3 bonus to attack rolls and deal an additional {@damage 1d8} damage with this enhanced {@item power generator|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the torpedo is depleted, it no longer gives a bonus."
 			],
 			"bonusWeaponAttack": "+3"
 		},
@@ -20772,7 +20772,7 @@
 			"type": "AF",
 			"rarity": "rare",
 			"entries": [
-				"You have a +2 bonus to attack and damage rolls made with this enhanced {@item power generator|sw5ephb}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item power generator|sw5ephb} is depleted, it no longer gives a bonus."
+				"You have a +2 bonus to attack and damage rolls made with this enhanced {@item power generator|sw5ewh}. This bonus is in addition to any bonuses granted by the weapon. Once the {@item power generator|sw5ewh} is depleted, it no longer gives a bonus."
 			],
 			"bonusWeapon": "+2"
 		},
@@ -20783,8 +20783,8 @@
 			"type": "G",
 			"rarity": "common",
 			"entries": [
-				"You gain the ability to charge expended {@item power cell|sw5ephb|power cells} and {@item power generator|sw5ephb|power generators} within your reach. You have a charging capacity of 1 hour. You can spend 10 minutes of this charging capacity to replenish an expended {@item power cell|sw5ephb}, or 1 hour replenishing an expended {@item power generator|sw5ephb}. Alternatively, you can directly connect to and power a single blaster weapon that uses {@item power cell|sw5ephb} or {@item power generator|sw5ephb}. Once per turn, if the powered weapon would be reloaded, it can be done without using an action, instead expending 10 minutes of your charging capacity if it uses {@item power cell|sw5ephb|power cells} or 1 hour if it uses a {@item power generator|sw5ephb}. Connecting or disconnecting a weapon takes an action.",
-				"If you attempt to replenish an enhanced {@item power cell|sw5ephb} or {@item power generator|sw5ephb}, or a specialized {@item power cell|sw5ephb}, it loses its enhanced or specialized properties."
+				"You gain the ability to charge expended {@item power cell|sw5ephb|power cells} and {@item power generator|sw5ewh|power generators} within your reach. You have a charging capacity of 1 hour. You can spend 10 minutes of this charging capacity to replenish an expended {@item power cell|sw5ephb}, or 1 hour replenishing an expended {@item power generator|sw5ewh}. Alternatively, you can directly connect to and power a single blaster weapon that uses {@item power cell|sw5ephb} or {@item power generator|sw5ewh}. Once per turn, if the powered weapon would be reloaded, it can be done without using an action, instead expending 10 minutes of your charging capacity if it uses {@item power cell|sw5ephb|power cells} or 1 hour if it uses a {@item power generator|sw5ewh}. Connecting or disconnecting a weapon takes an action.",
+				"If you attempt to replenish an enhanced {@item power cell|sw5ephb} or {@item power generator|sw5ewh}, or a specialized {@item power cell|sw5ephb}, it loses its enhanced or specialized properties."
 			]
 		},
 		{
@@ -21180,7 +21180,7 @@
 			"type": "AF",
 			"rarity": "uncommon",
 			"entries": [
-				"When triggered, this enhanced {@item vapor projector|sw5ephb} ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 16 Constitution saving throw. On a failed save, a creature takes {@damage 2d6} acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust."
+				"When triggered, this enhanced {@item vapor projector|sw5ewh} ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 16 Constitution saving throw. On a failed save, a creature takes {@damage 2d6} acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust."
 			]
 		},
 		{
@@ -21190,7 +21190,7 @@
 			"type": "AF",
 			"rarity": "very rare",
 			"entries": [
-				"When triggered, this enhanced {@item vapor projector|sw5ephb} ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 20 Constitution saving throw. On a failed save, a creature takes {@damage 2d6} acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust."
+				"When triggered, this enhanced {@item vapor projector|sw5ewh} ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 20 Constitution saving throw. On a failed save, a creature takes {@damage 2d6} acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust."
 			]
 		},
 		{
@@ -21200,7 +21200,7 @@
 			"type": "AF",
 			"rarity": "artifact",
 			"entries": [
-				"When triggered, this enhanced {@item vapor projector|sw5ephb} ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 24 Constitution saving throw. On a failed save, a creature takes {@damage 2d6} acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust."
+				"When triggered, this enhanced {@item vapor projector|sw5ewh} ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 24 Constitution saving throw. On a failed save, a creature takes {@damage 2d6} acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust."
 			]
 		},
 		{
@@ -21210,7 +21210,7 @@
 			"type": "AF",
 			"rarity": "legendary",
 			"entries": [
-				"When triggered, this enhanced {@item vapor projector|sw5ephb} ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 22 Constitution saving throw. On a failed save, a creature takes {@damage 2d6} acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust."
+				"When triggered, this enhanced {@item vapor projector|sw5ewh} ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 22 Constitution saving throw. On a failed save, a creature takes {@damage 2d6} acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust."
 			]
 		},
 		{
@@ -21220,7 +21220,7 @@
 			"type": "AF",
 			"rarity": "rare",
 			"entries": [
-				"When triggered, this enhanced {@item vapor projector|sw5ephb} ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 18 Constitution saving throw. On a failed save, a creature takes {@damage 2d6} acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust."
+				"When triggered, this enhanced {@item vapor projector|sw5ewh} ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 18 Constitution saving throw. On a failed save, a creature takes {@damage 2d6} acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust."
 			]
 		},
 		{
@@ -21230,7 +21230,7 @@
 			"type": "AF",
 			"rarity": "uncommon",
 			"entries": [
-				"When triggered, this enhanced {@item vapor projector|sw5ephb} ammunition produces a beam of carbonite energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 16 Constitution saving throw. On a failed save, a creature takes {@damage 3d4} cold damage and gains 1 slowed level until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour."
+				"When triggered, this enhanced {@item vapor projector|sw5ewh} ammunition produces a beam of carbonite energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 16 Constitution saving throw. On a failed save, a creature takes {@damage 3d4} cold damage and gains 1 slowed level until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour."
 			]
 		},
 		{
@@ -21240,7 +21240,7 @@
 			"type": "AF",
 			"rarity": "very rare",
 			"entries": [
-				"When triggered, this enhanced {@item vapor projector|sw5ephb} ammunition produces a beam of carbonite energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 20 Constitution saving throw. On a failed save, a creature takes {@damage 5d4} cold damage and gains 1 slowed level until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour."
+				"When triggered, this enhanced {@item vapor projector|sw5ewh} ammunition produces a beam of carbonite energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 20 Constitution saving throw. On a failed save, a creature takes {@damage 5d4} cold damage and gains 1 slowed level until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour."
 			]
 		},
 		{
@@ -21250,7 +21250,7 @@
 			"type": "AF",
 			"rarity": "artifact",
 			"entries": [
-				"When triggered, this enhanced {@item vapor projector|sw5ephb} ammunition produces a beam of carbonite energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 24 Constitution saving throw. On a failed save, a creature takes {@damage 7d4} cold damage and gains 1 slowed level until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour."
+				"When triggered, this enhanced {@item vapor projector|sw5ewh} ammunition produces a beam of carbonite energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 24 Constitution saving throw. On a failed save, a creature takes {@damage 7d4} cold damage and gains 1 slowed level until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour."
 			]
 		},
 		{
@@ -21260,7 +21260,7 @@
 			"type": "AF",
 			"rarity": "legendary",
 			"entries": [
-				"When triggered, this enhanced {@item vapor projector|sw5ephb} ammunition produces a beam of carbonite energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 22 Constitution saving throw. On a failed save, a creature takes {@damage 6d4} cold damage and gains 1 slowed level until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour."
+				"When triggered, this enhanced {@item vapor projector|sw5ewh} ammunition produces a beam of carbonite energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 22 Constitution saving throw. On a failed save, a creature takes {@damage 6d4} cold damage and gains 1 slowed level until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour."
 			]
 		},
 		{
@@ -21270,7 +21270,7 @@
 			"type": "AF",
 			"rarity": "rare",
 			"entries": [
-				"When triggered, this enhanced {@item vapor projector|sw5ephb} ammunition produces a beam of carbonite energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 18 Constitution saving throw. On a failed save, a creature takes {@damage 4d4} cold damage and gains 1 slowed level until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour."
+				"When triggered, this enhanced {@item vapor projector|sw5ewh} ammunition produces a beam of carbonite energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 18 Constitution saving throw. On a failed save, a creature takes {@damage 4d4} cold damage and gains 1 slowed level until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour."
 			]
 		},
 		{
@@ -21280,7 +21280,7 @@
 			"type": "AF",
 			"rarity": "uncommon",
 			"entries": [
-				"When triggered, this enhanced {@item vapor projector|sw5ephb} ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 16 Dexterity saving throw, taking {@damage 3d8} fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried."
+				"When triggered, this enhanced {@item vapor projector|sw5ewh} ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 16 Dexterity saving throw, taking {@damage 3d8} fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried."
 			]
 		},
 		{
@@ -21290,7 +21290,7 @@
 			"type": "AF",
 			"rarity": "very rare",
 			"entries": [
-				"When triggered, this enhanced {@item vapor projector|sw5ephb} ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 20 Dexterity saving throw, taking {@damage 5d8} fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried."
+				"When triggered, this enhanced {@item vapor projector|sw5ewh} ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 20 Dexterity saving throw, taking {@damage 5d8} fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried."
 			]
 		},
 		{
@@ -21300,7 +21300,7 @@
 			"type": "AF",
 			"rarity": "artifact",
 			"entries": [
-				"When triggered, this enhanced {@item vapor projector|sw5ephb} ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 24 Dexterity saving throw, taking {@damage 7d8} fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried."
+				"When triggered, this enhanced {@item vapor projector|sw5ewh} ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 24 Dexterity saving throw, taking {@damage 7d8} fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried."
 			]
 		},
 		{
@@ -21310,7 +21310,7 @@
 			"type": "AF",
 			"rarity": "legendary",
 			"entries": [
-				"When triggered, this enhanced {@item vapor projector|sw5ephb} ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 22 Dexterity saving throw, taking {@damage 6d8} fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried."
+				"When triggered, this enhanced {@item vapor projector|sw5ewh} ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 22 Dexterity saving throw, taking {@damage 6d8} fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried."
 			]
 		},
 		{
@@ -21320,7 +21320,7 @@
 			"type": "AF",
 			"rarity": "rare",
 			"entries": [
-				"When triggered, this enhanced {@item vapor projector|sw5ephb} ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 18 Dexterity saving throw, taking {@damage 4d8} fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried."
+				"When triggered, this enhanced {@item vapor projector|sw5ewh} ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 18 Dexterity saving throw, taking {@damage 4d8} fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried."
 			]
 		},
 		{
@@ -21368,7 +21368,7 @@
 			"value": 6250,
 			"weight": 3,
 			"entries": [
-				"When triggered, this {@item vapor projector|sw5ephb} ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 14 Constitution saving throw. On a failed save, a creature takes {@damage 2d6} acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust."
+				"When triggered, this {@item vapor projector|sw5ewh} ammunition produces a spray of acid in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 14 Constitution saving throw. On a failed save, a creature takes {@damage 2d6} acid damage, and the first attack it makes before the end of its next turn has disadvantage. On a successful save, a creature takes half damage and isn't disadvantaged. If this damage reduces a creature to 0 hit points, it must make a DC 13 Constitution saving throw. On a failed save, it dies immediately without making death saving throws. A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust."
 			]
 		},
 		{
@@ -21380,7 +21380,7 @@
 			"value": 6750,
 			"weight": 3,
 			"entries": [
-				"When triggered, this {@item vapor projector|sw5ephb} ammunition produces a beam of carbonite energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 14 Constitution saving throw. On a failed save, a creature takes {@damage 2d4} cold damage and gains 1 slowed level until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour."
+				"When triggered, this {@item vapor projector|sw5ewh} ammunition produces a beam of carbonite energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 14 Constitution saving throw. On a failed save, a creature takes {@damage 2d4} cold damage and gains 1 slowed level until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour."
 			]
 		},
 		{
@@ -21392,7 +21392,7 @@
 			"value": 6500,
 			"weight": 3,
 			"entries": [
-				"When triggered, this {@item vapor projector|sw5ephb} ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 14 Dexterity saving throw, taking {@damage 2d8} fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried."
+				"When triggered, this {@item vapor projector|sw5ewh} ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel tank holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 14 Dexterity saving throw, taking {@damage 2d8} fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried."
 			]
 		},
 		{
@@ -21554,7 +21554,7 @@
 			"rarity": "none",
 			"value": 100,
 			"entries": [
-				"A quiver which can hold up to 20 {@item arrow|sw5ephb|arrows}, 10 {@item bolt|sw5ephb|bolts}, or 10 {@item dart|sw5ephb|darts}. Drawing an item from the quiver does not require an object interaction."
+				"A quiver which can hold up to 20 {@item arrow|sw5eec|arrows}, 10 {@item bolt|sw5eec|bolts}, or 10 {@item dart|sw5ephb|darts}. Drawing an item from the quiver does not require an object interaction."
 			]
 		},
 		{
@@ -23529,7 +23529,7 @@
 			"type": "AF",
 			"rarity": "uncommon",
 			"entries": [
-				"You have a +1 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ephb} ammunition, which deals {@damage 2d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the rocket is fired, it no longer gives a bonus. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 16 Dexterity saving throw, taking {@damage 4d10} kinetic damage on a failed save or half as much on a successful one."
+				"You have a +1 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ewh} ammunition, which deals {@damage 2d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the rocket is fired, it no longer gives a bonus. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 16 Dexterity saving throw, taking {@damage 4d10} kinetic damage on a failed save or half as much on a successful one."
 			],
 			"bonusWeaponAttack": "+1"
 		},
@@ -23540,7 +23540,7 @@
 			"type": "AF",
 			"rarity": "very rare",
 			"entries": [
-				"You have a +3 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ephb} ammunition, which deals {@damage 2d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the rocket is fired, it no longer gives a bonus. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 20 Dexterity saving throw, taking {@damage 8d10} kinetic damage on a failed save or half as much on a successful one."
+				"You have a +3 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ewh} ammunition, which deals {@damage 2d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the rocket is fired, it no longer gives a bonus. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 20 Dexterity saving throw, taking {@damage 8d10} kinetic damage on a failed save or half as much on a successful one."
 			],
 			"bonusWeaponAttack": "+3"
 		},
@@ -23551,7 +23551,7 @@
 			"type": "AF",
 			"rarity": "artifact",
 			"entries": [
-				"You have a +3 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ephb} ammunition, which deals {@damage 4d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the rocket is fired, it no longer gives a bonus. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 24 Dexterity saving throw, taking {@damage 12d10} kinetic damage on a failed save or half as much on a successful one."
+				"You have a +3 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ewh} ammunition, which deals {@damage 4d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the rocket is fired, it no longer gives a bonus. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 24 Dexterity saving throw, taking {@damage 12d10} kinetic damage on a failed save or half as much on a successful one."
 			],
 			"bonusWeaponAttack": "+3"
 		},
@@ -23562,7 +23562,7 @@
 			"type": "AF",
 			"rarity": "legendary",
 			"entries": [
-				"You have a +3 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ephb} ammunition, which deals {@damage 3d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the rocket is fired, it no longer gives a bonus. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 22 Dexterity saving throw, taking {@damage 10d10} kinetic damage on a failed save or half as much on a successful one."
+				"You have a +3 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ewh} ammunition, which deals {@damage 3d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the rocket is fired, it no longer gives a bonus. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 22 Dexterity saving throw, taking {@damage 10d10} kinetic damage on a failed save or half as much on a successful one."
 			],
 			"bonusWeaponAttack": "+3"
 		},
@@ -23573,7 +23573,7 @@
 			"type": "AF",
 			"rarity": "rare",
 			"entries": [
-				"You have a +2 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ephb} ammunition, which deals {@damage 2d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the rocket is fired, it no longer gives a bonus. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 18 Dexterity saving throw, taking {@damage 6d10} kinetic damage on a failed save or half as much on a successful one."
+				"You have a +2 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ewh} ammunition, which deals {@damage 2d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the rocket is fired, it no longer gives a bonus. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 18 Dexterity saving throw, taking {@damage 6d10} kinetic damage on a failed save or half as much on a successful one."
 			],
 			"bonusWeaponAttack": "+2"
 		},
@@ -23584,7 +23584,7 @@
 			"type": "AF",
 			"rarity": "uncommon",
 			"entries": [
-				"You have a +1 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ephb} ammunition, which deals {@damage 2d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 16 Dexterity saving throw. On a failed save, the creature takes {@damage 4d8} fire damage or half as much on a successful one. A construct makes this save with disadvantage."
+				"You have a +1 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ewh} ammunition, which deals {@damage 2d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 16 Dexterity saving throw. On a failed save, the creature takes {@damage 4d8} fire damage or half as much on a successful one. A construct makes this save with disadvantage."
 			],
 			"bonusWeaponAttack": "+1"
 		},
@@ -23595,7 +23595,7 @@
 			"type": "AF",
 			"rarity": "very rare",
 			"entries": [
-				"You have a +3 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ephb} ammunition, which deals {@damage 2d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 20 Dexterity saving throw. On a failed save, the creature takes {@damage 8d8} fire damage or half as much on a successful one. A construct makes this save with disadvantage."
+				"You have a +3 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ewh} ammunition, which deals {@damage 2d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 20 Dexterity saving throw. On a failed save, the creature takes {@damage 8d8} fire damage or half as much on a successful one. A construct makes this save with disadvantage."
 			],
 			"bonusWeaponAttack": "+3"
 		},
@@ -23606,7 +23606,7 @@
 			"type": "AF",
 			"rarity": "artifact",
 			"entries": [
-				"You have a +3 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ephb} ammunition, which deals {@damage 4d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 24 Dexterity saving throw. On a failed save, the creature takes {@damage 12d8} fire damage or half as much on a successful one. A construct makes this save with disadvantage."
+				"You have a +3 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ewh} ammunition, which deals {@damage 4d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 24 Dexterity saving throw. On a failed save, the creature takes {@damage 12d8} fire damage or half as much on a successful one. A construct makes this save with disadvantage."
 			],
 			"bonusWeaponAttack": "+3"
 		},
@@ -23617,7 +23617,7 @@
 			"type": "AF",
 			"rarity": "legendary",
 			"entries": [
-				"You have a +3 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ephb} ammunition, which deals {@damage 3d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 22 Dexterity saving throw. On a failed save, the creature takes {@damage 10d8} fire damage or half as much on a successful one. A construct makes this save with disadvantage."
+				"You have a +3 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ewh} ammunition, which deals {@damage 3d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 22 Dexterity saving throw. On a failed save, the creature takes {@damage 10d8} fire damage or half as much on a successful one. A construct makes this save with disadvantage."
 			],
 			"bonusWeaponAttack": "+3"
 		},
@@ -23628,7 +23628,7 @@
 			"type": "AF",
 			"rarity": "rare",
 			"entries": [
-				"You have a +2 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ephb} ammunition, which deals {@damage 2d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 18 Dexterity saving throw. On a failed save, the creature takes {@damage 6d8} fire damage or half as much on a successful one. A construct makes this save with disadvantage."
+				"You have a +2 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ewh} ammunition, which deals {@damage 2d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 18 Dexterity saving throw. On a failed save, the creature takes {@damage 6d8} fire damage or half as much on a successful one. A construct makes this save with disadvantage."
 			],
 			"bonusWeaponAttack": "+2"
 		},
@@ -23639,7 +23639,7 @@
 			"type": "AF",
 			"rarity": "uncommon",
 			"entries": [
-				"You have a +1 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ephb} ammunition, which deals {@damage 2d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 16 Dexterity saving throw, taking {@damage 4d6} ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
+				"You have a +1 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ewh} ammunition, which deals {@damage 2d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 16 Dexterity saving throw, taking {@damage 4d6} ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
 			],
 			"bonusWeaponAttack": "+1"
 		},
@@ -23650,7 +23650,7 @@
 			"type": "AF",
 			"rarity": "very rare",
 			"entries": [
-				"You have a +3 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ephb} ammunition, which deals {@damage 2d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 20 Dexterity saving throw, taking {@damage 8d6} ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
+				"You have a +3 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ewh} ammunition, which deals {@damage 2d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 20 Dexterity saving throw, taking {@damage 8d6} ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
 			],
 			"bonusWeaponAttack": "+3"
 		},
@@ -23661,7 +23661,7 @@
 			"type": "AF",
 			"rarity": "artifact",
 			"entries": [
-				"You have a +3 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ephb} ammunition, which deals {@damage 4d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 24 Dexterity saving throw, taking {@damage 12d6} ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
+				"You have a +3 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ewh} ammunition, which deals {@damage 4d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 24 Dexterity saving throw, taking {@damage 12d6} ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
 			],
 			"bonusWeaponAttack": "+3"
 		},
@@ -23672,7 +23672,7 @@
 			"type": "AF",
 			"rarity": "legendary",
 			"entries": [
-				"You have a +3 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ephb} ammunition, which deals {@damage 3d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 22 Dexterity saving throw, taking {@damage 10d6} ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
+				"You have a +3 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ewh} ammunition, which deals {@damage 3d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 22 Dexterity saving throw, taking {@damage 10d6} ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
 			],
 			"bonusWeaponAttack": "+3"
 		},
@@ -23683,7 +23683,7 @@
 			"type": "AF",
 			"rarity": "rare",
 			"entries": [
-				"You have a +2 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ephb} ammunition, which deals {@damage 2d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 18 Dexterity saving throw, taking {@damage 6d6} ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
+				"You have a +2 bonus to attack rolls made with this enhanced {@item rocket launcher|sw5ewh} ammunition, which deals {@damage 2d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 18 Dexterity saving throw, taking {@damage 6d6} ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
 			],
 			"bonusWeaponAttack": "+2"
 		},
@@ -23696,7 +23696,7 @@
 			"value": 3500,
 			"weight": 2,
 			"entries": [
-				"This {@item rocket launcher|sw5ephb} ammunition deals {@damage 2d6} kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 14 Dexterity saving throw, taking {@damage 2d10} kinetic damage on a failed save or half as much on a successful one."
+				"This {@item rocket launcher|sw5ewh} ammunition deals {@damage 2d6} kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 14 Dexterity saving throw, taking {@damage 2d10} kinetic damage on a failed save or half as much on a successful one."
 			]
 		},
 		{
@@ -23708,7 +23708,7 @@
 			"value": 5350,
 			"weight": 2,
 			"entries": [
-				"This {@item rocket launcher|sw5ephb} ammunition deals {@damage 2d6} kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 14 Dexterity saving throw. On a failed save, the creature takes {@damage 2d8} fire damage or half as much on a successful one. A construct makes this save with disadvantage."
+				"This {@item rocket launcher|sw5ewh} ammunition deals {@damage 2d6} kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes, setting the ground beneath it in a 15 foot radius ablaze for 1 minute. When a creature enters the fire or starts its turn there it must make a DC 14 Dexterity saving throw. On a failed save, the creature takes {@damage 2d8} fire damage or half as much on a successful one. A construct makes this save with disadvantage."
 			]
 		},
 		{
@@ -23720,7 +23720,7 @@
 			"value": 4750,
 			"weight": 2,
 			"entries": [
-				"This {@item rocket launcher|sw5ephb} ammunition deals {@damage 2d6} kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 14 Dexterity saving throw, taking {@damage 2d6} ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
+				"This {@item rocket launcher|sw5ewh} ammunition deals {@damage 2d6} kinetic damage on a hit. Additionally, hit or miss, the rocket then explodes. The target and each creature within 15 feet must make a DC 14 Dexterity saving throw, taking {@damage 2d6} ion damage on a failed save or half as much on a successful one. Any electronics within the blast radius that aren't being worn or carried are disabled until rebooted."
 			]
 		},
 		{
@@ -23732,8 +23732,8 @@
 			"value": 100000,
 			"weight": 35,
 			"entries": [
-				"Rocketpacks combine the aerial transportation of a {@item jetpack|sw5ephb} with the firepower of a {@item rocket launcher|sw5ephb}. Activating or deactivating the rocketpack's flight capabilities requires a bonus action and, while active, you have a flying speed of 25 feet. The {@item jetpack|sw5ephb} last for 1 minute per {@item power cell|sw5ephb} (to a maximum of 5 minutes) and can be recharged by a power source or replacing the {@item power cell|sw5ephb}.",
-				"Additionally, your rocketpack comes with an integrated {@item rocket launcher|sw5ephb} with the Ammunition (range 100/400) and reload 1 properties. Rather than traditional {@item power cell|sw5ephb|power cells}, this {@item rocket launcher|sw5ephb} fires specialized projectiles in the form of rockets. Whenever you would make a ranged weapon attack, you can instead fire this {@item rocket launcher|sw5ephb}. When firing a rocket at long range, creatures within the radius of the rocket's explosion have advantage on the saving throw. Reloading this {@item rocket launcher|sw5ephb} takes 1 minute."
+				"Rocketpacks combine the aerial transportation of a {@item jetpack|sw5ephb} with the firepower of a {@item rocket launcher|sw5ewh}. Activating or deactivating the rocketpack's flight capabilities requires a bonus action and, while active, you have a flying speed of 25 feet. The {@item jetpack|sw5ephb} last for 1 minute per {@item power cell|sw5ephb} (to a maximum of 5 minutes) and can be recharged by a power source or replacing the {@item power cell|sw5ephb}.",
+				"Additionally, your rocketpack comes with an integrated {@item rocket launcher|sw5ewh} with the Ammunition (range 100/400) and reload 1 properties. Rather than traditional {@item power cell|sw5ephb|power cells}, this {@item rocket launcher|sw5ewh} fires specialized projectiles in the form of rockets. Whenever you would make a ranged weapon attack, you can instead fire this {@item rocket launcher|sw5ewh}. When firing a rocket at long range, creatures within the radius of the rocket's explosion have advantage on the saving throw. Reloading this {@item rocket launcher|sw5ewh} takes 1 minute."
 			],
 			"modifySpeed": {
 				"static": {
@@ -23748,8 +23748,8 @@
 			"type": "G",
 			"rarity": "artifact",
 			"entries": [
-				"Rocketpacks combine the aerial transportation of a {@item jetpack|sw5ephb} with the firepower of a {@item rocket launcher|sw5ephb}. Activating or deactivating the rocketpack's flight capabilities requires a bonus action and, while active, you have a flying speed of 50 feet. The {@item jetpack|sw5ephb} last for 1 minute per {@item power cell|sw5ephb} (to a maximum of 10 minutes) and can be recharged by a power source or replacing the {@item power cell|sw5ephb}.",
-				"Additionally, your rocketpack comes with an enhanced integrated {@item rocket launcher|sw5ephb} with the Ammunition (range 100/400) and reload 1 properties. Rather than traditional {@item power cell|sw5ephb|power cells}, this {@item rocket launcher|sw5ephb} fires specialized projectiles in the form of rockets. Whenever you would make a ranged weapon attack, you can instead fire this {@item rocket launcher|sw5ephb}. When firing a rocket at long range, creatures within the radius of the rocket's explosion have advantage on the saving throw. Reloading this {@item rocket launcher|sw5ephb} takes 1 minute. You have a +3 bonus to attack rolls and deal an additional {@damage 1d10} damage with this enhanced {@item rocket launcher|sw5ephb}."
+				"Rocketpacks combine the aerial transportation of a {@item jetpack|sw5ephb} with the firepower of a {@item rocket launcher|sw5ewh}. Activating or deactivating the rocketpack's flight capabilities requires a bonus action and, while active, you have a flying speed of 50 feet. The {@item jetpack|sw5ephb} last for 1 minute per {@item power cell|sw5ephb} (to a maximum of 10 minutes) and can be recharged by a power source or replacing the {@item power cell|sw5ephb}.",
+				"Additionally, your rocketpack comes with an enhanced integrated {@item rocket launcher|sw5ewh} with the Ammunition (range 100/400) and reload 1 properties. Rather than traditional {@item power cell|sw5ephb|power cells}, this {@item rocket launcher|sw5ewh} fires specialized projectiles in the form of rockets. Whenever you would make a ranged weapon attack, you can instead fire this {@item rocket launcher|sw5ewh}. When firing a rocket at long range, creatures within the radius of the rocket's explosion have advantage on the saving throw. Reloading this {@item rocket launcher|sw5ewh} takes 1 minute. You have a +3 bonus to attack rolls and deal an additional {@damage 1d10} damage with this enhanced {@item rocket launcher|sw5ewh}."
 			],
 			"bonusWeaponAttack": "+3",
 			"modifySpeed": {
@@ -23765,8 +23765,8 @@
 			"type": "G",
 			"rarity": "legendary",
 			"entries": [
-				"Rocketpacks combine the aerial transportation of a {@item jetpack|sw5ephb} with the firepower of a {@item rocket launcher|sw5ephb}. Activating or deactivating the rocketpack's flight capabilities requires a bonus action and, while active, you have a flying speed of 45 feet. The {@item jetpack|sw5ephb} last for 1 minute per {@item power cell|sw5ephb} (to a maximum of 9 minutes) and can be recharged by a power source or replacing the {@item power cell|sw5ephb}.",
-				"Additionally, your rocketpack comes with an enhanced integrated {@item rocket launcher|sw5ephb} with the Ammunition (range 100/400) and reload 1 properties. Rather than traditional {@item power cell|sw5ephb|power cells}, this {@item rocket launcher|sw5ephb} fires specialized projectiles in the form of rockets. Whenever you would make a ranged weapon attack, you can instead fire this {@item rocket launcher|sw5ephb}. When firing a rocket at long range, creatures within the radius of the rocket's explosion have advantage on the saving throw. Reloading this {@item rocket launcher|sw5ephb} takes 1 minute. You have a +3 bonus to attack rolls and deal an additional {@damage 1d8} damage with this enhanced {@item rocket launcher|sw5ephb}."
+				"Rocketpacks combine the aerial transportation of a {@item jetpack|sw5ephb} with the firepower of a {@item rocket launcher|sw5ewh}. Activating or deactivating the rocketpack's flight capabilities requires a bonus action and, while active, you have a flying speed of 45 feet. The {@item jetpack|sw5ephb} last for 1 minute per {@item power cell|sw5ephb} (to a maximum of 9 minutes) and can be recharged by a power source or replacing the {@item power cell|sw5ephb}.",
+				"Additionally, your rocketpack comes with an enhanced integrated {@item rocket launcher|sw5ewh} with the Ammunition (range 100/400) and reload 1 properties. Rather than traditional {@item power cell|sw5ephb|power cells}, this {@item rocket launcher|sw5ewh} fires specialized projectiles in the form of rockets. Whenever you would make a ranged weapon attack, you can instead fire this {@item rocket launcher|sw5ewh}. When firing a rocket at long range, creatures within the radius of the rocket's explosion have advantage on the saving throw. Reloading this {@item rocket launcher|sw5ewh} takes 1 minute. You have a +3 bonus to attack rolls and deal an additional {@damage 1d8} damage with this enhanced {@item rocket launcher|sw5ewh}."
 			],
 			"bonusWeaponAttack": "+3",
 			"modifySpeed": {
@@ -23782,8 +23782,8 @@
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"Rocketpacks combine the aerial transportation of a {@item jetpack|sw5ephb} with the firepower of a {@item rocket launcher|sw5ephb}. Activating or deactivating the rocketpack's flight capabilities requires a bonus action and, while active, you have a flying speed of 30 feet. The {@item jetpack|sw5ephb} last for 1 minute per {@item power cell|sw5ephb} (to a maximum of 6 minutes) and can be recharged by a power source or replacing the {@item power cell|sw5ephb}.",
-				"Additionally, your rocketpack comes with an enhanced integrated {@item rocket launcher|sw5ephb} with the Ammunition (range 100/400) and reload 1 properties. Rather than traditional {@item power cell|sw5ephb|power cells}, this {@item rocket launcher|sw5ephb} fires specialized projectiles in the form of rockets. Whenever you would make a ranged weapon attack, you can instead fire this {@item rocket launcher|sw5ephb}. When firing a rocket at long range, creatures within the radius of the rocket's explosion have advantage on the saving throw. Reloading this {@item rocket launcher|sw5ephb} takes 1 minute. You have a +1 bonus to attack and damage rolls made with this enhanced {@item rocket launcher|sw5ephb}."
+				"Rocketpacks combine the aerial transportation of a {@item jetpack|sw5ephb} with the firepower of a {@item rocket launcher|sw5ewh}. Activating or deactivating the rocketpack's flight capabilities requires a bonus action and, while active, you have a flying speed of 30 feet. The {@item jetpack|sw5ephb} last for 1 minute per {@item power cell|sw5ephb} (to a maximum of 6 minutes) and can be recharged by a power source or replacing the {@item power cell|sw5ephb}.",
+				"Additionally, your rocketpack comes with an enhanced integrated {@item rocket launcher|sw5ewh} with the Ammunition (range 100/400) and reload 1 properties. Rather than traditional {@item power cell|sw5ephb|power cells}, this {@item rocket launcher|sw5ewh} fires specialized projectiles in the form of rockets. Whenever you would make a ranged weapon attack, you can instead fire this {@item rocket launcher|sw5ewh}. When firing a rocket at long range, creatures within the radius of the rocket's explosion have advantage on the saving throw. Reloading this {@item rocket launcher|sw5ewh} takes 1 minute. You have a +1 bonus to attack and damage rolls made with this enhanced {@item rocket launcher|sw5ewh}."
 			],
 			"bonusWeapon": "+1",
 			"modifySpeed": {
@@ -23799,8 +23799,8 @@
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"Rocketpacks combine the aerial transportation of a {@item jetpack|sw5ephb} with the firepower of a {@item rocket launcher|sw5ephb}. Activating or deactivating the rocketpack's flight capabilities requires a bonus action and, while active, you have a flying speed of 35 feet. The {@item jetpack|sw5ephb} last for 1 minute per {@item power cell|sw5ephb} (to a maximum of 7 minutes) and can be recharged by a power source or replacing the {@item power cell|sw5ephb}.",
-				"Additionally, your rocketpack comes with an enhanced integrated {@item rocket launcher|sw5ephb} with the Ammunition (range 100/400) and reload 1 properties. Rather than traditional {@item power cell|sw5ephb|power cells}, this {@item rocket launcher|sw5ephb} fires specialized projectiles in the form of rockets. Whenever you would make a ranged weapon attack, you can instead fire this {@item rocket launcher|sw5ephb}. When firing a rocket at long range, creatures within the radius of the rocket's explosion have advantage on the saving throw. Reloading this {@item rocket launcher|sw5ephb} takes 1 minute. You have a +2 bonus to attack and damage rolls made with this enhanced {@item rocket launcher|sw5ephb}."
+				"Rocketpacks combine the aerial transportation of a {@item jetpack|sw5ephb} with the firepower of a {@item rocket launcher|sw5ewh}. Activating or deactivating the rocketpack's flight capabilities requires a bonus action and, while active, you have a flying speed of 35 feet. The {@item jetpack|sw5ephb} last for 1 minute per {@item power cell|sw5ephb} (to a maximum of 7 minutes) and can be recharged by a power source or replacing the {@item power cell|sw5ephb}.",
+				"Additionally, your rocketpack comes with an enhanced integrated {@item rocket launcher|sw5ewh} with the Ammunition (range 100/400) and reload 1 properties. Rather than traditional {@item power cell|sw5ephb|power cells}, this {@item rocket launcher|sw5ewh} fires specialized projectiles in the form of rockets. Whenever you would make a ranged weapon attack, you can instead fire this {@item rocket launcher|sw5ewh}. When firing a rocket at long range, creatures within the radius of the rocket's explosion have advantage on the saving throw. Reloading this {@item rocket launcher|sw5ewh} takes 1 minute. You have a +2 bonus to attack and damage rolls made with this enhanced {@item rocket launcher|sw5ewh}."
 			],
 			"bonusWeapon": "+2",
 			"modifySpeed": {
@@ -23816,8 +23816,8 @@
 			"type": "G",
 			"rarity": "very rare",
 			"entries": [
-				"Rocketpacks combine the aerial transportation of a {@item jetpack|sw5ephb} with the firepower of a {@item rocket launcher|sw5ephb}. Activating or deactivating the rocketpack's flight capabilities requires a bonus action and, while active, you have a flying speed of 40 feet. The {@item jetpack|sw5ephb} last for 1 minute per {@item power cell|sw5ephb} (to a maximum of 8 minutes) and can be recharged by a power source or replacing the {@item power cell|sw5ephb}.",
-				"Additionally, your rocketpack comes with an enhanced integrated {@item rocket launcher|sw5ephb} with the Ammunition (range 100/400) and reload 1 properties. Rather than traditional {@item power cell|sw5ephb|power cells}, this {@item rocket launcher|sw5ephb} fires specialized projectiles in the form of rockets. Whenever you would make a ranged weapon attack, you can instead fire this {@item rocket launcher|sw5ephb}. When firing a rocket at long range, creatures within the radius of the rocket's explosion have advantage on the saving throw. Reloading this {@item rocket launcher|sw5ephb} takes 1 minute. You have a +3 bonus to attack and damage rolls made with this enhanced {@item rocket launcher|sw5ephb}."
+				"Rocketpacks combine the aerial transportation of a {@item jetpack|sw5ephb} with the firepower of a {@item rocket launcher|sw5ewh}. Activating or deactivating the rocketpack's flight capabilities requires a bonus action and, while active, you have a flying speed of 40 feet. The {@item jetpack|sw5ephb} last for 1 minute per {@item power cell|sw5ephb} (to a maximum of 8 minutes) and can be recharged by a power source or replacing the {@item power cell|sw5ephb}.",
+				"Additionally, your rocketpack comes with an enhanced integrated {@item rocket launcher|sw5ewh} with the Ammunition (range 100/400) and reload 1 properties. Rather than traditional {@item power cell|sw5ephb|power cells}, this {@item rocket launcher|sw5ewh} fires specialized projectiles in the form of rockets. Whenever you would make a ranged weapon attack, you can instead fire this {@item rocket launcher|sw5ewh}. When firing a rocket at long range, creatures within the radius of the rocket's explosion have advantage on the saving throw. Reloading this {@item rocket launcher|sw5ewh} takes 1 minute. You have a +3 bonus to attack and damage rolls made with this enhanced {@item rocket launcher|sw5ewh}."
 			],
 			"bonusWeapon": "+3",
 			"modifySpeed": {
@@ -24665,7 +24665,7 @@
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"You have a small integrated droid {@item shock arm|sw5ephb} with which you can make unarmed strikes. You have proficiency in this {@item shock arm|sw5ephb}, which is a vibroweapon with the reach property and deals {@damage 1d6} lightning damage on a hit. You can use your choice of Strength or Intelligence for the attack and damage rolls. You must use the same modifier for both rolls.",
+				"You have a small integrated droid {@item shock arm|sw5ewh} with which you can make unarmed strikes. You have proficiency in this {@item shock arm|sw5ewh}, which is a vibroweapon with the reach property and deals {@damage 1d6} lightning damage on a hit. You can use your choice of Strength or Intelligence for the attack and damage rolls. You must use the same modifier for both rolls.",
 				"{@i This small robotic appendage has a fork-like prod from that can release a substantial electrical discharge.}"
 			],
 			"grantsProficiency": true
@@ -24796,8 +24796,8 @@
 			"value": 5500,
 			"weight": 4,
 			"entries": [
-				"Rather than traditional {@item power cell|sw5ephb|power cells}, the shortbow fires specialized projectiles in the form of {@item arrow|sw5ephb|arrows}. You can make a ranged weapon attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one {@item arrow|sw5ephb}.",
-				"Drawing the ammunition from a {@item quiver|sw5ephb}, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield."
+				"Rather than traditional {@item power cell|sw5ephb|power cells}, the shortbow fires specialized projectiles in the form of {@item arrow|sw5eec|arrows}. You can make a ranged weapon attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one {@item arrow|sw5eec}.",
+				"Drawing the ammunition from a {@item quiver|sw5eec}, case, or other container is part of the attack. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield."
 			],
 			"property": [
 				"AF",
@@ -27894,7 +27894,7 @@
 			"type": "AF",
 			"rarity": "uncommon",
 			"entries": [
-				"You have a +1 bonus to attack rolls made with this enhanced {@item torpedo launcher|sw5ephb} ammunition, which deals {@damage 20d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the torpedo is depleted, it no longer gives a bonus."
+				"You have a +1 bonus to attack rolls made with this enhanced {@item torpedo launcher|sw5eec} ammunition, which deals {@damage 20d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the torpedo is depleted, it no longer gives a bonus."
 			],
 			"bonusWeaponAttack": "+1"
 		},
@@ -27905,7 +27905,7 @@
 			"type": "AF",
 			"rarity": "very rare",
 			"entries": [
-				"You have a +3 bonus to attack rolls made with this enhanced {@item torpedo launcher|sw5ephb} ammunition, which deals {@damage 20d10} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the torpedo is depleted, it no longer gives a bonus."
+				"You have a +3 bonus to attack rolls made with this enhanced {@item torpedo launcher|sw5eec} ammunition, which deals {@damage 20d10} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the torpedo is depleted, it no longer gives a bonus."
 			],
 			"bonusWeaponAttack": "+3"
 		},
@@ -27916,7 +27916,7 @@
 			"type": "AF",
 			"rarity": "artifact",
 			"entries": [
-				"You have a +3 bonus to attack rolls made with this enhanced {@item torpedo launcher|sw5ephb} ammunition, which deals {@damage 20d20} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the torpedo is depleted, it no longer gives a bonus."
+				"You have a +3 bonus to attack rolls made with this enhanced {@item torpedo launcher|sw5eec} ammunition, which deals {@damage 20d20} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the torpedo is depleted, it no longer gives a bonus."
 			],
 			"bonusWeaponAttack": "+3"
 		},
@@ -27927,7 +27927,7 @@
 			"type": "AF",
 			"rarity": "legendary",
 			"entries": [
-				"You have a +3 bonus to attack rolls made with this enhanced {@item torpedo launcher|sw5ephb} ammunition, which deals {@damage 20d12} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the torpedo is depleted, it no longer gives a bonus."
+				"You have a +3 bonus to attack rolls made with this enhanced {@item torpedo launcher|sw5eec} ammunition, which deals {@damage 20d12} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the torpedo is depleted, it no longer gives a bonus."
 			],
 			"bonusWeaponAttack": "+3"
 		},
@@ -27938,7 +27938,7 @@
 			"type": "AF",
 			"rarity": "rare",
 			"entries": [
-				"You have a +2 bonus to attack rolls made with this enhanced {@item torpedo launcher|sw5ephb} ammunition, which deals {@damage 20d8} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the torpedo is depleted, it no longer gives a bonus."
+				"You have a +2 bonus to attack rolls made with this enhanced {@item torpedo launcher|sw5eec} ammunition, which deals {@damage 20d8} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the torpedo is depleted, it no longer gives a bonus."
 			],
 			"bonusWeaponAttack": "+2"
 		},
@@ -27949,7 +27949,7 @@
 			"type": "AF",
 			"rarity": "uncommon",
 			"entries": [
-				"You have a +1 bonus to attack and damage rolls made with this enhanced {@item torpedo launcher|sw5ephb} ammunition, which deals {@damage 20d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the torpedo is depleted, it no longer gives a bonus."
+				"You have a +1 bonus to attack and damage rolls made with this enhanced {@item torpedo launcher|sw5eec} ammunition, which deals {@damage 20d6} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the torpedo is depleted, it no longer gives a bonus."
 			],
 			"bonusWeapon": "+1"
 		},
@@ -27960,7 +27960,7 @@
 			"type": "AF",
 			"rarity": "very rare",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item torpedo launcher|sw5ephb} ammunition, which deals {@damage 20d10} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the torpedo is depleted, it no longer gives a bonus."
+				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item torpedo launcher|sw5eec} ammunition, which deals {@damage 20d10} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the torpedo is depleted, it no longer gives a bonus."
 			],
 			"bonusWeapon": "+3"
 		},
@@ -27971,7 +27971,7 @@
 			"type": "AF",
 			"rarity": "artifact",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item torpedo launcher|sw5ephb} ammunition, which deals {@damage 20d20} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the {@item power generator|sw5ephb} is depleted, it no longer gives a bonus."
+				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item torpedo launcher|sw5eec} ammunition, which deals {@damage 20d20} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the {@item power generator|sw5ewh} is depleted, it no longer gives a bonus."
 			],
 			"bonusWeapon": "+3"
 		},
@@ -27982,7 +27982,7 @@
 			"type": "AF",
 			"rarity": "legendary",
 			"entries": [
-				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item torpedo launcher|sw5ephb} ammunition, which deals {@damage 20d12} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the torpedo is depleted, it no longer gives a bonus."
+				"You have a +3 bonus to attack and damage rolls made with this enhanced {@item torpedo launcher|sw5eec} ammunition, which deals {@damage 20d12} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the torpedo is depleted, it no longer gives a bonus."
 			],
 			"bonusWeapon": "+3"
 		},
@@ -27993,7 +27993,7 @@
 			"type": "AF",
 			"rarity": "rare",
 			"entries": [
-				"You have a +2 bonus to attack and damage rolls made with this enhanced {@item torpedo launcher|sw5ephb} ammunition, which deals {@damage 20d8} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the torpedo is depleted, it no longer gives a bonus."
+				"You have a +2 bonus to attack and damage rolls made with this enhanced {@item torpedo launcher|sw5eec} ammunition, which deals {@damage 20d8} kinetic damage on a hit. This bonus is in addition to any bonuses granted by the weapon. Once the torpedo is depleted, it no longer gives a bonus."
 			],
 			"bonusWeapon": "+2"
 		},
@@ -32210,10 +32210,6 @@
 					"type": "touch"
 				}
 			},
-			"components": {
-				"v": false,
-				"s": false
-			},
 			"duration": [
 				{
 					"type": "timed",
@@ -32231,8 +32227,8 @@
 					"type": "list",
 					"items": [
 						"{@b {@i Strength.}} The target has advantage on Strength checks, and his or her carrying capacity doubles.",
-						"{@b {@i Dexterity.}} The target has advantage on Dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't incapacitated.",
-						"{@b {@i Endurance.}} The target has advantage on Constitution checks. It also gains {@damage 2d6} temporary hit points, which are lost when the power ends.",
+						"{@b {@i Dexterity.}} The target has advantage on Dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't {@condition incapacitated}.",
+						"{@b {@i Endurance.}} The target has advantage on Constitution checks. It also gains {@dice 2d6} temporary hit points, which are lost when the power ends.",
 						"{@b {@i Cunning.}} The target has advantage on Intelligence checks.",
 						"{@b {@i Wisdom.}} The target has advantage on Wisdom checks.",
 						"{@b {@i Splendor.}} The target has advantage on Charisma checks."
@@ -32249,12 +32245,12 @@
 					]
 				}
 			],
-			"damageInflict": [
-				[
-					"temphp"
-				]
+			"conditionInflict": [
+				"incapacitated"
 			],
-			"savingThrow": ""
+			"miscTags": [
+				"THP"
+			]
 		},
 		{
 			"name": "Burst",
@@ -33040,10 +33036,6 @@
 				"distance": {
 					"type": "self"
 				}
-			},
-			"components": {
-				"v": false,
-				"s": false
 			},
 			"duration": [
 				{
