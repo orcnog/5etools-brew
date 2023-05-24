@@ -749,7 +749,7 @@
 						"Darth Ensis' spellcasting ability is Intelligence (spell save {@dc 16}). Darth Ensis can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell chromatic orb}",
+						"{@spell chromatic orb} (lightning)",
 						"{@spell dispel magic}"
 					],
 					"daily": {
@@ -764,13 +764,7 @@
 			],
 			"trait": [
 				{
-					"name": "Magic Resistance",
-					"entries": [
-						"Darth Ensis has advantage on saving throws against spells and other magical effects."
-					]
-				},
-				{
-					"name": "Legendary Resistance (1/Day)",
+					"name": "Legendary Resistance (2/Day)",
 					"entries": [
 						"If Darth Ensis fails a saving throw, he can choose to succeed instead."
 					]
