@@ -161,9 +161,8 @@
 			"wis": 12,
 			"cha": 11,
 			"skill": {
-				"athletics": "+3",
 				"perception": "+3",
-				"persuasion": "+2"
+				"survival": "+3"
 			},
 			"senses": [
 				"darkvision 60 ft."
