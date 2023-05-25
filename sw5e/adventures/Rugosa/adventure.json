@@ -242,6 +242,37 @@
 					"hasFluffImages": true
 				}
 			},
+			"cha": 14,
+			"hp": {
+				"average": 36,
+				"formula": "4d8 + 18"
+			},
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The rebel soldier makes three blaster rifle or stock strike attacks."
+					]
+				},
+				{
+					"name": "Blaster Rifle",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 60/240 ft., one target. {@h}7 ({@damage 1d6 + 3}) energy damage."
+					]
+				},
+				{
+					"name": "Stock Strike",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) kinetic damage."
+					]
+				},
+				{
+					"name": "Thermal Grenade (2/Day)",
+					"entries": [
+						"The rebel soldier throws a grenade, choosing a point within 40 feet. Each creature within 10 feet must make a {@dc 14} Dexterity saving throw. A creature takes {@dice 2d6} fire and {@damage 2d6} kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked {@condition prone}."
+					]
+				}
+			],
 			"tokenUrl": "https://i.imgur.com/WW3gOTc.png"
 		},
 		{
@@ -256,6 +287,36 @@
 					"hasFluffImages": true
 				}
 			},
+			"hp": {
+				"average": 30,
+				"formula": "4d8 + 12"
+			},
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The rebel soldier makes two slugthrower or stock strike attacks."
+					]
+				},
+				{
+					"name": "G-22 Slugthrower",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 60/240 ft., one target. {@h}8 ({@damage 1d8 + 3}) energy damage."
+					]
+				},
+				{
+					"name": "Stock Strike",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) kinetic damage."
+					]
+				},
+				{
+					"name": "Thermal Grenade (1/Day)",
+					"entries": [
+						"The rebel soldier throws a grenade, choosing a point within 40 feet. Each creature within 10 feet must make a {@dc 14} Dexterity saving throw. A creature takes {@dice 2d6} fire and {@damage 2d6} kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked {@condition prone}."
+					]
+				}
+			],
 			"tokenUrl": "https://i.imgur.com/JhGw9vZ.png"
 		},
 		{
@@ -270,6 +331,18 @@
 					"hasFluffImages": true
 				}
 			},
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"battle armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 24,
+				"formula": "4d8 + 6"
+			},
 			"tokenUrl": "https://i.imgur.com/UPj5nyV.png"
 		},
 		{
@@ -283,6 +356,10 @@
 					"hasFluff": true,
 					"hasFluffImages": true
 				}
+			},
+			"hp": {
+				"average": 32,
+				"formula": "4d8 + 14"
 			},
 			"tokenUrl": "https://i.imgur.com/KmJdTW4.png"
 		},
