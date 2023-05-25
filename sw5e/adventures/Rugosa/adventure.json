@@ -232,6 +232,20 @@
 			"tokenUrl": "https://i.imgur.com/PlAs4xx.png"
 		},
 		{
+			"name": "Capt. Ash Ryker",
+			"source": "orcnogRugosa",
+			"_copy": {
+				"name": "Rebel Soldier",
+				"source": "orcnogRugosa",
+				"_preserve": {
+					"page": true,
+					"hasFluff": true,
+					"hasFluffImages": true
+				}
+			},
+            "tokenUrl": "https://i.imgur.com/WW3gOTc.png"
+        },
+		{
 			"name": "Stormtrooper Captain",
 			"source": "orcnogRugosa",
 			"page": 0,
