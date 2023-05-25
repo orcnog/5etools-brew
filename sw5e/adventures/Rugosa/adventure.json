@@ -242,8 +242,92 @@
 					"hasFluffImages": true
 				}
 			},
-            "tokenUrl": "https://i.imgur.com/WW3gOTc.png"
-        },
+			"tokenUrl": "https://i.imgur.com/WW3gOTc.png"
+		},
+		{
+			"name": "Lt. Thadeus Brick",
+			"source": "orcnogRugosa",
+			"_copy": {
+				"name": "Rebel Soldier",
+				"source": "orcnogRugosa",
+				"_preserve": {
+					"page": true,
+					"hasFluff": true,
+					"hasFluffImages": true
+				}
+			},
+			"tokenUrl": "https://i.imgur.com/JhGw9vZ.png"
+		},
+		{
+			"name": "Sgt. Saban Sulleen",
+			"source": "orcnogRugosa",
+			"_copy": {
+				"name": "Rebel Soldier",
+				"source": "orcnogRugosa",
+				"_preserve": {
+					"page": true,
+					"hasFluff": true,
+					"hasFluffImages": true
+				}
+			},
+			"tokenUrl": "https://i.imgur.com/UPj5nyV.png"
+		},
+		{
+			"name": "Cpl. Renzo Locke",
+			"source": "orcnogRugosa",
+			"_copy": {
+				"name": "Rebel Soldier",
+				"source": "orcnogRugosa",
+				"_preserve": {
+					"page": true,
+					"hasFluff": true,
+					"hasFluffImages": true
+				}
+			},
+			"tokenUrl": "https://i.imgur.com/KmJdTW4.png"
+		},
+		{
+			"name": "Pvt. Landon Drake",
+			"source": "orcnogRugosa",
+			"_copy": {
+				"name": "Rebel Soldier",
+				"source": "orcnogRugosa",
+				"_preserve": {
+					"page": true,
+					"hasFluff": true,
+					"hasFluffImages": true
+				}
+			},
+			"tokenUrl": "https://i.imgur.com/rs07Mzz.jpg"
+		},
+		{
+			"name": "Pvt. Jek Caldo",
+			"source": "orcnogRugosa",
+			"_copy": {
+				"name": "Rebel Soldier",
+				"source": "orcnogRugosa",
+				"_preserve": {
+					"page": true,
+					"hasFluff": true,
+					"hasFluffImages": true
+				}
+			},
+			"tokenUrl": "https://i.imgur.com/rs07Mzz.jpg"
+		},
+		{
+			"name": "Pvt. Crom Gorban",
+			"source": "orcnogRugosa",
+			"_copy": {
+				"name": "Rebel Soldier",
+				"source": "orcnogRugosa",
+				"_preserve": {
+					"page": true,
+					"hasFluff": true,
+					"hasFluffImages": true
+				}
+			},
+			"tokenUrl": "https://i.imgur.com/kShduK9.png"
+		},
 		{
 			"name": "Stormtrooper Captain",
 			"source": "orcnogRugosa",
