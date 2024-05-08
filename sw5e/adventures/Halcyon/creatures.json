@@ -2,18 +2,18 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "SW5eCreatures",
-				"abbreviation": "SW5e",
-				"full": "SW5e Creatures",
+				"json": "orcnogHalcyon",
+				"abbreviation": "Halcyon",
+				"full": "SW5e: The Halcyon Remnant - A SW5e One-Shot",
 				"version": "1",
-				"color": "df2222"
+				"color": "2222df"
 			}
 		]
 	},
 	"monster": [
 		{
 			"name": "Mandalorian Initiate",
-			"source": "SW5eCreatures",
+			"source": "orcnogHalcyon",
 			"page": 0,
 			"size": [
 				"M"
@@ -118,7 +118,7 @@
 		},
 		{
 			"name": "Mandalorian Trooper",
-			"source": "SW5eCreatures",
+			"source": "orcnogHalcyon",
 			"page": 0,
 			"size": [
 				"M"
@@ -226,7 +226,7 @@
 		},
 		{
 			"name": "Mandalorian Commando",
-			"source": "SW5eCreatures",
+			"source": "orcnogHalcyon",
 			"page": 0,
 			"size": [
 				"M"
@@ -356,7 +356,7 @@
 		},
 		{
 			"name": "Mynock",
-			"source": "SW5eCreatures",
+			"source": "orcnogHalcyon",
 			"page": 0,
 			"size": [
 				"S"
@@ -440,7 +440,7 @@
 		},
 		{
 			"name": "Rathtar",
-			"source": "SW5eCreatures",
+			"source": "orcnogHalcyon",
 			"page": 0,
 			"size": [
 				"L"
@@ -547,7 +547,7 @@
 		},
 		{
 			"name": "Savenger Womp Rat",
-			"source": "SW5eCreatures",
+			"source": "orcnogHalcyon",
 			"page": 0,
 			"size": [
 				"M"
@@ -624,7 +624,7 @@
 		},
 		{
 			"name": "Dianoga",
-			"source": "SW5eCreatures",
+			"source": "orcnogHalcyon",
 			"page": 0,
 			"size": [
 				"L"
