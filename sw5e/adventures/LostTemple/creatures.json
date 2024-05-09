@@ -502,11 +502,13 @@
         		"G"
         	],
         	"ac": [
-        		14,
-                "from": [
-                    "17 with battle precognition"
-                ]
-        	],
+				{
+					"ac": 14,
+					"from": [
+						"17 with battle precognition"
+					]
+        		}
+			],
         	"hp": {
         		"average": 70,
         		"formula": "10d8 + 20"
