@@ -24,7 +24,7 @@
     },
     "monster": [
         {
-            "name": "KX-Series Security Droid",
+            "name": "KX-Series Security Droid v1",
             "source": "orcnogLostTemple",
             "page": 0,
             "tokenUrl": "https://vignette.wikia.nocookie.net/starwars/images/f/fd/K-2SO_Sideshow.png/revision/latest?cb=20170302003128",
@@ -277,7 +277,7 @@
             "tokenUrl": "https://preview.redd.it/kx-droids-hd-and-ld-versions-v0-nzx1hvyun0ea1.png?width=722&format=png&auto=webp&s=5282bac9e0e9bb80546a043e6858397fee6556c2"
         },
         {
-        	"name": "Corellian Repair Droid",
+        	"name": "Repair Droid",
         	"source": "orcnogLostTemple",
         	"page": 0,
         	"size": [
@@ -365,7 +365,7 @@
         	"conditionInflict": [
         		"grappled"
         	],
-        	"tokenUrl": "https://static.wikia.nocookie.net/starwars/images/b/bb/G2RepairDroid-NEGTD.png/revision/latest?cb=20221025044024"
+        	"tokenUrl": "https://imgur.com/LWrp8eD"
         }
     ]
 }
