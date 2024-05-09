@@ -2,11 +2,11 @@
     "_meta": {
         "sources": [
             {
-                "json": "orcnogVenTalor",
-                "abbreviation": "VenTalor",
-                "full": "SW5e: The Lost Temple of Ven Talor - A SW5e One-Shot",
+                "json": "orcnogLostTemple",
+                "abbreviation": "LostTemple",
+                "full": "SW5e: The Lost Jedi Temple - A SW5e D&D One-Shot",
                 "url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/adventures/VenTalor/creatures.json",
-                "color": "44ff66",
+                "color": "00c444",
                 "authors": [
                     "orcnog"
                 ],
@@ -24,8 +24,8 @@
     },
     "monster": [
         {
-            "name": "KX-SERIES SECURITY DROID",
-            "source": "",
+            "name": "KX-Series Security Droid",
+            "source": "orcnogLostTemple",
             "page": 0,
             "size": [
                 "M"
