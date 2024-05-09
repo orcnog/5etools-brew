@@ -1,0 +1,115 @@
+
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "orcnogVenTalor",
+				"abbreviation": "VenTalor",
+				"full": "SW5e: The Lost Temple of Ven Talor - A SW5e One-Shot",
+				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/adventures/VenTalor/creatures.json",
+				"color": "44ff66",
+				"authors": [
+					"orcnog"
+				],
+				"convertedBy": [
+					"orcnog"
+				]
+			}
+		],
+		"dateAdded": 1613648837,
+		"dateLastModified": 1613648837,
+		"_dateLastModifiedHash": "e5f748a123",
+		"internalCopies": [
+			"monster"
+		]
+	},
+	"monster": [
+    {
+  	"name": "KX-SERIES SECURITY DROID",
+  	"source": "",
+  	"page": 0,
+  	"size": [
+  		"M"
+  	],
+  	"type": "droid",
+  	"alignment": [
+  		"U"
+  	],
+  	"ac": [
+  		{
+  			"ac": 15,
+  			"from": [
+  				"armor plating"
+  			]
+  		}
+  	],
+  	"hp": {
+  		"average": 34,
+  		"formula": "4d8 + 16"
+  	},
+  	"speed": {
+  		"walk": 25
+  	},
+  	"str": 21,
+  	"dex": 16,
+  	"con": 19,
+  	"int": 13,
+  	"wis": 15,
+  	"cha": 7,
+  	"skill": {
+  		"athletics": "+7",
+  		"perception": "+4",
+  		"intimidation": "+2"
+  	},
+  	"senses": [
+  		"darkvision 60 ft."
+  	],
+  	"passive": 14,
+  	"resist": [
+  		"necrotic",
+  		"poison",
+  		"psychic"
+  	],
+  	"vulnerable": [
+  		{
+  			"vulnerable": [
+  				"lightning"
+  			],
+  			"preNote": "ion"
+  		}
+  	],
+  	"conditionImmune": [
+  		"diseased",
+  		"poisoned"
+  	],
+  	"languages": [
+  		"Galactic basic",
+  		"binary"
+  	],
+  	"cr": "1",
+  	"trait": [
+  		{
+  			"name": "Circuitry",
+  			"entries": [
+  				"The construct has disadvantage on saving throws against effects that would deal ion or lightning damage."
+  			]
+  		}
+  	],
+  	"action": [
+  		{
+  			"name": "Strike",
+  			"entries": [
+  				"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d6 + 5}) kinetic damage."
+  			]
+  		}
+  	],
+  	"senseTags": [
+  		"D"
+  	],
+  	"miscTags": [
+  		"MW"
+  	]
+  },
+}
+  }
+]
