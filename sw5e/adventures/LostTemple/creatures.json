@@ -483,6 +483,135 @@
         	"savingThrowForced": [
         		"constitution"
         	]
+        },
+        {
+        	"name": "Jedi Knight, Temple Guard",
+        	"source": "orcnogLostTemple",
+        	"page": 0,
+        	"size": [
+        		"M"
+        	],
+        	"type": {
+        		"type": "humanoid",
+        		"tags": [
+        			"any"
+        		]
+        	},
+        	"alignment": [
+        		"L",
+        		"G"
+        	],
+        	"ac": [
+        		14
+        	],
+        	"hp": {
+        		"average": 70,
+        		"formula": "10d8 + 20"
+        	},
+        	"speed": {
+        		"walk": 30
+        	},
+        	"str": 14,
+        	"dex": 18,
+        	"con": 14,
+        	"int": 10,
+        	"wis": 16,
+        	"cha": 8,
+        	"skill": {
+        		"athletics": "+5",
+        		"perception": "+6",
+        		"acrobatics": "+7",
+        		"insight": "+6"
+        	},
+        	"passive": 16,
+        	"languages": [
+        		"Galactic Basic"
+        	],
+        	"cr": "5",
+        	"spellcasting": [
+        		{
+        			"name": "Spellcasting",
+        			"type": "spellcasting",
+        			"headerEntries": [
+        				"The Jedi Temple Guard is a 6th level forcecaster it's forcecasting ability is Wisdom (force save {@dc 14}, {@hit 6} to hit with force attacks, 18 force points). The Jedi Healer knows the following force powers:"
+        			],
+        			"spells": {
+        				"0": {
+        					"spells": [
+        						"{@spell saber reflect}",
+        						"{@spell turbulance}",
+        						"{@spell force push/pull}",
+        						"{@spell force disarm}",
+        						"{@spell sonic charge}",
+        						"{@spell burst}"
+        					]
+        				},
+        				"1": {
+        					"spells": [
+        						"{@spell slow descent}",
+        						"{@spell battle precognition}",
+        						"{@spell phase strike}",
+        						"{@spell force throw}"
+        					]
+        				},
+        				"2": {
+        					"spells": [
+        						"{@spell stun}",
+        						"{@spell phase walk}"
+        					]
+        				},
+        				"3": {
+        					"spells": [
+        						"{@spell telekinetic storm}",
+        						"{@spell knight speed}",
+        						"{@spell sever force}",
+        						"{@spell force repulse}"
+        					]
+        				}
+        			},
+        			"ability": "wis"
+        		}
+        	],
+        	"trait": [
+        		{
+        			"name": "Two Weapon Fighting",
+        			"entries": [
+        				"The Jedi can add it's ability modifier to the damage of it's two-weapon fighting attack.",
+        				"Force Enhanced attacks. The Jedi's attacks are enhanced by it's precision and the force adding an extra {@dice 1d8} to melee strikes (included)."
+        			]
+        		}
+        	],
+        	"action": [
+        		{
+        			"name": "Multiattack",
+        			"entries": [
+        				"When the Jedi makes three doublesaber attacks."
+        			]
+        		},
+        		{
+        			"name": "Doublesaber",
+        			"entries": [
+        				"{@atk mw} {@hit 7} to hit, reach 5ft., one target. Hit 12 ({@dice 2d8 + 4})"
+        			]
+        		}
+        	],
+        	"reaction": [
+        		{
+        			"name": "Double Bladed Strike",
+        			"entries": [
+        				"The Jedi can attack with both blades when making an opportunity attack"
+        			]
+        		}
+        	],
+        	"actionTags": [
+        		"Multiattack"
+        	],
+        	"spellcastingTags": [
+        		"O"
+        	],
+        	"miscTags": [
+        		"MW"
+        	]
         }
 
     ]
