@@ -366,6 +366,124 @@
         		"grappled"
         	],
         	"tokenUrl": "https://i.imgur.com/LWrp8eD.png"
+        },
+        {
+        	"name": "Knobby White Spider",
+        	"source": "orcnogLostTemple",
+        	"page": 0,
+        	"size": [
+        		"L"
+        	],
+        	"type": "plant",
+        	"alignment": [
+        		"U"
+        	],
+        	"ac": [
+        		{
+        			"ac": 15,
+        			"from": [
+        				"natural armor"
+        			]
+        		}
+        	],
+        	"hp": {
+        		"average": 112,
+        		"formula": "15d10 + 30"
+        	},
+        	"speed": {
+        		"walk": 20
+        	},
+        	"str": 18,
+        	"dex": 8,
+        	"con": 15,
+        	"int": 2,
+        	"wis": 10,
+        	"cha": 5,
+        	"skill": {
+        		"stealth": "+2"
+        	},
+        	"senses": [
+        		"blindsight 60 ft. (blind beyond this radius)"
+        	],
+        	"passive": 10,
+        	"vulnerable": [
+        		"fire"
+        	],
+        	"conditionImmune": [
+        		"blinded",
+        		"deafened",
+        		"exhaustion"
+        	],
+        	"cr": "5",
+        	"trait": [
+        		{
+        			"name": "Distress Spores",
+        			"entries": [
+        				"When the spider takes damage, all other spiders within 240 feet of it can sense its pain.",
+        				"False Appearance, While the spider remains motionless, it is indistinguishable from a normal gnarltree."
+        			]
+        		}
+        	],
+        	"action": [
+        		{
+        			"name": "Multiattack",
+        			"entries": [
+        				"The spider makes two slam attacks."
+        			]
+        		},
+        		{
+        			"name": "Slam",
+        			"entries": [
+        				"{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}13 ({@damage 2d8 + 4}) kinetic damage."
+        			]
+        		},
+        		{
+        			"name": "Pacifying Spores (3/Day)",
+        			"entries": [
+        				"The spider ejects spores in 15-foot cone. All creatures in the area must succeed on a {@dc 14} Constitution saving throw or be {@condition stunned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+        			]
+        		},
+        		{
+        			"name": "Stinger",
+        			"entries": [
+        				"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) kinetic damage, and the target must make a {@dc 15} Constitution saving throw, taking 18 ({@damage 4d8}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
+        			]
+        		}
+        	],
+        	"senseTags": [
+        		"B"
+        	],
+        	"actionTags": [
+        		"Multiattack"
+        	],
+            "fluff": {
+                "images": [
+        			{
+        				"type": "image",
+        				"href": {
+        					"type": "external",
+        					"url": "https://i.pinimg.com/736x/cf/44/be/cf44be0f2c14f6dbe6730cc6c38344e7.jpg"
+        				}
+        			}
+        		]
+        	},
+        	"damageTags": [
+        		"I"
+        	],
+        	"miscTags": [
+        		"AOE",
+        		"MW",
+        		"RCH"
+        	],
+        	"conditionInflict": [
+        		"paralyzed",
+        		"poisoned",
+        		"stunned"
+        	],
+        	"savingThrowForced": [
+        		"constitution"
+        	]
         }
+
     ]
 }
