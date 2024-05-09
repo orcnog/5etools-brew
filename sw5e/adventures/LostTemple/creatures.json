@@ -502,7 +502,10 @@
         		"G"
         	],
         	"ac": [
-        		14
+        		14,
+                "from": [
+                    "17 with battle precognition"
+                ]
         	],
         	"hp": {
         		"average": 70,
@@ -612,7 +615,477 @@
         	"miscTags": [
         		"MW"
         	]
+        },
+        {
+        	"name": "Jedi Padawan",
+        	"source": "orcnogLostTemple",
+        	"page": 0,
+        	"size": [
+        		"M"
+        	],
+        	"type": {
+        		"type": "humanoid",
+        		"tags": [
+        			"any"
+        		]
+        	},
+        	"alignment": [
+        		"L",
+        		"NX",
+        		"C",
+        		"G"
+        	],
+        	"ac": [
+        		{
+        			"ac": 11,
+        			"from": [
+        				"14 with battle precognition"
+        			]
+        		}
+        	],
+        	"hp": {
+        		"average": 27,
+        		"formula": "5d8 + 5"
+        	},
+        	"speed": {
+        		"walk": 30
+        	},
+        	"str": 10,
+        	"dex": 12,
+        	"con": 13,
+        	"int": 12,
+        	"wis": 15,
+        	"cha": 11,
+        	"skill": {
+        		"arcana": "+3",
+        		"medicine": "+3",
+        		"perception": "+4"
+        	},
+        	"passive": 14,
+        	"languages": [
+        		"Galactic Basic and two others"
+        	],
+        	"cr": "2",
+        	"trait": [
+        		{
+        			"name": "Spellcasting",
+        			"entries": [
+        				"The padawan is a 4th-level forcecaster. Its forcecasting ability is Wisdom (power save {@dc 12}, {@hit 4} to hit with force attacks) and it has 18 force points. The padawan knows the following force powers:",
+        				"At-will: give life, guidance, spare the dying, turbulence",
+        				"1st-level: cloud mind, heal, project, valor",
+        				"2nd-level: calm emotions, force barrier"
+        			]
+        		}
+        	],
+        	"action": [
+        		{
+        			"name": "Shotosaber",
+        			"entries": [
+        				"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) energy damage."
+        			]
+        		}
+        	],
+        	"miscTags": [
+        		"MW"
+        	]
+        },
+        {
+        	"name": "Dark Novice",
+        	"source": "orcnogLostTemple",
+        	"page": 0,
+        	"size": [
+        		"M"
+        	],
+        	"type": {
+        		"type": "humanoid",
+        		"tags": [
+        			"any"
+        		]
+        	},
+        	"alignment": [
+        		"L",
+        		"NX",
+        		"C",
+        		"E"
+        	],
+        	"ac": [
+        		{
+        			"ac": 13,
+        			"from": [
+        				"combat suit"
+        			]
+        		}
+        	],
+        	"hp": {
+        		"average": 33,
+        		"formula": "6d8 + 6"
+        	},
+        	"speed": {
+        		"walk": 30
+        	},
+        	"str": 11,
+        	"dex": 14,
+        	"con": 12,
+        	"int": 10,
+        	"wis": 13,
+        	"cha": 14,
+        	"skill": {
+        		"deception": "+4",
+        		"persuasion": "+4",
+        		"arcana": "+2"
+        	},
+        	"passive": 11,
+        	"languages": [
+        		"Galactic Basic and one other"
+        	],
+        	"cr": "2",
+        	"spellcasting": [
+        		{
+        			"name": "Spellcasting",
+        			"type": "spellcasting",
+        			"headerEntries": [
+        				"The apprentice is a 4th-level forcecaster. Its forcecasting ability is Wisdom (power save {@dc 11}, {@hit 3} to hit with force attacks) and it has 14 force points. The apprentice knows the following force powers:"
+        			],
+        			"spells": {
+        				"0": {
+        					"spells": [
+        						"{@spell denounce}",
+        						"{@spell lightning charge}",
+        						"{@spell saber reflect}",
+        						"{@spell saber ward}"
+        					]
+        				},
+        				"1": {
+        					"spells": [
+        						"{@spell curse}",
+        						"{@spell sap vitality}"
+        					]
+        				},
+        				"2": {
+        					"spells": [
+        						"{@spell drain vitality}",
+        						"{@spell force camouflage}"
+        					]
+        				}
+        			},
+        			"ability": "wis"
+        		}
+        	],
+        	"trait": [
+        		{
+        			"name": "Devotion",
+        			"entries": [
+        				"The apprentice has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+        			]
+        		}
+        	],
+        	"action": [
+        		{
+        			"name": "Multiattack",
+        			"entries": [
+        				"The apprentice makes two melee weapon attacks."
+        			]
+        		},
+        		{
+        			"name": "Doublesaber",
+        			"entries": [
+        				"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) energy damage."
+        			]
+        		}
+        	],
+        	"actionTags": [
+        		"Multiattack"
+        	],
+        	"spellcastingTags": [
+        		"O"
+        	],
+        	"miscTags": [
+        		"MW"
+        	]
+        },
+        {
+        	"name": "Dark Aspirant",
+        	"source": "orcnogLostTemple",
+        	"page": 0,
+        	"size": [
+        		"M"
+        	],
+        	"type": {
+        		"type": "humanoid",
+        		"tags": [
+        			"any"
+        		]
+        	},
+        	"alignment": [
+        		"L",
+        		"NX",
+        		"C",
+        		"E"
+        	],
+        	"ac": [
+        		{
+        			"ac": 12,
+        			"from": [
+        				"15 with battle precognition"
+        			]
+        		}
+        	],
+        	"hp": {
+        		"average": 44,
+        		"formula": "8d6 + 16"
+        	},
+        	"speed": {
+        		"walk": 30
+        	},
+        	"str": 12,
+        	"dex": 12,
+        	"con": 14,
+        	"int": 10,
+        	"wis": 10,
+        	"cha": 18,
+        	"save": {
+        		"wis": "+3",
+        		"cha": "+7"
+        	},
+        	"skill": {
+        		"arcana": "+3",
+        		"insight": "+3"
+        	},
+        	"passive": 10,
+        	"languages": [
+        		"Galactic Basic and one other"
+        	],
+        	"cr": "6",
+        	"spellcasting": [
+        		{
+        			"name": "Spellcasting",
+        			"type": "spellcasting",
+        			"headerEntries": [
+        				"The dark aspirant is a 5th-level forcecaster. Its forcecasting ability is Charisma (Power save {@dc 15}, {@hit 4} to hit with force attacks) and it has 24 force points.",
+        				"The Sith High Apprentice Can use Twinned Power and Heightened Power The dark aspirant knows the following force powers:"
+        			],
+        			"spells": {
+        				"0": {
+        					"spells": [
+        						"{@spell denounce}",
+        						"{@spell lightning charge}",
+        						"{@spell saber reflect}",
+        						"{@spell saber ward}",
+        						"{@spell shock}"
+        					]
+        				},
+        				"1": {
+        					"spells": [
+        						"{@spell battle meditation}",
+        						"{@spell curse}",
+        						"{@spell sap vitality}",
+        						"{@spell hex}",
+        						"{@spell improved feedback}"
+        					]
+        				},
+        				"2": {
+        					"spells": [
+        						"{@spell drain vitality}",
+        						"{@spell force camouflage}"
+        					]
+        				},
+        				"3": {
+        					"spells": [
+        						"{@spell force lightning}",
+        						"{@spell choke}",
+        						"{@spell horror}"
+        					]
+        				}
+        			},
+        			"ability": "cha"
+        		}
+        	],
+        	"trait": [
+        		{
+        			"name": "Devotion",
+        			"entries": [
+        				"The dark aspirant has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+        			]
+        		},
+        		{
+        			"name": "Force Shield",
+        			"entries": [
+        				"3/day: When the dark aspirant is hit by an attack, it can use its reaction to shroud itself in Force energy. Until the start of its next turn, it has a +4 bonus to AC."
+        			]
+        		}
+        	],
+        	"action": [
+        		{
+        			"name": "Lightfoil",
+        			"entries": [
+        				"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) energy damage."
+        			]
+        		}
+        	],
+        	"damageTagsSpell": [
+        		"N"
+        	],
+        	"spellcastingTags": [
+        		"O"
+        	],
+        	"miscTags": [
+        		"MW"
+        	]
+        },
+        {
+        	"name": "Sith Sorcerer",
+        	"source": "orcnogLostTemple",
+        	"page": 0,
+        	"size": [
+        		"M"
+        	],
+        	"type": {
+        		"type": "humanoid",
+        		"tags": [
+        			"any"
+        		]
+        	},
+        	"alignment": [
+        		"L",
+        		"E"
+        	],
+        	"ac": [
+        		{
+        			"ac": 13,
+        			"from": [
+        				"16 with battle precognition"
+        			]
+        		}
+        	],
+        	"hp": {
+        		"average": 50,
+        		"formula": "9d8 + 9"
+        	},
+        	"speed": {
+        		"walk": 30
+        	},
+        	"str": 8,
+        	"dex": 16,
+        	"con": 12,
+        	"int": 14,
+        	"wis": 14,
+        	"cha": 20,
+        	"skill": {
+        		"intimidation": "+8",
+        		"deception": "+ 8",
+        		"perception": "+ 5",
+        		"acrobatics": "+6"
+        	},
+        	"passive": 15,
+        	"languages": [
+        		"Galactic Basic"
+        	],
+        	"cr": "7",
+        	"spellcasting": [
+        		{
+        			"name": "Spellcasting",
+        			"type": "spellcasting",
+        			"headerEntries": [
+        				"The Sith Sorcerer is a 11th level forcecaster it's forcecasting ability is Charisma (force save {@dc 16}, {@hit 8} to hit with force attacks, 44 force points). The Sith Sorcerer knows the following force powers:"
+        			],
+        			"spells": {
+        				"0": {
+        					"spells": [
+        						"{@spell saber reflect}",
+        						"{@spell shock}",
+        						"{@spell slow}",
+        						"{@spell force push/pull}"
+        					]
+        				},
+        				"1": {
+        					"spells": [
+        						"{@spell sap vitality}",
+        						"{@spell battle precognition}"
+        					]
+        				},
+        				"2": {
+        					"spells": [
+        						"{@spell drain vitality}",
+        						"{@spell hallucination}",
+        						"{@spell affliction}",
+        						"{@spell phase walk}"
+        					]
+        				},
+        				"3": {
+        					"spells": [
+        						"{@spell dark aura}",
+        						"{@spell plague}",
+        						"{@spell force lightning}"
+        					]
+        				},
+        				"4": {
+        					"spells": [
+        						"{@spell shocking shield}",
+        						"{@spell dominate beast}"
+        					]
+        				},
+        				"5": {
+        					"spells": [
+        						"{@spell siphon life}",
+        						"{@spell insanity}",
+        						"{@spell dominate mind}",
+        						"{@spell improved force scream}",
+        						"{@spell improved phase walk}"
+        					]
+        				},
+        				"6": {
+        					"spells": [
+        						"{@spell force chain lightning}",
+        						"{@spell wrack|GHLoE}"
+        					]
+        				}
+        			},
+        			"ability": "cha"
+        		}
+        	],
+        	"trait": [
+        		{
+        			"name": "Quickened Power (3/Day)",
+        			"entries": [
+        				"When the Sith Sorcerer casts a power that has a casting time of 1 action, it can change the casting time to 1 bonus action for this casting."
+        			]
+        		},
+        		{
+        			"name": "War Caster",
+        			"entries": [
+        				"The Sith Sorcerer has advantage on Constitution saving throws that it makes to maintain it's {@status concentration} on a power when it takes damage."
+        			]
+        		}
+        	],
+        	"action": [
+        		{
+        			"name": "Lightsaber",
+        			"entries": [
+        				"{@atk mw} {@hit 6} to hit, reach 5ft., one target. Hit 6 ({@dice 1d6 + 3})"
+        			]
+        		}
+        	],
+        	"reaction": [
+        		{
+        			"name": "War Caster",
+        			"entries": [
+        				"When a hostile creature's movement provokes an opportunity attack from the Sith Sorcerer, it can use it's reaction to cast a power at the creature, rather than making an opportunity attack. The power must have a casting time of 1 action and must target only that creature."
+        			]
+        		}
+        	],
+        	"spellcastingTags": [
+        		"CS"
+        	],
+        	"miscTags": [
+        		"MW"
+        	],
+        	"conditionInflictSpell": [
+        		"charmed"
+        	],
+        	"savingThrowForcedSpell": [
+        		"constitution",
+        		"wisdom"
+        	]
         }
-
     ]
 }
