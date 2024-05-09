@@ -109,6 +109,263 @@
             "miscTags": [
                 "MW"
             ]
+        },
+        {
+        	"name": "KX-Series Security Droid",
+        	"source": "orcnogLostTemple",
+        	"page": 0,
+        	"size": [
+        		"M"
+        	],
+        	"type": "construct",
+        	"alignment": [
+        		"A"
+        	],
+        	"ac": [
+        		{
+        			"ac": 16,
+        			"from": [
+        				"natural armor"
+        			]
+        		}
+        	],
+        	"hp": {
+        		"average": 39,
+        		"formula": "6d6 + 18"
+        	},
+        	"speed": {
+        		"walk": 30
+        	},
+        	"str": 15,
+        	"dex": 6,
+        	"con": 16,
+        	"int": 11,
+        	"wis": 4,
+        	"cha": 6,
+        	"save": {
+        		"str": "+4",
+        		"dex": "+0",
+        		"int": "+2"
+        	},
+        	"senses": [
+        		"darkvision 60 ft."
+        	],
+        	"passive": 10,
+        	"resist": [
+        		"ranged attacks"
+        	],
+        	"immune": [
+        		"poison"
+        	],
+        	"conditionImmune": [
+        		"paralyzed",
+        		"petrified",
+        		"poisoned"
+        	],
+        	"languages": [
+        		"Common"
+        	],
+        	"cr": "3",
+        	"trait": [
+        		{
+        			"name": "Malfunction",
+        			"entries": [
+        				"Whenever the security droid takes 15 damage or more from a single source and isn't reduced to 0 hit points by that damage, roll a {@dice d20} to determine if it suffers a malfunction:",
+        				{
+        					"type": "list",
+        					"style": "list-hang-notitle",
+        					"items": [
+        						{
+        							"type": "item",
+        							"name": "1-10: \"All Fine Here!\"",
+        							"entries": [
+        								"No malfunction occurs."
+        							]
+        						},
+        						{
+        							"type": "item",
+        							"name": "11-12: \"Logic error. System reboot.\"",
+        							"entries": [
+        								"The security droid is {@condition incapacitated} for 1 minute."
+        							]
+        						},
+        						{
+        							"type": "item",
+        							"name": "13-14: \"I've been disarmed!\"",
+        							"entries": [
+        								"One of the security droid's arms falls off, reducing the number of Shock attacks it can make by 1 until a creature uses an action to reattach the arm."
+        							]
+        						},
+        						{
+        							"type": "item",
+        							"name": "15-16: \"Not a time to lose one's head.\"",
+        							"entries": [
+        								"The security droid's head falls off and deactivates, causing the autognome to be {@condition blinded} and {@condition deafened}. The security droid continues to attack indiscriminately."
+        							]
+        						},
+        						{
+        							"type": "item",
+        							"name": "17-20: \"WARNING! EXPLOSION IMMINATE!\"",
+        							"entries": [
+        								"The security droid explodes and is destroyed. Each creature within 20 feet of the explosion must make a {@dc 11} Dexterity saving throw, taking 22 ({@damage 4d10}) slashing damage on a failed save, or half as much damage on a successful one."
+        							]
+        						}
+        					]
+        				}
+        			]
+        		},
+        		{
+        			"name": "Unusual Nature",
+        			"entries": [
+        				"The security droid doesn't require air, food, drink, or sleep."
+        			]
+        		}
+        	],
+        	"action": [
+        		{
+        			"name": "Multiattack",
+        			"entries": [
+        				"The security droid makes two blaster attacks."
+        			]
+        		},
+        		{
+        			"name": "Blaster",
+        			"entries": [
+        				"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 60/120 ft., one target. {@h}7 ({@damage 3d6}) lightning damage."
+        			]
+        		}
+        	],
+        	"traitTags": [
+        		"Unusual Nature"
+        	],
+        	"senseTags": [
+        		"D"
+        	],
+        	"actionTags": [
+        		"Multiattack"
+        	],
+        	"fluff": {
+        		"entries": [
+        			"KX-series security droids, also referred to as enforcer droids, are a model of security droid manufactured by Arakyd Industries that was in service to the Galactic Empire during the Galactic Civil War.",
+                    "Enforcer droids come equipped with a built-in comm package, recharge port, and a computer interface arm that allows them to connect with standard communication frequencies for areas they are assigned to. The droids were designed with exaggerated human proportions but with the mobility of a human athlete. They were able to operate a variety or tools and equipment and can carry gear without becoming exhausted.",
+                    "While the Imperial Senate had prohibited the creation of battle droids, Arakyd was able to use a loophole in the law by marketing the KX-series as \"security droids.\" They were programmed without the standard restriction against harming organic sentient lifeforms.",
+                    "The KX-series droids were programmed to speak and interact with people, but were not as proficient at it as protocol droids were. They could handle a wide range of tasks, including escorting dignitaries, protecting important people and defending Imperial installations. The droids were also programmed to recognize and defer to Imperial Military officers ranked Lieutenant or higher."
+        		],
+        		"images": [
+        			{
+        				"type": "image",
+        				"href": {
+        					"type": "external",
+        					"url": "https://www.sideshow.com/cdn-cgi/image/width=850,quality=90,f=auto/https://www.sideshow.com/storage/product-images/910740/kx-enforcer-droid_star-wars_gallery_623b8d7455e1c.jpg"
+        				}
+        			}
+        		]
+        	},
+        	"languageTags": [
+        		"C"
+        	],
+        	"damageTags": [
+        		"L",
+        		"S"
+        	],
+        	"miscTags": [
+        		"RW",
+        		"MW",
+        		"AOE",
+        		"SW5e"
+        	],
+            "tokenUrl": "https://preview.redd.it/kx-droids-hd-and-ld-versions-v0-nzx1hvyun0ea1.png?width=722&format=png&auto=webp&s=5282bac9e0e9bb80546a043e6858397fee6556c2"
+        }
+        {
+        	"name": "Corellian Repair Droid",
+        	"source": "orcnogLostTemple",
+        	"page": 0,
+        	"size": [
+        		"M"
+        	],
+        	"type": "droid",
+        	"alignment": [
+        		"U"
+        	],
+        	"ac": [
+        		{
+        			"ac": 13,
+        			"from": [
+        				"armor scraps"
+        			]
+        		}
+        	],
+        	"hp": {
+        		"average": 13,
+        		"formula": "2d8 + 4"
+        	},
+        	"speed": {
+        		"walk": 30
+        	},
+        	"str": 10,
+        	"dex": 14,
+        	"con": 15,
+        	"int": 6,
+        	"wis": 8,
+        	"cha": 5,
+        	"resist": [
+        		"necrotic",
+        		"poison",
+        		"psychic"
+        	],
+        	"vulnerable": [
+        		{
+        			"special": "ion"
+        		}
+        	],
+        	"conditionImmune": [
+        		"poison",
+        		"disease"
+        	],
+        	"languages": [
+        		"Binary",
+        		"Galactic Basic"
+        	],
+        	"cr": "1/4",
+        	"trait": [
+        		{
+        			"name": "Circuitry",
+        			"entries": [
+        				"The droid has disadvantage on saving throws against effects that would deal ion or lightning damage."
+        			]
+        		}
+        	],
+        	"action": [
+        		{
+        			"name": "Multiattack",
+        			"entries": [
+        				"The repair droid makes two electro cable attacks."
+        			]
+        		},
+        		{
+        			"name": "Electro Cable",
+        			"entries": [
+        				"{@atk mw} {@hit 4} to hit, reach 15 ft., one target. {@h}5 ({@damage 1d6 + 2}) energy damage and the target is {@condition grappled} ({@dc 10} escape). While the target is {@condition grappled} in this way, the droid can reinflict the damage at the beginning of each of its turns as a bonus action."
+        			]
+        		},
+        		{
+        			"name": "Repair (1/Day)",
+        			"entries": [
+        				"As an action, the droid can restore {@dice 2d4 + 2} hit points to a droid or construct within 5 feet."
+        			]
+        		}
+        	],
+        	"actionTags": [
+        		"Multiattack"
+        	],
+        	"miscTags": [
+        		"MW",
+        		"RCH"
+        	],
+        	"conditionInflict": [
+        		"grappled"
+        	],
+        	"tokenUrl": "https://static.wikia.nocookie.net/starwars/images/b/bb/G2RepairDroid-NEGTD.png/revision/latest?cb=20221025044024"
         }
     ]
 }
