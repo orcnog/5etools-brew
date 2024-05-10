@@ -1131,7 +1131,7 @@
 			"intimidation": "+8",
 			"deception": "+ 8",
 			"perception": "+ 5",
-			"acrobatics": "+6"
+			"lore": "+5"
 		},
 		"passive": 15,
 		"languages": [
@@ -1142,7 +1142,7 @@
 			{
 				"name": "Spellcasting",
 				"headerEntries": [
-					"Sifo-Dyas is a 11th level forcecaster it's forcecasting ability is Charisma (force save {@dc 16}, {@hit 8} to hit with force attacks, 44 force points). Sifo-Dyas knows the following force powers:"
+					"Sifo-Dyas is a 11th level forcecaster it's forcecasting ability is Charisma (force save {@dc 16}, {@hit 8} to hit with force attacks). Sifo-Dyas knows the following force powers:"
 				],
 				"spells": {
 					"0": {
@@ -1158,7 +1158,7 @@
 							"{@spell battle precognition|sw5ephb}",
 							"{@spell sap vitality|sw5ephb}"
 						],
-						"slots": 0
+						"slots": 4
 					},
 					"2": {
 						"spells": [
@@ -1167,22 +1167,22 @@
 							"{@spell hallucination|sw5ephb}",
 							"{@spell phasewalk|sw5ephb}"
 						],
-						"slots": 0
+						"slots": 3
 					},
 					"3": {
 						"spells": [
+							"{@spell choke|sw5ephb}",
 							"{@spell dark aura|sw5ephb}",
-							"{@spell force lightning|sw5ephb}",
-							"{@spell plague|sw5ephb}"
+							"{@spell force lightning|sw5ephb}"
 						],
-						"slots": 0
+						"slots": 3
 					},
 					"4": {
 						"spells": [
 							"{@spell dominate beast|sw5ephb}",
 							"{@spell shocking shield|sw5ephb}"
 						],
-						"slots": 0
+						"slots": 3
 					},
 					"5": {
 						"spells": [
@@ -1192,14 +1192,14 @@
 							"{@spell insanity|sw5ephb}",
 							"{@spell siphon life|sw5ephb}"
 						],
-						"slots": 0
+						"slots": 2
 					},
 					"6": {
 						"spells": [
 							"{@spell force chain lightning|sw5ephb}",
 							"{@spell wrack|sw5ephb}"
 						],
-						"slots": 0
+						"slots": 1
 					}
 				},
 				"ability": "cha",
@@ -1222,7 +1222,7 @@
 			{
 				"name": "Legendary Resistance (2/Day)",
 				"entries": [
-					"If the Sifo-Dyas fails a saving throw, he can choose to succeed instead."
+					"If Sifo-Dyas fails a saving throw, he can choose to succeed instead."
 				]
 			}
 		],
@@ -1257,51 +1257,314 @@
 		],
 		"legendary": [
 			{
-				"name": "Force Speed",
+				"name": "Force Push",
 				"entries": [
-					"Master Sifo-Dyas can imbue himself with a burst of speed through his knowledge of the Force.  Sifo-Dyas can move up to his maximum speed without incurring attacks of opportunity."
+					"Master Sifo-Dyas casts the {@spell force push/pull|sw5ephb| force push} power."
 				]
 			},
 			{
 				"name": "Force Choke",
 				"entries": [
-					"Range 60 feet.  Master Sifo-Dyas raises a hand toward a creature within range. The target must make a {@dc 16} Constitution saving throw. On a failed save target takes 12 ({@damage 4d6}) force damage, cannot breath, and is {@condition restrained} until the end of its next turn. On a successful save, the target takes half as much damage and is not {@condition restrained}."
+					"Master Sifo-Dyas casts the {@spell choke|sw5ephb|force choke} power."
 				]
 			},
 			{
-				"name": "Force Push",
+				"name": "Force Speed",
 				"entries": [
-					"Range 60 feet. Master Sifo-Dyas uses the Force to move a Medium or smaller creature or object not being worn or carried within range. The target must make a {@dc 16} Strength saving throw. On a failed save, it moves a number of feet in a direction of Sifo-Dyas' choice based on its size. Tiny: up to 30 ft., Small: up to 20 ft., Medium: up to 10 ft. If at the end of this movement the creature or object strikes another creature or object, it must make a Dexterity saving throw. On a failed save, they both take {@damage 2d4} kinetic damage."
+					"Master Sifo-Dyas can move up to his maximum speed without incurring attacks of opportunity. Sifo-Dyas imbues himself with a burst of speed through his knowledge of the Force."
 				]
 			},
 			{
-				"name": "Bring Down the Walls",
+				"name": "Topple (Costs 2 Actions)",
 				"entries": [
-					"Master Sifo-Dyas uses the Force to pull a massive pillar, section of wall, or other huge object or piece of terrain down in an attempt to crush and obstruct his opponents. The affected area is a line up to 40 ft. long, extending from the base of the object pulled down in any direction of the Sifo-Dyas' choosing. Every creature within 10 ft. of that line must succeed on a {@dc 16} Dexterity Saving Throw or take {@damage 5d6} bludgeoning damage."
+					"Master Sifo-Dyas uses the Force to pull down a pillar, section of wall, or other huge object or piece of terrain in an attempt to crush and obstruct his enemies. The affected area is a line up to 40 ft. long, extending from the base of the object. Each creature within 10 ft. of the line must succeed on a {@dc 16} Dexterity Saving Throw or take {@damage 5d6} bludgeoning damage and be knocked {@condition prone}."
 				]
 			}
 		],
+		"legendaryActions": 2,
+		"shortName": "Sifo-Dyas",
 		"conditionInflict": [
-			"restrained"
-		],
-		"damageTags": [
-			"O"
+			"prone"
 		],
 		"damageTagsSpell": [
 			"L",
 			"N",
-			"Y"
+			"O",
+			"Y",
+			null
 		],
 		"savingThrowForced": [
-			"constitution",
-			"dexterity",
-			"strength"
+			"dexterity"
 		],
 		"savingThrowForcedSpell": [
 			"constitution",
 			"dexterity",
 			"strength",
 			"wisdom"
+		]
+	},
+    	{
+		"name": "Seryan Brim",
+		"source": "orcnogLostTemple",
+		"page": 0,
+		"size": [
+			"M"
+		],
+		"type": {
+			"type": "humanoid",
+			"tags": [
+				"any"
+			]
+		},
+		"alignment": [
+			"L",
+			"E"
+		],
+		"ac": [
+			{
+				"ac": 12,
+				"from": [
+					"15 battle precog"
+				]
+			}
+		],
+		"hp": {
+			"average": 44,
+			"formula": "8d6 + 16"
+		},
+		"speed": {
+			"walk": 30
+		},
+		"str": 12,
+		"dex": 12,
+		"con": 14,
+		"int": 10,
+		"wis": 10,
+		"cha": 18,
+		"save": {
+			"wis": "+3",
+			"cha": "+7"
+		},
+		"skill": {
+			"lore": "+3",
+			"insight": "+3"
+		},
+		"passive": 10,
+		"languages": [
+			"Galactic Basic and one other"
+		],
+		"cr": "6",
+		"spellcasting": [
+			{
+				"name": "Spellcasting",
+				"headerEntries": [
+					"Seryan Brim is a 5th-level forcecaster. Its forcecasting ability is Charisma (Power save {@dc 15}, {@hit 4} to hit with force attacks) and it has 24 force points.",
+					"Seryan can use Twinned Power and Heightened Power The dark aspirant knows the following force powers:"
+				],
+				"spells": {
+					"0": {
+						"spells": [
+							"{@spell denounce|sw5ephb}",
+							"{@spell lightning charge|sw5ephb}",
+							"{@spell saber reflect|sw5ephb}",
+							"{@spell saber ward|sw5ephb}",
+							"{@spell shock|sw5ephb}"
+						]
+					},
+					"1": {
+						"spells": [
+							"{@spell battle meditation|sw5ephb}",
+							"{@spell curse|sw5ephb}",
+							"{@spell hex|sw5ephb}",
+							"{@spell improved feedback|sw5ephb}",
+							"{@spell sap vitality|sw5ephb}"
+						],
+						"slots": 0
+					},
+					"2": {
+						"spells": [
+							"{@spell drain vitality|sw5ephb}",
+							"{@spell force camouflage|sw5ephb}"
+						],
+						"slots": 0
+					},
+					"3": {
+						"spells": [
+							"{@spell choke|sw5ephb}",
+							"{@spell force lightning|sw5ephb}",
+							"{@spell horror|sw5ephb}"
+						],
+						"slots": 0
+					}
+				},
+				"ability": "cha",
+				"type": "spellcasting"
+			}
+		],
+		"trait": [
+			{
+				"name": "Devotion",
+				"entries": [
+					"Seryan Brim has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+				]
+			},
+			{
+				"name": "Force Shield",
+				"entries": [
+					"2/day: When the Seryan Brim is hit by an attack, he can use his reaction to shroud himself in Force energy. Until the start of his next turn, it has a +4 bonus to AC."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Lightfoil",
+				"entries": [
+					"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) energy damage."
+				]
+			}
+		],
+		"spellcastingTags": [
+			"O"
+		],
+		"miscTags": [
+			"MW"
+		],
+		"shortName": "Seryan",
+		"damageTagsSpell": [
+			"L",
+			"N",
+			"O",
+			"Y"
+		],
+		"savingThrowForcedSpell": [
+			"charisma",
+			"constitution",
+			"dexterity",
+			"intelligence",
+			"wisdom"
+		]
+	},
+	{
+		"name": "Jedi Temple Guard",
+		"source": "orcnogLostTemple",
+		"page": 0,
+		"size": [
+			"M"
+		],
+		"type": {
+			"type": "humanoid",
+			"tags": [
+				"any"
+			]
+		},
+		"alignment": [
+			"L",
+			"E"
+		],
+		"ac": [
+			{
+				"ac": 13,
+				"from": [
+					"combat suit"
+				]
+			}
+		],
+		"hp": {
+			"average": 33,
+			"formula": "6d8 + 6"
+		},
+		"speed": {
+			"walk": 30
+		},
+		"str": 11,
+		"dex": 14,
+		"con": 12,
+		"int": 10,
+		"wis": 13,
+		"cha": 14,
+		"skill": {
+			"deception": "+4",
+			"persuasion": "+4",
+			"lore": "+2"
+		},
+		"passive": 11,
+		"languages": [
+			"Galactic Basic and one other"
+		],
+		"cr": "2",
+		"spellcasting": [
+			{
+				"name": "Spellcasting",
+				"headerEntries": [
+					"The Jedi Temple Guard is a 4th-level forcecaster. Its forcecasting ability is Wisdom (power save {@dc 11}, {@hit 3} to hit with force attacks) and it has 14 force points. The Temple Guard knows the following force powers:"
+				],
+				"spells": {
+					"0": {
+						"spells": [
+							"{@spell denounce|sw5ephb}",
+							"{@spell lightning charge|sw5ephb}",
+							"{@spell saber reflect|sw5ephb}",
+							"{@spell saber ward|sw5ephb}"
+						]
+					},
+					"1": {
+						"spells": [
+							"{@spell curse|sw5ephb}",
+							"{@spell sap vitality|sw5ephb}"
+						],
+						"slots": 0
+					},
+					"2": {
+						"spells": [
+							"{@spell drain vitality|sw5ephb}",
+							"{@spell force camouflage|sw5ephb}"
+						],
+						"slots": 0
+					}
+				},
+				"ability": "wis",
+				"type": "spellcasting"
+			}
+		],
+		"trait": [
+			{
+				"name": "Devotion",
+				"entries": [
+					"The Jedi Temple Guard has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Multiattack",
+				"entries": [
+					"The Jedi Temple Guard makes two melee weapon attacks."
+				]
+			},
+			{
+				"name": "Doublesaber",
+				"entries": [
+					"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) energy damage."
+				]
+			}
+		],
+		"actionTags": [
+			"Multiattack"
+		],
+		"spellcastingTags": [
+			"O"
+		],
+		"miscTags": [
+			"MW"
+		],
+		"shortName": true,
+		"damageTagsSpell": [
+			"L",
+			"N"
+		],
+		"savingThrowForcedSpell": [
+			"charisma",
+			"constitution"
 		]
 	}
     ]
