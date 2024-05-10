@@ -5,8 +5,8 @@
                 "json": "orcnogLostTemple",
                 "abbreviation": "LostTemple",
                 "full": "SW5e: The Lost Jedi Temple - A SW5e D&D One-Shot",
-                "url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/adventures/VenTalor/creatures.json",
-                "color": "00e477 ",
+                "url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/adventures/LostTemple/creatures.json",
+                "color": "008866",
                 "authors": [
                     "orcnog"
                 ],
@@ -543,34 +543,34 @@
         			"spells": {
         				"0": {
         					"spells": [
-        						"{@spell saber reflect}",
-        						"{@spell turbulance}",
-        						"{@spell force push/pull}",
-        						"{@spell force disarm}",
-        						"{@spell sonic charge}",
-        						"{@spell burst}"
+        						"{@spell saber reflect|sw5ephb}",
+        						"{@spell turbulance|sw5ephb}",
+        						"{@spell force push/pull|sw5ephb}",
+        						"{@spell force disarm|sw5ephb}",
+        						"{@spell sonic charge|sw5ephb}",
+        						"{@spell burst|sw5ephb}"
         					]
         				},
         				"1": {
         					"spells": [
-        						"{@spell slow descent}",
-        						"{@spell battle precognition}",
-        						"{@spell phase strike}",
-        						"{@spell force throw}"
+        						"{@spell slow descent|sw5ephb}",
+        						"{@spell battle precognition|sw5ephb}",
+        						"{@spell phase strike|sw5ephb}",
+        						"{@spell force throw|sw5ephb}"
         					]
         				},
         				"2": {
         					"spells": [
-        						"{@spell stun}",
-        						"{@spell phase walk}"
+        						"{@spell stun|sw5ephb}",
+        						"{@spell phase walk|sw5ephb}"
         					]
         				},
         				"3": {
         					"spells": [
-        						"{@spell telekinetic storm}",
-        						"{@spell knight speed}",
-        						"{@spell sever force}",
-        						"{@spell force repulse}"
+        						"{@spell telekinetic storm|sw5ephb}",
+        						"{@spell knight speed|sw5ephb}",
+        						"{@spell sever force|sw5ephb}",
+        						"{@spell force repulse|sw5ephb}"
         					]
         				}
         			},
@@ -659,7 +659,7 @@
         	"wis": 15,
         	"cha": 11,
         	"skill": {
-        		"arcana": "+3",
+        		"lore": "+3",
         		"medicine": "+3",
         		"perception": "+4"
         	},
@@ -734,7 +734,7 @@
         	"skill": {
         		"deception": "+4",
         		"persuasion": "+4",
-        		"arcana": "+2"
+        		"lore": "+2"
         	},
         	"passive": 11,
         	"languages": [
@@ -751,22 +751,22 @@
         			"spells": {
         				"0": {
         					"spells": [
-        						"{@spell denounce}",
-        						"{@spell lightning charge}",
-        						"{@spell saber reflect}",
-        						"{@spell saber ward}"
+        						"{@spell denounce|sw5ephb}",
+        						"{@spell lightning charge|sw5ephb}",
+        						"{@spell saber reflect|sw5ephb}",
+        						"{@spell saber ward|sw5ephb}"
         					]
         				},
         				"1": {
         					"spells": [
-        						"{@spell curse}",
-        						"{@spell sap vitality}"
+        						"{@spell curse|sw5ephb}",
+        						"{@spell sap vitality|sw5ephb}"
         					]
         				},
         				"2": {
         					"spells": [
-        						"{@spell drain vitality}",
-        						"{@spell force camouflage}"
+        						"{@spell drain vitality|sw5ephb}",
+        						"{@spell force camouflage|sw5ephb}"
         					]
         				}
         			},
@@ -850,7 +850,7 @@
         		"cha": "+7"
         	},
         	"skill": {
-        		"arcana": "+3",
+        		"lore": "+3",
         		"insight": "+3"
         	},
         	"passive": 10,
@@ -869,33 +869,33 @@
         			"spells": {
         				"0": {
         					"spells": [
-        						"{@spell denounce}",
-        						"{@spell lightning charge}",
-        						"{@spell saber reflect}",
-        						"{@spell saber ward}",
-        						"{@spell shock}"
+        						"{@spell denounce|sw5ephb}",
+        						"{@spell lightning charge|sw5ephb}",
+        						"{@spell saber reflect|sw5ephb}",
+        						"{@spell saber ward|sw5ephb}",
+        						"{@spell shock|sw5ephb}"
         					]
         				},
         				"1": {
         					"spells": [
-        						"{@spell battle meditation}",
-        						"{@spell curse}",
-        						"{@spell sap vitality}",
-        						"{@spell hex}",
-        						"{@spell improved feedback}"
+        						"{@spell battle meditation|sw5ephb}",
+        						"{@spell curse|sw5ephb}",
+        						"{@spell sap vitality|sw5ephb}",
+        						"{@spell hex|sw5ephb}",
+        						"{@spell improved feedback|sw5ephb}"
         					]
         				},
         				"2": {
         					"spells": [
-        						"{@spell drain vitality}",
-        						"{@spell force camouflage}"
+        						"{@spell drain vitality|sw5ephb}",
+        						"{@spell force camouflage|sw5ephb}"
         					]
         				},
         				"3": {
         					"spells": [
-        						"{@spell force lightning}",
-        						"{@spell choke}",
-        						"{@spell horror}"
+        						"{@spell force lightning|sw5ephb}",
+        						"{@spell choke|sw5ephb}",
+        						"{@spell horror|sw5ephb}"
         					]
         				}
         			},
@@ -993,52 +993,52 @@
         			"spells": {
         				"0": {
         					"spells": [
-        						"{@spell saber reflect}",
-        						"{@spell shock}",
-        						"{@spell slow}",
-        						"{@spell force push/pull}"
+        						"{@spell saber reflect|sw5ephb}",
+        						"{@spell shock|sw5ephb}",
+        						"{@spell slow|sw5ephb}",
+        						"{@spell force push/pull|sw5ephb}"
         					]
         				},
         				"1": {
         					"spells": [
-        						"{@spell sap vitality}",
-        						"{@spell battle precognition}"
+        						"{@spell sap vitality|sw5ephb}",
+        						"{@spell battle precognition|sw5ephb}"
         					]
         				},
         				"2": {
         					"spells": [
-        						"{@spell drain vitality}",
-        						"{@spell hallucination}",
-        						"{@spell affliction}",
-        						"{@spell phase walk}"
+        						"{@spell drain vitalit|sw5ephb}",
+        						"{@spell hallucination|sw5ephb}",
+        						"{@spell affliction|sw5ephb}",
+        						"{@spell phase walk|sw5ephb}"
         					]
         				},
         				"3": {
         					"spells": [
-        						"{@spell dark aura}",
-        						"{@spell plague}",
-        						"{@spell force lightning}"
+        						"{@spell dark aura|sw5ephb}",
+        						"{@spell plague|sw5ephb}",
+        						"{@spell force lightning|sw5ephb}"
         					]
         				},
         				"4": {
         					"spells": [
-        						"{@spell shocking shield}",
-        						"{@spell dominate beast}"
+        						"{@spell shocking shield|sw5ephb}",
+        						"{@spell dominate beast|sw5ephb}"
         					]
         				},
         				"5": {
         					"spells": [
-        						"{@spell siphon life}",
-        						"{@spell insanity}",
-        						"{@spell dominate mind}",
-        						"{@spell improved force scream}",
-        						"{@spell improved phase walk}"
+        						"{@spell siphon life|sw5ephb}",
+        						"{@spell insanity|sw5ephb}",
+        						"{@spell dominate mind|sw5ephb}",
+        						"{@spell improved force scream|sw5ephb}",
+        						"{@spell improved phase walk|sw5ephb}"
         					]
         				},
         				"6": {
         					"spells": [
-        						"{@spell force chain lightning}",
-        						"{@spell wrack|GHLoE}"
+        						"{@spell force chain lightning|sw5ephb}",
+        						"{@spell wrack|sw5ephb}"
         					]
         				}
         			},
@@ -1088,6 +1088,221 @@
         		"constitution",
         		"wisdom"
         	]
-        }
+        },
+	{
+		"name": "Master Sifo-Dyas",
+		"source": "orcnogshomebrewedits",
+		"page": 0,
+		"size": [
+			"M"
+		],
+		"type": {
+			"type": "humanoid",
+			"tags": [
+				"any"
+			]
+		},
+		"alignment": [
+			"L",
+			"E"
+		],
+		"ac": [
+			{
+				"ac": 13,
+				"from": [
+					"16 with battle precognition"
+				]
+			}
+		],
+		"hp": {
+			"average": 50,
+			"formula": "9d8 + 9"
+		},
+		"speed": {
+			"walk": 30
+		},
+		"str": 8,
+		"dex": 16,
+		"con": 12,
+		"int": 14,
+		"wis": 14,
+		"cha": 20,
+		"skill": {
+			"intimidation": "+8",
+			"deception": "+ 8",
+			"perception": "+ 5",
+			"acrobatics": "+6"
+		},
+		"passive": 15,
+		"languages": [
+			"Galactic Basic"
+		],
+		"cr": "7",
+		"spellcasting": [
+			{
+				"name": "Spellcasting",
+				"headerEntries": [
+					"Sifo-Dyas is a 11th level forcecaster it's forcecasting ability is Charisma (force save {@dc 16}, {@hit 8} to hit with force attacks, 44 force points). Sifo-Dyas knows the following force powers:"
+				],
+				"spells": {
+					"0": {
+						"spells": [
+							"{@spell force push/pull|sw5ephb}",
+							"{@spell saber reflect|sw5ephb}",
+							"{@spell shock|sw5ephb}",
+							"{@spell slow|sw5ephb}"
+						]
+					},
+					"1": {
+						"spells": [
+							"{@spell battle precognition|sw5ephb}",
+							"{@spell sap vitality|sw5ephb}"
+						],
+						"slots": 0
+					},
+					"2": {
+						"spells": [
+							"{@spell affliction|sw5ephb}",
+							"{@spell drain vitality|sw5ephb}",
+							"{@spell hallucination|sw5ephb}",
+							"{@spell phasewalk|sw5ephb}"
+						],
+						"slots": 0
+					},
+					"3": {
+						"spells": [
+							"{@spell dark aura|sw5ephb}",
+							"{@spell force lightning|sw5ephb}",
+							"{@spell plague|sw5ephb}"
+						],
+						"slots": 0
+					},
+					"4": {
+						"spells": [
+							"{@spell dominate beast|sw5ephb}",
+							"{@spell shocking shield|sw5ephb}"
+						],
+						"slots": 0
+					},
+					"5": {
+						"spells": [
+							"{@spell dominate mind|sw5ephb}",
+							"{@spell improved force scream|sw5ephb}",
+							"{@spell improved phasewalk|sw5ephb}",
+							"{@spell insanity|sw5ephb}",
+							"{@spell siphon life|sw5ephb}"
+						],
+						"slots": 0
+					},
+					"6": {
+						"spells": [
+							"{@spell force chain lightning|sw5ephb}",
+							"{@spell wrack|sw5ephb}"
+						],
+						"slots": 0
+					}
+				},
+				"ability": "cha",
+				"type": "spellcasting"
+			}
+		],
+		"trait": [
+			{
+				"name": "Quickened Power (2/Day)",
+				"entries": [
+					"When Sifo-Dyas casts a power that has a casting time of 1 action, he can change the casting time to 1 bonus action for this casting."
+				]
+			},
+			{
+				"name": "War Caster",
+				"entries": [
+					"Sifo-Dyas has advantage on Constitution saving throws that he makes to maintain it's {@status concentration} on a power when he takes damage."
+				]
+			},
+			{
+				"name": "Legendary Resistance (2/Day)",
+				"entries": [
+					"If the Sifo-Dyas fails a saving throw, he can choose to succeed instead."
+				]
+			}
+		],
+		"action": [
+			{
+				"name": "Lightsaber",
+				"entries": [
+					"{@atk mw} {@hit 6} to hit, reach 5ft., one target. Hit 6 ({@dice 1d6 + 3})"
+				]
+			}
+		],
+		"reaction": [
+			{
+				"name": "War Caster",
+				"entries": [
+					"When a hostile creature's movement provokes an opportunity attack from Sifo-Dyas, he can use it's reaction to cast a power at the creature, rather than making an opportunity attack. The power must have a casting time of 1 action and must target only that creature."
+				]
+			}
+		],
+		"spellcastingTags": [
+			"O"
+		],
+		"miscTags": [
+			"MW"
+		],
+		"conditionInflictSpell": [
+			"charmed"
+		],
+		"isNamedCreature": true,
+		"traitTags": [
+			"Legendary Resistances"
+		],
+		"legendary": [
+			{
+				"name": "Force Speed",
+				"entries": [
+					"Master Sifo-Dyas can imbue himself with a burst of speed through his knowledge of the Force.  Sifo-Dyas can move up to his maximum speed without incurring attacks of opportunity."
+				]
+			},
+			{
+				"name": "Force Choke",
+				"entries": [
+					"Range 60 feet.  Master Sifo-Dyas raises a hand toward a creature within range. The target must make a {@dc 16} Constitution saving throw. On a failed save target takes 12 ({@damage 4d6}) force damage, cannot breath, and is {@condition restrained} until the end of its next turn. On a successful save, the target takes half as much damage and is not {@condition restrained}."
+				]
+			},
+			{
+				"name": "Force Push",
+				"entries": [
+					"Range 60 feet. Master Sifo-Dyas uses the Force to move a Medium or smaller creature or object not being worn or carried within range. The target must make a {@dc 16} Strength saving throw. On a failed save, it moves a number of feet in a direction of Sifo-Dyas' choice based on its size. Tiny: up to 30 ft., Small: up to 20 ft., Medium: up to 10 ft. If at the end of this movement the creature or object strikes another creature or object, it must make a Dexterity saving throw. On a failed save, they both take {@damage 2d4} kinetic damage."
+				]
+			},
+			{
+				"name": "Bring Down the Walls",
+				"entries": [
+					"Master Sifo-Dyas uses the Force to pull a massive pillar, section of wall, or other huge object or piece of terrain down in an attempt to crush and obstruct his opponents. The affected area is a line up to 40 ft. long, extending from the base of the object pulled down in any direction of the Sifo-Dyas' choosing. Every creature within 10 ft. of that line must succeed on a {@dc 16} Dexterity Saving Throw or take {@damage 5d6} bludgeoning damage."
+				]
+			}
+		],
+		"conditionInflict": [
+			"restrained"
+		],
+		"damageTags": [
+			"O"
+		],
+		"damageTagsSpell": [
+			"L",
+			"N",
+			"Y"
+		],
+		"savingThrowForced": [
+			"constitution",
+			"dexterity",
+			"strength"
+		],
+		"savingThrowForcedSpell": [
+			"constitution",
+			"dexterity",
+			"strength",
+			"wisdom"
+		]
+	}
     ]
 }
