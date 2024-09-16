@@ -19,6 +19,86 @@
 	},
 	"monster": [
 		{
+			"name": "Rancor, Adolescent",
+			"source": "orcnogHalcyon",
+			"page": 0,
+			"size": [
+				"L"
+			],
+			"type": "beast",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 157,
+				"formula": "15d10 + 75"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 20,
+			"dex": 11,
+			"con": 21,
+			"int": 4,
+			"wis": 9,
+			"cha": 6,
+			"senses": [
+				"darkvision 120 ft."
+			],
+			"passive": 9,
+			"cr": "8",
+			"trait": [
+				{
+					"name": "Traits Siege Monster The rancor deals double damage to objects and structures",
+					"entries": []
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The rancor makes three attacks: two with its claws, and one with its bite."
+					]
+				},
+				{
+					"name": "Claw",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. Hit 12 ({@damage 2d6 + 5}) kinetic damage."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. Hit 16 ({@damage 2d10 + 5}) kinetic damage."
+					]
+				},
+				{
+					"name": "Throw Boulder",
+					"entries": [
+						"{@atk rw} {@hit 8} to hit, reach 60/240 ft., one target. Hit 21 ({@damage 3d10 + 5}) kinetic damage."
+					]
+				}
+			],
+			"senseTags": [
+				"SD"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"MW",
+				"RW"
+			]
+		},
+		{
 			"name": "Mandalorian Initiate",
 			"source": "orcnogHalcyon",
 			"page": 0,
