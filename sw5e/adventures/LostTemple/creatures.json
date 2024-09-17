@@ -1259,25 +1259,25 @@
 			{
 				"name": "Force Push",
 				"entries": [
-					"Master Sifo-Dyas casts the {@spell force push/pull|sw5ephb| force push} power."
+					"Sifo-Dyas casts the {@spell force push/pull|sw5ephb| force push} power."
 				]
 			},
 			{
 				"name": "Force Choke",
 				"entries": [
-					"Master Sifo-Dyas casts the {@spell choke|sw5ephb|force choke} power."
+					"Sifo-Dyas casts the {@spell choke|sw5ephb|force choke} power."
 				]
 			},
 			{
 				"name": "Force Speed",
 				"entries": [
-					"Master Sifo-Dyas can move up to his maximum speed without incurring attacks of opportunity. Sifo-Dyas imbues himself with a burst of speed through his knowledge of the Force."
+					"Sifo-Dyas can move up to his maximum speed without incurring attacks of opportunity. Sifo-Dyas imbues himself with a burst of speed through his knowledge of the Force."
 				]
 			},
 			{
 				"name": "Topple (Costs 2 Actions)",
 				"entries": [
-					"Master Sifo-Dyas uses the Force to pull down a pillar, section of wall, or other huge object or piece of terrain in an attempt to crush and obstruct his enemies. The affected area is a line up to 40 ft. long, extending from the base of the object. Each creature within 10 ft. of the line must succeed on a {@dc 16} Dexterity Saving Throw or take {@damage 5d6} bludgeoning damage and be knocked {@condition prone}."
+					"Sifo-Dyas uses the Force to pull down a huge object or piece of terrain (ex: a support column). The affected area is one of the following: a line 10 ft. wide and 40 ft. long extending from the base of the object, or a 15 ft. radius from a point of Sifo-Dyas' choosing. Each creature in the area of effect must succeed on a {@dc 16} Dexterity Saving Throw or take {@damage 5d6} bludgeoning damage and be knocked {@condition prone}. The affected area becomes difficult terrain until cleared."
 				]
 			}
 		],

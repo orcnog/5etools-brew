@@ -19,6 +19,7 @@ ToDos:
 - Are custom alignments a thing?  because right now, all the creatures are converted to good/evil/neutral instead of the SW5e terminology of "light/dark/balanced"
 - if there's more to be done with the custom currency (Credits), i'd like to investigate.  Currently, i've just set up the global meta data for that and defined a conversion rate to copper, the standard 5etools currency unit, but I'm not sure if it's usable in homebrew yet beyond that.
 - Steatch Goal (a big one): write a script that can convert from the SW5eAPI to 5etools json.  Maybe start light, with *items* or something.  If I can get that working, maybe move on to spells, then maybe even creatures.
+- Update on ^ this stretch goal... It is indeed a big one, and *Items* was NOT a light start. Items are all tiny little blank slates of non-comforming data [sigh]. That said, I have a terrific start on this, albeit probably stale now since I haven't touched it in a couple of years.  I'll get back to it eventually&trade;
 
 ## Dawn of Defiance, Episode I: The Traitor's Gambit
 

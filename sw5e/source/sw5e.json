@@ -14789,7 +14789,7 @@
 			"type": "G",
 			"rarity": "very rare",
 			"entries": [
-				"This holocron contains a single 5th-level force power, or multiple powers of 1st-4th level with a combined level no greater than 5. After meditating with the holocron for at least 16 hours, a forcecaster with a Max Power Level of 5th or higher can make a DC 22 forcecasting ability check with proficiency based on the alignment of the power(s) stored within. On a success, they learn the contained force power(s), which does not count against their force powers known and can not be unlearned except through use of a {@spell remove curse} power. On a failure, the power is not learned and the forcecaster can't try again for 24 hours.",
+				"This holocron contains a single 5th-level force power, or multiple powers of 1st-4th level with a combined level no greater than 5. After meditating with the holocron for at least 16 hours, a forcecaster with a Max Power Level of 5th or higher can make a DC 22 forcecasting ability check with proficiency based on the alignment of the power(s) stored within. On a success, they learn the contained force power(s), which does not count against their force powers known and can not be unlearned except through use of a {@spell remove curse|sw5ephb} power. On a failure, the power is not learned and the forcecaster can't try again for 24 hours.",
 				"{@i Holocrons are information-storage devices used by Force-wielders that contain ancient lessons or valuable information in holographic form.}"
 			]
 		},
@@ -14800,7 +14800,7 @@
 			"type": "G",
 			"rarity": "artifact",
 			"entries": [
-				"This holocron contains a single 9th-level force power, or multiple powers of 1st-8th level with a combined level no greater than 9. After meditating with the holocron for at least 80 hours, a forcecaster with a Max Power Level of 9th or higher can make a DC 30 forcecasting ability check with proficiency based on the alignment of the power(s) stored within. On a success, they learn the contained force power(s), which does not count against their force powers known and can not be unlearned except through use of a {@spell remove curse} power. On a failure, the power is not learned and the forcecaster can't try again for 24 hours.",
+				"This holocron contains a single 9th-level force power, or multiple powers of 1st-8th level with a combined level no greater than 9. After meditating with the holocron for at least 80 hours, a forcecaster with a Max Power Level of 9th or higher can make a DC 30 forcecasting ability check with proficiency based on the alignment of the power(s) stored within. On a success, they learn the contained force power(s), which does not count against their force powers known and can not be unlearned except through use of a {@spell remove curse|sw5ephb} power. On a failure, the power is not learned and the forcecaster can't try again for 24 hours.",
 				"{@i Holocrons are information-storage devices used by Force-wielders that contain ancient lessons or valuable information in holographic form.}"
 			]
 		},
@@ -14811,7 +14811,7 @@
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"This holocron contains a single 1st-level force power. After meditating with the holocron for at least 4 hours, a forcecaster with a Max Power Level of 1st or higher can make a DC 14 forcecasting ability check with proficiency based on the alignment of the power stored within. On a success, they learn the contained force power, which does not count against their force powers known and can not be unlearned except through use of a {@spell remove curse} power. On a failure, the power is not learned and the forcecaster can't try again for 24 hours.",
+				"This holocron contains a single 1st-level force power. After meditating with the holocron for at least 4 hours, a forcecaster with a Max Power Level of 1st or higher can make a DC 14 forcecasting ability check with proficiency based on the alignment of the power stored within. On a success, they learn the contained force power, which does not count against their force powers known and can not be unlearned except through use of a {@spell remove curse|sw5ephb} power. On a failure, the power is not learned and the forcecaster can't try again for 24 hours.",
 				"{@i Holocrons are information-storage devices used by Force-wielders that contain ancient lessons or valuable information in holographic form.}"
 			]
 		},
@@ -14822,7 +14822,7 @@
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"This holocron contains a single 3rd-level force power, or multiple powers of 1st-2nd level with a combined level no greater than 3. After meditating with the holocron for at least 8 hours, a forcecaster with a Max Power Level of 3rd or higher can make a DC 18 forcecasting ability check with proficiency based on the alignment of the power(s) stored within. On a success, they learn the contained force power(s), which does not count against their force powers known and can not be unlearned except through use of a {@spell remove curse} power. On a failure, the power is not learned and the forcecaster can't try again for 24 hours.",
+				"This holocron contains a single 3rd-level force power, or multiple powers of 1st-2nd level with a combined level no greater than 3. After meditating with the holocron for at least 8 hours, a forcecaster with a Max Power Level of 3rd or higher can make a DC 18 forcecasting ability check with proficiency based on the alignment of the power(s) stored within. On a success, they learn the contained force power(s), which does not count against their force powers known and can not be unlearned except through use of a {@spell remove curse|sw5ephb} power. On a failure, the power is not learned and the forcecaster can't try again for 24 hours.",
 				"{@i Holocrons are information-storage devices used by Force-wielders that contain ancient lessons or valuable information in holographic form.}"
 			]
 		},
@@ -14833,7 +14833,7 @@
 			"type": "G",
 			"rarity": "legendary",
 			"entries": [
-				"This holocron contains a single 7th-level force power, or multiple powers of 1st-6th level with a combined level no greater than 7. After meditating with the holocron for at least 40 hours, a forcecaster with a Max Power Level of 7th or higher can make a DC 26 forcecasting ability check with proficiency based on the alignment of the power(s) stored within. On a success, they learn the contained force power(s), which does not count against their force powers known and can not be unlearned except through use of a {@spell remove curse} power. On a failure, the power is not learned and the forcecaster can't try again for 24 hours.",
+				"This holocron contains a single 7th-level force power, or multiple powers of 1st-6th level with a combined level no greater than 7. After meditating with the holocron for at least 40 hours, a forcecaster with a Max Power Level of 7th or higher can make a DC 26 forcecasting ability check with proficiency based on the alignment of the power(s) stored within. On a success, they learn the contained force power(s), which does not count against their force powers known and can not be unlearned except through use of a {@spell remove curse|sw5ephb} power. On a failure, the power is not learned and the forcecaster can't try again for 24 hours.",
 				"{@i Holocrons are information-storage devices used by Force-wielders that contain ancient lessons or valuable information in holographic form.}"
 			]
 		},
@@ -14844,7 +14844,7 @@
 			"type": "G",
 			"rarity": "common",
 			"entries": [
-				"This holocron contains a single at-will force power. After meditating with the holocron for at least 2 hours, a forcecaster with a Max Power Level of 1st or higher can make a DC 10 forcecasting ability check with proficiency based on the alignment of the power stored within. On a success, they learn the contained force power, which does not count against their force powers known and can not be unlearned except through use of a {@spell remove curse} power. On a failure, the power is not learned and the forcecaster can't try again for 24 hours.",
+				"This holocron contains a single at-will force power. After meditating with the holocron for at least 2 hours, a forcecaster with a Max Power Level of 1st or higher can make a DC 10 forcecasting ability check with proficiency based on the alignment of the power stored within. On a success, they learn the contained force power, which does not count against their force powers known and can not be unlearned except through use of a {@spell remove curse|sw5ephb} power. On a failure, the power is not learned and the forcecaster can't try again for 24 hours.",
 				"{@i Holocrons are information-storage devices used by Force-wielders that contain ancient lessons or valuable information in holographic form.}"
 			]
 		},
